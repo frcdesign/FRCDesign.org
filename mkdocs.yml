@@ -47,7 +47,6 @@ nav:
       - cad-examples/index.md
       - Slapdown Intakes:
         - cad-examples/intake/slapdown/index.md
-        - Astro's Slapdown Intake: cad-examples/intake/slapdown/examples/astro.md
         - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
         - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
         - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
