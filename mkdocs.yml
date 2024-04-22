@@ -63,6 +63,9 @@ nav:
         - cad-examples/elevator/continuous/index.md
         - External Cable Driven Elevator: cad-examples/elevator/continuous/examples/cable.md
         - Internal Belt Driven Elevator: cad-examples/elevator/continuous/examples/belt.md
+      - Shooters:
+        - cad-examples/shooter/index.md
+        - Andrew's Hyperhive Shooter: cad-examples/shooter/examples/small.md
 
 
 markdown_extensions:

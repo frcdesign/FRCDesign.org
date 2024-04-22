@@ -29,3 +29,5 @@ img {
 - [Continuous Elevators](elevator/continuous/index.md)
 
     ![](../img/cad-examples/continuous-example.webp)
+
+- [Shooters](shooter/index.md)
