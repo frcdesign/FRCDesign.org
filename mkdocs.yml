@@ -29,3 +29,11 @@ extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/jHXTdNjYCg 
+
+nav:
+  - Home: index.md
+  - Beginner Guide:
+    - Onshape Intro: onshape-intro.md
+    - Starter Projects: starter-projects.md
+  - Resources:
+    - CAD Examples: cad-examples.md
