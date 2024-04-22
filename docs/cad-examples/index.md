@@ -10,7 +10,11 @@ img {
 
 # CAD Examples
 
-"Steal from the best invent the rest." has been an FRC ethos ever since the competitions creation. Because of how important looking at past designs is in the learning process we have created a library of mecanisms that can be used as reference, when learning how to design a wide variety of FRC mecanisms.
+"Steal from the best invent the rest." has been an FRC ethos ever since the competitions creation. Because of how important looking at past designs is in the learning process we have created a library of mechanisms that can be used as reference, when learning how to design a wide variety of FRC mechanisms.
+
+!!! tip
+
+    On any of the CAD Example pages you can click the header image to open the model in Onshape!
 
 ## Categories
 
