@@ -16,6 +16,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tooltips
   language: en
   palette:
     - scheme: slate
@@ -43,6 +44,8 @@ nav:
     - Onshape Intro: onshape-intro.md
     - Starter Projects: starter-projects.md
   - Resources:
+    - Glossary:
+      - glossary/index.md
     - CAD Examples:
       - cad-examples/index.md
       - Slapdown Intakes:
@@ -68,10 +71,16 @@ nav:
 
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - pymdownx.snippets
+  - def_list
   - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
 extra_css: [stylesheets/extra.css]
+
+watch:
+  - includes
