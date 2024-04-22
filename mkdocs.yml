@@ -12,18 +12,18 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
+        name: Switch to Light Mode
       primary: green
-      accent: purple 
-    - scheme: slate 
+      accent: white 
+    - scheme: default
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
+        name: Switch to Dark Mode
       primary: green
-      accent: lime
+      accent: white
 
 extra:
   social:
