@@ -5,6 +5,12 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -17,13 +23,14 @@ theme:
         icon: material/toggle-switch-off-outline 
         name: Switch to Light Mode
       primary: green
-      accent: white 
+      accent: white
     - scheme: default
       toggle:
         icon: material/toggle-switch
         name: Switch to Dark Mode
       primary: green
       accent: white
+    
 
 extra:
   social:
@@ -36,4 +43,30 @@ nav:
     - Onshape Intro: onshape-intro.md
     - Starter Projects: starter-projects.md
   - Resources:
-    - CAD Examples: cad-examples.md
+    - CAD Examples:
+      - cad-examples/index.md
+      - Slapdown Intakes:
+        - cad-examples/intake/slapdown/index.md
+        - Astro's Slapdown: cad-examples/intake/slapdown/examples/astro.md
+        - 4414 Style: cad-examples/intake/slapdown/examples/4414style.md
+        - Washed Beavertail: cad-examples/intake/slapdown/examples/washed.md
+        - Low Pivot Slapdown: cad-examples/intake/slapdown/examples/low.md
+      - 4 Bar Intakes:
+        - cad-examples/intake/4bar/index.md
+        - 1678's 2022 Intake: cad-examples/intake/4bar/examples/1678.md
+        - Andrew's Clean 4 Bar: cad-examples/intake/4bar/examples/clean.md
+      - Cascade Elevators:
+        - cad-examples/elevator/cascade/index.md
+        - 2 Stage: cad-examples/elevator/cascade/examples/2stage.md
+        - 3 Stage: cad-examples/elevator/cascade/examples/3stage.md
+      - Continuous Elevators:
+        - cad-examples/elevator/continuous/index.md
+        - External Cable Driven: cad-examples/elevator/continuous/examples/cable.md
+        - Internal Belt Driven: cad-examples/elevator/continuous/examples/belt.md
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra_css: [stylesheets/extra.css]
