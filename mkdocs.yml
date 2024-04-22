@@ -73,12 +73,14 @@ nav:
 markdown_extensions:
   - abbr
   - attr_list
-  - pymdownx.snippets
   - def_list
   - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
 extra_css: [stylesheets/extra.css]
 

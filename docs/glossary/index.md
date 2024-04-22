@@ -29,7 +29,7 @@ We know it can be hard learning each and every term thrown around in FRC design,
 :   "Virtual 4 Bar" is where a second degree of freedom is directly geared of a previous degree of freedom instead of being moved independently or by a linkage.
 
 `4Bar`
-:   A type of linkage characterized by ts 4 pivot points
+:   A type of linkage characterized by its 4 pivot points
 
 `COTS`
 :   "Commercial Off the Shelf" parts are anything you can buy from a vendor.

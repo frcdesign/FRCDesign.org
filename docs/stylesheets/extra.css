@@ -18,3 +18,10 @@
 .md-typeset .tip > summary::before {
   background-color: rgb(43, 155, 70);
 }
+
+abbr {
+  border-bottom-style: solid !important;
+  border-bottom-color: rgb(43, 155, 70) !important;
+  border-bottom-width: 0.075rem !important;
+  cursor: help;
+}
