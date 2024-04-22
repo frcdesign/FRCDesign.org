@@ -1,7 +1,10 @@
 # Welcome to the DDS Manual
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+The purpose of this manual is to guide any motivated individuals down the path to FRC CAD Mastery
 
-## Introduction
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## The Process
+- Learn enough CAD basics to get started designing
+- Learn FRC design fundamentals
+- Practice those skills by cloning mechanisms
+- Get feedback on those mechanisms
+- Repeat the last two steps until you are comfortable making your own stuff.
