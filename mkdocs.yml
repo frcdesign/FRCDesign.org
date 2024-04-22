@@ -16,6 +16,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tooltips
   language: en
   palette:
     - scheme: slate
@@ -70,7 +71,9 @@ nav:
 
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - pymdownx.snippets
   - def_list
   - md_in_html
   - admonition
@@ -78,3 +81,6 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css: [stylesheets/extra.css]
+
+watch:
+  - includes

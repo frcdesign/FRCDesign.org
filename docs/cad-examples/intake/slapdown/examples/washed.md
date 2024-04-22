@@ -26,7 +26,7 @@ Even though this intake is built like a tank, anything extending outside of your
 
 
 ### Robustness
-This intake uses a 7/8" Aluminum Tube with a bushing to achieve smooth strong movement on the pivot. 7/8" Bushings are great because the common offerings have a 1.125" OD making them compatible with most [COTS](../../../../glossary/cots.md) sprockets. The 7/8" tube extends into the frame tube to take load off the [Tube Nut](../../../../glossary/tubenut.md) at the end of the tube.
+This intake uses a 7/8" Aluminum Tube with a bushing to achieve smooth strong movement on the pivot. 7/8" Bushings are great because the common offerings have a 1.125" OD making them compatible with most [COTS](""Comertial Off the Shelf" parts are anything you can buy from a vendor.") sprockets. The 7/8" tube extends into the frame tube to take load off the [Tube Nut]("Also known as a "Star Nut", these provide an easy way to put a thread in end of a hollow tube allowing you to bolt the tube to another part. ") at the end of the tube.
 
 <figure markdown="span">
 ![](../../../../img/cad-examples/intake/slapdown/washed/bushing.webp){height=60% width=60%}

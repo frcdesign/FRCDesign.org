@@ -42,3 +42,6 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `Zombie Axle`
 :   Typically used on pivots a zombie axle spins with the mechanism, but is transferring little to no torque through it. This is commonly used to put an encoder on the pivot point.
+
+`Tube Nut`
+: Also known as a "Star Nut", these provide an easy way to put a thread in end of a hollow tube allowing you to bolt the tube to another part. 
