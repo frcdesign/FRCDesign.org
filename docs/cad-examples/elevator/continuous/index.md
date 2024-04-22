@@ -3,5 +3,5 @@ Continuous elevators are great when you need alot of extention distance, high st
 
 Here is our collection of continuous elevators:
 
-- [External Cable Driven](examples/cable.md)
-- [Internal Belt Driven](examples/belt.md)
+- [External Cable Driven Elevator](examples/cable.md)
+- [Internal Belt Driven Elevator](examples/belt.md)
