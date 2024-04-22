@@ -16,8 +16,8 @@ We know it can be hard learning each and every term thrown around in FRC design,
 `Turnbuckle`
 :   A threaded part that goes in between chain links to tension the chain
 
-`Cog`
-:   Another team for gear
+`COG`
+:   Center of Gravity, also referred to as COM(Center of Mass)
 
 `OTB`
 :   "Over the Bumper" typically used to refer to a style of intake where you lift the piece over the bumper
@@ -32,7 +32,7 @@ We know it can be hard learning each and every term thrown around in FRC design,
 :   A type of linkage characterized by ts 4 pivot points
 
 `COTS`
-:   "Comertial Off the Shelf" parts are anything you can buy from a vendor.
+:   "Commercial Off the Shelf" parts are anything you can buy from a vendor.
 
 `Dead Axle`
 :   A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
