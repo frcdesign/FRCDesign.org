@@ -1,8 +1,8 @@
 # Washed's Beavertail Intake
 
 <figure markdown="span">
-[![Washed's Beavertail Intake](../../../../img/cad-examples/intake/slapdown/washed/overview.webp){height=60% width=60%}](https://cad.onshape.com/documents/a8bcc47e45d88a8d0a06a0c1/w/e7681756deb1852096cca3fb/e/a6c984890b1390dde1e33ab4){target = "_blank"}
-<figcaption>A slapdown from a different era of FRC commonly known as a "Beaver tail intake". It incorporates sideways belts to center a gamepiece through a gap in the bumpers</figcaption>
+[![Washed's Beavertail Intake](../../../../img/cad-examples/intake/slapdown/washed/overview.webp){height=65% width=65%}](https://cad.onshape.com/documents/a8bcc47e45d88a8d0a06a0c1/w/e7681756deb1852096cca3fb/e/a6c984890b1390dde1e33ab4){target = "_blank"}
+<figcaption>A slapdown from a different era of FRC commonly known as a "Beaver Tail" intake. It incorporates sideways belts to center a gamepiece through a gap in the bumpers</figcaption>
 </figure>
 
 

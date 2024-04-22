@@ -5,3 +5,16 @@
 .md-sidebar a:hover{
     color:white !important;
 }
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip{
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: rgb(43, 155, 70);
+}
