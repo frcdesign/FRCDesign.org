@@ -43,6 +43,8 @@ nav:
     - Onshape Intro: onshape-intro.md
     - Starter Projects: starter-projects.md
   - Resources:
+    - Glossary:
+      - glossary/index.md
     - CAD Examples:
       - cad-examples/index.md
       - Slapdown Intakes:
@@ -69,6 +71,7 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - def_list
   - md_in_html
   - admonition
   - pymdownx.details
