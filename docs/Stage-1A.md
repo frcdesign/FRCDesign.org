@@ -1,8 +1,8 @@
 # Stage 1A 
 Welcome to stage 1A! In this short stage you're learning the basic tools and how they work. Through these projects you
 
-## Swerve Drivebase rrrr
-[weeeee] 
+## Swerve Drivebase
+
 A swerve drivebase is a very simple starter project. We're starting with this project since it's the most commonly used drivetrain, as well as being simple to design. 
 
 ## Gearbox 1
