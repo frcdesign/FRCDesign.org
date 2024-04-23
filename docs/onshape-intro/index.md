@@ -3,18 +3,18 @@ Go to [Onshape for Education](https://onshape.com/education-plan)
 
 Press "Create EDU ACCOUNT" 
 
-![edu](../img/cad-examples/edu.webp)
+![edu](../img/onshape-intro/index/edu.webp)
 
 Fill out the details in the sign up form
 
-![signup](../img/cad-examples/signup.webp)
+![signup](../img/onshape-intro/index/signup.webp)
 
 Fill out the rest of the details and verify your email. Say "Robotics" for reason.
 
 Check your email, then activate your account.
 Keep Units as is:
 
-![wah](../img/cad-examples/units.webp){width=500}
+![wah](../img/onshape-intro/index/units.webp){width=500}
 
 Use Onshape Default Controls, then update your profile as necessary.
 
@@ -25,7 +25,7 @@ Go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2
 
 Press "Subscribe"
 
-![subscribe](../img/cad-examples/subscribe.webp){height=60% width=60%}
+![subscribe](../img/onshape-intro/index/subscribe.webp){height=60% width=60%}
 
 Press "Get for Free"
 
@@ -37,12 +37,12 @@ Click this link for [Featurescripts](https://cad.onshape.com/documents/95c00401c
 
 Now click "Custom Features" 
 
-![fs](../img/cad-examples/fsarrow.webp){width=500}
+![fs](../img/onshape-intro/index/fsarrow.webp){width=500}
 
 You should see this menu now:
 
-![fs1](../img/cad-examples/fs1.webp)
-![fs2](../img/cad-examples/fs2.webp)
+![fs1](../img/onshape-intro/index/fs1.webp)
+![fs2](../img/onshape-intro/index/fs2.webp)
 
 Click "Belts, Chain Path, FilletXpert, Gusset Generator, Shaft, Spacer, **Tube Converter** (this one is important)
 
@@ -51,4 +51,4 @@ Once you have done that, you are done!
 ## Browser Setup
 If using chrome, go to chrome://flags/ and enable these:
 
-![edu](../img/cad-examples/flags.webp)
+![edu](../img/onshape-intro/index/flags.webp)
