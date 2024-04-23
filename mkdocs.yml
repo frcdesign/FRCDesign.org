@@ -40,12 +40,14 @@ extra:
 
 nav:
   - Home: index.md
+  
   - Beginner Guide:
-    - Onshape Intro (Stage 0): onshape-intro.md
-    - Stage 1A: Stage-1A.md
-    - Stage 1B: Stage-1B.md
-    - Stage 1C: Stage-1B.md
-    - Stage 2 Intermediate: Stage-2.md
+    - onshape-intro/index.md
+    - Stage 1A: onshape-intro/stages/1a.md
+    - Stage 1B: onshape-intro/stages/1b.md
+    - Stage 1C: onshape-intro/stages/1c.md
+    - Stage 2 Intermediate: onshape-intro/stages/2a.md
+  
   - Resources:
     - Glossary:
       - glossary/index.md
