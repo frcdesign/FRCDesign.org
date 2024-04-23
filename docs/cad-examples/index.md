@@ -24,9 +24,9 @@ td{
 | | |
 |:-:|:-:|
 | [![](../img/cad-examples/4bar-example.webp)](intake/4bar/index.md)| [![](../img/cad-examples/slapdown-example.webp)](intake/slapdown/index.md) |
-| 4Bar Intakes | Slapdown Intakes |
+| [4Bar Intakes](intake/4bar/index.md) | [Slapdown Intakes](intake/slapdown/index.md) |
 | [![](../img/cad-examples/continuous-example.webp)](elevator/continuous/index.md) | [![](../img/cad-examples/cascade-example.webp)](elevator/cascade/index.md) |
-| Continuous Elevators | Cascade Elevators |
+| [Continuous Elevators](elevator/continuous/index.md) | [Cascade Elevators](elevator/cascade/index.md) |
 | [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../img/cad-examples/shooter/small.webp)](shooter/index.md) |
-| Swerve Drivebases | Shooters |
+| [Swerve Drivebases](drivebase/index.md) | [Shooters](shooter/index.md) |
 
