@@ -45,3 +45,81 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `Tube Nut`
 : Also known as a "Star Nut", these provide an easy way to put a thread in end of a hollow tube allowing you to bolt the tube to another part. 
+
+`Cantilever`
+: Horizontal Element that's supported by one side only.
+
+`Shear`
+: When forces are applied parallel to the plane of a material, causing breaking of fasteners due to excessive force and stress.
+
+`Torque`
+: Force that produces rotational movement.
+
+`Moment of Inertia`
+: Amount of resistance against angular acceleration.
+
+`End Effector`
+:   Mechanism attached to the end of an arm.
+
+`Linear Actuator`
+:   Device that converts rotational movement to linear motion, usually with a lead screw.
+
+`PDH`
+:   Power Distribution Hub.
+
+`SparkMAX`
+:   Motor controller for REV motors.
+
+`Main Breaker`
+:   Switch for the robot.
+
+`PWM`
+:   Pulse Width Modulation cable.
+
+`RIO`
+:   RoboRIO, brain of the robot.
+
+`Blinkn`
+:   LED controller for REV.
+
+`Radio`
+:   Device that helps the robot communicate with the driver station.
+
+`Limit Switch`
+:   Type of sensor that acts as a soft limit when physically or magnetically hit.
+
+`Throughbore Encoder`
+:   An encoder that allows shafts to pass through its center to record position. 
+
+`Magnetic Encoder`
+:   An encoder that uses magnetic fields to measure position or motion. 
+
+`3DP`
+:   Abbreviation for 3D printed or 3D printing.
+
+`Billet`
+:   Component machined down from a solid block of material.
+
+`Bevel Gear`
+:   Special gears that change the axis of rotation, typically by 90 degrees.
+
+`Gusset`
+:   Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.
+
+`Box Tube`
+:   Hollow, square or rectangular metal tubing.
+
+`Tie Rod`
+:   Rigid bar used for structural support and stability, often in the frame of a robot.
+
+`Poly/PC`
+:   Abbreviation for polycarbonate.
+
+`Stripping`
+:   Process of removing threads or bolt heads, often due to excessive force or wear.
+
+`Cross Threading`
+:   Damage caused when a fastener is forced at an incorrect angle during assembly.
+
+`Tapping`
+:   The process of creating threads in a hole using a tap tool.
