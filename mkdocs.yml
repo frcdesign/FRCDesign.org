@@ -39,7 +39,9 @@ extra:
       link: https://discord.gg/jHXTdNjYCg 
 
 nav:
-  - Home: index.md
+  - Home:
+    - home/index.md
+    - Contributors: home/contributors.md
   
   - Beginner Guide:
     - onshape-intro/index.md
@@ -48,6 +50,10 @@ nav:
     - Stage 1C: onshape-intro/stages/1c.md
     - Stage 2 Intermediate: onshape-intro/stages/2a.md
   
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+
   - Resources:
     - Glossary:
       - glossary/index.md
