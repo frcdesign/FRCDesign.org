@@ -24,17 +24,29 @@
 
 *[Deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
 
+*[deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
+
 *[Liveaxle]: A type of axle setup where the main torque transfer is through the axle.
+
+*[liveaxle]: A type of axle setup where the main torque transfer is through the axle.
 
 *[Zombie-Axle]: Typically used on pivots a zombie axle spins with the mechanism, but is transferring little to no torque through it. This is commonly used to put an encoder on the pivot point.
 
 *[Tube-Nut]: Also known as a "Star Nut", these provide an easy way to put a thread in end of a hollow tube allowing you to bolt the tube to another part. 
 
+*[tube-Nut]: Also known as a "Star Nut", these provide an easy way to put a thread in end of a hollow tube allowing you to bolt the tube to another part. 
+
 *[Cantilever]: Horizontal Element that's supported by one side only.
+
+*[cantilever]: Horizontal Element that's supported by one side only.
 
 *[Shear]: When forces are applied parallel to the plane of a material, causing breaking of fasteners due to excessive force and stress.
 
+*[shear]: When forces are applied parallel to the plane of a material, causing breaking of fasteners due to excessive force and stress.
+
 *[Torque]: Force that produces rotational movement.
+
+*[torque]: Force that produces rotational movement.
 
 *[PDH]: Power Distribution Hub.
 
@@ -48,14 +60,46 @@
 
 *[Radio]: Device that helps the robot communicate with the driver station.
 
+*[radio]: Device that helps the robot communicate with the driver station.
+
 *[3DP]: Abbreviation for 3D printed or 3D printing.
 
 *[Gusset]: Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.
 
-*[Poly/PC]: Abbreviation for polycarbonate.
+*[gusset]: Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.
+
+*[poly]: Abbreviation for polycarbonate.
+
+*[Poly]: Abbreviation for polycarbonate.
+
+*[pc]: Abbreviation for polycarbonate.
+
+*[PC]: Abbreviation for polycarbonate.
 
 *[Stripping]: Process of removing threads or bolt heads, often due to excessive force or wear.
 
+*[stripping]: Process of removing threads or bolt heads, often due to excessive force or wear.
+
 *[Tapping]: The process of creating threads in a hole using a tap tool.
 
+*[tapping]: The process of creating threads in a hole using a tap tool.
+
 *[Billet]: Component machined down from a solid block of material.
+
+*[billet]: Component machined down from a solid block of material.
+
+*[Brainpan]: Flipped electronics bellypan.
+
+*[brainpan]: Flipped electronics bellypan.
+
+*[bellypan]:  Plate for mounting electronics on the underside of your drivebase.
+
+*[Bellypan]:  Plate for mounting electronics on the underside of your drivebase.
+
+*[hardstop]: A physical limit designed to prevent a mechanism or component from moving beyond a certain point.
+
+*[softstop]:  A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.
+
+*[Hardstop]: A physical limit designed to prevent a mechanism or component from moving beyond a certain point.
+
+*[Softstop]:  A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.
