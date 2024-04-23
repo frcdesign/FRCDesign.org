@@ -78,7 +78,7 @@ nav:
         - Internal Belt Driven Elevator: cad-examples/elevator/continuous/examples/belt.md
       - Shooters:
         - cad-examples/shooter/index.md
-        - Andrew's Hyperhive Shooter: cad-examples/shooter/examples/small.md
+        - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
   - Design Standards: design-standards.md
 
 markdown_extensions:
