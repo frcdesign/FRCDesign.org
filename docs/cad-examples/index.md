@@ -27,6 +27,6 @@ td{
 | 4Bar Intakes | Slapdown Intakes |
 | [![](../img/cad-examples/continuous-example.webp)](elevator/continuous/index.md) | [![](../img/cad-examples/cascade-example.webp)](elevator/cascade/index.md) |
 | Continuous Elevators | Cascade Elevators |
-| [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../../../img/cad-examples/shooter/small.webp)](shooter/index.md) |
+| [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../img/cad-examples/shooter/small.webp)](shooter/index.md) |
 | Swerve Drivebases | Shooters |
 
