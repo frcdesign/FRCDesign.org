@@ -84,6 +84,7 @@ nav:
 markdown_extensions:
   - abbr
   - attr_list
+  - md_in_html
   - def_list
   - md_in_html
   - admonition
