@@ -40,7 +40,7 @@ extra:
 
 nav:
   - Home:
-    - home/index.md
+    - index.md
     - Contributors: home/contributors.md
   
   - Beginner Guide:
