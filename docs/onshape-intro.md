@@ -7,14 +7,14 @@ Press "Create EDU ACCOUNT"
 
 Fill out the details in the sign up form
 
-<img src="/img/cad-examples/signup.webp" alt="wah" width="300"/>
+![signup](img/cad-examples/signup.webp)
 
 Fill out the rest of the details and verify your email. Say "Robotics" for reason.
 
 Check your email, then activate your account.
 Keep Units as is:
 
-<img src="/img/units.webp" alt="wah" width="500"/>
+![wah](/img/units.webp){width=500}
 
 Use Onshape Default Controls, then update your profile as necessary.
 
@@ -25,7 +25,7 @@ Go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2
 
 Press "Subscribe"
 
-<img src="/img/subscribe.webp" alt="subscribe" width = 500/>
+![subscribe](/img/subscribe.webp){width=500}
 
 Press "Get for Free"
 
@@ -37,7 +37,7 @@ Click this link for [Featurescripts](https://cad.onshape.com/documents/95c00401c
 
 Now click "Custom Features" 
 
-<img src="/img/fsarrow.webp" alt="fs" width = 500/>
+![fs](/img/fsarrow.webp){width=500}
 
 You should see this menu now:
 
