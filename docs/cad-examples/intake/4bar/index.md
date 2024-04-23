@@ -6,3 +6,4 @@ Here is our collection of 4 Bar Intakes:
 
 - [1678's 2022 Intake](examples/1678.md)
 - [Andrew's Clean 4 Bar Intake](examples/clean.md)
+- [Vaughn's 4 Bar Intake](examples/vaughn4bar.md)

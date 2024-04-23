@@ -7,3 +7,4 @@ Here is our collection of slapdown intakes:
 - [4414 Style Intake](examples/4414style.md)
 - [Washed's Beavertail Intake](examples/washed.md)
 - [Low Pivot Slapdown Intake](examples/low.md)
+- [6423 Crecendo Flip Intake](examples/6423otb.md)

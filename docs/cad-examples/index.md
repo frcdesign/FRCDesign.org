@@ -18,6 +18,11 @@ img {
 
 ## Categories
 
+- [Swerve Drivebases](drivebase/index.md)
+
+
+    ![](../img/cad-examples/drivebase/2910drivebase.webp)
+
 - [Slapdown Style Intakes](intake/slapdown/index.md)
 
     ![](../img/cad-examples/slapdown-example.webp)
@@ -35,3 +40,5 @@ img {
     ![](../img/cad-examples/continuous-example.webp)
 
 - [Shooters](shooter/index.md)
+
+    ![](../../../../img/cad-examples/shooter/small.webp)
