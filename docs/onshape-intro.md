@@ -14,7 +14,7 @@ Fill out the rest of the details and verify your email. Say "Robotics" for reaso
 Check your email, then activate your account.
 Keep Units as is:
 
-![wah](/img/units.webp){width=500}
+![wah](/img/cad-examples/units.webp){width=500}
 
 Use Onshape Default Controls, then update your profile as necessary.
 
@@ -25,7 +25,7 @@ Go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2
 
 Press "Subscribe"
 
-![subscribe](/img/subscribe.webp){width=500}
+![subscribe](/img/cad-examples/subscribe.webp){height=60% width=60%}
 
 Press "Get for Free"
 
@@ -37,12 +37,12 @@ Click this link for [Featurescripts](https://cad.onshape.com/documents/95c00401c
 
 Now click "Custom Features" 
 
-![fs](/img/fsarrow.webp){width=500}
+![fs](/img/cad-examples/fsarrow.webp){width=500}
 
 You should see this menu now:
 
-![fs1](/img/fs1.webp)
-![fs2](/img/fs2.webp)
+![fs1](/img/cad-examples/fs1.webp)
+![fs2](/img/cad-examples/fs2.webp)
 
 Click "Belts, Chain Path, FilletXpert, Gusset Generator, Shaft, Spacer, **Tube Converter** (this one is important)
 
@@ -51,4 +51,4 @@ Once you have done that, you are done!
 ## Browser Setup
 If using chrome, go to chrome://flags/ and enable these:
 
-![edu](img/flags.webp)
+![edu](img/cad-examples/flags.webp)
