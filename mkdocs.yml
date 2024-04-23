@@ -80,6 +80,8 @@ nav:
         - cad-examples/shooter/index.md
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
   - Design Standards: design-standards.md
+  - Featurescripts : featurescripts.md
+  - Simplfied parts: Simplfied.md
 
 markdown_extensions:
   - abbr
