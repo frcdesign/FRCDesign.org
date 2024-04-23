@@ -68,7 +68,7 @@ nav:
       - Shooters:
         - cad-examples/shooter/index.md
         - Andrew's Hyperhive Shooter: cad-examples/shooter/examples/small.md
-
+  - Design Standards: design-standards.md
 
 markdown_extensions:
   - abbr
