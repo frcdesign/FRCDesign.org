@@ -123,3 +123,15 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `Tapping`
 :   The process of creating threads in a hole using a tap tool.
+
+`Brainpan`
+:   Flipped electronics bellypan.
+
+`Bellypan`
+:   Plate for mounting electronics on the underside of your drivebase.
+
+`Hardstop`
+:   A physical limit designed to prevent a mechanism or component from moving beyond a certain point.
+
+`Softstop`
+:   A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.

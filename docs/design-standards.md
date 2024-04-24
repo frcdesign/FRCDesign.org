@@ -14,7 +14,7 @@ The current "best" setup is a multi-document setup that references each other.
 
 - Subassembly 3 (repeat as necessary)
 
-![](../img/cad-examples/docsetup.webp)
+![](../img/design-standards/docsetup.webp)
 
 *Example of Multi Document Setup*
 
@@ -23,7 +23,7 @@ The current "best" setup is a multi-document setup that references each other.
 
 Within Each Document, you should have a part studio and assembly attached to it. The goal is to have only 1 part studio and 1 assembly, although depending on your load times you may want to split (such as camera mounts).
 
-![](/img/cad-examples/part-studio.webp)
+![](/img/design-standards/part-studio.webp)
 
 Note how there's only 1 part studio and 1 assembly. 
 
