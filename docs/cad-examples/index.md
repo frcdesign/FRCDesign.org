@@ -1,12 +1,22 @@
 <style>
 
 img{
+    padding-top: 2rem;
     width:75%;
     height:75%
 }
 
 td{
     font-size: 1rem;
+    padding: 0rem !important;
+}
+
+table, td{
+    border: none !important;
+}
+ 
+table tr:hover{
+   background-color: transparent !important;
 }
 
 </style>
