@@ -6,6 +6,11 @@ img{
     height:75%
 }
 
+img:hover{
+    background-color: rgb(37,40,49) !important;
+    border-radius: 0.5rem;
+}
+
 td{
     font-size: 1rem;
     padding: 0rem !important;
