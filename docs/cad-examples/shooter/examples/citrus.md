@@ -42,4 +42,17 @@ not sure how to transition into this next segment
 
 |||
 |:-:|:-:|
-|<span style="font-size:0.75rem;">Hooded shooter flywheels typically use [TTB Urethane Wheels](https://www.thethriftybot.com/products/4-solid-urethane-wheel-1-2-hex-bore-45a-durometer?_pos=8&_sid=e09924749&_ss=r) or [Stealth Wheels](https://www.andymark.com/products/stealth-wheels-options). It is important that your flywheels maintain enough mass to hold a constant speed throughout the shot, ensuring consistant results. Games in which you can hold and shoot multiple pieces at a time such as Rapid React and [Infinite Recharge](https://www.youtube.com/watch?v=gmiYWTmFRVE) especially necessitate massed flywheels. The 1678 shooter in 2022 utilized two SDS flywheels for its mass. </span> |<figure>![1678 Flywheel](../../../img/cad-examples/shooter/1678-shooter/1678%20flywheel.webp){height=90% width=90%}|
+|<span style="font-size:0.75rem;">Hooded shooter flywheels typically use [TTB Urethane Wheels](https://www.thethriftybot.com/products/4-solid-urethane-wheel-1-2-hex-bore-45a-durometer?_pos=8&_sid=e09924749&_ss=r) or [Stealth Wheels](https://www.andymark.com/products/stealth-wheels-options). It is important that your flywheels maintain enough mass to hold a constant speed throughout the shot, to ensure consistant shots. Increasing the mass of your flywheel will increase it's [moment of inertia](https://www.youtube.com/watch?v=CHQOctEvtTY), which in turn will increase its consistancy. Games in which you can hold and shoot multiple pieces at a time such as Rapid React and [Infinite Recharge](https://www.youtube.com/watch?v=gmiYWTmFRVE) especially necessitate massed flywheels. The 1678 shooter in 2022 utilized two SDS flywheels for its mass. </span> |<figure>![1678 Flywheel](../../../img/cad-examples/shooter/1678-shooter/1678%20flywheel.webp){height=90% width=90%}|
+
+
+|||
+|:-:|:-:|
+|<figure>![1678 Pivot](../../../img/cad-examples/shooter/1678-shooter/1678pivot.webp){height=60% width=60%}| <span style="font-size:0.75rem;">The most common method of pivoting a hooded shooter is a rack and pinion. 1678 utilized a 3DP rack integrated with their shooter's "hood," and a smaller gear that "climbed" the hood gear. This simple design allows for precice actuation of the hood to a wide range of angles.</span>|
+
+***
+
+## <p style="text-align: center;"> See this Shooter in Action Here </p>
+
+|||
+|:-:|:-:|
+|[<figure>![1678 Behind the Bumpers](../../../img/cad-examples/shooter/1678-shooter/1678btb.webp){height=200% width=200%}<figcaption>1678 Behind the Bumpers</figcaption><figure>](https://youtu.be/ijiDMVvGc_E?feature=shared&t=361)|[<figure>![1678 Clean Match Vid](../../../img/cad-examples/shooter/1678-shooter/1678matchvid22.webp){height=55% width=55%}<figcaption>1678 Match Video</figcaption></figure>](https://www.youtube.com/watch?v=2KTDGhm7Sjc)|
