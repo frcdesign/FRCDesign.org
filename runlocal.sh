@@ -1,1 +1,1 @@
-venv/scripts/activate && mkdocs serve
+source venv/scripts/activate && mkdocs serve
