@@ -44,7 +44,7 @@ nav:
     - Contributors: home/contributors.md
   
   - Beginner Guide:
-    - onshape-intro/index.md
+    - onshape-intro/stages/0.md
     - Stage 1A: onshape-intro/stages/1a.md
     - Stage 1B: onshape-intro/stages/1b.md
     - Stage 1C: onshape-intro/stages/1c.md
