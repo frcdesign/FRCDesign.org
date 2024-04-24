@@ -6,4 +6,11 @@
 </figure>
 
 
+<!-- ### <p style="text-align: center;">Design for ***Rigidity*** </p> -->
+
 ## Behind the Design
+
+Hooded ball shooters all follow the same fundamental design principles, in an effort to produce the most consistant and accurate shots possible. These can be broken down to the following ideas: 
+
+### Maximize contact time with the gamepiece you are shooting
+- 
