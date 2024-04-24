@@ -4,15 +4,16 @@ td, th , table{
    border: none!important;
 }
 
-</style>
-
-<style>
 td{
   text-align: left !important;
   vertical-align: middle !important;
 }
-</style>
 
+table tr:hover{
+    background-color: transparent !important;
+}
+
+</style>
 
 # 1678 Citrus Shooter 2022
 
