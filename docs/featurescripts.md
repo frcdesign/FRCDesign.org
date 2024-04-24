@@ -17,7 +17,7 @@ Onshape has its own scripting language to create custom features to automate asp
 ## Recommended Featurescripts
 Below is a collection of featurescripts we recommend you add to aid your design process.
 
-### Julia's Featurescripts - [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8)
+### [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8)
 
 - Extrude Individual (Commonly used in pair with tube converter)
 
