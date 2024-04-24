@@ -37,6 +37,9 @@ extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/jHXTdNjYCg 
+  analytics:
+    provider: google
+    property: G-KX3MNPJ4L6
 
 nav:
   - Home:
