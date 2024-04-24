@@ -35,17 +35,18 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 - 3D Printed Mass
 
-### Vent Featurescript - [Link](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4)
+### [Vent Featurescript](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4)
 
-Used for pocketing and lightening plates. 
+- Used for pocketing and lightening plates
+- Uses sketch regions to determine pocket and rib placement
 
-### Part Numbering Featurescript - [Link](https://cad.onshape.com/documents/443e443bb2a37736743bf314/w/6539c7379d36307a6a2cc01d/e/ef4e1b0c40e1dbf2ee36d02e)
+### [Part Numbering Featurescript](https://cad.onshape.com/documents/443e443bb2a37736743bf314/w/6539c7379d36307a6a2cc01d/e/ef4e1b0c40e1dbf2ee36d02e)
 
-Used for part numbering 
+- Used for quickly applying a system to number parts
 
-### Set Materials - [Link](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true)
+### [Set Materials/Appearances](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true)
 
-Used to parametrically set materials + Appearances 
+- Used to parametrically set materials and appearances of parts in batches
 
 ## Other Featurescripts
 
