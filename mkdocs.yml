@@ -46,10 +46,8 @@ extra:
     property: G-KX3MNPJ4L6
 
 nav:
-  - Home:
-    - index.md
-    - Contributors: home/contributors.md
-  
+  - Home: index.md
+  - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
     - Stage 0: design-guide/stages/0.md
