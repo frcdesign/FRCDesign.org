@@ -51,6 +51,7 @@ nav:
   - Design Guide:
     - design-guide/index.md
     - Stage 0: design-guide/stages/0.md
+    - Stage 1AA: design-guide/stages/1aa.md
     - Stage 1A: design-guide/stages/1a.md
     - Stage 1B: design-guide/stages/1b.md
     - Stage 1C: design-guide/stages/1c.md
