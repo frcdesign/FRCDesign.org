@@ -6,7 +6,7 @@ DDS Manual would not happen without the wonderful work of these people!
 - David
 - Kelly
 - Astro
-- Andrew
+- Andrew Card
 - Kremer
 - Eeshwar 
 - Neel 
@@ -18,4 +18,4 @@ DDS Manual would not happen without the wonderful work of these people!
 - Jon (juju) Beans
 - Trisha
 - Chickenbonker
-- Andrew Torrance 
+- Andrew Torrance
