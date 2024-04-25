@@ -85,7 +85,7 @@ nav:
         - cad-examples/shooter/index.md
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
     - Mechanism Fundamentals:
-      - docs/mechanism-fundamentals/index.md
+      - mechanism-fundamentals/index.md
   - Design Standards : design-standards.md
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
