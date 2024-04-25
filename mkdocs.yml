@@ -56,6 +56,7 @@ nav:
     - Stage 1A: design-guide/stages/1a.md
     - Stage 1B: design-guide/stages/1b.md
     - Stage 1C: design-guide/stages/1c.md
+    - Stage 1D: design-guide/stages/1d.md
     - Stage 2 Intermediate: design-guide/stages/2a.md
   
   - Design Challenges:
@@ -87,7 +88,9 @@ nav:
       - Shooters:
         - cad-examples/shooter/index.md
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
-  - Design Standards: design-standards.md
+    - Mechanism Fundamentals:
+      - mechanism-fundamentals/index.md
+  - Design Standards : design-standards.md
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
 

@@ -26,8 +26,12 @@ In stage 1B we continue to focus on covering more design skills and concepts whi
 
 ### Stage 1C
 
-In stage 1C, we try to tackle the integration parts of design. There's only two, but rather large projects in 1C. A pick and place robot, and a shooter robot.
-These robots are primarily focused around pick and place and shooter games. By the end of these projects you should be comfortable with the CAD and design process and are ready to work on intermediate concepts
+You've finished the Stage 1B Projects and are comfortable with the tools required to design a robot. We're transitioning to focusing on the design aspects, with the introduction to Master Sketching and high level design practices and workflows.
+
+
+### Stage 1D 
+
+In stage 1D, we try to tackle the integration parts of design. In this stage, you're learning how basic mechanisms integrate together and are applying top-down design practices such as master sketching into the shooter and pick-and-place robot projects. By the end of these projects you should be comfortable with the CAD and design process and are ready to work on intermediate concepts
 
 
 ### Stage 2, Intermediate Stage
