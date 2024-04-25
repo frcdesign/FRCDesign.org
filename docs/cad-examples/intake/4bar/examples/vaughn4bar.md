@@ -7,4 +7,6 @@
 
 
 ## Behind the design
-Coming oon!
+
+**Coming Soon**
+

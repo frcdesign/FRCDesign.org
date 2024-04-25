@@ -5,6 +5,6 @@
 <figcaption>Swerve drivetrain featuring the "brainpan" style of electroncis mounting.</figcaption>
 </figure>
 
+## Behind the Design
+**Coming Soon**
 
-## Behind the design
-Coming soon!

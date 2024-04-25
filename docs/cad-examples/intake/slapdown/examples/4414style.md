@@ -7,4 +7,5 @@
 
 
 ## Behind the design
-Coming soon!
+
+**Coming Soon**

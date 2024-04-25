@@ -5,6 +5,7 @@
 <figcaption>Motor driven 4 bar intake designed to be as simple as possible, utilizing deadaxle rollers</figcaption>
 </figure>
 
+##Behind the Design
 
-## Behind the design
-Coming soon!
+**Coming Soon**
+
