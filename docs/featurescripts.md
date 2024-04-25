@@ -165,3 +165,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - [Lighten](): Less optimized and breaks more then vent.
 
 ## Troubleshooting
+If a featurescript is not working as expected, the current version might be broken. You might have to update the featurescript. If it needs updating, the feature will show a blue icon to the right of it that, when hovered over, will say "change version of linked document."
+
+1. The first way to update it is by individually by right clicking the feature you want updated in the feature list and clicking "Update linked document..."
+2. The second, and slightly more permanent way (until the maintainer of the custom feature creates a new version), is by right clicking any of the featurescript icons in your toolbar or in the custom features dropdown and clicking "Update..." or "Update all..." From there, you can see the current versions of the custom features you have added to your profile and update selected ones to use the current latest version when you use a featurescript.
