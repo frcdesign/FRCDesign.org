@@ -15,8 +15,8 @@ Welcome to the first design challenge! We are going to start with a swerve drive
     * Add in and secure the battery in some way
     * Add bumpers 
     * Add bumper mounts
-
-If you are stuck, or have any questions, feel free to ask in the server! Same goes with getting your design looked over!
+!!! question "Need Help?"
+    If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
 
 Feel free to check out drivebase examples [here](https://www.frcdesign.org/cad-examples/drivebase/) if you need some brainstorming.
 
