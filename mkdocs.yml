@@ -64,10 +64,12 @@ nav:
         - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
         - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
         - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
+        - 6423 Crescendo Slapdown Intake: cad-examples/intake/slapdown/examples/6423otb.md
       - 4 Bar Intakes:
         - cad-examples/intake/4bar/index.md
         - 1678's 2022 Intake: cad-examples/intake/4bar/examples/1678.md
         - Andrew's Clean 4 Bar Intake: cad-examples/intake/4bar/examples/clean.md
+        - Vaughn's 4 Bar Intake: cad-examples/intake/4bar/examples/vaughn4bar.md
       - Cascade Elevators:
         - cad-examples/elevator/cascade/index.md
         - 2 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/2stage.md
@@ -79,6 +81,11 @@ nav:
       - Shooters:
         - cad-examples/shooter/index.md
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
+        - 1678 Citrus Shooter 2022: cad-examples/shooter/examples/citrus.md
+      - Drivebases:
+        - cad-examples/drivebase/index.md
+        - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
+        - 972 Brainpan Drivebase: Cad-examples/drivebase/examples/brainpan.md
   - Design Standards: design-standards.md
   - Featurescripts : featurescripts.md
   - Simplfied parts: Simplfied.md
