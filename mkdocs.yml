@@ -93,8 +93,8 @@ nav:
         - cad-examples/drivebase/index.md
         - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
         - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
-        
-  - Design Standards: design-standards.md
+
+    - Design Standards: design-standards.md
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
       
