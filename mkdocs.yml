@@ -31,6 +31,10 @@ theme:
         name: Switch to Dark Mode
       primary: green
       accent: white
+  icon:
+    logo: fontawesome/solid/book-open
+  
+  favicon: img/favicon.png
     
 
 extra:
