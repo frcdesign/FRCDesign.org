@@ -31,24 +31,32 @@ theme:
         name: Switch to Dark Mode
       primary: green
       accent: white
+  icon:
+    logo: fontawesome/solid/book-open
+  
+  favicon: img/favicon.png
     
 
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/jHXTdNjYCg 
+  analytics:
+    provider: google
+    property: G-KX3MNPJ4L6
 
 nav:
   - Home:
     - index.md
     - Contributors: home/contributors.md
   
-  - Beginner Guide:
-    - onshape-intro/stages/0.md
-    - Stage 1A: onshape-intro/stages/1a.md
-    - Stage 1B: onshape-intro/stages/1b.md
-    - Stage 1C: onshape-intro/stages/1c.md
-    - Stage 2 Intermediate: onshape-intro/stages/2a.md
+  - Design Guide:
+    - design-guide/index.md
+    - Stage 0: design-guide/stages/0.md
+    - Stage 1A: design-guide/stages/1a.md
+    - Stage 1B: design-guide/stages/1b.md
+    - Stage 1C: design-guide/stages/1c.md
+    - Stage 2 Intermediate: design-guide/stages/2a.md
   
   - Design Challenges:
     - design-challenge/index.md
@@ -81,7 +89,7 @@ nav:
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
   - Design Standards: design-standards.md
   - Featurescripts : featurescripts.md
-  - Simplfied parts: Simplfied.md
+  - Simplfied parts: simplified.md
 
 markdown_extensions:
   - abbr

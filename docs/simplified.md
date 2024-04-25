@@ -13,7 +13,7 @@ To reduce load time and simplify geometry, simplified models are used in FRC. El
 
 [SwerveX (Credit Astro from 6423)](https://cad.onshape.com/documents/af31193de8a1fc6ca0ee431b/w/4e316a76bb159b23f91ad7b5/e/bae875735b9376356389b5f9)
 
- ## Gearboxes
+## Gearboxes
 
 [MAXPlanetary](https://cad.onshape.com/documents/3ec5bb0fce397a5378545dc8/w/c805881b4e1ba08008280752/e/91d2d39b60739a181582e232)
 

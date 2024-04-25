@@ -2,7 +2,7 @@
 
 The purpose of this manual is to guide any motivated individuals down the path to FRC CAD Mastery. This manual is heavily integrated with the DDS Discord server, so we recommend joining the server.
 
-[![](./img/discord-link.webp){height=25% width=25%}]
+[![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)
 
 # Server Intro
 ## Stage Roles
