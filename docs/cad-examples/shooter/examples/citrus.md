@@ -34,7 +34,7 @@ Hooded ball shooters all follow the same fundamental design principles, in an ef
 - Ensure your flywheels have enough mass to hold a consistent speed throughout the shot.
 - *In some cases,* spin can be beneficial.
 
-### This shooter was designed for the 2022 game, [Rapid React](https://www.youtube.com/watch?v=LgniEjI9cCM)
+Learn more about the 2022 game: [Rapid React](https://www.youtube.com/watch?v=LgniEjI9cCM)
 
 |||
 |:-:|:-:|
