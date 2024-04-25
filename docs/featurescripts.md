@@ -12,6 +12,8 @@ Onshape has its own scripting language to create custom features to automate asp
 
 4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
 
+<center><img align="center" src="../../../../img/featurescripts/addCustomFeaturesPasteLink.webp"> <img align="center" src="../../../../img/featurescripts/addCustomFeaturesSelection.webp"></center>
+
 !!! alternate
     When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile.
 
