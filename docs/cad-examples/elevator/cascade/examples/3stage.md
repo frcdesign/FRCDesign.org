@@ -1,4 +1,4 @@
-<meta property="og:title" content="Elevator CAD Example: Simple 3 Stage">
+<meta property="og:title" content="Elevator CAD Example: Simple 3 Stage Cascade">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/cascade/examples/3stage/">
 <meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/cascade/3stage.webp">

@@ -1,4 +1,4 @@
-<meta property="og:title" content="Elevator CAD Example: External Cable Driven">
+<meta property="og:title" content="Elevator CAD Example: External Cable Driven Continuous">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/continuous/examples/cable/">
 <meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/continuous/cable.webp">
