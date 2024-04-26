@@ -146,9 +146,6 @@ Below is a collection of featurescripts we recommend you add to aid your design 
     </video>
   </figure>
 </details>
-### [Part Numbering Featurescript](https://cad.onshape.com/documents/443e443bb2a37736743bf314/w/6539c7379d36307a6a2cc01d/e/ef4e1b0c40e1dbf2ee36d02e)
-
-- Used for quickly applying a system to number parts
 
 ### [Abhi's Features & Configs](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true)
 **Set Materials**
@@ -177,9 +174,66 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 ## Other Featurescripts
 
-- [Gusset Generator](): Exists but not recommended due to load time
+### [Alex's Featurescripts](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/d1389fa34235160533671706/e/99672d1e329b38e647d90146)
 
-- [Lighten](): Less optimized and breaks more then vent.
+**Robot Belt**
+
+  - An alternative to contextless belts with an included belt calculator, but can get angry if the c-c distance isn't correct.
+
+**Robot Spacer**
+
+  - A more complex alternative to Julia's spacer generator, if you need more config options
+
+**Spur Gear**
+
+  - Generates a spur gear with a ton of different options
+  - Can be useful for 3D-printed parts.
+
+### [2471 Featurescripts](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d)
+
+**Advanced Variables**
+
+  - Can create a compound variable with path length, angle between edges, distance between planes, angle between planes, distance between points, pulley center distance, and chain center distance
+  - Very useful for complex belt and chain runs
+  - Include measurements that Onshape can't normally do
+
+**Belt & Pulley Generation**
+
+  - Incredibly configurable belt and pulley generation
+  - Belt width, pulley tooth count, offset and fit adjustment, belt type, etc.
+  - Options for bore and flanges for both pulleys
+
+**In-Place Bearings**
+
+  - Place different types of bearings in place in a part studio
+
+**Part Lighten**
+
+  - Better than "Lighten" and more complex than "Vent"
+  - Better control over ribs, cut depth, fillets, etc.
+  - Gives a nice estimate of how much weight is being saved
+
+**Part Numbering**
+
+  - Numbers parts based off of a given standard
+
+**Polybelt Generator**
+
+  - Generates polycord and pulleys based off of selected points
+
+
+### [Gusset Generator](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8)
+
+- One of Julia's featurescripts
+- Exists but not recommended due to load time
+
+### [Lighten](https://cad.onshape.com/documents/573f7d70e4b0fddafb52148c/v/0edea0fa2707e715d040e74f/e/5eccf6d369b0312a728d77d3)
+
+  - Less optimized and breaks more then vent.
+
+### [Part Numbering Featurescript](https://cad.onshape.com/documents/443e443bb2a37736743bf314/w/6539c7379d36307a6a2cc01d/e/ef4e1b0c40e1dbf2ee36d02e)
+
+- Used for quickly applying a system to number parts
 
 ## Troubleshooting
 If a featurescript is not working as expected, the current version might be broken. You might have to update the featurescript. If it needs updating, the feature will show a blue icon to the right of it that, when hovered over, will say "change version of linked document."
