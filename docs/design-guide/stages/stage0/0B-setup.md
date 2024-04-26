@@ -69,8 +69,6 @@ You should see this menu now:
 
 ![fs1](../../../img/design-guide/stage0/fs1.webp)
 
-![fs2](../../../img/design-guide/stage0/fs2.webp)
-
 Click "Belts", "Chain Path", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
 Once you have that done, you are ready for the next stage!

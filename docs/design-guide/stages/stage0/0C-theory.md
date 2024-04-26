@@ -27,13 +27,13 @@ As you probably know, CAD is a tool used to design parts digitally before they a
 
 | | |
 | :-: | :-: |
-| Consider a basic 3D object, such as this cylinder. Every object you design in Onshape starts with a 2D sketch within a window called a part studio. Sketches are used to define a 2D profile, that is then manipulated with features. These features transform the 2D sketch, one change at a time, into a 3D object - by “extruding” or pulling the profile into 3D, revolving it around an axis, or by other methods. | ![purple_cylinder](../../img/design-guide/stage1a/purplecyl.webp){#purplecyl} |
+| Consider a basic 3D object, such as this cylinder. Every object you design in Onshape starts with a 2D sketch within a window called a part studio. Sketches are used to define a 2D profile, that is then manipulated with features. These features transform the 2D sketch, one change at a time, into a 3D object - by “extruding” or pulling the profile into 3D, revolving it around an axis, or by other methods. | ![purple_cylinder](../../../img/design-guide/stage1a/purplecyl.webp){#purplecyl} |
 
 ## Starting with a Sketch
 
 | | |
 | :-: | :-: |
-| If you wanted to create this cylinder in Onshape, we would start by representing its profile in a 2D sketch. So what would this sketch look like for a cylinder? If we take the section from the plane on the top of the cylinder. In Onshape this is called the “Top” plane. We can see that this sketch forms a circle. | ![cross](../../img/design-guide/stage1a/cross-light.webp#only-light) ![cross](../../img/design-guide/stage1a/cross-dark.webp#only-dark) |
+| If you wanted to create this cylinder in Onshape, we would start by representing its profile in a 2D sketch. So what would this sketch look like for a cylinder? If we take the section from the plane on the top of the cylinder. In Onshape this is called the “Top” plane. We can see that this sketch forms a circle. | ![cross](../../../img/design-guide/stage1a/cross-light.webp#only-light) ![cross](../../../img/design-guide/stage1a/cross-dark.webp#only-dark) |
 
 !!! note
     We could represent the cylinder in other 2D ways, if we chose a different plane.
@@ -42,7 +42,7 @@ As you probably know, CAD is a tool used to design parts digitally before they a
 ## Making the leap to 3D
 | | |
 | :-: | :-: |
-| While in the sketch, we define the nature of the circle - its position in space and its diameter. When we bring the sketch into 3D, these characteristics are maintained - determining the final diameter and position of the cylinder within the part studio. It is important to completely define the characteristics sketches so that the characteristics of the part being designed are not arbitrary. More on this later.| ![extrude](../../img/design-guide/stage1a/extrude-light.webp#only-light) ![extrude](../../img/design-guide/stage1a/extrude-dark.webp#only-dark) |
+| While in the sketch, we define the nature of the circle - its position in space and its diameter. When we bring the sketch into 3D, these characteristics are maintained - determining the final diameter and position of the cylinder within the part studio. It is important to completely define the characteristics sketches so that the characteristics of the part being designed are not arbitrary. More on this later.| ![extrude](../../../img/design-guide/stage1a/extrude-light.webp#only-light) ![extrude](../../../img/design-guide/stage1a/extrude-dark.webp#only-dark) |
 
 But how do we transform this defined sketch into a 3D object? By using features. In this case, an “extrude” feature is used to extend the profile of the sketch into 3D space.
 Just like how we defined the sketch, we define the characteristics of this extrude. For example, we must specify a “depth” or final “height” for the cylinder. This is used to create the final geometry. There are many such settings we must specify when using features.
@@ -76,23 +76,23 @@ After completing these courses its still best to practice before moving further.
 
 ## CADvent Part Gallery
 <figure markdown>
-![](../../img/design-guide/stage1a/cadvents/cadvent1.webp){data-gallery="cadvent" width=75% height=75%}
+![](../../../img/design-guide/stage1a/cadvents/cadvent1.webp){data-gallery="cadvent" width=75% height=75%}
 <figcaption>Drawings made by AndrewD8724</figcaption>
 </figure>
-![](../../img/design-guide/stage1a/cadvents/cadvent2.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent3.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent4.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent5.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent6.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent7.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent8.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent9.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent10.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent11.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent12.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent13.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent14.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent15.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../img/design-guide/stage1a/cadvents/cadvent16.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent2.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent3.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent4.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent5.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent6.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent7.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent8.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent9.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent10.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent11.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent12.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent13.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent14.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent15.webp){data-gallery="cadvent" hidden="hidden"}
+![](../../../img/design-guide/stage1a/cadvents/cadvent16.webp){data-gallery="cadvent" hidden="hidden"}
 
 Good job learning part design! It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
