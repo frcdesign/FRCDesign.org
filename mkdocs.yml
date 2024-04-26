@@ -35,7 +35,6 @@ theme:
     logo: fontawesome/solid/book-open
   
   favicon: img/favicon.png
-    
 
 extra:
   social:
@@ -46,16 +45,16 @@ extra:
     property: G-KX3MNPJ4L6
 
 nav:
-  - Home:
-    - index.md
-    - Contributors: home/contributors.md
-  
+  - Home: index.md
+  - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
     - Stage 0: design-guide/stages/0.md
+    - Stage 1AA: design-guide/stages/1aa.md
     - Stage 1A: design-guide/stages/1a.md
     - Stage 1B: design-guide/stages/1b.md
     - Stage 1C: design-guide/stages/1c.md
+    - Stage 1D: design-guide/stages/1d.md
     - Stage 2 Intermediate: design-guide/stages/2a.md
   
   - Design Challenges:
@@ -72,10 +71,12 @@ nav:
         - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
         - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
         - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
+        - 6423 Crescendo Slapdown Intake: cad-examples/intake/slapdown/examples/6423otb.md
       - 4 Bar Intakes:
         - cad-examples/intake/4bar/index.md
         - 1678's 2022 Intake: cad-examples/intake/4bar/examples/1678.md
         - Andrew's Clean 4 Bar Intake: cad-examples/intake/4bar/examples/clean.md
+        - Vaughn's 4 Bar Intake: cad-examples/intake/4bar/examples/vaughn4bar.md
       - Cascade Elevators:
         - cad-examples/elevator/cascade/index.md
         - 2 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/2stage.md
@@ -87,7 +88,17 @@ nav:
       - Shooters:
         - cad-examples/shooter/index.md
         - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
-  - Design Standards: design-standards.md
+        - 1678 Citrus Shooter 2022: cad-examples/shooter/examples/citrus.md
+      - Drivebases:
+        - cad-examples/drivebase/index.md
+        - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
+        - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
+
+    - Design Standards: design-standards.md
+    - Mechanism Fundamentals:
+      - mechanism-fundamentals/index.md
+      - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
+      
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
 
@@ -103,8 +114,18 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 
 extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
+
+plugins:
+  - glightbox:
+      background: none
+      width: 90%
+      shadow: true
