@@ -2,7 +2,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://frcdesign.org/cad-examples/drivebase/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/cad-examples/drivebase/index.webp">
-<meta property="og:description" content="CAD examples of various FRC drivebases">
+<meta property="og:description" content="Our collection of various FRC drivebases.">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image"> 
 
