@@ -26,7 +26,7 @@ table tr:hover{
 </figure>
 - Kit of Part drivebase - 6 wheel drop center(the middle wheels is lower than the outer wheels) drive base made from bent-sheet metal and comes with the kit of parts. 
 <figure markdown="span">
-![KOP](../../img/mechanism-fundamentals/kop.png){height=50% width=50%}
+![KOP](../../img/mechanism-fundamentals/KOP.png){height=50% width=50%}
 </figure>
 - West Coast Drive (WCD) - A six wheel drive base with a drop-center wheel that is directly driven from the gearbox. Traditionally, the power transmission is driven with chain, a gearbox, and box tubing for rigidity. A key characteristic for west coast drives is that the wheels are cantilevered. 
 <figure markdown="span">
@@ -35,17 +35,18 @@ table tr:hover{
 
 ## Key Drivebase Choices
 
-### Rigidity
+<p style="font-size:1rem;">Rigidity</p>
+
 In a single FRC game, robots encounter huge forces from collisions, and a rigid frame helps to reduce the risk of any structural damage. In your drivebase, you want to add something to increase the rigidity, such as a cross rail. When building a superstructure, you need to think from the bottom up, and it starts with your drivetrain being as rigid as possible.
 
-#### What do cross members do for your structure?
+<p style="font-size:1rem;">What do cross members do for your structure?</p>
 - Contrary to popular belief, metal isn’t as strong as stable as people think, and it likes to “parallelogram” when compressive loads begin to come on your bracing.
 
 <figure markdown="span">
 ![parallel](../../img/mechanism-fundamentals/parallel.png){height=150% width=150%}<figcaption> In this picture you can see the square frame turns into a parallelogram as a load comes onto the left side. In a single FRC match, your chassis undergoes a ton of forces, which can affect the shape of your drivebase. </figcaption>
 </figure>
 
-#### Where to place cross rails?
+<p style="font-size:1rem;">Where to place cross rails?</p>
 
 - There are two main type of cross members that teams do:
     - The first type is two vertical cross members, as close to the swerve modules as possible.
@@ -72,14 +73,16 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
         - Harder to mount your superstructure from there, you might have to introduce additional tubes.
             - This could mean that you have to potentially introduce complex bent-metal parts
         - Severely locks you into a mounting style.
-### Which tube thickness should you use?
+<p style="font-size:1rem;">Which tube thickness should you use?</p>
 - In a majority of drivebases, people use 2x1 Box tubing that is 1/8th thickness. 
     - Generally, the thinner the wall thickness, the more susceptible it is to tearing, as well as crushing. In matches with heavy impacts, your drivebase tubes are the last thing you want bending: 
          - 1/8" wall thickness is best in scenarios where you know that you will have impacts, or in areas where you know that stress concentration will have to be high according to how it is fixtured or assembled.
-### Belly Pans and its impact on rigidity:
+
+<p style="font-size:1rem;">Bellypans and their impact on rigidity</p>
 - A belly pan is a plate for mounting electronics on the underside of your drivebase, however it also tremendously impacts the rigidity of your drivebase as it acts like a giant gusset bringing everything together 
 - By spanning the underside of the drivebase and connecting to the key structural elements like the frame rails/cross-members, the belly pan is able to distribute loads evenly across the entire structure and the integration helps to prevent any flexing or deformation of the frame. 
-- #### What Material should my belly pan be? 
+
+<p style="font-size:1rem;">What material should my bellypan be?</p>
  - By increasing the thickness of your belly pan, and changing the material, you can drastically change the center of gravity of your robot. 
 - Popular Material Types:
     - Steel:
@@ -109,9 +112,9 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
 ![bPan](../../img/mechanism-fundamentals/bPan.png){height=50% width=50%}
 </figure>
 
-## Frame Perimeter:
+## Frame Perimeter
 
-- In accordance with the game manual, your driveabse frame perimeter must be a maximum of 120". 
+- In accordance with the game manual, your drivebase frame perimeter must be a maximum of 120". 
     - Frame Extension: 
         - In accordance to the game manual, at the beginning of your match, no part of your robot can stick out of the frame. To gain more clearance teams use [Swerve-Corners](https://cad.onshape.com/documents/3969471095df924bad241f81/w/42f02d1579e8bcd9c0435d48/e/b1b02258ec73e6686b1e62fd) and 1/4” plates to extend their frame perimeter by a 1/2” on all sides, and this allows to mount plates to the edges of your tubing.
 
@@ -119,7 +122,7 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
 ![swerveCorner](../../img/mechanism-fundamentals/swerveCorner.png){height=50% width=50%}<figcaption>You can see in the highlighted section that it sticks out further than your box tubing extension.</figcaption>
 </figure>
 
-## Wheelbase Location:
+## Wheelbase Location
 - You want your wheels as far apart as possible in order to give you more stability, especially while turning. 
 
 ## Electrical Mounting
