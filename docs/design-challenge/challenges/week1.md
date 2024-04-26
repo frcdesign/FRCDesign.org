@@ -16,6 +16,7 @@ Welcome to the first design challenge! We are going to start with a swerve drive
 === "Advanced Challenge"
 
     * Lay out and add mounting holes for all of the electronics, making sure to leave space for wires
+    * Add in the electronics models and mate everything together
     * Add in and secure the battery in some way
     * Add bumpers 
     * Add bumper mounts
