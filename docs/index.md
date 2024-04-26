@@ -7,9 +7,9 @@
 <meta name="twitter:card" content="summary_large_image">
 
 
-# Welcome to the DDS Manual
+# Welcome to FRCDesign.org
 
-The purpose of this manual is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This manual is heavily integrated with the DDS Discord server, so we recommend joining the server.
+The purpose of this site is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This guide is heavily integrated with the DDS Discord server, so we recommend joining the server.
 
 [![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)
 
