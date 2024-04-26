@@ -13,7 +13,7 @@ Onshape has its own scripting language to create custom features to automate asp
 4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
 
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/addingFeaturescriptsTutorial.png">
       <source src="../../../../img/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
@@ -37,7 +37,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Can extrude multiple regions as different parts with one feature, even if regions are adjacent
 - Commonly used with tube converter to make punched aluminum tubes from a top view sketch
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/EI.png">
       <source src="../../../../img/featurescripts/extrudeIndividual.mp4" type="video/mp4">
@@ -49,7 +49,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 - Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/TC.png">
       <source src="../../../../img/featurescripts/tubeConverter.mp4" type="video/mp4">
@@ -63,7 +63,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Options for retention type on both ends
 - Can be generated in-place and with offsets
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/SG.png">
       <source src="../../../../img/featurescripts/shaftGenerator.mp4" type="video/mp4">
@@ -75,7 +75,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 - Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/S.png">
       <source src="../../../../img/featurescripts/spacer.mp4" type="video/mp4">
@@ -87,7 +87,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 - After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/FAE.png">
       <source src="../../../../img/featurescripts/filletEdges.mp4" type="video/mp4">
@@ -101,7 +101,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Either in-place with points and generates the closest chain length or takes a c-c distance
 - Options for simplified or realistic
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CG.png">
       <source src="../../../../img/featurescripts/chainGen.mp4" type="video/mp4">
@@ -114,7 +114,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Similar to chain generator, generates a simplified belt given the tooth counts of both sprockets and pitch
 - Either in-place and generates the closest belt, or takes a c-c distance without context and does the same
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CB.png">
       <source src="../../../../img/featurescripts/contextlessBelts.mp4" type="video/mp4">
@@ -126,7 +126,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 - Modifies 3D-printed parts to have accurate mass with given material, infill, and wall thickness
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/3DP.png">
       <source src="../../../../img/featurescripts/3DPMass.mp4" type="video/mp4">
@@ -139,7 +139,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Used for pocketing and lightening plates
 - Uses sketch regions to determine pocket and rib placement
 <details>
-<summary>Tutorial Video</summary>
+<summary>Video Tutorial</summary>
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/V.png">
       <source src="../../../../img/featurescripts/vent.mp4" type="video/mp4">
@@ -240,3 +240,12 @@ If a featurescript is not working as expected, the current version might be brok
 
 1. The first way to update it is by individually by right clicking the feature you want updated in the feature list and clicking "Update linked document..."
 2. The second, and slightly more permanent way (until the maintainer of the custom feature creates a new version), is by right clicking any of the featurescript icons in your toolbar or in the custom features dropdown and clicking "Update..." or "Update all..." From there, you can see the current versions of the custom features you have added to your profile and update selected ones to use the current latest version when you use a featurescript.
+
+<details>
+<summary>Video Tutorial</summary>
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/updatingFeaturescriptDocuments.png">
+      <source src="../../../../img/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
+    </video>
+  </figure>
+</details>
