@@ -1,7 +1,7 @@
 <meta property="og:title" content="Elevator CAD Example: Simple 2 Stage">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/cascade/examples/2stage/">
-<meta property="og:image" content="https://www.frcdesign.org/img/embed/cad-examples/elevator/cascade/2stage.webp">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/cascade/2stage.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 

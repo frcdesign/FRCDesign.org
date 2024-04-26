@@ -1,3 +1,11 @@
+<meta property="og:title" content="Shooter CAD Example: 1678 2022 Shooter">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/shooter/examples/citrus/">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/shooter/1678-shooter/citrus-shooter.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
+
 <style>
 
 td, th , table{

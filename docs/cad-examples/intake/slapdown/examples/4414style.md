@@ -1,3 +1,10 @@
+<meta property="og:title" content="Intake CAD Example: 4414 Style Slapdown">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/intake/slapdown/examples/4414style/">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/intake/slapdown/4414style.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
 # 4414 Style Slapdown Intake
 
 <figure markdown="span">

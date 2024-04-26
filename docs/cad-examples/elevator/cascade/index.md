@@ -2,7 +2,7 @@
 <meta property="og:description" content="Our collection of Cascade Elevators">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/cascade/">
-<meta property="og:image" content="https://www.frcdesign.org/img/embed/cad-examples/elevator/cascade/index.webp">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/cascade/3stage.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 
