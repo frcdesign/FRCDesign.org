@@ -50,7 +50,7 @@ nav:
   - Design Guide:
     - design-guide/index.md
     - Stage 0: 
-      - 0A What is CAD?: design-guide/stages/stage0/0A-whatIsCAD.md
+      - "0A: What is CAD?": design-guide/stages/stage0/0A-whatIsCAD.md
       - 0B Onshape Setup: design-guide/stages/stage0/0B-setup.md
       - 0C Theory: design-guide/stages/stage0/0C-theory.md
       - 0D Navigation: design-guide/stages/stage0/0D-navigation.md
