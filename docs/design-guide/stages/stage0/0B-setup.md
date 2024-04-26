@@ -28,7 +28,7 @@ The first time you enter Onshape, it will prompt you to setup your accounts. We 
 
 !!! tip
 
-    If the browser check fails, you may want to try a different browser. Currently, Chrome is the best supported browser with Onshape.
+    If the browser check fails, you may want to try a different browser. Currently, chromium browsers like Chrome and Edge are the best supported browsers for Onshape.
 
 If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
 
@@ -57,11 +57,11 @@ Press "Subscribe"
 Press "Get for Free". This will automatically add MKCad to your Onshape account.
 
 ## Featurescripts
-Featurescripts are handy tools that assist with the FRC design process. For now, just follow the instructions and you'll use the featurescripts in stage 1A.
+Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../featurescripts.md).
 
-Click this link for [Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8){:target="_blank"}
+1. Open the document [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8){:target="_blank"}
 
-Now click "Custom Features" 
+2. Click "Custom Features" 
 
 ![fs](../../../img/design-guide/stage0/fsarrow.webp){width=500}
 
@@ -73,4 +73,4 @@ You should see this menu now:
 
 Click "Belts", "Chain Path", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
-Once you have done that, you are done!
+Once you have that done, you are ready for the next stage!
