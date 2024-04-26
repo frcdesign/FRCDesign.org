@@ -35,7 +35,6 @@ theme:
     logo: fontawesome/solid/book-open
   
   favicon: img/favicon.png
-    
 
 extra:
   social:
@@ -115,7 +114,14 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
 
+
 extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
+
+plugins:
+  - glightbox:
+      background: none
+      width: 90%
+      shadow: true
