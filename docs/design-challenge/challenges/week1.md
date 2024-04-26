@@ -2,14 +2,18 @@
 
 Welcome to the first design challenge! We are going to start with a swerve drivebase, the foundation of your robot. We have two different levels of challenges, beginner and advanced. It is recommended to complete the beginner challenge first before going on to the advanced version. The advanced version is the same as the beginner challenge, with a few additional things added on.
 
-=== "Beginner Challenge:"
+!!! warning 
+    **The deadline for this design challenge is 11:59pm PST 05/04/24, any submissions after this deadline are subjected to late submission scoring outlined [here](../index.md)**
+
+
+=== "Beginner Challenge"
 
     * You need to choose a COTS swerve module
     * It needs to be assembled using 2" x 1" aluminum tubes
     * You need to add a bellypan
     * The drivebase needs to be legal to be used on the field. 
 
-=== "Advanced Challenge:"
+=== "Advanced Challenge"
 
     * Lay out and add mounting holes for all of the electronics, making sure to leave space for wires
     * Add in and secure the battery in some way
