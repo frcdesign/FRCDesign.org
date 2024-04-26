@@ -15,7 +15,7 @@ Onshape has its own scripting language to create custom features to automate asp
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/addingFeaturescriptsTutorial.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/addingFeaturescriptsTutorial.webp">
       <source src="../../../../img/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
     </video>
   </figure>
@@ -39,7 +39,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/EI.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/EI.webp">
       <source src="../../../../img/featurescripts/extrudeIndividual.mp4" type="video/mp4">
     </video>
   </figure>
@@ -51,7 +51,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/TC.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/TC.webp">
       <source src="../../../../img/featurescripts/tubeConverter.mp4" type="video/mp4">
     </video>
   </figure>
@@ -65,7 +65,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/SG.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/SG.webp">
       <source src="../../../../img/featurescripts/shaftGenerator.mp4" type="video/mp4">
     </video>
   </figure>
@@ -77,7 +77,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/S.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/S.webp">
       <source src="../../../../img/featurescripts/spacer.mp4" type="video/mp4">
     </video>
   </figure>
@@ -89,7 +89,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/FAE.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/FAE.webp">
       <source src="../../../../img/featurescripts/filletEdges.mp4" type="video/mp4">
     </video>
   </figure>
@@ -103,7 +103,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CG.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CG.webp">
       <source src="../../../../img/featurescripts/chainGen.mp4" type="video/mp4">
     </video>
   </figure>
@@ -116,7 +116,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CB.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CB.webp">
       <source src="../../../../img/featurescripts/contextlessBelts.mp4" type="video/mp4">
     </video>
   </figure>
@@ -128,7 +128,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/3DP.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/3DP.webp">
       <source src="../../../../img/featurescripts/3DPMass.mp4" type="video/mp4">
     </video>
   </figure>
@@ -141,7 +141,7 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/V.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/V.webp">
       <source src="../../../../img/featurescripts/vent.mp4" type="video/mp4">
     </video>
   </figure>
@@ -221,6 +221,10 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
   - Generates polycord and pulleys based off of selected points
 
+### [Complex Belt Generator](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f)
+
+- Generates a complex belt run based off of a sketch with pulley and idler circles
+
 
 ### [Gusset Generator](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8)
 
@@ -244,7 +248,7 @@ If a featurescript is not working as expected, the current version might be brok
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/updatingFeaturescriptDocuments.png">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/updatingFeaturescriptDocuments.webp">
       <source src="../../../../img/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
     </video>
   </figure>
