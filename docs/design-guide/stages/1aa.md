@@ -5,6 +5,7 @@ td {
 }
 td, th , table{
    border: none!important;
+   font-size: 0.8rem;
 }
 
 table tr:hover{
