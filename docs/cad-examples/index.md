@@ -7,7 +7,7 @@ img{
 }
 
 img:hover{
-    background-color: rgb(37,40,49) !important;
+    background-color: transparent !important;
     border-radius: 0.5rem;
 }
 

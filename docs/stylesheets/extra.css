@@ -7,15 +7,28 @@
 }
 
 .md-typeset .admonition.tip,
-.md-typeset details.tip{
+.md-typeset details.tip,
+.md-typeset .admonition.note,
+.md-typeset details.note
+{
   border-color: rgb(76, 174, 79);
 }
-.md-typeset .tip > .admonition-title,
-.md-typeset .tip > summary {
+.md-typeset .tip> .admonition-title,
+.md-typeset .tip> summary {
   background-color: rgba(43, 155, 70, 0.1);
 }
+.md-typeset .note> .admonition-title,
+.md-typeset .note> summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+
 .md-typeset .tip > .admonition-title::before,
 .md-typeset .tip > summary::before {
+  background-color: rgb(76, 174, 79);
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
   background-color: rgb(76, 174, 79);
 }
 
