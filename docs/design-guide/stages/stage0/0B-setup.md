@@ -1,24 +1,24 @@
-# Stage 0 Setup
+# 0B: Onshape Setup
 
-## Onshape Registration
+## Registration
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
 
 To register, go to [Onshape for Education](https://onshape.com/education-plan){:target="_blank"}, and select "Create EDU ACCOUNT"
 
-[![edu](../../img/onshape-intro/index/edu.webp)](https://www.onshape.com/en/education/sign-up){:target="_blank"}
+[![edu](../../../img/design-guide/stage0/edu.webp)](https://www.onshape.com/en/education/sign-up){:target="_blank"}
 
 Fill out the details in the sign up form
 
-![signup](../../img/onshape-intro/index/signup.webp)
+![signup](../../../img/design-guide/stage0/signup.webp)
 
 In the next screen, select that you are a student and that you are in Grade School.
 
-![edusignup](../../img/onshape-intro/index/edusignup2.webp){height=70% width=70%}
+![edusignup](../../../img/design-guide/stage0/edusignup2.webp){height=70% width=70%}
 
 Finally, fill our your school information. You may enter "Robotics" as the reason for using Onshape.
 
-![edusignup](../../img/onshape-intro/index/edusignup3.webp){height=60% width=60%}
+![edusignup](../../../img/design-guide/stage0/edusignup3.webp){height=60% width=60%}
 
 Onshape will proceed to check your information, then send you an email once complete. This may be instant, but may take some time if Onshape needs to verify your school.
 
@@ -38,11 +38,11 @@ If you are using Chrome, an additional setup step may be required.
 
 First, type `chrome://settings/` in your searchbar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
 
-![chrome-graphicsacceleration](../../img/onshape-intro/index/chrome/graphicsacceleration.webp)
+![chrome-graphicsacceleration](../../../img/design-guide/stage0/chrome/graphicsacceleration.webp)
 
 Next, go to `chrome://flags/` and enable these:
 
-![edu](../../img/onshape-intro/index/flags.webp)
+![edu](../../../img/design-guide/stage0/flags.webp)
 
 ## Setting up MKCad
 
@@ -52,7 +52,7 @@ To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufactu
 
 Press "Subscribe"
 
-![subscribe](../../img/onshape-intro/index/subscribe.webp){height=60% width=60%}
+![subscribe](../../../img/design-guide/stage0/subscribe.webp){height=60% width=60%}
 
 Press "Get for Free". This will automatically add MKCad to your Onshape account.
 
@@ -63,15 +63,13 @@ Featurescripts are custom features coded by members of the community, and are of
 
 2. Click "Custom Features" 
 
-    !!! tip
-        If you can't see the "Custom features" button, you're likely not signed in, and signing in will allow you to see it and continue.
-
-
-<center>![fs](../../img/onshape-intro/index/fsarrow.webp){width=600}</center>
+![fs](../../../img/design-guide/stage0/fsarrow.webp){width=500}
 
 You should see this menu now:
 
-<center>![fs1](../../img/onshape-intro/index/fs1.webp)</center>
+![fs1](../../../img/design-guide/stage0/fs1.webp)
+
+![fs2](../../../img/design-guide/stage0/fs2.webp)
 
 Click "Belts", "Chain Path", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
