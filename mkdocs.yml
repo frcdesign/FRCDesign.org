@@ -98,7 +98,8 @@ nav:
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
-      
+      - Power Transmission: mechanism-fundamentals/mechanisms/powertransmission.md
+
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
 
