@@ -5,17 +5,24 @@ Onshape has its own scripting language to create custom features to automate asp
 ### How To Install Featurescripts
 
 1. Open any Onshape document and go inside of a part studio
-2. Click the rightmost button on the toolbar <img align="center" src="../../../../img/featurescripts/addCustomFeaturesDropdown.webp"> <img align="center" src="../../../../img/featurescripts/addCustomFeatures.webp">
+2. Click the rightmost button on the toolbar <img align="center" src="../../../../img/featurescripts/addCustomFeatures.webp">
     - **Note:** If you have previously added any Featurescripts one of those may show up as the right most icon. In that case click the dropdown to show the add button.
 3. Paste the link of the document with the featurescript(s) in it into the search bar
     - **Note:** Some of the below featurescripts exist in the same document, so you can add multiple from the same link.
 
 4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
 
-<center><img align="center" src="../../../../img/featurescripts/addCustomFeaturesPasteLink.webp"> <img align="center" src="../../../../img/featurescripts/addCustomFeaturesSelection.webp"></center>
+<details>
+<summary>Tutorial Video</summary>
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/addingFeaturescriptsTutorial.png">
+      <source src="../../../../img/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
+    </video>
+  </figure>
+</details>
 
 !!! alternate
-    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile.
+    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile. This method is used in [stage 0](design-guide/stages/0.md/#featurescripts) to add Julia's Featurescripts when setting up Onshape.
 
 ## Recommended Featurescripts
 Below is a collection of featurescripts we recommend you add to aid your design process.  
@@ -144,9 +151,17 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 - Used for quickly applying a system to number parts
 
 ### [Abhi's Features & Configs](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true)
-- Set Materials: parametrically set materials and appearances of parts in batches
-- Set Properties: sets properties of parts in batches
-- Sprocket: generate a sprocket for common types of chain
+**Set Materials**
+
+  - Parametrically set materials and appearances of parts in batches
+
+**Set Properties**
+
+  - Sets properties of parts in batches
+
+**Sprocket**
+
+  - Generate a sprocket for common types of chain
 
 ### [Thrifty Insert](https://cad.onshape.com/documents/c54b1ff25af8ec89778cac4f/v/5a909b5ad938a3116448922f/e/c4fc9251685f8516e9022bc6)
 - Cuts a profile in a part at a given location and depth to fit a [thriftybot insert](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts) into, for 3D-printed parts to stop them from stripping while being driven on an axle.
