@@ -1,6 +1,6 @@
 <meta property="og:title" content="Drivebase CAD Examples" />
 <meta property="og:description" content="CAD examples of various FRC drivebases" />
-<meta property="og:image" content="../../img/cad-examples/drivebase/2910drivebase.webp">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/drivebase/2910drivebase.webp">
 <meta property="og:url" content="https://frcdesign.org/cad-examples/drivebase/" />
 
 # Swerve Drivebases
