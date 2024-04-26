@@ -1,3 +1,10 @@
+<meta property="og:title" content="Drivebase CAD Example: 972's Brainpan">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/drivebase/examples/brainpan/">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/drivebase/972dt.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
 # 972 Brainpan Drivebase
 
 <figure markdown="span">
@@ -5,6 +12,6 @@
 <figcaption>Swerve drivetrain featuring the "brainpan" style of electroncis mounting.</figcaption>
 </figure>
 
+## Behind the Design
+**Coming Soon**
 
-## Behind the design
-billet ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum

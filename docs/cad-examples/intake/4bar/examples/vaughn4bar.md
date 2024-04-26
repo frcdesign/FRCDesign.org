@@ -1,3 +1,10 @@
+<meta property="og:title" content="Intake CAD Example: Vaughn's 4 Bar">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/intake/4bar/examples/vaughn4bar/">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/intake/4bar/vaughn4bar.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
 # Vaughn's 4bar Intake
 
 <figure markdown="span">
@@ -7,4 +14,6 @@
 
 
 ## Behind the design
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+**Coming Soon**
+

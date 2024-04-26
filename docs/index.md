@@ -1,6 +1,15 @@
+<meta property="og:title" content="FRCDesign.org">
+<meta property="og:description" content="website description here">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/">
+<meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
+
 # Welcome to the DDS Manual
 
-The purpose of this manual is to guide any motivated individuals down the path to FRC CAD Mastery. This manual is heavily integrated with the DDS Discord server, so we recommend joining the server.
+The purpose of this manual is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This manual is heavily integrated with the DDS Discord server, so we recommend joining the server.
 
 [![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)
 
