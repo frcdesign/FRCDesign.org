@@ -21,12 +21,17 @@ table tr:hover{
 ## Types of Drivetrains
 
 - Swerve - A drivetrain with 4 wheels in which all drive wheels are independently driven and steered. Drivetrain can move in any direction
-![swerve](../../img/mechanism-fundamentals/swerve.png)
-
-- Kit of Part drivebase - 6 wheel drop center drive base made from bent-sheet metal and comes with the kit of parts.
-![KOP](../../img/mechanism-fundamentals/KOP.png)
-- West Coast Drive (WCD) - A six wheel drive base with a drop-center wheel that is directly driven from the gearbox. Traditionally, the power transmission is driven with chain, a gearbox, and box tubing for rigidity.
-![WCD](../../img/mechanism-fundamentals/tank.png)
+<figure markdown="span">
+![swerve](../../img/mechanism-fundamentals/swerve.png){height=50% width=50%}
+</figure>
+- Kit of Part drivebase - 6 wheel drop center(the middle wheels is lower than the outer wheels) drive base made from bent-sheet metal and comes with the kit of parts. 
+<figure markdown="span">
+![KOP](../../img/mechanism-fundamentals/kop.png){height=50% width=50%}
+</figure>
+- West Coast Drive (WCD) - A six wheel drive base with a drop-center wheel that is directly driven from the gearbox. Traditionally, the power transmission is driven with chain, a gearbox, and box tubing for rigidity. A key characteristic for west coast drives is that the wheels are cantilevered. 
+<figure markdown="span">
+![WCD](../../img/mechanism-fundamentals/tank.png){height=50% width=50%}
+</figure>
 
 ## Key Drivebase Choices
 
@@ -36,15 +41,17 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
 #### What do cross members do for your structure?
 - Contrary to popular belief, metal isn’t as strong as stable as people think, and it likes to “parallelogram” when compressive loads begin to come on your bracing.
 
-![parallel](../../img/mechanism-fundamentals/parallel.png)<figcaption> In this picture you can see the square frame turns into a parallelogram as a load comes onto the left side. In a single FRC match, your chassis undergoes a ton of forces, which can affect the shape of your drivebase. </figcaption>
+<figure markdown="span">
+![parallel](../../img/mechanism-fundamentals/parallel.png){height=150% width=150%}<figcaption> In this picture you can see the square frame turns into a parallelogram as a load comes onto the left side. In a single FRC match, your chassis undergoes a ton of forces, which can affect the shape of your drivebase. </figcaption>
+</figure>
 
 #### Where to place cross rails?
 
 - There are two main type of cross members that teams do:
     - The first type is two vertical cross members, as close to the swerve modules as possible.
-
-    ![twoCross](../../img/mechanism-fundamentals/twoCross.png)
-
+    <figure markdown="span">
+    ![twoCross](../../img/mechanism-fundamentals/twoCross.png){height=50% width=50%}
+    </figure>
     - Pros:
         - Easier to mount things
         - Stiff structure, less change of compressive loads affecting your drivebase.
@@ -52,9 +59,9 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
         - You severely limit your electrical boards accessibility, and it affects the placement of your electronics.
 
     - The second type is a single 2x2 Horizontal Cross beam.
-
-    ![citrusCirc](../../img/mechanism-fundamentals/citrusCirc.png)
-
+    <figure markdown="span">
+    ![citrusCirc](../../img/mechanism-fundamentals/citrusCirc.png){height=50% width=50%}
+    </figure>
     - Pros:
         - Opens up a ton of electrical board space
         - Stronger than having a single 2x1 there because of your cross sectional area, and it can withstand higher loads before yielding or failing. 
@@ -98,15 +105,19 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
             - Lower rigidity and can flex
             - Lower weight means that your center of gravity could be higher than you want it to be.
 - What a lot of teams do to maintain rigidity while lightening the weight is called a pocketed bellypan , and what this accomplishes is it takes away the material in unnecessary places, while allowing for electronics to  be mounted by keeping the holes in the correct locations.
-![bPan](../../img/mechanism-fundamentals/bPan.png)
+<figure markdown="span">
+![bPan](../../img/mechanism-fundamentals/bPan.png){height=50% width=50%}
+</figure>
 
 ## Frame Perimeter:
 
 - In accordance with the game manual, your driveabse frame perimeter must be a maximum of 120". 
     - Frame Extension: 
-        - In accordance to the game manual, at the beginning of your match, no part of your robot can stick out of the frame. To ensure that this limit has been reached, and to gain more clearance teams use [Swerve-Corners](https://cad.onshape.com/documents/3969471095df924bad241f81/w/42f02d1579e8bcd9c0435d48/e/b1b02258ec73e6686b1e62fd) and 1/4” plates to extend their frame perimeter by a 1/2” on all sides. 
+        - In accordance to the game manual, at the beginning of your match, no part of your robot can stick out of the frame. To gain more clearance teams use [Swerve-Corners](https://cad.onshape.com/documents/3969471095df924bad241f81/w/42f02d1579e8bcd9c0435d48/e/b1b02258ec73e6686b1e62fd) and 1/4” plates to extend their frame perimeter by a 1/2” on all sides, and this allows to mount plates to the edges of your tubing.
 
-![swerveCorner](../../img/mechanism-fundamentals/swerveCorner.png)<figcaption>You can see in the highlighted section that it sticks out further than your box tubing extension.</figcaption>
+<figure markdown="span">
+![swerveCorner](../../img/mechanism-fundamentals/swerveCorner.png){height=50% width=50%}<figcaption>You can see in the highlighted section that it sticks out further than your box tubing extension.</figcaption>
+</figure>
 
 ## Wheelbase Location:
 - You want your wheels as far apart as possible in order to give you more stability, especially while turning. 
@@ -114,4 +125,6 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
 ## Electrical Mounting
 - When designing a bellypan, you need to ensure that your electronics are as accessible as possible. What some teams do is they drill massive access holes in their cross tubing. One thing to keep in mind for this is you may want to 3D Print protection guards/rubber grommets on the holes to ensure the wires don’t strip on the hole’s sharp edges.
 
-![accessHoles](../../img/mechanism-fundamentals/accessHoles.png)
+<figure markdown="span">
+![accessHoles](../../img/mechanism-fundamentals/accessHoles.png){height=50% width=50%}
+</figure>

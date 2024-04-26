@@ -97,6 +97,7 @@ nav:
     - Design Standards: design-standards.md
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
+      - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
       
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
