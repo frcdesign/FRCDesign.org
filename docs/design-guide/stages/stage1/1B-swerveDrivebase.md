@@ -16,7 +16,7 @@
 <span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 
-For your first project, we’ll be making a swerve drive base. (Editor’s note: the use of unsimplified models is deliberate, will use simplfied models in 2B Project. )
+For your first project, we’ll be making a swerve drive base. (Editor’s note: the use of unsimplified models is deliberate, will use simplfied models in 2B Project. ) In this project we will go step-by-step as we introduce new concepts. Remember to apply the skills you have already learned.
 
 ![Swerve Assembly](\img\design-guide\stage1a\Stage 1A Swerve\Assembly_1.webp){width=45% height=45%}
 
@@ -129,7 +129,7 @@ Let’s make it 2 inches wide, and 2 inches away from the center (origin).
 
 Now, let’s confirm the sketch. You can also rename the sketch to “Drivetrain Top” 
 
-Now, lets create the tubes. Click the extrude individual featurescript.
+Now, lets create the tubes. Click the extrude individual featurescript. Extrude individual allows us to make multiple parts, one per sketch reason, with a single extrude feature.
 
 ![Untitled](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 20.webp){width=45% height=45%}
 
