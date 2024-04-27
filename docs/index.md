@@ -1,10 +1,9 @@
 <meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="A comprehensive guide to all things frc design">
+<meta property="og:description" content="A comprehensive guide to all things FRC Design">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
 <meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 
 # Welcome to FRCDesign.org
