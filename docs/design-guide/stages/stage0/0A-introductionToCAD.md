@@ -16,14 +16,19 @@
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
 
 CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly.
-
+<figure markdown="span">
+    ![ironman](../../../img/introcad/ironman.jpg){height=75%, width=75%}
+</figure> 
+<figcaption>Tony Stark seen using a hologram CAD software to make the revolutionary Iron Man suit.</figcaption>
 ## Different Software
 There are many different kinds of CAD, usually designed for specific industries in mind. The kind of CAD an architect might use would be different from the kind of CAD engineers use. The tools required may be different as well.
 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
 SolidWorks is the industry standard for many companies, Autodesk Inventor is also widely used, and Fusion and Onshape are sometimes used in the industry but much more popular for hobbyists.
-
+<figure markdown="span">
+    ![formulaOne](../../../img/introcad/formula.jpg){height=75%, width=75%}
+</figure>
 ### Parametric Feature-Based?
 
 Parametric CAD stores the steps of a model to be changed later through sketches and features
@@ -53,6 +58,9 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 7. CAD skills are used in the real world all the time, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
 
+<figure markdown="span">
+    ![bread](../../../img/introcad/bread.png){height=75%, width=75%}
+</figure>
 
 ## Why Onshape for FRC?
 
@@ -68,8 +76,9 @@ Onshape is more easily accessible to people, especially high schoolers with limi
 Instead of files, Onshape uses documents that keep everything related to a project (e.g. a whole subsystem) in the same place, as opposed to having to keep track of many separate files that could possibly corrupt and cause you to lose data. 
 
 <figure markdown="span">
-    ![structure](../../img/introcad/structure.png)
+    ![structure](../../../img/introcad/structure.png)
 </figure>
+<figcaption>The benefit of using a multi-document setup is to keep the load times for everyone lower. </figcaption>
 
 ### Features
 Onshape has many features that benefit the FIRST Robotics design process and workflow, even disregarding the other topics mentioned. The design of the software itself encourages top-down design (where the general overview and architecture of a product are defined first, and the details are defined based on that), which makes team collaboration around a robot design easier. 
@@ -77,7 +86,7 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
 <figure markdown="span">
-    ![mkcad](../../img/introcad/mkcad.png)
+    ![mkcad](../../../img/introcad/mkcad.png){height=60%, width=60%}
 </figure>
 
 
