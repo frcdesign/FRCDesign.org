@@ -30,7 +30,7 @@ table tr:hover{
 </figure>
 - West Coast Drive (WCD) - A six wheel drive base with a drop-center wheel that is directly driven from the gearbox. Traditionally, the power transmission is driven with chain, a gearbox, and box tubing for rigidity. A key characteristic for west coast drives is that the wheels are cantilevered. 
 <figure markdown="span">
-![WCD](../../img/mechanism-fundamentals/tank.png){height=50% width=50%}
+![WCD](../../img/mechanism-fundamentals/nickwcd.webp){height=50% width=50%}
 </figure>
 
 ## Key Drivebase Choices
