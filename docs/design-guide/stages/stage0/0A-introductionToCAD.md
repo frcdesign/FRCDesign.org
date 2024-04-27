@@ -13,6 +13,9 @@
 
 # 0A: Introduction to CAD
 
+<span class="left">[< Home](../../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
+<br>
+
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
 
 CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly.

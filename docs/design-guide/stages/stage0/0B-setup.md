@@ -13,6 +13,9 @@
 
 # 0B: Onshape Setup
 
+<span class="left">[< 0A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[0C: Navigating Onshape >](0C-navigation.md)</span>
+<br>
+
 ## Registering for Onshape
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
