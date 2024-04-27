@@ -11,9 +11,8 @@
 
 The purpose of this manual is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This manual is heavily integrated with the DDS Discord server, so we recommend joining the server.
 
-[![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)
+<center>[![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)</center>
 
-# Server Intro
 ## Stage Roles
 We have different stage roles for each stage you are in the design process. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, I recommend selecting the beginner role. 
 

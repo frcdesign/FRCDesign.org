@@ -1,24 +1,24 @@
 # 0B: Onshape Setup
 
-## Registration
+## Registering for Onshape
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
 
 To register, go to [Onshape for Education](https://onshape.com/education-plan){:target="_blank"}, and select "Create EDU ACCOUNT"
 
-[![edu](../../../img/design-guide/stage0/edu.webp)](https://www.onshape.com/en/education/sign-up){:target="_blank"}
+<center>[![edu](../../../img/design-guide/stage0/edu.webp)](https://www.onshape.com/en/education/sign-up){:target="_blank"}</center>
 
 Fill out the details in the sign up form
 
-![signup](../../../img/design-guide/stage0/signup.webp)
+<center>![signup](../../../img/design-guide/stage0/signup.webp)</center>
 
 In the next screen, select that you are a student and that you are in Grade School.
 
-![edusignup](../../../img/design-guide/stage0/edusignup2.webp){height=70% width=70%}
+<center>![edusignup](../../../img/design-guide/stage0/edusignup2.webp){height=70% width=70%}</center>
 
 Finally, fill our your school information. You may enter "Robotics" as the reason for using Onshape.
 
-![edusignup](../../../img/design-guide/stage0/edusignup3.webp){height=60% width=60%}
+<center>![edusignup](../../../img/design-guide/stage0/edusignup3.webp){height=60% width=60%}</center>
 
 Onshape will proceed to check your information, then send you an email once complete. This may be instant, but may take some time if Onshape needs to verify your school.
 
@@ -38,11 +38,11 @@ If you are using Chrome, an additional setup step may be required.
 
 First, type `chrome://settings/` in your searchbar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
 
-![chrome-graphicsacceleration](../../../img/design-guide/stage0/chrome/graphicsacceleration.webp)
+<center>![chrome-graphicsacceleration](../../../img/design-guide/stage0/chrome/graphicsacceleration.webp)</center>
 
 Next, go to `chrome://flags/` and enable these:
 
-![edu](../../../img/design-guide/stage0/flags.webp)
+<center>![edu](../../../img/design-guide/stage0/flags.webp)</center>
 
 ## Setting up MKCad
 
@@ -50,25 +50,33 @@ MKCad is an Onshape plugin that contains a large library of parts that are often
 
 To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description){:target="_blank"}
 
-Press "Subscribe"
+Press "Subscribe", then "Get for Free". This will automatically add MKCad to your Onshape account.
 
-![subscribe](../../../img/design-guide/stage0/subscribe.webp){height=60% width=60%}
-
-Press "Get for Free". This will automatically add MKCad to your Onshape account.
+<details>
+<summary>Video Tutorial</summary>
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/design-guide/stage0/subscribe.webp">
+      <source src="../../../../img/design-guide/stage0/MKCADsetup.webm" type="video/webm">
+    </video>
+  </figure>
+</details>
 
 ## Featurescripts
-Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../featurescripts.md).
+Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../../featurescripts.md).
 
 1. Open the document [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8){:target="_blank"}
 
 2. Click "Custom Features" 
 
-![fs](../../../img/design-guide/stage0/fsarrow.webp){width=500}
+3. Click "Belts", "Chain Path", "Extrude Individual", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
-You should see this menu now:
-
-![fs1](../../../img/design-guide/stage0/fs1.webp)
-
-Click "Belts", "Chain Path", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
+<details>
+<summary>Video Tutorial</summary>
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/design-guide/stage0/addingJulia'sFeaturescripts.webp">
+      <source src="../../../../img/design-guide/stage0/addingJulia'sFeaturescripts.webm" type="video/webm">
+    </video>
+  </figure>
+</details>
 
 Once you have that done, you are ready for the next stage!
