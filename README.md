@@ -4,6 +4,7 @@
 - [Git Bash](https://git-scm.com/downloads)
 - [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)
 - [VSCode](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
 
 # Steps
 - To clone the github reposity right click your desktop and select "Git Bash Here"
