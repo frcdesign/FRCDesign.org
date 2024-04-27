@@ -16,10 +16,7 @@
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
 
 CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly.
-<figure markdown="span">
-    ![ironman](../../../img/introcad/ironman.jpg){height=75%, width=75%}
-</figure> 
-<figcaption>Tony Stark seen using a hologram CAD software to make the revolutionary Iron Man suit.</figcaption>
+
 ## Different Software
 There are many different kinds of CAD, usually designed for specific industries in mind. The kind of CAD an architect might use would be different from the kind of CAD engineers use. The tools required may be different as well.
 
