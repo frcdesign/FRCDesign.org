@@ -1,3 +1,10 @@
+<meta property="og:title" content='Intake CAD Example: Washed "Beavertail" Intake'>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/intake/slapdown/examples/washed/">
+<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/intake/slapdown/washed/overview.webp">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
 # Washed's Beavertail Intake
 
 <figure markdown="span">
