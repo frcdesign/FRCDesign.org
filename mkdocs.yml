@@ -30,7 +30,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to Dark Mode
       primary: green
-      accent: white
+      accent: black
   icon:
     logo: fontawesome/solid/book-open
   
