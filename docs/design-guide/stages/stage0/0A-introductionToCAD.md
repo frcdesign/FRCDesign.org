@@ -80,8 +80,8 @@ Depending on the circumstances, Onshape may not be the best fit for a team; howe
 
 
 <br>
-<center>A: Introduction to CAD</center> 
-<span class="left">[< Home](../../../index.md)</span> <span class="right">[B: Onshape Setup >](0B-setup.md)</span>
+<center>0A: Introduction to CAD</center> 
+<span class="left">[< Home](../../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 <br>
 

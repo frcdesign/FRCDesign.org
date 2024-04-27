@@ -95,7 +95,7 @@ Featurescripts are custom features coded by members of the community, and are of
 Once you have that done, you are ready for the next stage!
 
 <br>
-<center>B: Onshape Setup</center> 
-<span class="left">[< A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[C: Navigating Onshape >](0C-navigation.md)</span>
+<center>0B: Onshape Setup</center> 
+<span class="left">[< 0A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[0C: Navigating Onshape >](0C-navigation.md)</span>
 <br>
 <br>
