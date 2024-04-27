@@ -1,5 +1,5 @@
 <meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="website description here">
+<meta property="og:description" content="A comprehensive guide to all things frc design">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
