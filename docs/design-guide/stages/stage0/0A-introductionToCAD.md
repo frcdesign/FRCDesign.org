@@ -26,14 +26,7 @@ SolidWorks is the industry standard for many companies, Autodesk Inventor is als
 <figure markdown="span">
     ![formulaOne](../../../img/introcad/formula.jpg){height=75%, width=75%}
 </figure>
-### Parametric Feature-Based?
 
-Parametric CAD stores the steps of a model to be changed later through sketches and features
-
-- The feature list captures all the building blocks of a model
-- Relationships between features can be established
-- Users can update previous sketches and features, and updates to related features will propagate down the list
-- Helps preserve design intent
 
 ## Why Use CAD?
 

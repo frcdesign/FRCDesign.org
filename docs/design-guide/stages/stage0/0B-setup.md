@@ -81,7 +81,7 @@ Featurescripts are custom features coded by members of the community, and are of
 
 2. Click "Custom Features" 
 
-3. Click "Belts", "Chain Path", "Extrude Individual", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
+3. Click "Belts", "Chain Path", "Extrude Individual", "FilletXpert", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
 <details>
 <summary>Video Tutorial</summary>
