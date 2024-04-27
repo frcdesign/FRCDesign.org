@@ -23,15 +23,10 @@ There are many different kinds of CAD, usually designed for specific industries 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
 SolidWorks is the industry standard for many companies, Autodesk Inventor is also widely used, and Fusion and Onshape are sometimes used in the industry but much more popular for hobbyists.
+<figure markdown="span">
+    ![formulaOne](../../../img/introcad/formula.jpg){height=75%, width=75%}
+</figure>
 
-### Parametric Feature-Based?
-
-Parametric CAD stores the steps of a model to be changed later through sketches and features
-
-- The feature list captures all the building blocks of a model
-- Relationships between features can be established
-- Users can update previous sketches and features, and updates to related features will propagate down the list
-- Helps preserve design intent
 
 ## Why Use CAD?
 
@@ -53,6 +48,9 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 7. CAD skills are used in the real world all the time, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
 
+<figure markdown="span">
+    ![bread](../../../img/introcad/bread.png){height=75%, width=75%}
+</figure>
 
 ## Why Onshape for FRC?
 
@@ -72,6 +70,11 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
+<figure markdown="span">
+    ![mkcad](../../../img/introcad/mkcad.png){height=60%, width=60%}
+</figure>
+
+
 ## Other Softwares?
 
 Onshape is only one of many CAD softwares. Many teams may choose not to use it because of prior student and mentor experience and resources with another software, or a workflow has already been established that works very well for a team with a different software. Onshape is by no means common in the engineering industry, so mentors are more likely to be able to guide a team well using other softwares. 
@@ -80,8 +83,8 @@ Depending on the circumstances, Onshape may not be the best fit for a team; howe
 
 
 <br>
-<center>A: Introduction to CAD</center> 
-<span class="left">[< Home](../../../index.md)</span> <span class="right">[B: Onshape Setup >](0B-setup.md)</span>
+<center>0A: Introduction to CAD</center> 
+<span class="left">[< Home](../../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 <br>
 

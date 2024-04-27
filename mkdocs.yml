@@ -49,17 +49,20 @@ nav:
   - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
-    - Stage 0: 
-      - "A: Introduction to CAD": design-guide/stages/stage0/0A-introductionToCAD.md
-      - "B: Onshape Setup": design-guide/stages/stage0/0B-setup.md
-      - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
-      - "D: Theory": design-guide/stages/stage0/0D-theory.md
-    - Stage 1:
-      - Stage 1A: design-guide/stages/stage1/1a.md
-      - Stage 1B: design-guide/stages/stage1/1b.md
-      - Stage 1C: design-guide/stages/stage1/1c.md
-      - Stage 1D: design-guide/stages/stage1/1d.md
-    - Stage 2 Intermediate: design-guide/stages/stage2/2a.md
+    - Beginner Stages:
+      - Stage 0: 
+        - "A: Introduction to CAD": design-guide/stages/stage0/0A-introductionToCAD.md
+        - "B: Onshape Setup": design-guide/stages/stage0/0B-setup.md
+        - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
+        - "D: Theory": design-guide/stages/stage0/0D-theory.md
+      - Stage 1:
+        - A: design-guide/stages/stage1/1.md
+      - Stage 2:
+        - A: design-guide/stages/stage2/2.md
+      - Stage 3: 
+        - A: design-guide/stages/stage3/3.1.md
+        - B: design-guide/stages/stage3/3.2.md
+    - Intermediate Stages: design-guide/stages/stage4/4.md
   
   - Design Challenges:
     - design-challenge/index.md
