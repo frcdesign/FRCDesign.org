@@ -1,4 +1,20 @@
+<style>
+.right{
+    float:right;
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # 1B: Swerve Drivebase Project
+
+<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<br>
 
 For your first project, we’ll be making a swerve drive base. (Editor’s note: the use of unsimplified models is deliberate, will use simplfied models in 2B Project. )
 
@@ -139,3 +155,8 @@ Once you are done, change the appearance of all of your tubes to a color of your
 
 ![Untitled](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 24.webp){width=45% height=45%}
 
+<br>
+<center>1B: Swerve Drivebase</center> 
+<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<br>
+<br>
