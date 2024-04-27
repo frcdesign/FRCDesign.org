@@ -30,7 +30,7 @@ These learning courses can help both old and new designers learn a good workflow
 ## CADvent Part Gallery
 After completing the learning courses its still best to practice before moving further. Here are a variety of parts you can model to practice your sketching and modeling skills. 
 
-To begin, make a copy of the [CADvent practice document](https://cad.onshape.com/documents/6af40b750516bfd9d86b2203/w/1a10c33aa547ad764e1c876c/e/d57a1b029a59e3fa8c410591). Each part you make will go into a seperate part studio. Some have already been set up, but you may make more if you want to do more practice parts. Stop before bonus!
+To begin, make a copy of the [CADvent practice document](https://cad.onshape.com/documents/6af40b750516bfd9d86b2203/w/1a10c33aa547ad764e1c876c/e/d57a1b029a59e3fa8c410591). Each part you make will go into a separate part studio. Some have already been set up, but you may make more if you want to do more practice parts. Stop before the "Bonus: Gusset" part studio!
 
 !!! tip
     Feel free to ask for help in the beginner channels in the DDS Discord Server.

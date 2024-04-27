@@ -20,8 +20,6 @@
 ## Getting Started
 An Onshape document is not a CAD file, but rather a generic container that holds data related to a project, including any number of part studios, assemblies, drawings, and other media/files. It can be versioned and linked to from other documents. 
 
-There is no save button in Onshape; every action is automatically saved to the cloud and can be reverted back to.
-
 ### Documents Page
 Documents can be viewed and managed from the documents page. You can sort them with folders and labels. On the sidebar, you can switch between stuff owned by you and stuff owned by a classroom/team/organization, and a public search page which can be used to look through public Onshape files. In the top right corner of the page, you can access the app store, learning center, and account settings.
 
