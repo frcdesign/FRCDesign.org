@@ -65,11 +65,6 @@ Onshape is more easily accessible to people, especially high schoolers with limi
 ### Organization
 Instead of files, Onshape uses documents that keep everything related to a project (e.g. a whole subsystem) in the same place, as opposed to having to keep track of many separate files that could possibly corrupt and cause you to lose data. 
 
-<figure markdown="span">
-    ![structure](../../../img/introcad/structure.png)
-</figure>
-<figcaption>The benefit of using a multi-document setup is to keep the load times for everyone lower. </figcaption>
-
 ### Features
 Onshape has many features that benefit the FIRST Robotics design process and workflow, even disregarding the other topics mentioned. The design of the software itself encourages top-down design (where the general overview and architecture of a product are defined first, and the details are defined based on that), which makes team collaboration around a robot design easier. 
 
