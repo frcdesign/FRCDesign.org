@@ -37,7 +37,7 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
     - 25:
         - While 25 chain is relatively light, it is a lot less durable than 35 or 25h Chain, which is a concern when thinking about shock loads on a pivot.
     - 25H:
-        - 25H Chain stands for Hardened #25, which means that the plates on the chain are thicker.This means that its a bit stronger than the 25 chain. 
+        - 25H Chain stands for Hardened #25, which means that the plates on the chain are thicker.This means that its a bit stronger than the 25 chain, while staying compatible with all 25 chain hardware.
     - 35:
         - 35 Chain is the strongest chain there is, and breaking this is a bit challenging. Best use case is heavy pivots. 
 <figure markdown="span">
@@ -66,7 +66,7 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
 
 
 <p style="font-size:1rem;">Gears:</p>
-- Toothed wheels that are able to transmit motion and power. Commonly used to reverse directions, build gearboxes with, and many more. 
+- Toothed wheels that are able to transmit motion and power. Commonly used to reverse directions, build gearboxes, and many more applications. 
 
 - Types of Gears:
     - Spur Gears:
@@ -81,11 +81,12 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
 ![32DP](../../img/mechanism-fundamentals/32DP.png){height=50% width=50%}
 </figure>
   - Herringbone
-    - Double helical gears with it's teeth arranged in a V shape. Used in pivots due to it's high degree of control, and you can put a decently high load on this as long as you increase the surface contact area between gears. 
+    - Also known as a double helical gear, the teeth form a V shape and are used to provide smooth and quiet operation while transmitting high torque. You can put a pretty high load on this as long as you increase the surface area and the contact between the teeth. These gears are commonly 3d printed.
 
-<figure markdown="span">
-![Herringbone](../../img/mechanism-fundamentals/herringbone.png){height=50% width=50%}
-</figure>
+|||
+|:-:|:-:|
+|<figure>![125 Herringbone Pivot](../../img/mechanism-fundamentals/125pivot.webp){height=100% width=100%}</figure>|<figure markdown="span">![Herringbone](../../img/mechanism-fundamentals/herringbone.png){height=50% width=50%}</figure>|
+
 
   - Bevel Gears
     - Bevel gears are popularized with the COTS Max90 Gearbox, and are great for transmitting motion between shafts that are not parallel. They cannot handle a high load, and are used mainly for packaging.
