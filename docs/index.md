@@ -20,7 +20,7 @@ We have different stage roles for each stage you are in the design process. This
 1. **The beginner roles**
 
     - 0 You have 0 design or CAD experience
-    - 1A You are setting up onshape and working on the gearbox projects
+    - 1A You are setting up Onshape and working on the gearbox projects
     - 1B You are working on the 1B projects and are familiarizing yourself with most of the tools used for CAD, as well as common FRC design practices.
     - 1C You are working on the robot projects, and are refining your skills and getting introduced to integration.
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.

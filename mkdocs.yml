@@ -133,3 +133,4 @@ plugins:
       background: none
       width: 90%
       shadow: true
+  - search
