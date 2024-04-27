@@ -1,3 +1,10 @@
+<meta property="og:title" content="CAD Examples">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.frcdesign.org/cad-examples/">
+<meta property="og:description" content="Our collection of various CAD Examples">
+<meta name="theme-color" content="#4CAE4F">
+<meta name="twitter:card" content="summary_large_image">
+
 <style>
 
 img{

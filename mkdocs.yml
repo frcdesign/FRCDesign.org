@@ -1,4 +1,4 @@
-site_name: DDS Manual
+site_name: FRCDesign.org
 theme:
   name: material
   features:
@@ -30,7 +30,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to Dark Mode
       primary: green
-      accent: white
+      accent: black
   icon:
     logo: fontawesome/solid/book-open
   
@@ -49,13 +49,17 @@ nav:
   - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
-    - Stage 0: design-guide/stages/0.md
-    - Stage 1AA: design-guide/stages/1aa.md
-    - Stage 1A: design-guide/stages/1a.md
-    - Stage 1B: design-guide/stages/1b.md
-    - Stage 1C: design-guide/stages/1c.md
-    - Stage 1D: design-guide/stages/1d.md
-    - Stage 2 Intermediate: design-guide/stages/2a.md
+    - Stage 0: 
+      - "A: Introduction to CAD": design-guide/stages/stage0/0A-introductionToCAD.md
+      - "B: Onshape Setup": design-guide/stages/stage0/0B-setup.md
+      - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
+      - "D: Theory": design-guide/stages/stage0/0D-theory.md
+    - Stage 1:
+      - Stage 1A: design-guide/stages/stage1/1a.md
+      - Stage 1B: design-guide/stages/stage1/1b.md
+      - Stage 1C: design-guide/stages/stage1/1c.md
+      - Stage 1D: design-guide/stages/stage1/1d.md
+    - Stage 2 Intermediate: design-guide/stages/stage2/2a.md
   
   - Design Challenges:
     - design-challenge/index.md
@@ -129,3 +133,4 @@ plugins:
       background: none
       width: 90%
       shadow: true
+  - search

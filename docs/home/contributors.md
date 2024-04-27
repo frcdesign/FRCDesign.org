@@ -1,6 +1,6 @@
 # Contributors
 
-DDS Manual would not happen without the wonderful work of these people!
+FRCDesign.org would not happen without the wonderful work of these people!
 
 ## Manual Writers
 - David
