@@ -24,6 +24,8 @@
 
 *[Deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
 
+*[Deadaxles]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
+
 *[deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
 
 *[Liveaxle]: A type of axle setup where the main torque transfer is through the axle.
