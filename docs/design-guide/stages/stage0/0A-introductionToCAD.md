@@ -67,10 +67,19 @@ Onshape is more easily accessible to people, especially high schoolers with limi
 ### Organization
 Instead of files, Onshape uses documents that keep everything related to a project (e.g. a whole subsystem) in the same place, as opposed to having to keep track of many separate files that could possibly corrupt and cause you to lose data. 
 
+<figure markdown="span">
+    ![structure](../../img/introcad/structure.png)
+</figure>
+
 ### Features
 Onshape has many features that benefit the FIRST Robotics design process and workflow, even disregarding the other topics mentioned. The design of the software itself encourages top-down design (where the general overview and architecture of a product are defined first, and the details are defined based on that), which makes team collaboration around a robot design easier. 
 
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
+
+<figure markdown="span">
+    ![mkcad](../../img/introcad/mkcad.png)
+</figure>
+
 
 ## Other Softwares?
 
