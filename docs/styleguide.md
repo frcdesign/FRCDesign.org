@@ -6,7 +6,7 @@ Don’t deal in absolutes.
 - Only a Sith deals in absolutes
 - Use pros/cons lists to compare options
 - Explain WHY something is good or bad
-  - For example, we all know dead axle pivots are better than live axel. But don’t just say they’re better, say: "Dead axles have a higher second moment of area as the torque being directly transferred to the part. As a result your pivot is significantly more robust and less prone to breaking.
+  - For example, we all know dead axle pivots are better than live axle. But don’t just say they’re better, say: "Dead axles have a higher second moment of area as the torque being directly transferred to the part. As a result your pivot is significantly more robust and less prone to breaking.
 ”
   - Similarly, we know the Kraken motors are generally good. But explain why they are good, e.g. “We would recommend using Krakens on your drivetrain because they are extremely high torque motors and will improve your acceleration. In addition, they have integrated Talon FX motor controllers that make them easier to wire and feature a high resolution encoder which will help the precision of your swerve odometry. Keep in mind that Kraken motors are not yet compatible with stock REV Maxswerve modules and require an extra adaptor from WCP to mate with other existing modules.”
 - Still emphasize that teams are free to explore and innovate, but help set realistic expectations (see the following point)
