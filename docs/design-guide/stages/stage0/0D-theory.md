@@ -19,9 +19,20 @@ table tr:hover{
     height: auto;
 }
 
+.right{
+    float:right;
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+
 </style>
 
-# Stage 1A: Theory
+# 0D: Theory
 
 As you probably know, CAD is a tool used to design parts digitally before they are manufactured. Most of our documentation will focus on FRC-specific CAD practice. However, to get started with Onshape, it’s important to understand some basic theory.
 
@@ -63,36 +74,8 @@ Remember: One “part studio” can have multiple, even many different parts. We
 
 Now that you understand the fundamentals of CAD, It’s important to learn how to use the sketching tools and part design features in Onshape. Good luck!
 
-## Onshape Courses
-Please complete these courses before proceeding.
-
-[Introduction to Sketching Course](https://learn.onshape.com/courses/introduction-to-sketching)<br>
-[Part Design Course](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
-
-!!! tip
-    Feel free to ask for help in the beginner channels in the DDS Discord Server.
-
-After completing these courses its still best to practice before moving further. Here are a variety of parts you can model to practice your sketching and modeling skills. 
-
-## CADvent Part Gallery
-<figure markdown>
-![](../../../img/design-guide/stage1a/cadvents/cadvent1.webp){data-gallery="cadvent" width=75% height=75%}
-<figcaption>Drawings made by AndrewD8724</figcaption>
-</figure>
-![](../../../img/design-guide/stage1a/cadvents/cadvent2.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent3.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent4.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent5.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent6.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent7.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent8.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent9.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent10.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent11.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent12.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent13.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent14.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent15.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent16.webp){data-gallery="cadvent" hidden="hidden"}
-
-Good job learning part design! It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
+<br>
+<center>0D: Theory</center> 
+<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1a.md)</span>
+<br>
+<br>
