@@ -55,7 +55,7 @@ After completing the learning courses its still best to practice before moving f
 
 Good job learning part design! It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
 
-## Multi-Part Modeling Theory:
+## Multi-Part Modeling Theory
 
 Now that you’ve modeled a single part and played around with sketches. We’ll be introducing a new concept. Multi-part part studios.
 
