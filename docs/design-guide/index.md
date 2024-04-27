@@ -1,18 +1,18 @@
-# Introduction to Onshape and FRC Design (stage 0)
+# FRC Design Guide and Curriculum
 
 Welcome to the DDS design guide! This guide is in progress, so if you have difficulty understanding something, please give us feedback as soon as possible!
 
 This design guide assumes you know about FRC and have gone through at least a season of FRC. As this guide develops, we hope to cover absolute beginners, but for now this helps keep the project a bit more feasible. We'll cover getting Onshape set up and all the various tools you need at first, then start working immediately on projects which help build your CAD skills while gradually introducing design principles.
 
-Although heavily recommended to go through for now, the aim is to replace the Onshape Learning center in which you can just go through this guide to learn both Onshape and FRC design. 
+Although heavily recommended to go through for now, the aim is to replace the [Onshape Learning Center](https://learn.onshape.com/). Eventually, you will be able to just go through this guide to become both proficient at using Onshape and at designing good robots for FRC.
 
-Instead of covering random parts and tools that you might not use, everything here uses parts and skills that you'd immediately use in season.
+Instead of covering random features and tools that you might not use in FRC, this curriculum focuses on using features and skills that would be beneficial to use in an FRC context. After the fundamentals for sketching and part design are learned, it focuses very heavily on guided projects, slowly becoming more open-ended.
 
- Let's cover the beginner stages:
+Let's cover the beginner stages:
 
 ### [Stage 0](stages/stage0/0A-introductionToCAD.md)
 
-If you haven't touched Onshape before, you are in this stage. Luckily this stage is short. You just need to set up everything according to the guide and we can move onto stage 1A. 
+Stage 0 is for people that haven't touched CAD or Onshape before. It includes an in-depth introduction to CAD to read or skim through, a walkthrough to setup your Onshape account and add the tools you need to continue with the curriculum, a guide on navigating Onshape and the difference between part studios and assemblies, and some basic CAD theory that will help develop a good mindset. After this stage you can move onto the next one and actually start learning and practicing your skills. 
 
 ### [Stage 1A](stages/stage1/1A-sketchingPartDesign.md)
 
