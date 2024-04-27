@@ -117,6 +117,7 @@ nav:
       
   - Featurescripts : featurescripts.md
   - Simplfied parts: simplified.md
+  - Contribute to the Guide!: styleguide.md
   - Configurables: configurables.md
 
 markdown_extensions:
