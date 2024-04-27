@@ -21,7 +21,7 @@ table tr:hover{
 
 </style>
 
-# Stage 1A: Theory
+# 0D: Theory
 
 As you probably know, CAD is a tool used to design parts digitally before they are manufactured. Most of our documentation will focus on FRC-specific CAD practice. However, to get started with Onshape, it’s important to understand some basic theory.
 
