@@ -22,7 +22,6 @@ A power transmission is the transfer of rotational or linear motion from one sys
 
 - Belts are lightweight and drive high speed mechanisms extremely well.
 - In FRC, most common belt type is HTD5, and GT2 are the second most common.
-  - Difference between the belts are the tooth profile, (GT2) has its belt teeth centers 2mm apart, while HTD5 Has their toothprofiles 5mm apart. 
 
 <figure markdown="span">
 ![Belt](../../img/mechanism-fundamentals/belt.png){height=50% width=50%}
@@ -30,6 +29,7 @@ A power transmission is the transfer of rotational or linear motion from one sys
 <figcaption> Difference between GT2 and HTD5 is the tooth profile, as GT2 tooth profile has teeth that are spaced 3mm apart from each other, whereas HTD5 teeth are spaced 5mm apart. 
 </figcaption>
 When designing belts, you need to use a calculator such as ReCalc's [belt-calculator](https://www.reca.lc/belts) to figure out the correct belt center to center, otherwise your belts may be over tensioned, or have too much slack. 
+
 
 <p style="font-size:1rem;">Chain</p>
 - Chains are heavy duty and handle high torque, but need to be tensioned unlike belts.
@@ -39,11 +39,17 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
     - 25H:
         - 25H Chain stands for Hardened #25, which means that the plates on the chain are thicker.This means that its a bit stronger than the 25 chain. 
     - 35:
-        - 35 Chain is the strongest chain there is, and breaking this is a bit challenging (unless you're 1119). Best use case is heavy pivots. 
+        - 35 Chain is the strongest chain there is, and breaking this is a bit challenging. Best use case is heavy pivots. 
 <figure markdown="span">
 ![chain](../../img/mechanism-fundamentals/chain.png){height=50% width=50%}
 </figure>
-How To Tension Chain:
+
+<p style="font-size:1rem;">What is Backlash:</p>
+- Backlash is when there is a gap between the teeth of gears or threads, which allows them to move slightly before actually engaging fully. This results in a delay in the motion when moving, and its extremely problematic as it introduces errors in positioning, affects the repeatability of your systems, and the systems response time is a bit slower. 
+
+- How to eliminate backlash:
+    - To minimize backlash in your system, you need to ensure that your chains are properly tensioned, or use a belt setup as your final reduction. When you assemble gearboxes apply [shim tape](https://www.mcmaster.com/products/shims/shim-tape-6/). In FRC, the hex shafts are not all the exact same size, and this causes slop between the gear and shaft, and in gearboxes this slop accumulates. The way that 4414 shims all their position controlled subsystems is by cutting strips around 1.5x the width of the actual gear, and then apply the tape onto 1-2 faces depending on the tolerance of the shaft.
+<p style="font-size:1rem;">How To Tension Chain:</p>
     
   - Turnbuckle:
       - A turnbuckle is a device that is used to attach to two links, and tighten the chain together to keep the chain tensioned. 
@@ -90,12 +96,19 @@ How To Tension Chain:
 - A rack and pinion is a system where a larger gear is driven by a smaller gear, and it is used a lot for hooded shooters like 1678 in 2022. You get a higher degree of control, but this system cannot handles a large amount of load. 
 
 <figure markdown="span">
-![citrusHood](../../img/mechanism-fundamentals/citrusHood.png){height=50% width=50%}
+  ![GIF Example](../../img/mechanism-fundamentals/rackPinion.gif)
 </figure>
 
-Winch 
+
+
+<p style="font-size:1rem;">Winch:</p>
   - A  winch is a mechanical device that is used to wind up or wind out ropes or cable, and typically consists of a drum or spool around which the rope is swound and a handle or a motor that is used to rotate the drum, and it is used traditionally in telescoping arms and other climbers.
 <figure markdown="span">
-![winch](../../img/mechanism-fundamentals/winch.webp){height=75% width=75%}
+![winch](../../img/mechanism-fundamentals/winch.png){height=75% width=75%}
 </figure>
 
+<p style="font-size:1rem;">Linear Actuator:</p>
+  - Linear actuators are good for precise linear motion. They work by converting rotational motion into linear motion using a lead screw, and you get a very high degree of control and precision. 
+<figure markdown="span">
+![winch](../../img/mechanism-fundamentals/linearAct.png){height=75% width=75%}
+</figure>
