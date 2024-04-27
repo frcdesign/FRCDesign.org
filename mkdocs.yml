@@ -56,7 +56,9 @@ nav:
         - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
         - "D: Theory": design-guide/stages/stage0/0D-theory.md
       - Stage 1:
-        - A: design-guide/stages/stage1/1.md
+        - "A: Sketching & Part Design": design-guide/stages/stage1/1A-sketchingPartDesign.md
+        - "B: Swerve Drivebase": design-guide/stages/stage1/1B-swerveDrivebase.md
+        - "C: Gearbox Projects": design-guide/stages/stage1/1C-gearboxes.md
       - Stage 2:
         - A: design-guide/stages/stage2/2.md
       - Stage 3: 

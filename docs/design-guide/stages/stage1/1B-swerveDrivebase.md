@@ -1,56 +1,4 @@
-# Beginner Stage 1A 
-Welcome to stage 1A! In this short stage you're learning the basic tools and how they work. Through these projects you will learn how to use some of basic tools, as well as some of the core parts in FRC and how they go together. The focus on this guide is primarily to familiarize yourself and build CAD skills within an FRC context. We'll try to explain how various parts throughout the process, but please use the discord if you have any questions!  
-
-
-## Sketching & Part Design
-If you have a bit of prior experience with using Onshape's tools, you can skip the learning courses and polish your sketching and part design using a few CADvent drawings. Otherwise, please do the learning courses first; they help set a very good foundation for an efficient workflow.
-
-### Onshape Courses
-
-[Introduction to Sketching Course](https://learn.onshape.com/courses/introduction-to-sketching)<br>
-[Part Design Course](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
-
-These learning courses can help both old and new designers learn a good workflow for sketching and part design, and don't take that long to finish.
-
-### CADvent Part Gallery
-After completing the learning courses its still best to practice before moving further. Here are a variety of parts you can model to practice your sketching and modeling skills. 
-
-!!! tip
-    Feel free to ask for help in the beginner channels in the DDS Discord Server.
-
-<figure markdown>
-![](../../../img/design-guide/stage1a/cadvents/cadvent1.webp){data-gallery="cadvent" width=75% height=75%}
-<figcaption>Drawings made by AndrewD8724</figcaption>
-</figure>
-![](../../../img/design-guide/stage1a/cadvents/cadvent2.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent3.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent4.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent5.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent6.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent7.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent8.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent9.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent10.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent11.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent12.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent13.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent14.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent15.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent16.webp){data-gallery="cadvent" hidden="hidden"}
-
-Good job learning part design! It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
-
-### Mutli Part Modeling Theory:
-
-Now that you’ve modeled a single part and played around with sketches. We’ll be introducing a new concept. Multi-Part studios.
-
-When designing in Onshape, you typically have 1 part studio for subassembly. We can’t do that yet, but the next couple of projects will slowly introduce you to this concept. 
-
-Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
-
-![Example](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve.webp){width=45% height=45%}
-
-## 1A Project #1 Swerve Drivebase
+# 1B: Swerve Drivebase Project
 
 For your first project, we’ll be making a swerve drive base. (Editor’s note: the use of unsimplified models is deliberate, will use simplfied models in 2B Project. )
 
@@ -191,15 +139,3 @@ Once you are done, change the appearance of all of your tubes to a color of your
 
 ![Untitled](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 24.webp){width=45% height=45%}
 
-## Gearbox 1
-This first gearbox introduces you to some basic ideas. By the end of this you should be able to design your first gearbox and be introduced to some of the tools used. 
-
-- Follow this tutorial
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OE-NVLBxm6I" frameborder="0" allowfullscreen></iframe>
-
-
-## Gearbox 2
-This second gearbox introduces you to some more featurescripts as well as some basic design fundamentals. After finishing these projects, we can graduate to stage 2A
-
-Copy [this](https://cad.onshape.com/documents/1ef59b4c1c6ce9b438a7f248/w/a304eda6ac26556966c0c717/e/2d10f5a1781383b66b5d3823?renderMode=0&uiState=662b66ab28f4ec312ac67424) Gearbox (The gearbox is broken plz fix later)
-- 
