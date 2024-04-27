@@ -1,3 +1,16 @@
+<style>
+.right{
+    float:right;
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # 0B: Onshape Setup
 
 ## Registering for Onshape
@@ -80,3 +93,9 @@ Featurescripts are custom features coded by members of the community, and are of
 </details>
 
 Once you have that done, you are ready for the next stage!
+
+<br>
+<center>B: Onshape Setup</center> 
+<span class="left">[< A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[C: Navigating Onshape >](0C-navigation.md)</span>
+<br>
+<br>

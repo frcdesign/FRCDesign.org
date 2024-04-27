@@ -1,3 +1,16 @@
+<style>
+.right{
+    float:right;
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # 0A: Introduction to CAD
 
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
@@ -64,3 +77,11 @@ There are also several community-made tools to help FRC teams, including an exte
 Onshape is only one of many CAD softwares. Many teams may choose not to use it because of prior student and mentor experience and resources with another software, or a workflow has already been established that works very well for a team with a different software. Onshape is by no means common in the engineering industry, so mentors are more likely to be able to guide a team well using other softwares. 
 
 Depending on the circumstances, Onshape may not be the best fit for a team; however, this guide focuses on Onshape because of the above mentioned reasons for why it's so good for FRC, and the abundant other resources made for using Onshape for FRC. Much of the design process itself and many of the mechanism fundamentals and glossary still apply though, no matter what CAD software you're using.
+
+
+<br>
+<center>A: Introduction to CAD</center> 
+<span class="left">[< Home](../../../index.md)</span> <span class="right">[B: Onshape Setup >](0B-setup.md)</span>
+<br>
+<br>
+

@@ -19,6 +19,17 @@ table tr:hover{
     height: auto;
 }
 
+.right{
+    float:right;
+}
+.center{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+
 </style>
 
 # 0D: Theory
@@ -63,4 +74,8 @@ Remember: One “part studio” can have multiple, even many different parts. We
 
 Now that you understand the fundamentals of CAD, It’s important to learn how to use the sketching tools and part design features in Onshape. Good luck!
 
-
+<br>
+<center>0D: Theory</center> 
+<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1a.md)</span>
+<br>
+<br>
