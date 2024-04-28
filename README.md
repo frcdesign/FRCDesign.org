@@ -8,7 +8,7 @@
 
 # Steps
 - To clone the github reposity right click your desktop and select "Git Bash Here"
-- From there you can execute ```git clone https://github.com/davidsdesignserver/docs.git```
+- From there you can execute ```git clone https://github.com/davidsdesignserver/dds-manual.git```
 - Close the current git bash window and open the cloned folder. It should be named "docs"
 - Right click in this folder and open git bash again.
 - Execute ```py -m venv venv```
