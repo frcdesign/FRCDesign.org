@@ -110,7 +110,7 @@ nav:
         - cad-examples/drivebase/index.md
         - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
         - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
-
+    
     - Design Standards:
       - design-standards/why-design-standards.md
       - design-standards/document-setup.md
@@ -119,14 +119,20 @@ nav:
       - design-standards/feature-tree-setup.md
       - design-standards/assembly-setup.md
       - design-standards/hardware-design-standards.md
+    
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
-      
-  - Featurescripts : featurescripts.md
-  - Simplified parts: simplified.md
-  - Contribute to the Guide!: styleguide.md
-  - Configurables: configurables.md
+    
+    - Featurescripts : featurescripts.md
+    - Simplified parts: simplified.md
+    - Configurables: configurables.md
+
+  - Contributor's Guide:
+    - Style Guide: contribution/styleguide.md
+    - Methods of Contributing: contribution/methodsOfContributing.md
+    - Contributors: contribution/contributors.md
+  
 
 markdown_extensions:
   - abbr
