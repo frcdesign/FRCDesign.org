@@ -60,10 +60,17 @@ nav:
         - "B: Swerve Drivebase": design-guide/stages/stage1/1B-swerveDrivebase.md
         - "C: Gearbox Projects": design-guide/stages/stage1/1C-gearboxes.md
       - Stage 2:
-        - A: design-guide/stages/stage2/2.md
+        - "A: Full Detail Drivebase": design-guide/stages/stage2/2A-drivebaseFullDetail.md
+        - "B: Basic Shooter": design-guide/stages/stage2/2B-basicShooter.md
+        - "C: Deadaxle Pivot": design-guide/stages/stage2/2C-deadaxlePivot.md
+        - "D: 2023 UTB Intake": design-guide/stages/stage2/2D-2023utbIntake.md
+        - "E: 2023 Pasta Roller Intake": design-guide/stages/stage2/2E-2023pastaRollerIntake.md
+        - "F: Four-bar Linkage": design-guide/stages/stage2/2F-fourbarLinkage.md
+        - "G: Cascade Elevator": design-guide/stages/stage2/2G-cascadeElevator.md
       - Stage 3: 
-        - A: design-guide/stages/stage3/3.1.md
-        - B: design-guide/stages/stage3/3.2.md
+        - "A: Multidoc & Mastersketching": design-guide/stages/stage3/3A-multidoc&MS.md
+        - "B: 973 2020 Robot": design-guide/stages/stage3/3B-973-2020.md
+        - "C: 973 2023 Robot": design-guide/stages/stage3/3C-973-2023.md
     - Intermediate Stages: design-guide/stages/stage4/4.md
   
   - Design Challenges:

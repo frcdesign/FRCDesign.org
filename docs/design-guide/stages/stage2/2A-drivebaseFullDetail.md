@@ -11,6 +11,8 @@
 }
 </style>
 
+<span class="right">[Design Guide Landing Page](../../index.md)</span>
+
 # Beginner Stage 2
 
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span>

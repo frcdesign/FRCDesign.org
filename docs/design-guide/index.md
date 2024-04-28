@@ -14,17 +14,17 @@ Let's cover the beginner stages:
 
 Stage 0 is for people that haven't touched CAD or Onshape before. It includes an in-depth introduction to CAD to read or skim through, a walkthrough to setup your Onshape account and add the tools you need to continue with the curriculum, a guide on navigating Onshape and the difference between part studios and assemblies, and some basic CAD theory that will help develop a good mindset. After this stage you can move onto the next one and actually start learning and practicing your skills. 
 
-### [Stage 1A](stages/stage1/1A-sketchingPartDesign.md)
+### [Stage 1](stages/stage1/1A-sketchingPartDesign.md)
 
-In this stage, you begin to learn how to design your first robot parts and chassis. We'll try to cover FRC specific tools that you need to immediately start making things you can use for your robots. We'll try to briefly cover all the core fundamentals you need.
+In this stage, you begin with learning the fundamentals of Onshape sketching and part design, then move onto guided projects (a swerve drivebase and two gearboxes) to teach you how to use tools, part studios, and assemblies in the context of FRC. We'll try to briefly cover all the fundamental FRC-specific tools that help speed up your workflow.
 
 
-### [Stage 1B](stages/stage1/1B-swerveDrivebase.md)
+### [Stage 2](stages/stage2/2.md)
 
 In stage 1B we continue to focus on covering more design skills and concepts while we practice our CAD skills. There will be less new CAD concepts introduced here while we introduce 1-2 design concepts per project. By the end of this stage you should be significantly more comfortable using Onshape as well as have an understanding of the parts required to design a robot and how they all go together. 
 
 
-### [Stage 1C](stages/stage1/1C-gearboxes.md)
+### [Stage 3](stages/stage3/3A-multidoc&MS.md)
 
 You've finished the Stage 1B Projects and are comfortable with the tools required to design a robot. We're transitioning to focusing on the design aspects, with the introduction to Master Sketching and high level design practices and workflows.
 
