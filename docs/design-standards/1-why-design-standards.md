@@ -1,4 +1,17 @@
+<style>
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # CAD Best Practices: Why?
+
+<span class="right">[Document Setup >](2-document-setup.md)</span>
+<br>
 
 In this guide we will document CAD and FRC design best practices. Generally, measures such as these are taken for the following reasons:
 

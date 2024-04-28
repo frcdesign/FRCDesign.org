@@ -13,7 +13,7 @@
 
 # 1C: Gearbox Projects
 
-<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2 >](../stage2/2.md)</span>
+<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[2A: Full Detail Drivebase >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
 ## Gearbox 1
@@ -31,6 +31,6 @@ Copy [this](https://cad.onshape.com/documents/1ef59b4c1c6ce9b438a7f248/w/a304eda
 
 <br>
 <center>1C: Gearbox Projects</center> 
-<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2 >](../stage2/2.md)</span>
+<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[2A: Full Detail Drivebase >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 <br>
