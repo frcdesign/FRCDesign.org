@@ -50,3 +50,7 @@ abbr {
 :root {
 --md-accent-fg-color: rgb(76, 174, 79) !important; 
 }
+
+.md-typeset .md-button--primary {
+  margin-top: 0.5rem;
+}
