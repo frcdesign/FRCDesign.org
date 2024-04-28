@@ -123,10 +123,11 @@ nav:
       - mechanism-fundamentals/index.md
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
       
-  - Featurescripts : featurescripts.md
-  - Simplified parts: simplified.md
+    - Featurescripts : featurescripts.md
+    - Simplified parts: simplified.md
+    - Configurables: configurables.md
+    
   - Contribute to the Guide!: styleguide.md
-  - Configurables: configurables.md
 
 markdown_extensions:
   - abbr
