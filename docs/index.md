@@ -22,7 +22,7 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 ## Stage Roles
 We have different stage roles for each stage you are in the design process. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, I recommend selecting the beginner role. 
 
-### **The beginner roles**
+### **The Beginner Roles**
 
 0. You have 0 design or CAD experience, and are setting up Onshape and are getting introduced to CAD Fundamentals
 1. You are learning sketching and are working on your first 1A Projects
@@ -34,7 +34,7 @@ We have different stage roles for each stage you are in the design process. This
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
 ### **Intermediate Designer**
-Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In these stages, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
 
 Possible intermediate stages  
 
@@ -42,7 +42,7 @@ Possible intermediate stages
 
 6. The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
 
-### **Advanced designer**
+### **Advanced Designer**
   1. Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. The guide may be updated to advanced designer in the future. 
 
 ## Core Members
