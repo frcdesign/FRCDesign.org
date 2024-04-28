@@ -219,7 +219,25 @@ Below is a collection of featurescripts we recommend you add to aid your design 
 
 **Polybelt Generator**
 
-  - Generates polycord and pulleys based off of selected points
+  - Generates polycord and pulleys based off of selected points'
+
+### [TLamp's Featurescripts](https://cad.onshape.com/documents/f46510f08cc311a34733cac2/v/f7f3a1c996c58466f6b88a37/e/8e9fbf1ac2f0980e4bc34951)
+
+**MechSketch**
+
+  - Incredibly useful, generates sketch profiles for a variety of things
+  - Profiles for COTS parts like Maxspline, TTB inserts, maxtube, motors, and the versa patern
+  - Profiles and holes for all electronics
+  - Profile generator for pulleys and a spur gears
+
+**CheeseIt!**
+
+  - Advanced lightening pattern generation
+  - Isogrid, hexagon, or circle pattern
+
+**PatchIt!**
+
+- Patches specified pockets in a part
 
 ### [Complex Belt Generator](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f)
 
