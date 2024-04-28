@@ -1,4 +1,17 @@
+<style>
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # Document Setup
+
+<span class="left">[< CAD Best Practices: Why?](1-why-design-standards.md)</span> <span class="right">[Sub-Document Setup >](3-sub-document-setup.md)</span>
+<br>
 
 In General, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
 

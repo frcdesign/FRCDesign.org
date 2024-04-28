@@ -2,9 +2,6 @@
 .right{
     float:right;
 }
-.center{
-    text-align:center;
-}
 
 .left{
     float:left;
