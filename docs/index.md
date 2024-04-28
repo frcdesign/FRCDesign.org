@@ -36,9 +36,9 @@ Feel free to select this if you are an intermediate designer! For veteran design
 
 Possible Intermediate Stages:
 
-- Stage 5: You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
+- Stage 4: You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
 
-- Stage 6: The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
+- Stage 5: The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
 
 ### **Advanced Designer**
 Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. The guide may be updated to advanced designer in the future. 
