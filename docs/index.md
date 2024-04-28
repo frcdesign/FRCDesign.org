@@ -22,22 +22,26 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 ## Stage Roles
 The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
 
-1. **The beginner roles**
+### **The Beginner Roles**
 
-    - 0: You have 0 design or CAD experience
-    - 1: You have set up Onshape and have started learning how to use the program
-    - 2: You have finished the swerve drivebase and gearboxes and have started familiarizing yourself with most of the CAD tools used for design, as well as common FRC design practices. You have started learning how to design mechanisms.
-    - 3: You have familiarized yourself with the program and several mechanisms and have started learning how the multi-document mastersketching workflow works, and how to make efficient mastersketches. You start learning integration and refine your skills and knowledge by working on replicating robots.
+- Stage 0: You have 0 design or CAD experience, and are setting up Onshape and getting introduced to CAD
+- Stage 1: You have set up Onshape and have started learning sketching and part design and are working on your first projects.
+- Stage 2: You have started familiarizing yourself with most of the CAD tools used for design, as well as common FRC design practices. You start to design your first mechanisms out of context and get introduced to the fundamental mechanisms.
+- Stage 3: You have familiarized yourself with the program and several mechanisms and have started learning how to make efficient mastersketches and the top-down design workflow for a full robot. You start integrating everything you know into two final "projects" which integrate multiple concepts into a robot.
 
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
-2. **Intermediate Designer**
+### **Intermediate Designer**
+Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In these stages, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
 
-    - Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish beginner curriculum above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+Possible Intermediate Stages:
 
-3. **Advanced designer**
+- Stage 5: You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
 
-    - Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and understand FRC design to a high level. 
+- Stage 6: The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
+
+### **Advanced Designer**
+Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. The guide may be updated to advanced designer in the future. 
 
 ## Core Members
 Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
