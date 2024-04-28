@@ -34,6 +34,10 @@ Examples
 
 7236 Recharged Green, Rover Ruckus, Misumi SAR3 -->
 
+### File Formats:
+- Use Webp using [squoosh](https://squoosh.app/)
+- Embed videos using a Youtube upload
+
 Adhere to brand standards when possible.
 
 - Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf)
@@ -46,3 +50,4 @@ Adhere to brand standards when possible.
 
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
 
+## Thanks to GM0 for the style guide reference

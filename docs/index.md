@@ -15,21 +15,28 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 ## Stage Roles
 We have different stage roles for each stage you are in the design process. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, I recommend selecting the beginner role. 
 
-1. **The beginner roles**
+### **The beginner roles**
 
-    - 0 You have 0 design or CAD experience
-    - 1A You are setting up Onshape and working on the gearbox projects
-    - 1B You are working on the 1B projects and are familiarizing yourself with most of the tools used for CAD, as well as common FRC design practices.
-    - 1C You are working on the robot projects, and are refining your skills and getting introduced to integration.
+0. You have 0 design or CAD experience, and are setting up Onshape and are getting introduced to CAD Fundamentals
+1. You are learning sketching and are working on your first 1A Projects
+2. You start designing your first mechanisms out of context and get introduced to the fundamental mechanisms
+3. You start learning master sketching and top down design, while practicing designing mechanisms semi related to each other. 
+4. You integrate everything you know into two final "projects" which integrate multiple concepts to result in a robot. 
+
+
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
-2. **Intermediate Designer**
+### **Intermediate Designer**
+Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
 
-    - Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+Possible intermediate stages  
 
-3. **Advanced designer**
+5. You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
 
-    - Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. 
+6. The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
+
+### **Advanced designer**
+  1. Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. The guide may be updated to advanced designer in the future. 
 
 ## Core Members
 Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
