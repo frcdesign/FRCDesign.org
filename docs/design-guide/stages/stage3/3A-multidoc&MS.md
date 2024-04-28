@@ -15,10 +15,15 @@
 
 # 3A: Multidoc Organization and Mastersketching
 
-<span class="left">[< 2: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2 >](../stage2/2.md)</span>
+<span class="left">[< 2G: Cascade Elevator](../stage2/2G-cascadeElevator.md)</span> <span class="right">[3B: 973 2020 Robot >](3B-973-2020.md)</span>
 <br>
 
 Welcome to stage 3A! In this stage we focus on the ideas of top down design and master sketching. 
 
-This is a WIP.
+WIP.
 
+<br>
+<center>3A: Multidoc Organization and Mastersketching</center> 
+<span class="left">[< 2G: Cascade Elevator](../stage2/2G-cascadeElevator.md)</span> <span class="right">[3B: 973 2020 Robot >](3B-973-2020.md)</span>
+<br>
+<br>

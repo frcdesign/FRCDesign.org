@@ -13,36 +13,17 @@
 
 <span class="right">[Design Guide Landing Page](../../index.md)</span>
 
-# Beginner Stage 2
+# 2A: Full Detail Drivebase
 
-<span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span>
+<span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
 <br>
 
 Welcome to stage 2! In this stage you will be focusing on familiarizing yourself with onshape and FRC design.
 
+WIP
 
-### Drivetrain Part 2 (Full Detail)
-
-
-
-### Basic Shooter 
-
-
-
-### Dead Axle Pivot
-
-
-
-### Under the bumper intake
-
-
-### 2023 Pasta Roller intake
-
-
-### Four Bar Linkage
-
-
-### Cascade Elevator (Out of Context)
-
-
-
+<br>
+<center>2A: Full Detail Drivebase</center> 
+<span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
+<br>
+<br>
