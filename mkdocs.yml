@@ -123,7 +123,7 @@ nav:
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
       
   - Featurescripts : featurescripts.md
-  - Simplfied parts: simplified.md
+  - Simplified parts: simplified.md
   - Contribute to the Guide!: styleguide.md
   - Configurables: configurables.md
 
