@@ -1,4 +1,17 @@
+<style>
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # Hardware Design Standards
+
+<span class="left">[< Assembly Best Practices](../pages/assembly-setup.md)</span> 
+<br>
 
 ## Materials
 
