@@ -1,5 +1,6 @@
 # Style Guide 
-(kindly borrowed and modified with permission from gm0)
+
+*Kindly borrowed and modified with permission from the [gm0 style guide](https://gm0.org/en/latest/docs/contributing/style-guide.html)*
 
 Don’t deal in absolutes.
 
@@ -11,7 +12,7 @@ Don’t deal in absolutes.
   - Similarly, we know the Kraken motors are generally good. But explain why they are good, e.g. “We would recommend using Krakens on your drivetrain because they are extremely high torque motors and will improve your acceleration. In addition, they have integrated Talon FX motor controllers that make them easier to wire and feature a high resolution encoder which will help the precision of your swerve odometry. Keep in mind that Kraken motors are not yet compatible with stock REV Maxswerve modules and require an extra adaptor from WCP to mate with other existing modules.”
 - Still emphasize that teams are free to explore and innovate, but help set realistic expectations (see the following point)
 
-FRCDesign.org is a guide from a competitive standpoint.
+FRCDesign.org is a guide **from a competitive standpoint**.
 - Try to leave out stuff that doesn’t work well and is unpopular; if it is popular it is worth explaining the disadvantages (See tank drive vs mecanum drive; explaining tank drive, as a relatively popular and simple drivetrain makes sense, but mecanum drive, a drivetrain that no longer makes sense in the era of swerve and has little-to-no pushing power or traction.)
 - Try to leave opinions out as much as possible. Do not speak authoritatively on stuff you do not have first-hand experience with whenever possible
 
@@ -34,6 +35,10 @@ Examples
 
 7236 Recharged Green, Rover Ruckus, Misumi SAR3 -->
 
+### File Formats:
+- Compress images to .webp format using [squoosh](https://squoosh.app/)
+- Embed longer videos using a Youtube upload, and shorter videos with a webm file
+
 Adhere to brand standards when possible.
 
 - Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf)
@@ -46,3 +51,4 @@ Adhere to brand standards when possible.
 
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
 
+## Thanks to GM0 for the style guide reference

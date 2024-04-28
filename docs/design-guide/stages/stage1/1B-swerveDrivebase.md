@@ -155,6 +155,32 @@ Once you are done, change the appearance of all of your tubes to a color of your
 
 ![Untitled](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 24.webp){width=45% height=45%}
 
+### Assemblies:
+
+Now that we have our chassis, we need to assemble it in an “Assembly” 
+
+Assemblies are where you assemble the final product. While in part studios, you create your parts, in assemblies, you assemble your parts into the final robot. 
+
+Something to note is that both assemblies and part studios have an origin. We will need to make sure that our parts are in the same place in both the origin and part studio. We can do this through an origin mate connector.
+
+Select the mate connector button on the top. 
+
+![Connector 1](\img\design-guide\stage1a\Stage 1A Swerve\Mate-Connector.webp){width=45% height=45%}
+
+Unhide the origin if it was hidden:
+
+![Connector 2](\img\design-guide\stage1a\Stage 1A Swerve\Mate-Connector 1.webp){width=45% height=45%}
+
+Follow the video below. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4jTYh0Rn5cU" frameborder="0" allowfullscreen></iframe>
+
+
+Select the origin entity as the origin, then the owner entity as the 2x2 tube. The 2x2 tube will now have an mate connector at the origin.
+
+Now that you have finished your part studio. You can follow this tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video instead of the text above. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe>
+
 <br>
 <center>1B: Swerve Drivebase</center> 
 <span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
