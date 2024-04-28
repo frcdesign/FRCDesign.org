@@ -8,7 +8,7 @@ Although heavily recommended to go through for now, the aim is to replace the [O
 
 Instead of covering random features and tools that you might not use in FRC, this curriculum focuses on using features and skills that would be beneficial to use in an FRC context. After the fundamentals for sketching and part design are learned, it focuses very heavily on guided projects, slowly becoming more open-ended.
 
-Let's cover the beginner stages:
+## Beginner Stages
 
 ### [Stage 0](stages/stage0/0A-introductionToCAD.md)
 
@@ -19,23 +19,21 @@ Stage 0 is for people that haven't touched CAD or Onshape before. It includes an
 In this stage, you begin with learning the fundamentals of Onshape sketching and part design, then move onto guided projects (a swerve drivebase and two gearboxes) to teach you how to use tools, part studios, and assemblies in the context of FRC. We'll try to briefly cover all the fundamental FRC-specific tools that help speed up your workflow.
 
 
-### [Stage 2](stages/stage2/2.md)
+### [Stage 2](stages/stage2/2A-drivebaseFullDetail.md)
 
-In stage 1B we continue to focus on covering more design skills and concepts while we practice our CAD skills. There will be less new CAD concepts introduced here while we introduce 1-2 design concepts per project. By the end of this stage you should be significantly more comfortable using Onshape as well as have an understanding of the parts required to design a robot and how they all go together. 
+In stage 2 we continue to focus on covering more design skills and concepts while we practice our CAD skills, but through isolated mechanisms. There will be fewer new CAD concepts introduced here, while we introduce 1-2 design concepts per project. By the end of this stage you should be significantly more comfortable using Onshape as well as have an understanding of the mechanisms that go into a robot and the workflow required to design those mechanisms. 
 
 
 ### [Stage 3](stages/stage3/3A-multidoc&MS.md)
 
-You've finished the Stage 1B Projects and are comfortable with the tools required to design a robot. We're transitioning to focusing on the design aspects, with the introduction to Master Sketching and high level design practices and workflows.
+After finishing the last stage, you should be comfortable with the tools required to design a robot. This stage transitions to higher level projects, first focusing on high-level design practices and workflows, like how to create effective mastersketches, then transitions into replicating simple robots using what you've learned about both the CAD and the mechanisms themselves. You will learn how the basic mechanisms integrate together and how to apply top-down design practices.
 
+## Intermediate Stages
 
-### Stage 1D 
-
-In stage 1D, we try to tackle the integration parts of design. In this stage, you're learning how basic mechanisms integrate together and are applying top-down design practices such as master sketching into the shooter and pick-and-place robot projects. By the end of these projects you should be comfortable with the CAD and design process and are ready to work on intermediate concepts
-
-
-### [Stage 2, Intermediate Stage](stages/stage2/2.md)
+### [Stage 4](stages/stage4/4.md)
 
 In this stage, you should be focusing primarily on mastering the design fundamentals to the point where they are natural. At this point you can be working on more advanced mechanisms and robots for more ambitious projects, or working on your speed gains to design robots faster. With a good optimal workflow you should be able to design a high quality mechanism in under 12 hours from scratch. Aim for faster, but the idea is that by this stage, build season becomes a lot more comfortable if you aren't working overtime to cad.
+
+^ This stage is a WIP
 
 
