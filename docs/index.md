@@ -20,23 +20,24 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 </figure>
 
 ## Stage Roles
-We have different stage roles for each stage you are in the design process. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, I recommend selecting the beginner role. 
+The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
 
 1. **The beginner roles**
 
-    - 0 You have 0 design or CAD experience
-    - 1A You are setting up Onshape and working on the gearbox projects
-    - 1B You are working on the 1B projects and are familiarizing yourself with most of the tools used for CAD, as well as common FRC design practices.
-    - 1C You are working on the robot projects, and are refining your skills and getting introduced to integration.
+    - 0: You have 0 design or CAD experience
+    - 1: You have set up Onshape and have started learning how to use the program
+    - 2: You have finished the swerve drivebase and gearboxes and have started familiarizing yourself with most of the CAD tools used for design, as well as common FRC design practices. You have started learning how to design mechanisms.
+    - 3: You have familiarized yourself with the program and several mechanisms and have started learning how the multi-document mastersketching workflow works, and how to make efficient mastersketches. You start learning integration and refine your skills and knowledge by working on replicating robots.
+
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
 2. **Intermediate Designer**
 
-    - Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+    - Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish beginner curriculum above. In this stage, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
 
 3. **Advanced designer**
 
-    - Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. 
+    - Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and understand FRC design to a high level. 
 
 ## Core Members
 Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
