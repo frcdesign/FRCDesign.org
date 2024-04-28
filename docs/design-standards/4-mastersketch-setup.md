@@ -1,4 +1,18 @@
+<style>
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+</style>
+
 # Master Sketch Best Practices
+
+<span class="left">[< Sub-Document Setup](3-sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](5-feature-tree-setup.md)</span>
+<br>
+
 Effective Mastersketcing requires you to stay organized. This means:
 
 - Multiple sketches, usually one per subsystem, within the Mastersketch part studio. Keep everything seperate!
