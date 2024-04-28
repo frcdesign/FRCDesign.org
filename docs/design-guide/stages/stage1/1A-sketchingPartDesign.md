@@ -11,7 +11,9 @@
 }
 </style>
 
-# 1A: Sketching & Part Design
+<span class="right">[Design Guide Landing Page](../../index.md)</span>
+
+# 1A: Sketching & Part Design 
 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
