@@ -10,7 +10,7 @@
 
 # Feature Tree Best Practices
 
-<span class="left">[< Master Sketch Best Practices](4-mastersketch-setup.md)</span> <span class="right">[Assembly Best Practices >](6-assembly-setup.md)</span>
+<span class="left">[< Master Sketch Best Practices](../pages/mastersketch-setup.md)</span> <span class="right">[Assembly Best Practices >](../pages/assembly-setup.md)</span>
 <br>
 
 In general, every part studio feature tree should start with a derive command, pulling down the relevant mastersketch. This is what you will build on. 

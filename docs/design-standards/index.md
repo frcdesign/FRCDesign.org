@@ -10,7 +10,7 @@
 
 # CAD Best Practices: Why?
 
-<span class="right">[Document Setup >](2-document-setup.md)</span>
+<span class="right">[Document Setup >](pages/document-setup.md)</span>
 <br>
 
 In this guide we will document CAD and FRC design best practices. Generally, measures such as these are taken for the following reasons:
@@ -31,3 +31,4 @@ Why standardize design?
 Essentially, standardizing practices on your FRC team helps to ease the requirement of institutional knowledge by making things "just work".
 !!! Note
     This is a living document.
+

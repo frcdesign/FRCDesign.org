@@ -10,12 +10,12 @@
 
 # Document Setup
 
-<span class="left">[< CAD Best Practices: Why?](1-why-design-standards.md)</span> <span class="right">[Sub-Document Setup >](3-sub-document-setup.md)</span>
+<span class="left">[< CAD Best Practices: Why?](../index.md)</span> <span class="right">[Sub-Document Setup >](../pages/sub-document-setup.md)</span>
 <br>
 
 In General, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
 
-To alleviate these challenges, we generally split FRC robots into several documents, each with an individudal version number:
+To alleviate these challenges, we generally split FRC robots into several documents, each with an individual version number:
 
 - "Concept" document: contains the mastersketch, which determines the overall architrcture and geometry for the robot, alongside the CrayonCAD
 - Several "Subsystem" documents, which contain the part studios, subassemblies and top-level assembly for each subsystem, such as an Intake

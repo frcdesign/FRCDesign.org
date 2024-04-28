@@ -10,7 +10,7 @@
 
 # Master Sketch Best Practices
 
-<span class="left">[< Sub-Document Setup](3-sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](5-feature-tree-setup.md)</span>
+<span class="left">[< Sub-Document Setup](../pages/sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](../pages/feature-tree-setup.md)</span>
 <br>
 
 Effective Mastersketcing requires you to stay organized. This means:
