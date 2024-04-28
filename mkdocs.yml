@@ -1,4 +1,5 @@
 site_name: FRCDesign.org
+repo_url: https://github.com/davidsdesignserver/dds-manual
 theme:
   name: material
   features:
