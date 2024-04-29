@@ -49,7 +49,7 @@ Windows installers will almost always need to be the 64-bit version if there is 
 
 **For Public Contributors:**
 
-1. Go [the repository website](https://github.com/davidsdesignserver/dds-manual)
+1. Go to [the repository website](https://github.com/davidsdesignserver/dds-manual)
 2. Click "Fork" near the top right, then click "Create Fork" on the next screen
 3. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
 4. Under "GitHub.com", select your forked ```[username]/dds-manual``` repository  and click "Clone"
