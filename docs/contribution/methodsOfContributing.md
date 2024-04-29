@@ -20,17 +20,43 @@ When you start on your work, you may choose to either:
 2. Work on an alternate platform such as Google Docs or Notion and let an internal contributor port it over to the website when you're done
 
 ## Setting up Github and VS Code For Contributing
-### Prerequisites
-- [Git Bash](https://git-scm.com/downloads)
-- [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)
-- [VSCode](https://code.visualstudio.com/)
-- [GitHub Desktop](https://desktop.github.com/)
+### Install Prerequisites
+Make sure to download the correct versions for the OS that you have (Windows, Mac, or Linux).
 
-### Steps
-- To clone the github repositoryy right click your desktop and select "Git Bash Here"
+Windows installers will almost always need to be the 64-bit version if there is a distinction.
+
+- The latest version of [Git Bash](https://git-scm.com/downloads)
+    - Follow instructions for your OS
+    - Use all default options for installation
+- [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) 
+    - When the installer opens, make sure to select "Add Python 3.10 to PATH" at the bottom and click "Install Now"
+    - For Windows users, you have the option of disabling the PATH length limit at the end; this can be helpful for other projects but is not required for contributing to the website
+- [VSCode](https://code.visualstudio.com/)
+    - Download the stable build for your OS
+    - Use all default options for installation, except creating a desktop icon if you want
+- [GitHub Desktop](https://desktop.github.com/)
+    - After installing, select "Sign in to GitHub.com"
+    - Sign in or sign up for a new GitHub account, then click "Authorize Desktop"
+        - If you choose to sign up, you must verify your account with a captcha at the end of the registration and an emailed code
+        - If the captcha fails, try disabling a privacy extension that might be interfering
+        - Set up the rest of your account (you may choose to sign up for GitHub education but that isn't required, the free version is fine)
+        - If it doesn't take you to the authorization page after signing up, go back to the GitHub Desktop application, press "Cancel", the select "Sign in to GitHub.com" again
+    - Allow your browser to open GitHub Desktop
+    - Click "Finish"
+    
+
+### Steps for Public Contributors
+
+1. 
+
+### Steps for Internal Contributors (added to the main repository)
+
+2. To clone the github repositoryy right click your desktop and select "Git Bash Here"
 - From there you can execute ```git clone https://github.com/davidsdesignserver/dds-manual.git```
 - Close the current git bash window and open the cloned folder. It should be named "docs"
 - Right click in this folder and open git bash again.
+
+### How to Get Local Preview Running:
 - Execute ```py -m venv venv```
 - Open the runlocal.sh file with git bash (./runlocal.sh)
 - If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:5800```
@@ -40,3 +66,6 @@ When you start on your work, you may choose to either:
 - Once inside you should be able to navigate to the bottom left branch icon and create a new branch to start working in.
 - Commits to branches other than main will not regenerate the site
 - Do not push to main without permission
+
+### Git Lingo
+
