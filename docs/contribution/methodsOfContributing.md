@@ -63,37 +63,52 @@ Windows installers will almost always need to be the 64-bit version if there is 
 
 **How to Write and Pull Request Contributions**
 
-1. Create a new branch by going to the "Current branch" dropdown at the top of GitHub Desktop, pressing "New branch", naming it and clicking "Create branch"
+1. Create a new branch by going to the "Current branch" dropdown at the top of GitHub Desktop, pressing "New branch", naming it and clicking "Create branch".
     - Typically you want to make changes in branches (not main), then do what's called a "pull request" to get those changes "pulled" and merged over to the original main branch
     - Name the branch something related to the overall changes you're making, e.g. "contributors-guide" or "3A-cleanup". You should expect to delete the branch after a pull request, so keep it specific enough to your changes
     - Make sure to publish the branch by clicking the button for it that shows up after you create a new branch
-2. Click "Open in Visual Studio Code" to open VS Code
-3. If you get a pop-up that says "Do you trust the authors of the files in this folder?", check the box next to "Trust the authors of all files in the parent folder 'GitHub'" (for no further popups when you clone repositories in the future) and click "Yes, I trust the authors"
-4. Set up VS Code how you like if this is your first time running it (themes, extensions)
+2. Click "Open in Visual Studio Code" to open VS Code.
+3. If you get a pop-up that says "Do you trust the authors of the files in this folder?", check the box next to "Trust the authors of all files in the parent folder 'GitHub'" (for no further popups when you clone repositories in the future) and click "Yes, I trust the authors".
+4. Set up VS Code how you like if this is your first time running it (themes, extensions).
     - The "Code Spell Checker" extension is suggested
     - Enable autosave in the ```file``` menu by toggling it on
-5. Make a set of changes
+5. Make a set of changes.
 
     !!! tip
         All the website files and folders are contained in the ```docs``` folder, except the ```mkdocs.yml``` file which contains the directory for the sidebar of the website
 
 6. Whenever you reach a good point to stop where you want to save your changes to the cloud, you want to make what's called a "commit", which is where the changes are saved to the branch. You then have to "push" any commits to get them uploaded to the cloud, otherwise they will remain local. You can do this through VS Code or GitHub Desktop, but we'll go through GitHub Desktop to keep all version control actions centralized there.
-7. Open Github Desktop and make sure "Changes" on the sidebar is selected. All changes selected in the sidebar will be added to the commit (the changes are "staged" for the commit). Type a summary of the commit (description optional) and press "Commit to [branch]"
+7. Open Github Desktop and make sure "Changes" on the sidebar is selected. All changes selected in the sidebar will be added to the commit (the changes are "staged" for the commit). Type a summary of the commit (description optional) and press "Commit to [branch]".
+8. Click the button to push the commit(s) you've made to the cloud (either up above or in the middle of the screen).
+
+    !!! tip
+        Clicking the "Fetch origin" button will fetch any commits to the current branch that anyone else has made and pushed to the cloud
+
+9. To keep your code up to date with the original repository's main branch, open the "branch" menu at the top of the screen and click "Update from main". If some commits get pulled to your branch from main, you can push to update your branch in the cloud again.
+
+    !!! tip
+        Make sure to update your branch from main frequently! If you don't, you may have to resolve big conflicts between your changes and changes someone else made to main. If you encounter conflicts, just follow the prompts in GitHub Desktop to open the conflicts in VS Code and solve them there. Once all conflicts are resolved, switch back to GitHub Desktop to complete the merge.
+
+10. Once you're satisfied enough with your set of changes to request to add them to the main website, and have committed all changes, checked for updates, and pushed all commits, create a pull request through the menu in the middle of GitHub Desktop. This will bring you to the website where you can describe the changes you made and want to pull to the website and assign an issue that it will fix. One of the internal contributors will review your pull request after you submit it and will either approve it and merge it with the main branch or make comments about things that need fixed before it can get merged.
+
+To recap the contribution steps, do the combination of creating and publishing a branch, making changes and commits, updating from main, pushing commits, and creating a pull request.
+
+
+### How to Get The Local Preview of the Website Running
+You can get a local hosted version of the website to have a live preview of the site while editing.
+
+1. Open the repository in VS Code (doesn't matter which branch)
+2. Toggle the bottom panel on if there isn't one with the shortcut ```Ctrl + J```
+3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
+4. Run the command ```py -m venv venv``` to create a virtual environment
+5. Run the command ```./runlocal.sh``` to install all needed python packages and start the server
 
 
 
+- If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
 
 
-### How to Get Local Preview Running
-- Execute ```py -m venv venv```
-- Open the runlocal.sh file with git bash (./runlocal.sh)
-- If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:5800```
-- This is a local hosted version of the website you use to have a live preview of the site while editing.
-- You can now open the "docs" folder inside of VSCode
-- The local preview of the site only updates when you save files, so turn on vscode auto save.
-- Once inside you should be able to navigate to the bottom left branch icon and create a new branch to start working in.
-- Commits to branches other than main will not regenerate the site
-- Do not push to main without permission
 
-### Git Lingo
+!!! Note
+    When you switch branches using GitHub Desktop, the local preview will follow without any problems
 
