@@ -47,7 +47,6 @@ extra:
 
 nav:
   - Home: index.md
-  - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
     - Beginner Stages:
@@ -110,24 +109,29 @@ nav:
         - cad-examples/drivebase/index.md
         - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
         - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
-
+    
     - Design Standards:
-      - design-standards/index.md
-      - "Document Setup": design-standards/pages/document-setup.md
-      - "Sub-Document Setup": design-standards/pages/sub-document-setup.md
-      - "Master Sketch Best Practices": design-standards/pages/mastersketch-setup.md
-      - "Feature Tree Best Practices": design-standards/pages/feature-tree-setup.md
-      - "Assembly Best Practices": design-standards/pages/assembly-setup.md
-      - "Hardware Design Standards": design-standards/pages/hardware-design-standards.md
+      - design-standards/why-design-standards.md
+      - design-standards/document-setup.md
+      - design-standards/sub-document-setup.md
+      - design-standards/mastersketch-setup.md
+      - design-standards/feature-tree-setup.md
+      - design-standards/assembly-setup.md
+      - design-standards/hardware-design-standards.md
+    
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
-      
+    
     - Featurescripts : featurescripts.md
     - Simplified parts: simplified.md
     - Configurables: configurables.md
-    
-  - Contribute to the Guide!: styleguide.md
+
+  - Contributor's Guide:
+    - Style Guide: contribution/styleguide.md
+    - Methods of Contributing: contribution/methodsOfContributing.md
+    - Contributors: contribution/contributors.md
+  
 
 markdown_extensions:
   - abbr

@@ -111,3 +111,4 @@ You can get a local hosted version of the website to have a live preview of the 
 
 !!! Note
     When you switch branches using GitHub Desktop, the local preview will follow without any problems
+
