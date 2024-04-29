@@ -9,6 +9,8 @@ To reduce load time and simplify geometry, simplified models are used in FRC. El
 
 [SDS MK4i](https://cad.onshape.com/documents/74a1bf8f7a46045267607c4b/w/7059f8f6e73752ad5eaa86a5/e/5b2158a4e78183d0a341fa10?configuration=Show_Wheel_Clearance%3Dtrue&renderMode=0&uiState=64e9c42c7e197c3823e28bbe)
 
+[SDS MK4N](https://cad.onshape.com/documents/c36fad2b95f69ff24529a4d1/w/d5a0d7213e2a3d1a4519352d/e/55d1c802981f0663f7c929ef)
+
 [MAXSwerve](https://cad.onshape.com/documents/c6cba0e83530ade4ce82e487/w/155deaf5be3745ad769f4ab3/e/d4c24a9eaa07a6419db74413)
 
 [SwerveX (Credit Astro from 6423)](https://cad.onshape.com/documents/af31193de8a1fc6ca0ee431b/w/4e316a76bb159b23f91ad7b5/e/bae875735b9376356389b5f9)
