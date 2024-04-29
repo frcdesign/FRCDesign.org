@@ -31,11 +31,17 @@ Pitch Diameter = number of teeth/20
 Gears always come in even increments, but you should check a COTS vendor to see what gears they provide. It should be under "20 DP gears" from West Coast Products, REV, or Andymark.
 
 Some common measurements we'll need to reference.
+
 0.196 inches = 10-32 bolt close fit hole. This is the most common hole in FRC
+
 1.127 inches = Rounded hex bearing hole. This size may change depending on your team's machining tolerances. Ask someone more experienced if they know, otherwise use this reference number.
+
 60mm = CIM class Motor Diameter (Kraken, Vortex, Neo, etc)
+
 2 inches = Motor Mounting Circle
+
 0.8 inches = Motor Center hole
+
 
 - Try to copy this gearbox or follow this tutorial
 [Gearbox](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b)
@@ -46,7 +52,9 @@ Some common measurements we'll need to reference.
 This second gearbox introduces you to some more featurescripts as well as some basic design fundamentals. After finishing these projects, we can graduate to stage 2A. Try to copy this and what you can learn. Ask questions in the discord about things you aren't clear about. 
 
 Check out these two videos which may help you design this gearbox:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9ckB7p3kp6c" frameborder="0" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fX-BLKZHsJM" frameborder="0" allowfullscreen></iframe>
 
 
