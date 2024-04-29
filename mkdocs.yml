@@ -47,7 +47,6 @@ extra:
 
 nav:
   - Home: index.md
-  - Contributors: home/contributors.md
   - Design Guide:
     - design-guide/index.md
     - Beginner Stages:
