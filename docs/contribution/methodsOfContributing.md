@@ -45,18 +45,46 @@ Windows installers will almost always need to be the 64-bit version if there is 
     - Click "Finish"
     
 
-### Steps for Public Contributors
+### Steps to Start Writing Contributions
 
-1. 
+**For Public Contributors:**
 
-### Steps for Internal Contributors (added to the main repository)
+1. Go [the repository website](https://github.com/davidsdesignserver/dds-manual)
+2. Click "Fork" near the top right, then click "Create Fork" on the next screen
+3. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
+4. Under "GitHub.com", select your forked ```[username]/dds-manual``` repository  and click "Clone"
+5. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
 
-2. To clone the github repositoryy right click your desktop and select "Git Bash Here"
-- From there you can execute ```git clone https://github.com/davidsdesignserver/dds-manual.git```
-- Close the current git bash window and open the cloned folder. It should be named "docs"
-- Right click in this folder and open git bash again.
+**For Internal Contributors (added to the main repository):**
 
-### How to Get Local Preview Running:
+1. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
+2. Under "GitHub.com", select the ```davidsdesignserver/dds-manual``` repository and click "Clone"
+3. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
+
+**How to Write and Pull Request Contributions**
+
+1. Create a new branch by going to the "Current branch" dropdown at the top of GitHub Desktop, pressing "New branch", naming it and clicking "Create branch"
+    - Typically you want to make changes in branches (not main), then do what's called a "pull request" to get those changes "pulled" and merged over to the original main branch
+    - Name the branch something related to the overall changes you're making, e.g. "contributors-guide" or "3A-cleanup". You should expect to delete the branch after a pull request, so keep it specific enough to your changes
+    - Make sure to publish the branch by clicking the button for it that shows up after you create a new branch
+2. Click "Open in Visual Studio Code" to open VS Code
+3. If you get a pop-up that says "Do you trust the authors of the files in this folder?", check the box next to "Trust the authors of all files in the parent folder 'GitHub'" (for no further popups when you clone repositories in the future) and click "Yes, I trust the authors"
+4. Set up VS Code how you like if this is your first time running it (themes, extensions)
+    - The "Code Spell Checker" extension is suggested
+    - Enable autosave in the ```file``` menu by toggling it on
+5. Make a set of changes
+
+    !!! tip
+        All the website files and folders are contained in the ```docs``` folder, except the ```mkdocs.yml``` file which contains the directory for the sidebar of the website
+
+6. Whenever you reach a good point to stop where you want to save your changes to the cloud, you want to make what's called a "commit", which is where the changes are saved to the branch. You then have to "push" any commits to get them uploaded to the cloud, otherwise they will remain local. You can do this through VS Code or GitHub Desktop, but we'll go through GitHub Desktop to keep all version control actions centralized there.
+7. Open Github Desktop and make sure "Changes" on the sidebar is selected. All changes selected in the sidebar will be added to the commit (the changes are "staged" for the commit). Type a summary of the commit (description optional) and press "Commit to [branch]"
+
+
+
+
+
+### How to Get Local Preview Running
 - Execute ```py -m venv venv```
 - Open the runlocal.sh file with git bash (./runlocal.sh)
 - If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:5800```
