@@ -10,6 +10,9 @@ Instead of covering random features and tools that you might not use in FRC, thi
 
 ## Beginner Stages
 
+!!! Tip
+    If you already have some experience with CAD in Onshape, specifically sketching and part design, you may skip to [Stage 1B](stages/stage1/1B-swerveDrivebase.md) for your first project and continue from there. It will help you start learning the preferred workflow to design mechanisms in Onshape.
+
 ### [Stage 0](stages/stage0/0A-introductionToCAD.md)
 
 Stage 0 is for people that haven't touched CAD or Onshape before. It includes an in-depth introduction to CAD to read or skim through, a walkthrough to setup your Onshape account and add the tools you need to continue with the curriculum, a guide on navigating Onshape and the difference between part studios and assemblies, and some basic CAD theory that will help develop a good mindset. After this stage you can move onto the next one and actually start learning and practicing your skills. 

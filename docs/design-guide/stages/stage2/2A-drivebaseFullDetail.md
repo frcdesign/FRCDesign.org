@@ -11,8 +11,6 @@
 }
 </style>
 
-<span class="right">[Design Guide Landing Page](../../index.md)</span>
-
 # 2A: Full Detail Drivebase
 
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
@@ -23,7 +21,7 @@ Welcome to stage 2! In this stage you will be focusing on familiarizing yourself
 WIP
 
 <br>
-<center>2A: Full Detail Drivebase</center> 
+<center>2A: FD Drivebase</center> 
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
 <br>
 <br>

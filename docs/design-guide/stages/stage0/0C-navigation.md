@@ -109,7 +109,7 @@ Every action by every user is saved in the history, and can be rolled back to or
 
 
 <br>
-<center>0C: Navigating Onshape</center> 
+<center>0C: Navigation</center> 
 <span class="left">[< 0B: Onshape Setup](0B-setup.md)</span> <span class="right">[0D: Theory >](0D-theory.md)</span>
 <br>
 <br>

@@ -11,8 +11,6 @@
 }
 </style>
 
-<span class="right">[Design Guide Landing Page](../../index.md)</span>
-
 # 1A: Sketching & Part Design 
 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
@@ -82,7 +80,7 @@ Use the techniques you have learned to design this part in-context. This time yo
 !!! tip
     When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
 <br>
-<center>1A: Sketching & Part Design</center> 
+<center>1A: Fundamentals</center> 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 <br>

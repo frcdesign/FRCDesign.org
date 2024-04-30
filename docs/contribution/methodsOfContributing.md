@@ -102,12 +102,12 @@ You can get a local hosted version of the website to have a live preview of the 
 3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
 4. Run the command ```py -m venv venv``` to create a virtual environment
 5. Run the command ```./runlocal.sh``` to install all needed python packages and start the server
+6. If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
 
+Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to edit.
 
-
-- If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
-
-
+!!! Tip
+    After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
 
 !!! Note
     When you switch branches using GitHub Desktop, the local preview will follow without any problems
