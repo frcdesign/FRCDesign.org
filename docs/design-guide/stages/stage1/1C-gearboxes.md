@@ -68,7 +68,7 @@ Gearbox CAD
 
 
 <br>
-<center>1C: Gearbox Projects</center> 
+<center>1C: Gearboxes</center> 
 <span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2 >](../stage2/2.md)</span>
 <br>
 <br>

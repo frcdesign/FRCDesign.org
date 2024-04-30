@@ -19,7 +19,7 @@
 WIP
 
 <br>
-<center>2F: Four-bar Linkage</center> 
+<center>2F: Four-bar</center> 
 <span class="left">[< 2E: 2023 Pasta Roller Intake](2E-2023pastaRollerIntake.md)</span> <span class="right">[2G: Cascade Elevator >](2G-cascadeElevator.md)</span>
 <br>
 <br>

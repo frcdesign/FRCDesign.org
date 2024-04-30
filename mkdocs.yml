@@ -48,7 +48,8 @@ extra:
 nav:
   - Home: index.md
   - Design Guide:
-    - design-guide/index.md
+    - Overview: 
+      - design-guide/index.md
     - Beginner Stages:
       - Stage 0: 
         - "A: Introduction to CAD": design-guide/stages/stage0/0A-introductionToCAD.md

@@ -13,7 +13,7 @@
 
 # 0A: Introduction to CAD
 
-<span class="left">[< Design Guide Landing Page](../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
+<span class="left">[< Design Guide Overview](../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
@@ -86,7 +86,7 @@ Depending on the circumstances, Onshape may not be the best fit for a team; howe
 
 
 <br>
-<center>0A: Introduction to CAD</center> 
+<center>0A: Intro to CAD</center> 
 <span class="left">[< Home](../../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 <br>

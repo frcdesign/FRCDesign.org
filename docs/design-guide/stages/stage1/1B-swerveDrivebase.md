@@ -182,7 +182,7 @@ Now that you have finished your part studio. You can follow this tutorial to do 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe>
 
 <br>
-<center>1B: Swerve Drivebase</center> 
+<center>1B: Drivebase</center> 
 <span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 <br>
