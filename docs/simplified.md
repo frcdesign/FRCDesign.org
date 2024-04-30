@@ -26,3 +26,7 @@ To reduce load time and simplify geometry, simplified models are used in FRC. El
 ## Motors
 
 [Motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117)
+
+## Electrical
+
+[PDH](https://cad.onshape.com/documents/595a547d64c848c8c8fe58d8/w/b721b7da4b7de64f1ba8d688/e/f4864d04a1856f663e320c03)
