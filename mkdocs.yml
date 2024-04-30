@@ -111,13 +111,13 @@ nav:
         - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
     
     - Design Standards:
-      - design-standards/why-design-standards.md
-      - design-standards/document-setup.md
-      - design-standards/sub-document-setup.md
-      - design-standards/mastersketch-setup.md
-      - design-standards/feature-tree-setup.md
-      - design-standards/assembly-setup.md
-      - design-standards/hardware-design-standards.md
+      - design-standards/index.md
+      - "Document Setup": design-standards/pages/document-setup.md
+      - "Sub-Document Setup": design-standards/pages/sub-document-setup.md
+      - "Master Sketch Best Practices": design-standards/pages/mastersketch-setup.md
+      - "Feature Tree Best Practices": design-standards/pages/feature-tree-setup.md
+      - "Assembly Best Practices": design-standards/pages/assembly-setup.md
+      - "Hardware Design Standards": design-standards/pages/hardware-design-standards.md
     
     - Mechanism Fundamentals:
       - mechanism-fundamentals/index.md
