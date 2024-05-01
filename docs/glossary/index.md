@@ -13,6 +13,9 @@ We know it can be hard learning each and every term thrown around in FRC design,
 `TTB`
 :   ["The Thrifty Bot"](https://www.thethriftybot.com/)
 
+`SDS`
+:   ["Swerve Drive Specialties"](https://www.swervedrivespecialties.com/)
+
 `Turnbuckle`
 :   A threaded part that goes in between chain links to tension the chain
 
@@ -135,3 +138,6 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `Softstop`
 :   A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.
+
+`packaging`
+:   The way in which you fit parts of your robot together in a space
