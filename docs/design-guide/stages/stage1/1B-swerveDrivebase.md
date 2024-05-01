@@ -62,7 +62,7 @@ To make things a bit easier, let’s also draw our wheels. Make a 3 inch rectang
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 4.webp"></center>
 
-Now, let’s make the whole thing construction (drag-select all the geometry created and press ```q```). We’ll be using this as a reference point to define the length and width of the square drivetrain. If we need to change the chassis dimensions, we can go back to “Robot Layout” and change it.
+Now, let’s make the whole thing construction (drag-select all the geometry created and press ```q```). We’ll be using this as a reference to define the length and width of the square drivetrain. If we need to change the chassis dimensions, we can go back to “Robot Layout” and change it.
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 5.webp"></center>
 
@@ -71,7 +71,7 @@ Now confirm the sketch by hitting the green checkmark in the sketch dialogue box
 
 ### Modeling the Box Tubes
 
-Now we’ll be modeling the drivetrain tubes using a top layout sketch. We’ll be ending with something that looks like this.
+Now we’ll be modeling the drivetrain tubes using a top layout sketch. We’ll be ending with something that looks like this:
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\Tubes.webp"></center>
 
@@ -97,7 +97,7 @@ If you remember previously, that point was the edge of your drivetrain which you
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\definedSketch.webp"></center>
 
-Use the offset tool and offset the square inwards by 1 inch, this will define the side of your drive rails.
+Use the offset tool and offset the square inwards by 1 inch; this will define the side of your drive rails.
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\offset.webp"></center>
 
@@ -105,7 +105,7 @@ Taking a look at the swerve drivetrain again, we can see there’s a cutout in e
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 11.webp"></center>
 
-Draw two lines, one horizontally constrained and one vertically constrained and dimension them 4.25 as shown on one of the corners
+Draw two lines, one horizontally constrained and one vertically constrained, and dimension them 4.25in away from the corner as shown.
 
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\cornerCutout.webp"></center>
 
@@ -181,6 +181,10 @@ Something to note is that both assemblies and part studios have an origin. We wi
 !!! Tip
     Make sure to show the origin in the feature list if it was hidden by hovering over the origin in the list and clicking the eye symbol.
 
+Select the mate connector button on the top. 
+
+<center><img src="\img\design-guide\stage1a\Stage 1A Swerve\Mate-Connector.webp"></center>
+
 Select the origin entity as the origin, then the owner entity as the 2x2 tube. The 2x2 tube will now have an mate connector at the origin.
 
 <details>
@@ -193,6 +197,19 @@ Select the origin entity as the origin, then the owner entity as the 2x2 tube. T
 Now that you have finished your part studio, you can follow this video tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video as opposed to text. 
 
 <center><iframe width="880" height="550" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe></center>
+
+Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
+
+## Conclusion
+You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
+
+The most important concept is how you can start with a layout sketch or two and build the entire rest of the part studio on top of those, meaning the part studio and assembly could change if you only changed the dimensions in the side layout sketch. This is what a top-down workflow is, and it allows you to create an outline first and slowly go into more detail, referencing the outline as you go.
+
+<center><img src="\img\design-guide\stage1a\Stage 1A Swerve\Assembly_1.webp"></center>
+
+Try changing the dimensions in the side layout sketch and seeing what happens to the part studio and assembly.
+
+Next, you'll learn how to sketch and assemble power transmission components in a few gearboxes.
 
 <br>
 <center>1B: Drivebase</center> 
