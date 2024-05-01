@@ -28,7 +28,7 @@ To connect these documents to each other, we make use of several Onshape feature
 
 Here is a diagram showing the full file structure:
 
-![](../img/design-standards/docsetup2.webp)
+<center>![Document Structure](../../img/design-standards/docsetup2.webp)</center>
 
 *Blue: Derive, Red: Import*
 
