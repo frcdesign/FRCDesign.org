@@ -156,7 +156,10 @@ Set the thickness to 0.125in, as 0.125in thickness is “thick wall” tubing. 0
 !!! Note
     As mentioned earlier, you can find this type of box tubing from various COTS vendors, which sell the pre-punched tubing for your convenience.
 
+<details>
+<summary>WCD Box Tubes</summary>
 <center><img src="\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve 23.webp"><figcaption>(Source: West Coast Products)</figcaption></center>
+</details>
 
 
 
