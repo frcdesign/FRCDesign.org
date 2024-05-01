@@ -25,7 +25,7 @@ Documents can be viewed and managed from the documents page. You can sort them w
 
 You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left.
 
-<center>![documentsPage](../../../img/design-guide/stage0/documentsPage.webp)</center>
+<center>![documentsPage](../../../img/design-guide/stage0/navigation/documentsPage.webp)</center>
 
 After signing in, you can use [this page](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1) in the learning center to explore the documents page.
 
@@ -49,12 +49,12 @@ A document has some defined regions that stay generally consistent in both main 
 - **Tab bar:** Organizes different tabs in the document. Can be sorted into folders. Add new folders and tabs to the document by clicking the plus on the bottom left.
 - **Left Side (Feature/Part/Instance/Mate List)**: Breaks down how parts/assembly was made.
 
-<center> ![documentNavigationLabeled](../../../img/design-guide/stage0/documentNavigationLabeled.webp) </center>
+<center> ![documentNavigationLabeled](../../../img/design-guide/stage0/navigation/documentNavigationLabeled.webp) </center>
 
 The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
 
 
-<center> ![mouseControls](../../../img/design-guide/stage0/mouseControls.webp) </center>
+<center> ![mouseControls](../../../img/design-guide/stage0/navigation/mouseControls.webp) </center>
 
 Onshape has persistent selection, which means each left click on a face or entity adds it to a selection group. Deselect by clicking an entity again or pressing the spacebar.
 

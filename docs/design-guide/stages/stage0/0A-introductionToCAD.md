@@ -27,7 +27,7 @@ Engineers mostly use parametric feature-based CAD, which includes programs like 
 
 SolidWorks is the industry standard for many companies, Autodesk Inventor is also widely used, and Fusion and Onshape are sometimes used in the industry but much more popular for hobbyists.
 <figure markdown="span">
-    ![formulaOne](../../../img/introcad/formula.jpg){height=75%, width=75%}
+    ![formulaOne](../../../img/design-guide/stage0/introcad/formula.jpg){height=75%, width=75%}
 </figure>
 
 
@@ -52,7 +52,7 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 
 
 <figure markdown="span">
-    ![bread](../../../img/introcad/bread.png){height=75%, width=75%}
+    ![bread](../../../img/design-guide/stage0/introcad/bread.png){height=75%, width=75%}
 </figure>
 
 ## Why Onshape for FRC?
@@ -74,7 +74,7 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
 <figure markdown="span">
-    ![mkcad](../../../img/introcad/mkcad.png){height=60%, width=60%}
+    ![mkcad](../../../img/design-guide/stage0/introcad/mkcad.png){height=60%, width=60%}
 </figure>
 
 

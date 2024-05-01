@@ -59,7 +59,7 @@ We hope you enjoyed learning the basics of part design in Onshape.
 
 It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
 
-## Multi-Part Modeling Theory
+## Multi-Part Modeling Practice
 
 Now that you’ve modeled a single part and played around with sketches. We’ll be introducing a new concept. Multi-part part studios.
 
@@ -67,13 +67,13 @@ When designing in Onshape, you typically have 1 part studio for subassembly. We'
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
-<center>![Example](\img\design-guide\stage1a\Stage 1A Swerve\1a-Swerve.webp){width=45% height=45%}</center>
+<center>![Example](\img\design-guide\stage1b\1a-Swerve.webp){width=45% height=45%}</center>
 
 For now however, you can get a small glimpse of this concept in the "bonus" part studio. As you can see, two aluminum box tubes have already been modelled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
 
 For this final 1A project, you will be challenged to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
-<center>![Example](\img\design-guide\stage1a\cadvents\8033-000-2024C_8.png){width=45% height=45%}</center>
+<center>![Example](\img\design-guide\stage1a\8033-000-2024C_8.png){width=45% height=45%}</center>
 
 Use the techniques you have learned to design this part in-context. This time you do not have a direct part drawing, so you'll have to reference the other parts in the part studio. Remember the Use tool: it's key here. Good luck!
 
