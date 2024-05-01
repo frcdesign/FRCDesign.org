@@ -97,6 +97,13 @@ Featurescripts are custom features coded by members of the community, and are of
 
 Once you have that done, you are ready for the next stage!
 
+## OPTIONAL: Onshape Educator Plan 
+Besides individual setup, if your team uses Onshape or are switching to it, one of your mentors or design leads should get the Educator plan and add all members to a "classroom". The Educator plan is free for FIRST teams and will make document management easier. It also provides a suite of features for all students added to the "classroom", such as simulation, release management, and classes/assignments. 
+
+We recommend you read the ChiefDelphi post linked below for a better overview and walkthrough to set it up for your team.
+
+[Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394)
+
 <br>
 <center>0B: Setup</center> 
 <span class="left">[< 0A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[0C: Navigating Onshape >](0C-navigation.md)</span>
