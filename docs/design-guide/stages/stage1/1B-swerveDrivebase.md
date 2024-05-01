@@ -170,29 +170,26 @@ Once you are done, change the appearance of all of your tubes to a color of your
 
 ## Assembly
 
-Now that we have our chassis, we need to assemble it in an “Assembly” 
+Now that we have the frame tubes, we need to insert them into the "assembly". You use part studios to design parts in reference to each other, and assemblies to define the position and motion of those parts and assemble the final product. Certain practices in the part studio can make assembly easier and faster; these are some of the best practices that are used in the guided projects and in the [best practices](../../../design-standards/index.md) section of the website.
 
-Assemblies are where you assemble the final product. While in part studios, you create your parts, in assemblies, you assemble your parts into the final robot. 
-
+### Origin Mate Connector
 Something to note is that both assemblies and part studios have an origin. We will need to make sure that our parts are in the same place in both the origin and part studio. We can do this through an origin mate connector.
 
-Select the mate connector button on the top. 
-
-![Connector 1](\img\design-guide\stage1a\Stage 1A Swerve\Mate-Connector.webp){width=45% height=45%}
-
-Unhide the origin if it was hidden:
-
-![Connector 2](\img\design-guide\stage1a\Stage 1A Swerve\Mate-Connector 1.webp){width=45% height=45%}
-
-Follow the video below. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4jTYh0Rn5cU" frameborder="0" allowfullscreen></iframe>
-
+!!! Tip
+    Make sure to show the origin in the feature list if it was hidden by hovering over the origin in the list and clicking the eye symbol.
 
 Select the origin entity as the origin, then the owner entity as the 2x2 tube. The 2x2 tube will now have an mate connector at the origin.
 
-Now that you have finished your part studio. You can follow this tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video instead of the text above. 
+<details>
+<summary>Video Tutorial</summary>
+  <center><iframe width="880" height="550" src="https://www.youtube.com/embed/4jTYh0Rn5cU" frameborder="0" allowfullscreen></iframe></center>
+</details>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe>
+
+### Assembling
+Now that you have finished your part studio, you can follow this video tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video as opposed to text. 
+
+<center><iframe width="880" height="550" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe></center>
 
 <br>
 <center>1B: Drivebase</center> 
