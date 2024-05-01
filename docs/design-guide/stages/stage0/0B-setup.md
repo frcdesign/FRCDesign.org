@@ -68,6 +68,9 @@ To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufactu
 
 Press "Subscribe", then "Get for Free". This will automatically add MKCad to your Onshape account.
 
+!!! Note
+    After subscribing, the MKCAD inserter won't show up in already open documents until you reload. This is a first-time thing though.
+
 <details>
 <summary>Video Tutorial</summary>
   <figure class="video_container">
