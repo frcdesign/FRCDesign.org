@@ -141,3 +141,6 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `packaging`
 :   The way in which you fit parts of your robot together in a space
+
+`backlash`
+:   'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
