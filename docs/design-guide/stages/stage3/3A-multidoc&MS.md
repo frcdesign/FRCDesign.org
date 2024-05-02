@@ -16,9 +16,9 @@
 <span class="left">[< 2G: Cascade Elevator](../stage2/2G-cascadeElevator.md)</span> <span class="right">[3B: 973 2020 Robot >](3B-973-2020.md)</span>
 <br>
 
-Welcome to stage 3A! In this stage we focus on the ideas of top down design and master sketching. 
+Welcome to stage 3! In this stage we focus on practicing top down design and master sketching. Best practices for robot document organization, part studios, and assemblies, are included in the [best practices](../../../design-standards/index.md) category. Please go through this before continuing with the section.
 
-WIP.
+Coming Soon
 
 <br>
 <center>3A: Top-Down Workflow</center> 

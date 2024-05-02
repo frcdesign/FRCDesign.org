@@ -19,7 +19,9 @@
 Though you can buy premade planetary gearboxes from vendors (which are still very good in a lot of use cases and packaging), custom gearboxes are typically more versatile in tight packaging situations, and can be tuned better to avoid backlash.
 [comment]: <> (Link to designing for control page for reducing backlash)
 
-## New Concepts
+## Before You Start
+
+### New Concepts
 **Motors:**
 
 - Spin! They add movement to your robot
@@ -48,9 +50,13 @@ Gears, belts, and chains are used to both transfer torque from one shaft/mechani
 
 - 0.196 inches = #10-32 bolt (hardware standard) close fit hole. As #10-32 hardware is standardized for most COTS parts, we try to exclusively use this except where stronger 1/4-20 bolts are needed
 - 1.127 inches = Rounded hex bearing hole. This size may change depending on your team's machining tolerances. Ask someone more experienced if they know, otherwise use this reference number.
-- 60mm = CIM class Motor Diameter (Kraken, Vortex, Neo, etc)
-- 2 inches = Motor Mounting Hole Circle
-- 0.8 inches = Motor Center hole
+
+**CIM Class Motor Dimensions**
+
+- Kraken, Vortex, Neo, CIM
+- 60mm = Motor diameter
+- 2 inches = Mounting hole circle
+- 0.8 inches = Center hole
 
 The pitch diameter is the diameter of the gear where if two pitch diameters are touching, allows the gears to perfectly mesh.
 
