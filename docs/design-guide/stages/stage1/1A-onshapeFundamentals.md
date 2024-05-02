@@ -230,24 +230,39 @@ In the drawing slideshow below are 16 CADvent drawings. To begin, make a copy of
 
 ## Multi-Part Modeling Practice
 
-Now that you’ve modeled a single part and played around with sketches. We’ll be introducing a new concept. Multi-part part studios.
+Now that you've had practice with sketching and part modeling, we’ll be introducing a new concept: multi-part part studios.
 
-When designing in Onshape, you typically have 1 part studio for subassembly. We're not there yet, but the next couple of projects will slowly introduce you to this concept. 
+When designing in Onshape, you typically have 1 part studio for subassembly. The next couple of projects will slowly introduce you to this concept. Take a look at [this page](../../../design-standards/pages/sub-document-setup.md) about sub-document best practices.
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
 <center>![Example](\img\design-guide\stage1b\1a-Swerve.webp){width=45% height=45%}</center>
 
-For now however, you can get a small glimpse of this concept in the "bonus" part studio. As you can see, two aluminum box tubes have already been modelled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
+In the "bonus" part studio, two aluminum box tubes have already been modeled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
 
-For this final 1A project, you will be challenged to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
+For this project, you have to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
 <center>![Example](\img\design-guide\stage1a\8033-000-2024C_8.png){width=45% height=45%}</center>
 
-Use the techniques you have learned to design this part in-context. This time you do not have a direct part drawing, so you'll have to reference the other parts in the part studio. Remember the Use tool: it's key here. Good luck!
+Use the techniques you have learned to design this part in-context. This time you do not have a direct part drawing, so you'll have to reference the other parts in the part studio. Remember the ```Use``` tool: it's key here. Good luck!
 
-!!! tip
+!!! Tip
     When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+
+## Assembly Mates
+The last thing to go over before we get into stage 1B, where you model a swerve drivebase, is the basic function of defining the position and motion of parts in an assembly. 
+
+When parts are inserted into an assembly, they free float. You can drag them around. The goal is to constrain the motion of all parts. There are few different ways to do this:
+
+- **Group**: Limits the relative motion between a group of parts to none
+- **Fix**: Fixes a part in space in the assembly (not recommended to use, not parametric)
+- **Mates**: Tools to limit degrees of freedom between parts, using "mate connectors", automatically generated (or manually created) points with axes on parts. You can align the axes or offset in any direction or rotation you want, and different types of mates constrain different degrees of freedom. The "Fasten" mate is the most common and easy one, and limits all degrees of freedom between two parts with a single mate.
+
+<center><img src="\img\design-guide\stage1a\mateConnectors.webp"></center>
+
+The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../../design-standards/pages/assembly-setup.md).
+
+
 <br>
 <center>1A: Fundamentals</center> 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
