@@ -66,7 +66,11 @@ Chain is used in applications where higher load is needed. Chain must be activel
 - "#25" chain: smaller, lower load
 - "#35" chain: heavier, higher load
 
-Read more about theese topics:
+Read more about these topics:
 
 Coming soon
 
+<br>
+<span class="left">[< Assembly Best Practices](../pages/assembly-setup.md)</span> 
+<br>
+<br>

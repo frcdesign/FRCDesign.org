@@ -13,14 +13,14 @@
 <span class="right">[Document Setup >](pages/document-setup.md)</span>
 <br>
 
-In this guide we will document CAD and FRC design best practices. Generally, measures such as these are taken for the following reasons:
+In this guide, we document best practices for Onshape CAD and design standards for FRC. 
 
-Why structure CAD?
+Reasons for these best practices include:
 
-- Keep loading times low for your CAD
-- Stay organized, so that making changes down the line is easier and more accessible
-- Encourage top-down design through document structure
-- Make CAD resistant to breaking
+- Keeping loading times low
+- Staying organized, so that making changes down the line is easier and more accessible
+- Encouraging top-down design through document structure
+- Making CAD resistant to breaking
 
 Why standardize design?
 
@@ -29,6 +29,7 @@ Why standardize design?
 - Reduce part cost - only invest in parts that work and last
 
 Essentially, standardizing practices on your FRC team helps to ease the requirement of institutional knowledge by making things "just work".
+
 !!! Note
     This is a living document.
 

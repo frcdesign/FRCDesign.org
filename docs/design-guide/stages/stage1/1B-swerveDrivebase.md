@@ -13,7 +13,7 @@
 
 # 1B: Swerve Drivebase Project
 
-<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 
 For your first project, we’ll be making a swerve drivebase using COTS parts. It is important to learn how to design a swerve drivebase since it is now the most commonly used competitive drivetrain in FRC, and everything you design goes on top of it. In this project we will go step-by-step as we introduce new concepts. 
@@ -228,6 +228,6 @@ Next, you'll learn how to sketch and assemble power transmission components in a
 
 <br>
 <center>1B: Drivebase</center> 
-<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 <br>

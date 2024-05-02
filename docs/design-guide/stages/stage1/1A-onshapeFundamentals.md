@@ -11,21 +11,31 @@
 }
 </style>
 
-# 1A: Sketching & Part Design 
+# 1A: Onshape Fundamentals
 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 
-Welcome to stage 1! Through these projects you will learn how to use some of basic tools, as well as some of the core parts in FRC and how they go together. The focus on this guide is primarily to familiarize yourself and build CAD skills within an FRC context. We'll try to explain how various parts throughout the process, but please use the discord if you have any questions!  
+Welcome to stage 1! Through these projects you will learn how to use some of basic tools, as well as some of the core parts in FRC and how they go together. The focus on this guide is primarily to familiarize yourself and build CAD skills within an FRC context. Please use the discord if you have any questions!
 
-If you have a bit of prior experience with using Onshape's tools, you can skip the learning courses and polish your sketching and part design using a few CADvent drawings. Otherwise, please do the learning courses first; they help set a very good foundation for an efficient workflow.
+!!! Note
+    If you have a bit of prior experience using Onshape's tools, you can skip the learning courses and polish your sketching and part design using a few CADvent drawings. Otherwise, please do the learning courses first; they help set a very good foundation for an efficient workflow.
 
-## Onshape Courses
+## Sketching and Part Design
 
-[Introduction to Sketching Course](https://learn.onshape.com/courses/introduction-to-sketching)<br>
-[Part Design Course](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
+The sketching and part design in Onshape is very similar to Inventor, but very different from SolidWorks. There are similarities in how it works, but if you just jump into designing things, you're likely to miss a crucial part of the workflow that will make your life much harder.
 
-These learning courses can help both old and new designers learn a good workflow for sketching and part design, and don't take that long to finish.
+[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles on the entire program, from document navigation and sketching all the way to advanced surface and sheet metal modeling. Its resources on specifically sketching and part design are incredibly useful for learning the fundamentals.
+
+Please complete these courses on the learning center to learn the fundamentals of Onshape part design. 
+
+- [Introduction to Sketching Course](https://learn.onshape.com/courses/introduction-to-sketching)
+- [Part Design Course](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
+
+!!! Note
+    The structure of the courses includes a few short videos and a practice per set of concepts, and don't take long to finish.
+
+These learning courses can help both old and new designers learn a good workflow for sketching and part design.
 
 ## CADvent Part Gallery
 After completing the learning courses its still best to practice before moving further. Here are a variety of parts you can model to practice your sketching and modeling skills. 
