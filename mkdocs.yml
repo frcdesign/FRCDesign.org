@@ -125,7 +125,7 @@ nav:
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
     
     - Featurescripts : featurescripts.md
-    - Simplified parts: simplified.md
+    - Simplified Models: simplified.md
     - Configurables: configurables.md
 
   - Contributor's Guide:
