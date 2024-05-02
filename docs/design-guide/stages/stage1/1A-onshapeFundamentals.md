@@ -5,11 +5,98 @@
 .center{
     text-align:center;
 }
-
 .left{
     float:left;
 }
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.25s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 </style>
+
 
 # 1A: Onshape Fundamentals
 
@@ -38,36 +125,108 @@ Please complete these courses on the learning center to learn the fundamentals o
 These learning courses can help both old and new designers learn a good workflow for sketching and part design.
 
 ## CADvent Part Gallery
-After completing the learning courses its still best to practice before moving further. Here are a variety of parts you can model to practice your sketching and modeling skills. 
+CADvent is an advent calendar where each day has a different CAD challenge, defined with a drawing (released by FRC Team 8724 on [ChiefDelphi](https://www.chiefdelphi.com/t/cadvent-2023-2024/446060)). We've picked some of these part drawings for extra sketching and part design practice, if you feel you need it. In the future, more FRC-specific part drawings will be added. 
 
-To begin, make a copy of the [CADvent practice document](https://cad.onshape.com/documents/6af40b750516bfd9d86b2203/w/1a10c33aa547ad764e1c876c/e/d57a1b029a59e3fa8c410591). Each part you make will go into a separate part studio. Some have already been set up, but you may make more if you want to do more practice parts. Stop before the "Bonus: Gusset" part studio!
+In the drawing slideshow below are 16 CADvent drawings. To begin, make a copy of the [CADvent practice document](https://cad.onshape.com/documents/6af40b750516bfd9d86b2203/w/1a10c33aa547ad764e1c876c/e/d57a1b029a59e3fa8c410591). Each part you make will go into a separate part studio. Some have already been set up, but you may make more if you want to do more practice parts. Use the dimensions in each drawing to guide the part. Stop before the "Bonus: Gusset" part studio! (That will be used in the next section.)
 
-!!! tip
-    Feel free to ask for help in the beginner channels in the DDS Discord Server.
+!!! Tip
+    Think about how to achieve the part in as little sketches and features as possible. Feel free to ask for tips (after trying it yourself) in the beginner channels in the DDS Discord Server.
 
-<figure markdown>
-![](../../../img/design-guide/stage1a/cadvents/cadvent1.webp){data-gallery="cadvent" width=75% height=75%}
-<figcaption>Drawings made by AndrewD8724</figcaption>
-</figure>
-![](../../../img/design-guide/stage1a/cadvents/cadvent2.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent3.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent4.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent5.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent6.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent7.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent8.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent9.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent10.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent11.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent12.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent13.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent14.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent15.webp){data-gallery="cadvent" hidden="hidden"}
-![](../../../img/design-guide/stage1a/cadvents/cadvent16.webp){data-gallery="cadvent" hidden="hidden"}
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-We hope you enjoyed learning the basics of part design in Onshape.
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent1.webp" style="width:100%">
+  </div>
 
-It’s now time to build on this knowledge with a more fundamental understanding of the FRC design workflow.
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent3.webp" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent4.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent5.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent6.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent7.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent8.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent9.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent10.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent11.webp" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent12.webp" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent13.webp" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent14.webp" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent15.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/img/design-guide/stage1a/cadvents/cadvent16.webp" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+</div>
+<br>
+
 
 ## Multi-Part Modeling Practice
 
@@ -94,3 +253,34 @@ Use the techniques you have learned to design this part in-context. This time yo
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 <br>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
