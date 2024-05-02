@@ -113,3 +113,7 @@
 *[backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
 
 *[Backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+*[parametric]:  Designed in a way that uses relationships between steps to maintain design intent
+
+*[Parametric]:  Designed in a way that uses relationships between steps to maintain design intent

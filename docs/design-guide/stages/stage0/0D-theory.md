@@ -34,7 +34,7 @@ table tr:hover{
 
 # 0D: Theory
 
-<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-sketchingPartDesign.md)</span>
+<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-onshapeFundamentals.md)</span>
 <br>
 
 As you probably know, CAD is a tool used to design parts digitally before they are manufactured. Most of our documentation will focus on FRC-specific CAD practice. However, to get started with Onshape, it’s important to understand some basic theory.
@@ -79,6 +79,6 @@ Now that you understand the fundamentals of CAD, It’s important to learn how t
 
 <br>
 <center>0D: Theory</center> 
-<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-sketchingPartDesign.md)</span>
+<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-onshapeFundamentals.md)</span>
 <br>
 <br>

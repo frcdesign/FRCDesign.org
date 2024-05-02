@@ -57,7 +57,7 @@ nav:
         - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
         - "D: Theory": design-guide/stages/stage0/0D-theory.md
       - Stage 1:
-        - "A: Sketching & Part Design": design-guide/stages/stage1/1A-sketchingPartDesign.md
+        - "A: Onshape Fundamentals": design-guide/stages/stage1/1A-onshapeFundamentals.md
         - "B: Swerve Drivebase": design-guide/stages/stage1/1B-swerveDrivebase.md
         - "C: Gearbox Projects": design-guide/stages/stage1/1C-gearboxes.md
       - Stage 2:
@@ -125,7 +125,7 @@ nav:
       - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
     
     - Featurescripts : featurescripts.md
-    - Simplified parts: simplified.md
+    - Simplified Models: simplified.md
     - Configurables: configurables.md
 
   - Contributor's Guide:

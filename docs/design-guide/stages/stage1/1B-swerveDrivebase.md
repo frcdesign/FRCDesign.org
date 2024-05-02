@@ -13,7 +13,7 @@
 
 # 1B: Swerve Drivebase Project
 
-<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 
 For your first project, we’ll be making a swerve drivebase using COTS parts. It is important to learn how to design a swerve drivebase since it is now the most commonly used competitive drivetrain in FRC, and everything you design goes on top of it. In this project we will go step-by-step as we introduce new concepts. 
@@ -58,7 +58,7 @@ Let’s define the length of the drivetrain. We can do this by dimensioning the 
 
 This means that our drivebase is 26 inches long.
 
-To make things a bit easier, let’s also draw our wheels. Make a 3 inch rectangle that is constrained horizontally to the origin (the wheel raises the drivetrain by 1.75 inches). We can then mirror the wheel to the other side by make a mirror line by drawing a line in the center and using the sketch mirror tool.
+To make things a bit easier to visualize, let’s also draw our wheels. Make a 3 inch rectangle that is constrained horizontally to the origin (the wheel raises the drivetrain by 1.75 inches). We can then mirror the wheel to the other side by make a mirror line by drawing a line in the center and using the sketch mirror tool.
 
 <center><img src="\img\design-guide\stage1b\1a-Swerve 4.webp"></center>
 
@@ -198,7 +198,22 @@ Now that you have finished your part studio, you can follow this video tutorial 
 
 <center><iframe width="880" height="550" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe></center>
 
+Notice how when inserting parts into the assembly, the process is:
+
+1. Add a mate connector to one of your rigid parts on the origin in your part studio
+2. Insert the whole part studio with the green checkbox so the origin is in the same place
+3. Use the "group" tool on all parts that don't move
+4. Fasten the mate connector to the origin
+5. Duplicate and fasten any duplicate parts
+
+This is a fast and parametric way of putting together an assembly, as opposed to using mates to constrain all the parts that were already in the correct place.
+
+!!! Tip
+    As you add more parts in the part studio, you can insert them individually into the assembly with the green checkmark, double click on the initial group, and add the part to the group to avoid mating it. This means that new part will always stay in the same place relative to where it was designed in the part studio.
+
 Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
+
+More details about best practices for Onshape assemblies are included in the [best practices](../../../design-standards/index.md) category, on [this page](../../../design-standards/pages/assembly-setup.md).
 
 ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
@@ -213,6 +228,6 @@ Next, you'll learn how to sketch and assemble power transmission components in a
 
 <br>
 <center>1B: Drivebase</center> 
-<span class="left">[< 1A: Sketching & Part Design](1A-sketchingPartDesign)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 <br>

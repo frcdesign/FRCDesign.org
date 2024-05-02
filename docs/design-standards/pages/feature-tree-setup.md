@@ -22,4 +22,10 @@ Sorting and naming your features can be a good idea, especially to make your CAD
 On that note, naming your parts according to a convention is extremely beneficial down the line.
 
 See an example of a well-organized part studio here:
-![](/img/design-standards/part-studio-2.png)
+
+<center> ![](/img/design-standards/part-studio-2.png) </center>
+
+<br>
+<span class="left">[< Master Sketch Best Practices](../pages/mastersketch-setup.md)</span> <span class="right">[Assembly Best Practices >](../pages/assembly-setup.md)</span>
+<br>
+<br>

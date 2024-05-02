@@ -144,3 +144,6 @@ We know it can be hard learning each and every term thrown around in FRC design,
 
 `backlash`
 :   'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+`parametric`
+:   Designed in a way that uses relationships between steps to maintain design intent
