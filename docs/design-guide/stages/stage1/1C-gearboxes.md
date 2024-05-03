@@ -67,15 +67,18 @@ The pitch diameter is the diameter of the gear where if two pitch diameters are 
 - In CAD, this means you can make bearing holes for axles based off of two construction circles representing gears (dimensioned with the pitch diameters) that are tangent to each other
 
 !!! Tip
-    Most teams add a little bit to each pitch diameter circle to give room for manufacturing tolerances and allow the gears to mesh smoother. This is usually from .001 inches to .003 inches per pitch circle (.002-.006 in total).
+    Most teams add a little bit to each pitch diameter circle to give room for manufacturing tolerances and allow the gears to mesh smoother. This is usually from .001 inches to .003 inches per pitch circle (.002-.006 in total). For mechanisms where you want more precise control over the rotation (i.e. less backlash), like a pivot, you can use exact center-center distance.
 
 ### Belt/Chain Dimensions
 - Pitch is the distance between the teeth
 - Belts and chains are defined by pitch, teeth (or links), and width (only matters for pulley width)
 - Length (pitch x teeth = length)
 - Standard belt pitch can be different: HTD5 is 5mm, GT2 in FRC is usually 3mm, and RT25 (sold only by REV) is .25in
-- KEY IDEA: You can only buy set lengths of belts. Designing for belts requires a [center-to-center distance calculator](https://wcproducts.com/pages/calculator-belt) that will give you the closest center-center distance to a given preferred distance, pitch and pulley sizes
-- You can use whatever center-to-center distance you want for a chain as long as you provide a way to tension it (which is heavily recommended for all chains used)
+- **KEY IDEA: You can only buy set lengths of belts.** Designing for belts requires a [center-to-center distance calculator](https://wcproducts.com/pages/calculator-belt) that will give you the closest center-center distance to a given preferred distance, pitch and pulley sizes
+- You can use whatever center-to-center distance you want for a chain as long as you provide [a way to tension it](../../../mechanism-fundamentals/mechanisms/chainTensioningSolutions.md) (which is heavily recommended for all chains used)
+
+!!! Tip
+    Pulley center-to-center distances usually have an offset of about -0.02in (makes pulleys closer) to make it easier to put the belt on the pulleys. Similar to gears, though, for more precise mechanisms, use exact center-to-center distance for less chance of skipping.
   
 ## Gearbox 1
 The first gearbox introduces you to some basic ideas. As always, it's a mix between CAD fundamentals and FRC fundamentals. By the end of this you should be able to design a simple 1-stage gearbox with a motor.
