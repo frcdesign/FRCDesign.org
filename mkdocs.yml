@@ -127,6 +127,7 @@ nav:
     - Featurescripts : featurescripts.md
     - Simplified Models: simplified.md
     - Configurables: configurables.md
+    - KrayonCAD: krayonCAD.md
 
   - Contributor's Guide:
     - Style Guide: contribution/styleguide.md
