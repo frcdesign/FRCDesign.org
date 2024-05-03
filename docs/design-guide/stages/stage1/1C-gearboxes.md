@@ -65,6 +65,17 @@ The pitch diameter is the diameter of the gear where if two pitch diameters are 
 - Pitch Diameter = number of teeth/diametrical pitch
 - Diametrical pitch = dp, the number of teeth per inch of diameter. Pretty much every gear we use in FRC will be 20 DP.
 - In CAD, this means you can make bearing holes for axles based off of two construction circles representing gears (dimensioned with the pitch diameters) that are tangent to each other
+
+!!! Tip
+    Most teams add a little bit to each pitch diameter circle to give room for manufacturing tolerances and allow the gears to mesh smoother. This is usually from .001 inches to .003 inches per pitch circle (.002-.006 in total).
+
+### Belt/Chain Dimensions
+- Pitch is the distance between the teeth
+- Belts and chains are defined by pitch, teeth (or links), and width (only matters for pulley width)
+- Length (pitch x teeth = length)
+- Standard belt pitch can be different: HTD5 is 5mm, GT2 in FRC is usually 3mm, and RT25 (sold only by REV) is .25in
+- KEY IDEA: You can only buy set lengths of belts. Designing for belts requires a [center-to-center distance calculator](https://wcproducts.com/pages/calculator-belt) that will give you the closest center-center distance to a given preferred distance, pitch and pulley sizes
+- You can use whatever center-to-center distance you want for a chain as long as you provide a way to tension it (which is heavily recommended for all chains used)
   
 ## Gearbox 1
 The first gearbox introduces you to some basic ideas. As always, it's a mix between CAD fundamentals and FRC fundamentals. By the end of this you should be able to design a simple 1-stage gearbox with a motor.
