@@ -238,7 +238,7 @@ Here is an example of one of the future projects that you’ll be working on. No
 
 <center>![Example](\img\design-guide\stage1b\1a-Swerve.webp){width=45% height=45%}</center>
 
-In the "bonus" part studio, two aluminum box tubes have already been modeled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
+In the "bonus" part studio from the CADvent document you copied earlier, two aluminum box tubes have already been modeled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
 
 For this project, you have to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
@@ -250,7 +250,7 @@ Use the techniques you have learned to design this part in-context. This time yo
     When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
 
 ## Assembly Mates
-The last thing to go over before we get into stage 1B, where you model a swerve drivebase, is the basic function of defining the position and motion of parts in an assembly. 
+The last thing to go over before we get into stage 1B, where you model a swerve drivebase, is the basic function of defining the position and motion of parts in an assembly. This section doesn't have a project but you'll use what you learn in the next projects.
 
 When parts are inserted into an assembly, they free float. You can drag them around. The goal is to constrain the motion of all parts. There are few different ways to do this:
 

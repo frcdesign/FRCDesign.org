@@ -19,53 +19,53 @@
 Though you can buy premade planetary gearboxes from vendors (which are still very good in a lot of use cases and packaging), custom gearboxes are typically more versatile in tight packaging situations, and can be tuned better to avoid backlash.
 [comment]: <> (Link to designing for control page for reducing backlash)
 
-## Before You Start
-
-### New Concepts
-**Motors:**
-
-- Spin! They add movement to your robot
-- Use battery power to create motion
-- Object manipulation, movement around the field, just about anything on your robot can be moved with the right motors and ratio
-
-**Transfer of Motion:**
-Gears, belts, and chains are used to both transfer torque from one shaft/mechanism to another. 
-
-- **Mechanical advantage:** given a set speed and torque from a motor, you can use the difference between gear teeth, pulley teeth, or sprocket teeth to transfer speed to torque. A small gear on your motor meshing with a large gear on another axle will decrease the output speed but increase the torque, and is called a *reduction*. The opposite is true as well: a large gear meshing with a smaller gear will increase output speed but decrease the torque, and is called an *upduction*.
-
-- Besides rollers and shooter wheels, reductions are necessary to optimize motor speed vs. torque. This reduction can be calculated with [ReCalc](https://www.reca.lc/) or a variety of spreadsheet calculators found on ChiefDelphi, such as [KLib](https://www.chiefdelphi.com/t/klib-a-tool-for-frc-design/398904/16).
+## Transfer of Motion
+Motors are used to add movement to your robot through rotation. Gears, belts, and chains are used to both transfer motion (torque and speed) from one shaft/mechanism to another, both to move mechanisms and spin rollers and wheels. Object manipulation, movement around the field, just about anything on your robot can be moved with the right motors and mechanical advantage.
 
 <center><img src="\img\design-guide\stage1c\powertrains.webp"></center>
+
+### Mechanical Advantage
+
+Mechanical advantage is a measure of the ratio of output force to input force in a system. Given a set speed and torque from a motor, you can use the difference between gear teeth, pulley teeth, or sprocket teeth to transfer speed to torque, or vice versa. This is described using a ratio of mechanical advantage (e.g. 3:1 reduction, 1:2 upduction). 
+
+- A small gear on your motor meshing with a large gear on another axle will decrease the output speed but increase the torque, and is called a *reduction*. The opposite is true as well: a large gear meshing with a smaller gear will increase output speed but decrease the torque, and is called an *upduction*.
+- Besides rollers and shooter wheels, reductions are necessary to optimize motor speed vs. torque. This reduction can be calculated with [ReCalc](https://www.reca.lc/) or a variety of spreadsheet calculators found on ChiefDelphi, such as [KLib](https://www.chiefdelphi.com/t/klib-a-tool-for-frc-design/398904/16).
+- The choice between gears, belts, or chain for making the reduction or upduction depends on the purpose and packaging constraints.
+
+### Types of Power Transfer
 
 - Gears mesh together directly and cause the direction of rotation to switch, belts/pulleys and chain/sprockets work at a distance and don't cause a change in direction of rotation.
 - Belts are lightweight and drive high speed mechanisms well, but can skip with high loads if not tensioned perfectly
 - Chains are heavy duty and handle high torque well, but always need an extra tensioning mechanism for maintenance as they stretch through use
 
-**Bearings**
+### Bearings
 
-- Allow axles to spin OR stuff ON an axle to spin (or both)
+- Allows things to spin easily on the inside vs. the outside
+- Can fix the bearing to a plate and fit an axle through it to allow the axle to spin
+- Alternatively, put something on bearings on a fixed axle and you can spin something without putting potential strain on the axle
 - 0.5in hex axles are the most common in FRC, and rounded versions can use special bearings with an inside diameter of 13.75mm (referred to as thunderhex bearings)
 
-### Common Measurements
+## Dimensions for Gearboxes
 
 - 0.196 inches = #10-32 bolt (hardware standard) close fit hole. As #10-32 hardware is standardized for most COTS parts, we try to exclusively use this except where stronger 1/4-20 bolts are needed
 - 1.127 inches = Rounded hex bearing hole. This size may change depending on your team's machining tolerances. Ask someone more experienced if they know, otherwise use this reference number.
 
-**CIM Class Motor Dimensions**
+### CIM Class Motor Dimensions
 
 - Kraken, Vortex, Neo, CIM
 - 60mm = Motor diameter
 - 2 inches = Mounting hole circle
 - 0.8 inches = Center hole
 
-The pitch diameter is the diameter of the gear where if two pitch diameters are touching, allows the gears to perfectly mesh.
+### Gear Dimensions
+The pitch diameter is the diameter of the gear where if two pitch diameters are touching, allows the gears to perfectly mesh. 
+
+<center><img src="\img\design-guide\stage1c\gearDiagram.webp" width="40%"></center>
 
 - Pitch Diameter = number of teeth/diametrical pitch
 - Diametrical pitch = dp, the number of teeth per inch of diameter. Pretty much every gear we use in FRC will be 20 DP.
 - In CAD, this means you can make bearing holes for axles based off of two construction circles representing gears (dimensioned with the pitch diameters) that are tangent to each other
   
-Gears always come in even increments of teeth, but you should check a COTS vendor to see what gears they provide. It should be under "20 DP gears" from West Coast Products, REV, or Andymark.
-
 ## Gearbox 1
 The first gearbox introduces you to some basic ideas. As always, it's a mix between CAD fundamentals and FRC fundamentals. By the end of this you should be able to design a simple 1-stage gearbox with a motor.
 
