@@ -232,7 +232,7 @@ In the drawing slideshow below are 16 CADvent drawings. To begin, make a copy of
 
 Now that you've had practice with sketching and part modeling, we’ll be introducing a new concept: multi-part part studios.
 
-When designing in Onshape, you typically have 1 part studio for subassembly. The next couple of projects will slowly introduce you to this concept. Take a look at [this page](../../../design-standards/sub-document-setup.md) about sub-document best practices.
+When designing in Onshape, you typically have 1 part studio for subassembly. The next couple of projects will slowly introduce you to this concept. Take a look at [this page](../../best-practices/sub-document-setup.md) about sub-document best practices.
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
@@ -260,7 +260,7 @@ When parts are inserted into an assembly, they free float. You can drag them aro
 
 <center><img src="\img\design-guide\stage1a\mateConnectors.webp"></center>
 
-The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../../design-standards/assembly-setup.md).
+The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../best-practices/assembly-setup.md).
 
 
 <br>

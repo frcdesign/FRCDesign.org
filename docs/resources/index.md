@@ -14,7 +14,7 @@ A collection of resources to support your workflow in Onshape, relevant to FRC.
 
 [**Featurescripts**](featurescripts.md): A list of FRC-relevant featurescripts and how to add them (includes some short tutorial videos).
 
-[**Simplified Models**](simplified.md): A collection of simplified models of COTS parts to reduce load time (see the importance of this in [assembly best practices](../design-standards/assembly-setup.md)). These are also already mostly added to [MKCAD](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description).
+[**Simplified Models**](simplified.md): A collection of simplified models of COTS parts to reduce load time (see the importance of this in [assembly best practices](../best-practices/assembly-setup.md)). These are also already mostly added to [MKCAD](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description).
 
 [**Configurables**](configurables.md): A collection of configurable parts or assemblies that aren't in MKCAD that could assist your design.
 

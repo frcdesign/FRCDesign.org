@@ -83,13 +83,13 @@ nav:
       - Drivetrain: design-fundamentals/mechanisms/drivebase.md
 
   - Best Practices:
-      - design-standards/index.md
-      - Document Setup: design-standards/document-setup.md
-      - Sub-Document Setup: design-standards/sub-document-setup.md
-      - Master Sketch Best Practices: design-standards/mastersketch-setup.md
-      - Feature Tree Best Practices: design-standards/feature-tree-setup.md
-      - Assembly Best Practices: design-standards/assembly-setup.md
-      - Hardware Design Standards: design-standards/hardware-design-standards.md
+      - best-practices/index.md
+      - Document Setup: best-practices/document-setup.md
+      - Sub-Document Setup: best-practices/sub-document-setup.md
+      - Master Sketch Best Practices: best-practices/mastersketch-setup.md
+      - Feature Tree Best Practices: best-practices/feature-tree-setup.md
+      - Assembly Best Practices: best-practices/assembly-setup.md
+      - Hardware Design Standards: best-practices/hardware-design-standards.md
 
   - Resources:
     - resources/index.md

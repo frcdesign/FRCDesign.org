@@ -173,7 +173,7 @@ Once you are done, change the appearance of all of your tubes to a color of your
 
 ## Assembly
 
-Now that we have the frame tubes, we need to insert them into the "assembly". You use part studios to design parts in reference to each other, and assemblies to define the position and motion of those parts and assemble the final product. Certain practices in the part studio can make assembly easier and faster; these are some of the best practices that are used in the guided projects and in the [best practices](../../../design-standards/index.md) section of the website.
+Now that we have the frame tubes, we need to insert them into the "assembly". You use part studios to design parts in reference to each other, and assemblies to define the position and motion of those parts and assemble the final product. Certain practices in the part studio can make assembly easier and faster; these are some of the best practices that are used in the guided projects and in the [best practices](../../best-practices/index.md) section of the website.
 
 ### Origin Mate Connector
 Something to note is that both assemblies and part studios have an origin. We will need to make sure that our parts are in the same place in both the origin and part studio. We can do this through an origin mate connector.
@@ -213,7 +213,7 @@ This is a fast and parametric way of putting together an assembly, as opposed to
 
 Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
 
-More details about best practices for Onshape assemblies are included in the [best practices](../../../design-standards/index.md) category, on [this page](../../../design-standards/assembly-setup.md).
+More details about best practices for Onshape assemblies are included in the [best practices](../../../best-practices/index.md) category, on [this page](../../best-practices/assembly-setup.md).
 
 ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
