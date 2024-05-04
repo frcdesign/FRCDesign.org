@@ -82,8 +82,8 @@ nav:
     - Mechanisms:
       - Drivetrain: design-fundamentals/mechanisms/drivebase.md
 
-  - Design Standards:
-      - Overview: design-standards/index.md
+  - Best Practices:
+      - design-standards/index.md
       - Document Setup: design-standards/document-setup.md
       - Sub-Document Setup: design-standards/sub-document-setup.md
       - Master Sketch Best Practices: design-standards/mastersketch-setup.md
