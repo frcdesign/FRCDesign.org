@@ -106,6 +106,6 @@ Once you've finished both of the gearboxes, you can move on to Stage 2 and start
 
 <br>
 <center>1C: Gearboxes</center> 
-<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2A >](../stage2/2.md)</span>
+<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 <br>
