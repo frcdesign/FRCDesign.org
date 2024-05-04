@@ -213,7 +213,7 @@ This is a fast and parametric way of putting together an assembly, as opposed to
 
 Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
 
-More details about best practices for Onshape assemblies are included in the [best practices](../../../design-standards/index.md) category, on [this page](../../../design-standards/pages/assembly-setup.md).
+More details about best practices for Onshape assemblies are included in the [best practices](../../../design-standards/index.md) category, on [this page](../../../design-standards/assembly-setup.md).
 
 ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.

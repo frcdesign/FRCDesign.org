@@ -10,7 +10,7 @@
 
 # CAD Best Practices: Why?
 
-<span class="right">[Document Setup >](pages/document-setup.md)</span>
+<span class="right">[Document Setup >](document-setup.md)</span>
 <br>
 
 In this guide, we document best practices for Onshape CAD and design standards for FRC. 
