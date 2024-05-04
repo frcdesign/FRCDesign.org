@@ -78,38 +78,41 @@ nav:
     - design-challenge/index.md
     - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
 
+  - Mechanism Fundamentals:
+    - mechanism-fundamentals/index.md
+    - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
+
   - Resources:
-    - Glossary:
-      - glossary/index.md
-    - CAD Examples:
-      - cad-examples/index.md
+    - resources/index.md
+    - Design Examples:
+      - design-examples/index.md
       - Slapdown Intakes:
-        - cad-examples/intake/slapdown/index.md
-        - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
-        - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
-        - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
-        - 6423 Crescendo Slapdown Intake: cad-examples/intake/slapdown/examples/6423otb.md
+        - design-examples/intake/slapdown/index.md
+        - 4414 Style  Intake: design-examples/intake/slapdown/examples/4414style.md
+        - Washed Beavertail Intake: design-examples/intake/slapdown/examples/washed.md
+        - Low Pivot Slapdown Intake: design-examples/intake/slapdown/examples/low.md
+        - 6423 Crescendo Slapdown Intake: design-examples/intake/slapdown/examples/6423otb.md
       - 4 Bar Intakes:
-        - cad-examples/intake/4bar/index.md
-        - 1678's 2022 Intake: cad-examples/intake/4bar/examples/1678.md
-        - Andrew's Clean 4 Bar Intake: cad-examples/intake/4bar/examples/clean.md
-        - Vaughn's 4 Bar Intake: cad-examples/intake/4bar/examples/vaughn4bar.md
+        - design-examples/intake/4bar/index.md
+        - 1678's 2022 Intake: design-examples/intake/4bar/examples/1678.md
+        - Andrew's Clean 4 Bar Intake: design-examples/intake/4bar/examples/clean.md
+        - Vaughn's 4 Bar Intake: design-examples/intake/4bar/examples/vaughn4bar.md
       - Cascade Elevators:
-        - cad-examples/elevator/cascade/index.md
-        - 2 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/2stage.md
-        - 3 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/3stage.md
+        - design-examples/elevator/cascade/index.md
+        - 2 Stage Cascade Elevator: design-examples/elevator/cascade/examples/2stage.md
+        - 3 Stage Cascade Elevator: design-examples/elevator/cascade/examples/3stage.md
       - Continuous Elevators:
-        - cad-examples/elevator/continuous/index.md
-        - External Cable Driven Elevator: cad-examples/elevator/continuous/examples/cable.md
-        - Internal Belt Driven Elevator: cad-examples/elevator/continuous/examples/belt.md
+        - design-examples/elevator/continuous/index.md
+        - External Cable Driven Elevator: design-examples/elevator/continuous/examples/cable.md
+        - Internal Belt Driven Elevator: design-examples/elevator/continuous/examples/belt.md
       - Shooters:
-        - cad-examples/shooter/index.md
-        - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
-        - 1678 Citrus Shooter 2022: cad-examples/shooter/examples/citrus.md
+        - design-examples/shooter/index.md
+        - Andrew's Hyper-Hive Shooter: design-examples/shooter/examples/small.md
+        - 1678 Citrus Shooter 2022: design-examples/shooter/examples/citrus.md
       - Drivebases:
-        - cad-examples/drivebase/index.md
-        - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
-        - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
+        - design-examples/drivebase/index.md
+        - 2910 Drivebase: design-examples/drivebase/examples/2910.md
+        - 972 Brainpan Drivebase: design-examples/drivebase/examples/brainpan.md
     
     - Design Standards:
       - design-standards/index.md
@@ -120,14 +123,13 @@ nav:
       - "Assembly Best Practices": design-standards/assembly-setup.md
       - "Hardware Design Standards": design-standards/hardware-design-standards.md
     
-    - Mechanism Fundamentals:
-      - mechanism-fundamentals/index.md
-      - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
+
     
-    - Featurescripts : featurescripts.md
-    - Simplified Models: simplified.md
-    - Configurables: configurables.md
-    - KrayonCAD: krayonCAD.md
+    - Featurescripts : resources/featurescripts.md
+    - Simplified Models: resources/simplified.md
+    - Configurables: resources/configurables.md
+    - KrayonCAD: resources/krayonCAD.md
+    - Glossary: resources/glossary.md
 
   - Contributor's Guide:
     - Style Guide: contribution/styleguide.md
