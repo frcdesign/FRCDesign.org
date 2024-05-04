@@ -10,7 +10,7 @@
 
 # Master Sketch Best Practices
 
-<span class="left">[< Sub-Document Setup](../pages/sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](../pages/feature-tree-setup.md)</span>
+<span class="left">[< Sub-Document Setup](sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](feature-tree-setup.md)</span>
 <br>
 
 Mastersketches (layout sketches) drive the core geometry of the entire robot.
@@ -44,6 +44,6 @@ See an example of a well set-up mastersketches part studio here:
 And a presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing)
 
 <br>
-<span class="left">[< Sub-Document Setup](../pages/sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](../pages/feature-tree-setup.md)</span>
+<span class="left">[< Sub-Document Setup](sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](feature-tree-setup.md)</span></span>
 <br>
 <br>

@@ -10,7 +10,7 @@
 
 # Hardware Design Standards
 
-<span class="left">[< Assembly Best Practices](../pages/assembly-setup.md)</span> 
+<span class="left">[< Assembly Best Practices](assembly-setup.md)</span> 
 <br>
 
 ## Materials
@@ -71,6 +71,6 @@ Read more about these topics:
 Coming soon
 
 <br>
-<span class="left">[< Assembly Best Practices](../pages/assembly-setup.md)</span> 
+<span class="left">[< Assembly Best Practices](assembly-setup.md)</span>  
 <br>
 <br>

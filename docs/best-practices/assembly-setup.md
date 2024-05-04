@@ -10,7 +10,7 @@
 
 # Assembly Best Practices
 
-<span class="left">[< Feature Tree Best Practices](../pages/feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](../pages/hardware-design-standards.md)</span>
+<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](hardware-design-standards.md)</span>
 <br>
 
 
@@ -58,6 +58,6 @@ See a well-organized assembly here:
 ![](/img/design-standards/assembly.png)
 
 <br>
-<span class="left">[< Feature Tree Best Practices](../pages/feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](../pages/hardware-design-standards.md)</span>
+<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](hardware-design-standards.md)</span>
 <br>
 <br>
