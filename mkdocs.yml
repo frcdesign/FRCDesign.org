@@ -9,6 +9,7 @@ theme:
     - navigation.indexes
     - navigation.path
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
