@@ -87,6 +87,7 @@ nav:
       - best-practices/index.md
       - Document Setup: best-practices/document-setup.md
       - Sub-Document Setup: best-practices/sub-document-setup.md
+      - Origin Best Practices: best-practices/origins.md
       - Master Sketch Best Practices: best-practices/mastersketch-setup.md
       - Feature Tree Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
