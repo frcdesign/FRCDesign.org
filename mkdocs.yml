@@ -114,6 +114,7 @@ nav:
     - Design Standards:
       - design-standards/index.md
       - "Document Setup": design-standards/pages/document-setup.md
+      - "Origins" : design-standards/pages/origins.md
       - "Sub-Document Setup": design-standards/pages/sub-document-setup.md
       - "Master Sketch Best Practices": design-standards/pages/mastersketch-setup.md
       - "Feature Tree Best Practices": design-standards/pages/feature-tree-setup.md
