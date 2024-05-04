@@ -8,7 +8,12 @@
 }
 </style>
 
+
 # Origins
+
+<span class="left">[< Document Setup](document-setup.md)</span> <span class="right">[Sub-Document Setup >](sub-document-setup.md)</span>
+<br>
+
 [image of origin cube]
 
 ## The Importance of Intelligent Origins
