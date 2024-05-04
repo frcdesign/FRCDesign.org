@@ -8,7 +8,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.path
-    - navigation.sections
+    - navigation.tabs
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -48,86 +48,88 @@ extra:
 nav:
   - Home: index.md
   - Design Guide:
-    - Overview: 
-      - design-guide/index.md
+    - design-guide/index.md
     - Beginner Stages:
       - Stage 0: 
-        - "A: Introduction to CAD": design-guide/stages/stage0/0A-introductionToCAD.md
-        - "B: Onshape Setup": design-guide/stages/stage0/0B-setup.md
-        - "C: Navigating Onshape": design-guide/stages/stage0/0C-navigation.md
-        - "D: Theory": design-guide/stages/stage0/0D-theory.md
+        - "A: Introduction to CAD": design-guide/stage0/0A-introductionToCAD.md
+        - "B: Onshape Setup": design-guide/stage0/0B-setup.md
+        - "C: Navigating Onshape": design-guide/stage0/0C-navigation.md
+        - "D: Theory": design-guide/stage0/0D-theory.md
       - Stage 1:
-        - "A: Onshape Fundamentals": design-guide/stages/stage1/1A-onshapeFundamentals.md
-        - "B: Swerve Drivebase": design-guide/stages/stage1/1B-swerveDrivebase.md
-        - "C: Gearbox Projects": design-guide/stages/stage1/1C-gearboxes.md
+        - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
+        - "B: Swerve Drivebase": design-guide/stage1/1B-swerveDrivebase.md
+        - "C: Gearbox Projects": design-guide/stage1/1C-gearboxes.md
       - Stage 2:
-        - "A: Full Detail Drivebase": design-guide/stages/stage2/2A-drivebaseFullDetail.md
-        - "B: Basic Shooter": design-guide/stages/stage2/2B-basicShooter.md
-        - "C: Deadaxle Pivot": design-guide/stages/stage2/2C-deadaxlePivot.md
-        - "D: 2023 UTB Intake": design-guide/stages/stage2/2D-2023utbIntake.md
-        - "E: 2023 Pasta Roller Intake": design-guide/stages/stage2/2E-2023pastaRollerIntake.md
-        - "F: Four-bar Linkage": design-guide/stages/stage2/2F-fourbarLinkage.md
-        - "G: Cascade Elevator": design-guide/stages/stage2/2G-cascadeElevator.md
+        - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
+        - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
+        - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
+        - "D: 2023 UTB Intake": design-guide/stage2/2D-2023utbIntake.md
+        - "E: 2023 Pasta Roller Intake": design-guide/stage2/2E-2023pastaRollerIntake.md
+        - "F: Four-bar Linkage": design-guide/stage2/2F-fourbarLinkage.md
+        - "G: Cascade Elevator": design-guide/stage2/2G-cascadeElevator.md
       - Stage 3: 
-        - "A: Multidoc & Mastersketching": design-guide/stages/stage3/3A-multidoc&MS.md
-        - "B: 973 2020 Robot": design-guide/stages/stage3/3B-973-2020.md
-        - "C: 973 2023 Robot": design-guide/stages/stage3/3C-973-2023.md
-    - Intermediate Stages: design-guide/stages/stage4/4.md
+        - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
+        - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
+        - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
+    - Intermediate Stages: design-guide/stage4/4.md
   
   - Design Challenges:
     - design-challenge/index.md
     - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
 
+  - Design Fundamentals:
+    - design-fundamentals/index.md
+    - Mechanisms:
+      - Drivetrain: design-fundamentals/mechanisms/drivebase.md
+
+  - Best Practices:
+      - best-practices/index.md
+      - Document Setup: best-practices/document-setup.md
+      - Sub-Document Setup: best-practices/sub-document-setup.md
+      - Master Sketch Best Practices: best-practices/mastersketch-setup.md
+      - Feature Tree Best Practices: best-practices/feature-tree-setup.md
+      - Assembly Best Practices: best-practices/assembly-setup.md
+      - Hardware Design Standards: best-practices/hardware-design-standards.md
+
   - Resources:
-    - Glossary:
-      - glossary/index.md
-    - CAD Examples:
-      - cad-examples/index.md
+    - resources/index.md
+    - Glossary: resources/glossary.md
+    - Mechanism Examples:
+      - mechanism-examples/index.md
       - Slapdown Intakes:
-        - cad-examples/intake/slapdown/index.md
-        - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
-        - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
-        - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
-        - 6423 Crescendo Slapdown Intake: cad-examples/intake/slapdown/examples/6423otb.md
+        - mechanism-examples/intake/slapdown/index.md
+        - 4414 Style  Intake: mechanism-examples/intake/slapdown/examples/4414style.md
+        - Washed Beavertail Intake: mechanism-examples/intake/slapdown/examples/washed.md
+        - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/examples/low.md
+        - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/examples/6423otb.md
       - 4 Bar Intakes:
-        - cad-examples/intake/4bar/index.md
-        - 1678's 2022 Intake: cad-examples/intake/4bar/examples/1678.md
-        - Andrew's Clean 4 Bar Intake: cad-examples/intake/4bar/examples/clean.md
-        - Vaughn's 4 Bar Intake: cad-examples/intake/4bar/examples/vaughn4bar.md
+        - mechanism-examples/intake/4bar/index.md
+        - 1678's 2022 Intake: mechanism-examples/intake/4bar/examples/1678.md
+        - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/examples/clean.md
+        - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/examples/vaughn4bar.md
       - Cascade Elevators:
-        - cad-examples/elevator/cascade/index.md
-        - 2 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/2stage.md
-        - 3 Stage Cascade Elevator: cad-examples/elevator/cascade/examples/3stage.md
+        - mechanism-examples/elevator/cascade/index.md
+        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/2stage.md
+        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/3stage.md
       - Continuous Elevators:
-        - cad-examples/elevator/continuous/index.md
-        - External Cable Driven Elevator: cad-examples/elevator/continuous/examples/cable.md
-        - Internal Belt Driven Elevator: cad-examples/elevator/continuous/examples/belt.md
+        - mechanism-examples/elevator/continuous/index.md
+        - External Cable Driven Elevator: mechanism-examples/elevator/continuous/examples/cable.md
+        - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/examples/belt.md
       - Shooters:
-        - cad-examples/shooter/index.md
-        - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
-        - 1678 Citrus Shooter 2022: cad-examples/shooter/examples/citrus.md
+        - mechanism-examples/shooter/index.md
+        - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/examples/small.md
+        - 1678 Citrus Shooter 2022: mechanism-examples/shooter/examples/citrus.md
       - Drivebases:
-        - cad-examples/drivebase/index.md
-        - 2910 Drivebase: cad-examples/drivebase/examples/2910.md
-        - 972 Brainpan Drivebase: cad-examples/drivebase/examples/brainpan.md
+        - mechanism-examples/drivebase/index.md
+        - 2910 Drivebase: mechanism-examples/drivebase/examples/2910.md
+        - 972 Brainpan Drivebase: mechanism-examples/drivebase/examples/brainpan.md
     
-    - Design Standards:
-      - design-standards/index.md
-      - "Document Setup": design-standards/pages/document-setup.md
-      - "Sub-Document Setup": design-standards/pages/sub-document-setup.md
-      - "Master Sketch Best Practices": design-standards/pages/mastersketch-setup.md
-      - "Feature Tree Best Practices": design-standards/pages/feature-tree-setup.md
-      - "Assembly Best Practices": design-standards/pages/assembly-setup.md
-      - "Hardware Design Standards": design-standards/pages/hardware-design-standards.md
-    
-    - Mechanism Fundamentals:
-      - mechanism-fundamentals/index.md
-      - Drivetrain: mechanism-fundamentals/mechanisms/drivebase.md
-    
-    - Featurescripts : featurescripts.md
-    - Simplified Models: simplified.md
-    - Configurables: configurables.md
-    - KrayonCAD: krayonCAD.md
+    - CAD Resources:
+      - Featurescripts : resources/featurescripts.md
+      - Simplified Models: resources/simplified.md
+      - Configurables: resources/configurables.md
+      - KrayonCAD: resources/krayonCAD.md
+ 
 
   - Contributor's Guide:
     - Style Guide: contribution/styleguide.md

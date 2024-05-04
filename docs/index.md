@@ -12,13 +12,6 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 
 <center>[![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)</center>
 
-<figure markdown="span">
-    [Design Guide](/design-guide/){ .md-button .md-button--primary }
-    [Design Challenges](/design-challenge/){ .md-button .md-button--primary }
-    [CAD Examples](/cad-examples/){ .md-button .md-button--primary }
-    [Design Standards](design-standards/index.md){ .md-button .md-button--primary }
-</figure>
-
 ## Stage Roles
 The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
 

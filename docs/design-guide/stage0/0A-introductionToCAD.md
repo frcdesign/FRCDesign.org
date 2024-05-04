@@ -13,7 +13,7 @@
 
 # 0A: Introduction to CAD
 
-<span class="left">[< Design Guide Overview](../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
+<span class="left">[< Design Guide Overview](../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
@@ -25,7 +25,6 @@ There are many different kinds of CAD, usually designed for specific industries 
 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
-SolidWorks is the industry standard for many companies, Autodesk Inventor is also widely used, and Fusion and Onshape are sometimes used in the industry but much more popular for hobbyists.
 <figure markdown="span">
     ![formulaOne](../../../img/design-guide/stage0/introcad/formula.jpg){height=75%, width=75%}
 </figure>

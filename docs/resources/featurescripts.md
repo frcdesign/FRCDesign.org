@@ -22,7 +22,7 @@ Onshape has its own scripting language to create custom features to automate asp
 </details>
 
 !!! alternate
-    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile. This method is used in [stage 0](design-guide/stages/0.md/#featurescripts) to add Julia's Featurescripts when setting up Onshape.
+    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile. This method is used in [stage 0](../design-guide/stage0/0B-setup.md/#featurescripts) to add Julia's Featurescripts when setting up Onshape.
 
 ## Recommended Featurescripts
 Below is a collection of featurescripts we recommend you add to aid your design process.  
