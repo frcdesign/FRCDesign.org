@@ -10,7 +10,7 @@
 
 # Sub-Document Setup
 
-<span class="left">[< Origin Best Practices](origins.md)</span> <span class="right">[Master Sketch Best Practices >](mastersketch-setup.md)</span>
+<span class="left">[< Document Setup](document-setup.md)</span> <span class="right">[Master Sketch Best Practices >](mastersketch-setup.md)</span>
 <br>
 
 Within Each Document, you should have a part studio and assembly attached to it. The part studio should contain **all parts that need to be manufactured by your team**. This could include fully custom plates, shafts cut to length, modified COTs parts, etc. However, unmodified COTs parts should be imported directly into the corresponding assembly - no modification inside the part studio is required.
