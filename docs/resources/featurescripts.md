@@ -147,6 +147,12 @@ Below is a collection of featurescripts we recommend you add to aid your design 
   </figure>
 </details>
 
+### [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a)
+
+- Used to create an origin reference for assembly mating
+- Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
+- See [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method) for more information on usage
+
 ### [Abhi's Features & Configs](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true)
 **Set Materials**
 
