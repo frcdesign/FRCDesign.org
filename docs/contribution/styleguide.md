@@ -47,7 +47,7 @@ Adhere to brand standards when possible.
 - Do NOT use a possessive on the *FIRST* name (e.g, FIRST’s)
 <!-- It’s gm0 not GM0 damn it; look at the logo. -->
 - This also applies to team names: spell them how they are officially spelled
-- Check [The Blue Alliance](thebluealliance.com) if you don't know how to spell a team's name
+- Check [The Blue Alliance](https://www.thebluealliance.com/) if you don't know how to spell a team's name
 
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
 

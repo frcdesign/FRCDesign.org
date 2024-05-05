@@ -125,7 +125,7 @@ Constrain the center of rotation to the origin by dragging it to the origin. You
 
 If we take the top view of a drivetrain, you can see how it looks similar. Removing the modules also shows the gaps we modeled.
 
-<center>![Untitled](\img\design-guide\stage1b\1a-Swerve 17.webp){width=45% height=45%} ![Untitled](\img\design-guide\stage1b\1a-Swerve 18.webp){width=45% height=45%}</center>
+<center><img align="center" src="\img\design-guide\stage1b\1a-Swerve 17.webp" width="45%"> <img align="center" src="\img\design-guide\stage1b\1a-Swerve 18.webp" width="45%"></center>
 
 Let’s now sketch out the middle cross beam. We’ll make this out of 2x2 aluminum since 2x2 is stronger than 2x1. Let’s make it 2 inches wide, and 2 inches away from the center (origin).
 
@@ -213,7 +213,7 @@ This is a fast and parametric way of putting together an assembly, as opposed to
 
 Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
 
-More details about best practices for Onshape assemblies are included in the [best practices](../../../best-practices/index.md) category, on [this page](../../best-practices/assembly-setup.md).
+More details about best practices for Onshape assemblies are included in the [best practices](../../best-practices/index.md) category, on [this page](../../best-practices/assembly-setup.md).
 
 ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.

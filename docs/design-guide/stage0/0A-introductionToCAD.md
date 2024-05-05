@@ -26,7 +26,7 @@ There are many different kinds of CAD, usually designed for specific industries 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
 <figure markdown="span">
-    ![formulaOne](../../../img/design-guide/stage0/introcad/formula.jpg){height=75%, width=75%}
+    ![formulaOne](../../img/design-guide/stage0/introcad/formula.jpg){height=75%, width=75%}
 </figure>
 
 
@@ -51,7 +51,7 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 
 
 <figure markdown="span">
-    ![bread](../../../img/design-guide/stage0/introcad/bread.png){height=75%, width=75%}
+    ![bread](../../img/design-guide/stage0/introcad/bread.png){height=75%, width=75%}
 </figure>
 
 ## Why Onshape for FRC?
@@ -73,7 +73,7 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
 <figure markdown="span">
-    ![mkcad](../../../img/design-guide/stage0/introcad/mkcad.png){height=60%, width=60%}
+    ![mkcad](../../img/design-guide/stage0/introcad/mkcad.png){height=60%, width=60%}
 </figure>
 
 
@@ -86,7 +86,7 @@ Depending on the circumstances, Onshape may not be the best fit for a team; howe
 
 <br>
 <center>0A: Intro to CAD</center> 
-<span class="left">[< Home](../../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
+<span class="left">[< Home](../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
 <br>
 <br>
 

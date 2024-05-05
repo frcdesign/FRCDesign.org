@@ -75,7 +75,7 @@ The pitch diameter is the diameter of the gear where if two pitch diameters are 
 - Length (pitch x teeth = length)
 - Standard belt pitch can be different: HTD5 is 5mm, GT2 in FRC is usually 3mm, and RT25 (sold only by REV) is .25in
 - **KEY IDEA: You can only buy set lengths of belts.** Designing for belts requires a [center-to-center distance calculator](https://wcproducts.com/pages/calculator-belt) that will give you the closest center-center distance to a given preferred distance, pitch and pulley sizes
-- You can use whatever center-to-center distance you want for a chain as long as you provide [a way to tension it](../../../mechanism-fundamentals/mechanisms/chainTensioningSolutions.md) (which is heavily recommended for all chains used)
+- You can use whatever center-to-center distance you want for a chain as long as you provide [a way to tension it](../../design-fundamentals/design-writeups/chainTensioning.md) (which is heavily recommended for all chains used)
 
 !!! Tip
     Pulley center-to-center distances usually have an offset of about -0.02in (makes pulleys closer) to make it easier to put the belt on the pulleys. Similar to gears, though, for more precise mechanisms, use exact center-to-center distance for less chance of skipping.
@@ -92,7 +92,7 @@ You can watch this video for a full tutorial:
 ## Gearbox 2
 The second gearbox introduces you to some more featurescripts as well as more design fundamentals. Try to copy [this gearbox](https://cad.onshape.com/documents/dbfca47b976b572e1ed949ec/w/3e1d28e9efa9b31b349bcd33/e/03fe2e65fe5e7e357d04ce9e?renderMode=0&uiState=662da16d9cc5a27a76e8e6b8), again keeping in mind to use layout sketches:
 
-<center>![Gearbox](\img\design-guide\stage1c\gearbox.webp){width=45% height=45%}</center>
+<center>![Gearbox](../../img/design-guide/stage1c/gearbox.webp){width=45% height=45%}</center>
 
 Check out these two videos to learn concepts about plate design and belt/pulley design (which will both be used for this gearbox):
 
