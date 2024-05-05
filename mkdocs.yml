@@ -81,7 +81,7 @@ nav:
   - Design Fundamentals:
     - design-fundamentals/index.md
     - Fundamentals:
-      - Power Transmission: design-fundamentals/powerTransmission.md
+      - Power Transmission: design-fundamentals/fundamentals/powerTransmission.md
       - Designing for Manufacturability: 
         - Materials: design-fundamentals/fundamentals/materials.md
         - Hardware Standards: design-fundamentals/fundamentals/hardwareStandards.md

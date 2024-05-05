@@ -9,3 +9,7 @@ When designing around hardware, it is best to use the **hole tool**
 
 - 10-32 hardware uses a hole diameter of **0.196 inches** for a standard fit
 - 1/4-20 hardware uses a hole diameter of **0.257 inches** for a standard fit
+
+
+
+Include different kinds of hardware and where to buy them?
