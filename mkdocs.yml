@@ -80,8 +80,15 @@ nav:
 
   - Design Fundamentals:
     - design-fundamentals/index.md
+    - Fundamentals:
+      - Power Transmission: design-fundamentals/powerTransmission.md
+      - Designing for Manufacturability: design-fundamentals/fundamentals/DFM.md
+      - Designing for Controllability: design-fundamentals/fundamentals/DFC.md
     - Mechanisms:
       - Drivetrain: design-fundamentals/mechanisms/drivebase.md
+    - Design Write-ups:
+      - Chain Tensioning Solutions: design-fundamentals/design-writeups/chainTensioning.md
+      - Bumper Mounting Solutions: design-fundamentals/design-writeups/bumperMounting.md
 
   - Best Practices:
       - best-practices/index.md
