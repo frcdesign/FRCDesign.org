@@ -83,9 +83,13 @@ nav:
       - glossary/index.md
     - CAD Examples:
       - cad-examples/index.md
+      - Pivots:
+        - cad-examples/pivots/index.md
+        - 6328 A-Frame Pivot: cad-examples/pivots/examples/6328pivot.md
+        - 2910 Dead Axle Pivot: cad-examples/pivots/examples/2910pivot.md
       - Slapdown Intakes:
         - cad-examples/intake/slapdown/index.md
-        - 4414 Style  Intake: cad-examples/intake/slapdown/examples/4414style.md
+        - 4414 Style Intake: cad-examples/intake/slapdown/examples/4414style.md
         - Washed Beavertail Intake: cad-examples/intake/slapdown/examples/washed.md
         - Low Pivot Slapdown Intake: cad-examples/intake/slapdown/examples/low.md
         - 6423 Crescendo Slapdown Intake: cad-examples/intake/slapdown/examples/6423otb.md

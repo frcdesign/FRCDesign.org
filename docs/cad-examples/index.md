@@ -45,6 +45,7 @@ table tr:hover{
 
 | | |
 |:-:|:-:|
+| [![](../img/cad-examples/intake/4bar/example.webp)](pivots/index.md) | |
 | [![](../img/cad-examples/intake/4bar/example.webp)](intake/4bar/index.md)| [![](../img/cad-examples/intake/slapdown/example.webp)](intake/slapdown/index.md) |
 | [4Bar Intakes](intake/4bar/index.md) | [Slapdown Intakes](intake/slapdown/index.md) |
 | [![](../img/cad-examples/elevator/continuous/example.webp)](elevator/continuous/index.md) | [![](../img/cad-examples/elevator/cascade/example.webp)](elevator/cascade/index.md) |
