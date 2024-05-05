@@ -24,6 +24,8 @@
 
 *[Deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
 
+*[Deadaxles]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
+
 *[deadaxle]: A type of axle setup where the axle is fixed in place and or is not transferring the torque of the system through it.
 
 *[Liveaxle]: A type of axle setup where the main torque transfer is through the axle.
@@ -105,3 +107,15 @@
 *[Softstop]:  A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.
 
 *[DP]: Diametral pitch is the number of teeth per inch of the pitch circle.
+
+*[packaging]:  The way in which you fit parts of your robot together in a space
+
+*[Packaging]:  The way in which you fit parts of your robot together in a space
+
+*[backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+*[Backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+*[parametric]:  Designed in a way that uses relationships between steps to maintain design intent
+
+*[Parametric]:  Designed in a way that uses relationships between steps to maintain design intent

@@ -1,9 +1,17 @@
-.md-content a:hover{
+[data-md-color-scheme="slate"] .md-content a:hover{
     color:white;
 }
 
-.md-sidebar a:hover{
+[data-md-color-scheme="slate"] .md-sidebar a:hover{
     color:white !important;
+}
+
+[data-md-color-scheme="default"] .md-content a:hover{
+  color:black;
+}
+
+[data-md-color-scheme="default"] .md-sidebar a:hover{
+  color:rgb(76, 174, 79) !important;
 }
 
 .md-typeset .admonition.tip,
@@ -41,4 +49,8 @@ abbr {
 
 :root {
 --md-accent-fg-color: rgb(76, 174, 79) !important; 
+}
+
+.md-typeset .md-button--primary {
+  margin-top: 0.5rem;
 }

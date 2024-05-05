@@ -1,2 +1,0 @@
-# Mechanism Fundamentals
-
