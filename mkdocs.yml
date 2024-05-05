@@ -82,7 +82,9 @@ nav:
     - design-fundamentals/index.md
     - Fundamentals:
       - Power Transmission: design-fundamentals/powerTransmission.md
-      - Designing for Manufacturability: design-fundamentals/fundamentals/DFM.md
+      - Designing for Manufacturability: 
+        - Materials: design-fundamentals/fundamentals/materials.md
+        - Hardware Standards: design-fundamentals/fundamentals/hardwareStandards.md
       - Designing for Controllability: design-fundamentals/fundamentals/DFC.md
     - Mechanisms:
       - Drivetrain: design-fundamentals/mechanisms/drivebase.md
@@ -97,7 +99,6 @@ nav:
       - Master Sketch Best Practices: best-practices/mastersketch-setup.md
       - Feature Tree Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
-      - Hardware Design Standards: best-practices/hardware-design-standards.md
 
   - Resources:
     - resources/index.md
