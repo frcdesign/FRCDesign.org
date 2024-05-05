@@ -56,7 +56,8 @@ In each sub assembly, the cube is mated to the origin. Then, in the top level ro
 
 [Link to Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a)
 
-<center> ![Origin Cube Feature](/img/design-standards/originCubeFeature.webp) *Inserting the Origin Cube feature.* </center>
+<center> <img src="\img\design-standards\originCubeFeature.webp" width="60%"> </center>
+<center> *Inserting the Origin Cube feature.* </center>
 
 #### Utilizing Origin Cube for Flexible Assemblies
 

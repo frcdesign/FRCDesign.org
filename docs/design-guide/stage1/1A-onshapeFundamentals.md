@@ -236,13 +236,13 @@ When designing in Onshape, you typically have 1 part studio for subassembly. The
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
-<center>![Example](\img\design-guide\stage1b\1a-Swerve.webp){width=45% height=45%}</center>
+<center><img src="\img\design-guide\stage1a\1a-Swerve.webp" width="45%"></center>
 
 In the "bonus" part studio from the CADvent document you copied earlier, two aluminum box tubes have already been modeled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
 
 For this project, you have to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
-<center>![Example](\img\design-guide\stage1a\8033-000-2024C_8.png){width=45% height=45%}</center>
+<center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"></center>
 
 Use the techniques you have learned to design this part in-context. This time you do not have a direct part drawing, so you'll have to reference the other parts in the part studio. Remember the ```Use``` tool: it's key here. Good luck!
 
