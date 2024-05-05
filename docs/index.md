@@ -10,10 +10,10 @@
 
 The purpose of this site is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This guide is heavily integrated with the DDS Discord server, so we recommend joining the server.
 
-<center>[![](./img/discord-link.webp){height=25% width=25%}](https://discord.gg/jHXTdNjYCg)</center>
+<center>[![](./img/discord-link.webp){width=40%}](https://discord.gg/jHXTdNjYCg)</center>
 
 ## Stage Roles
-The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best beginner experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
+The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
 
 ### **The Beginner Roles**
 
@@ -25,16 +25,16 @@ The discord server has different roles for each stage you are going through in t
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
 ### **Intermediate Designer**
-Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish the two projects above. In these stages, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. In these stages, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
 
 Possible Intermediate Stages:
 
 - Stage 4: You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
 
-- Stage 5: The focus in stage 6 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
+- Stage 5: The focus in stage 5 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
 
 ### **Advanced Designer**
-Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the onshape workflow and understand FRC design to a high level. The guide may be updated to advanced designer in the future. 
+Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and/or understand FRC design to a high level. 
 
 ## Core Members
 Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
