@@ -28,7 +28,7 @@ To connect these documents to each other, we make use of a few key Onshape featu
 
 Here is a diagram showing the full file structure:
 
-<center>![Document Structure](../../img/design-standards/docsetup2.webp)</center>
+<center><img src="/img/best-practices/docsetup2.webp"></center>
 
 <center> *Blue: Derive, Red: Import* </center>
 
@@ -37,9 +37,9 @@ Here is a diagram showing the full file structure:
 
 You can see an example of this document structure here. Note the combination of the framework and master documents.
 
-![](../../img/design-standards/docsetup3.png)
+<center><img src="/img/best-practices/docsetup3.png"></center>
 
-![](../../img/design-standards/docsetup4.png)
+<center><img src="/img/best-practices/docsetup4.png"></center>
 
 The document structure isn't set in stone; as long as it helps your team fulfill the goal of top-down design and uses separate documents to split up the versions of mechanisms, you can place your master sketches wherever you want (master document, concept document, or the drivetrain document).
 
