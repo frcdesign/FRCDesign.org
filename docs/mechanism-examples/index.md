@@ -26,7 +26,7 @@ td{
 table, td{
     border: none !important;
 }
- 
+
 table tr:hover{
    background-color: transparent !important;
 }
@@ -45,11 +45,11 @@ table tr:hover{
 
 | | |
 |:-:|:-:|
-| [![](../img/cad-examples/intake/4bar/example.webp)](pivots/index.md) | |
 | [![](../img/cad-examples/intake/4bar/example.webp)](intake/4bar/index.md)| [![](../img/cad-examples/intake/slapdown/example.webp)](intake/slapdown/index.md) |
 | [4Bar Intakes](intake/4bar/index.md) | [Slapdown Intakes](intake/slapdown/index.md) |
 | [![](../img/cad-examples/elevator/continuous/example.webp)](elevator/continuous/index.md) | [![](../img/cad-examples/elevator/cascade/example.webp)](elevator/cascade/index.md) |
 | [Continuous Elevators](elevator/continuous/index.md) | [Cascade Elevators](elevator/cascade/index.md) |
 | [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../img/cad-examples/shooter/small.webp)](shooter/index.md) |
 | [Swerve Drivebases](drivebase/index.md) | [Shooters](shooter/index.md) |
-
+| [![](../img/cad-examples/pivots/2910/2910pivot.webp)](pivots/index.md) | |
+| [Pivots](pivots/index.md) | |
