@@ -105,3 +105,15 @@
 *[Hardstop]: A physical limit designed to prevent a mechanism or component from moving beyond a certain point.
 
 *[Softstop]:  A software-based limit or control mechanism that restricts the movement of a mechanism or component to prevent it from exceeding certain parameters.
+
+*[packaging]:  The way in which you fit parts of your robot together in a space
+
+*[Packaging]:  The way in which you fit parts of your robot together in a space
+
+*[backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+*[Backlash]:  'Slop' in a power transmission system; can wiggle back and forth without engaging the whole system
+
+*[parametric]:  Designed in a way that uses relationships between steps to maintain design intent
+
+*[Parametric]:  Designed in a way that uses relationships between steps to maintain design intent
