@@ -103,30 +103,34 @@
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 
-Welcome to stage 1! Through these projects you will learn how to use some of basic tools, as well as some of the core parts in FRC and how they go together. The focus on this guide is primarily to familiarize yourself and build CAD skills within an FRC context. Please use the discord if you have any questions!
+Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
+
 
 !!! Note
-    If you have a bit of prior experience using Onshape's tools, you can skip the learning courses and polish your sketching and part design using a few CADvent drawings. Otherwise, please do the learning courses first; they help set a very good foundation for an efficient workflow.
+    If you have a prior experience using Onshape, you can skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form a basic foundation for CAD.
 
-## Sketching and Part Design
+## Learning Center Courses
 
-The sketching and part design in Onshape is very similar to Inventor, but very different from SolidWorks. There are similarities in how it works, but if you just jump into designing things, you're likely to miss a crucial part of the workflow that will make your life much harder.
+[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles on how to use Onshape, from document navigation and sketching all the way to advanced surface and sheet metal modeling. This is a great resource to reference for both new and experienced users.
 
-[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles on the entire program, from document navigation and sketching all the way to advanced surface and sheet metal modeling. Its resources on specifically sketching and part design are incredibly useful for learning the fundamentals.
+Please complete these courses on the learning center to learn the fundamentals of Onshape CAD. 
 
-Please complete these courses on the learning center to learn the fundamentals of Onshape part design. 
+- [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad)
 
-- [Introduction to Sketching Course](https://learn.onshape.com/courses/introduction-to-sketching)
-- [Part Design Course](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
+- SKIP? [Introduction to Part Design](https://learn.onshape.com/courses/introduction-to-part-design) 
+- SKIP? [Introduction to Assembly Design](https://learn.onshape.com/courses/introduction-to-assembly-design)
+
+- [Introduction to Sketching](https://learn.onshape.com/courses/introduction-to-sketching)
+- [Part Design Using Part Studios](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
+- [Multi-Part Part Studios](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios)
+- [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
 
 !!! Note
-    The structure of the courses includes a few short videos and a practice per set of concepts, and don't take long to finish.
+    The structure of the courses includes a few short videos and a practice models, expected time 
 
-These learning courses can help both old and new designers learn a good workflow for sketching and part design.
+## Multi-Part Modeling
 
-## Multi-Part Modeling Practice
-
-When designing in Onshape, you typically have 1 part studio for subassembly. The next couple of projects will slowly introduce you to this concept. Take a look at [this page](../../best-practices/sub-document-setup.md) about sub-document best practices.
+When designing in Onshape, you typically have 1 part studio per subassembly. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
@@ -140,21 +144,21 @@ Assembling is the basic function of defining the position and motion of parts in
 
 When parts are inserted into an assembly, they free float. They can drag them around. The goal of assembling is to constrain the motion of all parts. There are few different ways to do this:
 
-- **Group**: Limits the relative motion between a group of parts to none
-- **Fix**: Fixes a part in space in the assembly (not recommended as it is not parametric)
-- **Mates**: Tools to limit degrees of freedom between parts using "mate connectors", which are automatically generated (or manually created) points with axes on parts. You can align the axes and offset in any direction or rotation you want. Different types of mates constrain different degrees of freedom. The three most commonly used mates are described below:
-    - *Fasten*: The *fasten* mate does not allow any movement between two mate connectors.
-    - *Revolute*: The *revolute* mate only allows rotational movement along the z-axis between two mate connectors. 
-    - *Slider*: The *slider* mate only allows linear movement along the z-axis between two mate connectors.
+- **`Group`**: Limits the relative motion between a group of parts to none
+- **`Fix`**: Fixes a part in space in the assembly (not recommended as it is not parametric)
+- **`Mates`**: Tools to limit degrees of freedom between parts using "mate connectors", which are automatically generated (or manually created) coordinate systems on parts. You can align the axes and offset in any direction or rotation you want. Different types of mates constrain different degrees of freedom. Three commonly used mates are described below:
+    - `Fasten`: The *fasten* mate does not allow any movement between two mate connectors. Eg: A bolt to a hole.
+    - `Revolute`: The *revolute* mate only allows rotational movement along the z-axis between two mate connectors. Eg: An arm pivot.
+    - `Slider`: The *slider* mate only allows linear movement along the z-axis between two mate connectors. Eg: An elevator.
 
 <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
 <center> *Example of a fasten mate.* </center>
 
-The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../best-practices/assembly-setup.md).
+The best practices for constraining an assembly as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. Assembly best practices are also defined [here](../../best-practices/assembly-setup.md).
 
 
 ## Practice Exercises
-Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. 
+Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. Solutions are available [here](Link to solutions).
 
 ### Exercise 1
 For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this exercise, do not use any Featurescripts.
