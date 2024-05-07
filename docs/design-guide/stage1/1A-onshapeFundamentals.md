@@ -342,9 +342,6 @@ If all is correct, the final weight of the parts should be 0.2704042 lb.
 
 
 
-
-
-
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
 <script>
