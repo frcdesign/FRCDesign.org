@@ -126,33 +126,23 @@ These learning courses can help both old and new designers learn a good workflow
 
 ## Multi-Part Modeling Practice
 
-Now that you've had practice with sketching and part modeling, we’ll be introducing a new concept: multi-part part studios.
-
 When designing in Onshape, you typically have 1 part studio for subassembly. The next couple of projects will slowly introduce you to this concept. Take a look at [this page](../../best-practices/sub-document-setup.md) about sub-document best practices.
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
-<center><img src="\img\design-guide\stage1a\1a-Swerve.webp" width="45%"></center>
-
-In the "bonus" part studio from the CADvent document you copied earlier, two aluminum box tubes have already been modeled for you. A new sketch has been created on top of the tubes that is ready for you to create the part profile.
-
-For this project, you have to design a part called a "gusset" that connects two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
-
-<center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"></center>
-
-Use the techniques you have learned to design this part in-context. This time you do not have a direct part drawing, so you'll have to reference the other parts in the part studio. Remember the ```Use``` tool: it's key here. Good luck!
-
-!!! Tip
-    When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+<center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="45%"></center>
 
 ## Assembly Mates
-The last thing to go over before we get into stage 1B, where you model a swerve drivebase, is the basic function of defining the position and motion of parts in an assembly. This section doesn't have a project but you'll use what you learn in the next projects.
+Assembling is the basic function of defining the position and motion of parts in an assembly.
 
-When parts are inserted into an assembly, they free float. You can drag them around. The goal is to constrain the motion of all parts. There are few different ways to do this:
+When parts are inserted into an assembly, they free float. They can drag them around. The goal of assembling is to constrain the motion of all parts. There are few different ways to do this:
 
 - **Group**: Limits the relative motion between a group of parts to none
-- **Fix**: Fixes a part in space in the assembly (not recommended to use, not parametric)
-- **Mates**: Tools to limit degrees of freedom between parts, using "mate connectors", automatically generated (or manually created) points with axes on parts. You can align the axes or offset in any direction or rotation you want, and different types of mates constrain different degrees of freedom. The "Fasten" mate is the most common and easy one, and limits all degrees of freedom between two parts with a single mate.
+- **Fix**: Fixes a part in space in the assembly (not recommended as it is not parametric)
+- **Mates**: Tools to limit degrees of freedom between parts using "mate connectors", which are automatically generated (or manually created) points with axes on parts. You can align the axes and offset in any direction or rotation you want. Different types of mates constrain different degrees of freedom. The three most commonly used mates are described below:
+    - *Fasten*: The *fasten* mate does not allow any movement between two mate connectors.
+    - *Revolute*: The *revolute* mate only allows rotational movement along the z-axis between two mate connectors. 
+    - *Slider*: The *slider* mate only allows linear movement along the z-axis between two mate connectors.
 
 <center><img src="\img\design-guide\stage1a\mateConnectors.webp"></center>
 
@@ -164,6 +154,7 @@ Now lets practice! Make a copy of the [Fundamentals Exercises Document](link her
 
 ### Exercise 1
 For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this exercise, do not use any Featurescripts.
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -228,58 +219,102 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
 
 If all is correct, the final weight of the part should be 0.350844 lb.
 
-<!-- ### Exercise 2 -->
+### Exercise 2
+For this exercise, you will design two tubes and a part called a "gusset", which connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
+
+<center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
+<center> *Example of a gusset.* </center>
+
+You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. Do not use the `Gusset` Featurescript for this exercise.
+
+!!! Tip
+    When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
 
 <!-- Slideshow container -->
-<!-- <div class="slideshow-container">
+<div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s6.webp" style="width:100%">
-      <figcaption>0. The final part.</figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
+      <figcaption>0. The finished parts.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s1.webp" style="width:100%">
-      <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s1.webp" style="width:100%">
+      <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s2.webp" style="width:100%">
-      <figcaption>2. Extrude the rectangle symmetrically, 2" tall.</figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s2.webp" style="width:100%">
+      <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s3.gif" style="width:100%">
-      <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s3.webp" style="width:100%">
+      <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall 1"x1" tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s4.gif" style="width:100%">
-      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s4.webp" style="width:100%">
+      <figcaption>4. Draw a triangle with construction geometry for the gusset. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s5.gif" style="width:100%">
-      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s5.webp" style="width:100%">
+      <figcaption>5. Dimension the triangle to be 0.5" away from the edges of the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1s6.webp" style="width:100%">
-      <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s6.webp" style="width:100%">
+      <figcaption>6. Use the <code>Offset Entities</code> tool to offset the construction geometry 0.25". This will be the outline of the gusset. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s7.webp" style="width:100%">
+      <figcaption>7. Use the <code>Sketch Fillet</code> tool to add a 0.25" fillet to the three corners of the gusset. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s8.webp" style="width:100%">
+      <figcaption>8. Delete the three points left over from the fillet. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s9.webp" style="width:100%">
+      <figcaption>9. Use the <code>Use (Project/Convert)</code> tool to project the tube holes onto the gusset sketch. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s10.webp" style="width:100%">
+      <figcaption>10. Extrude the gusset to be 1/8" thick. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
+      <figcaption>11. Name the key sketches and parts. Set the material to be 6061 Aluminum. </figcaption>
     </figure>
   </div>
 
@@ -290,7 +325,10 @@ If all is correct, the final weight of the part should be 0.350844 lb.
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
   </div>
-<!-- </div> -->
+</div>
+
+If all is correct, the final weight of the parts should be 0.2704042 lb.
+
 
 <br>
 <center>1A: Fundamentals</center> 
