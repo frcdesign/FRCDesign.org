@@ -131,8 +131,11 @@ When designing in Onshape, you typically have 1 part studio for subassembly. The
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
 <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="45%"></center>
+<center> *Example of a part studio.* </center>
 
-## Assembly Mates
+## Assemblies
+TEXT ABOUT ASSEMBLIES N SHI
+
 Assembling is the basic function of defining the position and motion of parts in an assembly.
 
 When parts are inserted into an assembly, they free float. They can drag them around. The goal of assembling is to constrain the motion of all parts. There are few different ways to do this:
@@ -144,7 +147,8 @@ When parts are inserted into an assembly, they free float. They can drag them ar
     - *Revolute*: The *revolute* mate only allows rotational movement along the z-axis between two mate connectors. 
     - *Slider*: The *slider* mate only allows linear movement along the z-axis between two mate connectors.
 
-<center><img src="\img\design-guide\stage1a\mateConnectors.webp"></center>
+<center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
+<center> *Example of a fasten mate.* </center>
 
 The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../best-practices/assembly-setup.md).
 
@@ -217,7 +221,7 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
   </div>
 </div>
 
-If all is correct, the final weight of the part should be 0.350844 lb.
+If all is correct, the final weight of the part should be 0.350 lb.
 
 ### Exercise 2
 For this exercise, you will design two tubes and a part called a "gusset", which connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
@@ -258,7 +262,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s3.webp" style="width:100%">
-      <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall 1"x1" tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
+      <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
     </figure>
   </div>
 
@@ -327,17 +331,116 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   </div>
 </div>
 
-If all is correct, the final weight of the parts should be 0.2704042 lb.
+If all is correct, the final weight of the parts should be 0.270 lb
 
+### Exercise 3
+For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
+
+You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
+
+!!! Note
+    Learning Objectives thing? idk
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s1.webp" style="width:100%">
+      <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s2.webp" style="width:100%">
+      <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s3.webp" style="width:100%">
+      <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s4.webp" style="width:100%">
+      <figcaption>4. Use the <code>Gusset</code> tool to create the top gusset by selecting the holes on the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s5.webp" style="width:100%">
+      <figcaption>5. Use the <code>Gusset</code> tool to create the bottom gusset by selecting the holes on the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s6.webp" style="width:100%">
+      <figcaption>6. Name the key sketches and parts. The materials will have already been set to 6061 Aluminum from the Featurescripts.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s7.gif" style="width:100%">
+      <figcaption>7. Insert the parts into the assembly by directly clicking on the green checkmark. Then, <code>Group</code> all the parts together. Finally, <code>fix</code> the bottom tube in place. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s8.gif" style="width:100%">
+      <figcaption>8. Copy and paste the gussets four times. Then, use the <code>Fasten</code> mate to attach the gussets to the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s9.gif" style="width:100%">
+      <figcaption>9. Some gussets may need to have their <code>Fasten</code> mate reoriented in order to properly line up. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
+      <figcaption>10. Finished assembly. </figcaption>
+    </figure>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+If all is correct, the final weight of the assembly should be 1.946 lb.
+
+It should be noted that while fixing the tube is not a best practice for setting the origin of the assembly, it is sufficient for the purposes of this exercise.
 
 <br>
 <center>1A: Fundamentals</center> 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 <br>
-
-
-
 
 
 
