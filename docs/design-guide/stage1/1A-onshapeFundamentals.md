@@ -124,110 +124,6 @@ Please complete these courses on the learning center to learn the fundamentals o
 
 These learning courses can help both old and new designers learn a good workflow for sketching and part design.
 
-## CADvent Part Gallery
-CADvent is an advent calendar where each day has a different CAD challenge, defined with a drawing (released by FRC Team 8724 on [ChiefDelphi](https://www.chiefdelphi.com/t/cadvent-2023-2024/446060)). We've picked some of these part drawings for extra sketching and part design practice, if you feel you need it. In the future, more FRC-specific part drawings will be added. 
-
-In the drawing slideshow below are 16 CADvent drawings. To begin, make a copy of the [CADvent practice document](https://cad.onshape.com/documents/6af40b750516bfd9d86b2203/w/1a10c33aa547ad764e1c876c/e/d57a1b029a59e3fa8c410591). Each part you make will go into a separate part studio. Some have already been set up, but you may make more if you want to do more practice parts. Use the dimensions in each drawing to guide the part. Stop before the "Bonus: Gusset" part studio! (That will be used in the next section.)
-
-!!! Tip
-    Think about how to achieve the part in as little sketches and features as possible. Feel free to ask for tips (after trying it yourself) in the beginner channels in the DDS Discord Server.
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent1.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent2.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent3.webp" style="width:100%">
-  </div>
-  
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent4.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent5.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent6.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent7.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent8.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent9.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent10.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent11.webp" style="width:100%">
-  </div>
-  
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent12.webp" style="width:100%">
-  </div>
-  
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent13.webp" style="width:100%">
-  </div>
-  
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent14.webp" style="width:100%">
-  </div>
-  
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent15.webp" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="/img/design-guide/stage1a/cadvents/cadvent16.webp" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
-  <span class="dot" onclick="currentSlide(11)"></span>
-  <span class="dot" onclick="currentSlide(12)"></span>
-  <span class="dot" onclick="currentSlide(13)"></span>
-  <span class="dot" onclick="currentSlide(14)"></span>
-  <span class="dot" onclick="currentSlide(15)"></span>
-  <span class="dot" onclick="currentSlide(16)"></span>
-</div>
-<br>
-
-
 ## Multi-Part Modeling Practice
 
 Now that you've had practice with sketching and part modeling, we’ll be introducing a new concept: multi-part part studios.
@@ -263,39 +159,202 @@ When parts are inserted into an assembly, they free float. You can drag them aro
 The best practices for constraining an assembly using group, mates, and fix, as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. The best practices are also defined [here](../../best-practices/assembly-setup.md).
 
 
+## Practice Exercises
+Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. 
+
+### Exercise 1
+For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this exercise, do not use any Featurescripts.
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
+      <figcaption>0. The final part.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s1.webp" style="width:100%">
+      <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s2.webp" style="width:100%">
+      <figcaption>2. Extrude the rectangle symmetrically, 2" tall.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s3.gif" style="width:100%">
+      <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s4.gif" style="width:100%">
+      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s5.gif" style="width:100%">
+      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
+      <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+If all is correct, the final weight of the part should be 0.350844 lb.
+
+<!-- ### Exercise 2 -->
+
+<!-- Slideshow container -->
+<!-- <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s6.webp" style="width:100%">
+      <figcaption>0. The final part.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s1.webp" style="width:100%">
+      <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s2.webp" style="width:100%">
+      <figcaption>2. Extrude the rectangle symmetrically, 2" tall.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s3.gif" style="width:100%">
+      <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s4.gif" style="width:100%">
+      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s5.gif" style="width:100%">
+      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e1s6.webp" style="width:100%">
+      <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+<!-- </div> -->
+
 <br>
 <center>1A: Fundamentals</center> 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 <br>
 
+
+
+
+
+
+
+
+
+
+<!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
+
 <script>
-let slideIndex = 1;
-showSlides(slideIndex);
+// Initialize slide index for each slideshow
+let slideIndices = [];
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n, no) {
+  showSlides(slideIndices[no] += n, no);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n, no) {
+  showSlides(slideIndices[no] = n, no);
 }
 
-function showSlides(n) {
+function showSlides(n, no) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  let x = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("dot");
+  if (n > x.length) {slideIndices[no] = 1}    
+  if (n < 1) {slideIndices[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  x[slideIndices[no]-1].style.display = "block";  
+  dots[slideIndices[no]-1].className += " active";
+}
+
+window.onload = function() {
+  // Automatically generate dots based on the number of slides
+  let slideshows = document.getElementsByClassName("slideshow-container");
+  for (let no = 0; no < slideshows.length; no++) {
+    slideIndices[no] = 1;
+    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
+    let slides = slideshows[no].getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      let dot = document.createElement("span");
+      dot.className = "dot";
+      dot.onclick = function() { currentSlide(i+1, no); };
+      dotsContainer.appendChild(dot);
+    }
+    showSlides(1, no);
+  }
 }
 </script>
+
+
