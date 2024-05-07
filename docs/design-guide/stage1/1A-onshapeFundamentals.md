@@ -107,7 +107,7 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 
 
 !!! Note
-    If you have a prior experience using Onshape, you can skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form a basic foundation for CAD.
+    If you have a prior experience using Onshape, you can skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form the basic foundation for CAD skills.
 
 ## Learning Center Courses
 
@@ -126,9 +126,11 @@ Please complete these courses on the learning center to learn the fundamentals o
 - [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
 
 !!! Note
-    The structure of the courses includes a few short videos and a practice models, expected time 
+    The structure of the courses includes a few short videos and a practice models, expected time is # hours.
 
 ## Multi-Part Modeling
+
+<span style="color: red;">The below text is pretty awful, need to fix.</span>  
 
 When designing in Onshape, you typically have 1 part studio per subassembly. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
 
@@ -138,7 +140,7 @@ Here is an example of one of the future projects that you’ll be working on. No
 <center> *Example of a part studio.* </center>
 
 ## Assemblies
-TEXT ABOUT ASSEMBLIES N SHI
+<span style="color: red;">The below text is pretty awful, need to fix.</span> 
 
 Assembling is the basic function of defining the position and motion of parts in an assembly.
 
