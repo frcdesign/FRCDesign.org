@@ -162,7 +162,7 @@ The best practices for constraining an assembly as well as other tools used for 
 ## Practice Exercises
 Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. Solutions are available [here](Link to solutions).
 
-### Exercise 1
+### Exercise 1: Simple Box Tube
 For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this exercise, do not use any Featurescripts.
 
 <!-- Slideshow container -->
@@ -219,8 +219,8 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -229,7 +229,7 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
 
 If all is correct, the final weight of the part should be 0.350 lb.
 
-### Exercise 2
+### Exercise 2: Box Tube and Gusset Joint
 For this exercise, you will design two tubes and a part called a "gusset", which connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
 <center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
@@ -329,8 +329,8 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -339,7 +339,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 If all is correct, the final weight of the parts should be 0.270 lb
 
-### Exercise 3
+### Exercise 3: Box Tube Frame
 For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
 
 You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
@@ -430,8 +430,8 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -440,7 +440,106 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 If all is correct, the final weight of the assembly should be 1.946 lb.
 
-It should be noted that while fixing the tube is not a best practice for setting the origin of the assembly, it is sufficient for the purposes of this exercise.
+It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
+
+### Exercise 4: Climber Hook
+
+As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
+
+You will utilize the `Spacer` Featurescript for this exercise.
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s1.webp" style="width:100%">
+      <figcaption>1. Start by sketching the tube on the right plane.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s2.webp" style="width:100%">
+      <figcaption>2. Use the <code>Tube</code> Featurescript to create a thin-wall 1"x1" tube with no holes.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s3.webp" style="width:100%">
+      <figcaption>3. Draw the climber hook sketch. The construction geometry circle represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with. Pay attention to the sketch constraints used.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s4.gif" style="width:100%">
+      <figcaption>4. Use the <code>Linear Pattern</code> sketch tool to pattern the mounting holes. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s5.webp" style="width:100%">
+      <figcaption>5. Make the hook 3/16" thick. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s6.webp" style="width:100%">
+      <figcaption>6. Fillet the bottom two corners with a 0.25" radius.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s7.gif" style="width:100%">
+      <figcaption>7. Use the <code>Spacer</code> Featurescript to add a 0.5" diameter spacer. Use the `Up to Face` end condition to make the spacer match the tube width. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s8.webp" style="width:100%">
+      <figcaption>8. Use the <code>Use</code> sketch tool to add the mounting holes to the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s9.webp" style="width:100%">
+      <figcaption>9. Name the key sketches and parts. Set the material of the hook and spacer to 6061 Aluminum. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
+      <figcaption>10. Finished assembly. </figcaption>
+    </figure>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+If all is correct, the final weight of the assembly should be 0.560 lb.
 
 <br>
 <center>1A: Fundamentals</center> 
