@@ -107,7 +107,7 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 
 
 !!! Note
-    If you have a prior experience using Onshape, you can skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form the basic foundation for CAD skills.
+    If you have a prior experience using Onshape, you can likely skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form a basic foundation for CAD skills.
 
 ## Learning Center Courses
 
@@ -123,26 +123,25 @@ Please complete these courses on the learning center to learn the fundamentals o
 - [Multi-Part Part Studios](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios)
 - [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
 
-!!! Note
-    The structure of the courses includes some short videos and practice models, expected time is couple of hours.
+
+The structure of the courses includes some short videos and practice models, expected time is couple of hours.
+
+Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a certain feature of Onshape works. 
 
 ## Multi-Part Modeling
 
-<span style="color: red;">The below text is pretty awful, need to fix.</span>  
+As was introduced in the Onshape learning courses, Onshape is a multi-body modeling focused software. For FRC, that typically translates to one part studio per subsystem. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
 
-When designing in Onshape, you typically have 1 part studio per subsystem. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
-
-Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
+Here is an example of a subsystem part studio. Notice how there is one instance of each unique part inside of this part studio. The part studio also appears to be almost like the completed product as the parts are modeled relative to each other.
 
 <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="45%"></center>
 <center> *Example of a part studio.* </center>
 
 ## Assemblies
-<span style="color: red;">The below text is pretty awful, need to fix.</span> 
 
 Assembling is the basic function of defining the position and motion of parts in an assembly.
 
-When parts are inserted into an assembly, they free float. They can drag them around. The goal of assembling is to constrain the motion of all parts. There are few different ways to do this:
+As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
 - **`Group`**: Limits the relative motion between a group of parts to none
 - **`Fix`**: Fixes a part in space in the assembly (not recommended as it is not parametric)
@@ -154,8 +153,7 @@ When parts are inserted into an assembly, they free float. They can drag them ar
 <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
 <center> *Example of a fasten mate.* </center>
 
-The best practices for constraining an assembly as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. Assembly best practices are also defined [here](../../best-practices/assembly-setup.md).
-
+The best practices for constraining an assembly as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. Assembly best practices are defined [here](../../best-practices/assembly-setup.md) and will be covered in more detail in the later stages.
 
 ## Practice Exercises
 Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. Solutions are available [here](Link to solutions).
@@ -227,8 +225,10 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
 
 If all is correct, the final weight of the part should be 0.350 lb.
 
+Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually dimensioning the location of every hole.
+
 ### Exercise 2: Box Tube and Gusset Joint
-For this exercise, you will design two tubes and a part called a "gusset", which connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
+For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
 <center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
 <center> *Example of a gusset.* </center>
@@ -335,7 +335,9 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   </div>
 </div>
 
-If all is correct, the final weight of the parts should be 0.270 lb
+If all is correct, the final weight of the parts should be 0.270 lb.
+
+In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
 ### Exercise 3: Box Tube Frame
 For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
@@ -437,6 +439,8 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 </div>
 
 If all is correct, the final weight of the assembly should be 1.946 lb.
+
+Here, you're introduced to yet another highly useful Featurescript for creating gussets.
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
