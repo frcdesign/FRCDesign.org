@@ -12,12 +12,13 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Neel 
 - Brendan 
 - Vaughn
+- Jonathan Mi
 
 ## Additional Input
 - Nick Aarestad
-- Jon (juju) Beans
 - Trisha
 - Chickenbonker
 - Andrew Torrance
 - Lati
 - Jeremy
+- Sarah

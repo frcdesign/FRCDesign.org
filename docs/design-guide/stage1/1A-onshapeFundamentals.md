@@ -46,7 +46,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.6);
 }
 
 /* Caption text */
@@ -116,23 +116,21 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 Please complete these courses on the learning center to learn the fundamentals of Onshape CAD. 
 
 - [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad)
-
-- SKIP? [Introduction to Part Design](https://learn.onshape.com/courses/introduction-to-part-design) 
-- SKIP? [Introduction to Assembly Design](https://learn.onshape.com/courses/introduction-to-assembly-design)
-
+- [Introduction to Part Design](https://learn.onshape.com/courses/introduction-to-part-design) 
+- [Introduction to Assembly Design](https://learn.onshape.com/courses/introduction-to-assembly-design)
 - [Introduction to Sketching](https://learn.onshape.com/courses/introduction-to-sketching)
 - [Part Design Using Part Studios](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
 - [Multi-Part Part Studios](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios)
 - [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
 
 !!! Note
-    The structure of the courses includes a few short videos and a practice models, expected time is # hours.
+    The structure of the courses includes some short videos and practice models, expected time is couple of hours.
 
 ## Multi-Part Modeling
 
 <span style="color: red;">The below text is pretty awful, need to fix.</span>  
 
-When designing in Onshape, you typically have 1 part studio per subassembly. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
+When designing in Onshape, you typically have 1 part studio per subsystem. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
 
 Here is an example of one of the future projects that you’ll be working on. Notice how there are multiple parts inside of this one part studio, and how it “almost” looks like the completed product.
 
@@ -149,9 +147,9 @@ When parts are inserted into an assembly, they free float. They can drag them ar
 - **`Group`**: Limits the relative motion between a group of parts to none
 - **`Fix`**: Fixes a part in space in the assembly (not recommended as it is not parametric)
 - **`Mates`**: Tools to limit degrees of freedom between parts using "mate connectors", which are automatically generated (or manually created) coordinate systems on parts. You can align the axes and offset in any direction or rotation you want. Different types of mates constrain different degrees of freedom. Three commonly used mates are described below:
-    - `Fasten`: The *fasten* mate does not allow any movement between two mate connectors. Eg: A bolt to a hole.
-    - `Revolute`: The *revolute* mate only allows rotational movement along the z-axis between two mate connectors. Eg: An arm pivot.
-    - `Slider`: The *slider* mate only allows linear movement along the z-axis between two mate connectors. Eg: An elevator.
+    - `Fasten`: The `fasten` mate does not allow any movement between two mate connectors. Eg: A bolt to a hole.
+    - `Revolute`: The `revolute` mate only allows rotational movement about the z-axis between two mate connectors. Eg: An arm pivot.
+    - `Slider`: The `slider` mate only allows linear movement about the z-axis between two mate connectors. Eg: An elevator.
 
 <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
 <center> *Example of a fasten mate.* </center>
@@ -529,7 +527,6 @@ You will utilize the `Spacer` Featurescript for this exercise.
     </figure>
   </div>
 
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
   <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
@@ -541,13 +538,141 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 If all is correct, the final weight of the assembly should be 0.560 lb.
 
+### Exercise 5: Two Stage Gearbox
+
+In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
+
+The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, practice more complex sketches, and practice mating together larger assemblies.
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s14.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s1.webp" style="width:100%">
+      <figcaption>1. This is the layout sketch of the gearbox, it has been drawn for you already. The layout sketch models where the motors and gears will go and how the gears should mesh. You'll learn more about this in Stage 1C.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s2.webp" style="width:100%">
+      <figcaption>2. Open the "Finish This!" sketch and finish the plate. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s3.webp" style="width:100%">
+      <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s4.webp" style="width:100%">
+      <figcaption>4. Use the <code>Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s5.gif" style="width:100%">
+      <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s6.webp" style="width:100%">
+      <figcaption>6. Use the <code>Shaft</code> Featurescript to create the output shaft.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s7.webp" style="width:100%">
+      <figcaption>7. Create a sketch on the face of the plate and draw the lines for the pocketing ribs. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s8.gif" style="width:100%">
+      <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s9.webp" style="width:100%">
+      <figcaption>9. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s10.gif" style="width:100%">
+      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer onto the other spacer locations. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s11.webp" style="width:100%">
+      <figcaption>11. Copy the gearbox plate and mate it into place. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" height="963" controls="controls">
+        <source src="/img/design-guide/stage1a/exercises/e5/e5s12.mp4" type="video/mp4">
+      </video>
+      <figcaption>12. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" height="963" controls="controls">
+        <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
+      </video>
+      <figcaption>13. Assemble the spacers and gears using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s14.webp" style="width:100%">
+      <figcaption>13. Finished assembly. </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+
+
 <br>
 <center>1A: Fundamentals</center> 
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
 <br>
 <br>
-
-
 
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
