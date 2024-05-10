@@ -231,7 +231,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   </div>
 </div>
 
-If all is correct, the final weight of the part should be 0.350 lb.
+If all is correct, the final mass of the part should be 0.350 lb.
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
@@ -349,7 +349,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   </div>
 </div>
 
-If all is correct, the final weight of the parts should be 0.270 lb.
+If all is correct, the final mass of the parts should be 0.270 lb.
 
 In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
@@ -453,7 +453,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   </div>
 </div>
 
-If all is correct, the final weight of the assembly should be 1.946 lb.
+If all is correct, the final mass of the assembly should be 1.946 lb.
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
@@ -557,7 +557,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   </div>
 </div>
 
-If all is correct, the final weight of the assembly should be 0.560 lb.
+If all is correct, the final mass of the assembly should be 0.560 lb.
 
 ### Exercise 5: Two Stage Gearbox
 
