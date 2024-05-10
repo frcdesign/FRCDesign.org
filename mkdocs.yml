@@ -124,6 +124,10 @@ nav:
         - mechanism-examples/drivebase/index.md
         - 2910 Drivebase: mechanism-examples/drivebase/examples/2910.md
         - 972 Brainpan Drivebase: mechanism-examples/drivebase/examples/brainpan.md
+      - Pivots:
+        - mechanism-examples/pivots/index.md
+        - 6328 A-Frame Pivot: mechanism-examples/pivots/examples/6328pivot.md
+        - 2910 Dead Axle Pivot: mechanism-examples/pivots/examples/2910pivot.md
     
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md

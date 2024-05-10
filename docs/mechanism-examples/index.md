@@ -26,7 +26,7 @@ td{
 table, td{
     border: none !important;
 }
- 
+
 table tr:hover{
    background-color: transparent !important;
 }
@@ -51,4 +51,5 @@ table tr:hover{
 | [Continuous Elevators](elevator/continuous/index.md) | [Cascade Elevators](elevator/cascade/index.md) |
 | [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../img/cad-examples/shooter/small.webp)](shooter/index.md) |
 | [Swerve Drivebases](drivebase/index.md) | [Shooters](shooter/index.md) |
-
+| [![](../img/cad-examples/pivots/2910/2910pivot.webp)](pivots/index.md) | |
+| [Pivots](pivots/index.md) | |
