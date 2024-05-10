@@ -642,7 +642,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e5/e5s10.gif" style="width:100%">
-      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer onto the other spacer locations. </figcaption>
+      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
 
