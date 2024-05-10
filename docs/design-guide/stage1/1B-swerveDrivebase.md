@@ -16,26 +16,21 @@
 <span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 
-For your first project, we’ll be making a swerve drivebase using COTS parts. It is important to learn how to design a swerve drivebase since it is now the most commonly used competitive drivetrain in FRC, and everything you design goes on top of it. In this project we will go step-by-step as we introduce new concepts. 
-
-This guide is still useful to go through even if you already know how to make one with self-taught skills, as it will introduce both a good top-down design workflow that will be iterated upon for all future projects and many concepts that aren't common outside of FRC (such as using featurescripts to speed up the workflow).
-
 ## Project Overview
 
-A swerve drivebase is composed of four "swerve modules". Each module has a 2 motors, 1 for powering the wheel and one for steering it. This allows it to move in any direction independent of rotation (strafe). In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module), but there are other options depending on packaging limitations.
+In Stage 1B, you'll dive right into top-down robot design with master sketches. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a top-down design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the top-down master sketch design methodology.
+
+
+A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
+
+A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module).
 
 <center><img src="\img\design-guide\stage1b\Assembly_1.webp"></center>
+<center>*The swerve drivebase that you will be modeling.*</center>
 
-!!! Note
-    The use of unsimplified models is deliberate; we will use simplified models starting in stage 2B.
+As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
 
-
-Notice how the structure is made out of aluminum box tubing. You’ll find that this is the most common “structural” part. You can think of this like the wooden beams for a house. It is most commonly found in 2 inch by 1 inch, 1 inch by 1 inch, and 2 inch by 2 inch sizes. It is also found in 1/8 inch and 1/16 inch thicknesses. 
-
-For the rest of the tutorial, box tubing will be referred to by their shorthand name (based on their size), such as 2x1, 1x1, and 2x2.
-
-!!! Note
-    You can buy the simple extrusions at most metal suppliers, but [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), and [REV](https://www.revrobotics.com/MAXTube/) all sell box tubing with hole patterns for easier design and assembly.
+Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
 
 ## Part Studio
