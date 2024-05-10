@@ -159,13 +159,14 @@ The best practices for constraining an assembly, along with other assembly tools
 Now lets practice! Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). For each exercise, the final reference is available to you. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
 
 ### Exercise 1: Simple Box Tube
-For exercise 1, you will be modeling a 2"x1" box tube with some holes in it. Here's an example of an aluminum box tube on a robot:
+In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
+
+Here's an example of an aluminum box tube structure on a robot:
 
 <center><img src="\img\design-guide\stage1a\tube.webp" width="45%"> </center>
-<center> *Example of a box tube.* </center>
+<center> *Example of a 2x1 box tube.* </center>
 
-For this exercise, do not use any Featurescripts.
-
+For exercise 1, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts.
 
 <center>**Exercise 1 Instruction Slides**</center>
 <!-- Slideshow container -->
@@ -242,9 +243,12 @@ For this exercise, you will design two tubes and a part called a "gusset". A gus
 
 You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. Do not use the `Gusset` Featurescript for this exercise.
 
+The `Extrude individual` Featurescript enables you to extrude sketch regions without merging them. In this exercise, if you were to extrude the sketch of the tubes with the standard <code>Extrude</code> tool, only a single part would generate.
+
+The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
+
 !!! Tip
     When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
-
 
 <center>**Exercise 2 Instruction Slides**</center>
 
@@ -269,7 +273,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s2.webp" style="width:100%">
-      <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks.</figcaption>
+      <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks. </figcaption>
     </figure>
   </div>
 
@@ -353,6 +357,8 @@ In this exercise, you can see the power of Featurescripts. What would have been 
 For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
 
 You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
+
+The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
 
 <center>**Exercise 3 Instruction Slides**</center>
 
@@ -449,15 +455,13 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 If all is correct, the final weight of the assembly should be 1.946 lb.
 
-Here, you're introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
+In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
 ### Exercise 4: Climber Hook
 
-As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components. Here an example of a robot utilizing climbing hooks:
-
-
+As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
 
 You will utilize the `Spacer` Featurescript for this exercise.
 
