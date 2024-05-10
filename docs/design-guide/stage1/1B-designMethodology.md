@@ -109,7 +109,7 @@ In Stage 1B, you'll dive right into top-down robot design with master sketches. 
 To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert and mate a pre modeled mechanism.
 
 <center><img src="\img\design-guide\stage1b\SwerveBase\fullassy.webp" style="width:100%"></center>
-<center>*Final robot assembly.*</center>
+<center>*Final robot assembly. (Update pic) *</center>
 
 ## Master Sketch Methodology
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
