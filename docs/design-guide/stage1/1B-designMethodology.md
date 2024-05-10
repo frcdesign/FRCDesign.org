@@ -5,9 +5,95 @@
 .center{
     text-align:center;
 }
-
 .left{
     float:left;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.25s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 </style>
 
@@ -23,10 +109,10 @@ In Stage 1B, you'll dive right into top-down robot design with master sketches. 
 
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
 
-A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module).
+A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
 
-<center><img src="\img\design-guide\stage1b\Assembly_1.webp"></center>
-<center>*The swerve drivebase that you will be modeling.*</center>
+<center><img src="\img\design-guide\stage1b\SwerveBase\fullassy.webp" style="width:100%"></center>
+<center>*Stage 1B swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
 
@@ -35,7 +121,9 @@ Box tubing extrusions can be purchased at most metal suppliers, but many FRC ven
 
 ## Part Studio
 
-### Side Layout Sketch
+### Master Sketch Methodology
+When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
+
 
 To start, we will be making a sketch on the right plane. This will be representing the right side of our robot and help us determine the length of the drive train. Name the sketch “Robot Layout".
 
@@ -64,7 +152,7 @@ Now, let’s make the whole thing construction (drag-select all the geometry cre
 Now confirm the sketch by hitting the green checkmark in the sketch dialogue box.
 
 
-### Modeling the Box Tubes
+### Modeling the Parts
 
 Now we’ll be modeling the drivetrain tubes using a top layout sketch. We’ll be ending with something that looks like this:
 
@@ -226,3 +314,51 @@ Next, you'll learn how to sketch and assemble power transmission components in a
 <span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 <br>
+
+<!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
+
+<script>
+// Initialize slide index for each slideshow
+let slideIndices = [];
+
+let slideshows = document.getElementsByClassName("slideshow-container");
+  for (let no = 0; no < slideshows.length; no++) {
+    slideIndices[no] = 1;
+    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
+    let slides = slideshows[no].getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      let dot = document.createElement("span");
+      dot.className = "dot";
+      dot.onclick = function() { currentSlide(i+1, no); };
+      dotsContainer.appendChild(dot);
+    }
+    showSlides(1, no);
+  }
+
+// Next/previous controls
+function plusSlides(n, no) {
+  showSlides(slideIndices[no] += n, no);
+}
+
+// Thumbnail image controls
+function currentSlide(n, no) {
+  showSlides(slideIndices[no] = n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("dot");
+  if (n > x.length) {slideIndices[no] = 1}    
+  if (n < 1) {slideIndices[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  x[slideIndices[no]-1].style.display = "block";  
+  dots[slideIndices[no]-1].className += " active";
+}
+
+</script>
