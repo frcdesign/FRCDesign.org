@@ -111,7 +111,7 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 
 ## Learning Center Courses
 
-[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles on how to use Onshape, from document navigation and sketching all the way to advanced surface and sheet metal modeling. This is a great resource to reference for both new and experienced users.
+[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike.
 
 Please complete these courses on the learning center to learn the fundamentals of Onshape CAD. 
 
@@ -124,15 +124,15 @@ Please complete these courses on the learning center to learn the fundamentals o
 - [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
 
 
-The structure of the courses includes some short videos and practice models, expected time is couple of hours.
+The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
-Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a certain feature of Onshape works. 
+Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a specific feature of Onshape works. 
 
 ## Multi-Part Modeling
 
-As was introduced in the Onshape learning courses, Onshape is a multi-body modeling focused software. For FRC, that typically translates to one part studio per subsystem. Take a look at [this page](../../best-practices/sub-document-setup.md) to learn more about sub-document best practices. The following practice exercises will allow you to practices these concepts. 
+As introduced in the Onshape learning courses, Onshape is a software focused on multi-body modeling. In FRC, this usually means one part studio per subsystem. Check out [this page](../../best-practices/sub-document-setup.md) to learn more about best practices for sub-documents. The following practice exercises will help you reinforce these concepts.
 
-Here is an example of a subsystem part studio. Notice how there is one instance of each unique part inside of this part studio. The part studio also appears to be almost like the completed product as the parts are modeled relative to each other.
+Here's an example of a subsystem part studio. Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
 
 <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="45%"></center>
 <center> *Example of a part studio.* </center>
@@ -143,24 +143,31 @@ Assembling is the basic function of defining the position and motion of parts in
 
 As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
-- **`Group`**: Limits the relative motion between a group of parts to none
-- **`Fix`**: Fixes a part in space in the assembly (not recommended as it is not parametric)
-- **`Mates`**: Tools to limit degrees of freedom between parts using "mate connectors", which are automatically generated (or manually created) coordinate systems on parts. You can align the axes and offset in any direction or rotation you want. Different types of mates constrain different degrees of freedom. Three commonly used mates are described below:
-    - `Fasten`: The `fasten` mate does not allow any movement between two mate connectors. Eg: A bolt to a hole.
-    - `Revolute`: The `revolute` mate only allows rotational movement about the z-axis between two mate connectors. Eg: An arm pivot.
-    - `Slider`: The `slider` mate only allows linear movement about the z-axis between two mate connectors. Eg: An elevator.
+- **`Group`**: Restricts the relative motion between a group of parts.
+- **`Fix`**: Locks a part in place within the assembly. (Not recommended as it's not parametric.)
+- **`Mates`**: Tools to constrain the degrees of freedom between parts using "mate connectors." These connectors are automatically generated or manually created coordinate systems on parts. You can align the axes and apply offsets in any direction or rotation. Different mates constrain different degrees of freedom. Here are three commonly used mates:
+    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole.
+    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot. Eg: An arm pivot.
+    - `Slider`: Enables linear movement along the z-axis between two mate connectors. Eg: An elevator.
 
 <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
 <center> *Example of a fasten mate.* </center>
 
-The best practices for constraining an assembly as well as other tools used for assembly, such as replicate, pattern, standard content, etc. will be discovered through the projects. Assembly best practices are defined [here](../../best-practices/assembly-setup.md) and will be covered in more detail in the later stages.
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects. Assembly best practices are outlined [here](../../best-practices/assembly-setup.md) and will be discussed in more detail in later stages.
 
 ## Practice Exercises
-Now lets practice! Make a copy of the [Fundamentals Exercises Document](link here). For each exercise, the final reference is available to you. Solutions are available [here](Link to solutions).
+Now lets practice! Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). For each exercise, the final reference is available to you. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
 
 ### Exercise 1: Simple Box Tube
-For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this exercise, do not use any Featurescripts.
+For exercise 1, you will be modeling a 2"x1" box tube with some holes in it. Here's an example of an aluminum box tube on a robot:
 
+<center><img src="\img\design-guide\stage1a\tube.webp" width="45%"> </center>
+<center> *Example of a box tube.* </center>
+
+For this exercise, do not use any Featurescripts.
+
+
+<center>**Exercise 1 Instruction Slides**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -225,7 +232,7 @@ For exercise 1, you will be modeling a 2x1 tube with some holes in it. For this 
 
 If all is correct, the final weight of the part should be 0.350 lb.
 
-Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually dimensioning the location of every hole.
+Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
 ### Exercise 2: Box Tube and Gusset Joint
 For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
@@ -237,6 +244,9 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 !!! Tip
     When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+
+
+<center>**Exercise 2 Instruction Slides**</center>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -344,8 +354,7 @@ For this exercise, you will create a simple frame and two gussets. Then, you wil
 
 You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
 
-!!! Note
-    Learning Objectives thing? idk
+<center>**Exercise 3 Instruction Slides**</center>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -440,15 +449,19 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 If all is correct, the final weight of the assembly should be 1.946 lb.
 
-Here, you're introduced to yet another highly useful Featurescript for creating gussets.
+Here, you're introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
 ### Exercise 4: Climber Hook
 
-As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
+As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components. Here an example of a robot utilizing climbing hooks:
+
+
 
 You will utilize the `Spacer` Featurescript for this exercise.
+
+<center>**Exercise 4 Instruction Slides**</center>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -547,7 +560,7 @@ If all is correct, the final weight of the assembly should be 0.560 lb.
 In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
 
 The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, practice more complex sketches, and practice mating together larger assemblies.
-
+<center>**Exercise 5 Instruction Slides**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -638,17 +651,19 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 
   <div class="mySlides fade">
     <li class="slideVideo">
-      <video width="1920" height="963" controls="controls">
+      <video width="1920" controls>
         <source src="/img/design-guide/stage1a/exercises/e5/e5s12.mp4" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
-      <figcaption>12. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+      <figcaption>12. Assemble the bearings, shafts, motor, and motor pinion gear using parts from the MKCad App. </figcaption>
     </li>
   </div>
 
   <div class="mySlides fade">
     <li class="slideVideo">
-      <video width="1920" height="963" controls="controls">
+      <video width="1920" controls>
         <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
       <figcaption>13. Assemble the spacers and gears using parts from the MKCad App. </figcaption>
     </li>
@@ -671,6 +686,10 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 </div>
 
 
+Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+
+So far, you've been focusing on modeling individual *parts*. Starting in Stage 1B, we'll introduce master sketches and delve into modeling *robots*.
+
 
 <br>
 <center>1A: Fundamentals</center> 
@@ -684,6 +703,20 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 <script>
 // Initialize slide index for each slideshow
 let slideIndices = [];
+
+let slideshows = document.getElementsByClassName("slideshow-container");
+  for (let no = 0; no < slideshows.length; no++) {
+    slideIndices[no] = 1;
+    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
+    let slides = slideshows[no].getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      let dot = document.createElement("span");
+      dot.className = "dot";
+      dot.onclick = function() { currentSlide(i+1, no); };
+      dotsContainer.appendChild(dot);
+    }
+    showSlides(1, no);
+  }
 
 // Next/previous controls
 function plusSlides(n, no) {
@@ -711,22 +744,6 @@ function showSlides(n, no) {
   dots[slideIndices[no]-1].className += " active";
 }
 
-window.onload = function() {
-  // Automatically generate dots based on the number of slides
-  let slideshows = document.getElementsByClassName("slideshow-container");
-  for (let no = 0; no < slideshows.length; no++) {
-    slideIndices[no] = 1;
-    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
-    let slides = slideshows[no].getElementsByClassName("mySlides");
-    for (let i = 0; i < slides.length; i++) {
-      let dot = document.createElement("span");
-      dot.className = "dot";
-      dot.onclick = function() { currentSlide(i+1, no); };
-      dotsContainer.appendChild(dot);
-    }
-    showSlides(1, no);
-  }
-}
 </script>
 
 
