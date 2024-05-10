@@ -106,7 +106,19 @@
 
 In Stage 1B, you'll dive right into top-down robot design with master sketches. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a top-down design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the top-down master sketch design methodology.
 
+To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert and mate a pre modeled mechanism.
 
+<center><img src="\img\design-guide\stage1b\SwerveBase\fullassy.webp" style="width:100%"></center>
+<center>*Final robot assembly.*</center>
+
+## Master Sketch Methodology
+When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
+
+Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
+
+<!-- TODO: add text about creating a master layout part studio and deriving it into each sub system -->
+
+## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
 
 A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
@@ -118,48 +130,103 @@ As was introduced in Stage 1A, robot structures are typically constructed out of
 
 Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
+### Drivetrain Master Sketches
+To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. For your swerve drivebase, you will make it 26"x26".
 
-## Part Studio
-
-### Master Sketch Methodology
-When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
-
-
-To start, we will be making a sketch on the right plane. This will be representing the right side of our robot and help us determine the length of the drive train. Name the sketch “Robot Layout".
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 1.webp"></center>
-
-Make a center point rectangle and do a vertical constraint on the center point of the rectangle to the origin point (the black and white circle). Make the rectangle 2 inches high. This rectangle represents the box tube that you saw above. Then dimension the rectangle 1.75 inches above the origin. 
-
-Now we have a drivetrain side of unknown length, that is 2 inches wide and 1.75 inches above the ground
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 2.webp"></center>
-
-Let’s define the length of the drivetrain. We can do this by dimensioning the rectangle to a set size, we’ll do 26.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 3.webp"></center>
-
-This means that our drivebase is 26 inches long.
-
-To make things a bit easier to visualize, let’s also draw our wheels. Make a 3 inch rectangle that is constrained horizontally to the origin (the wheel raises the drivetrain by 1.75 inches). We can then mirror the wheel to the other side by make a mirror line by drawing a line in the center and using the sketch mirror tool.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 4.webp"></center>
-
-Now, let’s make the whole thing construction (drag-select all the geometry created and press ```q```). We’ll be using this as a reference to define the length and width of the square drivetrain. If we need to change the chassis dimensions, we can go back to “Robot Layout” and change it.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 5.webp"></center>
-
-Now confirm the sketch by hitting the green checkmark in the sketch dialogue box.
+Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featurescript to create an origin cube. You should start every part studio with an origin cube to set a reference for the origin of the robot. The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
 
 
-### Modeling the Parts
+<center>**Drivetrain Layout Sketch Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-Now we’ll be modeling the drivetrain tubes using a top layout sketch. We’ll be ending with something that looks like this:
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <figcaption>0. The final layout sketch.</figcaption>
+    </figure>
+  </div>
 
-<center><img src="\img\design-guide\stage1b\Tubes.webp"></center>
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/originCube.webp" style="width:100%">
+      <figcaption>1. Start by inserting the origin cube.</figcaption>
+    </figure>
+  </div>
 
-!!! Note
-    Notice how all the tubes of the drivetrain are designed in a single part studio.
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtSideLayout1.webp" style="width:100%">
+      <figcaption>2. Draw the side profile of the drivetrain on the Right Plane. We place the tube 1.75" from the ground, which is the offset from the ground to the bottom of the tube for the MK4i modules.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtSideLayout2.webp" style="width:100%">
+      <figcaption>3. Draw the wheel clearance box, which represents the area that the wheel takes up. For the MK4i modules, the box is 4.625" wide. The side layout of the drivebase is now finished.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout1.gif" style="width:100%">
+      <figcaption>4. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout2.gif" style="width:100%">
+      <figcaption>5. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout3.webp" style="width:100%">
+      <figcaption>6. To sketch the tubes, draw a square 1" smaller than the previous square. This will represent the four 2"x1" tubes that make up the outer frame. Then, draw the top profile of the 2"x2" tube.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout4.webp" style="width:100%">
+      <figcaption>6. Next, we need to make the cutouts on the drivetube for the swerve modules. Start by drawing two lines, each offset by 4.25" from the edge. This is the required offset for MK4i modules. Other modules will differ.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout5.gif" style="width:100%">
+      <figcaption>6. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <figcaption>6. Finally, name your sketches and organize them into a folder in the file tree. Your sketches should all be fully defined.</figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+### Deriving Layout Sketches and Part Modeling
+
+
+
+
+
+
 
 The top layout sketch should be made at the bottom of where we want the tubes to be instead of at the ground. Instead of using a plane, we can create the sketch directly on a point on the side layout sketch, so the bottom of the tubes is driven by the side layout sketch without an extra plane.
 
