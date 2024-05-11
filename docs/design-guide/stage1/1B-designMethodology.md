@@ -97,9 +97,9 @@
 }
 </style>
 
-# 1B: Swerve Drivebase Project
+# 1B: Design Methodology
 
-<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 
 ## Project Overview
@@ -560,8 +560,8 @@ Congratulations on completing Stage 1A! Remember, practice is essential – the 
 At this point, you've learned and had some practice on modeling individual components and creating a top-down design. Starting in Stage 1C, we'll introduce some mechanical design topics including power transmission. This is the final step before being able to design a full mechanism!
 
 <br>
-<center>1B: Drivebase</center> 
-<span class="left">[< 1A: Sketching & Part Design](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
+<center>1B: Design Methodology</center> 
+<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Gearbox Projects >](1C-gearboxes.md)</span>
 <br>
 <br>
 

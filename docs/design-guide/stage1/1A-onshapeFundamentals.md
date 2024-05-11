@@ -100,7 +100,7 @@
 
 # 1A: Onshape Fundamentals
 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
 <br>
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
@@ -696,7 +696,7 @@ So far, you've been introduced to Onshape CAD modeling and the top-down master s
 
 <br>
 <center>1A: Fundamentals</center> 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
 <br>
 <br>
 

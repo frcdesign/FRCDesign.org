@@ -13,7 +13,7 @@
 
 # 1C: Gearbox Projects
 
-<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
+<span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
 Though you can buy premade planetary gearboxes from vendors (which are still very good in a lot of use cases and packaging), custom gearboxes are typically more versatile in tight packaging situations, and can be tuned better to avoid backlash.
@@ -106,6 +106,6 @@ Once you've finished both of the gearboxes, you can move on to Stage 2 and start
 
 <br>
 <center>1C: Gearboxes</center> 
-<span class="left">[< 1B: Swerve Drivebase](1B-swerveDrivebase.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
+<span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 <br>
