@@ -104,26 +104,32 @@
 
 ## Project Overview
 
-In Stage 1B, you'll dive right into top-down robot design with master sketches. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a top-down design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the top-down master sketch design methodology.
+So far, you've worked on modeling FRC components in isolation. In Stage 1B, you'll dive right into robot design. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
 
 To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert and mate a pre modeled mechanism.
 
-<center><img src="\img\design-guide\stage1b\SwerveBase\fullassy.webp" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1b\fullassy.webp" style="width:100%"></center>
 <center>*Final robot assembly. (Update pic) *</center>
+
+
+As with previous exercises, the finished project is available for reference [here](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51). If you need help, please feel free to ask on the Discord!
 
 ## Master Sketch Methodology
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
 
 Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
 
-<!-- TODO: add text about creating a master layout part studio and deriving it into each sub system -->
+To achieve this, a master sketch is utilized. The master sketch captures the major dimensions of each mechanism, field element interactions, and robot size constraints all in one place. Then, we can insert this sketch into each mechanism's part studio and model the individual components around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+
+<center><img src="\img\design-guide\stage1b\exampleMasterSketch.webp" style="width:60%"></center>
+<center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
 
 ## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
 
 A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
 
-<center><img src="\img\design-guide\stage1b\SwerveBase\fullassy.webp" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1b\SwerveBase\DriveAssy.webp" style="width:100%"></center>
 <center>*Stage 1B swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
@@ -391,7 +397,7 @@ The `Replicate` tool, which was introduced in Stage 1B exercise 5, is a very pow
 <summary>Match Individual Edges for Replicate</summary>
 <center>
   <video width="1920" controls>
-    <source src="/img/design-guide/stage1b/SwerveBase/replicateExample.mp4" type="video/mp4">
+    <source src="/img/design-guide/stage1b/replicateExample.mp4" type="video/mp4">
   </video>
 </center>
 <center> Using "Match Individual Edges" allows us to select specific holes to replicate to instead of every hole on the face of the gusset. </center>
@@ -411,7 +417,7 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
-      <figcaption>0. The final assembly.</figcaption>
+      <figcaption>0. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
@@ -446,7 +452,7 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
-      <figcaption>4. Finished assembly  </figcaption>
+      <figcaption>4. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
@@ -460,20 +466,61 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 </div>
 
 
-Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used.
+Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
 
-More details about best practices for Onshape assemblies are included in the [best practices](/best-practices/) category, on [this page](/best-practices/assembly-setup/).
+More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/).
 
-## Conclusion
+## Top Level Robot Assembly
+Now that you have a drivebase, you can create a top level robot assembly. Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase, as well as a sample mechanism from XXXXX.
+
+<center>**Top Level Robot Assembly**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/TopLevel/topL0.webp" style="width:100%">
+      <figcaption>0. Finished top level robot assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/TopLevel/topL1.webp" style="width:100%">
+      <figcaption>1. Insert the drivetrain assembly and mate the origin cube to the assembly origin.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/TopLevel/topL2.gif" style="width:100%">
+      <figcaption>2. Insert the XXX assembly and mate the origin cube to the origin.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/TopLevel/topL0.webp" style="width:100%">
+      <figcaption>3. Finished top level assembly. </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+And that's all there is to the top level robot assembly. The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
+
+<!-- ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
 
-The most important concept is how you can start with a layout sketch or two and build the entire rest of the part studio on top of those, meaning the part studio and assembly could change if you only changed the dimensions in the side layout sketch. This is what a top-down workflow is, and it allows you to create an outline first and slowly go into more detail, referencing the outline as you go.
-
-<center><img src="\img\design-guide\stage1b\Assembly_1.webp"></center>
-
-Try changing the dimensions in the side layout sketch and seeing what happens to the part studio and assembly.
-
-Next, you'll learn how to sketch and assemble power transmission components in a few gearboxes.
+The most important concept is how you can start with a layout sketch or two and build the entire rest of the part studio on top of those, meaning the part studio and assembly could change if you only changed the dimensions in the side layout sketch. This is what a top-down workflow is, and it allows you to create an outline first and slowly go into more detail, referencing the outline as you go. -->
 
 <br>
 <center>1B: Drivebase</center> 
