@@ -519,14 +519,20 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/TopLevel/topL1.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/Toplevel/topL1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/TopLevel/topL2.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/Toplevel/topL2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
     </figure>
   </div>
@@ -547,11 +553,11 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   </div>
 </div>
 
-And that's all there is to the top level robot assembly. The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
+And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
-So far, you've been focusing on modeling individual *parts*. Starting in Stage 1B, we'll introduce master sketches and delve into modeling *robots*.
+At this point, you've learned and had some practice on modeling individual components and creating a top-down design. Starting in Stage 1C, we'll introduce some mechanical design topics including power transmission. This is the final step before being able to design a full mechanism!
 
 <br>
 <center>1B: Drivebase</center> 
