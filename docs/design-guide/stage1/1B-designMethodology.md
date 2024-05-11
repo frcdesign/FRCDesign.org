@@ -517,10 +517,9 @@ Now that you have a drivebase, you can create a top level robot assembly. Create
 
 And that's all there is to the top level robot assembly. The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
 
-<!-- ## Conclusion
-You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
+Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
-The most important concept is how you can start with a layout sketch or two and build the entire rest of the part studio on top of those, meaning the part studio and assembly could change if you only changed the dimensions in the side layout sketch. This is what a top-down workflow is, and it allows you to create an outline first and slowly go into more detail, referencing the outline as you go. -->
+So far, you've been focusing on modeling individual *parts*. Starting in Stage 1B, we'll introduce master sketches and delve into modeling *robots*.
 
 <br>
 <center>1B: Drivebase</center> 

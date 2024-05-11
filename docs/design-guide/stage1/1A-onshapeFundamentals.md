@@ -690,10 +690,9 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 </div>
 
 
-Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+Congratulations on completing Stage 1B! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
-So far, you've been focusing on modeling individual *parts*. Starting in Stage 1B, we'll introduce master sketches and delve into modeling *robots*.
-
+So far, you've been introduced to Onshape CAD modeling and the top-down master sketch design methodology. In Stage 1C, you'll explore how to design mechanisms and how to do the math to make your robot work!
 
 <br>
 <center>1A: Fundamentals</center> 
