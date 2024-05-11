@@ -106,10 +106,10 @@
 
 So far, you've worked on modeling FRC components in isolation. In Stage 1B, you'll dive right into robot design. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
 
-To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert and mate a pre modeled mechanism.
+To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert a pre modeled mechanism (1678's 2023 scoring mechanism).
 
-<center><img src="\img\design-guide\stage1b\fullassy.webp" style="width:100%"></center>
-<center>*Final robot assembly. (Update pic) *</center>
+<center><img src="\img\design-guide\stage1b\fullassy.png" style="width:100%"></center>
+<center>*Final robot assembly.*</center>
 
 
 As with previous exercises, the finished project is available for reference [here](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51). If you need help, please feel free to ask on the Discord!
@@ -119,7 +119,7 @@ When designing a model in CAD, there are two high level strategies that can be e
 
 Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
 
-To achieve this, a master sketch is utilized. The master sketch captures the major dimensions of each mechanism, field element interactions, and robot size constraints all in one place. Then, we can insert this sketch into each mechanism's part studio and model the individual components around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+To achieve this, a *master sketch* is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
 
 <center><img src="\img\design-guide\stage1b\exampleMasterSketch.webp" style="width:60%"></center>
 <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
@@ -129,7 +129,7 @@ A drivebase is the mobile platform on which all our other mechanisms are designe
 
 A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
 
-<center><img src="\img\design-guide\stage1b\SwerveBase\DriveAssy.webp" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1b\SwerveBase\DriveAssy.png" style="width:100%"></center>
 <center>*Stage 1B swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
@@ -226,7 +226,7 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
   </div>
 </div>
 
-As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. More information on this can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
 
 In this part, you were also introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable a references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
 
@@ -271,7 +271,7 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts4.webp" style="width:100%">
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts4.gif" style="width:100%">
       <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
     </figure>
   </div>
@@ -293,14 +293,42 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtParts7.webp" style="width:100%">
-      <figcaption>7. Next, add all of the holes for the bellypan. You can use the <code>Linear Pattern</code> sketch tool to easily draw the holes. For the 2"x1" edges, you can use the <code>Circular Pattern</code> sketch tool to pattern the holes onto all four edges. Extrude the holes through the bellypan. </figcaption>
+      <figcaption>7. Add the seed instances of the holes for the bellypan.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts8.gif" style="width:100%">
+      <figcaption>8. Next, use the <code>Linear Pattern</code> sketch tool to pattern the holes along the edge.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts9.gif" style="width:100%">
+      <figcaption>9. Use the <code>Circular Pattern</code> sketch tool to pattern the holes about the origin onto all four edges.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts10.gif" style="width:100%">
+      <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts11.webp" style="width:100%">
+      <figcaption>11. Clean up the sketch by moving the dimensions so that they are all visible. A clean sketch is important for readability of the CAD so that it is easily editable in the future.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+      <figcaption>12. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
   </div>
 
@@ -313,14 +341,14 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
   </div>
 </div>
 
-At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can learn more on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/) page.
+At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/) page.
 
 
 ### Assembly
 
 Now that the part studio is finished, you can create the drivetrain assembly. Create a new assembly tab called `Drivetrain Assembly` in the `Drivetrain` folder you made previously. 
 
-Previously, in Stage 1A when you created assemblies one of the parts in the group mate was fixed in place. However, this is not considered a good practice as it is not parametric. This is where the origin cube comes in: the origin cube has a mate connector placed at the origin of the part studio. After inserting and grouping all of the parts, you can mate the origin cube to the origin of the assembly. This aligns the part studio origin and assembly origin.
+Previously, in Stage 1A when you created assemblies one of the parts in the group mate was fixed in place. However, this is not considered a good practice as it is not parametric. This is where the origin cube comes in: the origin cube has a mate connector placed at the origin of the part studio. After inserting and grouping all of the parts, you can fasten the origin cube to the origin of the assembly. This aligns the part studio origin and assembly origin.
 
 <center>**Drivetrain Assembly**</center>
 <!-- Slideshow container -->
@@ -337,7 +365,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtAssy1.gif" style="width:100%">
-      <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then mate the origin cube to the origin of the assembly.</figcaption>
+      <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then fasten the origin cube to the origin of the assembly.</figcaption>
     </figure>
   </div>
 
@@ -470,8 +498,12 @@ Make sure you sort the instances in your assembly into folders (i.e. frame, swer
 
 More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/).
 
+It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
+
 ## Top Level Robot Assembly
-Now that you have a drivebase, you can create a top level robot assembly. Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase, as well as a sample mechanism from XXXXX.
+Now that you have a drivebase, you can create a top level robot assembly. Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023).
+
+Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80) to access the scoring mechanism.
 
 <center>**Top Level Robot Assembly**</center>
 <!-- Slideshow container -->
@@ -487,15 +519,15 @@ Now that you have a drivebase, you can create a top level robot assembly. Create
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/TopLevel/topL1.webp" style="width:100%">
-      <figcaption>1. Insert the drivetrain assembly and mate the origin cube to the assembly origin.</figcaption>
+      <img src="/img/design-guide/stage1b/TopLevel/topL1.gif" style="width:100%">
+      <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/TopLevel/topL2.gif" style="width:100%">
-      <figcaption>2. Insert the XXX assembly and mate the origin cube to the origin.</figcaption>
+      <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
     </figure>
   </div>
 
