@@ -501,7 +501,9 @@ More details about best practices for Onshape assemblies are included on the [As
 It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
 
 ## Top Level Robot Assembly
-Now that you have a drivebase, you can create a top level robot assembly. Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023).
+Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the [assembly hierarchy](/best-practices/document-setup/). Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
+
+Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023).
 
 Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80) to access the scoring mechanism.
 
@@ -555,7 +557,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
 
-Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+Congratulations on completing Stage 1B! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
 At this point, you've learned and had some practice on modeling individual components and creating a top-down design. Starting in Stage 1C, we'll introduce some mechanical design topics including power transmission. This is the final step before being able to design a full mechanism!
 
