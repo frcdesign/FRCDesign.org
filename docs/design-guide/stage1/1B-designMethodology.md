@@ -133,7 +133,7 @@ Box tubing extrusions can be purchased at most metal suppliers, but many FRC ven
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
-Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featurescript to create an origin cube. You should start every part studio with an origin cube to set a reference for the origin of the robot. The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
+Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. You should start every part studio with an origin cube to set a reference for the origin of the robot. The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
 
 
 <center>**Drivetrain Layout Sketch Slides**</center>
@@ -220,11 +220,15 @@ Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featu
   </div>
 </div>
 
+As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. More information on this can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+
+In this part, you were also introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable a references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
+
 ### Deriving Layout Sketches and Part Modeling
 
 Now that you have created the layout sketch, you can begin modeling the individual parts. The critical dimensions of the parts, such as the length of the tubes, will be driven by the layout sketch. This way, the tubes will automatically update with any changes in the size of the drivebase in the layout sketch.
 
-Start by creating a new Drivetrain folder tab. Then, create a new part studio called drivetrain.
+Start by creating a new folder tab called `Drivetrain`. Then, create a new part studio called `Drivetrain` within the folder.
 
 <center>**Drivetrain Part Modeling**</center>
 <!-- Slideshow container -->
@@ -234,7 +238,7 @@ Start by creating a new Drivetrain folder tab. Then, create a new part studio ca
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>0. The final part studio.</figcaption>
+      <figcaption>0. The part studio.</figcaption>
     </figure>
   </div>
 
@@ -289,13 +293,6 @@ Start by creating a new Drivetrain folder tab. Then, create a new part studio ca
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts8.webp" style="width:100%">
-      <figcaption>8. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
       <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
@@ -310,51 +307,162 @@ Start by creating a new Drivetrain folder tab. Then, create a new part studio ca
   </div>
 </div>
 
+At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can learn more on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/) page.
+
 
 ### Assembly
 
-Now that we have the frame tubes, we need to insert them into the "assembly". You use part studios to design parts in reference to each other, and assemblies to define the position and motion of those parts and assemble the final product. Certain practices in the part studio can make assembly easier and faster; these are some of the best practices that are used in the guided projects and in the [best practices](../../best-practices/index.md) section of the website.
+Now that the part studio is finished, you can create the drivetrain assembly. Create a new assembly tab called `Drivetrain Assembly` in the `Drivetrain` folder you made previously. 
 
-### Origin Mate Connector
-Something to note is that both assemblies and part studios have an origin. We will need to make sure that our parts are in the same place in both the origin and part studio. We can do this through an origin mate connector.
+Previously, in Stage 1A when you created assemblies one of the parts in the group mate was fixed in place. However, this is not considered a good practice as it is not parametric. This is where the origin cube comes in: the origin cube has a mate connector placed at the origin of the part studio. After inserting and grouping all of the parts, you can mate the origin cube to the origin of the assembly. This aligns the part studio origin and assembly origin.
 
-!!! Tip
-    Make sure to show the origin in the feature list if it was hidden by hovering over the origin in the list and clicking the eye symbol.
+<center>**Drivetrain Assembly**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-Select the mate connector button on the top. 
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy0.webp" style="width:100%">
+      <figcaption>0. The assembly.</figcaption>
+    </figure>
+  </div>
 
-<center><img src="\img\design-guide\stage1b\Mate-Connector.webp"></center>
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy1.gif" style="width:100%">
+      <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then mate the origin cube to the origin of the assembly.</figcaption>
+    </figure>
+  </div>
 
-Select the origin entity as the origin, then the owner entity as the 2x2 tube. The 2x2 tube will now have an mate connector at the origin.
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/SwerveBase/dtAssy2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>2. Insert the MK4i module from the MKCad app into the assembly and mate it into place. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy3.gif" style="width:100%">
+      <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/SwerveBase/dtAssy4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>4. Insert a 3/16" rivet from the MKCad app into the assembly and mate it. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy5.gif" style="width:100%">
+      <figcaption>5. Use the <code>Replicate </code> assembly tool to replicate the rivet and rivet mate onto all matching geometry on the bottom face of the bellypan</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy0.webp" style="width:100%">
+      <figcaption>6. The assembly.</figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+The `Replicate` tool, which was introduced in Stage 1B exercise 5, is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
 
 <details>
-<summary>Video Tutorial</summary>
-  <center><iframe width="880" height="550" src="https://www.youtube.com/embed/4jTYh0Rn5cU" frameborder="0" allowfullscreen></iframe></center>
+<summary>Match Individual Edges for Replicate</summary>
+<center>
+  <video width="1920" controls>
+    <source src="/img/design-guide/stage1b/SwerveBase/replicateExample.mp4" type="video/mp4">
+  </video>
+</center>
+<center> Using "Match Individual Edges" allows us to select specific holes to replicate to instead of every hole on the face of the gusset. </center>
 </details>
 
+#### Adding More Components
 
-### Assembling
+When you model more parts in the part studio, you can insert them into the assembly in a similar to fashion to before. Hit insert and immediately click on the green checkmark. Then, edit the initial `Group` you made and add the part to the group. By doing this, you ensure that added parts will always stay in the same place it was modeled in the part studio.
 
-Now that you have finished your part studio, you can follow this video tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video as opposed to text. 
+Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
-<center><iframe width="880" height="550" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe></center>
+<center>**Adding a Gusset**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-Notice how when inserting parts into the assembly, the process is:
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
+      <figcaption>0. The final assembly.</figcaption>
+    </figure>
+  </div>
 
-1. Add a mate connector to one of your rigid parts on the origin in your part studio
-2. Insert the whole part studio with the green checkbox so the origin is in the same place
-3. Use the "group" tool on all parts that don't move
-4. Fasten the mate connector to the origin
-5. Duplicate and fasten any duplicate parts
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd1.webp" style="width:100%">
+      <figcaption>1. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
+    </figure>
+  </div>
 
-This is a fast and parametric way of putting together an assembly, as opposed to using mates to constrain all the parts that were already in the correct place.
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd2.gif" style="width:100%">
+      <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
+    </figure>
+  </div>
 
-!!! Tip
-    As you add more parts in the part studio, you can insert them individually into the assembly with the green checkmark, double click on the initial group, and add the part to the group to avoid mating it. This means that new part will always stay in the same place relative to where it was designed in the part studio.
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd3.webp" style="width:100%">
+      <figcaption>3. Copy the gusset and mate it to the other side. </figcaption>
+    </figure>
+  </div>
 
-Make sure you sort the instances in your assembly into folders (i.e. tubes, swerve modules).
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd4.gif" style="width:100%">
+      <figcaption>4. Edit the replicate feature to add rivets to the gusset. </figcaption>
+    </figure>
+  </div>
 
-More details about best practices for Onshape assemblies are included in the [best practices](../../best-practices/index.md) category, on [this page](../../best-practices/assembly-setup.md).
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
+      <figcaption>4. Finished assembly  </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+
+Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used.
+
+More details about best practices for Onshape assemblies are included in the [best practices](/best-practices/) category, on [this page](/best-practices/assembly-setup/).
 
 ## Conclusion
 You've completed a basic swerve drivebase, going over many concepts in the process. The CAD concepts include sketching parametrically, creating a sketch on a mate connector, using featurescripts, and the fast assembly workflow. The FRC concepts include box tube and swerve modules.
