@@ -139,7 +139,7 @@ Box tubing extrusions can be purchased at most metal suppliers, but many FRC ven
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
-Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. You should start every part studio with an origin cube to set a reference for the origin of the robot. The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
+Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. **You should start every part studio with an origin cube to set a reference for the origin of the robot.** The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
 
 
 <center>**Drivetrain Layout Sketch Slides**</center>
