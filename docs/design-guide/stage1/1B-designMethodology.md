@@ -131,7 +131,7 @@ As was introduced in Stage 1A, robot structures are typically constructed out of
 Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
 ### Drivetrain Master Sketches
-To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. For your swerve drivebase, you will make it 26"x26".
+To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
 Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featurescript to create an origin cube. You should start every part studio with an origin cube to set a reference for the origin of the robot. The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
 
@@ -172,7 +172,7 @@ Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featu
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout1.gif" style="width:100%">
-      <figcaption>4. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have.</figcaption>
+      <figcaption>4. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the “Top” button on the view cube to get a top view.</figcaption>
     </figure>
   </div>
 
@@ -193,21 +193,21 @@ Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featu
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout4.webp" style="width:100%">
-      <figcaption>6. Next, we need to make the cutouts on the drivetube for the swerve modules. Start by drawing two lines, each offset by 4.25" from the edge. This is the required offset for MK4i modules. Other modules will differ.</figcaption>
+      <figcaption>7. Next, we need to make the cutouts on the drivetube for the swerve modules. Start by drawing two lines, each offset by 4.25" from the edge. This is the required offset for MK4i modules. Other modules will differ.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout5.gif" style="width:100%">
-      <figcaption>6. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
+      <figcaption>8. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
-      <figcaption>6. Finally, name your sketches and organize them into a folder in the file tree. Your sketches should all be fully defined.</figcaption>
+      <figcaption>9. Finally, name your sketches and organize them into folders in the feature tree. Your sketches should all be fully defined.</figcaption>
     </figure>
   </div>
 
@@ -222,106 +222,96 @@ Start by creating a Master Sketch part studio. Then, use the `Origin Cube` Featu
 
 ### Deriving Layout Sketches and Part Modeling
 
+Now that you have created the layout sketch, you can begin modeling the individual parts. The critical dimensions of the parts, such as the length of the tubes, will be driven by the layout sketch. This way, the tubes will automatically update with any changes in the size of the drivebase in the layout sketch.
+
+Start by creating a new Drivetrain folder tab. Then, create a new part studio called drivetrain.
+
+<center>**Drivetrain Part Modeling**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
+      <figcaption>0. The final part studio.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts1.webp" style="width:100%">
+      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Master Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts2.webp" style="width:100%">
+      <figcaption>2. Use the <code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts to model the tubes. The 2"x1" tubes should be 1/8" wall for strength, while the 2"x2" tube can be 1/16" wall.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts3.webp" style="width:100%">
+      <figcaption>3. Start with one corner of the bellypan. The corner is cut out to create room for the swerve module. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts4.webp" style="width:100%">
+      <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts5.gif" style="width:100%">
+      <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts6.webp" style="width:100%">
+      <figcaption>6. Use the <code> Fillet All Edges</code> Featurescript to add a 0.25" radius fillet to the remaining edges on the bellypan by selecting the bottom face of the bellypan.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts7.webp" style="width:100%">
+      <figcaption>7. Next, add all of the holes for the bellypan. You can use the <code>Linear Pattern</code> sketch tool to easily draw the holes. For the 2"x1" edges, you can use the <code>Circular Pattern</code> sketch tool to pattern the holes onto all four edges. Extrude the holes through the bellypan. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts8.webp" style="width:100%">
+      <figcaption>8. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
+      <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
 
 
-
-
-
-
-The top layout sketch should be made at the bottom of where we want the tubes to be instead of at the ground. Instead of using a plane, we can create the sketch directly on a point on the side layout sketch, so the bottom of the tubes is driven by the side layout sketch without an extra plane.
-
-Open the sketch dialogue to create a new sketch and click the circle symbol (select mate connector) next to the "sketch plane" selection box. Select a point on the bottom of the tube in the side layout sketch and a sketch will be created there. 
-
-<center><img src="\img\design-guide\stage1b\mate_connector_sketch.webp"></center>
-
-!!! Tip
-    If the sketch is facing the wrong way, try selecting the point again and make sure the colored axis are pointing the right direction (blue up).
-
-Press the “Top” button on the view cube to get a top view (or press ```n``` to rotate normal to the sketch plane). The next steps include sketching out the “top” of the drivetrain tubes. 
-
-Start a center point rectangle on the origin, hover over the point at the top of the dotted line (making a horizontal constraint between it and the top of the rectangle), then moving the side out and clicking to finish the rectangle. 
-
-<center><img src="\img\design-guide\stage1b\horiConstraint.webp"></center>
-
-If you remember previously, that point was the edge of your drivetrain which you in the side layout sketch. See how the left side of the rectangle is already 26 inches? We want to make this a square, so let’s use the equal constraint (e key) between the top of the square and the left side of the square. This should make both sides equal to each other, and the whole sketch should be black.
-
-<center><img src="\img\design-guide\stage1b\definedSketch.webp"></center>
-
-Use the offset tool and offset the square inwards by 1 inch; this will define the side of your drive rails.
-
-<center><img src="\img\design-guide\stage1b\offset.webp"></center>
-
-Taking a look at the swerve drivetrain again, we can see there’s a cutout in each of the corners. We should define this in our sketch. From the edge of the corner, the gap is 4.25 inches long. 
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 11.webp"></center>
-
-Draw two lines, one horizontally constrained and one vertically constrained, and dimension them 4.25in away from the corner as shown.
-
-<center><img src="\img\design-guide\stage1b\cornerCutout.webp"></center>
-
-To apply this to all corners, circular pattern the two lines you created, changing the number of instances to four. It should look like this:
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 13.webp"></center>
-
-Confirming the sketch should show the chassis as shown, with some blue lines. Why is that? 
-
-If you click on one of the points on the blue unconstrained lines, you can drag them around. This also reveals the center of rotation of the circular pattern (the blue dot).
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 15.webp"></center>
-
-Constrain the center of rotation to the origin by dragging it to the origin. Your sketch should look like this:
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 16.webp"></center>
-
-If we take the top view of a drivetrain, you can see how it looks similar. Removing the modules also shows the gaps we modeled.
-
-<center><img align="center" src="\img\design-guide\stage1b\1a-Swerve 17.webp" width="45%"> <img align="center" src="\img\design-guide\stage1b\1a-Swerve 18.webp" width="45%"></center>
-
-Let’s now sketch out the middle cross beam. We’ll make this out of 2x2 aluminum since 2x2 is stronger than 2x1. Let’s make it 2 inches wide, and 2 inches away from the center (origin).
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 19.webp"></center>
-
-Rename the sketch to “Drivetrain Top” and confirm it with the green checkmark.
-
-Now, lets create the tubes. Click the extrude individual featurescript. 
-
-!!! Tip
-    The "extrude individual" featurescript allows us to make multiple parts, one per sketch region, with a single extrude feature.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 20.webp"></center>
-
-Click the top faces of the sketch and extrude them 2 inches up to make the tubes.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 21.webp"></center>
-
-Now, use the "tube converter" featurescript and click on the four outer tubes.
-
-!!! Tip
-    The "tube converter" featurescript converts box tube-shaped extrudes into COTS box tube with a hole pattern. 
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 22.webp"></center>
-
-Set the thickness to 0.125in, as 0.125in thickness is “thick wall” tubing. 0.125in wall thickness tubes are strong and allow for a strong and rigid frame that is resistant to collisions. Set the 2 inch face style to “1 inch between holes”, and click the checkbox for center row. Confirm the tube converter feature. 
-
-!!! Note
-    As mentioned earlier, you can find this type of box tubing from various COTS vendors, which sell the pre-punched tubing for your convenience.
-
-<details>
-<summary>WCP Box Tubes</summary>
-<center><img src="\img\design-guide\stage1b\1a-Swerve 23.webp"><figcaption>(Source: West Coast Products)</figcaption></center>
-</details>
-
-
-
-Let’s do another tube converter for the 2x2 tube, but change the thickness to 1/16in. The reason for this is because 1/16in 2x2 is plenty strong, and allows for weight savings down the line.
-
-Once you are done, change the appearance of all of your tubes to a color of your choosing. I’ll be using dark gray. You can do this by going to the parts menu and clicking all 5 parts, then right clicking and selecting “edit appearance for 5 parts”.
-
-<center><img src="\img\design-guide\stage1b\1a-Swerve 24.webp"></center>
-
-<center><img src="\img\design-guide\stage1b\Tubes.webp"></center>
-
-## Assembly
+### Assembly
 
 Now that we have the frame tubes, we need to insert them into the "assembly". You use part studios to design parts in reference to each other, and assemblies to define the position and motion of those parts and assemble the final product. Certain practices in the part studio can make assembly easier and faster; these are some of the best practices that are used in the guided projects and in the [best practices](../../best-practices/index.md) section of the website.
 
@@ -344,6 +334,7 @@ Select the origin entity as the origin, then the owner entity as the 2x2 tube. T
 
 
 ### Assembling
+
 Now that you have finished your part studio, you can follow this video tutorial to do the rest of the assembly. Assemblies require a bit more explaining, which is why it's in video as opposed to text. 
 
 <center><iframe width="880" height="550" src="https://www.youtube.com/embed/9cMRIJJGGeE" frameborder="0" allowfullscreen></iframe></center>
