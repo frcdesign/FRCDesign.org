@@ -108,7 +108,7 @@ So far, you've worked on modeling FRC components in isolation. In Stage 1B, you'
 
 To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert a pre modeled mechanism (1678's 2023 scoring mechanism).
 
-<center><img src="\img\design-guide\stage1b\fullassy.png" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1b\FullAssy.png" style="width:100%"></center>
 <center>*Final robot assembly.*</center>
 
 
@@ -119,7 +119,7 @@ When designing a model in CAD, there are two high level strategies that can be e
 
 Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
 
-To achieve this, a *master sketch* is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
 
 <center><img src="\img\design-guide\stage1b\exampleMasterSketch.webp" style="width:60%"></center>
 <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
@@ -522,7 +522,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/Toplevel/topL1.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/TopLevel/topL1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
@@ -532,7 +532,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/Toplevel/topL2.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/TopLevel/topL2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>

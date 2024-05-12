@@ -105,10 +105,6 @@
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
 
-
-!!! Note
-    If you have a prior experience using Onshape, you can likely skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form a basic foundation for CAD skills.
-
 ## Learning Center Courses
 
 [Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike.
@@ -127,6 +123,9 @@ Please complete these courses on the learning center to learn the fundamentals o
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
 Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a specific feature of Onshape works. 
+
+!!! Warning
+    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the 1A exercises assume that you have an understanding of CAD basics.
 
 ## Multi-Part Modeling
 
@@ -231,7 +230,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   </div>
 </div>
 
-If all is correct, the final weight of the part should be 0.350 lb.
+If all is correct, the final mass of the part should be 0.350 lb.
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
@@ -349,7 +348,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   </div>
 </div>
 
-If all is correct, the final weight of the parts should be 0.270 lb.
+If all is correct, the final mass of the parts should be 0.270 lb.
 
 In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
@@ -453,7 +452,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   </div>
 </div>
 
-If all is correct, the final weight of the assembly should be 1.946 lb.
+If all is correct, the final mass of the assembly should be 1.946 lb.
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
@@ -557,7 +556,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   </div>
 </div>
 
-If all is correct, the final weight of the assembly should be 0.560 lb.
+If all is correct, the final mass of the assembly should be 0.560 lb.
 
 ### Exercise 5: Two Stage Gearbox
 
@@ -642,7 +641,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e5/e5s10.gif" style="width:100%">
-      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer onto the other spacer locations. </figcaption>
+      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
 
