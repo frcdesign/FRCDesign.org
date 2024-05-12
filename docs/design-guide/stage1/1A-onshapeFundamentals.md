@@ -105,10 +105,6 @@
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
 
-
-!!! Note
-    If you have a prior experience using Onshape, you can likely skip the learning courses and jump straight to the 1A exercises. Otherwise, please do the learning courses first as they will teach you the Onshape interface and form a basic foundation for CAD skills.
-
 ## Learning Center Courses
 
 [Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike.
@@ -127,6 +123,9 @@ Please complete these courses on the learning center to learn the fundamentals o
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
 Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a specific feature of Onshape works. 
+
+!!! Warning
+    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the 1A exercises assume that you have an understanding of CAD basics.
 
 ## Multi-Part Modeling
 
