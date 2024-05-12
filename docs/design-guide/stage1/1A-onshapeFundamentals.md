@@ -100,7 +100,7 @@
 
 # 1A: Onshape Fundamentals
 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
 <br>
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
@@ -690,14 +690,13 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 </div>
 
 
-Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+Congratulations on completing Stage 1B! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
-So far, you've been focusing on modeling individual *parts*. Starting in Stage 1B, we'll introduce master sketches and delve into modeling *robots*.
-
+So far, you've been introduced to Onshape CAD modeling and the top-down master sketch design methodology. In Stage 1C, you'll explore how to design mechanisms and how to do the math to make your robot work!
 
 <br>
 <center>1A: Fundamentals</center> 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Swerve Drivebase >](1B-swerveDrivebase.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
 <br>
 <br>
 
