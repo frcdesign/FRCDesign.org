@@ -128,8 +128,6 @@ In FRC, the three most common types of power transmissions are gears, chain and 
 ### Gear Basics
 Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts (rods that spin to transmit power). They're like wheels with teeth that fit together, allowing them to transfer rotational force and change the speed or direction of rotation. In the following sections you'll be introduced to each of them and how to model them.
 
-
-
 <center><img src="\img\design-guide\stage1c\gears\simpleGears.gif" style="width:40%"></center>
 <center>*A simple animation of two gears meshing. Notice that the gears will spin in opposite directions.*</center>
 
@@ -170,18 +168,131 @@ In order to change the torque and speed from the input to output, different size
 </div>
 </div>
 
-In order to determine far apart to space the gears, we use something called the **Pitch Diameter (PD)** , which is the diameter of the imaginary circle that passes through the center of the gear teeth, determining the gear's size. The size of this circle can be calculated with the **Diametrical Pitch (DP)**, which is the the number of gear teeth per inch of the pitch diameter. The relationship is as follows:
+**Center to Center Calculation** 
 
-<center>*PD = (Number of teeth) / DP*</center>
+To calculate the center-to-center distance, you can use the following formula:
 
-The most commonly used gears in FRC are **20DP**. 
+<center>**`CC = 0.5*PD1 + 0.5*PD2`**</center>
+
+Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)** , is the diameter of the imaginary circle that passes through the center of the gear teeth. The size of this circle can be calculated with the **Diametrical Pitch (DP)**, which is the the number of gear teeth per inch of the pitch diameter. The relationship is as follows:
+
+<center>**`PD = (Number of teeth) / DP`**</center>
+
+The most commonly used gears in FRC are **20DP**. For example, a 20DP 80T gear will have a pitch diameter of 4". However, it should be noted that special gears are addendum modified and have a pitch diameter that does not correspond to the tooth count. If you are curious, you can read more about this [here](https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears#addendum-modified-gears). Typically this is only used on special motor pinion gears and will be marked as such.
 
 <center><img src="\img\design-guide\stage1c\gears\gearDiagram.webp" style="width:70%"></center>
-<figcaption>The <b>Pitch Diameter</b> of a gear is highlighted in green. The diameter is calculated from the <b>Diametrical Pitch</b> of the gear. Some vendors will label the gear with the <b>Tooth Count</b>. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).</figcaption>
+<center>*Illustration of gear pitch and outer diameter. Some vendors will label the gear with the <b>Tooth Count</b>. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>*
+
+When modeling, an easy way to set the center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a 1" and 3" pitch diameter circle and add a tangent constraint between the two circles.
+
+<center>**Modeling Gear Transmissions**</center>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears1.webp" style="width:60%">
+          <figcaption>1. A typical <b>Spur Gear</b> utilized in FRC. These types of gears can be purchased from most FRC vendors. (Image source: <a href="https://wcproducts.com/products/pocketed-gears">WCP</a>)</figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears6.webp" style="width:100%">
+          <figcaption>6. </figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears2.gif" style="width:80%">
+          <figcaption>2. A <b>Gearbox</b> whose input is a Kraken motor and applies a reduction.</figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears3.webp" style="width:100%">
+          <figcaption>3. </figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears4.webp" style="width:100%">
+          <figcaption>4. This is a 1:0.25 reduction. Four rotations of the input gear will result in 1 rotation of the output. </figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1c/gears/gears5.webp" style="width:100%">
+          <figcaption>5. The <b>Center Distance </b> between two gears. </figcaption>
+      </figure>
+  </div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+<!-- Dots will be generated here -->
+</div>
+</div>
+
+**When to Use**
+
+Gears are most commonly used with gearboxes to increase the torque of a motor. Before designing a gearbox, careful selection of the gear ratio is required so that there is enough torque to achieve the desired motions. 
+
+Out of the three power transmission methods discussed in this section, gears are the most compact. Gears should also be used if a change in rotational direction is required. Belts and chain cannot typically change rotational direction.
+
+Gears should not be used to transfer motion long distances; belts or chain are much more weight efficient for long distances. Also, gears are not suited for shock loads, which are very high spikes in torque, such as crashing an arm into something. Compared to chain and belt, gears transfer torque through a single tooth so they cannot handle shock loads as well.
 
 
+### Belts and Pulley Basics
 
-<center>**Gear Transmission Exercise**</center>
+
+**When to Use**
+
+
+### Chain and Sprocket Basics
+
+Roller chain and sprocket drives are mechanical systems used to transmit motion and power between rotating shafts. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
+
+<center><img src="\img\design-guide\stage1c\chain\chainAnimation.gif" style="width:40%"></center>
+<center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
+
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. The of the number of teeth of the sprockets determines how torque and speed are modified. Gear ratio is also used to express the ratio of sprocket teeth. Note that unlike gears, the two sprockets will spin the same direction. Also, the number of chain links must be even, unless a "half-link" is used, but this is not a recommended practice as half-link are weaker than normal links.
+
+**Types of Chain**
+
+The two commonly used sizes of roller chain in FRC is #25 and #35, with 0.25" and 0.375" pitch respectively. The **pitch** is the measure of the length of each link. #25 is most commonly used as it is strong and fairly lightweight. #35 is sometimes used on very high torque transmissions, such as on a large arm, but it is heavy and bulky.
+
+**Center to Center Calculation** 
+
+To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains). In the calculator, you can set the desired center distance and the number of teeth on each sprocket to get the required center distance.
+
+Similar to gears and belts, chain also has a pitch diameter. A chain clearance diameter also exists to describe the diameter of the sprocket with the chain wrapped around it. These quantities can be calculated with the following equations:
+
+<center>**`PD = Pitch * Teeth / 3.14`**</center>
+
+<center>**`Clearance Diameter = PD + Pitch`**</center>
+
+<center><img src="\img\design-guide\stage1c\chain\chainDiagram.webp" style="width:70%"></center>
+<center>*Illustration of chain sprocket diameter measures. Some vendors will label the gear with the <b>Tooth Count</b>. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)*</center>
+
+**Chain Tensioning**
+
+Unlike gears and belts, chain will stretch over time and increase in length and this must be accounted for in the design. Chain requires proper tension for system integrity. Improperly tensioned chain can skip (when the chain moves but not the sprocket). To compensate for this, a tensioning system should be added. The easiest way is to add an in-line chain tensioner. By tightening and loosing the chain tensioner, the length (and therefore the tension) of the chain can be adjusted. You can read more about chain tensioning methods in [Design Fundamentals](/design-fundamentals/)
+
+<center><img src="\img\design-guide\stage1c\chain\inlineTensioner.webp" style="width:40%"></center>
+<center>*An inline #25 chain tensioner. The tensioner is wrapped in tape to prevent it from loosening.*</center>
+
+When modeling, you will typically draw either the pitch diameter or chain clearance diameter of the two sprockets and connect them with tangent lines to represent the links. A simplified model of the chain can be generated using the `Chain Generator` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
+
+
+<center>**Modeling Chain Transmissions**</center>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -238,18 +349,9 @@ The most commonly used gears in FRC are **20DP**.
 </div>
 </div>
 
-#### When to Use
-Gears are most commonly used with gearboxes to increase the torque of a motor. Before designing a gearbox, careful selection of the gear ratio is required so that there is enough torque to achieve the desired motions. 
-
-Out of the three power transmission methods discussed in this section, gears are the most compact. Gears should also be used if a change in rotational direction is required. Belts and chain cannot typically change rotational direction.
-
-Gears should not be used to transfer motion long distances; belts or chain are much more weight efficient for long distances. Also, gears are not suited for shock loads, which are very high spikes in torque, such as crashing an arm into something. Compared to chain and belt, gears transfer torque through a single tooth so they cannot handle shock loads as well.
-
-### Chain and Sprocket Basics
+**When to Use**
 
 
-
-### Belts and Pulley Basics
 
 ## Exercise
 
