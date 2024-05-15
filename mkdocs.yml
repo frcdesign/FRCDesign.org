@@ -59,7 +59,7 @@ nav:
       - Stage 1:
         - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
         - "B: Design Methodology": design-guide/stage1/1B-designMethodology.md
-        - "C: Gearbox Projects": design-guide/stage1/1C-gearboxes.md
+        - "C: Power Transmissions": design-guide/stage1/1C-powerTransmissions.md
       - Stage 2:
         - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
         - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
