@@ -104,6 +104,10 @@
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling *power transmissions*. Power transmissions are the gears, belts, and chains that are used to transfer this rotational motion from the motor to do just about everything you can design. 
 
+## Bearings and Shafts
+
+Arughhh need to talk about bearings and shafts. 
+
 ## Torque and Speed
 
 Before learning about power transmissions, you'll first need to understand torque and speed. If you've taken a physics class before, this should be very straight forward. In this stage, you won't delve into calculating optimal power transmission ratios or performing power calculations. Neither will you learn many of the technical details of power transmissions; instead, you'll just focus on how to CAD them. After this section, feel free to refer to [Design Fundamentals](/design-fundamentals/) to learn the more technical details.
@@ -183,7 +187,7 @@ For now, just taken the 20 as a given. You'll learn more about it later.
 When modeling, an easy way to set the center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles.
 
 <center><img src="\img\design-guide\stage1c\gears\gearCad.webp" style="width:60%"></center>
-<figcaption>Modeling gear C-C distance by constraining two pitch diameter circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
+<figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
 
 
 ### Belts and Pulley Basics
@@ -286,57 +290,32 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
   <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1c/gears/gears1.webp" style="width:60%">
-        <figcaption>1. A typical <b>Spur Gear</b> utilized in FRC. These types of gears can be purchased from most FRC vendors. (Image source: <a href="https://wcproducts.com/products/pocketed-gears">WCP</a>)</figcaption>
+        <img src="/img/design-guide/stage1c/chain/chainCad1.webp" style="width:80%">
+        <figcaption>1. Use ReCalc to find the closest C-C size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger chain link count, whichever fits your design better.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1c/gears/gears6.webp" style="width:100%">
-        <figcaption>6. </figcaption>
+        <img src="/img/design-guide/stage1c/chain/chainCad2.webp" style="width:100%">
+        <figcaption>2. Draw two circles to represent sprocket pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1c/gears/gears2.gif" style="width:80%">
-        <figcaption>2. A <b>Gearbox</b> whose input is a Kraken motor and applies a reduction.</figcaption>
+        <img src="/img/design-guide/stage1c/chain/chainCad3.gif" style="width:100%">
+        <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
     </figure>
 </div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1c/gears/gears3.webp" style="width:100%">
-        <figcaption>3. </figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1c/gears/gears4.webp" style="width:100%">
-        <figcaption>4. This is a 1:0.25 reduction. Four rotations of the input gear will result in 1 rotation of the output. </figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1c/gears/gears5.webp" style="width:100%">
-        <figcaption>5. The <b>Center Distance </b> between two gears. </figcaption>
-    </figure>
-</div>
-
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
 </div>
 </div>
-
-**When to Use**
-
 
 
 ## Exercise
@@ -347,13 +326,6 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 ## Summary
 
-Summary of when to use each type of power transmission:
-
-| Transmission Type    | When to use | When not to use |
-| -------- | ------- | ------- |
-| Gears  |     | |
-| Belts and Pulleys |     | |
-| Chain and Sprocket |   | |
 
 
 
