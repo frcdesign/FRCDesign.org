@@ -3,7 +3,7 @@
 This week we will be designing a custom gearbox. Custom gearboxes can be used for many applications, from pivots for intakes or arms, to elevators, and much more. They are useful in certain applications due to their cheap cost and low backlash, as well as being highly customizable to different packaging situations. It is important for any well rounded designer to know their way around a custom gearbox.
 
 !!! warning 
-    **The deadline for this design challenge is 11:59pm PST 05/26/24, any submissions after this deadline are subjected to late submission scoring outlined [here](../index.md)**
+    **The deadline for this design challenge is 11:59pm PST 05/28/24, any submissions after this deadline are subjected to late submission scoring outlined [here](../index.md)**
 
 
 === "Beginner Challenge"
