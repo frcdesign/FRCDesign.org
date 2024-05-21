@@ -30,6 +30,8 @@ This week we will be designing a custom gearbox. Custom gearboxes can be used fo
         * No COTS gearboxes
         * Proper master sketch. 
 
+    [Advanced Document Template](https://cad.onshape.com/documents/3a922c18a861a358bab68348/w/ee43ec67ce25ef3ea6c8fc47/e/c6ede479085a56bd159f8031?renderMode=0&uiState=664c2414bdf7ee59183251be)
+
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
 
