@@ -157,6 +157,12 @@ The best practices for constraining an assembly, along with other assembly tools
 ## Practice Exercises
 Now lets practice! Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). For each exercise, the final reference is available to you. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
 
+!!! Note
+    A template for each exercise has been created for you in the exercises document and also includes a preview of what the final model should look like in the `Reference` file. You can navigate between the tabs by accessing the tab manager, or from the bottom navigation bar. You do not need to create any new part studios or assemblies within the exercises document. 
+    <center><img src="\img\design-guide\stage1a\1a-tabs.gif" width="100%"> </center>
+    <center> *Accessing the Tab Manager.* </center>
+
+
 ### Exercise 1: Simple Box Tube
 In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
 
@@ -229,8 +235,6 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
     <!-- Dots will be generated here -->
   </div>
 </div>
-
-If all is correct, the final mass of the part should be 0.350 lb.
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
@@ -348,8 +352,6 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   </div>
 </div>
 
-If all is correct, the final mass of the parts should be 0.270 lb.
-
 In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
 ### Exercise 3: Box Tube Frame
@@ -451,8 +453,6 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
     <!-- Dots will be generated here -->
   </div>
 </div>
-
-If all is correct, the final mass of the assembly should be 1.946 lb.
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
@@ -556,8 +556,6 @@ You will utilize the `Spacer` Featurescript for this exercise.
   </div>
 </div>
 
-If all is correct, the final mass of the assembly should be 0.560 lb.
-
 ### Exercise 5: Two Stage Gearbox
 
 In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
@@ -570,7 +568,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s14.webp" style="width:100%">
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
@@ -658,7 +656,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
         <source src="/img/design-guide/stage1a/exercises/e5/e5s12.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>12. Assemble the bearings, shafts, motor, and motor pinion gear using parts from the MKCad App. </figcaption>
+      <figcaption>12. Assemble the bearings and shafts using parts from the MKCad App. </figcaption>
     </li>
   </div>
 
@@ -668,14 +666,24 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
         <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>13. Assemble the spacers and gears using parts from the MKCad App. </figcaption>
+      <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e5/e5s14.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>14. Assemble the shaft spacers and gears using parts from the MKCad App. </figcaption>
     </li>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s14.webp" style="width:100%">
-      <figcaption>13. Finished assembly. </figcaption>
+      <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
+      <figcaption>15. Finished assembly. </figcaption>
     </figure>
   </div>
 
@@ -689,9 +697,17 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 </div>
 
 
-Congratulations on completing Stage 1B! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
-So far, you've been introduced to Onshape CAD modeling and the top-down master sketch design methodology. In Stage 1C, you'll explore how to design mechanisms and how to do the math to make your robot work!
+Here is a quick summary of what you have achieved in 1A:
+
+* Learned how to use the OnShape interface and basic sketching and modeling features with the OnShape Learning Center courses
+* Learned how to model basic FRC structures
+* Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, `Spacer`, `Shaft`, and `Vent` Featurescripts
+* Learned how to assemble basic models using `Group`, `Fasten`, and `Replicate`
+* Learned how to insert models into assemblies using the MKCad parts library!
+
+In stage 1B, you will begin to learn the basic workflow for robot modeling!
 
 <br>
 <center>1A: Fundamentals</center> 
