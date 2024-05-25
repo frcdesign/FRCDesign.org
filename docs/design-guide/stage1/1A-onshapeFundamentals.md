@@ -556,6 +556,8 @@ You will utilize the `Spacer` Featurescript for this exercise.
   </div>
 </div>
 
+In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
+
 ### Exercise 5: Two Stage Gearbox
 
 In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
@@ -696,6 +698,9 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
   </div>
 </div>
 
+In this exercise, you practiced more complex sketches, and practice mating together larger assemblies. You also used part configurations - which are a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear.
+
+## Conclusion
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
