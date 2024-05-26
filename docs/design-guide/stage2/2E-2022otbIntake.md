@@ -11,9 +11,9 @@
 }
 </style>
 
-# 2D: 2022 Over-the-Bumper Intake
+# 2E: 2022 Over-the-Bumper Intake
 
-<span class="left">[< 2C: Deadaxle Pivot](2C-deadaxlePivot.md)</span> <span class="right">[2E: 2023 Pasta Roller Intake >](2E-2023pastaRollerIntake.md)</span>
+<span class="left">[< 2D: Ball Conveyer](2D-foamBallConveyer.md)</span> <span class="right">[2F: 2023 Pasta Roller Intake >](2F-2023pastaRollerIntake.md)</span>
 <br>
 
 ## Over-the-Bumper Intakes
@@ -77,7 +77,7 @@ Now create a top level assembly and insert the static assembly (fasten to the or
 <center><img src="/img/design-guide/stage2d/intakeTopLevel.webp" width="70%"></center>
 
 <br>
-<center>2D: OTB Intake</center> 
-<span class="left">[< 2C: Deadaxle Pivot](2C-deadaxlePivot.md)</span> <span class="right">[2E: 2023 Pasta Roller Intake >](2E-2023pastaRollerIntake.md)</span>
+<center>2E: OTB Intake</center> 
+<span class="left">[< 2D: Ball Conveyer](2D-foamBallConveyer.md)</span> <span class="right">[2F: 2023 Pasta Roller Intake >](2F-2023pastaRollerIntake.md)</span>
 <br>
 <br>

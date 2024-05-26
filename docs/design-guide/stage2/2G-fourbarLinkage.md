@@ -11,10 +11,12 @@
 }
 </style>
 
-# 2F: Four-bar Linkage
-WIP
-<span class="left">[< 2E: 2023 Pasta Roller Intake](2E-2023pastaRollerIntake.md)</span> <span class="right">[2G: Cascade Elevator >](2G-cascadeElevator.md)</span>
+# 2G: Four-bar Linkage
+
+<span class="left">[< 2F: 2023 Pasta Roller Intake](2F-2023pastaRollerIntake.md)</span> <span class="right">[2H: Cascade Elevator >](2H-cascadeElevator.md)</span>
 <br>
+
+WIP
 
 ## Design Theory
 
@@ -60,7 +62,7 @@ Four bar linkages can be quite complicated to assemble, and will not be as clean
 
 
 <br>
-<center>2F: Four-bar</center> 
-<span class="left">[< 2E: 2023 Pasta Roller Intake](2E-2023pastaRollerIntake.md)</span> <span class="right">[2G: Cascade Elevator >](2G-cascadeElevator.md)</span>
+<center>2G: Four-bar</center> 
+<span class="left">[< 2F: 2023 Pasta Roller Intake](2F-2023pastaRollerIntake.md)</span> <span class="right">[2H: Cascade Elevator >](2H-cascadeElevator.md)</span>
 <br>
 <br>
