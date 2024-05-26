@@ -19,7 +19,7 @@
 ## Over-the-Bumper Intakes
 A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 
 
-The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. Four-bar linkages are gone over in [stage 2G](2G-fourbarLinkage.md). The intake designed in this stage will be a slapdown intake for 2022.
+The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. Four-bar linkages are gone over in [stage 2G](2G-fourbarLinkage.md). The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 <br>
 <figure><img align="left"  src="/img/cad-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/cad-examples/intake/4bar/1678.webp" width="40%"></figure>
 <br>
@@ -54,7 +54,7 @@ The MAXplanetary uses a 1:1 belt/pulley to transfer rotation to a long cross-axl
 
 For reducing backlash in the system, the 1:1 belt/pulley is exact center-center distance, and the chains are tensioned with inline tensioners. Large sprockets on the output of the arms are good as well for more teeth engagement with the chain.
 
-For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop, and use the relative encoder to take it to a specific position down.
+For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
 
 
 **Rollers and Roller Position**
