@@ -102,29 +102,36 @@
 <span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
-So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling *power transmissions*. Power transmissions are the gears, belts, and chains that are used to transfer this rotational motion from the motor to do just about everything you can design. 
+So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling *power transmissions*. Power transmissions are the bearings, shafts, gears, belts, and chains that are used to transfer this rotational motion from the motor to do just about everything you can design. 
 
-## Bearings and Shafts
+## Shafts and Bearings
 
-Arughhh need to talk about bearings and shafts. 
+To begin, you will be first introduced to shafts and bearings. Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
+
+Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier alignment.
+
+The easiest way to model shafts is to use the `Shaft` Featurescript which was previously introduced in Stage 1A. For bearings, simply import your desired bearings from the MKCad app.
+
+<center><img src="\img\design-guide\stage1c\bearingAndShaft.gif" style="width:40%"></center>
+<center>*Some sort of figure for bearings and shafts,*</center>
 
 ## Torque and Speed
 
-Before learning about power transmissions, you'll first need to understand torque and speed. If you've taken a physics class before, this should be very straight forward. In this stage, you won't delve into calculating optimal power transmission ratios or performing power calculations. Neither will you learn many of the technical details of power transmissions; instead, you'll just focus on how to CAD them. After this section, feel free to refer to [Design Fundamentals](/design-fundamentals/) to learn the more technical details.
+Before learning more about power transmissions, you'll first need to understand torque and speed. If you've taken a physics class before, this should be very straight forward. In this stage, you won't delve into calculating optimal power transmission ratios or performing power calculations. Neither will you learn many of the technical details of power transmissions; instead, you'll just focus on how to CAD them. 
 
 When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
 
 !!! Note
     Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x.
 
-Gears, sprockets, and chain all tradeoff speed for torque (or vice versa) by changing the size of the transmission components.
+Gears, sprockets, and chain all tradeoff speed for torque (and vice versa) by changing the size of the transmission components.
 
 ## Types of Power Transmissions
 
 In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
 
 ### Gear Basics
-Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts (rods that spin to transmit power). They're like wheels with teeth that fit together, allowing them to transfer rotational force and change the speed or direction of rotation. 
+Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer rotational force and change the speed or direction of rotation. 
 
 <center><img src="\img\design-guide\stage1c\gears\simpleGears.gif" style="width:40%"></center>
 <center>*A simple animation of two gears meshing. Notice that the gears will spin in opposite directions.*</center>
@@ -176,11 +183,10 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (Number of teeth) / 20`**</center>
 
-For now, just taken the 20 as a given. You'll learn more about it later.
+For now, just taken the 20 as a given. You can learn more about it later.
 
 <center><img src="\img\design-guide\stage1c\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
-
 
 **Modeling Gear Transmissions**
 
@@ -188,7 +194,6 @@ When modeling, an easy way to set the center distance between two gears is to dr
 
 <center><img src="\img\design-guide\stage1c\gears\gearCad.webp" style="width:60%"></center>
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
-
 
 ### Belts and Pulley Basics
 
