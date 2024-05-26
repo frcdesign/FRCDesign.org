@@ -3,4 +3,4 @@ This section will include fundamentals about FRC design and deep dives into how 
 
 **More mechanisms to come, we only have drivebase at this time**
 
-[Drivebase Fundamentals](/mechanism-fundamentals/mechanisms/drivebase/)
+[Drivebase Fundamentals](/design-fundamentals/mechanisms/drivebase/)
