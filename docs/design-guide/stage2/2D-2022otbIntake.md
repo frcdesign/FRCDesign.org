@@ -48,15 +48,16 @@ Steps are provided below for convenience.
 
 ### Part Studio
 
-1. CAD the front of your reference drivetrain or derive the tubes and modules from the another swerve drivebase you designed (e.g. from 2A). Make these a composite part. This is only for referencing.
-2. CAD the superstructure tube (mirror and add the mirror to the drivetrain composite for referencing). Use the assembly mirror featurescript to add mate connectors to the tube for easy assembly.
-3. Derive and transform the nut strips for referencing
-4. Design the plates based off of your master sketch
-5. Create the shafts using the shaft featurescript
-6. Create the intake arm and spacer to attach a sprocket to it
-7. Create two mate connectors on the pivot point in the master sketch, one owned by the main plate and one owned by the intake arm plate. This is for creating motion in the top level assembly.
-8. Use your chosen belt/chain generator featurescripts to create the belts and chain
-9. Name and give materials and appearances to all your parts
+1. Insert the origin cube (use the featurescript)
+2. CAD the front of your reference drivetrain or derive the tubes and modules from the another swerve drivebase you designed (e.g. from 2A). Make these a composite part. This is only for referencing.
+3. CAD the superstructure tube (mirror and add the mirror to the drivetrain composite for referencing). Use the assembly mirror featurescript to add mate connectors to the tube for easy assembly.
+4. Derive and transform the nut strips for referencing
+5. Design the plates based off of your master sketch
+6. Create the shafts using the shaft featurescript
+7. Create the intake arm and spacer to attach a sprocket to it
+8. Create a mate connector on the pivot point in the master sketch, owned by the origin cube. This is for creating motion in the top level assembly.
+9. Use your chosen belt/chain generator featurescripts to create the belts and chain
+10. Name and give materials and appearances to all your parts
 
 <center><img src="/img/design-guide/stage2d/intakePartStudio.webp" width="70%"></center>
 
@@ -71,7 +72,7 @@ Create an assembly for the intake arms and do the same thing as above to complet
 
 <center><img src="/img/design-guide/stage2d/intakeArms.webp" width="70%"></center>
 
-Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mates you created in the part studio earlier and add a limit to it. This completes the slapdown intake assembly.
+Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the slapdown intake assembly.
 
 <center><img src="/img/design-guide/stage2d/intakeTopLevel.webp" width="70%"></center>
 
