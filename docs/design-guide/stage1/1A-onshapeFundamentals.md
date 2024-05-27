@@ -103,65 +103,41 @@
 <span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
 <br>
 
-Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. Should you have any questions, feel free to ask on the Discord!
+Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. 
 
-## Learning Center Courses
+## Getting Started
+In 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
-[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike.
-
-Please complete these courses on the learning center to learn the fundamentals of Onshape CAD. 
-
-- [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad)
-- [Introduction to Part Design](https://learn.onshape.com/courses/introduction-to-part-design) 
-- [Introduction to Assembly Design](https://learn.onshape.com/courses/introduction-to-assembly-design)
-- [Introduction to Sketching](https://learn.onshape.com/courses/introduction-to-sketching)
-- [Part Design Using Part Studios](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios)
-- [Multi-Part Part Studios](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios)
-- [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies)
-
+### Learning Courses
+[Onshape's Learning Center](https://learn.onshape.com/) provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
 
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
-Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a specific feature of Onshape works. 
+!!! Tip
+    Additionally, the [Onshape Help](https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm?tocpath=Welcome%20to%20Onshape%20Help%7C_____0) site is a great resource to use if you are unsure how a specific feature of Onshape works. 
 
 !!! Warning
-    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the 1A exercises assume that you have an understanding of CAD basics.
+    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
-## Multi-Part Modeling
+### Practice Exercises
+Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs). Each exercise also includes a preview of what the final model should look like in the `Reference` file. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
 
-As introduced in the Onshape learning courses, Onshape is a software focused on multi-body modeling. In FRC, this usually means one part studio per subsystem. Check out [this page](../../best-practices/sub-document-setup.md) to learn more about best practices for sub-documents. The following practice exercises will help you reinforce these concepts.
-
-Here's an example of a subsystem part studio. Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
-
-<center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="45%"></center>
-<center> *Example of a part studio.* </center>
-
-## Assemblies
-
-Assembling is the basic function of defining the position and motion of parts in an assembly.
-
-As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
-
-- **`Group`**: Restricts the relative motion between a group of parts.
-- **`Fix`**: Locks a part in place within the assembly. (Not recommended as it's not parametric.)
-- **`Mates`**: Tools to constrain the degrees of freedom between parts using "mate connectors." These connectors are automatically generated or manually created coordinate systems on parts. You can align the axes and apply offsets in any direction or rotation. Different mates constrain different degrees of freedom. Here are three commonly used mates:
-    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole.
-    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot. Eg: An arm pivot.
-    - `Slider`: Enables linear movement along the z-axis between two mate connectors. Eg: An elevator.
-
-<center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
-<center> *Example of a fasten mate.* </center>
-
-The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects. Assembly best practices are outlined [here](../../best-practices/assembly-setup.md) and will be discussed in more detail in later stages.
-
-## Practice Exercises
-Now lets practice! Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). For each exercise, the final reference is available to you. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
-
-!!! Note
-    A template for each exercise has been created for you in the exercises document and also includes a preview of what the final model should look like in the `Reference` file. You can navigate between the tabs by accessing the tab manager, or from the bottom navigation bar. You do not need to create any new part studios or assemblies within the exercises document. 
+!!! Tip
+    You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
     <center><img src="\img\design-guide\stage1a\1a-tabs.gif" width="100%"> </center>
     <center> *Accessing the Tab Manager.* </center>
 
+    
+## Sketching and Part Design
+Sketches and features are the building blocks you will use to create every 3D model in Onshape, so it's good to have a good grasp on the fundamentals.
+
+Complete the following courses:
+
+1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/introduction-to-sketching) course runs you through different sketch tools, constraints, and a good sketch workflow.
+
+2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios) course runs you through creating different parts with a variety of features.
+
+With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
 
 ### Exercise 1: Simple Box Tube
 In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
@@ -238,6 +214,20 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
+
+
+## Multi-Part Modeling
+
+Complete the [Multi-Part Part Studios](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios) course. It runs you through top-down design principles (EXTREMELY important in FRC), sketching for multiple parts (master sketches), and some more practical skills for working with multiple parts in a part studio.
+
+As introduced in the learning course, Onshape is a software focused on multi-body modeling and top-down design. In FRC, this usually means one master sketch and one part studio per subsystem. Check out [this page](../../best-practices/sub-document-setup.md) to learn more about best practices for sub-documents. The following practice exercises will help you reinforce these concepts.
+
+!!! Example
+    Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
+    <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="55%"></center>
+    <center> *Example of a part studio.* </center>
+
+
 ### Exercise 2: Box Tube and Gusset Joint
 For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
@@ -251,7 +241,9 @@ The `Extrude individual` Featurescript enables you to extrude sketch regions wit
 The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
 !!! Tip
-    When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+    When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+    <center><img src="\img\design-guide\stage1a\1a-merge.png" width="20%"></center>
+    <center> *The different options for extruding.* </center>
 
 <center>**Exercise 2 Instruction Slides**</center>
 
@@ -332,7 +324,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s10.webp" style="width:100%">
-      <figcaption>10. Extrude the gusset to be 1/8" thick. </figcaption>
+      <figcaption>10. Extrude the gusset to be 1/8" thick. Select <code>New</code> as the extrude type to make the extrude a new part. </figcaption>
     </figure>
   </div>
 
@@ -352,7 +344,28 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   </div>
 </div>
 
-In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
+In this exercise, you can begin see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
+
+## Assemblies
+
+Assembling is the basic function of defining the position and motion of parts in an assembly.
+
+The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies) course introduces assemblies, mating parts together, and other useful assembly concepts.
+
+As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
+
+- **`Group`**: Restricts the relative motion between a group of parts.
+- **`Fix`**: Locks a part in place within the assembly. (Not recommended as it's not parametric.)
+- **`Mates`**: Tools to constrain the degrees of freedom between parts using "mate connectors." These connectors are automatically generated or manually created coordinate systems on parts. You can align the axes and apply offsets in any direction or rotation. Different mates constrain different degrees of freedom. Here are three commonly used mates:
+    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole.
+    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot (e.g. an arm pivot).
+    - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator).
+
+<center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
+<center> *Example of a fasten mate.* </center>
+
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined [here](../../best-practices/assembly-setup.md).
+
 
 ### Exercise 3: Box Tube Frame
 For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
@@ -508,7 +521,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e4/e4s5.webp" style="width:100%">
-      <figcaption>5. Make the hook 3/16" thick. </figcaption>
+      <figcaption>5. Make the hook 3/16" thick. Select <code>New</code> as the extrude type to make the extrude a new part.  </figcaption>
     </figure>
   </div>
 
@@ -560,7 +573,7 @@ In this exercise, you practiced more advanced sketching and were introduced to t
 
 ### Exercise 5: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
+In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is provided to you in the exercise document, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
 
 The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, practice more complex sketches, and practice mating together larger assemblies.
 <center>**Exercise 5 Instruction Slides**</center>
