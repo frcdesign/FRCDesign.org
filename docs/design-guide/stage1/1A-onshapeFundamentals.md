@@ -21,6 +21,7 @@
 .mySlides {
   display: none;
 }
+#slide1 {display:block}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -154,7 +155,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
       <figcaption>0. The final part.</figcaption>
@@ -250,7 +251,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
       <figcaption>0. The finished parts.</figcaption>
@@ -379,7 +380,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
@@ -482,7 +483,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
@@ -580,7 +581,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>

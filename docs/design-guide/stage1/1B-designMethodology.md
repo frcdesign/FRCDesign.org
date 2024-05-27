@@ -1,3 +1,4 @@
+
 <style>
 .right{
     float:right;
@@ -17,10 +18,12 @@
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
-  display: none;
+
+    display:none;
 }
+
+#slide1 {display:block}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -147,7 +150,7 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
       <figcaption>0. The final layout sketch.</figcaption>
@@ -241,7 +244,7 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
       <figcaption>0. The part studio.</figcaption>
@@ -355,7 +358,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtAssy0.webp" style="width:100%">
       <figcaption>0. The assembly.</figcaption>
@@ -442,7 +445,7 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
       <figcaption>0. Finished drivetrain assembly.</figcaption>
@@ -512,7 +515,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/TopLevel/topL0.webp" style="width:100%">
       <figcaption>0. Finished top level robot assembly.</figcaption>
@@ -570,8 +573,10 @@ At this point, you've learned and had some practice on modeling individual compo
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
 <script>
+
 // Initialize slide index for each slideshow
-let slideIndices = [];
+
+let slideIndices = [0];
 
 let slideshows = document.getElementsByClassName("slideshow-container");
   for (let no = 0; no < slideshows.length; no++) {
@@ -586,6 +591,8 @@ let slideshows = document.getElementsByClassName("slideshow-container");
     }
     showSlides(1, no);
   }
+
+  currentSlide(1);
 
 // Next/previous controls
 function plusSlides(n, no) {
