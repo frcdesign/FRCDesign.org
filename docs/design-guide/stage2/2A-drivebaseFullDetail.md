@@ -350,56 +350,56 @@ The threaded stud bumper mounting system is implemented for the example drivetra
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtFinalLayout.webp" style="width:100%">
-        <figcaption>0. Finished bumpers assembly. </figcaption>
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s0.webp" style="width:100%">
+        <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/originCube.webp" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s1.webp" style="width:100%">
         <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s2.webp" style="width:100%">
         <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s3.webp" style="width:100%">
         <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout1.gif" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s4.webp" style="width:100%">
         <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s5.webp" style="width:100%">
         <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s6.webp" style="width:100%">
         <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper1s0.webp" style="width:100%">
         <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
     </figure>
 </div>
@@ -424,43 +424,43 @@ Next, model the bumper mounts in the drivetrain part studio.
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtFinalLayout.webp" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s0.webp" style="width:100%">
         <figcaption>0. Finished bumper mounts. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/originCube.webp" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s1.webp" style="width:100%">
         <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout1.webp" style="width:100%">
-        <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s2.webp" style="width:100%">
+        <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout2.webp" style="width:100%">
-        <figcaption>3. Optionally pocket the mount. </figcaption>
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s3.webp" style="width:100%">
+        <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout1.gif" style="width:100%">
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s4.webp" style="width:100%">
         <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
-        <figcaption>5. Finished bumper and bumper mounts.</figcaption>
+        <img src="/img/design-guide/stage2a/bumpers/bumper2s0.webp" style="width:100%">
+        <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
     </figure>
 </div>
 
