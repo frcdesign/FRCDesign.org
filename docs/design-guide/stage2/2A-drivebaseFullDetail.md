@@ -138,8 +138,8 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 
 A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories).
 
-<center><img src="\img\design-guide\stage2a\batt\strappedBatt.webp" style="width:100%"></center>
-<center>*Battery strapped into a robot. *</center>
+<center><img src="\img\design-guide\stage2a\batt\battStrap.webp" style="width:70%"></center>
+<center>*Securely strapped battery in a robot. (Photo Credit: FRC 1538) *</center>
 
 Below we've provided one option for mounting the battery. In this design, a 2" wide strap wraps around the battery and bellypan to secure it.
 
@@ -213,8 +213,8 @@ Below we've provided one option for mounting the battery. In this design, a 2" w
 
 To make wiring the robot and later inspecting the wiring easier, enough space should be left around each component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams will typically try to mount their electronics on the bellypan, permitted there is space. 
 
-<center><img src="\img\design-guide\stage2a\elec\hotWiring.webp" style="width:100%"></center>
-<center>*Layout of electronics and wiring on an inverted bellypan.*</center>
+<center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
+<center>*Layout of various different electronic components on a bellypan.*</center>
 
 One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO is provided in the example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape can be a good option for robustly securing your electronics.
 
@@ -340,7 +340,7 @@ Similar to battery mounting, good bumper mounting is often overlooked. While a r
 The threaded stud bumper mounting system is implemented for the example drivetrain. You can learn more about bumpers and bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
 
 
-<center><img src="\img\design-guide\stage2a\bumpers\studMount.webp" style="width:100%"></center>
+<center><img src="\img\design-guide\stage2a\bumpers\studMount.png" style="width:60%"></center>
 <center>*Threaded stud bumper mount system. The threaded stud is attached to the bumper and the nut holds the stud tight.*</center>
 
 <center>**Sample Bumper Modeling Slides**</center>
