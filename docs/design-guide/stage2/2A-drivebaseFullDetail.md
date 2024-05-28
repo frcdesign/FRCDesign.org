@@ -210,7 +210,7 @@ To make wiring the robot and later inspecting the wiring easier, enough space sh
 <center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
 <center>*Layout of various different electronic components on a bellypan.*</center>
 
-One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
 <center>**Sample Electronics Mounting Slides**</center>
 <!-- Slideshow container -->
