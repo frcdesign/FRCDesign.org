@@ -193,7 +193,7 @@ Below we've provided one option for mounting the battery. In this design, a 2" w
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
-        <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to assign materials.</figcaption>
+        <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to name your parts, organize your file tree, and set part materials.</figcaption>
     </figure>
 </div>
 
