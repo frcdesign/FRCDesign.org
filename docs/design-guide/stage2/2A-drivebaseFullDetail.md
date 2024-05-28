@@ -105,43 +105,38 @@
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
 <br>
 
-Welcome to stage 2! In this stage you will be focusing on familiarizing yourself with onshape and FRC design.
-
-WIP
-
-
+Introduction to stage 2 yapping goes here
 
 ## Introduction
 
-The first project in Stage 2 will be detailing the drivetrain you began modeling in Stage 1B. So far, you’ve only modeled the frame and bare bellypan. To finish the drivetrain, the following details will need to be added.
+The first project in Stage 2 will be detailing the drivetrain you began modeling in Stage 1B. So far, you’ve only modeled the frame and bare bellypan. To finish the drivetrain, you should add the following details.
 
-1. Battery Mounting: Every robot needs a battery, and while the location may vary based on the other mechanisms present in your robot, it should always be placed as low as possible to make the robot more stable
+1. Battery Mounting: Every robot needs a battery, and while the location may vary based on the other mechanisms present in your robot, it should always be placed as low as possible to make the robot more stable.
 
 2. Electronics Mounting: Adequate space must be allocated on the robot for ease of wiring. Typically, the robot’s electronics are mounted on the bellypan.
 
-3. Bellypan Pocketing: This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan is very time consuming to machine.
+3. Bellypan Pocketing: This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan significantly increases machining time.
 
 4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
-
-<center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:100%"></center>
-<center>*Fully detailed Stage 2A drivetrain.*</center>
+<center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:80%"></center>
+<center>*Example of a fully detailed Stage 2A drivetrain.*</center>
 
 ## Battery Mounting
-Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get this [wrong](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105). 
-Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder and strap.
+Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) wrong. 
+Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
 
 ### Battery Placement
 Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent falling over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
 
 ### Battery Holder
 
-A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories).
+A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
 
 <center><img src="\img\design-guide\stage2a\batt\battStrap.webp" style="width:70%"></center>
 <center>*Securely strapped battery in a robot. (Photo Credit: FRC 1538) *</center>
 
-Below we've provided one option for mounting the battery. In this design, a 2" wide strap wraps around the battery and bellypan to secure it.
+Below we've provided one option for mounting the battery. In this design, a 2" wide strap wraps around the battery and bellypan to secure it. 
 
 <center>**Sample Battery Holder Modeling Slides**</center>
 <!-- Slideshow container -->
@@ -193,7 +188,7 @@ Below we've provided one option for mounting the battery. In this design, a 2" w
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
-        <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to name your parts, organize your file tree, and set part materials.</figcaption>
+        <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to organize your feature tree, name your parts, assign part materials, and organize your assembly file tree.</figcaption>
     </figure>
 </div>
 
@@ -208,15 +203,14 @@ Below we've provided one option for mounting the battery. In this design, a 2" w
 
 
 
-
 ## Electronics Mounting
 
-To make wiring the robot and later inspecting the wiring easier, enough space should be left around each component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams will typically try to mount their electronics on the bellypan, permitted there is space. 
+To make wiring the robot and later inspecting the wiring easier, enough space should be left around each electrical component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams typically try to mount their electronics on the bellypan, permitted there is space. 
 
 <center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
 <center>*Layout of various different electronic components on a bellypan.*</center>
 
-One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO is provided in the example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape can be a good option for robustly securing your electronics.
+One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
 <center>**Sample Electronics Mounting Slides**</center>
 <!-- Slideshow container -->
@@ -271,11 +265,13 @@ Every robot is also required to have a Robot Signal Light (RSL). An easy locatio
 <center><img src="\img\design-guide\stage2a\elec\RSL.webp" style="width:80%"></center>
 <center>*RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.*</center>
 
+For a full list of required electrical components refer to the latest game manual. Some electrical components may require special mounting. For example, some teams will use vision systems that require an Orange Pi computing unit with a 3D printed case. Additionally, each robot is required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
+
 ## Bellypan Pocketing
 
-Some teams may choose to pocket their bellypan in order to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service([Fabworks](https://fabworks.com/)). You should carefully consider the tradeoffs with your team.
+Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/)). You should carefully consider the tradeoffs with your team.
 
-You can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the overall workflow is the same.
+If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same.
 
 <center>**Sample Bellypan Pocketing Slides**</center>
 <!-- Slideshow container -->
@@ -313,7 +309,7 @@ You can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocke
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage2a/pocket/pocket1s4.webp" style="width:100%">
-        <figcaption>4.  Connect any islands that might result from mounting holes being too far from a rib. Here is one way to do this.</figcaption>
+        <figcaption>4.  Connect any islands that might result from mounting holes being too far from a rib. One way to fix this is to add a slot connecting the island to a rib.</figcaption>
     </figure>
 </div>
 
@@ -334,14 +330,10 @@ You can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocke
 </div>
 
 ## Bumpers
-Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date rules.
+Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42).
-The threaded stud bumper mounting system is implemented for the example drivetrain. You can learn more about bumpers and bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
-
-
-<center><img src="\img\design-guide\stage2a\bumpers\studMount.png" style="width:60%"></center>
-<center>*Threaded stud bumper mount system. The threaded stud is attached to the bumper and the nut holds the stud tight.*</center>
+### Bumper Model
+To begin, you'll want to model the bumpers. It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details. You should communicate with the rest of your team members to determine the level of detail that is required. 
 
 <center>**Sample Bumper Modeling Slides**</center>
 <!-- Slideshow container -->
@@ -415,7 +407,16 @@ The threaded stud bumper mounting system is implemented for the example drivetra
 
 Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
 
-Next, model the bumper mounts in the drivetrain part studio. 
+### Bumper Mounting
+
+Next, you'll need to model your desired bumper mounts in the drivetrain part studio. 
+
+Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42).
+
+In the provided example, the threaded stud bumper mounting system is implemented. You can learn more about bumpers and different bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
+
+<center><img src="\img\design-guide\stage2a\bumpers\studMount.png" style="width:60%"></center>
+<center>*Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.*</center>
 
 <center>**Sample Bumper Mount Modeling Slides**</center>
 <!-- Slideshow container -->
