@@ -1,3 +1,4 @@
+
 <style>
 .right{
     float:right;
@@ -5,9 +6,97 @@
 .center{
     text-align:center;
 }
-
 .left{
     float:left;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+
+    display:none;
+}
+
+#slide1 {display:block}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.25s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 </style>
 
@@ -20,8 +109,428 @@ Welcome to stage 2! In this stage you will be focusing on familiarizing yourself
 
 WIP
 
-<br>
-<center>2A: FD Drivebase</center> 
+
+
+## Introduction
+
+The first project in Stage 2 will be detailing the drivetrain you began modeling in Stage 1B. So far, you’ve only modeled the frame and bare bellypan. To finish the drivetrain, the following details will need to be added.
+
+1. Battery Mounting: Every robot needs a battery, and while the location may vary based on the other mechanisms present in your robot, it should always be placed as low as possible to make the robot more stable
+
+2. Electronics Mounting: Adequate space must be allocated on the robot for ease of wiring. Typically, the robot’s electronics are mounted on the bellypan.
+
+3. Bellypan Pocketing: This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan is very time consuming to machine.
+
+4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
+
+
+<center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:100%"></center>
+<center>*Fully detailed Stage 2A drivetrain.*</center>
+
+## Battery Mounting
+Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get this [wrong](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105). 
+Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder and strap.
+
+### Battery Placement
+Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent falling over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
+
+### Battery Holder
+
+A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories).
+
+<center><img src="\img\design-guide\stage2a\batt\strappedBatt.webp" style="width:100%"></center>
+<center>*Battery strapped into a robot. *</center>
+
+Below we've provided one option for mounting the battery. In this design, a 2" wide strap wraps around the battery and bellypan to secure it.
+
+<center>**Sample Battery Holder Modeling Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
+        <figcaption>0. Finished battery holder w/ mounting holes, strap cutout in bellypan, and strap.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s1.webp" style="width:100%">
+        <figcaption>1. Layout of battery and battery mount plate. To fit the battery with 1/16” radius fillets on the inner corners, the cutout should be around 6.705” x 7.225”.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s2.webp" style="width:100%">
+        <figcaption>2. 1/8" thick aluminum is a good option for this plate. Also add a 3/8" diameter spacers to connect to the bellypan.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s3.webp" style="width:100%">
+        <figcaption>3. Add the mounting holes and cut out for the battery strap on the bellypan. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s4.webp" style="width:100%">
+        <figcaption>4. Optionally model the battery strap.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s5.webp" style="width:100%">
+        <figcaption>5. Optionally pocket the battery holder. 0.2" wide ribs are recommended. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
+        <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to assign materials.</figcaption>
+    </figure>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+</div>
+</div>
+
+
+
+
+## Electronics Mounting
+
+To make wiring the robot and later inspecting the wiring easier, enough space should be left around each component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams will typically try to mount their electronics on the bellypan, permitted there is space. 
+
+<center><img src="\img\design-guide\stage2a\elec\hotWiring.webp" style="width:100%"></center>
+<center>*Layout of electronics and wiring on an inverted bellypan.*</center>
+
+One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO is provided in the example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape can be a good option for robustly securing your electronics.
+
+<center>**Sample Electronics Mounting Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/elec/elec1s0.webp" style="width:100%">
+        <figcaption>0. Finished mounted electronics.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/elec/elec1s1.webp" style="width:100%">
+        <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/elec/elec1s2.webp" style="width:100%">
+        <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/elec/elec1s0.webp" style="width:100%">
+        <figcaption>3. Insert the electronics from the MKCad parts library and fasten them. The Pigeon IMU can be fastened to the RoboRIO.</figcaption>
+    </figure>
+</div>
+
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+</div>
+</div>
+
+It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/). Simplified swerve module models can also be used to reduce lag. 
+
+!!! Warning
+    It is a very common misconception that the robot’s IMU sensor (eg: CTRE Pigeon, NavX) must be mounted at the center of the robot. The IMU can be mounted anywhere on the robot, as long as it is securely mounted. An easy place to mount the IMU is right on top of the RoboRIO.
+
+Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
+
+<center><img src="\img\design-guide\stage2a\elec\RSL.webp" style="width:80%"></center>
+<center>*RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.*</center>
+
+## Bellypan Pocketing
+
+Some teams may choose to pocket their bellypan in order to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service([Fabworks](https://fabworks.com/)). You should carefully consider the tradeoffs with your team.
+
+You can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the overall workflow is the same.
+
+<center>**Sample Bellypan Pocketing Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s0.webp" style="width:100%">
+        <figcaption>0. Pocketed bellypan. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s1.webp" style="width:100%">
+        <figcaption>1. Draw two perpendicular lines that are offset 45 degrees from vertical. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s2.webp" style="width:100%">
+        <figcaption>2. Linear pattern the lines until they completely cover the bellypan. These will be the ribs for the bellypan.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s3.webp" style="width:100%">
+        <figcaption>3. Offset the outline of the bellypan 0.5”.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s4.webp" style="width:100%">
+        <figcaption>4.  Connect any islands that might result from mounting holes being too far from a rib. Here is one way to do this.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/pocket/pocket1s0.webp" style="width:100%">
+        <figcaption>5. Use a pocketing Featurescript to pocket the bellypan. Recommended settings are 0.15” wide ribs and 3/16” tool radius.</figcaption>
+    </figure>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+</div>
+</div>
+
+## Bumpers
+Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date rules.
+
+Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42).
+The threaded stud bumper mounting system is implemented for the example drivetrain. You can learn more about bumpers and bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
+
+
+<center><img src="\img\design-guide\stage2a\bumpers\studMount.webp" style="width:100%"></center>
+<center>*Threaded stud bumper mount system. The threaded stud is attached to the bumper and the nut holds the stud tight.*</center>
+
+<center>**Sample Bumper Modeling Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtFinalLayout.webp" style="width:100%">
+        <figcaption>0. Finished bumpers assembly. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/originCube.webp" style="width:100%">
+        <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout1.webp" style="width:100%">
+        <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout2.webp" style="width:100%">
+        <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout1.gif" style="width:100%">
+        <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
+    </figure>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+    <div class="dotsContainer" style="text-align:center">
+        <!-- Dots will be generated here -->
+    </div>
+</div>
+
+Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
+
+Next, model the bumper mounts in the drivetrain part studio. 
+
+<center>**Sample Bumper Mount Modeling Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtFinalLayout.webp" style="width:100%">
+        <figcaption>0. Finished bumper mounts. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/originCube.webp" style="width:100%">
+        <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout1.webp" style="width:100%">
+        <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtSideLayout2.webp" style="width:100%">
+        <figcaption>3. Optionally pocket the mount. </figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout1.gif" style="width:100%">
+        <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage2a/bumpers/dtTopLayout2.gif" style="width:100%">
+        <figcaption>5. Finished bumper and bumper mounts.</figcaption>
+    </figure>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+    <div class="dotsContainer" style="text-align:center">
+        <!-- Dots will be generated here -->
+    </div>
+</div>
+
+
+## Conclusion
+As you progress, the projects will become more and more open ended and less step-by-step tutorial style as they have been up until now. Some more yapping and shit.
+
+
+
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
 <br>
 <br>
+
+<!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
+
+<script>
+
+// Initialize slide index for each slideshow
+
+let slideIndices = [0];
+
+let slideshows = document.getElementsByClassName("slideshow-container");
+  for (let no = 0; no < slideshows.length; no++) {
+    slideIndices[no] = 1;
+    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
+    let slides = slideshows[no].getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      let dot = document.createElement("span");
+      dot.className = "dot";
+      dot.onclick = function() { currentSlide(i+1, no); };
+      dotsContainer.appendChild(dot);
+    }
+    showSlides(1, no);
+  }
+
+  currentSlide(1);
+
+// Next/previous controls
+function plusSlides(n, no) {
+  showSlides(slideIndices[no] += n, no);
+}
+
+// Thumbnail image controls
+function currentSlide(n, no) {
+  showSlides(slideIndices[no] = n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("dot");
+  if (n > x.length) {slideIndices[no] = 1}    
+  if (n < 1) {slideIndices[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  x[slideIndices[no]-1].style.display = "block";  
+  dots[slideIndices[no]-1].className += " active";
+}
+
+</script>
