@@ -119,7 +119,7 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
-While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, the example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
+While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
 
 <center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:80%"></center>
 <center>*Example of a fully detailed Stage 2A drivetrain.*</center>
@@ -138,7 +138,7 @@ A strong strap should also be used to secure the battery to the mounting and pre
 <center><img src="\img\design-guide\stage2a\batt\battStrap.webp" style="width:70%"></center>
 <center>*Securely strapped battery in a robot. (Photo Credit: FRC 1538) *</center>
 
-Below we've provided one option for mounting the battery. In this design, a 2" wide strap wraps around the battery and bellypan to secure it. 
+Below we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
 
 <center>**Sample Battery Holder Modeling Slides**</center>
 <!-- Slideshow container -->
@@ -212,7 +212,27 @@ To make wiring the robot and later inspecting the wiring easier, enough space sh
 <center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
 <center>*Layout of various different electronic components on a bellypan.*</center>
 
-One option for mounting the Power Distribution Panel (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
+
+
+| **Component** | **Function** | **Suggested Location** |
+|---|---|---|
+| Power Distribution Hub (PDH) or  Power Distribution Panel (PDP) | Required to distribute power | Bellypan |
+| Main Breaker | Required to power on/off the robot | Somewhere easily accessible and close to the PDH and Battery |
+| RoboRIO | Required to control the robot | Bellypan |
+| Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required |
+| Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: Neo, CIM) | Near the controlled motor  or on the bellypan |
+| Robot Radio | Required for robot communications | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio). |
+| Robot Signal Light | Required to indicate robot status | Somewhere easily visible |
+| Inertial Measurement Unit (IMU) Sensor | Used to determine robot heading | Ontop of the RoboRIO |
+| Voltage Regulator Modules | Can be used for custom circuits | Bellypan |
+| Radio Power Module (RPM) | Powers the OpenMesh Radio | Not required for VH Radio |
+| Pneumatics Hub | Controls pneumatic components | Bellypan |
+
+!!! Warning
+    It is a very common misconception that the robot’s IMU sensor (eg: CTRE Pigeon, NavX) must be mounted at the center of the robot. The IMU can be mounted anywhere on the robot, as long as it is securely mounted. An easy place to mount the IMU is right on top of the RoboRIO.
+
+One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
 <center>**Sample Electronics Mounting Slides**</center>
 <!-- Slideshow container -->
@@ -259,15 +279,12 @@ One option for mounting the Power Distribution Panel (PDH), main breaker, and Ro
 
 It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/). Simplified swerve module models can also be used to reduce lag. 
 
-!!! Warning
-    It is a very common misconception that the robot’s IMU sensor (eg: CTRE Pigeon, NavX) must be mounted at the center of the robot. The IMU can be mounted anywhere on the robot, as long as it is securely mounted. An easy place to mount the IMU is right on top of the RoboRIO.
-
 Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
 
 <center><img src="\img\design-guide\stage2a\elec\RSL.webp" style="width:80%"></center>
 <center>*RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.*</center>
 
-For a full list of required electrical components refer to the latest game manual. Some electrical components may require special mounting. For example, some teams will use vision systems that require an Orange Pi computing unit with a 3D printed case. Additionally, each robot is required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
+Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
 
 ## Bellypan Pocketing
 
