@@ -21,12 +21,13 @@
 .mySlides {
   display: none;
 }
+#slide1 {display:block}
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 250px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -154,7 +155,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
       <figcaption>0. The final part.</figcaption>
@@ -228,7 +229,6 @@ As introduced in the learning course, Onshape is a software focused on multi-bod
     <center> *Example of a part studio.* </center>
 
 
-
 ### Exercise 2: Box Tube and Gusset Joint
 For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
 
@@ -242,7 +242,9 @@ The `Extrude individual` Featurescript enables you to extrude sketch regions wit
 The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
 !!! Tip
-    When extruding a sketch in a part studio, you can decide whether to "add" to existing geometry, or to create a "new" part. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+    When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+    <center><img src="\img\design-guide\stage1a\1a-merge.png" width="20%"></center>
+    <center> *The different options for extruding.* </center>
 
 <center>**Exercise 2 Instruction Slides**</center>
 
@@ -250,7 +252,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
       <figcaption>0. The finished parts.</figcaption>
@@ -323,7 +325,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e2/e2s10.webp" style="width:100%">
-      <figcaption>10. Extrude the gusset to be 1/8" thick. </figcaption>
+      <figcaption>10. Extrude the gusset to be 1/8" thick. Select <code>New</code> as the extrude type to make the extrude a new part. </figcaption>
     </figure>
   </div>
 
@@ -343,7 +345,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   </div>
 </div>
 
-In this exercise, you can see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
+In this exercise, you can begin see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
 ## Assemblies
 
@@ -379,7 +381,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
@@ -482,7 +484,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
@@ -520,7 +522,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e4/e4s5.webp" style="width:100%">
-      <figcaption>5. Make the hook 3/16" thick. </figcaption>
+      <figcaption>5. Make the hook 3/16" thick. Select <code>New</code> as the extrude type to make the extrude a new part.  </figcaption>
     </figure>
   </div>
 
@@ -572,7 +574,7 @@ In this exercise, you practiced more advanced sketching and were introduced to t
 
 ### Exercise 5: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is already done, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
+In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is provided to you in the exercise document, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
 
 The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, practice more complex sketches, and practice mating together larger assemblies.
 <center>**Exercise 5 Instruction Slides**</center>
@@ -580,7 +582,7 @@ The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts,
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
