@@ -290,7 +290,7 @@ Each robot is also required to have a radio. The radio should be mounted on the 
 
 Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/)). You should carefully consider the tradeoffs with your team.
 
-If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same.
+If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
 
 <center>**Sample Bellypan Pocketing Slides**</center>
 <!-- Slideshow container -->
@@ -352,7 +352,7 @@ If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or
 Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
 
 ### Bumper Model
-To begin, you'll want to model the bumpers. It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details. You should communicate with the rest of your team members to determine the level of detail that is required. 
+To begin, you'll need to model the bumpers. It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
 
 <center>**Sample Bumper Modeling Slides**</center>
 <!-- Slideshow container -->
@@ -495,8 +495,8 @@ In the provided example, the threaded stud bumper mounting system is implemented
 
 
 ## Conclusion
-As you progress, the projects will become more and more open ended and less step-by-step tutorial style as they have been up until now. Some more yapping and shit.
 
+Congratulations on completing Stage 2A! With the Stage 2A tasks completed, your drivetrain model is well on its way to being fully functional. As you progress, the projects will become more and more open ended and less step-by-step tutorial style as they have been up until now. Be sure to use the Discord to solicit feedback on your designs to learn and improve!
 
 
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
