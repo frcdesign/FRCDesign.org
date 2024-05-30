@@ -105,7 +105,7 @@
 <span class="left">[< 1C: Gearbox Projects](../stage1/1C-gearboxes.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
 <br>
 
-Introduction to stage 2 yapping goes here
+Welcome to Stage 2! This section is focused the design of common mechanisms in FRC, both through CAD skills and best practices and through key engineering concepts. Each project's guide will delve into the reasoning behind specific design decisions and the criteria they fulfill, providing less step-by-step instruction and encouraging more independent CAD work.
 
 ## Introduction
 
@@ -125,7 +125,7 @@ While the exact implementation for each of these details will vary based on the 
 <center>*Example of a fully detailed Stage 2A drivetrain.*</center>
 
 ## Battery Mounting
-Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) wrong. 
+Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86) wrong. 
 Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
 
 ### Battery Placement
