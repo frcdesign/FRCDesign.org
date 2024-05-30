@@ -119,6 +119,8 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
+While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, the example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
+
 <center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:80%"></center>
 <center>*Example of a fully detailed Stage 2A drivetrain.*</center>
 
