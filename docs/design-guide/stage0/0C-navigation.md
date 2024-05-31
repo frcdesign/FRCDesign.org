@@ -27,7 +27,7 @@ You can create a document or folder or import CAD files from your computer using
 
 <center>![documentsPage](../../img/design-guide/stage0/navigation/documentsPage.webp)</center>
 
-After signing in, you can use [this page](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1) in the learning center to explore the documents page.
+You can use [this page](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1) in the learning center to explore the documents page.
 
 ### Customizing Your Account
 
