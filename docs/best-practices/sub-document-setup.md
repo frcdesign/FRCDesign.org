@@ -23,11 +23,11 @@ Often, you only need to have one part studio and one top-level subsystem assembl
 
 Note how there's only 1 part studio and 1 assembly for this subsystem, as the part count is relatively low.
 
-![](/img/design-standards/part-studio.webp)
+<center><img src="/img/design-standards/part-studio.webp"></center> 
 
 Note how a subassembly is used to assemble several parts that can then be imported as a single item in the top-level subsystem assembly.
 
-![](/img/design-standards/subassembly.png)
+<center><img src="/img/design-standards/subassembly.png"></center> 
 
 <br>
 <span class="left">[< Document Setup](document-setup.md)</span> <span class="right">[Master Sketch Best Practices >](mastersketch-setup.md)</span>
