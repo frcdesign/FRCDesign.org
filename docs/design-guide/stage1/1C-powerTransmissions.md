@@ -21,6 +21,7 @@
 .mySlides {
   display: none;
 }
+#slide1 {display:block}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -143,7 +144,7 @@ In order to change the torque and speed from the input to output, different size
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
+<div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1c/gears/gearReduction.webp" style="width:100%">
         <figcaption>1. To increase torque and reduce speed, the output gear must be driven with a smaller gear. In this example, a 12T gear drives an 84T gear. The output is 7x larger than the input, so the torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
@@ -225,7 +226,7 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
+<div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1c/belt/beltCad1.webp" style="width:80%">
         <figcaption>1. Use ReCalc to find the closest belt size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger belt, whichever fits your design better.</figcaption>
@@ -293,7 +294,7 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
+<div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1c/chain/chainCad1.webp" style="width:80%">
         <figcaption>1. Use ReCalc to find the closest C-C size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger chain link count, whichever fits your design better.</figcaption>
