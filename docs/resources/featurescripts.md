@@ -251,7 +251,7 @@ The below links contain several featurescripts each that you can add all at once
 
 - Used to create an origin reference for assembly mating
 - Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
-- See [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method) for more information on usage
+- See [Assembly Best Practices](../best-practices/assembly-setup.md#origin-cube-method) for more information on usage
 
 [**SuperDerive**](https://cad.onshape.com/documents/cfef86ed4f9635531599a973/v/07475511d9c61d4993261871/e/305f5ce7d2fdb46e12881f6f)
 
