@@ -107,12 +107,16 @@
 
 ## Project Overview
 
-So far, you've worked on modeling FRC components in isolation. In Stage 1B, you'll dive right into robot design. In this project, you will be designing a swerve drivebase using COTS swerve modules. You will be introduced to a design workflow that will be applied to all future projects. Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
+So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In Stage 1B, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
 
-To begin, you'll be modeling a swerve drivebase. Then, you'll create a top level robot assembly and insert a pre modeled mechanism (1678's 2023 scoring mechanism).
+1. Learn the basics of top-down design and mastersketching
+2. Model a swerve drivebase using COTS swerve modules
+3. Create a top-level assembly and insert a pre-modeled mechanism (1678's 2023 elevator and manipulator) 
+
+Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
 
 <center><img src="\img\design-guide\stage1b\FullAssy.png" style="width:100%"></center>
-<center>*Final robot assembly.*</center>
+<center>*Swerve drivebase with pre-modeled mechanism*</center>
 
 
 As with previous exercises, the finished project is available for reference [here](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51). If you need help, please feel free to ask on the Discord!
@@ -137,7 +141,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has 2 motor
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
 
-Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
+Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), and [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
@@ -229,9 +233,7 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
   </div>
 </div>
 
-As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
-
-In this part, you were also introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable a references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
+As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. Besides the [page on master sketches](/best-practices/mastersketch-setup/), you will be practicing master sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
 
 ### Deriving Layout Sketches and Part Modeling
 
@@ -343,6 +345,8 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
     <!-- Dots will be generated here -->
   </div>
 </div>
+
+In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
 
 At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/) page.
 
