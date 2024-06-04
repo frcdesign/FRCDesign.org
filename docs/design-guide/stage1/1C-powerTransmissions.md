@@ -103,11 +103,11 @@
 <span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
-So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling *power transmissions*. Power transmissions are the bearings, shafts, gears, belts, and chains that are used to transfer this rotational motion from the motor to do just about everything you can design. 
+So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling some *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
 
 ## Shafts and Bearings
 
-To begin, you will be first introduced to shafts and bearings. Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
+To begin, you will be introduced to shafts and bearings. Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
 
 Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier alignment.
 
@@ -118,14 +118,15 @@ The easiest way to model shafts is to use the `Shaft` Featurescript which was pr
 
 ## Torque and Speed
 
-Before learning more about power transmissions, you'll first need to understand torque and speed. If you've taken a physics class before, this should be very straight forward. In this stage, you won't delve into calculating optimal power transmission ratios or performing power calculations. Neither will you learn many of the technical details of power transmissions; instead, you'll just focus on how to CAD them. 
-
-When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
+When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed.If you've taken a physics class before, this should be very straight forward. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
 
 !!! Note
     Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x.
 
 Gears, sprockets, and chain all tradeoff speed for torque (and vice versa) by changing the size of the transmission components.
+
+
+In this stage, you'll focus on the basics of power transmissions, with an emphasis on how to create them in CAD. While you won't be calculating optimal power transmission ratios or exploring advanced technical details, you'll gain a solid foundation to build upon.
 
 ## Types of Power Transmissions
 
@@ -182,9 +183,9 @@ To calculate the center-to-center distance, you can use the following formula:
 
 Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)** , is the diameter of the imaginary circle that passes through the center of the gear teeth. The pitch diameters of two gears should be touching in order for the gears to properly mesh. The equation for PD is as follows:
 
-<center>**`PD = (Number of teeth) / 20`**</center>
+<center>**`PD = (# of teeth) / DP`**</center>
 
-For now, just taken the 20 as a given. You can learn more about it later.
+Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. You can learn more about it later in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1c\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
@@ -208,15 +209,15 @@ In order to change the torque and speed from the input to the output, different 
 
 **Types of Belt**
 
-Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
+Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. To calculate the pitch diameter, the following equation can be used:
+
+<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+
+Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
 
 **Center to Center Calculation**
 
-To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the required center distance.
-
-Similar to gears, pulleys also have a pitch diameter. The pitch diameter can be calculated with the following equation, where the pitch is typically 5 mm:
-
-<center>**`PD = Pitch * Teeth / 3.14`**</center>
+To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest belt size and corresponding center to center distance.
 
 **Modeling Belt Transmissions**
 
