@@ -113,8 +113,8 @@ Bearings support the shafts and enable smooth spinning. Standard hex shafts use 
 
 The easiest way to model shafts is to use the `Shaft` Featurescript which was previously introduced in Stage 1A. For bearings, simply import your desired bearings from the MKCad app.
 
-<center><img src="\img\design-guide\stage1c\bearingAndShaft.gif" style="width:40%"></center>
-<center>*Some sort of figure for bearings and shafts,*</center>
+<center><img src="\img\design-guide\stage1c\bearingAndShaft.webp" style="width:75%"></center>
+<center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
 
 ## Torque and Speed
 
@@ -335,7 +335,15 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 ## Summary
 
+Congratulations on completing Stage 1C! Keep up the good work!
 
+Here is a quick summary of what you have achieved in 1C:
+
+* Learned the basics of bearings, shafts, gears, chain and sprockets, and belt and pulleys
+* Learned how to model power transmissions
+* Learned how to use the `Contextless Belt` and `Chain Generator` Featurescripts
+
+In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1!
 
 <br>
 <center>1C: Gearboxes</center> 
