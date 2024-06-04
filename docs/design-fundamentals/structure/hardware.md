@@ -1,5 +1,7 @@
 # Hardware Standards
 
+A guide on hardware and hardware standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware.
+
 Modern FRC generally uses two different types of imperial hardware, #10-32 and 1/4-20. However, 10-32 is vastely preferrable, and with a bit of effort, we can make robots that use almost exclusively 10-32 hardware. In general:
 
 - 10-32 is used for almost everything: retaining shafts, screwing into motors, superstructure, etc.

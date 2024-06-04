@@ -15,7 +15,7 @@ table tr:hover{
 
 </style>
 
-# Power Transmission Fundamentals
+# Transfer of Rotational Motion
 A power transmission is the transfer of rotational or linear motion from one system to another to transmit power. 
 
 <p style="font-size:1rem;">Belts</p>
