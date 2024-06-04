@@ -39,7 +39,7 @@ In general, mastersketching is an art that can require some practice to get the 
 
 See an example of a well set-up mastersketches part studio here:
 
-<center>![](/img/design-standards/mastersketch.png)</center>
+<center><img src="/img/best-practices/mastersketch.png"></center>
 
 And a presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing)
 
