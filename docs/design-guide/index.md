@@ -31,12 +31,11 @@ In stage 2 we continue to focus on covering more design skills and concepts whil
 
 After finishing the last stage, you should be comfortable with the tools required to design a robot. This stage transitions to higher level projects, first focusing on high-level design practices and workflows, like how to create effective mastersketches, then transitions into replicating simple robots using what you've learned about both the CAD and the mechanisms themselves. You will learn how the basic mechanisms integrate together and how to apply top-down design practices.
 
-## Intermediate Stages
+## [Intermediate: Stage 4](stage4.md)
 
-### [Stage 4](stage4/4.md)
+In this stage, you'll focus on mastering the design fundamentals to the point where they are natural. This means learning how to optimize your CAD to be more parametric, mastering best practices and workflow that makes your CAD faster and more easily collaborated on, and learning more about engineering design and strategic design. 
 
-In this stage, you should be focusing primarily on mastering the design fundamentals to the point where they are natural. At this point you can be working on more advanced mechanisms and robots for more ambitious projects, or working on your speed gains to design robots faster. With a good optimal workflow you should be able to design a high quality mechanism in under 12 hours from scratch. Aim for faster, but the idea is that by this stage, build season becomes a lot more comfortable if you aren't working overtime to cad.
+<br>
 
-^ This stage is a WIP
 
 

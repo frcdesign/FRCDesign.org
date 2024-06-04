@@ -1,0 +1,3 @@
+# Strategic Design Resources
+
+WIP

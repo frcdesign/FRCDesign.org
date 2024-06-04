@@ -24,14 +24,10 @@ The discord server has different roles for each stage you are going through in t
 
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
-### **Intermediate Designer**
-Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. In these stages, you are optimizing your workflow, going into the small details, and learning the nuances to adapt to your own team.
+### **Intermediate Designer** *(Stage 4)*
+Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. 
 
-Possible Intermediate Stages:
-
-- Stage 4: You're focusing on improving your design quality through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality.  
-
-- Stage 5: The focus in stage 5 is speed gains. We'll be focusing on parametric CAD, load times, and learning how to design faster and more efficiently. 
+In this stage, you're focusing on improving your design quality, workflow, and speed through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality and learning the nuances between designs to adapt to your own team.
 
 ### **Advanced Designer**
 Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and/or understand FRC design to a high level. 

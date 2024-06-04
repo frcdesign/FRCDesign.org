@@ -72,7 +72,7 @@ nav:
         - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
         - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
         - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
-    - Intermediate Stages: design-guide/stage4/4.md
+    - Intermediate Stage: design-guide/stage4.md
   
   - Design Challenges:
     - design-challenge/index.md
@@ -96,6 +96,7 @@ nav:
   - Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
+    - Strategic Design: resources/strategicDesignResources.md
     - Mechanism Examples:
       - mechanism-examples/index.md
       - Slapdown Intakes:
@@ -129,12 +130,13 @@ nav:
         - mechanism-examples/pivots/index.md
         - 6328 A-Frame Pivot: mechanism-examples/pivots/examples/6328pivot.md
         - 2910 Dead Axle Pivot: mechanism-examples/pivots/examples/2910pivot.md
-    
+
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md
       - Simplified Models: resources/simplified.md
       - Configurables: resources/configurables.md
       - KrayonCAD: resources/krayonCAD.md
+    
  
 
   - Contributor's Guide:
