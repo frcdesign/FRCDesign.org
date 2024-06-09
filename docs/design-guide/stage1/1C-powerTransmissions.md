@@ -27,7 +27,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 250px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -103,22 +103,22 @@
 <span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
-So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling some *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
+So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
 
 ## Shafts and Bearings
 
-To begin, you will be introduced to shafts and bearings. Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
+Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
 
-Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier alignment.
+Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
-The easiest way to model shafts is to use the `Shaft` Featurescript which was previously introduced in Stage 1A. For bearings, simply import your desired bearings from the MKCad app.
+The easiest way to model shafts is to use the `Shaft` Featurescript which was previously introduced in Stage 1A. For bearings, simply insert your desired bearing from the MKCad app.
 
 <center><img src="\img\design-guide\stage1c\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
 
 ## Torque and Speed
 
-When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed.If you've taken a physics class before, this should be very straight forward. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
+When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
 
 !!! Note
     Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x.
@@ -133,12 +133,12 @@ In this stage, you'll focus on the basics of power transmissions, with an emphas
 In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
 
 ### Gear Basics
-Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer rotational force and change the speed or direction of rotation. 
+Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer torque, change speed, and change direction of rotation. 
 
 <center><img src="\img\design-guide\stage1c\gears\simpleGears.gif" style="width:40%"></center>
-<center>*A simple animation of two gears meshing. Notice that the gears will spin in opposite directions.*</center>
+<center>*A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.*</center>
 
-In order to change the torque and speed from the input to output, different sized gears must be used. The ratio of the size of the two gears determines how the torque and speed are modified. This ratio is called the **Gear Ratio**, which is the ratio of the number of teeth between two gears. It is typically written as `n:m`, which is the ratio between the number of rotations `m` of the output for `n` rotations of the input.
+In order to change the torque and speed from the input to output, different sized gears must be used. The ratio of the size of the two gears determines how the torque and speed are modified. This ratio is called the **Gear Ratio**, which is the ratio of the number of teeth between two gears. It is typically written as `n:m`, where `m` is the number of rotations of the output for `n` rotations of the input. 
 
 <center>**Changing Speed and Torque**</center>
 <!-- Slideshow container -->
@@ -162,7 +162,7 @@ In order to change the torque and speed from the input to output, different size
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1c/gears/gearSwap.webp" style="width:100%">
-        <figcaption>3. If the same size gears are used, there is no change in speed and torque. However, the direction of the rotation is flipped if there is an even number of gears from input to output. If there is an odd number of gears, the direction is the same. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>3. If the same size gears are used, there is no change in speed and torque. However, the direction of the rotation is flipped if there is an even number of gears from input to output. If there is an odd number of gears, the direction remains the same. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
@@ -177,39 +177,41 @@ In order to change the torque and speed from the input to output, different size
 
 **Center to Center Calculation** 
 
-To calculate the center-to-center distance, you can use the following formula:
+To calculate how far apart to space the gears, you can use the following formula to calculate the center-to-center distance:
 
 <center>**`CC = 0.5*PD1 + 0.5*PD2`**</center>
 
-Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)** , is the diameter of the imaginary circle that passes through the center of the gear teeth. The pitch diameters of two gears should be touching in order for the gears to properly mesh. The equation for PD is as follows:
+Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)**  is the size of the imaginary circle that passes through the center of the gear teeth. The pitch diameters of two gears should be tangent in order for the gears to properly mesh. The equation for PD is as follows:
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. You can learn more about it later in the Design Fundamentals pages.
+Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. You can learn more about this in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1c\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
 
 **Modeling Gear Transmissions**
 
-When modeling, an easy way to set the center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles.
+When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. 
 
 <center><img src="\img\design-guide\stage1c\gears\gearCad.webp" style="width:60%"></center>
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
 
+It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
+
 ### Belts and Pulley Basics
 
-Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a flexible material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another
+Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another
 
 
 <center><img src="\img\design-guide\stage1c\belt\beltAndPulley.webp" style="width:50%"></center>
 <center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
 
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. The of the number of teeth of the pulleys determines how torque and speed are modified. Gear ratio is also used to express the ratio of pulley teeth. Note that unlike gears, the two pulleys will spin the same direction.
+In order to change the torque and speed from the input to the output, different sized pulleys must be used. The ratio between the number of teeth on each pulley determines how torque and speed are modified. Gear ratio is also used to express the ratio of pulley teeth. Note that unlike gears, the two pulleys will spin the same direction.
 
 **Types of Belt**
 
-Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. To calculate the pitch diameter, the following equation can be used:
+Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. To calculate the pitch diameter of a pulley, the following equation can be used:
 
 <center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
 
@@ -217,11 +219,11 @@ Belts also come in various widths. In FRC, you will typically use either 9 mm or
 
 **Center to Center Calculation**
 
-To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest belt size and corresponding center to center distance.
+To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
 
 **Modeling Belt Transmissions**
 
-When modeling, you will typically draw either the pitch diameter of the two pulley and connect them with tangent lines to represent the belt. A simplified 3D model of the belt can be generated using the `Contextless Belts` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
+When modeling, you will typically draw either the pitch diameter of the two pulleys and connect them with tangent lines to represent the belt. A simplified 3D model of the belt can be generated using the `Contextless Belts` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -265,15 +267,15 @@ Roller chain and sprocket drives are very similar to belt and pulley transmissio
 <center><img src="\img\design-guide\stage1c\chain\chainAnimation.gif" style="width:40%"></center>
 <center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
 
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. The of the number of teeth of the sprockets determines how torque and speed are modified. Gear ratio is also used to express the ratio of sprocket teeth. Note that unlike gears, the two sprockets will spin the same direction.
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. The ratio between the number of teeth on each sprocket determines how torque and speed are modified. Gear ratio is used to express the ratio of sprocket teeth. Note that unlike gears, the two sprockets will spin the same direction.
 
 **Types of Chain**
 
-The two commonly used sizes of roller chain in FRC is #25 and #35, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
+The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
 
 <center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
 
-A chain clearance diameter also exists to describe the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
+Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
 <center>**`Clearance Diameter = PD + Pitch`**</center>
 
@@ -282,7 +284,7 @@ Below is an illustration of the pitch, pitch diameter, outside diameter, and cha
 <center><img src="\img\design-guide\stage1c\chain\chainDiagram.webp" style="width:70%"></center>
 <center>*Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)*</center>
 
-In FRC, #25 chain is most commonly used as it is strong and relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
+In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
 
 **Center to Center Calculation** 
 
