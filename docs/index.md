@@ -15,7 +15,7 @@ The purpose of this site is to provide the knowledge and guidance necessary to l
 ## Stage Roles
 The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
 
-### **The Beginner Roles**
+### **Beginner Designer**
 
 - Stage 0: You have 0 design or CAD experience, and are setting up Onshape and getting introduced to CAD
 - Stage 1: You have set up Onshape and have started learning sketching and part design and are working on your first projects.
