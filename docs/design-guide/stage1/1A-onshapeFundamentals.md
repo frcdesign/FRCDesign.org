@@ -140,15 +140,23 @@ Complete the following courses:
 
 With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
 
+!!! Tip
+    For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15), [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0), [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17), and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0) are all covered in text form in the help center. 
+
 ### Exercise 1: Simple Box Tube
 In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
 
-Here's an example of an aluminum box tube structure on a robot:
 
-<center><img src="\img\design-guide\stage1a\tube.webp" width="45%"> </center>
-<center> *Example of a 2x1 box tube.* </center>
+!!! Example
+    <center><img src="\img\design-guide\stage1a\tube.webp" width="45%"> </center>
+    <center> *Example of 2x1 box tube structure on a robot* </center>
 
 For exercise 1, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts.
+
+!!! Note
+    You will see in some slides that the sketch dialogue box has a different name, such as "Tube Profile". You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
+    
+    You should name your sketches and features and organize them into folders. This helps enable collaboration and makes working on previous features much faster.
 
 <center>**Exercise 1 Instruction Slides**</center>
 <!-- Slideshow container -->
@@ -226,14 +234,15 @@ As introduced in the learning course, Onshape is a software focused on multi-bod
 !!! Example
     Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
     <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="55%"></center>
-    <center> *Example of a part studio.* </center>
+    <center> *Example of a part studio* </center>
 
 
 ### Exercise 2: Box Tube and Gusset Joint
-For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting! Here's an example of a gusset:
+For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting!
 
-<center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
-<center> *Example of a gusset.* </center>
+!!! Example
+    <center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
+    <center> *Example of a gusset* </center>
 
 You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. Do not use the `Gusset` Featurescript for this exercise.
 
@@ -244,7 +253,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
 !!! Tip
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
     <center><img src="\img\design-guide\stage1a\1a-merge.png" width="20%"></center>
-    <center> *The different options for extruding.* </center>
+    <center> *The different options for extruding* </center>
 
 <center>**Exercise 2 Instruction Slides**</center>
 
@@ -362,8 +371,9 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
     - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot (e.g. an arm pivot).
     - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator).
 
-<center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="80%"></center>
-<center> *Example of a fasten mate.* </center>
+!!! Example
+    <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="90%"></center>
+    <center> *Example of a fasten mate.* </center>
 
 The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined [here](../../best-practices/assembly-setup.md).
 
