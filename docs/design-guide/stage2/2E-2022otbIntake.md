@@ -29,7 +29,7 @@ The two types of OTB intakes are "slapdown" which consists of a single set of ar
 Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../mechanism-examples/intake/slapdown/index.md) and [4-bar intakes page](../../mechanism-examples/intake/4bar/index.md). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 ## Project
-Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f) to copy the 2022 OTB intake in it in your own document. 
+Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f) to copy the 2022 OTB intake in your own document. 
 
 <center><img src="/img/design-guide/stage2d/intakeTopLevel.webp" width="70%"></center>
 
