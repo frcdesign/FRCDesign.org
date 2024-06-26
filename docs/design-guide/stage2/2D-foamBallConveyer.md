@@ -16,7 +16,7 @@
 <span class="left">[< 2C: Dead Axle Pivot](2C-deadaxlePivot.md)</span> <span class="right">[2E: OTB Intake >](2E-2022otbIntake.md)</span>
 <br>
 
-WIP
+Work In Progress
 
 <br>
 <center>2D: Foam Ball Conveyer</center> 
