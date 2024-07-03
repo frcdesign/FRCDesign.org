@@ -98,7 +98,7 @@
 }
 </style>
 
-# 1C: Power Transmissions
+# 1B: Power Transmissions
 
 <span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>

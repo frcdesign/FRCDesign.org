@@ -100,7 +100,7 @@
 }
 </style>
 
-# 1B: Design Methodology
+# 1C: Design Methodology
 
 <span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
