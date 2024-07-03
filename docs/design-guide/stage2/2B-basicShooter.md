@@ -16,7 +16,7 @@
 <span class="left">[< 2A: Full Detail Drivebase](2A-drivebaseFullDetail.md)</span> <span class="right">[2C: Deadaxle Pivot >](2C-deadaxlePivot.md)</span>
 <br>
 
-WIP
+Work In Progress
 
 <br>
 <center>2B: Shooter</center> 
