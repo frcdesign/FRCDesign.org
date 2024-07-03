@@ -102,7 +102,7 @@
 
 # 1B: Design Methodology
 
-<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Power Transmissions >](1C-powerTransmissions.md)</span>
+<span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
 ## Project Overview
@@ -570,7 +570,7 @@ At this point, you've learned and had some practice on modeling individual compo
 
 <br>
 <center>1B: Design Methodology</center> 
-<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Power Transmissions >](1C-powerTransmissions.md)</span>
+<span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 <br>
 

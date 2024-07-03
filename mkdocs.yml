@@ -58,8 +58,8 @@ nav:
         - "D: Theory": design-guide/stage0/0D-theory.md
       - Stage 1:
         - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
-        - "B: Design Methodology": design-guide/stage1/1B-designMethodology.md
-        - "C: Power Transmissions": design-guide/stage1/1C-powerTransmissions.md
+        - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
+        - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
       - Stage 2:
         - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
         - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md

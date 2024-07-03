@@ -101,7 +101,7 @@
 
 # 1A: Onshape Fundamentals
 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
 <br>
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. 
@@ -730,7 +730,7 @@ In stage 1B, you will begin to learn the basic workflow for robot modeling!
 
 <br>
 <center>1A: Fundamentals</center> 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
 <br>
 <br>
 

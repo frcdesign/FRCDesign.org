@@ -100,7 +100,7 @@
 
 # 1C: Power Transmissions
 
-<span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
+<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1C, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
@@ -349,7 +349,7 @@ In Stage 2, you will begin to model robot mechanisms using all the skills you ha
 
 <br>
 <center>1C: Gearboxes</center> 
-<span class="left">[< 1B: Design Methodology](1B-designMethodology.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
+<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>
 <br>
 
