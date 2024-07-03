@@ -16,9 +16,6 @@
 <span class="left">[< 2A: Full Detail Drivebase](2A-drivebaseFullDetail.md)</span> <span class="right">[2C: Deadaxle Pivot >](2C-deadaxlePivot.md)</span>
 <br>
 
-<<<<<<< Updated upstream
-Work In Progress
-=======
 ## Shooter Mechanisms
 
 The type of games where you may need to launch the game piece instead of placing it directly into the goal is very common in FRC. The height limits are significantly lower than one of the scoring regions, necessitating a mechanism to launch the game piece to score it. These goals are typically defined as the “high goal”, and is often paired with another scoring region within height limits (generally called the "low goal") that may provide an easier and more reliable way of scoring for many teams. 
@@ -50,12 +47,15 @@ The gamepiece you are designing for is a 6 inch rubber kickball like the one bel
 
 The choice of wheel for launching the gamepiece is important, and usually prototyped to see the interaction between the wheels and gamepiece. The aspects to pay the most attention to is the hardness of the wheel surface and the grip between the wheel and gamepiece. The hardness can be a part of the grip, such as in the hardness rating of silicone, but can also be a factor in compression. Generally, since shooter wheels will be spun pretty fast for most games, you want to use wheels that can't be compressed, because they will expand depending on the angular speed and make shots inconsistent. 
 
-The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options) and fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)) are chosen commonly, and used for this shooter, because of their lack of compression and soft grippy silicone surface. These are both good options for shooter wheels to prototype in a build season.
+The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly, and used for this shooter, because of their lack of compression and soft grippy silicone surface. These are both good options for shooter wheels to prototype in a build season.
 
 
 **Contact Time, Wheel Speed, & Compression**
 
-These three factors massively impact how the game piece is launched, in addition, they all are heavily interconnected with each other.
+
+Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. This means the wheel can be spun slower to achieve the same launching effect compared to a shorter contact time where higher RPM might be necessary.
+
+
 
 In short:
 Contact time is the distance that the game piece stays in contact with a spinning wheel.
@@ -157,7 +157,6 @@ Explain what makes the design simple and robust, and how to maintain rigidity in
 ### Part Studio
 
 ### Assembly
->>>>>>> Stashed changes
 
 <br>
 <center>2B: Shooter</center> 
