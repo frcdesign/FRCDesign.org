@@ -769,8 +769,11 @@ Here is a quick summary of what you have achieved in 1B:
 * Learned the basics of bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model power transmissions
 * Learned how to use the `Contextless Belt` and `Chain Generator` Featurescripts
+* Learned how to insert Standard Library components and mate bolts and nuts
+* Learned how to use the `Shaft` and `Vent` Featurescripts
+* Learned how to use the `Replicate` tool
 
-In stage 1C, you will begin to learn the basic workflow for robot modeling! This is the final step before being able to design a full mechanism!
+In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 
 <br>
 <center>1B: Gearboxes</center> 
