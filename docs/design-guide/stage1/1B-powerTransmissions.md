@@ -764,7 +764,7 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
 
 Congratulations on completing Stage 1B! Keep up the good work!
 
-Here is a quick summary of what you have achieved in 1B:
+Here is a quick summary of what you have achieved in stage 1B:
 
 * Learned the basics of bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model power transmissions
@@ -772,6 +772,8 @@ Here is a quick summary of what you have achieved in 1B:
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Shaft` and `Vent` Featurescripts
 * Learned how to use the `Replicate` tool
+
+Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. It is recommended to visit the [Design Fundamentals](/design-fundamentals/) power transmissions pages after completing stage 1 to have a deeper understanding.
 
 In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 
