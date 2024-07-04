@@ -105,8 +105,47 @@
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
 
-<center><img src="\img\design-guide\stage1b\exampleTransmissions.webp" style="width:75%"></center>
-<center>*Examples of various different power transmissions on robots. From left to right: *</center>
+<center>**Power Transmission Examples**</center>
+<!-- Slideshow container -->
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div id="slide1" class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1b/examples/intakeRollers.webp" style="width:80%">
+          <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
+          <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1b/examples/ampArm.webp" style="width:60%">
+          <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
+      </figure>
+  </div>
+
+  <div class="mySlides fade">
+      <figure>
+          <img src="/img/design-guide/stage1b/examples/armGearbox.webp" style="width:75%">
+          <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
+      </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+  <!-- Dots will be generated here -->
+  </div>
+</div>
 
 ## Shafts and Bearings
 
