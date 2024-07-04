@@ -105,13 +105,16 @@
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
 
+<center><img src="\img\design-guide\stage1b\exampleTransmissions.webp" style="width:75%"></center>
+<center>*Examples of various different power transmissions on robots. From left to right: *</center>
+
 ## Shafts and Bearings
 
 Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
 
 Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
-The easiest way to model shafts is to use the `Shaft` Featurescript which was previously introduced in Stage 1A. For bearings, simply insert your desired bearing from the MKCad app.
+The easiest way to model shafts is to use the `Shaft` [Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
 
 <center><img src="\img\design-guide\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
@@ -329,11 +332,242 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 </div>
 
 
-## Exercise
+## Exercises
 
-### Arm Gearbox
+The following exercises are designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms.
 
-### Intake Belts
+### Exercise 1: Simple Gearbox
+
+In this exercise, you will be CADing and assembling a simple single stage gearbox. 
+
+The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, and practice mating together larger assemblies.
+
+<center>**Exercise 1 Instruction Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div id="slide1" class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s0.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s1.webp" style="width:100%">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+In this exercise you made your first gearbox. In doing so, you also used part configurations - which are a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
+
+### Exercise 2: Two Stage Gearbox
+
+In this exercise, you will be CADing and assembling a two stage gearbox. 
+
+The goal of this exercise is to practice modeling more advanced gearboxes. 
+
+<center>**Exercise 2 Instruction Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div id="slide1" class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s0.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s1a.webp" style="width:100%">
+      <figcaption>1a. Create the layout sketch for the gearbox. Start by drawing the 2nd stage, which is a 20T gear to a 50T gear.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s1b.webp" style="width:100%">
+      <figcaption>1b. Draw the first stage, which is a 12T motor pinion gear to a 50T gear.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s1c.webp" style="width:100%">
+      <figcaption>1c. Draw the outline of the motors as a 2.5" diameter circle. This is the finished layout sketch for the gearbox.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s2.webp" style="width:100%">
+      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 0.8". You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s3.webp" style="width:100%">
+      <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s4.webp" style="width:100%">
+      <figcaption>4. Use the <code>Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s5.gif" style="width:100%">
+      <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s6.webp" style="width:100%">
+      <figcaption>6. Use the <code>Shaft</code> Featurescript to create the output shaft.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s7.webp" style="width:100%">
+      <figcaption>7. Create a sketch on the face of the plate and draw the lines for the pocketing ribs. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s8.gif" style="width:100%">
+      <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s9.webp" style="width:100%">
+      <figcaption>9. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s10.gif" style="width:100%">
+      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s11.webp" style="width:100%">
+      <figcaption>11. Copy the gearbox plate and mate it into place. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s12.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>12. Assemble the bearings and shafts using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s14.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>14. Assemble the shaft spacers and gears using parts from the MKCad App. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <li class="slideVideo">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s15.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>15. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. </figcaption>
+    </li>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e2/e2s0.webp" style="width:100%">
+      <figcaption>15. Finished assembly. </figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
+
+In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
+
+### Exercise 3: Belt and Gear Transmission
+
+<center>**Exercise 3 Instruction Slides**</center>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div id="slide1" class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e3/e3s0.webp" style="width:100%">
+      <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e3/e3s1.webp" style="width:100%">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <!-- The dots/circles -->
+  <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+  </div>
+</div>
 
 ## Summary
 
