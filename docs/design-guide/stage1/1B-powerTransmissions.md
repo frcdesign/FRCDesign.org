@@ -345,9 +345,7 @@ Here is a quick summary of what you have achieved in 1B:
 * Learned how to model power transmissions
 * Learned how to use the `Contextless Belt` and `Chain Generator` Featurescripts
 
-<!-- TODO: CHANGE THIS TEXT -->
-
-In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1!
+In stage 1C, you will begin to learn the basic workflow for robot modeling! This is the final step before being able to design a full mechanism!
 
 <br>
 <center>1B: Gearboxes</center> 
