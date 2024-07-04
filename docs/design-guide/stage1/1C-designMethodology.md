@@ -107,7 +107,7 @@
 
 ## Project Overview
 
-So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In Stage 1B, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
+So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In Stage 1C, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
 
 1. Learn the basics of top-down design and mastersketching
 2. Model a swerve drivebase using COTS swerve modules
@@ -115,7 +115,7 @@ So far, you've worked on CAD fundamentals through courses and FRC-relevant exerc
 
 Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
 
-<center><img src="\img\design-guide\stage1b\FullAssy.png" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1c\FullAssy.png" style="width:100%"></center>
 <center>*Swerve drivebase with pre-modeled mechanism*</center>
 
 
@@ -128,7 +128,7 @@ Top-down design offers a holistic approach, allowing for better system integrati
 
 To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
 
-<center><img src="\img\design-guide\stage1b\exampleMasterSketch.webp" style="width:60%"></center>
+<center><img src="\img\design-guide\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
 <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
 
 ## Swerve Drivebase
@@ -136,8 +136,8 @@ A drivebase is the mobile platform on which all our other mechanisms are designe
 
 A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
 
-<center><img src="\img\design-guide\stage1b\SwerveBase\DriveAssy.png" style="width:100%"></center>
-<center>*Stage 1B swerve drivebase project.*</center>
+<center><img src="\img\design-guide\stage1c\SwerveBase\DriveAssy.png" style="width:100%"></center>
+<center>*Stage 1C swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
 
@@ -156,70 +156,70 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtFinalLayout.webp" style="width:100%">
       <figcaption>0. The final layout sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/originCube.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/originCube.webp" style="width:100%">
       <figcaption>1. Start by inserting the origin cube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtSideLayout1.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtSideLayout1.webp" style="width:100%">
       <figcaption>2. Draw the side profile of the drivetrain on the Right Plane. We place the tube 1.75" from the ground, which is the offset from the ground to the bottom of the tube for the MK4i modules.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtSideLayout2.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtSideLayout2.webp" style="width:100%">
       <figcaption>3. Draw the wheel clearance box, which represents the area that the wheel takes up. For the MK4i modules, the box is 4.625" wide. The side layout of the drivebase is now finished.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout1.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout1.gif" style="width:100%">
       <figcaption>4. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the “Top” button on the view cube to get a top view.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout2.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout2.gif" style="width:100%">
       <figcaption>5. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout3.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout3.webp" style="width:100%">
       <figcaption>6. To sketch the tubes, draw a square 1" smaller than the previous square. This will represent the four 2"x1" tubes that make up the outer frame. Then, draw the top profile of the 2"x2" tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout4.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout4.webp" style="width:100%">
       <figcaption>7. Next, we need to make the cutouts on the drivetube for the swerve modules. Start by drawing two lines, each offset by 4.25" from the edge. This is the required offset for MK4i modules. Other modules will differ.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtTopLayout5.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout5.gif" style="width:100%">
       <figcaption>8. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtFinalLayout.webp" style="width:100%">
       <figcaption>9. Finally, name your sketches and organize them into folders in the feature tree. Your sketches should all be fully defined.</figcaption>
     </figure>
   </div>
@@ -248,91 +248,91 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts0.webp" style="width:100%">
       <figcaption>0. The part studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts1.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts1.webp" style="width:100%">
       <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Master Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts2.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts2.webp" style="width:100%">
       <figcaption>2. Use the <code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts to model the tubes. The 2"x1" tubes should be 1/8" wall for strength, while the 2"x2" tube can be 1/16" wall.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts3.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts3.webp" style="width:100%">
       <figcaption>3. Start with one corner of the bellypan. The corner is cut out to create room for the swerve module. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts4.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts4.gif" style="width:100%">
       <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts5.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts5.gif" style="width:100%">
       <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts6.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts6.webp" style="width:100%">
       <figcaption>6. Use the <code> Fillet All Edges</code> Featurescript to add a 0.25" radius fillet to the remaining edges on the bellypan by selecting the bottom face of the bellypan.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts7.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts7.webp" style="width:100%">
       <figcaption>7. Add the seed instances of the holes for the bellypan.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts8.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts8.gif" style="width:100%">
       <figcaption>8. Next, use the <code>Linear Pattern</code> sketch tool to pattern the holes along the edge.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts9.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts9.gif" style="width:100%">
       <figcaption>9. Use the <code>Circular Pattern</code> sketch tool to pattern the holes about the origin onto all four edges.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts10.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts10.gif" style="width:100%">
       <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts11.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts11.webp" style="width:100%">
       <figcaption>11. Clean up the sketch by moving the dimensions so that they are all visible. A clean sketch is important for readability of the CAD so that it is easily editable in the future.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtParts0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtParts0.webp" style="width:100%">
       <figcaption>12. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
   </div>
@@ -364,14 +364,14 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy0.webp" style="width:100%">
       <figcaption>0. The assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy1.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy1.gif" style="width:100%">
       <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then fasten the origin cube to the origin of the assembly.</figcaption>
     </figure>
   </div>
@@ -379,7 +379,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/SwerveBase/dtAssy2.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAssy2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the MK4i module from the MKCad app into the assembly and mate it into place. </figcaption>
@@ -388,7 +388,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy3.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy3.gif" style="width:100%">
       <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
     </figure>
   </div>
@@ -396,7 +396,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/SwerveBase/dtAssy4.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAssy4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Insert a 3/16" rivet from the MKCad app into the assembly and mate it. </figcaption>
@@ -405,14 +405,14 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy5.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy5.gif" style="width:100%">
       <figcaption>5. Use the <code>Replicate </code> assembly tool to replicate the rivet and rivet mate onto all matching geometry on the bottom face of the bellypan</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAssy0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy0.webp" style="width:100%">
       <figcaption>6. The assembly.</figcaption>
     </figure>
   </div>
@@ -426,13 +426,13 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   </div>
 </div>
 
-The `Replicate` tool, which was introduced in Stage 1B exercise 5, is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
+The `Replicate` tool, which was introduced in Stage 1A exercise 5, is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
 
 <details>
 <summary>Match Individual Edges for Replicate</summary>
 <center>
   <video width="1920" controls>
-    <source src="/img/design-guide/stage1b/replicateExample.mp4" type="video/mp4">
+    <source src="/img/design-guide/stage1c/replicateExample.mp4" type="video/mp4">
   </video>
 </center>
 <center> Using "Match Individual Edges" allows us to select specific holes to replicate to instead of every hole on the face of the gusset. </center>
@@ -451,42 +451,42 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd0.webp" style="width:100%">
       <figcaption>0. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd1.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd1.webp" style="width:100%">
       <figcaption>1. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd2.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd2.gif" style="width:100%">
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd3.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd3.webp" style="width:100%">
       <figcaption>3. Copy the gusset and mate it to the other side. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd4.gif" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd4.gif" style="width:100%">
       <figcaption>4. Edit the replicate feature to add rivets to the gusset. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/SwerveBase/dtAdd0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd0.webp" style="width:100%">
       <figcaption>4. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
@@ -521,7 +521,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/TopLevel/topL0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/TopLevel/topL0.webp" style="width:100%">
       <figcaption>0. Finished top level robot assembly.</figcaption>
     </figure>
   </div>
@@ -529,7 +529,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/TopLevel/topL1.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/TopLevel/topL1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
@@ -539,7 +539,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/TopLevel/topL2.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/TopLevel/topL2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
@@ -548,7 +548,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/TopLevel/topL0.webp" style="width:100%">
+      <img src="/img/design-guide/stage1c/TopLevel/topL0.webp" style="width:100%">
       <figcaption>3. Finished top level assembly. </figcaption>
     </figure>
   </div>
@@ -564,12 +564,15 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
 
-Congratulations on completing Stage 1B! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+Congratulations on completing Stage 1C! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
+
+
+<!-- TODO: CHANGE THIS TEXT -->
 
 At this point, you've learned and had some practice on modeling individual components and creating a top-down design. Starting in Stage 1C, we'll introduce some mechanical design topics including power transmission. This is the final step before being able to design a full mechanism!
 
 <br>
-<center>1B: Design Methodology</center> 
+<center>1C: Design Methodology</center> 
 <span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 <br>

@@ -736,6 +736,8 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned how to assemble basic models using `Group`, `Fasten`, and `Replicate`
 * Learned how to insert models into assemblies using the MKCad parts library!
 
+<!-- TODO: CHANGE THIS TEXT -->
+
 In stage 1B, you will begin to learn the basic workflow for robot modeling!
 
 <br>
