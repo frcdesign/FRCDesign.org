@@ -209,8 +209,8 @@ In order to change the torque and speed from the input to output, different size
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -293,8 +293,8 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -362,8 +362,8 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
     </figure>
 </div>
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+<a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -379,7 +379,10 @@ The following exercises are designed to practice modeling simple power transmiss
 
 In this exercise, you will be CADing and assembling a simple single stage gearbox. 
 
-The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, and practice mating together larger assemblies.
+The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
+
+!!! Note
+    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Fundamentals](/design-fundamentals/) page.
 
 <center>**Exercise 1 Instruction Slides**</center>
 <!-- Slideshow container -->
@@ -396,13 +399,162 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e1/e1s1.webp" style="width:100%">
-      <figcaption></figcaption>
+      <figcaption> 1. Begin by creating the layout sketch for the gearbox. Draw the pitch circles for the 60T and 12T gears. Set the pitch circles tangent to constrain the center-to-center distance between the gears. </figcaption>
     </figure>
   </div>
 
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s2.webp" style="width:100%">
+      <figcaption> 2. Add the outline of the motor, a 2.5" diameter circle, around the 12T gear that the motor is attached to. The layout sketch is now finished.  </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s3.webp" style="width:100%">
+      <figcaption> 3. Create a new sketch for the motor plate. Using the layout as the reference, draw a 1.125" hole for the bearing and a 0.8" hole for the motor boss (the nub that sticks out from the motor). Note that depending on your manufacturing processes and tolerances, you may need to draw your bearing holes slightly larger or smaller than nominal (1.125"). </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s4.webp" style="width:100%">
+      <figcaption> 4. Add two mounting holes for the motor. A good practice to constrain the holes is to draw and dimension a <it>bolt circle</it>, then draw the holes for the bolts on the bolt circle. This constrains the distance of the holes from the center of the motor with a single dimension. The bolt circle for the motor we are using is 2". </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s5.webp" style="width:100%">
+      <figcaption>  5. Add the four bolt holes for connecting the two plates. Use a center rectangle to create the construction geometry so that only two dimensions are required to constrain the holes.    </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s6.webp" style="width:100%">
+      <figcaption> 6. Draw the outline for the plate around the holes and motor outline. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s7.webp" style="width:100%">
+      <figcaption> 7. Extrude the motor plate to be 1/4" thick. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s8.webp" style="width:100%">
+      <figcaption> 8. Use the <code>Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s9.webp" style="width:100%">
+      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Copy over the shape of the motor plate, but add a round cutout at the top. Also copy over the holes in the plate. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s10.webp" style="width:100%">
+      <figcaption>10. Extrude the outer plate to be 1/4" thick.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s11.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>11. Use the <code>Shaft</code> Featurescript to model the output shaft. Follow the settings used. You can learn more about the shaft retention property on the Design Fundamentals page. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s12.webp" style="width:100%">
+      <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Shaft</code> Featurescript.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s13.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 13. Insert the part studio into the assembly and fix the gearbox plate. Group mate the two plates together and then mate the spacer to the motor plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s14.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 14. Assemble the bearings and shaft using parts from the MKCad App.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s15.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s16.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 16. Assemble the shaft spacer and gear using parts from the MKCad App. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s17.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 17. Assemble the shaft retention bolts using the MKCad app parts. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s18.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption> 18. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. When inserting Onshape Standard Content, you can use the snap mode to automatically add the mates when inserting or insert the component and then manually mate it. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e1/e1s0.webp" style="width:100%">
+      <figcaption>19. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
+    </figure>
+  </div>
+
+  
+
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -415,7 +567,7 @@ In this exercise you made your first gearbox. In doing so, you also used part co
 
 In this exercise, you will be CADing and assembling a two stage gearbox. 
 
-The goal of this exercise is to practice modeling more advanced gearboxes. 
+The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
 
 <center>**Exercise 2 Instruction Slides**</center>
 <!-- Slideshow container -->
@@ -453,7 +605,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e2/e2s2.webp" style="width:100%">
-      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 0.8". You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 0.8". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
     </figure>
   </div>
 
@@ -502,14 +654,14 @@ The goal of this exercise is to practice modeling more advanced gearboxes.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e2/e2s9.webp" style="width:100%">
-      <figcaption>9. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. </figcaption>
+      <figcaption>9. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e2/e2s10.gif" style="width:100%">
-      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
+      <figcaption>10. Insert the part studio into the assembly and fix only the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
 
@@ -563,13 +715,13 @@ The goal of this exercise is to practice modeling more advanced gearboxes.
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e2/e2s0.webp" style="width:100%">
-      <figcaption>15. Finished assembly. </figcaption>
+      <figcaption>15. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
     </figure>
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -600,8 +752,8 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1,6)" style="background-color: #000; color: #fff;">&#10094;</a>
+  <a class="next" onclick="plusSlides(1,6)" style="background-color: #000; color: #fff;">&#10095;</a>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
