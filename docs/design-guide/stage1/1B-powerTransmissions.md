@@ -732,12 +732,16 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
 
 ### Exercise 3: Belt and Gear Transmission
 
+In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A.
+
+The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized. 
+
 <center>**Exercise 3 Part Studio Instruction Slides**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div id="slide0" class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s0.webp" style="width:100%">
       <figcaption>0. Final part studio.</figcaption>
@@ -943,7 +947,7 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s0.webp" style="width:100%">
-      <figcaption>29. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The tube and shafts should have their materially automatically selected already. </figcaption>
+      <figcaption>29. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The tube, gusset, and shafts should have their material automatically set already. </figcaption>
     </figure>
   </div>
 
@@ -968,6 +972,93 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
     </figure>
   </div>
 
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>1. Insert the part studio into the assembly and fix only the bottom tube. Use the group mate on the tubes, plates, and gusset. Copy the gusset and mate it to the other side of the tube. Next, mate the spacer to the plate and use the <code>Replicate</code> tool to replicate the spacer. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>2. Assemble the bearings and shafts using parts from the MKCad App. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from the MKCad App. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>4. Assemble the shaft spacers and gears using parts from the MKCad App. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>5. At this point, you have all of the core components assembled and can update the length of the first stage shaft. Copy the measured shaft length and update the part studio accordingly. It is recommended to round up to the nearest 0.01" for manufacturability. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a6.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>6. Assemble the shaft retention bolts using MKCad app parts.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a7.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>7. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a8.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>8. Assemble the gusset rivets using the MKCad app parts.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/design-guide/stage1b/exercises/e3/e3a0.webp" style="width:100%">
+      <figcaption>9. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
+    </figure>
+  </div>
+
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1,7)" style="background-color: #000; color: #fff;">&#10094;</a>
   <a class="next" onclick="plusSlides(1,7)" style="background-color: #000; color: #fff;">&#10095;</a>
@@ -976,6 +1067,12 @@ In this exercise, you practiced more complex gearbox modeling and mating togethe
     <!-- Dots will be generated here -->
   </div>
 </div>
+
+In this exercise, you modeled a fairly complex gearbox that was integrated with some frame elements. At this point, you should be begin to feel comfortable with the sketching and extrude tools. You should also familiarize yourself with all the options present in the Featurescripts that you have used up until this point by playing around with different settings. 
+
+To get a feel for how parametric your model is, you can try and change certain key dimensions in the layout sketches, such as the length of the tubes, angle of the tubes, length of the belt, and the size of the gears. Play around with which modifications will update smoothly and which require additional fixes in the CAD.
+
+You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Fundamentals](/design-fundamentals/) pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
 
 ## Summary
 
@@ -990,7 +1087,7 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned how to use the `Shaft` and `Vent` Featurescripts
 * Learned how to use the `Replicate` tool
 
-Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. It is recommended to visit the [Design Fundamentals](/design-fundamentals/) power transmissions pages after completing stage 1 to gain a deeper understanding.
+Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. It is recommended to visit the [Design Fundamentals](/design-fundamentals/) power transmissions pages after completing stage 1 to gain a deeper understanding. Practice is key - the only way to get better is to model more.
 
 In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 
