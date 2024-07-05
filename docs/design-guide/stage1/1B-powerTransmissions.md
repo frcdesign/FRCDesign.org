@@ -149,11 +149,12 @@ So far the models you have made are all structural components, but this is only 
 
 ## Shafts and Bearings
 
-Shafts transmit rotational power, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, creating "rounded hex shafts."
+Shafts transmit rotational power along an axis, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, known as "rounded hex" or "thunderhex."
 
-Bearings support the shafts and enable smooth spinning. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
+Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
-The easiest way to model shafts is to use the `Shaft` [Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
+!!! Tip
+    The easiest way to model shafts is to use the `Shaft` [Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
 
 <center><img src="\img\design-guide\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
@@ -163,9 +164,9 @@ The easiest way to model shafts is to use the `Shaft` [Featurescript](/resources
 When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
 
 !!! Note
-    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x.
+    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy, so if speed is reduced through mechanical means, torque must increase.
 
-Gears, sprockets, and chain all tradeoff speed for torque (and vice versa) by changing the size of the transmission components.
+Gears, sprockets, and chain all trade speed for torque (and vice versa) by changing the size of the transmission components. This is called "**mechanical advantage**" and is represented by a ratio of output force to input force. For example, a system that multiplies the torque by 4 (and in consequence dividing the speed by 4) would be called a "4:1 reduction."
 
 
 In this stage, you'll focus on the basics of power transmissions, with an emphasis on how to create them in CAD. While you won't be calculating optimal power transmission ratios or exploring advanced technical details, you'll gain a solid foundation to build upon.
@@ -561,7 +562,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   </div>
 </div>
 
-In this exercise you made your first gearbox. In doing so, you also used part configurations - which are a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
+In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
 ### Exercise 2: Two Stage Gearbox
 
