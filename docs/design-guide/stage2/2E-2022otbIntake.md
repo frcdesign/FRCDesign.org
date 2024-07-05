@@ -39,12 +39,15 @@ Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce1
 
 There are many good resources out there for how to design good intakes. Torrance from Team 254 has provided [a list of golden rules for roller intakes](https://www.chiefdelphi.com/t/besiktas-rsports-9483-2023-off-season-build-blog/440340/15). This will also be slightly paraphrased/added to in the intake fundamentals page.
 
+<br>
 
 **General Design and Robustness**
 
 The main structure uses 1/4" polycarbonate, 2x1 tubes, and nut strips to attach the plates directly to the frame. In this way, the structure would do an especially good job resisting impacts from the front. Because of the rigid nature in how the main plate is mounted, it can be polycarbonate, making it lighter and stronger than pocketed aluminum. The two secondary plates used to make sure all axles are supported on two points aren't connected with a very rigid structure and so work better as aluminum.
 
 The intake is as wide as possible to decrease the precision and time needed by the driveteam or autonomous code to intake the game piece. The only aim is to get the game piece into the robot, then it can be centered or serialized inside frame perimeter, also minimizing the time that the intake is down.
+
+<br>
 
 **Pivot**
 
@@ -56,6 +59,8 @@ For reducing backlash in the system, the 1:1 belt/pulley is exact center-center 
 
 For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
 
+<br>
+
 
 **Rollers and Roller Position**
 
@@ -64,6 +69,8 @@ The rollers are powered with a single Kraken motor with small reduction of 1.6:1
 There are 3 total rollers. Rollers often provide more consistent compression than wheels and are a great option for transporting game pieces. They are typically cheaper, lighter, and easier to put on a dead axle than wheels. Dead axles allow the intake arms to be connected by effectively long standoffs, making the assembly more rigid, while still allowing the rollers to spin on bearings. The dead axle rollers used in this project use polycarbonate tube and 3D-printed endcaps for the bearings and power transfer. The document can be found [here](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d).
 
 Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
+
+<br>
 
 **Zombie Axles**
 

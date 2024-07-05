@@ -50,6 +50,8 @@ The choice of wheel for launching the gamepiece is important, and usually protot
 The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly, and used for this shooter, because of their lack of compression and soft grippy silicone surface. These are both good options for shooter wheels to prototype in a build season.
 
 
+<br>
+
 **Contact Time, Wheel Speed, & Compression**
 
 
@@ -73,23 +75,28 @@ Finally, compression. Compression plays a large factor into how efficient your s
 
 In short, the squishier the game piece, the more compression you want to have, while the harder the game piece, the less compression you can have. 
 
+<br>
+
 **Inertia**
+
+The inertia of the wheel launching system is important for maintaining speed and shot consistency throughout contact with a gamepiece or multiple gamepieces. Inertia is a property of mass that me
+
+<br>
 
 **Spin**
 
-Why is spin important?
-There’s multiple types of spin, but when you are launching a game piece, spin is important nonetheless. Depending on the game, you may want 0 spin, a lot of spin, or spin in a different direction (such as notes in 2024), for now, this design doesn’t implement anything that compensates for spin, as a result, the plain backing will result in a heavy backspin on the game piece.
+Depending on the gamepiece and field element into which you're launching it, spin may be crucial. In games like 2013 and 2024 with disc-shaped game pieces, adding spin stabilizes the gamepiece through gyroscopic motion. You can add backspin or topspin to spherical objects to help it stay inside the goal, like in 2017, or you may want to mitigate spin or change spin depending on the distance from the goal, like in 2022, because backspin would cause the balls to bounce or roll out of the goal. Sometimes, the spin won't matter, such as in games like 2014 or 2020. 
 
-How does it impact your shot?
-In some games such as 2022, a heavy back spin may not be beneficial, leading the “bounce out”, in which the energy from the spin causes the ball to bounce out. In other games such as steamworks, the spin is beneficial, helping the game piece stay inside of the goal. 
+According to initial prototyping for this hypothetical game, the spin of the ball isn't a factor in shot consistency or accuracy. This design uses flywheels only on the bottom to launch the ball, with the ball compressing and sliding against a bent sheet of polycarbonate. This setup naturally adds backspin due to the angular direction of the shooter wheels and the friction and compression between the ball, the wheels, and the polycarbonate. To counteract backspin, wheels driven in the opposite direction on the opposite side of the ball from the launching wheels could be added, a technique used in many shooters in 2022.
 
-For Disk shaped objects, spinning the object horizontally (like how you spin a frisbee), allows for a more stable flight path. There hasn’t been a game in which top spin is important, though it would be an interesting type of game. 
+[Add Image]
+
+<br>
 
 **Motor & Ratio Choice**
 
-Why is motor choice important?
-Why is ratio choice important?
-How does it relate to surface speed?
+
+
 Now, we need to power our flywheel shooter. This is done via motors. There are a lot of motors to choose from, in addition to gearing it to a certain speed, what do we choose? In short, the “go to” choice for a flywheel shooter is two CIM class brushless motors. Although we can choose smaller motors and gear them to speed, cim class motors allow us to only need a small amount of gearing, have plenty of torque and speed, and have the thermal mass necessary to not smoke.
 Standardizing on this is a safe bet for success, and reduces any risks you may have with motor choice to near zero.
 That being said, even though we chose motors, we still need to figure out a gear ratio. A good gear ratio should allow us to spin up to speed quickly, while hitting the minimum high speed we need in order to shoot.
@@ -101,8 +108,10 @@ You may be able to get a best guess estimate through calculators, but prototypin
 An important thing to note is that tooth count is somewhat important, so it is generally good practice to have a minimum of 24 tooth pulleys.
 
 (Insert example numbers from previous years for people to reference in terms of gearing.)
-(example: 2022, 3600 RPM, 2 Falcon 500, 2:3 Ratio, 4 Inch wheel (i made these numbers up)) 
 
+
+
+<br>
 
 **Friction & Efficiency**
 
@@ -122,6 +131,8 @@ Tolerance Stackup
 Similar to the bent shafts issue, but slightly different. Tolerance stackup commonly is caused by having too much going on that’s connected with each other. An example is too many belt runs that are all connected. For this shooter, we only have 1 belt run to a parralel plate, which reduces these issues.
 
 
+<br>
+
 **Indexing/Feeding**
 
 Include storage of balls leading to the size of the shooter and indexing
@@ -135,7 +146,14 @@ Finally, we go to indexing. Indexing has many similar robustness/friction fundam
 The feeder feeds the game piece into the shooter, while the indexer “indexes” and organizes the game pieces to be fed one at a time consistently. This being said, your feeder and indexer can be the same thing (as shown by this example), or they can be separate. 
 In games where there are multiple game pieces, your indexer is separate to organize the game pieces and have it organized to feed one at a time. In these situations your indexer may be geared slower in order to avoid the game pieces from hitting each other in the air. At the same time, you might have a separate feeder, which is both utilized to block the game peices from entering the shooter before the shooter goes to speed, while also is used to help accelerate the game piece before entering the shooter. This “pre” acceleration allows for a slightly more consistent shot.
 
+<br>
+
 **Hood Angle**
+
+
+
+
+<br>
 
 **General Design & Robustness**
 
