@@ -234,7 +234,7 @@ Where DP stands for **Diametrical Pitch**. For now, you can assume it to always 
 
 **Modeling Gear Transmissions**
 
-When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. 
+When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. The reason we enter the full expression is so that we can easily see what the circle represents (a gear, sprocket, or pulley, and how many teeth).
 
 <center><img src="\img\design-guide\stage1b\gears\gearCad.webp" style="width:60%"></center>
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
