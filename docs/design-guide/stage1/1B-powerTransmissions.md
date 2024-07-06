@@ -103,6 +103,8 @@
 <span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>
 
+## Introduction
+
 So far the models you have created are all structural components, but this is only half of what makes up a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor to do just about anything. 
 
 In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
@@ -150,6 +152,8 @@ Below are some examples of power transmissions found in robots to achieve a rang
   <!-- Dots will be generated here -->
   </div>
 </div>
+
+In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
 ## Motors
 
@@ -212,7 +216,7 @@ Shooter wheels or intake rollers often have little to no reduction, and in some 
 
 
 
-## Power Transmission Types
+## Power Transmissions
 
 In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
 
@@ -286,151 +290,9 @@ When modeling, an easy way to set the center-to-center distance between two gear
 
 It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
 
+#### Exercise 1: Simple Gearbox 
 
-
-
-
-### Belts and Pulley Basics
-
-Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another
-
-
-<center><img src="\img\design-guide\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
-<center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
-
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. For belt transmissions, the gear ratio is the number of teeth on the output pulley to the number of teeth on the input pulley. This ratio is the mechanical advantage of the system. Note that unlike gears, pulleys will spin in the same direction.
-
-**Types of Belt**
-
-Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. To calculate the pitch diameter of a pulley, the following equation can be used:
-
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
-
-Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
-
-**Center to Center Calculation**
-
-To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
-
-**Modeling Belt Transmissions**
-
-When modeling, you will typically draw either the pitch diameter of the two pulleys and connect them with tangent lines to represent the belt. A simplified 3D model of the belt can be generated using the `Contextless Belts` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-<div id="slide1" class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/belt/beltCad1.webp" style="width:75%">
-        <figcaption>1. Use ReCalc to find the closest belt size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger belt, whichever fits your design better.</figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/belt/beltCad2.webp" style="width:100%">
-        <figcaption>2. Draw two circles to represent pulley pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/belt/beltCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
-    </figure>
-</div>
-
-<!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
-<!-- The dots/circles -->
-<div class="dotsContainer" style="text-align:center">
-<!-- Dots will be generated here -->
-</div>
-</div>
-
-
-
-
-
-
-### Chain and Sprocket Basics
-
-Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
-
-<center><img src="\img\design-guide\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
-<center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
-
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. For chain transmissions, the gear ratio is the number of teeth on the output sprocket to the number of teeth on the input sprocket. This ratio is the mechanical advantage of the system. Similar to pulleys, the sprockets will spin in the same direction.
-
-**Types of Chain**
-
-The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
-
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
-
-Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
-
-<center>**`Clearance Diameter = PD + Pitch`**</center>
-
-Below is an illustration of the pitch, pitch diameter, outside diameter, and chain clearance diameter of a sprocket.
-
-<center><img src="\img\design-guide\stage1b\chain\chainDiagram.webp" style="width:70%"></center>
-<center>*Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)*</center>
-
-In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
-
-**Center to Center Calculation** 
-
-To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains). In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
-
-When modeling, you will typically draw either the pitch diameter or chain clearance diameter of the two sprockets and connect them with tangent lines to represent the links. A simplified 3D model of the chain can be generated using the `Chain Generator` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
-
-<center>**Modeling Chain Transmissions**</center>
-
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-<div id="slide1" class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/chain/chainCad1.webp" style="width:80%">
-        <figcaption>1. Use ReCalc to find the closest C-C size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger chain link count, whichever fits your design better.</figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/chain/chainCad2.webp" style="width:100%">
-        <figcaption>2. Draw two circles to represent sprocket pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
-    </figure>
-</div>
-
-<div class="mySlides fade">
-    <figure>
-        <img src="/img/design-guide/stage1b/chain/chainCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
-    </figure>
-</div>
-<!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
-<!-- The dots/circles -->
-<div class="dotsContainer" style="text-align:center">
-<!-- Dots will be generated here -->
-</div>
-</div>
-
-
-## Exercises
-
-The following exercises are designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
-
-### Exercise 1: Simple Gearbox
-
-In this exercise, you will be CADing and assembling a simple single stage gearbox. 
+In this exercise, you will be CADing and assembling a simple single stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
 The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
 
@@ -626,9 +488,9 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
-### Exercise 2: Two Stage Gearbox
+#### Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. 
+In this exercise, you will be CADing and assembling a two stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b)
 
 The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
 
@@ -793,7 +655,142 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
 In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
 
-### Exercise 3: Belt and Gear Transmission
+
+
+### Belts and Pulley Basics
+
+Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another
+
+
+<center><img src="\img\design-guide\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
+<center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
+
+In order to change the torque and speed from the input to the output, different sized pulleys must be used. For belt transmissions, the gear ratio is the number of teeth on the output pulley to the number of teeth on the input pulley. This ratio is the mechanical advantage of the system. Note that unlike gears, pulleys will spin in the same direction.
+
+**Types of Belt**
+
+Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. To calculate the pitch diameter of a pulley, the following equation can be used:
+
+<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+
+Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
+
+**Center to Center Calculation**
+
+To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
+
+**Modeling Belt Transmissions**
+
+When modeling, you will typically draw either the pitch diameter of the two pulleys and connect them with tangent lines to represent the belt. A simplified 3D model of the belt can be generated using the `Contextless Belts` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/belt/beltCad1.webp" style="width:75%">
+        <figcaption>1. Use ReCalc to find the closest belt size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger belt, whichever fits your design better.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/belt/beltCad2.webp" style="width:100%">
+        <figcaption>2. Draw two circles to represent pulley pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/belt/beltCad3.gif" style="width:100%">
+        <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
+    </figure>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+<!-- Dots will be generated here -->
+</div>
+</div>
+
+
+
+
+
+
+### Chain and Sprocket Basics
+
+Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
+
+<center><img src="\img\design-guide\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
+<center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
+
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. For chain transmissions, the gear ratio is the number of teeth on the output sprocket to the number of teeth on the input sprocket. This ratio is the mechanical advantage of the system. Similar to pulleys, the sprockets will spin in the same direction.
+
+**Types of Chain**
+
+The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
+
+<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+
+Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
+
+<center>**`Clearance Diameter = PD + Pitch`**</center>
+
+Below is an illustration of the pitch, pitch diameter, outside diameter, and chain clearance diameter of a sprocket.
+
+<center><img src="\img\design-guide\stage1b\chain\chainDiagram.webp" style="width:70%"></center>
+<center>*Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)*</center>
+
+In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
+
+**Center to Center Calculation** 
+
+To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains). In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
+
+When modeling, you will typically draw either the pitch diameter or chain clearance diameter of the two sprockets and connect them with tangent lines to represent the links. A simplified 3D model of the chain can be generated using the `Chain Generator` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
+
+<center>**Modeling Chain Transmissions**</center>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+<div id="slide1" class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/chain/chainCad1.webp" style="width:80%">
+        <figcaption>1. Use ReCalc to find the closest C-C size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger chain link count, whichever fits your design better.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/chain/chainCad2.webp" style="width:100%">
+        <figcaption>2. Draw two circles to represent sprocket pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/design-guide/stage1b/chain/chainCad3.gif" style="width:100%">
+        <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
+    </figure>
+</div>
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
+<a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+<!-- The dots/circles -->
+<div class="dotsContainer" style="text-align:center">
+<!-- Dots will be generated here -->
+</div>
+</div>
+
+#### Exercise 3: Belt and Gear Transmission
 
 In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A.
 
