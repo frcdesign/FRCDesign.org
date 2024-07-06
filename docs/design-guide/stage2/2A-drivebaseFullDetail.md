@@ -494,7 +494,7 @@ In the provided example, the threaded stud bumper mounting system is implemented
 </div>
 
 
-## Conclusion
+## Summary
 
 Congratulations on completing Stage 2A! With the Stage 2A tasks completed, your drivetrain model is well on its way to being fully functional. 
 
