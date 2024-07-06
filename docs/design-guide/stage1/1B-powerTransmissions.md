@@ -103,7 +103,11 @@
 <span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>
 
-So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In section 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the bearings, shafts, gears, belts, and chains that are used to transfer rotational motion from a motor or actuator to do just about anything. 
+So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor or actuator to do just about anything. 
+
+In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. Later, in Stage 2, you'll learn how to select motors and calculate power transmission ratios for a wide variety of mechanisms.
+
+Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
 <center>**Power Transmission Examples**</center>
 <!-- Slideshow container -->
@@ -147,6 +151,23 @@ So far the models you have made are all structural components, but this is only 
   </div>
 </div>
 
+## Motors
+
+Motors spin! They transform electrical energy supplied by the robot battery into rotational motion. From intaking to climbing to driving, just about anything on your robot can be moved with the right motors.
+
+<center><img src="\img\design-guide\stage1b\motorLineup.png" style="width:100%"></center>
+<center>*Some of the motors available for use in FRC.*</center>
+
+In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
+
+* The motors' outer diameters can be represented with a 2.5" diameter circle (some are also 60mm or 2.362").
+* The motors' have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are also 10-32 thread.
+
+<center><img src="\img\design-guide\stage1b\cimBoltCircle.webp" style="width:50%"></center>
+<center>*Mounting holes for CIM class motors are on a 2" diameter bolt circle.*</center>
+
+All of the exercises for this stage will use a CIM class motor. 
+
 ## Shafts and Bearings
 
 Shafts transmit rotational power along an axis, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, known as "rounded hex" or "thunderhex."
@@ -161,17 +182,23 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 
 ## Torque and Speed
 
-When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. 
+When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. In FRC, the unit used for speed is typically Rotations Per Minute (RPM). The units used for torque is typically Newton-Meters (Nm).
 
 !!! Note
     Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy, so if speed is reduced through mechanical means, torque must increase.
 
-Gears, sprockets, and chain all trade speed for torque (and vice versa) by changing the size of the transmission components. This is called "**mechanical advantage**" and is represented by a ratio of output force to input force. For example, a system that multiplies the torque by 4 (and in consequence dividing the speed by 4) would be called a "4:1 reduction."
+### Mechanical Advantage
 
+Gears, sprockets, and chain all trade speed for torque (and vice versa) by changing the size of the transmission components. This is called **Mechanical Advantage**. Mechanical advantage is represented by the ratio of output force to input force. This ratio is also called the **Gear Ratio**, which is the ratio of the size of the driven component to the size of the driving component.
 
-In this stage, you'll focus on the basics of power transmissions, with an emphasis on how to create them in CAD. While you won't be calculating optimal power transmission ratios or exploring advanced technical details, you'll gain a solid foundation to build upon.
+Gear ratio is typically written in the form `n1:n2`. Since torque and speed are interlinked quantities, the ratio can be understood from the perspective of torque or speed. From the perspective of torque, `n1` is the output torque for `n2` input torque. From the perspective of speed, `n1` is the speed of the input for `n2` speed of the output. 
 
-## Types of Power Transmissions
+!!! Example
+    A system has a gear ratio of 4:1. This means the output torque is 4x the input torque and that the output speed is 1/4 the input speed.
+
+For a single stage transmission (only two transmission components), `n1` is the size of the driven component for `n2` size of the driving component.
+
+## Power Transmission Types
 
 In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
 
@@ -181,9 +208,9 @@ Gears are mechanical devices with teeth that mesh with each other to transmit mo
 <center><img src="\img\design-guide\stage1b\gears\simpleGears.gif" style="width:40%"></center>
 <center>*A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.*</center>
 
-In order to change the torque and speed from the input to output, different sized gears must be used. The ratio of the size of the two gears determines how the torque and speed are modified. This ratio is called the **Gear Ratio**, which is the ratio of the number of teeth between two gears. It is typically written as `n:m`, where `m` is the number of rotations of the output for `n` rotations of the input. 
+In order to change the torque and speed from the input to output, different sized gears must be used. For gear transmissions, the gear ratio is the number of teeth on the output gear to the number of teeth on the input gear. This ratio is the mechanical advantage of the system. Note that meshed gears will spin in opposite directions.
 
-<center>**Changing Speed and Torque**</center>
+<center>**Changing Speed and Torque with Gears**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -191,14 +218,14 @@ In order to change the torque and speed from the input to output, different size
 <div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearReduction.webp" style="width:100%">
-        <figcaption>1. To increase torque and reduce speed, the output gear must be driven with a smaller gear. In this example, a 12T gear drives an 84T gear. The output is 7x larger than the input, so the torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to  7:1. The torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearUpduction.webp" style="width:100%">
-        <figcaption>2. To decrease torque and increase speed, the output gear must be driven with a larger gear. In this example, a 48T gear drives an 24T gear. The input is 2x larger than the input, so the torque is decreased by 2x while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>2. A 48T gear drives an 24T gear. The gear  ratio is 24:48, which can be simplified to 1:2. The torque is decreased by 2x while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
@@ -242,6 +269,10 @@ When modeling, an easy way to set the center-to-center distance between two gear
 
 It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
 
+
+
+
+
 ### Belts and Pulley Basics
 
 Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another
@@ -250,7 +281,7 @@ Timing belt and pulley drives are mechanical systems used to transmit motion and
 <center><img src="\img\design-guide\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
 <center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
 
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. The ratio between the number of teeth on each pulley determines how torque and speed are modified. Gear ratio is also used to express the ratio of pulley teeth. Note that unlike gears, the two pulleys will spin the same direction.
+In order to change the torque and speed from the input to the output, different sized pulleys must be used. For belt transmissions, the gear ratio is the number of teeth on the output pulley to the number of teeth on the input pulley. This ratio is the mechanical advantage of the system. Note that unlike gears, pulleys will spin in the same direction.
 
 **Types of Belt**
 
@@ -303,6 +334,10 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 </div>
 
 
+
+
+
+
 ### Chain and Sprocket Basics
 
 Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
@@ -310,7 +345,7 @@ Roller chain and sprocket drives are very similar to belt and pulley transmissio
 <center><img src="\img\design-guide\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
 <center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
 
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. The ratio between the number of teeth on each sprocket determines how torque and speed are modified. Gear ratio is used to express the ratio of sprocket teeth. Note that unlike gears, the two sprockets will spin the same direction.
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. For chain transmissions, the gear ratio is the number of teeth on the output sprocket to the number of teeth on the input sprocket. This ratio is the mechanical advantage of the system. Similar to pulleys, the sprockets will spin in the same direction.
 
 **Types of Chain**
 
@@ -385,6 +420,16 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Fundamentals](/design-fundamentals/) page.
 
+!!! Tip
+    To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
+    <center>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/shiftSelectEdited.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </center>
+    <center>*Using Shift key to lock mate inferences while mating.*</center>
+
 <center>**Exercise 1 Instruction Slides**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -400,7 +445,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e1/e1s1.webp" style="width:100%">
-      <figcaption> 1. Begin by creating the layout sketch for the gearbox. Draw the pitch circles for the 60T and 12T gears. Set the pitch circles tangent to constrain the center-to-center distance between the gears. </figcaption>
+      <figcaption> 1. Begin by creating the layout sketch for the gearbox. Draw the pitch circles for the 60T and 12T gears. Set the pitch circles tangent to constrain the center-to-center distance between the gears. Constrain the centers of the two gears to be vertical.</figcaption>
     </figure>
   </div>
 
@@ -435,7 +480,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e1/e1s6.webp" style="width:100%">
-      <figcaption> 6. Draw the outline for the plate around the holes and motor outline. </figcaption>
+      <figcaption> 6. Using centerpoint arcs, lines, and the sketch mirror tool, draw the outline for the plate around the holes and motor outline. </figcaption>
     </figure>
   </div>
 
@@ -456,7 +501,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e1/e1s9.webp" style="width:100%">
-      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Copy over the shape of the motor plate, but add a round cutout at the top. Also copy over the holes in the plate. </figcaption>
+      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to copy the geometry and holes of the motor plate, but add a round cutout at the top.</figcaption>
     </figure>
   </div>
 
@@ -510,7 +555,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
         <source src="/img/design-guide/stage1b/exercises/e1/e1s15.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App.</figcaption>
+      <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
     </figure>
   </div>
 
@@ -1077,18 +1122,18 @@ You may also be curious as to how things like the hole sizes, materials, etc wer
 
 ## Summary
 
-Congratulations on completing Stage 1B! Keep up the good work!
+Congratulations on completing Stage 1B! Keep up the good work! Remember that practice is key - the only way to get better is to model more.
 
 Here is a quick summary of what you have achieved in stage 1B:
 
-* Learned the basics of bearings, shafts, gears, chain and sprockets, and belt and pulleys
-* Learned how to model power transmissions
-* Learned how to use the `Contextless Belt` and `Chain Generator` Featurescripts
+* Learned about speed, torque, and mechanical advantage
+* Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
+* Learned how to model basic power transmissions
+* Learned how to use the `Contextless Belt`, `Chain Generator`, `Shaft`, and `Vent` Featurescripts
 * Learned how to insert Standard Library components and mate bolts and nuts
-* Learned how to use the `Shaft` and `Vent` Featurescripts
 * Learned how to use the `Replicate` tool
 
-Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. It is recommended to visit the [Design Fundamentals](/design-fundamentals/) power transmissions pages after completing stage 1 to gain a deeper understanding. Practice is key - the only way to get better is to model more.
+Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. For future reference, you can refer to the [Design Fundamentals](/design-fundamentals/) power transmissions pages, which are more in depth.
 
 In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 
