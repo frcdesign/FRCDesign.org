@@ -105,7 +105,7 @@
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor or actuator to do just about anything. 
 
-In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. Later, in Stage 2, you'll learn how to select motors and calculate power transmission ratios for a wide variety of mechanisms.
+In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) but demonstrated and explained later in the guide with multiple mechanisms in Stage 2.
 
 Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
@@ -189,7 +189,9 @@ When designing power transmissions, there are two interlinked quantities that we
 
 ### Mechanical Advantage
 
-Gears, sprockets, and chain all trade speed for torque (and vice versa) by changing the size of the transmission components. This is called **Mechanical Advantage**. Mechanical advantage is represented by the ratio of output force to input force. This ratio is also called the **Gear Ratio**, which is the ratio of the size of the driven component to the size of the driving component.
+Many mechanical systems use the principle of the conservation of energy to convert energy from type to another, usually to produce larger forces or larger speeds with a set amount of force and speed at the beginning. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, or even gears and pulleys, and is used to quantify how the force changes.
+
+The ratio between the number of teeth of the input and output gear/sprocket/pulley system represents the mechanical advantage of that system. This is also called the **gear ratio**, and is the key to understanding how to achieve a needed torque or speed from the set torque and speed of a given motor.
 
 Gear ratio is typically written in the form `n1:n2`. Since torque and speed are interlinked quantities, the ratio can be understood from the perspective of torque or speed. From the perspective of torque, `n1` is the output torque for `n2` input torque. From the perspective of speed, `n1` is the speed of the input for `n2` speed of the output. 
 
@@ -198,9 +200,25 @@ Gear ratio is typically written in the form `n1:n2`. Since torque and speed are 
 
 For a single stage transmission (only two transmission components), `n1` is the size of the driven component for `n2` size of the driving component.
 
+### Ratio Applications
+
+An arm mechanism needs very low RPM but a lot of torque to control efficiently, so a large *reduction* of speed might be used to increase torque. This depends on the weight and length of the arm, but can be 30:1 up to even 200:1. 
+
+Shooter wheels or intake rollers might need to go faster than the motor's free speed, so an *upduction* might need to be used to increase the speed, while the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to available motors already having a high speed but low torque. To visualize, a 1:2 upduction is double the speed and half the torque of the input.
+
+!!! Tip
+    For cases in which you need higher speed and higher torque than what a single motor can provide, add more motors.
+
+
+
+
+
 ## Power Transmission Types
 
 In FRC, the three most common types of power transmissions are gears, chain and sprocket, and belt and pulley. Although they all achieve the same end result of changing speed and torque, they each excel in different situations. In the following sections you'll be introduced to each of them and how to model them.
+
+!!! Note
+    Gears, sprockets, and pulleys all follow profile standards that specify how big the teeth are. This means that the ratio between the number of teeth and diameter of the part is a constant. There are different profile standards, but only parts of the same profile can be meshed or used together.
 
 ### Gear Basics
 Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer torque, change speed, and change direction of rotation. 
