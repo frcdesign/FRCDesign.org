@@ -790,9 +790,16 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 </div>
 </div>
 
+**Chain Tensioners**
+
+One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Fundamentals page](/design-fundamentals/) also dives deeper into this topic.
+
+<center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
+<figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+
 #### Exercise 3: Belt and Gear Transmission
 
-In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A.
+In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
 The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized. 
 
