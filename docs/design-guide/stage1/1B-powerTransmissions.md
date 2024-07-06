@@ -229,7 +229,7 @@ Gears are mechanical devices with teeth that mesh with each other to transmit mo
 <center><img src="\img\design-guide\stage1b\gears\simpleGears.gif" style="width:40%"></center>
 <center>*A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.*</center>
 
-In order to change the torque and speed from the input to output, different sized gears must be used. For gear transmissions, the gear ratio is the number of teeth on the output gear to the number of teeth on the input gear. This ratio is the mechanical advantage of the system. Note that meshed gears will spin in opposite directions.
+In order to change the torque and speed from the input to output, different sized gears must be used. Remember that the ratio is related to the number of teeth of the gears. Teeth will always mesh together one by one, but the number of teeth per revolution is different for different sized gears, causing a difference in angular speed even if the surface speed of the gear is the same.
 
 <center>**Changing Speed and Torque with Gears**</center>
 <!-- Slideshow container -->
@@ -239,14 +239,14 @@ In order to change the torque and speed from the input to output, different size
 <div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearReduction.webp" style="width:100%">
-        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to 7:1. The torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to 7:1. The torque is increased by 7x while the speed is reduced to 1/7 of the original speed. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearUpduction.webp" style="width:100%">
-        <figcaption>2. A 48T gear drives an 24T gear. The gear ratio is 24:48, which can be simplified to 1:2. The torque is decreased by 2x while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>2. A 48T gear drives an 24T gear. The gear ratio is 24:48, which can be simplified to 1:2. The torque is reduced to 1/2 of the original torque while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
