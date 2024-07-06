@@ -105,7 +105,7 @@
 
 So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor or actuator to do just about anything. 
 
-In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) but demonstrated and explained later in the guide with multiple mechanisms in Stage 2.
+In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple mechanisms.
 
 Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
@@ -204,11 +204,10 @@ For a single stage transmission (only two transmission components), `n1` is the 
 
 An arm mechanism needs very low RPM but a lot of torque to control efficiently, so a large *reduction* of speed might be used to increase torque. This depends on the weight and length of the arm, but can be 30:1 up to even 200:1. 
 
-Shooter wheels or intake rollers might need to go faster than the motor's free speed, so an *upduction* might need to be used to increase the speed, while the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to available motors already having a high speed but low torque. To visualize, a 1:2 upduction is double the speed and half the torque of the input.
+Shooter wheels or intake rollers might need to go faster than the motor's free speed, so an *upduction* might need to be used to increase the speed, but the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to the available motors already having a high speed, low torque output. A 1:2 upduction would double the speed and halve the torque of the input.
 
 !!! Tip
-    For cases in which you need higher speed and higher torque than what a single motor can provide, add more motors.
-
+    For situations that require higher speed and higher torque than what a single motor can provide, add more motors.
 
 
 
