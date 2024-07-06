@@ -438,7 +438,7 @@ The `Replicate` tool, which was introduced in Stage 1A exercise 5, is a very pow
 <center> Using "Match Individual Edges" allows us to select specific holes to replicate to instead of every hole on the face of the gusset. </center>
 </details>
 
-#### Adding More Components
+**Adding More Components**
 
 When you model more parts in the part studio, you can insert them into the assembly in a similar to fashion to before. Hit insert and immediately click on the green checkmark. Then, edit the initial `Group` you made and add the part to the group. By doing this, you ensure that added parts will always stay in the same place it was modeled in the part studio.
 
