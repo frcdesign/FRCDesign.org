@@ -490,7 +490,7 @@ In this exercise you made your first gearbox. In doing so, you also used part co
 
 #### Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b)
+In this exercise, you will be CADing and assembling a two stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
 The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
 
