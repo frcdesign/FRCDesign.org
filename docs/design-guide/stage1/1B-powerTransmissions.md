@@ -103,9 +103,9 @@
 <span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
 <br>
 
-So far the models you have made are all structural components, but this is only half of what makes a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor or actuator to do just about anything. 
+So far the models you have created are all structural components, but this is only half of what makes up a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor to do just about anything. 
 
-In this stage, you'll focus on the fundamentals of power transmission, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple mechanisms.
+In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
 
 Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
@@ -153,24 +153,24 @@ Below are some examples of power transmissions found in robots to achieve a rang
 
 ## Motors
 
-Motors spin! They transform electrical energy supplied by the robot battery into rotational motion. From intaking to climbing to driving, just about anything on your robot can be moved with the right motors.
+Motors spin! They transform electrical energy supplied by the robot battery into rotational motion. From intaking to climbing to driving, just about anything on your robot can be moved with the right motor(s).
 
 <center><img src="\img\design-guide\stage1b\motorLineup.png" style="width:100%"></center>
 <center>*Some of the motors available for use in FRC.*</center>
 
 In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
 
-* The motors' outer diameters can be represented with a 2.5" diameter circle (some are also 60mm or 2.362").
+* The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
 * The motors' have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are also 10-32 thread.
 
 <center><img src="\img\design-guide\stage1b\cimBoltCircle.webp" style="width:50%"></center>
-<center>*Mounting holes for CIM class motors are on a 2" diameter bolt circle.*</center>
+<center>*Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.*</center>
 
-All of the exercises for this stage will use a CIM class motor. 
+All of the exercises for this stage will use CIM class motors. 
 
 ## Shafts and Bearings
 
-Shafts transmit rotational power along an axis, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, known as "rounded hex" or "thunderhex."
+Shafts transmit rotational power along an axis, with hex shafts being the most common in FRC. These hexagonal shafts, typically in 1/2" and 3/8" diameters (measured from flat to flat), may sometimes have rounded corners, known as "rounded hex" or "Thunderhex."
 
 Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
@@ -185,11 +185,11 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. In FRC, the unit used for speed is typically Rotations Per Minute (RPM). The units used for torque is typically Newton-Meters (Nm).
 
 !!! Note
-    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy, so if speed is reduced through mechanical means, torque must increase.
+    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy (ignoring losses like friction), so if speed is reduced through mechanical means, torque must increase.
 
 ### Mechanical Advantage
 
-Many mechanical systems use the principle of the conservation of energy to convert energy from type to another, usually to produce larger forces or larger speeds with a set amount of force and speed at the beginning. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, or even gears and pulleys, and is used to quantify how the force changes.
+Many mechanical systems use the principle of the conservation of energy to convert energy from type to another, usually to produce larger forces or larger speeds with a set amount of force and speed at the beginning. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, gears, or pulley, mechanical advantage is used to quantify how the force changes.
 
 The ratio between the number of teeth of the input and output gear/sprocket/pulley system represents the mechanical advantage of that system. This is also called the **gear ratio**, and is the key to understanding how to achieve a needed torque or speed from the set torque and speed of a given motor.
 
@@ -204,7 +204,7 @@ For a single stage transmission (only two transmission components), `n1` is the 
 
 An arm mechanism needs very low RPM but a lot of torque to control efficiently, so a large *reduction* of speed might be used to increase torque. This depends on the weight and length of the arm, but can be 30:1 up to even 200:1. 
 
-Shooter wheels or intake rollers might need to go faster than the motor's free speed, so an *upduction* might need to be used to increase the speed, but the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to the available motors already having a high speed, low torque output. A 1:2 upduction would double the speed and halve the torque of the input.
+Shooter wheels or intake rollers often have little to no reduction, and in some cases may even need to go faster than the motor's free speed. In this case, an *upduction* can be be used to increase the speed, but the output torque gets lower as a consequence. Upductions typically don't get much higher than 1:2 due to the available motors already having a high speed, low torque output. A 1:2 upduction would double the speed and halve the torque of the input.
 
 !!! Tip
     For situations that require higher speed and higher torque than what a single motor can provide, add more motors.
