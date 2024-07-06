@@ -105,7 +105,7 @@
 <span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
 <br>
 
-## Project Overview
+## Introduction
 
 So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In Stage 1C, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
 
@@ -565,6 +565,8 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
 
 <!-- TODO: CHANGE THIS TEXT -->
+
+## Summary
 
 Congratulations on completing Stage 1C! Keep up the good work!
 

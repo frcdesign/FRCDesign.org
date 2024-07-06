@@ -582,7 +582,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
-## Conclusion
+## Summary
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
