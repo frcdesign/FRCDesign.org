@@ -164,7 +164,7 @@ In FRC, a number of different motor options are available, all with different ad
 * The motors' have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are also 10-32 thread.
 
 <center><img src="\img\design-guide\stage1b\cimBoltCircle.webp" style="width:50%"></center>
-<center>*Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.*</center>
+<figcaption>Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.</figcaption>
 
 All of the exercises for this stage will use CIM class motors. 
 
@@ -235,14 +235,14 @@ In order to change the torque and speed from the input to output, different size
 <div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearReduction.webp" style="width:100%">
-        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to  7:1. The torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>1. A 12T gear drives an 84T gear. The gear ratio is 84:12, which can be simplified to 7:1. The torque is increased by 7x while the speed is decreased by 7x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
         <img src="/img/design-guide/stage1b/gears/gearUpduction.webp" style="width:100%">
-        <figcaption>2. A 48T gear drives an 24T gear. The gear  ratio is 24:48, which can be simplified to 1:2. The torque is decreased by 2x while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
+        <figcaption>2. A 48T gear drives an 24T gear. The gear ratio is 24:48, which can be simplified to 1:2. The torque is decreased by 2x while the speed is increased by 2x. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>)</figcaption>
     </figure>
 </div>
 
@@ -272,17 +272,17 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. You can learn more about this in the Design Fundamentals pages.
+Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1b\gears\gearDiagram.webp" style="width:70%"></center>
-<center>*Illustration of pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
+<center>*Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
 
 **Modeling Gear Transmissions**
 
-When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. The reason we enter the full expression is so that we can easily see what the circle represents (a gear, sprocket, or pulley, and how many teeth).
+When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. The reason we enter the full expression is so that we can easily see what the circle represents (a gear, sprocket, or pulley, and how many teeth it has).
 
 <center><img src="\img\design-guide\stage1b\gears\gearCad.webp" style="width:60%"></center>
-<figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by 20.</figcaption>
+<figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by DP, which is 20 in this case.</figcaption>
 
 It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
 
