@@ -101,7 +101,7 @@
 
 # 1A: Onshape Fundamentals
 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
 <br>
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. 
@@ -582,149 +582,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
-### Exercise 5: Two Stage Gearbox
-
-In this exercise, you will be CADing and assembling a two stage gearbox. The layout of the gearbox is provided to you in the exercise document, you just need to finish drawing the plate, model the spacers and shafts, and put together the assembly. Don't worry too much about the design aspect of the gearbox right now, you'll learn more about it Stage 1C.
-
-The goal of this exercise is to introduce the `Shaft` and `Vent` Featurescripts, `Replicate` tool, MKCad parts library, part configurations, practice more complex sketches, and practice mating together larger assemblies.
-<center>**Exercise 5 Instruction Slides**</center>
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div id="slide1" class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s1.webp" style="width:100%">
-      <figcaption>1. This is the layout sketch of the gearbox, it has been drawn for you already. The layout sketch models where the motors and gears will go and how the gears should mesh. You'll learn more about this in Stage 1C.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s2.webp" style="width:100%">
-      <figcaption>2. Open the "Finish This!" sketch and finish the plate. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s3.webp" style="width:100%">
-      <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s4.webp" style="width:100%">
-      <figcaption>4. Use the <code>Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s5.gif" style="width:100%">
-      <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s6.webp" style="width:100%">
-      <figcaption>6. Use the <code>Shaft</code> Featurescript to create the output shaft.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s7.webp" style="width:100%">
-      <figcaption>7. Create a sketch on the face of the plate and draw the lines for the pocketing ribs. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s8.gif" style="width:100%">
-      <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s9.webp" style="width:100%">
-      <figcaption>9. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s10.gif" style="width:100%">
-      <figcaption>10. Insert the assembly and only fix the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s11.webp" style="width:100%">
-      <figcaption>11. Copy the gearbox plate and mate it into place. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e5/e5s12.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>12. Assemble the bearings and shafts using parts from the MKCad App. </figcaption>
-    </li>
-  </div>
-
-  <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
-    </li>
-  </div>
-
-  <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e5/e5s14.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>14. Assemble the shaft spacers and gears using parts from the MKCad App. </figcaption>
-    </li>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/design-guide/stage1a/exercises/e5/e5s15.webp" style="width:100%">
-      <figcaption>15. Finished assembly. </figcaption>
-    </figure>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
-  <!-- The dots/circles -->
-  <div class="dotsContainer" style="text-align:center">
-    <!-- Dots will be generated here -->
-  </div>
-</div>
-
-In this exercise, you practiced more complex sketches, and practice mating together larger assemblies. You also used part configurations - which are a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear.
-
-## Conclusion
+## Summary
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
 
@@ -732,15 +590,15 @@ Here is a quick summary of what you have achieved in 1A:
 
 * Learned how to use the OnShape interface and basic sketching and modeling features with the OnShape Learning Center courses
 * Learned how to model basic FRC structures
-* Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, `Spacer`, `Shaft`, and `Vent` Featurescripts
-* Learned how to assemble basic models using `Group`, `Fasten`, and `Replicate`
-* Learned how to insert models into assemblies using the MKCad parts library!
+* Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
+* Learned how to assemble basic models using `Group` and `Fasten`
+* Learned how to insert models into assemblies using the MKCad parts library
 
-In stage 1B, you will begin to learn the basic workflow for robot modeling!
+In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
 
 <br>
 <center>1A: Fundamentals</center> 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Design Methodology >](1B-designMethodology.md)</span>
+<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
 <br>
 <br>
 
