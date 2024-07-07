@@ -58,8 +58,8 @@ nav:
         - "D: Theory": design-guide/stage0/0D-theory.md
       - Stage 1:
         - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
-        - "B: Design Methodology": design-guide/stage1/1B-designMethodology.md
-        - "C: Gearbox Projects": design-guide/stage1/1C-gearboxes.md
+        - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
+        - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
       - Stage 2:
         - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
         - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
@@ -73,7 +73,7 @@ nav:
         - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
         - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
         - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
-    - Intermediate Stages: design-guide/stage4/4.md
+    - Intermediate Stage: design-guide/stage4.md
   
   - Design Challenges:
     - design-challenge/index.md
@@ -82,8 +82,26 @@ nav:
 
   - Design Fundamentals:
     - design-fundamentals/index.md
+    - Structure:
+      - Materials: design-fundamentals/structure/materials.md
+      - Structure: design-fundamentals/structure/structure.md
+      - Hardware: design-fundamentals/structure/hardware.md
+    - Power Transmission:
+      - Electronics, Motors, and Sensors: design-fundamentals/power-transmission/electronics-motors-sensors.md
+      - Pneumatics: design-fundamentals/power-transmission/pneumatics.md
+      - Transfer of Rotational Motion: design-fundamentals/power-transmission/rotation.md
+      - Motion Components: design-fundamentals/power-transmission/motion-components.md
+      - Wheels and Rollers: design-fundamentals/power-transmission/wheels-rollers.md
+      - Linear Extension: design-fundamentals/power-transmission/linear-extension.md
     - Mechanisms:
-      - Drivetrain: design-fundamentals/mechanisms/drivebase.md
+      - Drivetrain: design-fundamentals/mechanisms/drivetrain.md
+      - Elevators: design-fundamentals/mechanisms/elevators.md
+    - Design Write-ups:
+      - Designing for Controllability: design-fundamentals/design-writeups/DFC.md
+      - Chain Tensioning Solutions: design-fundamentals/design-writeups/chainTensioning.md
+      - Bumper Mounting Solutions: design-fundamentals/design-writeups/bumperMounting.md
+      - Springs and Shocks: design-fundamentals/design-writeups/springs-shocks.md
+      - Linkages: design-fundamentals/design-writeups/linkages.md
 
   - Best Practices:
       - best-practices/index.md
@@ -92,11 +110,11 @@ nav:
       - Master Sketch Best Practices: best-practices/mastersketch-setup.md
       - Feature Tree Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
-      - Hardware Design Standards: best-practices/hardware-design-standards.md
 
   - Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
+    - Strategic Design: resources/strategicDesignResources.md
     - Mechanism Examples:
       - mechanism-examples/index.md
       - Slapdown Intakes:
@@ -130,12 +148,13 @@ nav:
         - mechanism-examples/pivots/index.md
         - 6328 A-Frame Pivot: mechanism-examples/pivots/examples/6328pivot.md
         - 2910 Dead Axle Pivot: mechanism-examples/pivots/examples/2910pivot.md
-    
+
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md
       - Simplified Models: resources/simplified.md
       - Configurables: resources/configurables.md
       - KrayonCAD: resources/krayonCAD.md
+    
  
 
   - Contributor's Guide:
