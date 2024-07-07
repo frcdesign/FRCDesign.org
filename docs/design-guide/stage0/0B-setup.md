@@ -35,14 +35,14 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0px;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px 3px 3px 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -152,13 +152,11 @@ Onshape will proceed to check your information (which may take some time), then 
 
 The first time you enter Onshape, it will prompt you to setup your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name). Finally, Onshape will run a browser check, to ensure compatibility. 
 
-!!! Tip
+!!! Note
 
     If the browser check fails, you may want to try a different browser. Currently, chromium browsers like Chrome, Edge, Opera, and Arc are the best supported browsers for Onshape, but Firefox usually works with no issues as well. Safari is not well supported.
 
-If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
-
-??? Info "Chrome Browser Setup"
+??? Warning "Chrome Browser Setup"
     If you are using Chrome, an additional setup step may be required.
 
     First, type `chrome://settings/` in your searchbar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
@@ -168,6 +166,10 @@ If your team uses Onshape, contact your mentor/design lead for access to the Ons
     Next, go to `chrome://flags/` and enable these:
 
     <center><img src="/img/design-guide/stage0/setup/chrome/flags.webp" style="border:5px solid #ADADAD"></center>
+
+If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
+
+
 
 
 ## Setting up MKCad
@@ -181,15 +183,12 @@ Press "Subscribe", then "Get for Free". This will automatically add MKCad to you
 !!! Note
     After subscribing, the MKCAD inserter won't show up in already open documents until you reload. This is a first-time thing though.
 
-<details>
-<summary>Video Tutorial</summary>
-  <figure class="video_container">
-    <video width="1920" controls="true" allowfullscreen="true" poster="../../../../img/design-guide/stage0/setup/subscribe.webp">
-      <source src="../../../../img/design-guide/stage0/setup/MKCADsetup.webm" type="video/webm">
+??? Video "Video Tutorial"
+    <video width="1920" controls="true" allowfullscreen="true" poster="/img/design-guide/stage0/setup/subscribe.webp">
+      <source src="/img/design-guide/stage0/setup/MKCADsetup.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-  </figure>
-</details>
+
 
 ## Featurescripts
 Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../resources/featurescripts.md).
@@ -200,15 +199,11 @@ Featurescripts are custom features coded by members of the community, and are of
 
 3. Click "Belts", "Chain Path", "Extrude Individual", "FilletXpert", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
-<details>
-<summary>Video Tutorial</summary>
-  <figure class="video_container">
+??? Video "Video Tutorial"
     <video width="1920" controls="true" allowfullscreen="true" poster="../../../../img/design-guide/stage0/setup/addingJulia'sFeaturescripts.webp">
       <source src="../../../../img/design-guide/stage0/setup/addingJulia'sFeaturescripts.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
-  </figure>
-</details>
 
 Once you have that done, you are ready for the next stage!
 

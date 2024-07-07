@@ -24,7 +24,7 @@ The discord server has different roles for each stage you are going through in t
 
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
-### **Intermediate Designer** *(Stage 4)*
+### **Intermediate Designer**
 Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. 
 
 In this stage, you're focusing on improving your design quality, workflow, and speed through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality and learning the nuances between designs to adapt to your own team.
