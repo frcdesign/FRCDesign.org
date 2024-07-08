@@ -1,4 +1,4 @@
-# 2E: 2022 Over-the-Bumper Intake
+# 2D: 2022 Over-the-Bumper Intake
 
 ## Over-the-Bumper Intakes
 A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 

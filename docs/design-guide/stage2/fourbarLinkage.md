@@ -1,6 +1,6 @@
-# 2G: Four-bar Linkage
+# 2x: Four-bar Linkage
 
-WIP
+Work In Progress
 
 ## Design Theory
 
