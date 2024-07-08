@@ -58,3 +58,5 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 |||
 |:-:|:-:|
 |[<figure>![6328 Behind the Bumpers](../../../img/cad-examples/pivots/6328/6328btb.webp){height=200% width=200%}<figcaption>6328 Behind the Bumpers</figcaption><figure>](https://youtu.be/3cXXOSFAnJU)|[<figure>![1678 Clean Match Vid](../../../img/cad-examples/pivots/6328/6328_match.webp){height=55% width=55%}<figcaption>6328 Rhode Island 2023 Recap</figcaption></figure>](https://youtu.be/89FRu3nUPtU)|
+
+<br>

@@ -1,14 +1,4 @@
-
 <style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-.left{
-    float:left;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -37,14 +27,13 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -101,9 +90,6 @@
 </style>
 
 # 2A: Full Detail Drivebase
-
-<span class="left">[< 1C: Design Methodology](../stage1/1C-designMethodology.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
-<br>
 
 Welcome to Stage 2! This section is focused the design of common mechanisms in FRC, both through CAD skills and best practices and through key engineering concepts. Each project's guide will delve into the reasoning behind specific design decisions and the criteria they fulfill, providing less step-by-step instruction and encouraging more independent CAD work.
 
@@ -509,9 +495,6 @@ Here is a quick summary of what you have achieved in 2A:
 
 As you progress, the projects will become more and more open ended and less step-by-step tutorial style as they have been up until now. Be sure to use the Discord to solicit feedback on your designs to learn and improve!
 
-
-<span class="left">[< 1C: Design Methodology](../stage1/1C-designMethodology.md)</span> <span class="right">[2B: Basic Shooter >](2B-basicShooter.md)</span>
-<br>
 <br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->

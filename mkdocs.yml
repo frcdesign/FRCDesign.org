@@ -4,37 +4,60 @@ theme:
   name: material
   features:
     - navigation.sections
-    - toc.integrate
-    - navigation.top
     - navigation.indexes
-    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.footer
+    - navigation.prune
+    - navigation.top
+    - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - content.tooltips
+    - header.autohide
   language: en
+
   palette:
-    - scheme: slate
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/lightbulb-outline
         name: Switch to Light Mode
       primary: green
       accent: white
-    - scheme: default
+    
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb
         name: Switch to Dark Mode
       primary: green
       accent: black
+      
   icon:
     logo: fontawesome/solid/book-open
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: material/information
+      tip: fontawesome/solid/fire
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   
   favicon: img/favicon.png
 
@@ -191,3 +214,4 @@ plugins:
       width: 90%
       shadow: true
   - search
+  - offline

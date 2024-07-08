@@ -113,3 +113,5 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
 <figure markdown="span">
 ![winch](../../img/mechanism-fundamentals/linearAct.png){height=75% width=75%}
 </figure>
+
+<br>

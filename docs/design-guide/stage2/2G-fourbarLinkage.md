@@ -1,20 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # 2G: Four-bar Linkage
-
-<span class="left">[< 2F: 2023 Pasta Roller Intake](2F-2023pastaRollerIntake.md)</span> <span class="right">[2H: Cascade Elevator >](2H-cascadeElevator.md)</span>
-<br>
 
 WIP
 
@@ -72,11 +56,6 @@ Four bar linkages can be quite complicated to assemble, and will not be as clean
 [onshape link](https://cad.onshape.com/documents/9aeba443b3990c61c52d9613/w/fe0631a64edb24356a3dbe20/e/673191a338fd6c4480e9d624?renderMode=0&uiState=663e8f226d078f47b184758e)
 
 
-
-<br>
-<center>2G: Four-bar</center> 
-<span class="left">[< 2F: 2023 Pasta Roller Intake](2F-2023pastaRollerIntake.md)</span> <span class="right">[2H: Cascade Elevator >](2H-cascadeElevator.md)</span>
-<br>
 <br>
 
 <script>

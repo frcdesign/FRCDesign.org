@@ -38,3 +38,5 @@ This intake uses a 7/8" Aluminum Tube with a bushing to achieve smooth strong mo
 <figure markdown="span">
 ![](../../../../img/cad-examples/intake/slapdown/washed/bushing.webp){height=60% width=60%}
 </figure>
+
+<br>

@@ -1,13 +1,4 @@
 <style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-.left{
-    float:left;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -35,14 +26,13 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -99,9 +89,6 @@
 </style>
 
 # 1B: Power Transmissions
-
-<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
-<br>
 
 ## Introduction
 
@@ -1158,10 +1145,6 @@ Again, it should be noted that Stage 1B is a very basic introduction to modeling
 
 In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 
-<br>
-<center>1B: Gearboxes</center> 
-<span class="left">[< 1A: Onshape Fundamentals](1A-onshapeFundamentals.md)</span> <span class="right">[1C: Design Methodology >](1C-designMethodology.md)</span>
-<br>
 <br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
