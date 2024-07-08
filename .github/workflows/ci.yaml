@@ -10,14 +10,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
+
       - uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-glightbox
-      - run: pip install pillow cairosvg
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-glightbox
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-git-committers-plugin-2
+
+      - name: Generate MkDocs configuration
+        env:
+          GIT_BRANCH: ${{ github.ref_name }}
+        run: python generate_mkdocs_config.py
+
+      - name: Build and Deploy MkDocs
+        run: |
+          mkdocs build
+          mkdocs gh-deploy --force
