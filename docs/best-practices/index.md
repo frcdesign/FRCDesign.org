@@ -1,17 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # CAD Best Practices: Why?
-
-<span class="right">[Document Setup >](document-setup.md)</span>
-<br>
 
 In this guide, we document best practices for Onshape CAD and design standards for FRC. 
 
@@ -33,3 +20,4 @@ Essentially, standardizing practices on your FRC team helps to ease the requirem
 !!! Note
     This is a living document.
 
+<br>

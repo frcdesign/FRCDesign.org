@@ -1,18 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Assembly Best Practices
-
-<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](hardware-design-standards.md)</span>
-<br>
-
 
 Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
 
@@ -56,7 +42,7 @@ In each sub assembly, the cube is mated to the origin. Then, in the top level ro
 
 [Link to Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a)
 
-<center> <img src="\img\design-standards\originCubeFeature.webp" width="60%"> </center>
+<center> <img src="\img\best-practices\originCubeFeature.webp" width="60%"> </center>
 <center> *Inserting the Origin Cube feature.* </center>
 
 #### Utilizing Origin Cube for Flexible Assemblies
@@ -84,15 +70,15 @@ If only a single part studio is used, then there would be a single intake part s
 <summary>Images of example assembly</summary>
 <br>
 
-<center><img src="/img/design-standards/0200-A.webp"><figcaption>Top Level Assembly: 0200-A-Intake. Notice that there is only two mates. The revolute is between the two intake pivot mate connectors, which are attached to the repective origin cubes.</figcaption></center>
+<center><img src="/img/best-practices/0200-A.webp"><figcaption>Top Level Assembly: 0200-A-Intake. Notice that there is only two mates. The revolute is between the two intake pivot mate connectors, which are attached to the repective origin cubes.</figcaption></center>
 
-<center><img src="/img/design-standards/0210-A.webp"><figcaption>Stationary Components Assembly: 0210-A-Intake Base. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
+<center><img src="/img/best-practices/0210-A.webp"><figcaption>Stationary Components Assembly: 0210-A-Intake Base. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
 
-<center><img src="/img/design-standards/0210-PS.webp"><figcaption>Stationary Components PS: 0210-A-Intake Base. Notice the intake pivot mate connector, derived from the orange master sketch. </figcaption></center>
+<center><img src="/img/best-practices/0210-PS.webp"><figcaption>Stationary Components PS: 0210-A-Intake Base. Notice the intake pivot mate connector, derived from the orange master sketch. </figcaption></center>
 
-<center><img src="/img/design-standards/0220-A.webp"><figcaption>Moving Components Assembly: 0220-A-Intake Arm. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
+<center><img src="/img/best-practices/0220-A.webp"><figcaption>Moving Components Assembly: 0220-A-Intake Arm. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
 
-<center><img src="/img/design-standards/0220-PS.webp"><figcaption>Moving Components PS: 0220-Intake Arm. Notice the intake pivot mate connector, derived from the orange master sketch.</figcaption></center>
+<center><img src="/img/best-practices/0220-PS.webp"><figcaption>Moving Components PS: 0220-Intake Arm. Notice the intake pivot mate connector, derived from the orange master sketch.</figcaption></center>
 
 </details>
 
@@ -122,14 +108,10 @@ The first advice is to minimize primitives in your assembly. Primitives are kind
 
 Use [simplified models](https://www.frcdesign.org/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
 
-<details>
-<summary>Minimize Primitives</summary>
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" poster="../../../../img/design-standards/minimizePrimitives.webp">
-      <source src="../../../../img/design-standards/minimizePrimitives.webm" type="video/webm">
+??? Video "Minimize Primitives"
+    <video controls="true" allowfullscreen="true" poster="/img/best-practices/minimizePrimitives.webp">
+      <source src="/img/best-practices/minimizePrimitives.webm" type="video/webm">
     </video>
-  </figure>
-</details>
 
 Other things to keep in mind:
 
@@ -138,11 +120,8 @@ Other things to keep in mind:
 - Minimize the number of mates you use; this lowers the solve time
 - Stay organized with folders
 
-See a well-organized assembly here:
+See a well-organized assembly here: 
 
-![](/img/design-standards/assembly.png)
+<center><img src="/img/best-practices/assembly.png"></center>
 
-<br>
-<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span> <span class="right">[Hardware Design Standards >](hardware-design-standards.md)</span>
-<br>
 <br>
