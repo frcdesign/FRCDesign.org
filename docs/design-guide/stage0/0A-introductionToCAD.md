@@ -1,20 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # 0A: Introduction to CAD
-
-<span class="left">[< Design Guide Overview](../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
-<br>
 
 CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
 
@@ -28,10 +12,7 @@ There are many different kinds of CAD, usually designed for specific industries 
 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
-<figure markdown="span">
-    ![formulaOne](../../img/design-guide/stage0/introcad/formula.jpg){height=75%, width=75%}
-</figure>
-
+<img src="/img/design-guide/stage0/introcad/formula.jpg" style="width:75%">
 
 ## Why Use CAD?
 
@@ -52,10 +33,7 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 
 7. CAD skills are used in the real world all the time, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
-
-<figure markdown="span">
-    ![bread](../../img/design-guide/stage0/introcad/bread.png){height=75%, width=75%}
-</figure>
+<img src="/img/design-guide/stage0/introcad/bread.png" style="width:75%">
 
 ## Why Onshape for FRC?
 
@@ -75,10 +53,7 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
-<figure markdown="span">
-    ![mkcad](../../img/design-guide/stage0/introcad/mkcad.png){height=60%, width=60%}
-</figure>
-
+<img src="/img/design-guide/stage0/introcad/mkcad.png" style="width:60%">
 
 ## Other Softwares?
 
@@ -86,10 +61,4 @@ Onshape is only one of many CAD softwares. Many teams may choose not to use it b
 
 Depending on the circumstances, Onshape may not be the best fit for a team; however, this guide focuses on Onshape because of the above mentioned reasons for why it's so good for FRC, and the abundant other resources made for using Onshape for FRC. Much of the design process itself and many of the mechanism fundamentals and glossary still apply though, no matter what CAD software you're using.
 
-
 <br>
-<center>0A: Intro to CAD</center> 
-<span class="left">[< Home](../../index.md)</span> <span class="right">[0B: Onshape Setup >](0B-setup.md)</span>
-<br>
-<br>
-

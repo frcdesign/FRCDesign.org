@@ -1,14 +1,5 @@
 
 <style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-.left{
-    float:left;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -37,14 +28,13 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -101,9 +91,6 @@
 </style>
 
 # 1C: Design Methodology
-
-<span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
-<br>
 
 ## Introduction
 
@@ -581,10 +568,6 @@ Remember, practice is essential – the more CAD models you create, the more pro
 
 In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1! Note that in stage 2, the design guide will become less step-by-step and more open ended, which will enable you to add your own input on designs based on your team's way of doing things. As always though, reference CAD models will be available.
 
-<br>
-<center>1C: Design Methodology</center> 
-<span class="left">[< 1B: Power Transmissions](1B-powerTransmissions.md)</span> <span class="right">[Stage 2A >](../stage2/2A-drivebaseFullDetail.md)</span>
-<br>
 <br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
