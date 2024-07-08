@@ -1,5 +1,10 @@
 site_name: FRCDesign.org
+
+# Repository
+repo_name: davidsdesignserver/frcdesign
 repo_url: https://github.com/davidsdesignserver/dds-manual
+
+# Configuration
 theme:
   name: material
   features:
@@ -18,9 +23,11 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy
     - content.tooltips
+    - content.action.edit
+    - content.action.view
     - header.autohide
   language: en
 
@@ -61,6 +68,7 @@ theme:
   
   favicon: img/favicon.png
 
+# Additional Configuration
 extra:
   social:
     - icon: fontawesome/brands/discord
@@ -69,6 +77,7 @@ extra:
     provider: google
     property: G-KX3MNPJ4L6
 
+# Page Tree
 nav:
   - Home: index.md
   - Design Guide:
@@ -215,3 +224,5 @@ plugins:
       shadow: true
   - search
   - offline
+  - git-revision-date-localized:
+      enable_creation_date: true
