@@ -231,3 +231,5 @@ plugins:
   - git-committers:
       repository: davidsdesignserver/FRCDesign.org
       enabled: False
+  - social:
+      enabled: False
