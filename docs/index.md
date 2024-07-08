@@ -32,9 +32,6 @@ In this stage, you're focusing on improving your design quality, workflow, and s
 ### **Advanced Designer**
 Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and/or understand FRC design to a high level. 
 
-## Core Members
-Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
-
 ## The Process
 - Learn enough CAD basics to get started designing
 - Learn FRC design fundamentals
