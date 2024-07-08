@@ -214,5 +214,4 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - social
   - offline

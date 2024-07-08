@@ -97,8 +97,6 @@ To recap the contribution steps, do the combination of creating and publishing a
 ### How to Get The Local Preview of the Website Running
 You can get a local hosted version of the website to have a live preview of the site while editing.
 
-Before you do, you must follow the steps on [this page](https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/) to install dependencies for image processing onto your computer.
-
 1. Open the repository in VS Code (doesn't matter which branch)
 2. Toggle the bottom panel on if there isn't one with the shortcut ```Ctrl + J```
 3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
