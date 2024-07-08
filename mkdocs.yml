@@ -90,37 +90,37 @@ nav:
   - Strategic Design: resources/strategicDesignResources.md
   - Mechanism Examples:
     - mechanism-examples/index.md
-    - Slapdown Intakes:
-      - mechanism-examples/intake/slapdown/index.md
-      - 4414 Style  Intake: mechanism-examples/intake/slapdown/examples/4414style.md
-      - Washed Beavertail Intake: mechanism-examples/intake/slapdown/examples/washed.md
-      - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/examples/low.md
-      - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/examples/6423otb.md
-    - 4 Bar Intakes:
-      - mechanism-examples/intake/4bar/index.md
-      - 1678's 2022 Intake: mechanism-examples/intake/4bar/examples/1678.md
-      - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/examples/clean.md
-      - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/examples/vaughn4bar.md
-    - Cascade Elevators:
-      - mechanism-examples/elevator/cascade/index.md
-      - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/2stage.md
-      - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/3stage.md
-    - Continuous Elevators:
-      - mechanism-examples/elevator/continuous/index.md
-      - External Cable Driven Elevator: mechanism-examples/elevator/continuous/examples/cable.md
-      - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/examples/belt.md
-    - Shooters:
-      - mechanism-examples/shooter/index.md
-      - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/examples/small.md
-      - 1678 Citrus Shooter 2022: mechanism-examples/shooter/examples/citrus.md
     - Drivebases:
       - mechanism-examples/drivebase/index.md
-      - 2910 Drivebase: mechanism-examples/drivebase/examples/2910.md
-      - 972 Brainpan Drivebase: mechanism-examples/drivebase/examples/brainpan.md
+      - 2910 Drivebase: mechanism-examples/drivebase/2910.md
+      - 972 Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
+    - Shooters:
+      - mechanism-examples/shooter/index.md
+      - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/small.md
+      - 1678 Citrus Shooter 2022: mechanism-examples/shooter/citrus.md
+    - Slapdown Intakes:
+      - mechanism-examples/intake/slapdown/index.md
+      - 4414 Style  Intake: mechanism-examples/intake/slapdown/4414style.md
+      - Washed Beavertail Intake: mechanism-examples/intake/slapdown/washed.md
+      - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/low.md
+      - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
+    - 4 Bar Intakes:
+      - mechanism-examples/intake/4bar/index.md
+      - 1678's 2022 Intake: mechanism-examples/intake/4bar/1678.md
+      - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/clean.md
+      - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
+    - Continuous Elevators:
+      - mechanism-examples/elevator/continuous/index.md
+      - External Cable Driven Elevator: mechanism-examples/elevator/continuous/cable.md
+      - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/belt.md
+    - Cascade Elevators:
+      - mechanism-examples/elevator/cascade/index.md
+      - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2stage.md
+      - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3stage.md
     - Pivots:
       - mechanism-examples/pivots/index.md
-      - 6328 A-Frame Pivot: mechanism-examples/pivots/examples/6328pivot.md
-      - 2910 Dead Axle Pivot: mechanism-examples/pivots/examples/2910pivot.md
+      - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
+      - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910pivot.md
   - CAD Resources:
     - Featurescripts: resources/featurescripts.md
     - Simplified Models: resources/simplified.md
