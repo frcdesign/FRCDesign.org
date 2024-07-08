@@ -96,11 +96,8 @@ nav:
         - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
         - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
         - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
-        - "D: Foam Ball Conveyer": design-guide/stage2/2D-foamBallConveyer.md
-        - "E: 2022 OTB Intake": design-guide/stage2/2E-2022otbIntake.md
-        - "F: 2023 Pasta Roller Intake": design-guide/stage2/2F-2023pastaRollerIntake.md
-        - "G: Four-bar Linkage": design-guide/stage2/2G-fourbarLinkage.md
-        - "H: Cascade Elevator": design-guide/stage2/2H-cascadeElevator.md
+        - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
+        - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
       - Stage 3: 
         - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
         - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
