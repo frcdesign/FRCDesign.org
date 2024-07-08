@@ -140,10 +140,11 @@ plugins:
 - git-revision-date-localized:
     enable_creation_date: true
 - git-committers:
-    enabled: false
+    enabled: true
     repository: davidsdesignserver/FRCDesign.org
+    token: null
 - social:
-    enabled: false
+    enabled: true
 repo_name: davidsdesignserver/FRCDesign.org
 repo_url: https://github.com/davidsdesignserver/FRCDesign.org
 site_description: A guide to learning engineering design for FRC using Onshape. Includes

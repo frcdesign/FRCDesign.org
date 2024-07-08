@@ -31,7 +31,7 @@ def update_plugin_properties(plugins, plugin_name, new_properties):
         plugins.append({plugin_name: new_properties})
 
 # Get the token from the workflow file and set new properties with it
-token = os.getenv('MKDOCS_PAT', 'main')
+token = os.getenv('MKDOCS_PAT')
 git_committers_properties = {'repository': 'davidsdesignserver/FRCDesign.org', 'token': token, 'enabled': True}
 social_properties = {'enabled': True}
 
