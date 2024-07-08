@@ -15,3 +15,5 @@ Here is our collection of slapdown intakes:
 - [Washed's Beavertail Intake](examples/washed.md)
 - [Low Pivot Slapdown Intake](examples/low.md)
 - [6423 Crecendo Flip Intake](examples/6423otb.md)
+
+<br>

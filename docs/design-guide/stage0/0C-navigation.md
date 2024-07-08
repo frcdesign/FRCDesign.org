@@ -1,27 +1,11 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # 0C: Navigating Onshape
-
-<span class="left">[< 0B: Onshape Setup](0B-setup.md)</span> <span class="right">[0D: Theory >](0D-theory.md)</span>
-<br>
 
 ## Documents Page
 Documents can be viewed and managed from the documents page. You can sort them with folders and labels. On the sidebar, you can switch between stuff owned by you and stuff owned by a classroom/team/organization, and a public search page which can be used to look through public Onshape files. In the top right corner of the page, you can access the app store, learning center, and account settings.
 
 You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left.
 
-<center>![documentsPage](../../img/design-guide/stage0/navigation/documentsPage.webp)</center>
+<center><img src="/img/design-guide/stage0/navigation/documentsPage.webp" style="width:90%"></center>
 
 You can use [this page](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1) in the learning center to explore the documents page.
 
@@ -108,9 +92,4 @@ Make it annoyingly clear what sketches and features do what. Name sketches and f
 ### Versions and History
 Every action by every user is saved in the history, and can be rolled back to or created a version at. When assemblies are linked between documents, documents have to be versioned. This reduces loading times as well, since it's only referencing a single static version and not constantly attempting to update. Versions cannot be deleted, and branches can be created and merged for changes, similar to git.
 
-
-<br>
-<center>0C: Navigation</center> 
-<span class="left">[< 0B: Onshape Setup](0B-setup.md)</span> <span class="right">[0D: Theory >](0D-theory.md)</span>
-<br>
 <br>

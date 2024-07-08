@@ -1,20 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # 2E: 2022 Over-the-Bumper Intake
-
-<span class="left">[< 2D: Ball Conveyer](2D-foamBallConveyer.md)</span> <span class="right">[2F: 2023 Pasta Roller Intake >](2F-2023pastaRollerIntake.md)</span>
-<br>
 
 ## Over-the-Bumper Intakes
 A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 
@@ -110,8 +94,4 @@ Now create a top level assembly and insert the static assembly (fasten to the or
 
 <center><img src="/img/design-guide/stage2d/intakeTopLevel.webp" width="70%"></center>
 
-<br>
-<center>2E: OTB Intake</center> 
-<span class="left">[< 2D: Ball Conveyer](2D-foamBallConveyer.md)</span> <span class="right">[2F: 2023 Pasta Roller Intake >](2F-2023pastaRollerIntake.md)</span>
-<br>
 <br>

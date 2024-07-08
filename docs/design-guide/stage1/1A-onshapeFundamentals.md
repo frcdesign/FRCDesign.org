@@ -1,13 +1,4 @@
 <style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-.left{
-    float:left;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -99,9 +90,6 @@
 
 
 # 1A: Onshape Fundamentals
-
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
-<br>
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. 
 
@@ -596,11 +584,6 @@ Here is a quick summary of what you have achieved in 1A:
 In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
 
 <br>
-<center>1A: Fundamentals</center> 
-<span class="left">[< 0D: Theory](../stage0/0D-theory.md)</span> <span class="right">[1B: Power Transmissions >](1B-powerTransmissions.md)</span>
-<br>
-<br>
-
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 

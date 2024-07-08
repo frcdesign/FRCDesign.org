@@ -1,22 +1,4 @@
-<style>
-
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-
-</style>
-
 # 0D: Theory
-
-<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-onshapeFundamentals.md)</span>
-<br>
 
 As you probably know, CAD is a tool used to design parts digitally before they are manufactured. Most of our documentation will focus on FRC-specific CAD practice. However, to get started with Onshape, it’s important to understand some basic theory.
 
@@ -66,8 +48,4 @@ Remember: One “part studio” can have multiple, even many different parts. We
 
 Stage 0 has introduced the idea of CAD and why we use it in FRC, helped you set up an Onshape account, introduced the interface of Onshape, and introduced the fundamental theory of feature-based CAD. Now it's time to move on to Stage 1 where you'll start learning the software and doing exercises, practicing skills relevant to an FRC context. Good luck!
 
-<br>
-<center>0D: Theory</center> 
-<span class="left">[< 0C: Navigating Onshape](0C-navigation.md)</span> <span class="right">[Stage 1A >](../stage1/1A-onshapeFundamentals.md)</span>
-<br>
 <br>

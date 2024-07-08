@@ -1,13 +1,4 @@
 <style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-.left{
-    float:left;
-}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -99,9 +90,6 @@
 </style>
 
 # 0B: Onshape Setup
-
-<span class="left">[< 0A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[0C: Navigating Onshape >](0C-navigation.md)</span>
-<br>
 
 ## Registering for Onshape
 
@@ -214,10 +202,6 @@ We recommend you read the ChiefDelphi post linked below for a better overview an
 
 [Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394)
 
-<br>
-<center>0B: Setup</center> 
-<span class="left">[< 0A: Introduction to CAD](0A-introductionToCAD.md)</span> <span class="right">[0C: Navigating Onshape >](0C-navigation.md)</span>
-<br>
 <br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->

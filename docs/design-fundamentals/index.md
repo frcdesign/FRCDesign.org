@@ -49,3 +49,5 @@ Write-ups on important topics for FRC design that aren't necessarily fundamental
 (Not Started) [**Springs and Shocks**](design-writeups/springs-shocks.md): Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
 
 (Not Started) [**Linkages**](design-writeups/linkages.md): An overview of mechanical linkages and different use cases for them in robots.
+
+<br>

@@ -111,4 +111,3 @@ Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to 
 
 !!! Note
     When you switch branches using GitHub Desktop, the local preview will follow without any problems
-

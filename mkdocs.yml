@@ -4,24 +4,27 @@ theme:
   name: material
   features:
     - navigation.sections
-    - toc.integrate
-    - navigation.top
     - navigation.indexes
-    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.footer
+    - navigation.prune
+    - navigation.top
+    - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - content.tooltips
+    - header.autohide
   language: en
-  palette:
 
+  palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: slate
@@ -39,6 +42,7 @@ theme:
         name: Switch to Dark Mode
       primary: green
       accent: black
+      
   icon:
     logo: fontawesome/solid/book-open
     admonition:

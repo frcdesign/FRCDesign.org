@@ -131,3 +131,5 @@ In a single FRC game, robots encounter huge forces from collisions, and a rigid 
 <figure markdown="span">
 ![accessHoles](../../img/mechanism-fundamentals/accessHoles.png){height=50% width=50%}
 </figure>
+
+<br>
