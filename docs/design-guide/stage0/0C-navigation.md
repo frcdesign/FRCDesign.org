@@ -41,61 +41,65 @@ You can use [this page](https://learn.onshape.com/learn/course/navigating-onshap
 
 There are two main types of environments in a document: part studios and assemblies.
 
-### Document Navigation
-A document has some defined regions that stay generally consistent in both main environments.
+=== "General Document Navigation"
 
-- **Document Toolbar:** You can manage the document, navigate back to documents page (click logo), and view versions and history.
-- **Toolbar:** Changes depending on the environment, but contains all the features you use to perform actions in Onshape. Most of these have keyboard shortcuts (full list in the help menu).
-- **Tab bar:** Organizes different tabs in the document. Can be sorted into folders. Add new folders and tabs to the document by clicking the plus on the bottom left.
-- **Left Side (Feature/Part/Instance/Mate List)**: Breaks down how parts/assembly was made.
+    A document has some defined regions that stay generally consistent in both main environments.
 
-<center> ![documentNavigationLabeled](../../img/design-guide/stage0/navigation/documentNavigationLabeled.webp) </center>
+    - **Document Toolbar:** You can manage the document, navigate back to documents page (click logo), and view versions and history.
+    - **Toolbar:** Changes depending on the environment, but contains all the features you use to perform actions in Onshape. Most of these have keyboard shortcuts (full list in the help menu).
+    - **Tab bar:** Organizes different tabs in the document. Can be sorted into folders. Add new folders and tabs to the document by clicking the plus on the bottom left.
+    - **Left Side (Feature/Part/Instance/Mate List)**: Breaks down how parts/assembly was made.
 
-The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
+    <center> ![documentNavigationLabeled](../../img/design-guide/stage0/navigation/documentNavigationLabeled.webp) </center>
 
+    The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
 
-<center> ![mouseControls](../../img/design-guide/stage0/navigation/mouseControls.webp) </center>
+    ??? Info "Mouse Controls"
+        <center> ![mouseControls](../../img/design-guide/stage0/navigation/mouseControls.webp) </center>
 
-Onshape has persistent selection, which means each left click on a face or entity adds it to a selection group. Deselect by clicking an entity again or pressing the spacebar.
+    !!! Tip
+        Onshape has persistent selection, which means each left click on a face or entity adds it to a selection group. Clicking an entity again will deselect it, while clicking in the blank space or pressing the spacebar will deselect all entities.
 
-To measure lines or distances, select the entities you want to take the measurement of and the numbers will display next to the tape measure in the bottom right of the graphics area. Select the tape measure for more detailed measurements.
+    To measure lines or distances, select the entities you want to take the measurement of and the numbers will display next to the tape measure in the bottom right of the graphics area. Select the tape measure for more detailed measurements.
 
-### Part Studios
-One of the main differences between Onshape and other CAD systems is the part studio. 
+=== "Part Studios"
 
-A part studio is an environment where you can design and model one or more parts at a time and add robust relationships between them. You do this using a series of sketches and features. This helps build design intent between multiple parts easily without having to switch between different files.
+    One of the main differences between Onshape and other CAD systems is the part studio. 
 
-Remember that the part studio is for designing the parts, while an assembly is used for putting the parts together and defining motion (this means only model one of each part if there are duplicates and duplicate them in the assembly instead.)
+    A part studio is an environment where you can design and model one or more parts at a time and add robust relationships between them. You do this using a series of sketches and features. This helps build design intent between multiple parts easily without having to switch between different files.
 
-### Part Studio Navigation
+    Remember that the part studio is for designing the parts, while an assembly is used for putting the parts together and defining motion (this means only model one of each part if there are duplicates and duplicate them in the assembly instead.)
 
-- The "feature toolbar" is the main toolbar in the part studio (this changes to the sketch toolbar when editing a sketch)
-- Each feature and sketch pops up a dialogue box with options to configure and confirm it
-- In both feature and sketch toolbars:
-    - Basic geometry creation tools
-    - Geometry alteration tools
+    ### Part Studio Navigation
 
-(Will be supplemented with a video in the future)
+    - The "feature toolbar" is the main toolbar in the part studio (this changes to the sketch toolbar when editing a sketch)
+    - Each feature and sketch pops up a dialogue box with options to configure and confirm it
+    - In both feature and sketch toolbars:
+        - Basic geometry creation tools
+        - Geometry alteration tools
 
-### Assemblies
-Assemblies are for positioning and establishing movement between parts. The main function for this "mates", which establish the degrees of freedom between parts. Parts can move freely in an assembly before their position/movement is defined with mates. 
+    (Will be supplemented with a video in the future)
 
-### Assembly Navigation
+=== "Assemblies"
 
-- Using the assembly toolbar, you can:
-    - Insert parts and subassemblies
-    - Different kinds of mates (restrict different degrees of freedom)
-    - Special tools for movement and replication
+    Assemblies are for positioning and establishing movement between parts. The main function for this "mates", which establish the degrees of freedom between parts. Parts can move freely in an assembly before their position/movement is defined with mates. 
 
-- Every part and face generates mate connectors at smart spots
-    - You can manually create mate connectors in part studios
+    ### Assembly Navigation
 
-- When using a mate:
-    - Select two separate mate connectors
-    - Flip or rotate axis to get the part/assembly in the right orientation
-    - You can offset in a specific axis by distance or angle
+    - Using the assembly toolbar, you can:
+        - Insert parts and subassemblies
+        - Different kinds of mates (restrict different degrees of freedom)
+        - Special tools for movement and replication
 
-(Will be supplemented with a video in the future)
+    - Every part and face generates mate connectors at smart spots
+        - You can manually create mate connectors in part studios
+
+    - When using a mate:
+        - Select two separate mate connectors
+        - Flip or rotate axis to get the part/assembly in the right orientation
+        - You can offset in a specific axis by distance or angle
+
+    (Will be supplemented with a video in the future)
 
 ## Other Notes
 

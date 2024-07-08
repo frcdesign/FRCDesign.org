@@ -150,7 +150,7 @@ Onshape will proceed to check your information (which may take some time), then 
 
 ### Account Setup
 
-The first time you enter Onshape, it will prompt you to setup your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name). Finally, Onshape will run a browser check, to ensure compatibility. 
+The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name). Finally, Onshape will run a browser check, to ensure compatibility. 
 
 !!! Note
 
