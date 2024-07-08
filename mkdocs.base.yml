@@ -230,5 +230,4 @@ plugins:
       enable_creation_date: true
   - git-committers:
       repository: davidsdesignserver/FRCDesign.org
-      token: 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
       enabled: False

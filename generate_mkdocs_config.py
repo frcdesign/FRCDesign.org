@@ -2,7 +2,7 @@ import yaml
 import os
 from material.extensions import emoji
 
-new_properties = {'repository': 'davidsdesignserver/FRCDesign.org', 'token': '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', 'enabled': True}
+
 
 # Function to load YAML safely
 def load_yaml(file_path):
@@ -30,8 +30,13 @@ def update_plugin_properties(plugins, plugin_name, new_properties):
         # Plugin not found, add new dictionary with the properties
         plugins.append({plugin_name: new_properties})
 
+# Get the token from the workflow file and set new properties with it
+token = os.getenv('MKDOCS_PAT', 'main')
+new_properties = {'repository': 'davidsdesignserver/FRCDesign.org', 'token': token, 'enabled': True}
+
 # Check the branch name (you might get this from environment variables or other methods)
 branch = os.getenv('GIT_BRANCH', 'main')
+# branch = 'main' #For testing
 
 
 # Add plugins based on the branch
