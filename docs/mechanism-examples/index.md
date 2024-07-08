@@ -1,3 +1,6 @@
+---
+title: Mechanism Examples
+---
 <meta property="og:title" content="Mechanism Examples">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/cad-examples/">
@@ -12,6 +15,10 @@
 !!! Note
 
     A CAD link has been provided when available, but examples without CAD can still be useful to look at with Behind The Bumpers videos and ChiefDelphi threads.
+
+!!! Abstract "Contribution"
+
+    This library of mechanism examples could always be expanded. By following the instructions on the [methods of contributing page](../contribution/methodsOfContributing.md), you can add your own examples or help write "Behind the Design"s for existing examples.
 
 <div class="grid cards" markdown>
 
