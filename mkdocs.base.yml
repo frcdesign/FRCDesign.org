@@ -1,0 +1,235 @@
+site_name: FRCDesign.org
+site_description: A guide to learning engineering design for FRC using Onshape. Includes several other resources for learning design as well.
+
+# Repository
+repo_name: davidsdesignserver/FRCDesign.org
+repo_url: https://github.com/davidsdesignserver/FRCDesign.org
+edit_uri: edit/main/docs/
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.footer
+    - navigation.prune
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - content.action.edit
+    - content.action.view
+    - header.autohide
+  language: en
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to Light Mode
+      primary: green
+      accent: white
+    
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to Dark Mode
+      primary: green
+      accent: black
+      
+  icon:
+    logo: fontawesome/solid/book-open
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: material/information
+      tip: fontawesome/solid/fire
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  
+  favicon: img/favicon.png
+
+# Additional Configuration
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/jHXTdNjYCg 
+  analytics:
+    provider: google
+    property: G-KX3MNPJ4L6
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Design Guide:
+    - design-guide/index.md
+    - Beginner Stages:
+      - Stage 0: 
+        - "A: Introduction to CAD": design-guide/stage0/0A-introductionToCAD.md
+        - "B: Onshape Setup": design-guide/stage0/0B-setup.md
+        - "C: Navigating Onshape": design-guide/stage0/0C-navigation.md
+        - "D: Theory": design-guide/stage0/0D-theory.md
+      - Stage 1:
+        - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
+        - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
+        - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
+      - Stage 2:
+        - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
+        - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
+        - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
+        - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
+        - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
+      - Stage 3: 
+        - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
+        - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
+        - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
+    - Intermediate Stage: design-guide/stage4.md
+  
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
+
+  - Design Fundamentals:
+    - design-fundamentals/index.md
+    - Structure:
+      - Materials: design-fundamentals/structure/materials.md
+      - Structure: design-fundamentals/structure/structure.md
+      - Hardware: design-fundamentals/structure/hardware.md
+    - Power Transmission:
+      - Electronics, Motors, and Sensors: design-fundamentals/power-transmission/electronics-motors-sensors.md
+      - Pneumatics: design-fundamentals/power-transmission/pneumatics.md
+      - Transfer of Rotational Motion: design-fundamentals/power-transmission/rotation.md
+      - Motion Components: design-fundamentals/power-transmission/motion-components.md
+      - Wheels and Rollers: design-fundamentals/power-transmission/wheels-rollers.md
+      - Linear Extension: design-fundamentals/power-transmission/linear-extension.md
+    - Mechanisms:
+      - Drivetrain: design-fundamentals/mechanisms/drivetrain.md
+      - Elevators: design-fundamentals/mechanisms/elevators.md
+    - Design Write-ups:
+      - Designing for Controllability: design-fundamentals/design-writeups/DFC.md
+      - Chain Tensioning Solutions: design-fundamentals/design-writeups/chainTensioning.md
+      - Bumper Mounting Solutions: design-fundamentals/design-writeups/bumperMounting.md
+      - Springs and Shocks: design-fundamentals/design-writeups/springs-shocks.md
+      - Linkages: design-fundamentals/design-writeups/linkages.md
+
+  - Best Practices:
+      - best-practices/index.md
+      - Document Setup: best-practices/document-setup.md
+      - Sub-Document Setup: best-practices/sub-document-setup.md
+      - Master Sketch Best Practices: best-practices/mastersketch-setup.md
+      - Feature Tree Best Practices: best-practices/feature-tree-setup.md
+      - Assembly Best Practices: best-practices/assembly-setup.md
+
+  - Resources:
+    - resources/index.md
+    - Glossary: resources/glossary.md
+    - Strategic Design: resources/strategicDesignResources.md
+    - Mechanism Examples:
+      - mechanism-examples/index.md
+      - Drivebases:
+        - mechanism-examples/drivebase/index.md
+        - 2910 Drivebase: mechanism-examples/drivebase/2910.md
+        - 972 Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
+      - Shooters:
+        - mechanism-examples/shooter/index.md
+        - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/small.md
+        - 1678's 2022 Shooter: mechanism-examples/shooter/citrus.md
+      - Slapdown Intakes:
+        - mechanism-examples/intake/slapdown/index.md
+        - 4414 Style  Intake: mechanism-examples/intake/slapdown/4414style.md
+        - Washed Beavertail Intake: mechanism-examples/intake/slapdown/washed.md
+        - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/low.md
+        - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
+      - 4 Bar Intakes:
+        - mechanism-examples/intake/4bar/index.md
+        - 1678's 2022 Intake: mechanism-examples/intake/4bar/1678.md
+        - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/clean.md
+        - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
+      - Continuous Elevators:
+        - mechanism-examples/elevator/continuous/index.md
+        - External Cable Driven Elevator: mechanism-examples/elevator/continuous/cable.md
+        - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/belt.md
+      - Cascade Elevators:
+        - mechanism-examples/elevator/cascade/index.md
+        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2stage.md
+        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3stage.md
+      - Pivots:
+        - mechanism-examples/pivots/index.md
+        - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
+        - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910pivot.md
+
+    - CAD Resources:
+      - Featurescripts : resources/featurescripts.md
+      - Simplified Models: resources/simplified.md
+      - Configurables: resources/configurables.md
+      - KrayonCAD: resources/krayonCAD.md
+    
+ 
+
+  - Contributor's Guide:
+    - Style Guide: contribution/styleguide.md
+    - Methods of Contributing: contribution/methodsOfContributing.md
+    - Contributors: contribution/contributors.md
+  
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+extra_css: [stylesheets/extra.css]
+
+watch:
+  - includes
+
+plugins:
+  - glightbox:
+      background: none
+      width: 90%
+      shadow: true
+  - search
+  - offline
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: davidsdesignserver/FRCDesign.org
+      enabled: False
+  - social:
+      enabled: False

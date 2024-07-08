@@ -11,7 +11,7 @@ Instead of covering random features and tools that you might not use in FRC, thi
 ## Beginner Stages
 
 !!! Tip
-    If you already have some experience with CAD in Onshape, specifically sketching and part design, you may skip to [Stage 1B](stage1/1B-designMethodology.md) for your first project and continue from there. It will help you start learning the preferred workflow to design mechanisms in Onshape.
+    If you already have some experience with CAD in Onshape, specifically sketching and part design, you may skip to [Stage 1B](stage1/1B-powerTransmissions.md) for your first project and continue from there. It will help you start learning the preferred workflow to design mechanisms in Onshape.
 
 ### [Stage 0](stage0/0A-introductionToCAD.md)
 

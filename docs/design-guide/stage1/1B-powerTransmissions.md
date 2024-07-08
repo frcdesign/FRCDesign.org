@@ -597,7 +597,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s13.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
