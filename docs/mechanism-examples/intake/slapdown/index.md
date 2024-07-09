@@ -1,10 +1,12 @@
 ---
 title: Slapdown Intake Examples
+social:
+  cards: false
 ---
 <meta property="og:title" content="Slapdown Intake Examples">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/cad-examples/intake/slapdown/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/intake/slapdown/6423crecendo.webp">
+<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/intake/slapdown/">
+<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/intake/slapdown/6423crecendo.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -14,7 +16,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/cad-examples/intake/slapdown/4414style.webp){width=100%}](4414style.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/4414style.webp){width=100%}](4414style.md)</center>
 
     ---
 
@@ -22,7 +24,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: 4414-Style Intake](4414style.md)
 
--   <center>[![](../../../img/cad-examples/intake/slapdown/washed/overview.webp){width=80%}](washed.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/washed/overview.webp){width=80%}](washed.md)</center>
 
     ---
 
@@ -30,7 +32,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: Washed's Beavertail Intake](washed.md)
 
--   <center>[![](../../../img/cad-examples/intake/slapdown/low.webp){width=80%}](low.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/low.webp){width=80%}](low.md)</center>
 
     ---
 
@@ -38,7 +40,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: Low Pivot Slapdown Intake](low.md)
 
--   <center>[![](../../../img/cad-examples/intake/slapdown/6423crescendo.webp){width=100%}](6423otb.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423crescendo.webp){width=100%}](6423otb.md)</center>
 
     ---
 

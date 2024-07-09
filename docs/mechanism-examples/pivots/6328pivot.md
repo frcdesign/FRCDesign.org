@@ -1,7 +1,7 @@
 <meta property="og:title" content="Pivot CAD Example: 6328 2023 A-Frame Pivot">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/cad-examples/shooter/examples/6328pivot/">
-<!--meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/shooter/1678-shooter/citrus-shooter.webp"-->
+<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/shooter/examples/6328pivot/">
+<!--meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/shooter/1678-shooter/citrus-shooter.webp"-->
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -25,7 +25,7 @@ table tr:hover{
 # 6328 A-Frame Pivot 2023
 
 <figure markdown="span">
-[![Mechanical Advantage Pivot](../../img/cad-examples/pivots/6328/6328.webp){height=50% width=50%}](https://cad.onshape.com/documents/4355de2f5305413cf9227e76/w/fe6a8482fd911e11448f3f73/e/00e10ce4e7c797743fcdfe90?renderMode=0&uiState=6637aa646f9cba414d43f156){target = "_blank"}
+[![Mechanical Advantage Pivot](../../img/mechanism-examples/pivots/6328/6328.webp){height=50% width=50%}](https://cad.onshape.com/documents/4355de2f5305413cf9227e76/w/fe6a8482fd911e11448f3f73/e/00e10ce4e7c797743fcdfe90?renderMode=0&uiState=6637aa646f9cba414d43f156){target = "_blank"}
 <figcaption>This triple pivoted design folded in on itself to start inside frame perimeter, and allowed for a near universal manipulation of the robot’s end effector.</figcaption>
 </figure>
 
@@ -39,21 +39,21 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 
 |||
 |:-:|:-:|
-|<figure>![Main Pivot Gearbox](../../img/cad-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 [NEO](https://www.revrobotics.com/rev-21-1650/) high-reduction gearbox that is integrated into the A-Frame of the pivot. This is the most important pivot on the robot, since it moves the most mass. For those reasons want as much power as possible here, so two-four motors is ideal. [MAXPlanetaries](https://www.revrobotics.com/rev-21-2100/) are not rated for the forces expected to be applied in this gearbox, so a custom gearbox is a necessity. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
-|<span style="font-size:.8rem;"> The gearbox drives a [Super Max Spline](https://www.chiefdelphi.com/t/experiences-with-rev-ion-so-far/431176/80?page=2) shaft, which is a [Max Spline](https://www.revrobotics.com/rev-21-2520/) shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/cad-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
+|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 [NEO](https://www.revrobotics.com/rev-21-1650/) high-reduction gearbox that is integrated into the A-Frame of the pivot. This is the most important pivot on the robot, since it moves the most mass. For those reasons want as much power as possible here, so two-four motors is ideal. [MAXPlanetaries](https://www.revrobotics.com/rev-21-2100/) are not rated for the forces expected to be applied in this gearbox, so a custom gearbox is a necessity. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
+|<span style="font-size:.8rem;"> The gearbox drives a [Super Max Spline](https://www.chiefdelphi.com/t/experiences-with-rev-ion-so-far/431176/80?page=2) shaft, which is a [Max Spline](https://www.revrobotics.com/rev-21-2520/) shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/mechanism-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
 
 ***
 <span style="text-align: center; font-size:1rem">The main pivot joint is supported vertically on each side by 2 angled 1x1 shafts and a 2x1 shaft. Triangles are strong! The A frame is a triangle, and the vertical 2x1 splits each side into two more mirrored triangles. With the plates clamping on both sides this thing is bulletproof. Plates are not lightweighted at the bottom in order to lower COG and because these parts are fixed to the superstructure, so their weight doesn’t limit the rotational speed of the pivot.</span>
 
 |||
 |:-:|:-:|
-|<figure>![6328 A-Frame](../../img/cad-examples/pivots/6328/aframe.webp){height=75% width=75%}<figcaption> A-Frame superstructure side view. </figcaption></figure>|<figure>![Triangle Breakdown](../../img/cad-examples/pivots/6328/triangles.webp){height=120% width=1500rem}<figcaption> Static triangle load distribution breakdown. Triangles are the only shape which are not collapsable when a force is applied to any side. </figcaption></figure>|
+|<figure>![6328 A-Frame](../../img/mechanism-examples/pivots/6328/aframe.webp){height=75% width=75%}<figcaption> A-Frame superstructure side view. </figcaption></figure>|<figure>![Triangle Breakdown](../../img/mechanism-examples/pivots/6328/triangles.webp){height=120% width=1500rem}<figcaption> Static triangle load distribution breakdown. Triangles are the only shape which are not collapsable when a force is applied to any side. </figcaption></figure>|
 
 <span style="text-align: center; font-size:1rem">The main pivot is driven on both sides by long runs of chain to prevent torsion (twisting of the arm). These long runs of chain allow for inline tensioners to eliminate backlash in the pivot. The maxspline here is a live axle. There are bearings in the blue plates that are constrained from the outside with button head cap flanges and on the inside with 3d printed spacers. The large axle collar in between the two plates prevents the spline from sliding. The second arm section is rigidly bolted to both the sprocket and the maxspline shaft. There is tiny Zombie-Axle shaft with a gear on it rigged 1:1 with the main shaft to measure the rotation of the shaft directly for more accurate positioning. It doesn’t need a bearing, the shaft just spins with the inside of the encoder!</span>
 
 |||
 |:-:|:-:|
-|<figure>![Main Pivot](../../img/cad-examples/pivots/6328/mainpivot.webp){height=60% width=60%}<figcaption> Main pivot side view. </figcaption></figure>|<figure>![Pivot Bearing Retention](../../img/cad-examples/pivots/6328/pivot_side.webp){height=60% width=60%}<figcaption> Bearing retention using button head machine screw flange. </figcaption></figure>|
+|<figure>![Main Pivot](../../img/mechanism-examples/pivots/6328/mainpivot.webp){height=60% width=60%}<figcaption> Main pivot side view. </figcaption></figure>|<figure>![Pivot Bearing Retention](../../img/mechanism-examples/pivots/6328/pivot_side.webp){height=60% width=60%}<figcaption> Bearing retention using button head machine screw flange. </figcaption></figure>|
 
 ***
 
@@ -61,6 +61,6 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 
 |||
 |:-:|:-:|
-|[<figure>![6328 Behind the Bumpers](../../img/cad-examples/pivots/6328/6328btb.webp){height=200% width=200%}<figcaption>6328 Behind the Bumpers</figcaption><figure>](https://youtu.be/3cXXOSFAnJU)|[<figure>![1678 Clean Match Vid](../../img/cad-examples/pivots/6328/6328_match.webp){height=55% width=55%}<figcaption>6328 Rhode Island 2023 Recap</figcaption></figure>](https://youtu.be/89FRu3nUPtU)|
+|[<figure>![6328 Behind the Bumpers](../../img/mechanism-examples/pivots/6328/6328btb.webp){height=200% width=200%}<figcaption>6328 Behind the Bumpers</figcaption><figure>](https://youtu.be/3cXXOSFAnJU)|[<figure>![1678 Clean Match Vid](../../img/mechanism-examples/pivots/6328/6328_match.webp){height=55% width=55%}<figcaption>6328 Rhode Island 2023 Recap</figcaption></figure>](https://youtu.be/89FRu3nUPtU)|
 
 <br>

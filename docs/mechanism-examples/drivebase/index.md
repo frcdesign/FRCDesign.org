@@ -1,10 +1,12 @@
 ---
 title: Drivebase Examples
+social:
+  cards: false
 ---
 <meta property="og:title" content="Drivebase CAD Examples">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://frcdesign.org/cad-examples/drivebase/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/drivebase/2910drivebase.webp">
+<meta property="og:url" content="https://frcdesign.org/mechanism-examples/drivebase/">
+<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/drivebase/2910drivebase.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image"> 
 
@@ -13,7 +15,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/cad-examples/drivebase/2910drivebase.webp)](2910.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/2910drivebase.webp)](2910.md)</center>
 
     ---
 
@@ -21,7 +23,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910.md)
 
--   <center>[![](../../img/cad-examples/drivebase/972dt.webp)](brainpan.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/972dt.webp)](brainpan.md)</center>
 
     ---
 
