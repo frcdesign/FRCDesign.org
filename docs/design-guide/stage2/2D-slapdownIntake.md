@@ -1,11 +1,11 @@
-# 2D: 2022 Over-the-Bumper Slapdown Intake
+# 2D: Slapdown Intake
 
 ## Over-the-Bumper Intakes
 A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 
 
 The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 <br>
-<figure><img align="left"  src="/img/cad-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/cad-examples/intake/4bar/1678.webp" width="40%"></figure>
+<figure><img align="left"  src="/img/mechanism-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/mechanism-examples/intake/4bar/1678.webp" width="40%"></figure>
 <br>
 
 [This video](https://www.youtube.com/watch?v=pSQX5c7G8yg) is a great example of a slapdown intake in 2022, on Madtown 1323's robot.

@@ -10,7 +10,7 @@ title: Mechanism Examples
 
 # Mechanism Examples
 
-"Steal from the best, invent the rest" has been an FRC ethos ever since the competitions creation. Because of how important looking at past designs is in the learning process, a library of mechanisms is being compiled that can be used as reference when learning how to design a wide variety of FRC mechanisms.
+"Steal from the best, invent the rest" - Mike Corsetto, Head Coach of Team 1678. There's nothing that hasn't already been done; don't ever be afraid of taking inspiration from designs of other robots, especially when designing in a build season. Both for design reference and for learning about different executions of different mechanisms, a library of a wide variety of mechanisms is being compiled here.
 
 !!! Note
 
