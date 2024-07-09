@@ -3,8 +3,8 @@ title: Shooter Examples
 ---
 <meta property="og:title" content="Shooter Examples">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/cad-examples/shooter/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/shooter/small.webp">
+<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/shooter/">
+<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/shooter/small.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -14,7 +14,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/cad-examples/shooter/small.webp){width=80%}](small.md)</center>
+-   <center>[![](../../img/mechanism-examples/shooter/small.webp){width=80%}](small.md)</center>
 
     ---
 
@@ -22,7 +22,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
     
     [:octicons-arrow-right-24: Andrew's Hyperhive Shooter](small.md)
 
--   <center>[![](../../img/cad-examples/shooter/citrus-shooter.webp)](citrus.md)</center>
+-   <center>[![](../../img/mechanism-examples/shooter/citrus-shooter.webp)](citrus.md)</center>
 
     ---
 
