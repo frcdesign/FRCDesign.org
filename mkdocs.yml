@@ -228,9 +228,17 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
-  - social:
-      enabled: !ENV [CI, false]
-  - git-committers:
-      repository: davidsdesignserver/FRCDesign.org
-      branch: main
-      enabled: !ENV [CI, false]
+    
+  - group:
+      enabled: !ENV CI
+      plugins:
+      - social
+      - git-committers:
+          repository: davidsdesignserver/FRCDesign.org
+          branch: main
+          
+  - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - privacy

@@ -1,5 +1,6 @@
 source venv/scripts/activate 
-pip install mkdocs-material
+pip install git+https://${INSIDERS}@github.com/squidfunk/mkdocs-material-insiders.git
+pip install -e mkdocs-material
 pip install mkdocs-glightbox
 pip install mkdocs-git-revision-date-localized-plugin
 pip install pymdown-extensions pyyaml
