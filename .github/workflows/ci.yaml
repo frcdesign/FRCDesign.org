@@ -36,7 +36,6 @@ jobs:
       - name: Generate MkDocs configuration
         env:
           GIT_BRANCH: ${{ github.ref_name }}
-          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
         run: python generate_mkdocs_config.py
 
       - name: Build and Deploy MkDocs
