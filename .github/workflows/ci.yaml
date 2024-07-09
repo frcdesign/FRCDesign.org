@@ -31,14 +31,17 @@ jobs:
           pip install mkdocs-git-committers-plugin-2
           pip install pymdown-extensions pyyaml
           pip install "mkdocs-material[imaging]"
+          pip install mkdocs-git-committers-plugin-2
           sudo apt-get install pngquant
 
-      - name: Generate MkDocs configuration
-        env:
-          GIT_BRANCH: ${{ github.ref_name }}
-        run: python generate_mkdocs_config.py
+      - name: Configure MkDocs with secret
+        run: |
+          echo "MKDOCS_PAT=${{ secrets.MKDOCS_PAT }}" >> $GITHUB_ENV
+          sed -i 's/${{ secrets.MKDOCS_PAT }}/'"${{ secrets.MKDOCS_PAT }}"'/' mkdocs.yml
 
       - name: Build and Deploy MkDocs
+        env:
+          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
         run: |
           mkdocs build
           mkdocs gh-deploy --force
