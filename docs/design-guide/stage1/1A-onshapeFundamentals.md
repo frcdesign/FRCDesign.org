@@ -351,18 +351,18 @@ The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-
 
 As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
-- **`Group`**: Restricts the relative motion between a group of parts.
-- **`Fix`**: Locks a part in place within the assembly. (Not recommended as it's not parametric.)
+- **`Group`**: Restricts the relative motion between a group of parts
+- **`Fix`**: Locks a part in place within the assembly (not recommended as it's not parametric)
 - **`Mates`**: Tools to constrain the degrees of freedom between parts using "mate connectors." These connectors are automatically generated or manually created coordinate systems on parts. You can align the axes and apply offsets in any direction or rotation. Different mates constrain different degrees of freedom. Here are three commonly used mates:
-    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole.
-    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot (e.g. an arm pivot).
-    - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator).
+    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole
+    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors (e.g. an arm pivot)
+    - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator)
 
 !!! Example
     <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="90%"></center>
     <center> *Example of a fasten mate.* </center>
 
-The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined [here](../../best-practices/assembly-setup.md).
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md) page.
 
 
 ### Exercise 3: Box Tube Frame
