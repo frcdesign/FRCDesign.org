@@ -1,17 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Master Sketch Best Practices
-
-<span class="left">[< Sub-Document Setup](sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](feature-tree-setup.md)</span>
-<br>
 
 Mastersketches (layout sketches) drive the core geometry of the entire robot.
 
@@ -39,11 +26,8 @@ In general, mastersketching is an art that can require some practice to get the 
 
 See an example of a well set-up mastersketches part studio here:
 
-<center>![](/img/design-standards/mastersketch.png)</center>
+<center><img src="/img/best-practices/mastersketch.png"></center>
 
 And a presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing)
 
-<br>
-<span class="left">[< Sub-Document Setup](sub-document-setup.md)</span> <span class="right">[Feature Tree Best Practices >](feature-tree-setup.md)</span></span>
-<br>
 <br>

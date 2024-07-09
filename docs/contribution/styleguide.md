@@ -38,7 +38,9 @@ Examples
 ### File Formats:
 - Compress images to .webp format using [squoosh](https://squoosh.app/)
 - Embed longer videos using a Youtube upload, and shorter videos with a webm file
+- Add images by using ```<center><img src="absolute link" width="x%"></center>```
 
+### Brand Standards
 Adhere to brand standards when possible.
 
 - Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf)
@@ -52,3 +54,5 @@ Adhere to brand standards when possible.
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
 
 ## Thanks to GM0 for the style guide reference
+
+<br>
