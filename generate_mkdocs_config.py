@@ -54,5 +54,6 @@ if branch == 'main':
 with open('mkdocs.yml', 'w') as file:
     yaml.dump(config, file)
 
+print(token)
 print(config['plugins'])
 print(f"Generated mkdocs.yml for branch: {branch}")

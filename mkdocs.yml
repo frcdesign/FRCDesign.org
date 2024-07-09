@@ -143,7 +143,6 @@ plugins:
     enabled: true
     repository: davidsdesignserver/FRCDesign.org
     token: null
-    verbose: true
 - social:
     enabled: true
 repo_name: davidsdesignserver/FRCDesign.org
