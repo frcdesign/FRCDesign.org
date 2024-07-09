@@ -30,14 +30,11 @@ def update_plugin_properties(plugins, plugin_name, new_properties):
         # Plugin not found, add new dictionary with the properties
         plugins.append({plugin_name: new_properties})
 
-# Get the token from the workflow file and set new properties with it
-token = os.getenv('MKDOCS_PAT')
-git_committers_properties = {'repository': 'davidsdesignserver/FRCDesign.org', 'token': token, 'enabled': True}
 social_properties = {'enabled': True}
 
 # Check the branch name (you might get this from environment variables or other methods)
-branch = os.getenv('GIT_BRANCH', 'main')
-#branch = 'main' #For testing
+#branch = os.getenv('GIT_BRANCH', 'main')
+branch = 'main' #For testing
 
 
 # Add plugins based on the branch
@@ -47,12 +44,12 @@ if branch == 'main':
         config['plugins'] = []
     
     # Add the specific plugin for the main branch
-    update_plugin_properties(config['plugins'], 'git-committers', git_committers_properties)  # Replace with the actual plugin
     update_plugin_properties(config['plugins'], 'social', social_properties)
 
 # Write the modified configuration to mkdocs.yml
 with open('mkdocs.yml', 'w') as file:
     yaml.dump(config, file)
+
 
 print(config['plugins'])
 print(f"Generated mkdocs.yml for branch: {branch}")

@@ -139,10 +139,6 @@ plugins:
 - offline
 - git-revision-date-localized:
     enable_creation_date: true
-- git-committers:
-    enabled: true
-    repository: davidsdesignserver/FRCDesign.org
-    token: null
 - social:
     enabled: true
 repo_name: davidsdesignserver/FRCDesign.org
