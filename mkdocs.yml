@@ -226,7 +226,6 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - offline
   - git-revision-date-localized:
       enable_creation_date: true
   - social:
