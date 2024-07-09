@@ -232,5 +232,6 @@ plugins:
   - social:
       enabled: !ENV [CI, false]
   - git-committers:
+      repository: davidsdesignserver/FRCDesign.org
       token: "${{ secrets.MKDOCS_PAT }}"
       enabled: !ENV [CI, false]
