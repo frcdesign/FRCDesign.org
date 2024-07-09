@@ -233,5 +233,5 @@ plugins:
       enabled: !ENV [CI, false]
   - git-committers:
       repository: davidsdesignserver/FRCDesign.org
-      token: "${{ secrets.MKDOCS_PAT }}"
+      token: ${{ secrets.GITHUB_TOKEN }}
       enabled: !ENV [CI, false]

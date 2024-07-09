@@ -34,14 +34,9 @@ jobs:
           pip install mkdocs-git-committers-plugin-2
           sudo apt-get install pngquant
 
-      - name: Configure MkDocs with secret
-        run: |
-          echo "MKDOCS_GIT_COMMITTERS_APIKEY=${{ secrets.MKDOCS_PAT }}" >> $GITHUB_ENV
-          sed -i 's/${{ secrets.MKDOCS_PAT }}/'"${{ secrets.MKDOCS_PAT }}"'/' mkdocs.yml
-
       - name: Build and Deploy MkDocs
         env:
-          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
           CI: true
         run: |
           mkdocs build
