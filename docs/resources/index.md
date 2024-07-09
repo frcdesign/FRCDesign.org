@@ -6,8 +6,8 @@ This section includes resources that you may find useful to help improve your kn
 ### [Glossary](glossary.md)
 The glossary is a compiled list of words (including acronyms and abbreviations) and definitions to help people understand the lingo used in various parts of the website and on the discord server. When you find one of these words across the site, it will be underlined, and you can hover over it to see the definition.
 
-### [Mechanism Examples](../mechanism-examples/index.md)
-A library of mechanisms is being continuously compiled in this section. The idea of each page is "quality over quantity", so we hope to provide "Behind the Design" for each mechanism example added, in order to explain insights into certain design decisions, and how they worked out if the robot ended up being built.
+### [Strategic Design](strategicDesignResources.md)
+A collection of strategic design resources to help your team learn how to analyze a game and choose an archetype that is strategically viable and a good fit for your capabilities.
 
 ### CAD Resources
 A collection of resources to support your workflow in Onshape, relevant to FRC.

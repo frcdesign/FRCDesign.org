@@ -106,11 +106,6 @@ nav:
         - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
         - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
     - Intermediate Stage: design-guide/stage4.md
-  
-  - Design Challenges:
-    - design-challenge/index.md
-    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
-    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
 
   - Design Fundamentals:
     - design-fundamentals/index.md
@@ -135,39 +130,27 @@ nav:
       - Springs and Shocks: design-fundamentals/design-writeups/springs-shocks.md
       - Linkages: design-fundamentals/design-writeups/linkages.md
 
-  - Best Practices:
-      - best-practices/index.md
-      - Document Setup: best-practices/document-setup.md
-      - Sub-Document Setup: best-practices/sub-document-setup.md
-      - Master Sketch Best Practices: best-practices/mastersketch-setup.md
-      - Feature Tree Best Practices: best-practices/feature-tree-setup.md
-      - Assembly Best Practices: best-practices/assembly-setup.md
-
-  - Resources:
-    - resources/index.md
-    - Glossary: resources/glossary.md
-    - Strategic Design: resources/strategicDesignResources.md
-    - Mechanism Examples:
+  - Mechanism Examples:
       - mechanism-examples/index.md
       - Drivebases:
         - mechanism-examples/drivebase/index.md
-        - 2910 Drivebase: mechanism-examples/drivebase/2910.md
-        - 972 Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
+        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910.md
+        - 972's Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
       - Shooters:
         - mechanism-examples/shooter/index.md
-        - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/small.md
-        - 1678's 2022 Shooter: mechanism-examples/shooter/citrus.md
+        - Andrew's Hyperhive Shooter: mechanism-examples/shooter/small.md
+        - 1678's Rapid React Shooter: mechanism-examples/shooter/citrus.md
       - Slapdown Intakes:
         - mechanism-examples/intake/slapdown/index.md
-        - 4414 Style  Intake: mechanism-examples/intake/slapdown/4414style.md
+        - 4414-Style Intake: mechanism-examples/intake/slapdown/4414style.md
         - Washed Beavertail Intake: mechanism-examples/intake/slapdown/washed.md
         - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/low.md
-        - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
+        - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
       - 4 Bar Intakes:
         - mechanism-examples/intake/4bar/index.md
-        - 1678's 2022 Intake: mechanism-examples/intake/4bar/1678.md
-        - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/clean.md
-        - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
+        - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678.md
+        - Andrew's Four-Bar Intake: mechanism-examples/intake/4bar/clean.md
+        - Vaughn's Four-Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
       - Continuous Elevators:
         - mechanism-examples/elevator/continuous/index.md
         - External Cable Driven Elevator: mechanism-examples/elevator/continuous/cable.md
@@ -181,13 +164,30 @@ nav:
         - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
         - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910pivot.md
 
+  - Best Practices:
+      - best-practices/index.md
+      - Document Setup: best-practices/document-setup.md
+      - Sub-Document Setup: best-practices/sub-document-setup.md
+      - Master Sketch Best Practices: best-practices/mastersketch-setup.md
+      - Feature Tree Best Practices: best-practices/feature-tree-setup.md
+      - Assembly Best Practices: best-practices/assembly-setup.md
+    
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
+
+  - Other Resources:
+    - resources/index.md
+    - Glossary: resources/glossary.md
+    - Strategic Design: resources/strategicDesignResources.md
+
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md
       - Simplified Models: resources/simplified.md
       - Configurables: resources/configurables.md
       - KrayonCAD: resources/krayonCAD.md
     
- 
 
   - Contributor's Guide:
     - Style Guide: contribution/styleguide.md
