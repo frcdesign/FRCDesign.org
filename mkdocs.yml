@@ -233,4 +233,5 @@ plugins:
       enabled: !ENV [CI, false]
   - git-committers:
       repository: davidsdesignserver/FRCDesign.org
+      repo_url: https://github.com/davidsdesignserver/FRCDesign.org
       enabled: !ENV [CI, false]

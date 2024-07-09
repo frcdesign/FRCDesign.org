@@ -36,7 +36,7 @@ jobs:
 
       - name: Build and Deploy MkDocs
         env:
-          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
           CI: true
         run: |
           mkdocs build
