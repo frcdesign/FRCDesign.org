@@ -143,6 +143,7 @@ plugins:
     enabled: true
     repository: davidsdesignserver/FRCDesign.org
     token: null
+    verbose: true
 - social:
     enabled: true
 repo_name: davidsdesignserver/FRCDesign.org
@@ -150,6 +151,7 @@ repo_url: https://github.com/davidsdesignserver/FRCDesign.org
 site_description: A guide to learning engineering design for FRC using Onshape. Includes
   several other resources for learning design as well.
 site_name: FRCDesign.org
+site_url: https://www.FRCDesign.org
 theme:
   favicon: img/favicon.png
   features:

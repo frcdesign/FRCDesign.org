@@ -9,7 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -32,6 +33,15 @@ jobs:
           pip install "mkdocs-material[imaging]"
           sudo apt-get install pngquant
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Add GitHub token to environment
+        env:
+          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
+        run: echo "MKDOCS_PAT=${MKDOCS_PAT}" >> $GITHUB_ENV
       - name: Generate MkDocs configuration
         env:
           GIT_BRANCH: ${{ github.ref_name }}
@@ -40,5 +50,13 @@ jobs:
 
       - name: Build and Deploy MkDocs
         run: |
-          mkdocs build
-          mkdocs gh-deploy --force
+          mkdocs build --verbose
+
+      - name: Deploy to GitHub Pages
+        env:
+          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
+        run: |
+          git remote set-url origin https://$MKDOCS_PAT@github.com/davidsdesignserver/FRCDesign.org.git
+          git add .
+          git commit -m "Deploy MkDocs site"
+          git push origin main
