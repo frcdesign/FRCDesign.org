@@ -236,9 +236,9 @@ plugins:
       - git-committers:
           repository: davidsdesignserver/FRCDesign.org
           branch: main
-          
+
   - group:
       enabled: !ENV INSIDERS
       plugins:
-        - optimize
         - privacy
+        - optimize
