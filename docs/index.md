@@ -1,5 +1,9 @@
+---
+social:
+  cards: false
+---
 <meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="A comprehensive guide to all things FRC Design">
+<meta property="og:description" content="A comprehensive learning guide and technical reference for FRC design using Onshape.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
