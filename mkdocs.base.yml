@@ -231,5 +231,3 @@ plugins:
       enable_creation_date: true
   - social:
       enabled: False
-  - optimize:
-      enabled: !ENV [CI, false]
