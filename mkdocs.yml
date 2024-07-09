@@ -146,6 +146,7 @@ repo_url: https://github.com/davidsdesignserver/FRCDesign.org
 site_description: A guide to learning engineering design for FRC using Onshape. Includes
   several other resources for learning design as well.
 site_name: FRCDesign.org
+site_url: https://www.FRCDesign.org
 theme:
   favicon: img/favicon.png
   features:
