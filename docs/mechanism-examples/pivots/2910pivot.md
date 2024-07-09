@@ -41,7 +41,7 @@ The pivot is driven by 2 mirrored dual falcon 500 gearboxes. These gearboxes are
 |:-:|:-:|:-:|
 |<figure markdown="span">![2910 Dead Axle Pivot](../../../img/cad-examples/pivots/2910/2910gearbox.webp){height=60% width=60%}</figure>|<figure markdown="span">![Thunderhex Pivot](../../../img/cad-examples/pivots/2910/thunderhex_example.webp){height=100% width=100%}</figure>|<figure markdown="span">![Lightened Plates](../../../img/cad-examples/pivots/2910/gearbox_plates.webp){height=60% width=60%}</figure>|
 
-All of these plates are heavily lightweighted to make this one of the lightest, fastest robots in all of FRC. The gearboxes and even motor placement on the gearboxes are as low and central as possible to improve the robots center of mass. Lower center of mass helps to reduce tipping and gives the robot an advantage in pushing battles.
+All of these plates are heavily lightened to make the robot light, increase the acceleration capabilities (F=ma), and keep the center of gravity low. The gearboxes and even motor placement on the gearboxes are as low and central as possible to improve the robots center of mass. Lower center of mass helps to reduce tipping and gives the robot an advantage in pushing battles.
 
 The second stage shaft runs across the robot to link the two gearboxes. These second stage gears are cantilever to reduce gearbox size, and are properly supported with two bearings on each end.
 
