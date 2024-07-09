@@ -36,12 +36,12 @@ jobs:
 
       - name: Configure MkDocs with secret
         run: |
-          echo "MKDOCS_PAT=${{ secrets.MKDOCS_PAT }}" >> $GITHUB_ENV
+          echo "MKDOCS_GIT_COMMITTERS_APIKEY=${{ secrets.MKDOCS_PAT }}" >> $GITHUB_ENV
           sed -i 's/${{ secrets.MKDOCS_PAT }}/'"${{ secrets.MKDOCS_PAT }}"'/' mkdocs.yml
 
       - name: Build and Deploy MkDocs
         env:
-          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
           CI: true
         run: |
           mkdocs build
