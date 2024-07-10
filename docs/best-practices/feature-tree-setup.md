@@ -1,17 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Feature Tree Best Practices
-
-<span class="left">[< Master Sketch Best Practices](mastersketch-setup.md)</span> <span class="right">[Assembly Best Practices >](assembly-setup.md)</span>
-<br>
 
 In general, every part studio feature tree should start with a derive command, pulling down the relevant mastersketch. This is what you will build on. 
 
@@ -25,7 +12,4 @@ See an example of a well-organized part studio here:
 
 <center><img src="/img/best-practices/part-studio-2.png"></center>
 
-<br>
-<span class="left">[< Master Sketch Best Practices](mastersketch-setup.md)</span> <span class="right">[Assembly Best Practices >](assembly-setup.md)</span>
-<br>
 <br>

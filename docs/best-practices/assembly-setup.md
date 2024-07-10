@@ -1,18 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Assembly Best Practices
-
-<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span> 
-<br>
-
 
 Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
 
@@ -122,14 +108,10 @@ The first advice is to minimize primitives in your assembly. Primitives are kind
 
 Use [simplified models](https://www.frcdesign.org/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
 
-<details>
-<summary>Minimize Primitives</summary>
-  <figure class="video_container">
+??? Video "Minimize Primitives"
     <video controls="true" allowfullscreen="true" poster="/img/best-practices/minimizePrimitives.webp">
       <source src="/img/best-practices/minimizePrimitives.webm" type="video/webm">
     </video>
-  </figure>
-</details>
 
 Other things to keep in mind:
 
@@ -142,7 +124,4 @@ See a well-organized assembly here:
 
 <center><img src="/img/best-practices/assembly.png"></center>
 
-<br>
-<span class="left">[< Feature Tree Best Practices](feature-tree-setup.md)</span>
-<br>
 <br>

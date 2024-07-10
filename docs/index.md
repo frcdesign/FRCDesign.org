@@ -1,5 +1,9 @@
+---
+social:
+  cards: false
+---
 <meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="A comprehensive guide to all things FRC Design">
+<meta property="og:description" content="A comprehensive learning guide and technical reference for FRC design using Onshape.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
@@ -24,16 +28,13 @@ The discord server has different roles for each stage you are going through in t
 
 By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
 
-### **Intermediate Designer** *(Stage 4)*
+### **Intermediate Designer**
 Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. 
 
 In this stage, you're focusing on improving your design quality, workflow, and speed through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality and learning the nuances between designs to adapt to your own team.
 
 ### **Advanced Designer**
 Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and/or understand FRC design to a high level. 
-
-## Core Members
-Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
 
 ## The Process
 - Learn enough CAD basics to get started designing

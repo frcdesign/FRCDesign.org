@@ -21,3 +21,5 @@ When pocketing, use the [Vent featurescript ](https://cad.onshape.com/documents/
 
 - Tool radius must be ≥0.125 the radius of the cutting tool you use on your CNC, typically 0.125
 - Strut thickness is usually 0.2 for 1/4 inch aluminum, and cut thru-all - but this depends on load and other factors
+
+<br>

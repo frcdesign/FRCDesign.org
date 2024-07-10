@@ -13,3 +13,5 @@ Each Design Challenge will net a total of 7 points maximum, with 4 for completio
 ### Leaderboards
 
 Design challenges will feature two separate leaderboards: **Beginner** and **Intermediate/Advanced**. Each leaderboard will function independently, but points will be transferred when beginner members gain experience and self identify as intermediate. **Please correctly self identify with your skill level!** DDS is meant to be a community for learning, and trying to game the system by identifying as a beginner only discourages others. We operate on an honor system, but if someone is trying to game the system, we will punish them accordingly. 
+
+<br>

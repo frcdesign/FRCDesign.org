@@ -1,17 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Document Setup
-
-<span class="left">[< CAD Best Practices: Why?](index.md)</span> <span class="right">[Sub-Document Setup>](sub-document-setup.md)</span>
-<br>
 
 In General, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
 
@@ -43,7 +30,4 @@ You can see an example of this document structure here. Note the combination of 
 
 The document structure isn't set in stone; as long as it helps your team fulfill the goal of top-down design and uses separate documents to split up the versions of mechanisms, you can place your master sketches wherever you want (master document, concept document, or the drivetrain document).
 
-<br>
-<span class="left">[< CAD Best Practices: Why?](index.md)</span> <span class="right">[Sub-Document Setup >](sub-document-setup.md)</span>
-<br>
 <br>
