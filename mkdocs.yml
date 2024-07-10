@@ -225,6 +225,7 @@ plugins:
       background: none
       width: 90%
       shadow: true
+  - social
   - search
   - git-revision-date-localized:
       enable_creation_date: true
@@ -232,15 +233,13 @@ plugins:
   - group:
       enabled: !ENV CI
       plugins:
-      - social
       - git-committers:
           repository: davidsdesignserver/FRCDesign.org
           branch: main
+      - privacy
 
   - group:
       enabled: !ENV INSIDERS
       plugins:
-        - privacy
         - optimize
-        - tags
         - meta
