@@ -242,5 +242,4 @@ plugins:
       plugins:
         - privacy
         - optimize
-        - tags
         - meta
