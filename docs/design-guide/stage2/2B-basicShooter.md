@@ -5,13 +5,16 @@
 
 ## Shooter Mechanisms
 
-The type of games where you may need to launch the game piece instead of placing it directly into the goal is very common in FRC. The height limits are significantly lower than one of the scoring regions, necessitating a mechanism to launch the game piece to score it. These goals are typically defined as the “high goal”, and is often paired with another scoring region within height limits (generally called the "low goal") that may provide an easier and more reliable way of scoring for many teams. 
+In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal provides an easier and more reliable way of scoring for many teams, and through the nature of the game is sometimes even required at higher levels of gameplay, but the capability of scoring in the high goal will make it easier to succeed without depending on other teams in your alliance.
 
 This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but were mostly accomplished with mechanisms like elevators instead. Most games have you launch balls, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
 
 The most common way of launching a gamepiece is with a flywheel shooter, though other methods exist (catapults and punchers).
 
-[IMAGES]
+<br>
+<figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/mechanism-examples/shooter/1678-2024-shooter.webp" width="47%"></figure>
+<center><figcaption>1678's 2022 and 2024 Flywheel Shooters</figcaption></center>
+<br>
 
 [This video](https://youtu.be/QZKDnRvLhrA) is a good slow-motion look at how a ball gets propelled out of a shooter.
 
@@ -26,7 +29,7 @@ Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b570
 
 The gamepiece you are designing for is a 6 inch rubber kickball like the one below.
 
-<center><img src="\img\design-guide\stage2b\6inKickball.webp" style="width:30%"></center>
+<center><img src="\img\design-guide\stage2-shooter\6inKickball.webp" style="width:30%"></center>
 
 ### Concepts
 
