@@ -100,9 +100,10 @@ You can get a local hosted version of the website to have a live preview of the 
 1. Open the repository in VS Code (doesn't matter which branch)
 2. Toggle the bottom panel on if there isn't one with the shortcut ```Ctrl + J```
 3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
-4. Run the command ```py -m venv venv``` to create a virtual environment
-5. Run the command ```./runlocal.sh``` to install all needed python packages and start the server
-6. If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
+4. Run the command ```py -m venv venv``` to create a virtual environment (FIRST TIME)
+5. Run the command ```./installdependencies.sh to install all needed python packages (FIRST TIME)
+6. Run the command ```./runlocal.sh``` to start the server
+7. If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
 
 Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to edit.
 

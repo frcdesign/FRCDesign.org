@@ -415,15 +415,10 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
 The `Replicate` tool, which was introduced in Stage 1A exercise 5, is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
 
-<details>
-<summary>Match Individual Edges for Replicate</summary>
-<center>
-  <video width="1920" controls>
-    <source src="/img/design-guide/stage1c/replicateExample.mp4" type="video/mp4">
-  </video>
-</center>
-<center> Using "Match Individual Edges" allows us to select specific holes to replicate to instead of every hole on the face of the gusset. </center>
-</details>
+??? Video "Match Individual Edges for Replicate"
+    <video width="1920" controls>
+      <source src="/img/design-guide/stage1c/replicateExample.mp4" type="video/mp4">
+    </video>
 
 **Adding More Components**
 
@@ -567,6 +562,8 @@ Here is a quick summary of what you have achieved in 1C:
 Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits.
 
 In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1! Note that in stage 2, the design guide will become less step-by-step and more open ended, which will enable you to add your own input on designs based on your team's way of doing things. As always though, reference CAD models will be available.
+
+Optionally, please fill out [this feedback form](https://forms.gle/J1QNvRkvpi7xyfuU8) about stages 0 and 1.
 
 <br>
 

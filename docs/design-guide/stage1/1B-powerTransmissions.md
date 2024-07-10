@@ -152,7 +152,7 @@ Motors spin! They transform electrical energy supplied by the robot battery into
 In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
 
 * The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
-* The motors' have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are also 10-32 thread.
+* The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded (0.159"), as #10-32 is the hardware standard for COTS parts.
 
 <center><img src="\img\design-guide\stage1b\cimBoltCircle.webp" style="width:50%"></center>
 <figcaption>Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.</figcaption>
@@ -597,7 +597,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e5/e5s13.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s13.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
@@ -652,7 +652,7 @@ Timing belt and pulley drives are mechanical systems used to transmit motion and
 <center><img src="\img\design-guide\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
 <center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
 
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. For belt transmissions, the gear ratio is the number of teeth on the output pulley to the number of teeth on the input pulley. This ratio is the mechanical advantage of the system. Note that unlike gears, pulleys will spin in the same direction.
+In order to change the torque and speed from the input to the output, different sized pulleys must be used. The mechanical advantage for belt transmissions, similar to gears, is based on the ratio between the number of teeth of the output pulley to the number of teeth of the input pulley. Note that unlike gears, pulleys will spin in the same direction.
 
 **Types of Belt**
 
@@ -716,7 +716,7 @@ Roller chain and sprocket drives are very similar to belt and pulley transmissio
 <center><img src="\img\design-guide\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
 <center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
 
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. For chain transmissions, the gear ratio is the number of teeth on the output sprocket to the number of teeth on the input sprocket. This ratio is the mechanical advantage of the system. Similar to pulleys, the sprockets will spin in the same direction.
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. The mechanical advantage for chain transmissions, similar to gears and pulleys, is based on the ratio between the number of teeth of the output sprocket to the number of teeth of the input sprocket. Similar to pulleys, the sprockets will spin in the same direction.
 
 **Types of Chain**
 

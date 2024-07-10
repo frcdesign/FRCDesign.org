@@ -1,5 +1,13 @@
 site_name: FRCDesign.org
-repo_url: https://github.com/davidsdesignserver/dds-manual
+site_description: A comprehensive learning guide and technical reference for FRC design using Onshape.
+site_url: https://www.FRCDesign.org
+
+# Repository
+repo_name: davidsdesignserver/FRCDesign.org
+repo_url: https://github.com/davidsdesignserver/FRCDesign.org
+edit_uri: edit/main/docs/
+
+# Configuration
 theme:
   name: material
   features:
@@ -18,9 +26,11 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy
     - content.tooltips
+    - content.action.edit
+    - content.action.view
     - header.autohide
   language: en
 
@@ -61,6 +71,7 @@ theme:
   
   favicon: img/favicon.png
 
+# Additional Configuration
 extra:
   social:
     - icon: fontawesome/brands/discord
@@ -69,6 +80,7 @@ extra:
     provider: google
     property: G-KX3MNPJ4L6
 
+# Page Tree
 nav:
   - Home: index.md
   - Design Guide:
@@ -94,11 +106,6 @@ nav:
         - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
         - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
     - Intermediate Stage: design-guide/stage4.md
-  
-  - Design Challenges:
-    - design-challenge/index.md
-    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
-    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
 
   - Design Fundamentals:
     - design-fundamentals/index.md
@@ -123,6 +130,40 @@ nav:
       - Springs and Shocks: design-fundamentals/design-writeups/springs-shocks.md
       - Linkages: design-fundamentals/design-writeups/linkages.md
 
+  - Mechanism Examples:
+      - mechanism-examples/index.md
+      - Drivebases:
+        - mechanism-examples/drivebase/index.md
+        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910.md
+        - 972's Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
+      - Shooters:
+        - mechanism-examples/shooter/index.md
+        - Andrew's Hyperhive Shooter: mechanism-examples/shooter/small.md
+        - 1678's Rapid React Shooter: mechanism-examples/shooter/citrus.md
+      - Slapdown Intakes:
+        - mechanism-examples/intake/slapdown/index.md
+        - 4414-Style Intake: mechanism-examples/intake/slapdown/4414style.md
+        - Washed Beavertail Intake: mechanism-examples/intake/slapdown/washed.md
+        - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/low.md
+        - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
+      - 4 Bar Intakes:
+        - mechanism-examples/intake/4bar/index.md
+        - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678.md
+        - Andrew's Four-Bar Intake: mechanism-examples/intake/4bar/clean.md
+        - Vaughn's Four-Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
+      - Continuous Elevators:
+        - mechanism-examples/elevator/continuous/index.md
+        - External Cable Driven Elevator: mechanism-examples/elevator/continuous/cable.md
+        - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/belt.md
+      - Cascade Elevators:
+        - mechanism-examples/elevator/cascade/index.md
+        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2stage.md
+        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3stage.md
+      - Pivots:
+        - mechanism-examples/pivots/index.md
+        - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
+        - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910pivot.md
+
   - Best Practices:
       - best-practices/index.md
       - Document Setup: best-practices/document-setup.md
@@ -130,44 +171,16 @@ nav:
       - Master Sketch Best Practices: best-practices/mastersketch-setup.md
       - Feature Tree Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
+    
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
 
-  - Resources:
+  - Other Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
     - Strategic Design: resources/strategicDesignResources.md
-    - Mechanism Examples:
-      - mechanism-examples/index.md
-      - Slapdown Intakes:
-        - mechanism-examples/intake/slapdown/index.md
-        - 4414 Style  Intake: mechanism-examples/intake/slapdown/examples/4414style.md
-        - Washed Beavertail Intake: mechanism-examples/intake/slapdown/examples/washed.md
-        - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/examples/low.md
-        - 6423 Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/examples/6423otb.md
-      - 4 Bar Intakes:
-        - mechanism-examples/intake/4bar/index.md
-        - 1678's 2022 Intake: mechanism-examples/intake/4bar/examples/1678.md
-        - Andrew's Clean 4 Bar Intake: mechanism-examples/intake/4bar/examples/clean.md
-        - Vaughn's 4 Bar Intake: mechanism-examples/intake/4bar/examples/vaughn4bar.md
-      - Cascade Elevators:
-        - mechanism-examples/elevator/cascade/index.md
-        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/2stage.md
-        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/examples/3stage.md
-      - Continuous Elevators:
-        - mechanism-examples/elevator/continuous/index.md
-        - External Cable Driven Elevator: mechanism-examples/elevator/continuous/examples/cable.md
-        - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/examples/belt.md
-      - Shooters:
-        - mechanism-examples/shooter/index.md
-        - Andrew's Hyper-Hive Shooter: mechanism-examples/shooter/examples/small.md
-        - 1678 Citrus Shooter 2022: mechanism-examples/shooter/examples/citrus.md
-      - Drivebases:
-        - mechanism-examples/drivebase/index.md
-        - 2910 Drivebase: mechanism-examples/drivebase/examples/2910.md
-        - 972 Brainpan Drivebase: mechanism-examples/drivebase/examples/brainpan.md
-      - Pivots:
-        - mechanism-examples/pivots/index.md
-        - 6328 A-Frame Pivot: mechanism-examples/pivots/examples/6328pivot.md
-        - 2910 Dead Axle Pivot: mechanism-examples/pivots/examples/2910pivot.md
 
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md
@@ -175,7 +188,6 @@ nav:
       - Configurables: resources/configurables.md
       - KrayonCAD: resources/krayonCAD.md
     
- 
 
   - Contributor's Guide:
     - Style Guide: contribution/styleguide.md
@@ -198,6 +210,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 
 extra_css: [stylesheets/extra.css]
@@ -210,5 +225,21 @@ plugins:
       background: none
       width: 90%
       shadow: true
+  - social
   - search
-  - offline
+  - git-revision-date-localized:
+      enable_creation_date: true
+    
+  - group:
+      enabled: !ENV CI
+      plugins:
+      - git-committers:
+          repository: davidsdesignserver/FRCDesign.org
+          branch: main
+      - privacy
+
+  - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - meta
