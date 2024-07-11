@@ -43,54 +43,67 @@ A common way of doing this is two sets of ¼ aluminum plates that are parallel t
 
 Explain what makes the design simple and robust, and how to maintain rigidity in a structure like this.
 
+<br>
+
+
+**Hood Angle and Trajectory** DONE
+
+The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be a little shallower than in a game like 2020, where the goal was in front of the robot.
+
+Though there are some calculations that can be made, they are complicated, and you can usually estimate an optimal angle pretty well by picking an average distance you're most likely to be shooting a lot from (from game analysis and game strategy) and creating an arc you like that makes it into the goal at a good angle, given that the gamepieces won't be moving fast enough to achieve a straight line. For this game, at a fixed angle of around 45 degrees, you can adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal.
+
+<br>
+
+
+**Wheel Speed, Inertia, Motors, and Ratios** DONE
+
+Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
+
+The moment of inertia of the flywheel system is important for maintaining consistent speeds throughout contact with a gamepiece or multiple gamepieces. It refers to the flywheel's resistance to changes in rotational motion; while adding more mass can take more time to spin up, it decreases the recovery time (the amount of time to reach a target speed immediately following a shot). A balance must be achieved between the moment of inertia and spin-up time (independent of desired wheel speed).
+
+The preferred choice for motors is typically two CIM class brushless motors, which balance torque, speed, and thermal efficiency without needing excessive gearing. The combined torque of your shooter motors is important to maximize to keep spin-up and recovery times low, which is why we're using 2 Kraken X60 motors, the CIM-class brushless motors with the most stall torque today. In 2020, Falcon 500s would have been used instead, as the Kraken X60s were not out yet.
+
+A good gear ratio should allow us to spin up to speed quickly while allowing it to hit the maximum speed needed for a the distance you want to shoot from. The ratio needed is also heavily impacted by the diameter of the wheels; a larger wheel needs less angular speed than a smaller wheel. For instance, a 2-inch wheel at 3000 RPM matches a 4-inch wheel at 1500 RPM in effective speed.
+
+A fantastic tool to help you decide your gear ratio is [https://www.reca.lc/flywheel](https://www.reca.lc/flywheel). Given a set of information, it calculates spin-up time, recovery time, and estimated projectile speed. You can mess with the target shooter rpm, ratio, and flywheel mass (the flywheels they refer to are the brass wheels added to increase the moment of inertia of the system) to try to optimize the spin-up time and recovery time, while keeping the projectile speed above around 12 m/s (for this game). For this shooter, [these calculations](https://www.reca.lc/flywheel?currentLimit=%7B%22s%22%3A40%2C%22u%22%3A%22A%22%7D&efficiency=90&flywheelMomentOfInertia=%7B%22s%22%3A24.688%2C%22u%22%3A%22in2%2Albs%22%7D&flywheelRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&flywheelRatio=%7B%22magnitude%22%3A1%2C%22ratioType%22%3A%22Reduction%22%7D&flywheelWeight=%7B%22s%22%3A3.086%2C%22u%22%3A%22lbs%22%7D&motor=%7B%22quantity%22%3A2%2C%22name%22%3A%22Kraken%20X60%2A%22%7D&motorRatio=%7B%22magnitude%22%3A1.33333%2C%22ratioType%22%3A%22Reduction%22%7D&projectileRadius=%7B%22s%22%3A2%2C%22u%22%3A%22in%22%7D&projectileWeight=%7B%22s%22%3A5%2C%22u%22%3A%22oz%22%7D&shooterMomentOfInertia=%7B%22s%22%3A16.056%2C%22u%22%3A%22in2%2Albs%22%7D&shooterRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&shooterTargetSpeed=%7B%22s%22%3A3000%2C%22u%22%3A%22rpm%22%7D&shooterWeight=%7B%22s%22%3A2.007%2C%22u%22%3A%22lbs%22%7D&useCustomFlywheelMoi=0&useCustomShooterMoi=0) were done and a 4:3 reduction was decided upon for the 4 inch shooter wheels and two 4 inch brass flywheels. 
+
+!!! Note
+    Reductions or upductions are usually done with belts as they can maintain high speeds without maintenance and you can perform the ratio across a distance easily with the ratio between the pulleys. It's important to try to use pulleys larger than 24 teeth and keep the tooth engagement of the pulleys high to maximize energy transfer without wear (this is especially important to consider when using a double-sided belt run).
+
+<br>
+
+
+**Contact Time and Consistency**
+
+With that being said, another thing to keep in mind is contact time. Contact time directly relates to surface speed as the amount of time the game piece is in contact with the wheel, the more energy can be transferred to it. 
+
+Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. This means the wheel can be spun slower to achieve the same launching effect compared to a shorter contact time where higher RPM might be necessary.
+
+In short:
+Contact time is the distance that the game piece stays in contact with a spinning wheel.
+
+When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance, which allows you to spin at slower RPMs, allowing for faster acceleration.
+
+
+
+<br>
+
+
+**Compression and Ball Handling**
+
+Compression plays a large factor into how efficient your shot is and how much energy is transferred into the game piece. If you have too little compression, the game piece might not take all the energy from the flywheel, while too much might introduce unnecessary friction and lose efficiency. As a result, you may need to prototype to find a “perfect” compression number for your shooter or borrow values from other teams. 
+
+There is, however, two factors to compression: how squishy the gamepiece is and how compliant the mechanism moving it is. For feeding a squishy game piece, to maintain contact time
+If you have a squisher the gamepiece the more compression you want to have, while the harder the game piece, the less compression you can have. 
+
+<br>
+
+
 **Shooter Wheels** DONE
 
 The choice of wheel for launching the gamepiece is important, and usually prototyped to see the interaction between the wheels and gamepiece. The aspects to pay the most attention to is the hardness of the wheel surface and the grip between the wheel and gamepiece. The hardness can be a part of the grip, such as in the hardness rating of silicone, but can also be a factor in compression. Generally, since shooter wheels will be spun pretty fast for most games, you want to use wheels that can't be compressed, because they will expand depending on the angular speed and make shots inconsistent. 
 
 The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. For this design, Stealth wheels have been chosen because of their general popularity and accessibility among other choices for shooter wheels.
-
-
-<br>
-
-**Contact Time, Wheel Speed, & Compression**
-
-
-Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. This means the wheel can be spun slower to achieve the same launching effect compared to a shorter contact time where higher RPM might be necessary.
-
-
-
-In short:
-Contact time is the distance that the game piece stays in contact with a spinning wheel.
-Wheel Speed is how fast the wheel spins, in relation to the surface speed of the wheel.
-Compression is how much the game piece is compressed when being launched. 
-Generally speaking, a faster spinning wheel will lead to the game piece being shot farther. As a tradeoff, it will take more time to spin up to that target speed. An important factor to note is that the diameter of the wheel also impacts the speed of the shot. As a rule of thumb, a 2 inch wheel running at 3k rotations per minute will have the same effective speed as a 4-inch wheel running at 1.5k RPM.  
-
-https://www.reca.lc/flywheel?currentLimit=%7B%22s%22%3A40%2C%22u%22%3A%22A%22%7D&efficiency=90&flywheelMomentOfInertia=%7B%22s%22%3A24.688%2C%22u%22%3A%22in2%2Albs%22%7D&flywheelRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&flywheelRatio=%7B%22magnitude%22%3A1%2C%22ratioType%22%3A%22Reduction%22%7D&flywheelWeight=%7B%22s%22%3A3.086%2C%22u%22%3A%22lbs%22%7D&motor=%7B%22quantity%22%3A2%2C%22name%22%3A%22Kraken%20X60%2A%22%7D&motorRatio=%7B%22magnitude%22%3A1.33333%2C%22ratioType%22%3A%22Reduction%22%7D&projectileRadius=%7B%22s%22%3A2%2C%22u%22%3A%22in%22%7D&projectileWeight=%7B%22s%22%3A5%2C%22u%22%3A%22oz%22%7D&shooterMomentOfInertia=%7B%22s%22%3A16.056%2C%22u%22%3A%22in2%2Albs%22%7D&shooterRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&shooterTargetSpeed=%7B%22s%22%3A2500%2C%22u%22%3A%22rpm%22%7D&shooterWeight=%7B%22s%22%3A2.007%2C%22u%22%3A%22lbs%22%7D&useCustomFlywheelMoi=0&useCustomShooterMoi=0
-
-With that being said, another thing to keep in mind is contact time. Contact time directly relates to surface speed as the amount of time the game piece is in contact with the wheel, the more energy can be transferred to it. For example, you may need to run a flywheel at 8k RPM with a low contact time, while you might be able to run it at 3k with a longer contact time.
-
-(show pictures)
-
-When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance, which allows you to spin at slower RPMs, allowing for faster acceleration.
-
-Finally, compression. Compression plays a large factor into how efficient your shot is and how much energy is transferred into the game piece. If you have too little compression, the game piece might not take all the energy from the flywheel,≠= while too much might introduce unnecessary friction and lose efficiency. As a result, you may need to prototype to find a “perfect” compression number for your shooter or borrow values from other teams. 
-
-In short, the squishier the game piece, the more compression you want to have, while the harder the game piece, the less compression you can have. 
-
-<br>
-
-**Hood Angle**
-
-The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. Though there are some calculations that can be made, they are complicated, and you can usually estimate an optimal angle pretty well by picking a average distance you're most likely to be shooting a lot from (from game analysis and game strategy) 
-
-The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be shallower than in a game like 202
-
-
-<br>
-
-**Inertia**
-
-The inertia of the wheel launching system is important for maintaining speed and shot consistency throughout contact with a gamepiece or multiple gamepieces. Inertia is a property of mass that me
 
 <br>
 
@@ -104,25 +117,6 @@ According to initial prototyping for this hypothetical game, the spin of the bal
 
 <br>
 
-**Motor & Ratio Choice**
-
-
-
-Now, we need to power our flywheel shooter. This is done via motors. There are a lot of motors to choose from, in addition to gearing it to a certain speed, what do we choose? In short, the “go to” choice for a flywheel shooter is two CIM class brushless motors. Although we can choose smaller motors and gear them to speed, cim class motors allow us to only need a small amount of gearing, have plenty of torque and speed, and have the thermal mass necessary to not smoke.
-Standardizing on this is a safe bet for success, and reduces any risks you may have with motor choice to near zero.
-That being said, even though we chose motors, we still need to figure out a gear ratio. A good gear ratio should allow us to spin up to speed quickly, while hitting the minimum high speed we need in order to shoot.
-
-This is heavily impacted by the surface speed concept we talked about in the previous section. If we have a larger wheel, we may need less gearing, or need to gear down as we have a higher surface speed. If our wheel is smaller, we may need to gear up to hit the target surface speed. In addition, factors such as wrap and compression may also impact this. 
-
-You may be able to get a best guess estimate through calculators, but prototyping is your best bet. In general, the most you will need to gear your flywheels is either a 3:2 or a 2:3. 
-
-An important thing to note is that tooth count is somewhat important, so it is generally good practice to have a minimum of 24 tooth pulleys.
-
-(Insert example numbers from previous years for people to reference in terms of gearing.)
-
-
-
-<br>
 
 **Friction & Efficiency**
 
