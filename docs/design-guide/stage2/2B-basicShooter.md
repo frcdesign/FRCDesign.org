@@ -1,8 +1,5 @@
 # 2B: Basic Shooter
 
-<span class="left">[< 2A: Full Detail Drivebase](2A-drivebaseFullDetail.md)</span> <span class="right">[2C: Deadaxle Pivot >](2C-deadaxlePivot.md)</span>
-<br>
-
 ## Shooter Mechanisms
 
 In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal provides an easier and more reliable way of scoring for many teams, and through the nature of the game is sometimes even required at higher levels of gameplay, but the capability of scoring in the high goal will make it easier to succeed without depending on other teams in your alliance.
@@ -12,7 +9,7 @@ This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 an
 The most common way of launching a gamepiece is with a flywheel shooter, though other methods exist (catapults and punchers).
 
 <br>
-<figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/mechanism-examples/shooter/1678-2024-shooter.webp" width="47%"></figure>
+<figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/design-guide/stage2-shooter/1678-2024-shooter.webp" width="47%"></figure>
 <center><figcaption>1678's 2022 and 2024 Flywheel Shooters</figcaption></center>
 <br>
 
@@ -23,13 +20,12 @@ Other mechanism examples and deep dives for shooters can be found on the [ball s
 
 ## Project
 
-Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) to copy the basic shooter in your own document. 
+Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) to copy the 2020 basic shooter in your own document. 
 
-[IMAGE]
+<center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
-The gamepiece you are designing for is a 6 inch rubber kickball like the one below.
+The gamepiece you are designing for is the power cell from 2020 Infinite Recharge, a 7 inch diameter foam ball. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and [the AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
 
-<center><img src="\img\design-guide\stage2-shooter\6inKickball.webp" style="width:30%"></center>
 
 ### Concepts
 
@@ -160,10 +156,49 @@ A common way of doing this is two sets of ¼ aluminum plates that are parallel t
 Explain what makes the design simple and robust, and how to maintain rigidity in a structure like this.
 
 ### Master Sketch
-(NOTE TO DAVID: Remember, brief tips/steps for these sections, they should know how to do the actual CAD but it's nice to have a more general checklist of what to do. Be a bit more thorough in master sketches since the master sketches for each mechanism will need different things. Check the OTB intake page for an example.)
+
+1. Use the origin cube featurescript 
+2. Sketch any field elements you intend to interact with. There's no hard alignment, but you intend to shoot into the back goal of the "Power Port," so you must sketch that from a side view using the game manual and field layout drawings for reference. Place it 135 inches away from the origin, as that places the center of your robot 15 inches away from the white "initiation line"
+
+    <center><img src="/img/design-guide/stage2-shooter/Field Elements.webp" width="80%"></center>
+
+3. Sketch a side view of your drivetrain + bumpers.
+4. Sketch a rectangle with your frame perimeter and height limit. This becomes your bounding box on where to design.
+5. Sketch your flywheel location, with the flywheels being 4in diameter.
+6. Sketch another circle concentric with the flywheels, 0.5" smaller in radius. This is to compensate for the compression of the ball.
+7. Sketch another circle, concentric with the other two circles, and make the outside of that circle 7 inches away from the outside of the 3" compression circle. This large circle is to denote the path of the ball and eventually the bent polycarb the ball slides against.
+8. Sketch your hood wheels by adding two 2 inch circles tangent to the outside of the large circle. Dimension them from each other using a belt calculator.
+9. To constrain your shot angle to the field element placement, since the hood is not adjustable, create a line between the 3" compression circle and the last hood wheel, create an arc from the center of that line to the center of the back goal of the Power Port, and make it normal to the first line you made in this step. Adjust the radius of the arc until you are happy with the arc. The arc itself can be adjustable in real life depending on how far away from the goal you are by adjusting the speed of the flywheels.
+
+    <center><img src="/img/design-guide/stage2-shooter/Constrained Shot Angle.webp" width="80%"></center>
+
+10. Decide where you want the motors for the flywheels to go and dimension them away from the flywheel center using a belt calculator.
+11. Now decide how the shooter is being fed. This depends on the amount of space in the rest of the indexing system, but here we're using an S-shape feeder because the balls are being fed from the front and shot from the back. Sketch two concentric circles for the feeder wheels (green compliant wheels), 3" and 2" to account for the compression of the wheels, making the 2" circle concentric to the large ball path circle. Add a final large ball path circle concentric with your feeder wheels and make it tangent to the original 3" compression circle of the flywheels.
+12. Sketch 7" circles representing the power cells to further demonstrate the ball path.
+
+Now make sure all the geometry in the master sketch is fully constrained (black). Constrain any unconstrained geometry arbitrarily if you need to.
+
+<center><img src="/img/design-guide/stage2-shooter/Finished Master Sketch.webp" width="70%"></center>
+
 
 ### Part Studio
 
+!!! Tip
+    If you make a copy of the document, you can use the rollback bar to view the part studio at each step of the process.
+
+1. Model your reference drivetrain cross tubes that the shooter plates will mount onto and make them a closed composite part. These will be 8 inches apart to leave room for the ball to travel between the plates.
+2. Model your main plate on the inside of the cross rails, sketching mounting hardware holes first, including standoffs to hold the bent polycarb following the edge of the large ball path circle concentric to the feeder wheels, then power transmission (motors, belt center-to-center lines, gear pitch circles), then finally the plate outline. Similar to sketching a large gearbox, isn't it? Make sure to extrude it and mirror it for parametric reference for other parts.
+3. Model the additional 1x1 tube used to mount the front of the shooter to the drivetrain. This helps keep it rigid despite potential flywheel vibrations at high speeds.
+4. Model the power transmission components using the contextless belts and shaft generator featurescripts. 
+5. Most pulleys will be inserted in the assembly using MKCAD's configurable HTD pulley part (they can all be 3D-printed), but the Kraken x60 pinion pulley for the feeder wheels will use a SplineXS 3D-printed part adapter. Use MKCAD to derive the base pulley into the part studio, and derive the SplineXS 3dp adapter from [this document](https://cad.onshape.com/documents/1b85e3f2d6e09d4be8bb81ba/v/531d064ba727d665df487f4a/e/e64fbaae49bd0a01559aa66c?renderMode=0&uiState=668f43004852b8565ff6390e). Perform a boolean subtract operation on the pulley with the adapter to create the cutout, checking keep tools to keep the adapter part. Make sure they're transformed into the correct place on the main plate.
+6. Model the polycarb backing with holes in it to attach it to the standoffs with zip ties.
+7. Model the 3D-printed camera mount and camera mount spacers for the Limelight 3
+
+<center><img src="/img/design-guide/stage2-shooter/Shooter Part Studio.webp" width="70%"></center>
+
 ### Assembly
+Create an assembly, insert the parts and origin cube from the part studio (excluding the reference tubes) with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. Try to use [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117).
+
+<center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
 <br>

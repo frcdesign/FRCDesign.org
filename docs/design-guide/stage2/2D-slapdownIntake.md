@@ -14,7 +14,7 @@ The two types of OTB intakes are "slapdown" which consists of a single set of ar
 Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../mechanism-examples/intake/slapdown/index.md) and [4-bar intakes page](../../mechanism-examples/intake/4bar/index.md). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 ## Project
-Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f) to copy the 2022 OTB intake in your own document. 
+Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f) to copy the 2022/2023 OTB intake in your own document. 
 
 <center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
 
@@ -90,7 +90,7 @@ For transferring power to the rollers, because of the plates in the way and how 
 ### Assembly
 Because this subsystem contains a static part and a moving part, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. This makes load times significantly less.
 
-Create an assembly for the static parts, insert the parts from the part studio with the green checkmark, and group them together. Fasten the assembly to the origin by right clicking one of the parts and clicking "Add mate connector to instance origin" and fastening that mate connector to the origin of the assembly. Add the rest of the parts from the part studio, MKCAD, and standard content that don't move with the intake arms.
+Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can.
 
 <center><img src="/img/design-guide/stage2-slapdown/staticAssembly.webp" width="70%"></center>
 
