@@ -24,16 +24,30 @@ Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b570
 
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
-The gamepiece you are designing for is the power cell from 2020 Infinite Recharge, a 7 inch diameter foam ball. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and [the AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
+The gamepiece you are designing for is the power cell from 2020/2021 Infinite Recharge, a 7 inch diameter foam ball. Watch the [1690 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and [the AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
 
 
 ### Concepts
 
-**Shooter Wheels**
+**General Design & Robustness**
+
+How do you make a shooter robust?
+Are there ways to save money while keeping it robust?
+Are there any general design principles that are popular for shooters?
+
+
+Shooter robustness goes a long way to making your shooter more efficent. A robust shooter is quiet, easier to control, and more consistent. As a result, robustness is a must. The idea is that it should so stiff to the point where it doesn’t wobble or move at all. 
+
+A common way of doing this is two sets of ¼ aluminum plates that are parallel to each other. This is one of the most robust ways, but it also tends to be extremely expensive. Other options include using a box tube support for the shooter, while using ¼ polycarbonoate machined plates to hold the bearings. As a note, if you use ¼ polycarbonate, you may need additional large diameter standoffs to keep it stiff.
+
+
+Explain what makes the design simple and robust, and how to maintain rigidity in a structure like this.
+
+**Shooter Wheels** DONE
 
 The choice of wheel for launching the gamepiece is important, and usually prototyped to see the interaction between the wheels and gamepiece. The aspects to pay the most attention to is the hardness of the wheel surface and the grip between the wheel and gamepiece. The hardness can be a part of the grip, such as in the hardness rating of silicone, but can also be a factor in compression. Generally, since shooter wheels will be spun pretty fast for most games, you want to use wheels that can't be compressed, because they will expand depending on the angular speed and make shots inconsistent. 
 
-The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly, and used for this shooter, because of their lack of compression and soft grippy silicone surface. These are both good options for shooter wheels to prototype in a build season.
+The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. For this design, Stealth wheels have been chosen because of their general popularity and accessibility among other choices for shooter wheels.
 
 
 <br>
@@ -49,7 +63,9 @@ In short:
 Contact time is the distance that the game piece stays in contact with a spinning wheel.
 Wheel Speed is how fast the wheel spins, in relation to the surface speed of the wheel.
 Compression is how much the game piece is compressed when being launched. 
-Generally speaking, a faster spinning wheel will lead to the game piece being shot farther. As a tradeoff, it will take more time to spin up to that target speed. An important factor to note is that the diameter of the wheel also impacts the speed of the shot. As a rule of thumb, a 2 inch wheel running at 3k rotations per minute will have the same effective speed as a 4-inch wheel running at 1.5k RPM. 
+Generally speaking, a faster spinning wheel will lead to the game piece being shot farther. As a tradeoff, it will take more time to spin up to that target speed. An important factor to note is that the diameter of the wheel also impacts the speed of the shot. As a rule of thumb, a 2 inch wheel running at 3k rotations per minute will have the same effective speed as a 4-inch wheel running at 1.5k RPM.  
+
+https://www.reca.lc/flywheel?currentLimit=%7B%22s%22%3A40%2C%22u%22%3A%22A%22%7D&efficiency=90&flywheelMomentOfInertia=%7B%22s%22%3A24.688%2C%22u%22%3A%22in2%2Albs%22%7D&flywheelRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&flywheelRatio=%7B%22magnitude%22%3A1%2C%22ratioType%22%3A%22Reduction%22%7D&flywheelWeight=%7B%22s%22%3A3.086%2C%22u%22%3A%22lbs%22%7D&motor=%7B%22quantity%22%3A2%2C%22name%22%3A%22Kraken%20X60%2A%22%7D&motorRatio=%7B%22magnitude%22%3A1.33333%2C%22ratioType%22%3A%22Reduction%22%7D&projectileRadius=%7B%22s%22%3A2%2C%22u%22%3A%22in%22%7D&projectileWeight=%7B%22s%22%3A5%2C%22u%22%3A%22oz%22%7D&shooterMomentOfInertia=%7B%22s%22%3A16.056%2C%22u%22%3A%22in2%2Albs%22%7D&shooterRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&shooterTargetSpeed=%7B%22s%22%3A2500%2C%22u%22%3A%22rpm%22%7D&shooterWeight=%7B%22s%22%3A2.007%2C%22u%22%3A%22lbs%22%7D&useCustomFlywheelMoi=0&useCustomShooterMoi=0
 
 With that being said, another thing to keep in mind is contact time. Contact time directly relates to surface speed as the amount of time the game piece is in contact with the wheel, the more energy can be transferred to it. For example, you may need to run a flywheel at 8k RPM with a low contact time, while you might be able to run it at 3k with a longer contact time.
 
@@ -60,6 +76,15 @@ When you design for contact time, you may find that a larger diameter wheel ofte
 Finally, compression. Compression plays a large factor into how efficient your shot is and how much energy is transferred into the game piece. If you have too little compression, the game piece might not take all the energy from the flywheel,≠= while too much might introduce unnecessary friction and lose efficiency. As a result, you may need to prototype to find a “perfect” compression number for your shooter or borrow values from other teams. 
 
 In short, the squishier the game piece, the more compression you want to have, while the harder the game piece, the less compression you can have. 
+
+<br>
+
+**Hood Angle**
+
+The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. Though there are some calculations that can be made, they are complicated, and you can usually estimate an optimal angle pretty well by picking a average distance you're most likely to be shooting a lot from (from game analysis and game strategy) 
+
+The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be shallower than in a game like 202
+
 
 <br>
 
@@ -134,26 +159,7 @@ In games where there are multiple game pieces, your indexer is separate to organ
 
 <br>
 
-**Hood Angle**
 
-
-
-
-<br>
-
-**General Design & Robustness**
-
-How do you make a shooter robust?
-Are there ways to save money while keeping it robust?
-Are there any general design principles that are popular for shooters?
-
-
-Shooter robustness goes a long way to making your shooter more efficent. A robust shooter is quiet, easier to control, and more consistent. As a result, robustness is a must. The idea is that it should so stiff to the point where it doesn’t wobble or move at all. 
-
-A common way of doing this is two sets of ¼ aluminum plates that are parallel to each other. This is one of the most robust ways, but it also tends to be extremely expensive. Other options include using a box tube support for the shooter, while using ¼ polycarbonoate machined plates to hold the bearings. As a note, if you use ¼ polycarbonate, you may need additional large diameter standoffs to keep it stiff.
-
-
-Explain what makes the design simple and robust, and how to maintain rigidity in a structure like this.
 
 ### Master Sketch
 
@@ -194,7 +200,7 @@ Now make sure all the geometry in the master sketch is fully constrained (black)
 6. Model the polycarb backing with holes in it to attach it to the standoffs with zip ties.
 7. Model the 3D-printed camera mount and camera mount spacers for the Limelight 3
 
-<center><img src="/img/design-guide/stage2-shooter/Shooter Part Studio.webp" width="70%"></center>
+<center><img src="/img/design-guide/stage2-shooter/Shooter Part Studio.webp" width="50%"></center>
 
 ### Assembly
 Create an assembly, insert the parts and origin cube from the part studio (excluding the reference tubes) with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. Try to use [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117).
