@@ -73,39 +73,24 @@ A fantastic tool to help you decide your gear ratio is [https://www.reca.lc/flyw
 <br>
 
 
-**Contact Time and Consistency**
+**Contact Time and Compression (Energy Transfer)** DONE
 
-With that being said, another thing to keep in mind is contact time. Contact time directly relates to surface speed as the amount of time the game piece is in contact with the wheel, the more energy can be transferred to it. 
+Contact time, compression, and shooter wheel material are all important factors for how much energy is transferred from the shooter wheels to the game piece. You may have high shooter wheel speeds, but without contact time, compression, grip, and the energy to transfer (moment of inertia), the game piece won't be able to speed up enough before it leaves the shooter. 
 
-Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. This means the wheel can be spun slower to achieve the same launching effect compared to a shorter contact time where higher RPM might be necessary.
+Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. Of course, this requires there to be a good amount of inertia to keep the speed of the flywheel from dipping too much. When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance
 
-In short:
-Contact time is the distance that the game piece stays in contact with a spinning wheel.
+Compression is a delicate balance; compress it too little and the energy transfer will be bad, but compress it too much and it will introduce unnecessary friction and lose efficiency. Compression usually needs to be prototyped depending on the game piece. For most feeder mechanisms, you can introduce compliance in the mechanism to increase grip and contact time (i.e. using [compliance wheels](https://www.andymark.com/products/4-in-compliant-wheels-options)), but you don't want to use squishy wheels for shooter wheels as they will expand and can even explode when spun faster, making shots inconsistent. 
 
-When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance, which allows you to spin at slower RPMs, allowing for faster acceleration.
+Instead of adding compliance in the mechanism, prototype to find the best combination between compression and shooter wheel material. The grip of the shooter wheels, a result of the hardness rating in the case of silicone, can be maximized to maximize the energy transfer. The grippiest wheels are usually ones with soft silicone or a grippy texture (you can apply grip tape). Tread patterns may even help. 
+
+[Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
+
+For this design, 4" Stealth wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
 
 
-
-<br>
-
-
-**Compression and Ball Handling**
-
-Compression plays a large factor into how efficient your shot is and how much energy is transferred into the game piece. If you have too little compression, the game piece might not take all the energy from the flywheel, while too much might introduce unnecessary friction and lose efficiency. As a result, you may need to prototype to find a “perfect” compression number for your shooter or borrow values from other teams. 
-
-There is, however, two factors to compression: how squishy the gamepiece is and how compliant the mechanism moving it is. For feeding a squishy game piece, to maintain contact time
-If you have a squisher the gamepiece the more compression you want to have, while the harder the game piece, the less compression you can have. 
 
 <br>
 
-
-**Shooter Wheels** DONE
-
-The choice of wheel for launching the gamepiece is important, and usually prototyped to see the interaction between the wheels and gamepiece. The aspects to pay the most attention to is the hardness of the wheel surface and the grip between the wheel and gamepiece. The hardness can be a part of the grip, such as in the hardness rating of silicone, but can also be a factor in compression. Generally, since shooter wheels will be spun pretty fast for most games, you want to use wheels that can't be compressed, because they will expand depending on the angular speed and make shots inconsistent. 
-
-The material of the wheel you choose should depend on prototyping, and should maximize grip without attaching to the gamepiece. [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. For this design, Stealth wheels have been chosen because of their general popularity and accessibility among other choices for shooter wheels.
-
-<br>
 
 **Spin**
 
