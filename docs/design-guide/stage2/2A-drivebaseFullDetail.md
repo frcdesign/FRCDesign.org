@@ -107,7 +107,7 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
 
-<center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:80%"></center>
+<center><img src="\img\design-guide\stage2-drivebase\2a-FDdt.png" style="width:80%"></center>
 <center>*Example of a fully detailed Stage 2A drivetrain.*</center>
 
 ## Battery Mounting
@@ -121,7 +121,7 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 
 A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
 
-<center><img src="\img\design-guide\stage2a\batt\battStrap.webp" style="width:70%"></center>
+<center><img src="\img\design-guide\stage2-drivebase\batt\battStrap.webp" style="width:70%"></center>
 <center>*Securely strapped battery in a robot. (Photo Credit: FRC 1538) *</center>
 
 Below we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
@@ -133,49 +133,49 @@ Below we've provided one option for mounting the battery. In this design, the ba
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
         <figcaption>0. Finished battery holder w/ mounting holes, strap cutout in bellypan, and strap.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s1.webp" style="width:100%">
         <figcaption>1. Layout of battery and battery mount plate. To fit the battery with 1/16” radius fillets on the inner corners, the cutout should be around 6.705” x 7.225”.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s2.webp" style="width:100%">
         <figcaption>2. 1/8" thick aluminum is a good option for this plate. Also add a 3/8" diameter spacers to connect to the bellypan.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s3.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s3.webp" style="width:100%">
         <figcaption>3. Add the mounting holes and cut out for the battery strap on the bellypan. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s4.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s4.webp" style="width:100%">
         <figcaption>4. Optionally model the battery strap.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s5.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s5.webp" style="width:100%">
         <figcaption>5. Optionally pocket the battery holder. 0.2" wide ribs are recommended. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/batt/batt1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
         <figcaption>6. Insert the battery holder, spacer, and battery into the assembly. Don't forget to organize your feature tree, name your parts, assign part materials, and organize your assembly file tree.</figcaption>
     </figure>
 </div>
@@ -195,7 +195,7 @@ Below we've provided one option for mounting the battery. In this design, the ba
 
 To make wiring the robot and later inspecting the wiring easier, enough space should be left around each electrical component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams typically try to mount their electronics on the bellypan, permitted there is space. 
 
-<center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
+<center><img src="\img\design-guide\stage2-drivebase\elec\elecPic.png" style="width:80%"></center>
 <center>*Layout of various different electronic components on a bellypan.*</center>
 
 A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
@@ -227,28 +227,28 @@ One option for mounting the Power Distribution Hub (PDH), main breaker, and Robo
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/elec/elec1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
         <figcaption>0. Finished mounted electronics.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/elec/elec1s1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/elec/elec1s1.webp" style="width:100%">
         <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/elec/elec1s2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/elec/elec1s2.webp" style="width:100%">
         <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/elec/elec1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
         <figcaption>3. Insert the electronics from the MKCad parts library and fasten them. The Pigeon IMU can be fastened to the RoboRIO.</figcaption>
     </figure>
 </div>
@@ -267,7 +267,7 @@ It is recommended to use the Simplified electronics models to improve assembly p
 
 Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
 
-<center><img src="\img\design-guide\stage2a\elec\RSL.webp" style="width:80%"></center>
+<center><img src="\img\design-guide\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
 <center>*RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.*</center>
 
 Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
@@ -285,42 +285,42 @@ If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s0.webp" style="width:100%">
         <figcaption>0. Pocketed bellypan. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s1.webp" style="width:100%">
         <figcaption>1. Draw two perpendicular lines that are offset 45 degrees from vertical. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s2.webp" style="width:100%">
         <figcaption>2. Linear pattern the lines until they completely cover the bellypan. These will be the ribs for the bellypan.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s3.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s3.webp" style="width:100%">
         <figcaption>3. Offset the outline of the bellypan 0.5”.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s4.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s4.webp" style="width:100%">
         <figcaption>4.  Connect any islands that might result from mounting holes being too far from a rib. One way to fix this is to add a slot connecting the island to a rib.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/pocket/pocket1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/pocket/pocket1s0.webp" style="width:100%">
         <figcaption>5. Use a pocketing Featurescript to pocket the bellypan. Recommended settings are 0.15” wide ribs and 3/16” tool radius.</figcaption>
     </figure>
 </div>
@@ -347,56 +347,56 @@ To begin, you'll need to model the bumpers. It is recommended to place the bumpe
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
         <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s1.webp" style="width:100%">
         <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s2.webp" style="width:100%">
         <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s3.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s3.webp" style="width:100%">
         <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s4.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s4.webp" style="width:100%">
         <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s5.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s5.webp" style="width:100%">
         <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s6.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s6.webp" style="width:100%">
         <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper1s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
         <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
     </figure>
 </div>
@@ -420,7 +420,7 @@ Similar to battery mounting, good bumper mounting is often overlooked. While a r
 
 In the provided example, the threaded stud bumper mounting system is implemented. You can learn more about bumpers and different bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
 
-<center><img src="\img\design-guide\stage2a\bumpers\studMount.png" style="width:60%"></center>
+<center><img src="\img\design-guide\stage2-drivebase\bumpers\studMount.png" style="width:60%"></center>
 <center>*Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.*</center>
 
 <center>**Sample Bumper Mount Modeling Slides**</center>
@@ -430,42 +430,42 @@ In the provided example, the threaded stud bumper mounting system is implemented
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
         <figcaption>0. Finished bumper mounts. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s1.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s1.webp" style="width:100%">
         <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s2.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s2.webp" style="width:100%">
         <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s3.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s3.webp" style="width:100%">
         <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s4.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s4.webp" style="width:100%">
         <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage2a/bumpers/bumper2s0.webp" style="width:100%">
+        <img src="/img/design-guide/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
         <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
     </figure>
 </div>
