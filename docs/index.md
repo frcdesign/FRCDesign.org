@@ -60,8 +60,3 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 The most important part of the design process is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events. 
 
 <left>[![](./img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)</left>
-
-## Cadathon
-**Here for the Cadathon? Join the discord and check the Cadathon Page for more details.**
-
-[Cadathon](#){ .md-button .md-button--primary }
