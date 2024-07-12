@@ -1,3 +1,8 @@
+---
+title: "Design Challenge #1: Drivebase"
+description: Design challenges are offered to help students practice their CAD skills and develop their own designs.
+---
+
 # Design Challenge #1: Swerve Drivebase
 
 Welcome to the first design challenge! We are going to start with a swerve drivebase, the foundation of your robot. We have two different levels of challenges, beginner and advanced. It is recommended to complete the beginner challenge first before going on to the advanced version. The advanced version is the same as the beginner challenge, with a few additional things added on.

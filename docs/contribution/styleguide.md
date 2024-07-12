@@ -1,3 +1,8 @@
+---
+title: Style Guide
+description: The style guide for contribution according to the goals of the website.
+---
+
 # Style Guide 
 
 *Kindly borrowed and modified with permission from the [gm0 style guide](https://gm0.org/en/latest/docs/contributing/style-guide.html)*

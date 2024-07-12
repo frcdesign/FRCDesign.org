@@ -1,3 +1,8 @@
+---
+title: Methods of Contributing
+description: A guide to publically contributing to the website, including setting up an IDE and local preview for editing.
+---
+
 # Methods of Contributing
 
 ## Public Contribution
