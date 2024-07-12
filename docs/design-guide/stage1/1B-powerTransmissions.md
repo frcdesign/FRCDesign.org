@@ -537,7 +537,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
     </figure>
   </div>
@@ -558,7 +561,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s8.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s8.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
     </figure>
   </div>
@@ -572,7 +578,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s10.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s10.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>10. Insert the part studio into the assembly and fix only the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
@@ -690,8 +699,11 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1b/belt/beltCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/belt/beltCad3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
     </figure>
 </div>
 
@@ -764,8 +776,11 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1b/chain/chainCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/chain/chainCad3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
     </figure>
 </div>
 <!-- Next and previous buttons -->
