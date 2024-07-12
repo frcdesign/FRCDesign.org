@@ -64,9 +64,19 @@ Learn more about the 2022 game: [Rapid React](https://www.youtube.com/watch?v=Lg
 
 ## <p style="text-align: center;"> See this Shooter in Action Here </p>
 
-|||
-|:-:|:-:|
-|[<figure>![1678 Behind the Bumpers](../../img/mechanism-examples/shooter/1678-shooter/1678btb.webp){height=200% width=200%}<figcaption>1678 Behind the Bumpers</figcaption><figure>](https://youtu.be/ijiDMVvGc_E?feature=shared&t=361)|[<figure>![1678 Clean Match Vid](../../img/mechanism-examples/shooter/1678-shooter/1678matchvid22.webp){height=55% width=55%}<figcaption>1678 Match Video</figcaption></figure>](https://www.youtube.com/watch?v=2KTDGhm7Sjc)|
+!!! Tip
+    Click the images to watch the videos.
 
+<a href=https://youtu.be/ijiDMVvGc_E?feature=shared&t=361> <img align="left" src="/img/mechanism-examples/shooter/1678-shooter/1678btb.webp" style="width:45%"></a> <a href=https://www.youtube.com/watch?v=2KTDGhm7Sjc><img align="right" src=/img/mechanism-examples/shooter/1678-shooter/1678matchvid22.webp style="width:50%"></a>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>

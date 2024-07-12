@@ -1,3 +1,8 @@
+---
+title: Feature Tree Best Practices
+description: The best practices for part studio feature trees in each mechanism document.
+---
+
 # Feature Tree Best Practices
 
 In general, every part studio feature tree should start with a derive command, pulling down the relevant mastersketch. This is what you will build on. 
