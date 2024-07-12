@@ -3,10 +3,14 @@ This category includes fundamentals about engineering design in FRC, deep dives 
 
 Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (follow the [contribution guide](../contribution/methodsOfContributing.md).)
 
+## Strategic Design
+
+The [**Strategic Design page**](strategicDesign.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
+
 ## Structure
 This section is all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, tools and machines, etc.
 
-(WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, as well as a guide on lightening.
+(WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, how to design for manufacturing, and a guide on lightening.
 
 (Not Started) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
 
@@ -33,6 +37,8 @@ This section is all about the transmission of power to enable different kinds of
 
 [**Drivetrain**](mechanisms/drivetrain.md): A guide on drivetrains, drivebase rigidity, wheelbase location, and electrical mounting.
 
+[**Bumpers**](mechanisms/bumpers.md): A guide on bumper materials, construction, and mounting solutions, with several references.
+
 (Not Started) [**Elevators**](mechanisms/elevators.md): A guide on elevators, including different types of rigging, COTS parts, gearboxes, and use cases.
 
 **More mechanisms coming eventually**
@@ -43,8 +49,6 @@ Write-ups on important topics for FRC design that aren't necessarily fundamental
 (Not Started) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
 
 (Not Started) [**Chain Tensioning Solutions**](design-writeups/chainTensioning.md): A number of different innovative ways to tension a chain to reduce backlash in a mechanism in a compact way.
-
-(Not Started) [**Bumper Mounting Solutions**](design-writeups/bumperMounting.md): An overview of different bumper mounting solutions implemented by different teams or sold by different companies.
 
 (Not Started) [**Springs and Shocks**](design-writeups/springs-shocks.md): Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
 
