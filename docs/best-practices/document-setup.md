@@ -1,3 +1,8 @@
+---
+title: Document Setup
+description: The best practices for document setup for an FRC robot.
+---
+
 # Document Setup
 
 In General, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 

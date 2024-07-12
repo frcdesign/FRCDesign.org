@@ -1,3 +1,8 @@
+---
+title: Best Practices
+description: Best practices for modeling a robot in Onshape to encourage a top-down design process and keep loading times low.
+---
+
 # CAD Best Practices: Why?
 
 In this guide, we document best practices for Onshape CAD and design standards for FRC. 

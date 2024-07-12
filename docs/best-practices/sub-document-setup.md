@@ -1,3 +1,8 @@
+---
+title: Best Practices
+description: The best practices to follow with organizing your mechanism documents in Onshape.
+---
+
 # Sub-Document Setup
 
 Within each document, you should have a part studio and assembly attached to it. The part studio should contain **all parts that need to be manufactured by your team**. This could include fully custom plates, shafts cut to length, modified COTs parts, etc. However, unmodified COTs parts should be imported directly into the corresponding assembly - no modification inside the part studio is required.

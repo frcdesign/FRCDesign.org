@@ -1,3 +1,8 @@
+---
+title: Master Sketch Best Practices
+description: The best practices to follow when creating master sketches.
+---
+
 # Master Sketch Best Practices
 
 Mastersketches (layout sketches) drive the core geometry of the entire robot.
