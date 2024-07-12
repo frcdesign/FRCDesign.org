@@ -96,49 +96,50 @@ So far the models you have created are all structural components, but this is on
 
 In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
 
-Below are some examples of power transmissions found in robots to achieve a range of different tasks.
+!!! Example
+    Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
-<center>**Power Transmission Examples**</center>
-<!-- Slideshow container -->
-  <div class="slideshow-container">
+    <center>**Power Transmission Examples**</center>
+    <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div id="slide1" class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/intakeRollers.webp" style="width:80%">
-          <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
-      </figure>
-  </div>
+      <!-- Full-width images with number and caption text -->
+      <div id="slide1" class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/intakeRollers.webp" style="width:80%">
+              <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
-          <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
+              <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/ampArm.webp" style="width:60%">
-          <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/ampArm.webp" style="width:60%">
+              <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/armGearbox.webp" style="width:75%">
-          <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/armGearbox.webp" style="width:75%">
+              <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
+          </figure>
+      </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
-  <!-- The dots/circles -->
-  <div class="dotsContainer" style="text-align:center">
-  <!-- Dots will be generated here -->
-  </div>
-</div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+      <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+      <!-- The dots/circles -->
+      <div class="dotsContainer" style="text-align:center">
+      <!-- Dots will be generated here -->
+      </div>
+    </div>
 
 In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
@@ -796,8 +797,9 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Fundamentals page](/design-fundamentals/) also dives deeper into this topic.
 
-<center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
-<figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+!!! Example
+    <center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
+    <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
 
 #### Exercise 3: Belt and Gear Transmission
 

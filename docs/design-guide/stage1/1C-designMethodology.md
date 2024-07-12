@@ -115,8 +115,9 @@ Top-down design offers a holistic approach, allowing for better system integrati
 
 To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
 
-<center><img src="\img\design-guide\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
-<center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
+!!! Example
+    <center><img src="\img\design-guide\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
+    <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
 
 ## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
