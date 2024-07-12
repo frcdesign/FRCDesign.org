@@ -171,14 +171,20 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout1.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtTopLayout1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>4. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the “Top” button on the view cube to get a top view.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout2.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtTopLayout2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
     </figure>
   </div>
@@ -199,7 +205,10 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtTopLayout5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtTopLayout5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>8. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
     </figure>
   </div>
@@ -263,14 +272,20 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtParts4.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtParts4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtParts5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtParts5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
     </figure>
   </div>
@@ -291,21 +306,30 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtParts8.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtParts8.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>8. Next, use the <code>Linear Pattern</code> sketch tool to pattern the holes along the edge.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtParts9.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtParts9.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>9. Use the <code>Circular Pattern</code> sketch tool to pattern the holes about the origin onto all four edges.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtParts10.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtParts10.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
     </figure>
   </div>
@@ -358,7 +382,10 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy1.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAssy1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then fasten the origin cube to the origin of the assembly.</figcaption>
     </figure>
   </div>
@@ -375,7 +402,10 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy3.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAssy3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
     </figure>
   </div>
@@ -392,7 +422,10 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtAssy5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAssy5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Use the <code>Replicate </code> assembly tool to replicate the rivet and rivet mate onto all matching geometry on the bottom face of the bellypan</figcaption>
     </figure>
   </div>
@@ -447,7 +480,10 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd2.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAdd2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
     </figure>
   </div>
@@ -461,7 +497,10 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1c/SwerveBase/dtAdd4.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1c/SwerveBase/dtAdd4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>4. Edit the replicate feature to add rivets to the gusset. </figcaption>
     </figure>
   </div>
