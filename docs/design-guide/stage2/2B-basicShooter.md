@@ -31,22 +31,18 @@ The gamepiece you are designing for is the power cell from 2020/2021 Infinite Re
 
 **General Design & Robustness**
 
-How do you make a shooter robust?
-Are there ways to save money while keeping it robust?
-Are there any general design principles that are popular for shooters?
+Just like most mechanisms you will design for a robot, rigidity is extremely important. For shooters, high speeds from the flywheel could cause shaking and shot inconsistencies if the shooter construction isn't rigid enough. Aluminum is usually plenty rigid without much added stuff, but can be heavy and expensive.
 
+This shooter uses two plates of 1/4" polycarbonate for the sides (both for bearing support and extra rigidity). Comparable aluminum sides would have to be 1/4" (unless separate plates are used to add thickness for bearing support) and it would have to be lightened a lot, which could potentially tear the balls.
 
-Shooter robustness goes a long way to making your shooter more efficent. A robust shooter is quiet, easier to control, and more consistent. As a result, robustness is a must. The idea is that it should so stiff to the point where it doesn’t wobble or move at all. 
+Polycarb is used for this shooter design because it is light, any game pieces can be easily seen through it (which is important during a match when the driveteam needs to be able to see the state of all game pieces inside the robot), it is a smooth surface for balls to move across, and it can be made into a rigid structure with the right amount of support. 
 
-A common way of doing this is two sets of ¼ aluminum plates that are parallel to each other. This is one of the most robust ways, but it also tends to be extremely expensive. Other options include using a box tube support for the shooter, while using ¼ polycarbonoate machined plates to hold the bearings. As a note, if you use ¼ polycarbonate, you may need additional large diameter standoffs to keep it stiff.
-
-
-Explain what makes the design simple and robust, and how to maintain rigidity in a structure like this.
+To make this shooter rigid, the two large plates are supported by both the bottom cross rails (attached to the rest of the chassis and bellypan) and 1x1 box tube supports attached to the back frame rail. The plates are kept apart from each other on both sides by standoffs (the ramp supports and the camera support). Spacers on a shaft with shaft rention can also help maintain the distance between the plates. In this way, the position of each part of the shooter is heavily constrained and kept rigid.
 
 <br>
 
 
-**Hood Angle and Trajectory** DONE
+**Hood Angle and Trajectory**
 
 The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be a little shallower than in a game like 2020, where the goal was in front of the robot.
 
@@ -55,7 +51,7 @@ Though there are some calculations that can be made, they are complicated, and y
 <br>
 
 
-**Wheel Speed, Inertia, Motors, and Ratios** DONE
+**Wheel Speed, Inertia, Motors, and Ratios** [Change ratio and recalc explanation :pray:]
 
 Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
 
@@ -73,7 +69,7 @@ A fantastic tool to help you decide your gear ratio is [https://www.reca.lc/flyw
 <br>
 
 
-**Contact Time and Compression (Energy Transfer)** DONE
+**Contact Time and Compression (Energy Transfer)**
 
 Contact time, compression, and shooter wheel material are all important factors for how much energy is transferred from the shooter wheels to the game piece. You may have high shooter wheel speeds, but without contact time, compression, grip, and the energy to transfer (moment of inertia), the game piece won't be able to speed up enough before it leaves the shooter. 
 
@@ -87,8 +83,6 @@ Instead of adding compliance in the mechanism, prototype to find the best combin
 
 For this design, 4" Stealth wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
 
-
-
 <br>
 
 
@@ -96,48 +90,29 @@ For this design, 4" Stealth wheels have been chosen because of their grip and la
 
 Depending on the gamepiece and field element into which you're launching it, spin may be crucial. In games like 2013 and 2024 with disc-shaped game pieces, adding spin stabilizes the gamepiece through gyroscopic motion. You can add backspin or topspin to spherical objects to help it stay inside the goal, like in 2017, or you may want to mitigate spin or change spin depending on the distance from the goal, like in 2022, because backspin would cause the balls to bounce or roll out of the goal. Sometimes, the spin won't matter, such as in games like 2014 or 2020. 
 
-According to initial prototyping for this hypothetical game, the spin of the ball isn't a factor in shot consistency or accuracy. This design uses flywheels only on the bottom to launch the ball, with the ball compressing and sliding against a bent sheet of polycarbonate. This setup naturally adds backspin due to the angular direction of the shooter wheels and the friction and compression between the ball, the wheels, and the polycarbonate. To counteract backspin, wheels driven in the opposite direction on the opposite side of the ball from the launching wheels could be added, a technique used in many shooters in 2022.
-
-[Add Image]
+According to initial prototyping for this hypothetical game, adding backspin helps with shot stabilization and accuracy. While you could have only the flywheel, with the friction against the polycarb causing backspin, this design uses both flywheel and hood wheels (spinning in the opposite direction) to launch the ball with more consistent force and direction. They are mechanically linked with a 1:1 ratio with a pair of gears to flip the direction, but because the hood wheels are 2" diameter, their surface speed is half as fast as the surface speed of the flywheels, causing the ball to leave with the desired backspin. Mechanically linking the flywheels and hood wheels means the speed of both sets of wheels can be carefully controlled with only one motor, simplifying the software and ensuring accuracy.
 
 <br>
 
 
-**Friction & Efficiency**
+**Friction & Efficiency** (in the flywheel system)
 
-Friction & Efficiency
-Why is friction and efficiency important?
-How does it impact your shot speed and consistency?
-What are some ways you can help fix this?
-The last concept we’ll be talking about, but one of the most important concepts is friction and efficiency. This is how much friction is in your system powering your flywheel, and how efficient it is. Friction takes energy and turns it into heat. This is a problem, as we want all of the energy going into the flywheel. If we have too much friction, or its too inefficient, we may encounter issues where our flywheel wont go up to speed, and our motors burn out. As a result, we may have inconsistent shots, take a long time to go up to speed, or your motors may heat up.
-We can fix this by focusing on reducing the amount of friction, there are a couple of different sources, but here are the major concepts:
-Belts
-For flywheels, you want to make sure you do a belt subtraction for efficiency. a -0.02 CC subtraction usually is enough, but you may need more depending on how much stackup you have.
-Spacers
-Spacers are important to reduce the friction between your pulleys and your bearings. Although bearings already reduce a large amount of friction, this is still important. You can see
-Bent Shafts
-Yes, you can bend shafts, and a small amount of bending will go a long way. In general, this comes from two different sources: Overly cantilevered shafts with tight belts, or misaligned plates. You want to try to keep your pulleys as close as you can to a bearing, and avoid layering too many plates. 
-Tolerance Stackup
-Similar to the bent shafts issue, but slightly different. Tolerance stackup commonly is caused by having too much going on that’s connected with each other. An example is too many belt runs that are all connected. For this shooter, we only have 1 belt run to a parralel plate, which reduces these issues.
+Friction both causes inefficiencies (by taking energy and turning it into heat) and adds unnecessary load to the motor. Some amount of friction in the system is unavoidable, but if there's too much, the flywheel may have problems getting up to speed (causing inconsistencies with shots) and the motors may heat up and even burn out.
 
+Friction in the system can be minimized, however, by targeting each source. 
 
-<br>
+1. Belt tension can create inefficiencies and extra load on the system, so sometimes subtracting a little bit (0.01") from the center-to-center distance can make the system more efficient.
 
-**Indexing/Feeding**
+2. Reduce bearing friction by using bearings for rounded hex (13.75mm ID) and using spacers to reduce the friction between them and other components on the shaft (such as pulleys). Also on't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
 
-Include storage of balls leading to the size of the shooter and indexing
+3. Bent shafts can reduce efficiency significantly. Shafts in a system can bend from two main reasons (besides being hit): overly cantilevered shafts with tight belts or misaligned fixed bearings. Try to keep your pulleys as close to a bearing as possible and avoid over-constraining shafts.
 
-Why is indexing important?
-How does the type of game piece impact how you index the game piece?
-Why is feeding important?
-How is it different from indexing and how does it relate? 
-Include storage of balls leading to the size of the shooter and indexing
-Finally, we go to indexing. Indexing has many similar robustness/friction fundamentals as shooters, but indexer and feeding are important in their own way, allowing you to consistently feed the game piece into the shooter at a set speed.
-The feeder feeds the game piece into the shooter, while the indexer “indexes” and organizes the game pieces to be fed one at a time consistently. This being said, your feeder and indexer can be the same thing (as shown by this example), or they can be separate. 
-In games where there are multiple game pieces, your indexer is separate to organize the game pieces and have it organized to feed one at a time. In these situations your indexer may be geared slower in order to avoid the game pieces from hitting each other in the air. At the same time, you might have a separate feeder, which is both utilized to block the game peices from entering the shooter before the shooter goes to speed, while also is used to help accelerate the game piece before entering the shooter. This “pre” acceleration allows for a slightly more consistent shot.
+4. "Tolerance stackup" can happen when too much is connected to each other in a power transmission and the tolerances build up and put friction and tension on the system. You can reduce these issues by either adding more precision to your fabrication process or by designing to reduce connections to various different pieces. Here, all of the power transmission for the flywheels is run through two identical plates kept perfectly rigid, helping reduce tolerance stackup.
+
+!!! Note
+    These tips for reducing friction can be applied to all power transmissions
 
 <br>
-
 
 
 ### Master Sketch
