@@ -2,10 +2,6 @@
 
 Welcome to the first design challenge! We are going to start with a swerve drivebase, the foundation of your robot. We have two different levels of challenges, beginner and advanced. It is recommended to complete the beginner challenge first before going on to the advanced version. The advanced version is the same as the beginner challenge, with a few additional things added on.
 
-!!! warning 
-    **The deadline for this design challenge is 11:59pm PST 05/04/24, any submissions after this deadline are subjected to late submission scoring outlined [here](../index.md)**
-
-
 === "Beginner Challenge"
 
     * You need to choose a COTS swerve module
