@@ -1,4 +1,3 @@
-
 <style>
 * {box-sizing:border-box}
 
@@ -9,11 +8,10 @@
   margin: auto;
 }
 
+/* Hide the images by default */
 .mySlides {
-
-    display:none;
+  display: none;
 }
-
 #slide1 {display:block}
 
 /* Next & previous buttons */
@@ -102,7 +100,7 @@ So far, you've worked on CAD fundamentals through courses and FRC-relevant exerc
 
 Even if you've already CADed a drivetrain the past, this guide serves as an excellent introduction to the **top-down master sketch** design methodology.
 
-<center><img src="\img\design-guide\stage1c\FullAssy.png" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1c\FullAssy.webp" style="width:100%"></center>
 <center>*Swerve drivebase with pre-modeled mechanism*</center>
 
 
@@ -124,7 +122,7 @@ A drivebase is the mobile platform on which all our other mechanisms are designe
 
 A swerve drivebase is composed of four *swerve modules*. Each module has 2 motors: 1 for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. There are many other COTS options available, each with their own advantages and tradeoffs. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivebase/) page.
 
-<center><img src="\img\design-guide\stage1c\SwerveBase\DriveAssy.png" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1c\SwerveBase\DriveAssy.webp" style="width:100%"></center>
 <center>*Stage 1C swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
@@ -451,7 +449,7 @@ The `Replicate` tool, which was introduced in Stage 1A exercise 5, is a very pow
 
 ??? Video "Match Individual Edges for Replicate"
     <video width="1920" controls>
-      <source src="/img/design-guide/stage1c/replicateExample.mp4" type="video/mp4">
+      <source src="/img/design-guide/stage1c/replicateExample.webm" type="video/mp4">
     </video>
 
 **Adding More Components**
@@ -551,7 +549,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1c/TopLevel/topL1.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/TopLevel/topL1.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
@@ -561,7 +559,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1c/TopLevel/topL2.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1c/TopLevel/topL2.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
