@@ -1,6 +1,7 @@
 ---
 title: FRCDesign.org
-
+social:
+    cards: false
 ---
 <meta property="og:title" content="FRCDesign.org">
 <meta property="og:description" content="A comprehensive learning guide and technical reference for FRC design using Onshape.">
