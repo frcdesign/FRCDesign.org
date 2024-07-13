@@ -113,8 +113,15 @@ nav:
       - Master Sketch Best Practices: best-practices/mastersketch-setup.md
       - Feature Tree Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
-
-  - Resources:
+    
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
+    - Week 3 | Ball Shooter: design-challenge/challenges/week3.md
+    - Week 4 | Intake: design-challenge/challenges/week4.md
+    - Week 5 | Tilt Shift: design-challenge/challenges/week5.md
+  - Other Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
     - Strategic Design: resources/strategicDesignResources.md
