@@ -1,15 +1,40 @@
-<meta property="og:title" content="Cascade Elevator CAD Examples">
+---
+title: Cascade Elevator Examples
+social:
+  cards: false
+---
+<meta property="og:title" content="Cascade Elevator Examples">
 <meta property="og:description" content="Our collection of Cascade Elevators">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/cascade/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/cascade/3stage.webp">
+<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/elevator/cascade/">
+<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/elevator/cascade/3stage.webp">
 <meta name="theme-color" content="#4CAE4F">
 <meta name="twitter:card" content="summary_large_image">
 
+
+
 # Cascade Elevators
-Cascade elevators can be spotted from distance due to their satisfying equal motion between stages and fast extension times.
+Cascade elevators help move other mechanisms vertically. The first stage is driven directly and the subsequent stages are linked with loops of line, causing all the stages to extend up an equal amount. This is the "cascading" motion. They are generally faster than continuous elevators but the typical design doesn't allow anything to pass through the stages.
 
-Here is our collection of cascade elevators:
+<div class="grid cards" markdown>
 
-- [Clean 2 Stage Elevator](examples/2stage.md)
-- [Clean 3 Stage Elevator](examples/3stage.md)
+-   <center>[![](../../../img/mechanism-examples/elevator/cascade/2stage.webp){width=63%}](2stage.md)</center>
+
+    ---
+
+    Clean 2-stage cascade elevator with a plate carriage
+    
+    [:octicons-arrow-right-24: 2-Stage Cascade Elevator](2stage.md)
+
+-   <center>[![](../../../img/mechanism-examples/elevator/cascade/3stage.webp){width=80%}](3stage.md)</center>
+
+    ---
+
+    Clean 3-stage cascade elevator with a plate carriage
+    
+    [:octicons-arrow-right-24: 3-Stage Cascade Elevator](3stage.md)
+
+</div>
+
+
+<br>

@@ -54,3 +54,5 @@ Adhere to brand standards when possible.
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
 
 ## Thanks to GM0 for the style guide reference
+
+<br>

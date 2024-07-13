@@ -1,43 +1,62 @@
+---
+title: FRCDesign.org
+
+---
 <meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="A comprehensive guide to all things FRC Design">
+<meta property="og:description" content="A comprehensive learning guide and technical reference for FRC design using Onshape.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.frcdesign.org/">
 <meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
 <meta name="theme-color" content="#4CAE4F">
 
-
 # Welcome to FRCDesign.org
+FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape.
 
-The purpose of this site is to provide the knowledge and guidance necessary to learn FRC Design to a high level. This guide is heavily integrated with the DDS Discord server, so we recommend joining the server.
+<div class="grid cards" markdown>
 
-<center>[![](./img/discord-link.webp){width=40%}](https://discord.gg/jHXTdNjYCg)</center>
+-   :material-book-open-variant:{ .lg .middle } __The Design Guide__
 
-## Stage Roles
-The discord server has different roles for each stage you are going through in the design guide. This helps the community figure out how to tailor their feedback to you and helps create a progression path. For the best experience, we recommend selecting one of the beginner stage roles to fit where you are in the journey.
+    ---
 
-### **Beginner Designer**
+    A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
 
-- Stage 0: You have 0 design or CAD experience, and are setting up Onshape and getting introduced to CAD
-- Stage 1: You have set up Onshape and have started learning sketching and part design and are working on your first projects.
-- Stage 2: You have started familiarizing yourself with most of the CAD tools used for design, as well as common FRC design practices. You start to design your first mechanisms out of context and get introduced to the fundamental mechanisms.
-- Stage 3: You have familiarized yourself with the program and several mechanisms and have started learning how to make efficient mastersketches and the top-down design workflow for a full robot. You start integrating everything you know into two final "projects" which integrate multiple concepts into a robot.
+    [:octicons-arrow-right-24: Design Guide](design-guide/index.md)
 
-By this point, you should have a rough understanding of the COTS ecosystems, how robots go together, and an onshape workflow, but aren’t fluent.
+-   :material-bookshelf:{ .lg .middle } __Design Fundamentals__
 
-### **Intermediate Designer** *(Stage 4)*
-Feel free to select this if you are an intermediate designer! For veteran designers joining DDS, you probably fall under this category if you’ve designed a robot or two for the season. For those going through the guide, you can “graduate” to this role once you finish Stage 3. 
+    ---
 
-In this stage, you're focusing on improving your design quality, workflow, and speed through practice and design review. You'll be working on open ended projects while getting feedback on integration, design practices, and CAD quality and learning the nuances between designs to adapt to your own team.
+    Dives into the concepts necessary in order to design a competitive robot. Unlike the design guide, this is primarily a reference wiki. 
 
-### **Advanced Designer**
-Through application only (or David’s discretion) you can apply to get the advanced designer role. Advanced designers have mastered the Onshape workflow and/or understand FRC design to a high level. 
+    [:octicons-arrow-right-24: Design Fundamentals](design-fundamentals/index.md)
 
-## Core Members
-Once every two weeks, 4 members will be selected as “Core” members. This will be offered to members who are consistently kind, helpful, and make DDS a better place. 
+-   :material-book:{ .lg .middle } __Mechanism Examples__
 
-## The Process
-- Learn enough CAD basics to get started designing
-- Learn FRC design fundamentals
-- Practice those skills by cloning mechanisms
-- Get feedback on those mechanisms
-- Repeat the last two steps until you are comfortable making your own stuff.
+    ---
+
+    Unlike other mechanism example collections, these are hand picked for specific concepts, with detailed breakdowns behind the design.
+
+    [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md)
+
+-   :material-trophy:{ .lg .middle } __Design Challenges__
+
+    ---
+
+    We run weekly design challenges! (Think of them as mini Cadathons.) Try them here.
+
+    [:octicons-arrow-right-24: Challenges](design-challenge/index.md)
+
+</div>
+
+## What is FRCDesign.org?
+
+1. FRCDesign.org is not just a resource collection. Though it includes many resources, almost all of the website's content has been written specifically for the website to align with our goals.
+2. Everything is taught from a competitive focus. Designing competitive robots helps inspire students and teach both engineering skills and life skills. It's also generally more fun when the robot performs well instead of breaking.
+2. We don't try to teach everything. The design guide is built around teaching a single CAD software (Onshape), and we encourage a specific design style which is optimized for the majority of mid-resource teams. 
+3. We try to include the small details that most guides forget. The concept of an "arm" is almost ubiquitous, but the concepts behind designing a pivot that works every match and never breaks? That's not so much common knowledge and much more important.
+4. Design practices are important! We try to document and teach [the best practices possible]() so you can design faster during the season.  
+
+## Discord
+The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events. 
+
+<center>[![](./img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)</center>

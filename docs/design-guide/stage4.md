@@ -1,20 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # Stage 4: Intermediate
-
-<span class="left">[< 3C: 973 2023 Robot](../stage3/3C-973-2023.md)</span> <span class="right">[Design Guide Overview >](../index.md)</span>
-<br>
 
 Welcome to stage 4, practically the last stage! In this stage, you'll focus on mastering the design fundamentals to the point where they are natural. This means learning how to optimize your CAD to be more parametric, mastering best practices and workflow that makes your CAD faster and more easily collaborated on, and learning more about engineering design and strategic design. There aren't any specific steps or projects in this stage; it's a lot more open-ended, and can be seen more as a "choose your own adventure".
 
@@ -32,3 +16,4 @@ Welcome to stage 4, practically the last stage! In this stage, you'll focus on m
 
 4. **Learn strategic design.** This means learning how to set priorities and requirements for your robot. This means basing your design off of your game analysis, those priorities, and your team's capabilities. This means learning how to design simply but effectively. This means learning how to structure a build season schedule and tradeoffs based off of your priorities. There are [many resources for this](../resources/strategicDesignResources.md), including Karthik's Effective FIRST Strategies presentation, Team 1678's training material, and Team 2910's Pop-Up Presentations. Combine this with good engineering design knowledge and CAD skills and most any team can design and build an effective robot and do very well in competitions.
 
+<br>
