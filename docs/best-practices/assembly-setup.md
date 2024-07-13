@@ -127,6 +127,6 @@ Other things to keep in mind:
 
 See a well-organized assembly here: 
 
-<center><img src="/img/best-practices/assembly.png"></center>
+<center><img src="/img/best-practices/assembly.webp"></center>
 
 <br>
