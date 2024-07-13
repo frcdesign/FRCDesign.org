@@ -15,6 +15,6 @@ On that note, naming your parts according to a convention is extremely beneficia
 
 See an example of a well-organized part studio here:
 
-<center><img src="/img/best-practices/part-studio-2.webp"></center>
+<center><img src="/img/best-practices/part-studio-2.png"></center>
 
 <br>

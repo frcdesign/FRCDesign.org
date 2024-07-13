@@ -12,7 +12,7 @@ There are many different kinds of CAD, usually designed for specific industries 
 
 Engineers mostly use parametric feature-based CAD, which includes programs like Autodesk Inventor and Fusion, SolidWorks, and Onshape. These programs can be designed around different workflows, but usually have similar features. It's important to learn the workflow for a specific program; often, they aren't exactly transferrable.
 
-<img src="/img/design-guide/stage0/introcad/formula.webp" style="width:75%">
+<img src="/img/design-guide/stage0/introcad/formula.jpg" style="width:75%">
 
 ## Why Use CAD?
 
@@ -33,7 +33,7 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 
 7. CAD skills are used in the real world all the time, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
-<img src="/img/design-guide/stage0/introcad/bread.webp" style="width:75%">
+<img src="/img/design-guide/stage0/introcad/bread.png" style="width:75%">
 
 ## Why Onshape for FRC?
 
@@ -53,7 +53,7 @@ Onshape has many features that benefit the FIRST Robotics design process and wor
 
 There are also several community-made tools to help FRC teams, including an extensive part and assembly library called MKCAD and many useful custom features that can save a lot of time. 
 
-<img src="/img/design-guide/stage0/introcad/mkcad.webp" style="width:60%">
+<img src="/img/design-guide/stage0/introcad/mkcad.png" style="width:60%">
 
 ## Other Softwares?
 

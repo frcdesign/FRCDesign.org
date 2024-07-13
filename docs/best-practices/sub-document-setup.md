@@ -19,6 +19,6 @@ Note how there's only 1 part studio and 1 assembly for this subsystem, as the pa
 
 Note how a subassembly is used to assemble several parts that can then be imported as a single item in the top-level subsystem assembly.
 
-<center><img src="/img/best-practices/subassembly.webp"></center>
+<center><img src="/img/best-practices/subassembly.png"></center>
 
 <br>
