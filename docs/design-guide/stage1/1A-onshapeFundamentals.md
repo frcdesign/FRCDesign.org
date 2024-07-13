@@ -114,7 +114,7 @@ Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documen
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
     <center>
       <video width="1920" controls>
-        <source src="\img\design-guide\stage1a\1a-tabs.mp4" type="video/mp4">
+        <source src="\img\design-guide\stage1a\1a-tabs.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
     <center> *Accessing the Tab Manager.* </center>
@@ -178,7 +178,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s3.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
@@ -188,7 +188,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s4.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
@@ -198,7 +198,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s5.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
@@ -374,7 +374,7 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
 !!! Example
     <center>
       <video width="1920" controls>
-        <source src="\img\design-guide\stage1a\1a-fasten.mp4" type="video/mp4">
+        <source src="\img\design-guide\stage1a\1a-fasten.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
     </center>
@@ -448,7 +448,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s7.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>7. Insert the parts into the assembly by directly clicking on the green checkmark. Then, <code>Group</code> all the parts together. Finally, <code>fix</code> the bottom tube in place. </figcaption>
@@ -458,7 +458,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s8.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>8. Copy and paste the gussets four times. Then, use the <code>Fasten</code> mate to attach the gussets to the tube. </figcaption>
@@ -468,7 +468,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s9.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s9.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>9. Some gussets may need to have their <code>Fasten</code> mate reoriented in order to properly line up. </figcaption>
@@ -539,7 +539,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e4/e4s4.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e4/e4s4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Use the <code>Linear Pattern</code> sketch tool to pattern the mounting holes. </figcaption>
@@ -563,7 +563,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e4/e4s7.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1a/exercises/e4/e4s7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>7. Use the <code>Spacer</code> Featurescript to add a 0.5" diameter spacer. Use the `Up to Face` end condition to make the spacer match the tube width. </figcaption>
