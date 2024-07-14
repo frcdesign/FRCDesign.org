@@ -1,3 +1,8 @@
+---
+title: Assembly Best Practices
+description: The best practices for inserting parts into assemblies and organizing them.
+---
+
 # Assembly Best Practices
 
 Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
@@ -122,6 +127,6 @@ Other things to keep in mind:
 
 See a well-organized assembly here: 
 
-<center><img src="/img/best-practices/assembly.png"></center>
+<center><img src="/img/best-practices/assembly.webp"></center>
 
 <br>
