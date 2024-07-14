@@ -1,0 +1,48 @@
+size: { width: 1200, height: 630}
+layers:
+  # Background color
+  - background:
+      color: '#54AC58'
+
+  # Large Book
+  - size: { width: 600, height: 545}
+    origin: end center
+    offset: { x: 0, y: 0}
+    background:
+      image: layouts/largeBook.png
+    
+
+  # Description Box
+  - size: { width: 760, height: 153}
+    offset: { x: 30, y: 30}
+    background:
+      image: layouts/descriptionBox.png
+    origin: start bottom
+  
+
+  # Site Description
+  - size: { width: 600, height: 80 }
+    origin: start bottom
+    offset: { x: 90, y: 67 }
+    typography:
+      content: A guide and technical reference for FRC design using Onshape.
+      align: start center
+      color: white
+      line:
+        amount: 2
+        height: 1.25
+      font:
+        family: Roboto
+        style: regular
+
+  # Site Name
+  - size: { width: 550, height: 95 }
+    offset: { x: 60, y: 170 }
+    typography:
+      content: "{{ config.site_name }}" 
+      align: start center
+      color: white
+      font:
+        family: Roboto
+        style: Bold
+

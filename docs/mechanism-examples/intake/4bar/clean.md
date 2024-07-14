@@ -1,13 +1,6 @@
 ---
-social:
-  cards: false
+image: docs/img/mechanism-examples/intake/4bar/clean.webp
 ---
-<meta property="og:title" content="Intake CAD Example: Clean 4 Bar">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/intake/4bar/clean/">
-<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/intake/4bar/clean.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Andrew's Clean 4 Bar
 

@@ -228,22 +228,21 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: default_page
+      debug: false
   - search
+  - meta
 
     
-  - group:
+  - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
       - git-committers:
           repository: davidsdesignserver/FRCDesign.org
           branch: main
       - privacy
+      - optimize
       - git-revision-date-localized:
           enable_creation_date: true
-
-  - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - meta

@@ -1,14 +1,6 @@
 ---
-title: Continuous Elevator Examples
-social:
-  cards: false
+image: docs/img/mechanism-examples/elevator/continuous/belt.webp
 ---
-<meta property="og:title" content="Continuous Elevator Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/elevator/continuous/">
-<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/elevator/continuous/belt.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Continuous Elevators
 Continuous elevators are great when you need a lot of extension distance, high stage overlap, or elevator passthrough.

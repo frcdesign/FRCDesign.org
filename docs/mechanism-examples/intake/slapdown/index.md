@@ -1,14 +1,7 @@
 ---
 title: Slapdown Intake Examples
-social:
-  cards: false
+image: docs/img/mechanism-examples/intake/slapdown/6423crescendo.webp
 ---
-<meta property="og:title" content="Slapdown Intake Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/intake/slapdown/">
-<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/intake/slapdown/6423crecendo.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Slapdown Intakes
 
