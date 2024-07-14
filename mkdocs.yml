@@ -229,7 +229,9 @@ plugins:
       width: 90%
       shadow: true
   - social:
-      cards_layout: default/invert
+      cards_layout_dir: layouts
+      cards_layout: default_page
+      debug: false
   - search
   - meta
 
