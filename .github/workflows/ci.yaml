@@ -42,7 +42,6 @@ jobs:
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
           CI: true
-          INSIDERS: true
         run: |
           mkdocs build
           mkdocs gh-deploy --force

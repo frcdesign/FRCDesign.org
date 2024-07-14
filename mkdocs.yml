@@ -233,7 +233,6 @@ plugins:
       cards_layout: default_page
       cards_layout_options:
         font_family: Roboto
-      debug: false
   - search
   - meta
 
