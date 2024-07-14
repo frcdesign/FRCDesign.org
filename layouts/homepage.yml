@@ -33,7 +33,7 @@ layers:
         height: 1.25
       font:
         family: Roboto
-        style: regular
+        style: Regular
 
   # Site Name
   - size: { width: 550, height: 95 }
