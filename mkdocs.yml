@@ -231,7 +231,10 @@ plugins:
   - social:
       cards_layout_dir: layouts
       cards_layout: default_page
+      cards_layout_options:
+          font_family: Roboto
   - search
+  - meta
 
     
   - group: # These plugins only run when the site is deployed
@@ -243,9 +246,4 @@ plugins:
       - privacy
       - git-revision-date-localized:
           enable_creation_date: true
-
-    - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - meta
+      - optimize
