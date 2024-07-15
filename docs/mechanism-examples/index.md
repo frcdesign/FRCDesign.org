@@ -1,12 +1,6 @@
 ---
 title: Mechanism Examples
 ---
-<meta property="og:title" content="Mechanism Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/">
-<meta property="og:description" content="Our collection of various mechanism examples and deep dives">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Mechanism Examples
 
