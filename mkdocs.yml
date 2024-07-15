@@ -228,9 +228,7 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: default_page
+  - social
   - search
   - meta
 
