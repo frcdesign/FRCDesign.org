@@ -1,5 +1,5 @@
 ---
-image: docs/img/mechanism-examples/elevator/continuous/belt.webp
+image: docs/img/mechanism-examples/elevator/continuous/nautilus.webp
 ---
 
 # Continuous Elevators

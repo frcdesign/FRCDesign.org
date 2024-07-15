@@ -96,8 +96,8 @@ layers:
     origin: end bottom
 
   # Mechanism Image
-  - size: { width: 400, height: 250}
+  - size: { width: 278, height: 430}
     origin: end
-    offset: { x: 30, y: 30 }
+    offset: { x: 80, y: 40 }
     background:
       image: "{{page.meta.image | default('layouts/transparentImage.png')}}"

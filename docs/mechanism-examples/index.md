@@ -24,7 +24,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/index.md)
 
--   <center>[![](../img/mechanism-examples/shooter/small.webp){width=70%}](shooter/index.md)</center>
+-   <center>[![](../img/mechanism-examples/shooter/small.webp)](shooter/index.md)</center>
 
     ---
 
@@ -49,7 +49,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/continuous/example.webp)](elevator/continuous/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/continuous/nautilus.webp)](elevator/continuous/index.md)</center>
 
     ---
 
@@ -58,7 +58,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Continuous Elevators](elevator/continuous/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/cascade/example.webp){width=80%}](elevator/cascade/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/cascade/3stage.webp)](elevator/cascade/index.md)</center>
 
     ---
 
