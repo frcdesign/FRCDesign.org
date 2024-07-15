@@ -54,7 +54,7 @@ layers:
 
   # Logo
   - size: { width: 144, height: 144 }
-    offset: { x: 64, y: 32 }
+    offset: { x: 64, y: 64 }
     icon:
       value: "{{ config.theme.icon.logo }}"
       color: white
