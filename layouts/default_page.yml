@@ -40,7 +40,7 @@ layers:
     origin: end bottom
 
   # Bubbles
-  - size: { width: 750, height: 384}
+  - size: { width: 675, height: 346}
     offset: { x: 0, y: 0}
     background:
       image: layouts/bubbles.png
