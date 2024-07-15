@@ -228,7 +228,12 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: default_page
+      cards_layout_options:
+        font_family: Roboto
+      enabled: true
   - search
   - meta
 
