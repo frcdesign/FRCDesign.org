@@ -231,9 +231,7 @@ plugins:
   - social:
       cards_layout_dir: layouts
       cards_layout: default_page
-      enabled: true
   - search
-  - meta
 
     
   - group: # These plugins only run when the site is deployed
@@ -243,6 +241,11 @@ plugins:
           repository: davidsdesignserver/FRCDesign.org
           branch: main
       - privacy
-      - optimize
       - git-revision-date-localized:
           enable_creation_date: true
+
+    - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - meta
