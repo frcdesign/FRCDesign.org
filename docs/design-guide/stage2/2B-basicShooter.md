@@ -4,13 +4,13 @@
 
 In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal provides an easier and more reliable way of scoring for many teams, and through the nature of the game is sometimes even required at higher levels of gameplay, but the capability of scoring in the high goal will make it easier to succeed without depending on other teams in your alliance.
 
-This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but were mostly accomplished with mechanisms like elevators instead. Most games have you launch balls, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
+This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but were mostly accomplished by placing the gamepieces instead. Most games have you launch balls, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
 
-The most common way of launching a gamepiece is with a flywheel shooter, though other methods exist (catapults and punchers).
+The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults and punchers, are also effective but often more challenging to execute with the required accuracy.
 
 <br>
 <figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/design-guide/stage2-shooter/1678-2024-shooter.webp" width="47%"></figure>
-<center><figcaption>1678's 2022 and 2024 Flywheel Shooters</figcaption></center>
+<center><figcaption>1678's 2022 and 2024 Flywheel Shooters. The 2022 shooter launched 9" diameter inflated balls and the 2024 shooter launched 14" diameter foam rings.</figcaption></center>
 <br>
 
 [This video](https://youtu.be/QZKDnRvLhrA) is a good slow-motion look at how a ball gets propelled out of a shooter.
@@ -24,7 +24,7 @@ Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b570
 
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
-The gamepiece you are designing for is the power cell from 2020/2021 Infinite Recharge, a 7 inch diameter foam ball. Watch the [1690 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and [the AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
+The gamepiece you are designing for is the power cell from 2020/2021 Infinite Recharge, a 7 inch diameter foam ball. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [1690's 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
 
 
 ### Concepts
@@ -42,7 +42,7 @@ To make this shooter rigid, the two large plates are supported by both the botto
 <br>
 
 
-**Hood Angle and Trajectory**
+**Exit Angle and Trajectory**
 
 The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be a little shallower than in a game like 2020, where the goal was in front of the robot.
 
@@ -103,7 +103,7 @@ Friction in the system can be minimized, however, by targeting each source.
 
 1. Belt tension can create inefficiencies and extra load on the system, so sometimes subtracting a little bit (0.01") from the center-to-center distance can make the system more efficient.
 
-2. Reduce bearing friction by using bearings for rounded hex (13.75mm ID) and using spacers to reduce the friction between them and other components on the shaft (such as pulleys). Also on't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
+2. Reduce bearing friction by using rounded hex shafts and the associated bearings for rounded hex (13.75mm ID). Rounded hex shafts themselves don't reduce friction, but they allow the use of round bearings, which do reduce friction between the bearing and the shaft. Make sure to use spacers to reduce the friction between them and other components on the shaft (such as pulleys). Also don't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
 
 3. Bent shafts can reduce efficiency significantly. Shafts in a system can bend from two main reasons (besides being hit): overly cantilevered shafts with tight belts or misaligned fixed bearings. Try to keep your pulleys as close to a bearing as possible and avoid over-constraining shafts.
 
