@@ -107,8 +107,8 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
 
-<center><img src="\img\design-guide\stage2-drivebase\2a-FDdt.png" style="width:80%"></center>
-<center>*Example of a fully detailed Stage 2A drivetrain.*</center>
+<center><img src="\img\design-guide\stage2a\2a-FDdt.png" style="width:80%"></center>
+<figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption>
 
 ## Battery Mounting
 Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86) wrong. 
@@ -121,8 +121,9 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 
 A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
 
-<center><img src="\img\design-guide\stage2-drivebase\batt\battStrap.webp" style="width:70%"></center>
-<center>*Securely strapped battery in a robot. (Photo Credit: FRC 1538) *</center>
+!!! Example
+    <center><img src="\img\design-guide\stage2a\batt\battStrap.webp" style="width:70%"></center>
+    <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
 
 Below we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
 
@@ -195,8 +196,9 @@ Below we've provided one option for mounting the battery. In this design, the ba
 
 To make wiring the robot and later inspecting the wiring easier, enough space should be left around each electrical component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams typically try to mount their electronics on the bellypan, permitted there is space. 
 
-<center><img src="\img\design-guide\stage2-drivebase\elec\elecPic.png" style="width:80%"></center>
-<center>*Layout of various different electronic components on a bellypan.*</center>
+!!! Example
+    <center><img src="\img\design-guide\stage2a\elec\elecPic.png" style="width:80%"></center>
+    <figcaption>Example layout of various different electronic components on a bellypan.</figcaption>
 
 A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
 
@@ -267,8 +269,8 @@ It is recommended to use the Simplified electronics models to improve assembly p
 
 Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
 
-<center><img src="\img\design-guide\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
-<center>*RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.*</center>
+<center><img src="\img\design-guide\stage2a\elec\RSL.webp" style="width:80%"></center>
+<figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption>
 
 Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
 
@@ -420,8 +422,8 @@ Similar to battery mounting, good bumper mounting is often overlooked. While a r
 
 In the provided example, the threaded stud bumper mounting system is implemented. You can learn more about bumpers and different bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
 
-<center><img src="\img\design-guide\stage2-drivebase\bumpers\studMount.png" style="width:60%"></center>
-<center>*Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.*</center>
+<center><img src="\img\design-guide\stage2a\bumpers\studMount.png" style="width:60%"></center>
+<figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.</figcaption>
 
 <center>**Sample Bumper Mount Modeling Slides**</center>
 <!-- Slideshow container -->

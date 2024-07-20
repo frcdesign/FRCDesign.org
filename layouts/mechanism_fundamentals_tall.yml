@@ -1,0 +1,103 @@
+definitions:
+
+  - &page_title_with_site_name >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}
+
+  - &page_description >-
+    {{ page.meta.get("description", config.site_description) or "" }}
+
+tags:
+
+  og:type: website
+  og:title: *page_title_with_site_name
+  og:description: *page_description
+  og:image: "{{ image.url }}"
+  og:image:type: "{{ image.type }}"
+  og:image:width: "{{ image.width }}"
+  og:image:height: "{{ image.height }}"
+  og:url: "{{ page.canonical_url }}"
+
+  twitter:card: summary_large_image
+  twitter:title: *page_title_with_site_name
+  twitter:description: *page_description
+  twitter:image: "{{ image.url }}"
+  
+size: { width: 1200, height: 630}
+layers:
+  # Background color
+  - background:
+      color: '#54AC58'
+
+  # Wavy Border
+  - size: { width: 1200, height: 630}
+    origin: end center
+    offset: { x: 0, y: 0}
+    background:
+      image: layouts/wavyBorder.png
+
+  # Description Box
+  - size: { width: 760, height: 153}
+    offset: { x: 30, y: 30}
+    background:
+      image: layouts/descriptionBox.png
+    origin: start bottom
+
+  # Page Title
+  - size: { width: 700, height: 185 }
+    offset: { x: 62, y: 120 }
+    typography:
+      content: "{{ page.title }}" 
+      align: start center
+      color: white
+      line:
+        amount: 2
+        height: 1.25
+      font:
+        family: Roboto
+        style: Bold
+
+  # Page Description
+  - size: { width: 645, height: 110 }
+    origin: start bottom
+    offset: { x: 90, y: 53 }
+    typography:
+      content: "{{ page.meta.description | default(config.site_description) }}" 
+      align: start center
+      color: white
+      line:
+        amount: 3
+        height: 1.25
+      font:
+        family: Roboto
+        style: Regular
+
+  # Site Name
+  - size: { width: 500, height: 55 }
+    origin: start bottom
+    offset: { x: 85, y: 190 }
+    typography:
+      content: "{{ config.site_name }}" 
+      align: start
+      color: white
+      font:
+        family: Roboto
+        style: Bold
+
+  # Logo
+  - size: { width: 100, height: 100 }
+    offset: { x: 64, y: 32 }
+    icon:
+      value: "{{ config.theme.icon.logo }}"
+      color: white
+    origin: end bottom
+
+  # Mechanism Image
+  - size: { width: 278, height: 430}
+    origin: end
+    offset: { x: 80, y: 40 }
+    background:
+      image: "{{page.meta.image | default('layouts/transparentImage.png')}}"

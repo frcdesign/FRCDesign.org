@@ -28,7 +28,6 @@ jobs:
         env: 
           INSIDERS: ${{ secrets.INSIDERS }}
         run: |
-          pip install mkdocs-material
           pip install git+https://${INSIDERS}@github.com/davidsdesignserver/mkdocs-material-insiders.git
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
@@ -42,7 +41,6 @@ jobs:
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
           CI: true
-          INSIDERS: true
         run: |
           mkdocs build
           mkdocs gh-deploy --force

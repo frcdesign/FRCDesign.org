@@ -1,12 +1,6 @@
 ---
 title: Mechanism Examples
 ---
-<meta property="og:title" content="Mechanism Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/">
-<meta property="og:description" content="Our collection of various mechanism examples and deep dives">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Mechanism Examples
 
@@ -30,7 +24,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/index.md)
 
--   <center>[![](../img/mechanism-examples/shooter/small.webp){width=70%}](shooter/index.md)</center>
+-   <center>[![](../img/mechanism-examples/shooter/small.webp)](shooter/index.md)</center>
 
     ---
 
@@ -55,7 +49,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/continuous/example.webp)](elevator/continuous/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/continuous/nautilus.webp)](elevator/continuous/index.md)</center>
 
     ---
 
@@ -64,7 +58,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Continuous Elevators](elevator/continuous/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/cascade/example.webp){width=80%}](elevator/cascade/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/cascade/3stage.webp)](elevator/cascade/index.md)</center>
 
     ---
 

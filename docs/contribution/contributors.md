@@ -1,8 +1,13 @@
+---
+title: Contributors
+description: A list of contributors to FRCDesign.org
+---
+
 # Contributors
 
 FRCDesign.org would not happen without the wonderful work of these people!
 
-## Manual Writers
+## Website Writers
 - David
 - Kelly
 - Astro
@@ -14,6 +19,9 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Vaughn
 - Jonathan Mi
 
+## External Contributors
+- Evan
+
 ## Additional Input
 - Nick Aarestad
 - Trisha
@@ -23,5 +31,7 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Jeremy
 - Sarah
 
+## Social Card Design
+- Ben
 
 <br>

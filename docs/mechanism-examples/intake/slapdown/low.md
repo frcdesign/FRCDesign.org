@@ -1,13 +1,6 @@
 ---
-social:
-  cards: false
+image: docs/img/mechanism-examples/intake/slapdown/low.webp
 ---
-<meta property="og:title" content="Intake CAD Example: Low Pivot Slapdown">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/intake/slapdown/low/">
-<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/intake/slapdown/low.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Low Pivot Slapdown Intake
 

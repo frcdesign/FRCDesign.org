@@ -1,9 +1,6 @@
-<meta property="og:title" content="Pivot CAD Example: 6328 2023 A-Frame Pivot">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/shooter/examples/6328pivot/">
-<!--meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/shooter/1678-shooter/citrus-shooter.webp"-->
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
+---
+image: docs/img/mechanism-examples/pivots/6328/6328.webp
+---
 
 <style>
 

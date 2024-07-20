@@ -1,13 +1,6 @@
 ---
-social:
-  cards: false
+image: docs/img/mechanism-examples/elevator/continuous/cable.webp
 ---
-<meta property="og:title" content="Elevator CAD Example: External Cable Driven Continuous">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/elevator/continuous/cable/">
-<meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/elevator/continuous/cable.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # External Cable Driven Elevator
 

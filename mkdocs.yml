@@ -176,6 +176,9 @@ nav:
     - design-challenge/index.md
     - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
     - Week 2 | Gearboxes: design-challenge/challenges/week2.md
+    - Week 3 | Ball Shooter: design-challenge/challenges/week3.md
+    - Week 4 | Intake: design-challenge/challenges/week4.md
+    - Week 5 | Tilt Shift: design-challenge/challenges/week5.md
 
   - Other Resources:
     - resources/index.md
@@ -225,11 +228,17 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: default_page
+      cards_layout_options:
+          font_family: Roboto
+      debug: false
   - search
+  - meta
 
     
-  - group:
+  - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
       - git-committers:
@@ -238,9 +247,4 @@ plugins:
       - privacy
       - git-revision-date-localized:
           enable_creation_date: true
-
-  - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - meta
+      - optimize
