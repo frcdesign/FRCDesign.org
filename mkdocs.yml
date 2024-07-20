@@ -235,7 +235,6 @@ plugins:
           font_family: Roboto
       debug: false
   - search
-  - meta
 
     
   - group: # These plugins only run when the site is deployed
@@ -248,3 +247,8 @@ plugins:
       - git-revision-date-localized:
           enable_creation_date: true
       - optimize
+    
+  - group: 
+      enabled: !ENV INSIDERS
+      plugins:
+        - meta
