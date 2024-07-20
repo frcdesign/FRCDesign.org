@@ -20,33 +20,35 @@ Other mechanism examples and deep dives for shooters can be found on the [ball s
 
 ## Project
 
-Reference [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) to copy the 2020 basic shooter in your own document. 
+In this stage, you will be designing a shooter to launc the Power Cell from the 2020/2021 Infinite Recharge game. The Power Cell is a 7 inch diameter foam ball. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [1690's 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications.
+
+The shooter will be designed to shoot the Power Cells into the high goal from just behind the white "Initiation Line."
 
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
-The gamepiece you are designing for is the power cell from 2020/2021 Infinite Recharge, a 7 inch diameter foam ball. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [1690's 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications. Let's say you've decided to shoot from just behind the white "initiation line," aiming into the smaller back goal.
+The reference is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). Model a copy of it in your own document. Necessary concepts and a basic guide are both provided below.
 
 
 ### Concepts
 
-**General Design & Robustness**
+**Rigidity**
 
 Just like most mechanisms you will design for a robot, rigidity is extremely important. For shooters, high speeds from the flywheel could cause shaking and shot inconsistencies if the shooter construction isn't rigid enough. Aluminum is usually plenty rigid without much added stuff, but can be heavy and expensive.
 
-This shooter uses two plates of 1/4" polycarbonate for the sides (both for bearing support and extra rigidity). Comparable aluminum sides would have to be 1/4" (unless separate plates are used to add thickness for bearing support) and it would have to be lightened a lot, which could potentially tear the balls.
+This shooter uses two plates of 1/4" polycarbonate for the sides (both for bearing support and extra rigidity). Polycarb is used for this shooter design because it is light, any game pieces can be easily seen through it (which is important during a match when the driveteam needs to be able to see the state of all game pieces inside the robot), it is a smooth surface for balls to move across, and it can be made into a rigid structure with the right amount of support. While 1/8" aluminum plates could be comparable, they would require pocketing to be light enough, and you lose out on the benefits of transparency.
 
-Polycarb is used for this shooter design because it is light, any game pieces can be easily seen through it (which is important during a match when the driveteam needs to be able to see the state of all game pieces inside the robot), it is a smooth surface for balls to move across, and it can be made into a rigid structure with the right amount of support. 
-
-To make this shooter rigid, the two large plates are supported by both the bottom cross rails (attached to the rest of the chassis and bellypan) and 1x1 box tube supports attached to the back frame rail. The plates are kept apart from each other on both sides by standoffs (the ramp supports and the camera support). Spacers on a shaft with shaft rention can also help maintain the distance between the plates. In this way, the position of each part of the shooter is heavily constrained and kept rigid.
+Bottom cross rails and vertical tube supports are used to create the frame. The plates are kept apart from each other on both sides by standoffs (the ramp supports and the camera support). Spacers on a shaft with shaft retention can also help maintain the distance between the plates. In this way, the position of each part of the shooter is heavily constrained and kept rigid.
 
 <br>
 
 
 **Exit Angle and Trajectory**
 
-The hood angle of a flywheel shooter for balls, if the hood isn't adjustable, should always be dependent on the field element that is being shot into and the range you're shooting from. The angle in 2017 and 2022, since the balls had to be scored from above and from relatively close, could be a little shallower than in a game like 2020, where the goal was in front of the robot.
+For a flywheel shooter, the ball trajectory is determined by the flywheel speed and the exit angle. While flywheel speed can be easily varied, varying the exit angle requires a fairly complex mechanism. For this shooter, you will be using a fixed exit angle, which is determined by hood. The hood is the backing that guides the ball out of the shooter.
 
-Though there are some calculations that can be made, they are complicated, and you can usually estimate an optimal angle pretty well by picking an average distance you're most likely to be shooting a lot from (from game analysis and game strategy) and creating an arc you like that makes it into the goal at a good angle, given that the gamepieces won't be moving fast enough to achieve a straight line. For this game, at a fixed angle of around 45 degrees, you can adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal.
+Though there are some calculations that can be made, they are complicated. The exit angle can be estimated pretty easily, and should be dependent on the field element that is being shot into and the range you're shooting from. If you pick an average distance you're most likely to be shooting a lot from (from game analysis and game strategy), you can create an arc to the goal and estimate the exit angle to get the desired arc.
+
+For this game, at a fixed angle of around 45 degrees, you can effectively adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal.
 
 <br>
 
