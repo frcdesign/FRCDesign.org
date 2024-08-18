@@ -1,3 +1,8 @@
+---
+title: Master Sketch Best Practices
+description: The best practices to follow when creating master sketches.
+---
+
 # Master Sketch Best Practices
 
 Mastersketches (layout sketches) drive the core geometry of the entire robot.
@@ -26,7 +31,7 @@ In general, mastersketching is an art that can require some practice to get the 
 
 See an example of a well set-up mastersketches part studio here:
 
-<center><img src="/img/best-practices/mastersketch.png"></center>
+<center><img src="/img/best-practices/mastersketch.webp"></center>
 
 And a presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing)
 

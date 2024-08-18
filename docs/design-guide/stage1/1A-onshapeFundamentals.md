@@ -112,7 +112,11 @@ Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documen
 
 !!! Tip
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
-    <center><img src="\img\design-guide\stage1a\1a-tabs.gif" width="100%"> </center>
+    <center>
+      <video width="1920" controls>
+        <source src="\img\design-guide\stage1a\1a-tabs.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
     <center> *Accessing the Tab Manager.* </center>
 
     
@@ -173,21 +177,30 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s3.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s3.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s4.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s4.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e1/e1s5.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
     </figure>
   </div>
@@ -351,18 +364,23 @@ The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-
 
 As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
-- **`Group`**: Restricts the relative motion between a group of parts.
-- **`Fix`**: Locks a part in place within the assembly. (Not recommended as it's not parametric.)
+- **`Group`**: Restricts the relative motion between a group of parts
+- **`Fix`**: Locks a part in place within the assembly (not recommended as it's not parametric)
 - **`Mates`**: Tools to constrain the degrees of freedom between parts using "mate connectors." These connectors are automatically generated or manually created coordinate systems on parts. You can align the axes and apply offsets in any direction or rotation. Different mates constrain different degrees of freedom. Here are three commonly used mates:
-    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole.
-    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors, like an arm pivot (e.g. an arm pivot).
-    - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator).
+    - `Fasten`: Prevents any movement between two mate connectors, such as a bolt in a hole
+    - `Revolute`: Allows rotational movement about the z-axis between two mate connectors (e.g. an arm pivot)
+    - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator)
 
 !!! Example
-    <center><img src="\img\design-guide\stage1a\1a-fasten.gif"width="90%"></center>
+    <center>
+      <video width="1920" controls>
+        <source src="\img\design-guide\stage1a\1a-fasten.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </center>
     <center> *Example of a fasten mate.* </center>
 
-The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined [here](../../best-practices/assembly-setup.md).
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md) page.
 
 
 ### Exercise 3: Box Tube Frame
@@ -429,21 +447,30 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s7.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s7.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>7. Insert the parts into the assembly by directly clicking on the green checkmark. Then, <code>Group</code> all the parts together. Finally, <code>fix</code> the bottom tube in place. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s8.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s8.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>8. Copy and paste the gussets four times. Then, use the <code>Fasten</code> mate to attach the gussets to the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s9.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e3/e3s9.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>9. Some gussets may need to have their <code>Fasten</code> mate reoriented in order to properly line up. </figcaption>
     </figure>
   </div>
@@ -511,7 +538,10 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s4.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e4/e4s4.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>4. Use the <code>Linear Pattern</code> sketch tool to pattern the mounting holes. </figcaption>
     </figure>
   </div>
@@ -532,7 +562,10 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s7.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1a/exercises/e4/e4s7.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>7. Use the <code>Spacer</code> Featurescript to add a 0.5" diameter spacer. Use the `Up to Face` end condition to make the spacer match the tube width. </figcaption>
     </figure>
   </div>

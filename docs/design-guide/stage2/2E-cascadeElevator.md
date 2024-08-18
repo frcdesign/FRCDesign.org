@@ -1,20 +1,4 @@
-<style>
-.right{
-    float:right;
-}
-.center{
-    text-align:center;
-}
-
-.left{
-    float:left;
-}
-</style>
-
 # 2H: Cascade Elevator
-
-<span class="left">[< 2G: Four-bar Linkage](2G-fourbarLinkage.md)</span> <span class="right">[Stage 3A >](../stage3/3A-multidoc&MS.md)</span>
-<br>
 
 ## Cascade Elevator
 Elevators pop up nearly every year in FRC. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either Cascade or Continuous. This page will be covering the design of a Cascade elevator due to their currently being much better COTS part availability for making a Cascade elevator.
@@ -114,9 +98,3 @@ There are many methods to power the base stage, but this guide will be using a v
 
 ## Polishing
 The polishing stage consists of adding crush blocks to key areas, shafts for gearboes/the top sprocket(s), and making sure everything is in line. Its important to not skip this step. Even if it "looks like an elevator" it is always critical to look everything over and put little polishes on the design to make sure assembly and operation go smoothly.
-
-<br>
-<center>2H: Elevator</center> 
-<span class="left">[< 2G: Four-bar Linkage](2G-fourbarLinkage.md)</span> <span class="right">[Stage 3A >](../stage3/3A-multidoc&MS.md)</span>
-<br>
-<br>
