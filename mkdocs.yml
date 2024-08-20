@@ -228,12 +228,6 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: default_page
-      cards_layout_options:
-          font_family: Roboto
-      debug: false
   - search
 
     
@@ -252,3 +246,9 @@ plugins:
       enabled: !ENV INSIDERS
       plugins:
         - meta
+        - social:
+            cards_layout_dir: layouts
+            cards_layout: default_page
+            cards_layout_options:
+                font_family: Roboto
+            debug: false
