@@ -20,6 +20,7 @@ echo
 echo "Installing git, gcc, and pillow dependencies"
 pacman -S git
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-zlib mingw-w64-x86_64-libjpeg-turbo mingw-w64-x86_64-libpng mingw-w64-x86_64-freetype mingw-w64-x86_64-lcms2 mingw-w64-x86_64-libimagequant mingw-w64-x86_64-libraqm mingw-w64-x86_64-tcl mingw-w64-x86_64-tk mingw-w64-x86_64-libwebp
+pacman -S mingw-w64-ucrt-x86_64-cairo
 pacman -S mingw-w64-ucrt-x86_64-pngquant
 echo 'export PATH="/mingw64/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
