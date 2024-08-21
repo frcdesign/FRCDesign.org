@@ -11,6 +11,8 @@ Live axles are most commonly thought of when doing pivots. Teams commonly do thi
 
 That being said, live axles can be strong if using the appropriate live axle shaft, such as SplineXL or MAXSpline.
 
+<br>
+
 ## Concepts
 
 ### Strength
@@ -42,6 +44,8 @@ belt not greaet since it is prone to skipping and needs to be perfect cc or slig
 
 gear rack is used for certain niches when you need large gear reduction 
 
+For dead axles, we reccomend 
+
 ### Tensioning
 
 turnbuckle
@@ -50,15 +54,29 @@ pivoting tensioner
 spartan tensioner
 physically move the object tensioner
 
-When powering with a chain, you need to tension to reduce backlash. Backlash increases the amount of slop in your pivot, which makes it less accurate. 
+Chain stretched over time, creating backlash. As a result, you need to have an active tensioning system you can adjust. Backlash increases the amount of slop in your pivot, which makes it less accurate. 
+
+There are a few different options
+
+**Inline Tensioners**
+
+Inline tensioners include the turnbuckle tensioner and spartan tensioner. 
+
+
+**External Tensioners**
+
+2056, 2910, and wcp gearbox tensioners. 
+
+These utilize either pivoting one of the stages, physically moving the dead axle, or sliding the whole gearbox. 
+
+
 
 ### Other backlash sources
 
-Other backlash sources include
 
 - Hex interfaces
 
-    - For every hex to gear interface, there is gap which adds backlash. Utilizing shim tape (insert mcmaster link), you can reduce this backlash significantly. 3 pieces of tape in a "triangle" formation is enough.
+    - For every hex to hex hole interface, there is gap which adds backlash. Utilizing shim tape (insert mcmaster link), you can reduce this backlash significantly. 3 pieces of tape in a "triangle" formation is enough. This is most commonly seen in hex sprockets and spur gears. 
 
 - Sprocket Clocking
 
@@ -72,6 +90,7 @@ Other backlash sources include
 
     - In general, the amount of stages multiples the amount of backlash you have. It is best to stay 3 stages or lower, with one stage being the pivot reduction. 
 
+<br>
 
 ## Application 
 In the above fundamentals, you can see that there are different options for different use cases. You can mix these concepts and make the tradeoffs in order to best fit your use application and scope. 
@@ -86,21 +105,32 @@ chain, 35 chain
 big axle
 dead axle good
 could use thin bearings but bushings more common
+Generally not recommended due to difficulty controling and weight 
 
 ### Pivot
 bearings or bushings are common
-In some games like 2024, you may pivots full mechanisms such as a shooter to adjust your shot angle. 
+In some games like 2024, you may pivots full mechanisms such as a shooter to adjust your shot angle. These are heavy, but shorter.
+
+Can use rack and pinion or sprocket, but rack and pinion is becoming popular 
 
 ## Rules for Design:
 1. Try to make whatever "arm" you are pivoting as short as physically possible. This makes it easier to program, design, and build. For the majority of pick and place games, you want to generally start with a linear mechanism, and then add a short wrist if necessary. 
 2. Make sure that your axle is fully supported. This can be done through tube or nesting in plate. 
 3. Make sure the support structure is rigid. 
-4. 
+4. If using 25 chain, power both sides for rigidity. 
 
+<br> 
 
 # Project
 
 We'll be designing a simple dead axle that is attached to an elevator. 
+
+use max planetary 
+use 25h chain
+use 7/8 tube
+cad fasteners and whatever
+good luck
+
 
 
 
