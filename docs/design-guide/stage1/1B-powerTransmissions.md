@@ -113,6 +113,13 @@ In this stage, you'll focus on the fundamentals of power transmissions, with an 
 
       <div class="mySlides fade">
           <figure>
+              <img src="/img/design-guide/stage1b/examples/intakePivot.webp" style="width:80%">
+              <figcaption> Gear and chain power transmission to pivot the intake. </figcaption>
+          </figure>
+      </div>
+
+      <div class="mySlides fade">
+          <figure>
               <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
               <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
           </figure>
