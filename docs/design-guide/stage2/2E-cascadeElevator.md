@@ -27,7 +27,7 @@ Every modern elevator will use some form of Elevator Blocks. Most teams will pur
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/elevator-blocks.webp" style="width:75%">
+    <img src="/img/design-guide/stage2e/elevator-blocks.webp" style="width:75%">
 </figure>
 
 ## Chain Attachment Point
@@ -35,7 +35,7 @@ Most cascade elevators use chain to power their initial stage, this chain can ei
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/chain-comb.webp" style="width:75%">
+    <img src="/img/design-guide/stage2e/chain-comb.webp" style="width:75%">
 </figure>
 
 ## Cable Clamp & Pulleys
@@ -43,7 +43,7 @@ Cascade elevators function by moving a fixed length of cable from one side of a 
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/cable-clamp.webp" style="width:75%">
+    <img src="/img/design-guide/stage2e/cable-clamp.webp" style="width:75%">
 </figure>
 
 ## Cable Ends
@@ -51,14 +51,14 @@ The ends of the cable are arguably the most important part of elevator rigging, 
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/carriage.webp" style="width:50%">
+    <img src="/img/design-guide/stage2e/carriage.webp" style="width:50%">
 </figure>
 
 These cables need tensioned, the "best" way to tension these cables is through a ratcheting cable spool. The easiest way we have found to do this, is to use the WCP Ratchet plate, with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly you will need to loosen the clamping plate before adding tension so that it gets added to each side, instead of just the side with the ratchet.
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/ratchet-plate.webp" style="width:50%">
+    <img src="/img/design-guide/stage2e/ratchet-plate.webp" style="width:50%">
 </figure>
 
 # The Design Process Overview
@@ -68,7 +68,7 @@ Like most mechanisms, it begins with a master sketch. Elevator master sketches u
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/master-sketch.webp" style="width:50%">
+    <img src="/img/design-guide/stage2e/master-sketch.webp" style="width:50%">
 </figure>
 
 ## Tubing
@@ -76,15 +76,15 @@ Usually the first place to start with an elevator is making the tubes from the m
 <br>
 
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/elevator-tubes.webp" style="width:50%">
+    <img src="/img/design-guide/stage2e/elevator-tubes.webp" style="width:50%">
 </figure>
 
 ## Rigging
 Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
 <br>
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/rigging-light.webp#only-light" style="width:50%">
-    <img src="../../img/design-guide/stage2e/rigging-dark.webp#only-dark" style="width:50%">
+    <img src="/img/design-guide/stage2e/rigging-light.webp#only-light" style="width:50%">
+    <img src="/img/design-guide/stage2e/rigging-dark.webp#only-dark" style="width:50%">
 </figure>
 
 ## Power Gearbox
@@ -92,7 +92,7 @@ Elevators need motors to power them. Once you have the rigging planned out you c
 There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
 <br>
 <figure markdown="span">
-    <img src="../../img/design-guide/stage2e/gearbox.webp" style="width:50%">
+    <img src="/img/design-guide/stage2e/gearbox.webp" style="width:50%">
 </figure>
 
 ## Polishing
