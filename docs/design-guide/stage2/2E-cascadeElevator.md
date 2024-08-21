@@ -1,3 +1,4 @@
+
 # 2H: Cascade Elevator
 
 ## Cascade Elevator
@@ -11,8 +12,6 @@ Cascade elevators are characterized by the way the stages move. In a cascade rig
     ![cascade](../../img/design-guide/stage2e/cascade.gif)
     <figcaption>Cascade Motion</figcaption>
 </figure>
-
-
 
 ## Pros and Cons of Cascade
 Pro: Cascade elevators are great when you just need to move a mechanism up and down and you dont need more than 3 Elevator stages to reach the desired height. While it is possible to make cascade elevators with more than 3 stages, desigining the rigging gets harder, especially if you are width constrained.
