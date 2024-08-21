@@ -1,3 +1,11 @@
+<style>
+
+    details {
+        font-size: 0.7rem !important;
+    }    
+
+</style>
+
 # 2D: Slapdown Intake
 
 ## Over-the-Bumper Intakes
@@ -18,48 +26,42 @@ Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce1
 
 <center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
 
-### Concepts
+### Engineering Concepts & Decisions
 
-**Intake Golden Rules**
+The following sections describe the intentions and concepts behind the design of the intake you will be copying. This helps integrate functional mechanism design with the differing CAD concepts for each mechanism for a complete lesson.
 
-There are many good resources out there for how to design good intakes. Torrance from Team 254 has provided [a list of golden rules for roller intakes](https://www.chiefdelphi.com/t/besiktas-rsports-9483-2023-off-season-build-blog/440340/15). This will also be slightly paraphrased/added to in the intake fundamentals page.
+??? Concept "Intake Golden Rules"
 
-<br>
+      There are many good resources out there for how to design good intakes. Torrance from Team 254 has provided [a list of golden rules for roller intakes](https://www.chiefdelphi.com/t/besiktas-rsports-9483-2023-off-season-build-blog/440340/15). This will also be slightly paraphrased/added to in the intake fundamentals page.
 
-**General Design and Robustness**
+??? Concept "General Design and Robustness"
 
-The main structure uses 1/4" polycarbonate, 2x1 tubes, and nut strips to attach the plates directly to the frame. In this way, the structure would do an especially good job resisting impacts from the front. Because of the rigid nature in how the main plate is mounted, it can be polycarbonate, making it lighter and stronger than pocketed aluminum. The two secondary plates used to make sure all axles are supported on two points aren't connected with a very rigid structure and so work better as aluminum.
+      The main structure uses 1/4" polycarbonate, 2x1 tubes, and nut strips to attach the plates directly to the frame. In this way, the structure would do an especially good job resisting impacts from the front. Because of the rigid nature in how the main plate is mounted, it can be polycarbonate, making it lighter and stronger than pocketed aluminum. The two secondary plates used to make sure all axles are supported on two points aren't connected with a very rigid structure and so work better as aluminum.
 
-The intake is as wide as possible to decrease the precision and time needed by the driveteam or autonomous code to intake the game piece. The only aim is to get the game piece into the robot, then it can be centered or serialized inside frame perimeter, also minimizing the time that the intake is down.
+      The intake is as wide as possible to decrease the precision and time needed by the driveteam or autonomous code to intake the game piece. The only aim is to get the game piece into the robot, then it can be centered or serialized inside frame perimeter, also minimizing the time that the intake is down.
 
-<br>
+??? Concept "Pivot"
 
-**Pivot**
+      The pivot is powered by a single Kraken motor on a 2-stage MAXplanetary gearbox. The 4:1 stages in the MAXplanetary (16:1) and the 12:48 sprocket reduction make a total of 42:1 overall reduction for the pivot. You can assess whether you want this much reduction on your own mechanism by using an arm calculator, but around 30:1 to 42:1 should be good for most intakes.
 
-The pivot is powered by a single Kraken motor on a 2-stage MAXplanetary gearbox. The 4:1 stages in the MAXplanetary (16:1) and the 12:48 sprocket reduction make a total of 42:1 overall reduction for the pivot. You can assess whether you want this much reduction on your own mechanism by using an arm calculator, but around 30:1 to 42:1 should be good for most intakes.
+      The MAXplanetary uses a 1:1 belt/pulley to transfer rotation to a long cross-axle. All custom pulleys have pockets for COTS metal inserts to prevent them from stripping. There are sprockets on either end of this cross axle, with chain going up to sprockets attached to the arm. This setup is to ensure both sides of the intake are moved up and down equally so there's no weird twisting forces on the intake.
 
-The MAXplanetary uses a 1:1 belt/pulley to transfer rotation to a long cross-axle. All custom pulleys have pockets for COTS metal inserts to prevent them from stripping. There are sprockets on either end of this cross axle, with chain going up to sprockets attached to the arm. This setup is to ensure both sides of the intake are moved up and down equally so there's no weird twisting forces on the intake.
+      For reducing backlash in the system, the 1:1 belt/pulley is exact center-center distance, and the chains are tensioned with inline tensioners. Large sprockets on the output of the arms are good as well for more teeth engagement with the chain.
 
-For reducing backlash in the system, the 1:1 belt/pulley is exact center-center distance, and the chains are tensioned with inline tensioners. Large sprockets on the output of the arms are good as well for more teeth engagement with the chain.
+      For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
 
-For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
+??? Concept "Rollers and Roller Position"
 
-<br>
+      The rollers are powered with a single Kraken motor with small reduction of 1.6:1; often, you want rollers to be spinning very fast, but still have enough torque to bring in game pieces without stalling the motor. Compression also matters a lot with this. You want to balance compression of a game piece so the intake can move it easily enough without needing too much extra torque from the motors. This is often why adding grippy material to the rollers instead of increasing compression is optimal.
+
+      There are 3 total rollers. Rollers often provide more consistent compression than wheels and are a great option for transporting game pieces. They are typically cheaper, lighter, and easier to put on a dead axle than wheels. Dead axles allow the intake arms to be connected by effectively long standoffs, making the assembly more rigid, while still allowing the rollers to spin on bearings. The dead axle rollers used in this project use polycarbonate tube and 3D-printed endcaps for the bearings and power transfer. The document can be found [here](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d).
+
+      Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
 
 
-**Rollers and Roller Position**
+??? Concept "Zombie Axles"
 
-The rollers are powered with a single Kraken motor with small reduction of 1.6:1; often, you want rollers to be spinning very fast, but still have enough torque to bring in game pieces without stalling the motor. Compression also matters a lot with this. You want to balance compression of a game piece so the intake can move it easily enough without needing too much extra torque from the motors. This is often why adding grippy material to the rollers instead of increasing compression is optimal.
-
-There are 3 total rollers. Rollers often provide more consistent compression than wheels and are a great option for transporting game pieces. They are typically cheaper, lighter, and easier to put on a dead axle than wheels. Dead axles allow the intake arms to be connected by effectively long standoffs, making the assembly more rigid, while still allowing the rollers to spin on bearings. The dead axle rollers used in this project use polycarbonate tube and 3D-printed endcaps for the bearings and power transfer. The document can be found [here](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d).
-
-Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
-
-<br>
-
-**Zombie Axles**
-
-For transferring power to the rollers, because of the plates in the way and how small the pulleys are, it's necessary to transfer power through the axles (live axle). However, one of these axles is repurposed as a deadaxle by the sprockets attached to the intake arms. The sprockets are on bearings, and driven by chain, so they rotate independently from the axles used by the belts and pulleys. A setup like this, where power is transferred both through the axle and just on top of it for packaging purposes, is called a 'zombie axle'.
+      For transferring power to the rollers, because of the plates in the way and how small the pulleys are, it's necessary to transfer power through the axles (live axle). However, one of these axles is repurposed as a deadaxle by the sprockets attached to the intake arms. The sprockets are on bearings, and driven by chain, so they rotate independently from the axles used by the belts and pulleys. A setup like this, where power is transferred both through the axle and just on top of it for packaging purposes, is called a 'zombie axle'.
 
 
 
