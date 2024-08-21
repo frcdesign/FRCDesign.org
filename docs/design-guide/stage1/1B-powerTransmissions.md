@@ -1018,7 +1018,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s28.webp" style="width:100%">
-      <figcaption>28. Use the <code>Vent</code> Featurescript to add the pocketing. Again, uUse 0.15" wide ribs and 0.15" tool radius. </figcaption>
+      <figcaption>28. Use the <code>Vent</code> Featurescript to add the pocketing. Again, use 0.15" wide ribs and 0.15" tool radius. </figcaption>
     </figure>
   </div>
 
