@@ -93,7 +93,7 @@ The following sections describe the intentions and concepts behind the design of
 <center><img src="/img/design-guide/stage2-slapdown/intakePartStudio.webp" width="70%"></center>
 
 ### Assembly
-Because this subsystem contains a static part and a moving part, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. This makes load times significantly less.
+Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. 
 
 Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can.
 
@@ -106,5 +106,18 @@ Create an assembly for the intake arms and do the same thing as above to complet
 Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the slapdown intake assembly.
 
 <center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
+
+## Summary
+
+You've completed Stage 2D! To summarize what you've learned in this stage:
+
+- Concepts behind designing an effective and robust intake
+- Real application of a pivot
+- Driving dead axle rollers
+- "Zombie" Axles
+- Intake master sketches and ball paths
+- More practice with a mechanism with moving parts and the origin cube
+
+Intakes like this one can be applied during a lot of years, but even if the mechanism type itself isn't used, many concepts, such as the pivot, zombie axle, and dead axle rollers can be reused for basically any mechanism moving or manipulating game pieces. In the next stage, you'll learn about a completely new mechanism with linear motion instead of rotation that can be used to extend part of your robot in a specific direction.
 
 <br>

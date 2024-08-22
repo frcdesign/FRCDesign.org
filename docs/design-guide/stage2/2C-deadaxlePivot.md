@@ -118,12 +118,64 @@ The following sections describe the intentions and concepts behind the design of
     Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-fundamentals/design-writeups/DFC.md).
 
 
-### Process
-1. Lay out the pivot location and driving sprocket position.
-2. Design the support plates.
-3. Complete the pivot mechanism.
-4. Finalize and review the design.
+### Master Sketch
 
-Good luck!
+The master sketch is very simple as it uses maxplanetaries for most of the reduction. 
+
+1. Use the origin cube featurescript to insert the origin cube
+2. Dimension the cross bar
+3. Lay out the pivot location and driving sprocket position above the cross bar. Dimension a construction line between them a distance that will give enough chain length to use an inline tensioner.
+4. Create construction circles to represent the pitch circles of both sprockets and the diameter of the motor.
+
+<center><img src="/img/design-guide/stage2-pivot/pivotMasterSketch.webp" width="70%"></center>
+
+### Part Studio
+
+1. Create a mate connector on the pivot point of the master sketch, owned by the origin cube. This will be used in the top level assembly to define motion between the subassemblies.
+2. Create the cross bar tubes
+3. Create the pivot support plates
+4. Create the chain and hex axle using featurescripts
+5. Create the dead axle tube, spacer, and washer.
+6. Create the tubes for the arm, including access holes for bolts.
+7. Create the plate to space the sprocket off from the arm.
+8. Name and give materials and appearances to all your parts
+
+<center><img src="/img/design-guide/stage2-pivot/PivotPartStudio.webp" width="70%"></center>
+
+!!! Note
+    Keep in mind you should be creating folders for related features while modeling the mechanism! It's easier doing it throughout the process than saving all the clean up for the end.
+
+### Assembly
+
+Because this subsystem contains a static part and a moving part, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. This makes load times significantly less.
+
+Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can.
+
+<center><img src="/img/design-guide/stage2-pivot/Dead Axle Subassembly.webp" width="60%"></center>
+
+Create an assembly for the arm portion of the mechanism and do the same thing as above to complete the assembly and make it rigid.
+
+<center><img src="/img/design-guide/stage2-pivot/Arm Subassembly.webp" width="60%"></center>
+
+!!! Tip
+    Below is an example of the instance list of a rigid assembly. Notice the icon in the top left indicating it's rigid. You can tell what can still move in the assembly by a "degree of freedom" icon (3 arrows to indicate the 3 axis.)
+    <center><img src="/img/design-guide/stage2-pivot/deadAxleInstanceList.webp" width="20%"></center>
+
+Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the deadaxle pivot assembly.
+
+<center><img src="/img/design-guide/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
+
+## Summary
+
+You've completed Stage 2C! To summarize what you've learned in this stage:
+
+- Different types of axle usage
+- Principles of designing a good pivot
+- Applications of pivots (wrists, arms)
+- One way of tensioning chain
+- Different sources of backlash in a power transmission
+- How to model a subsystem with multiple moving parts using the origin cube
+
+This mechanism being completed leads to many more mechanisms that have multiple moving parts. Most robots have at least one pivot, though each one can be designed differently depending on the use case and packaging. Each pivot has some things in common though: try to minimize backlash, use a dead axle (usually with chain), and it will obviously need a power transmission included. In the next stage, you'll apply very similar concepts to an intake with a pivot and several rollers.
 
 <br>
