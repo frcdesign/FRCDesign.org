@@ -2,7 +2,7 @@
 # 2H: Cascade Elevator
 
 ## Cascade Elevator
-Elevators pop up nearly every year in FRC. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either Cascade or Continuous. This page will be covering the design of a Cascade elevator due to their currently being much better COTS part availability for making a Cascade elevator.
+Elevators pop up nearly every year in FRC. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either Cascade or Continuous. This page will be covering the design of a Cascade elevator due to there currently being much better COTS part availability for making a Cascade elevator.
 
 ## "Cascade" Motion
 Cascade elevators are characterized by the way the stages move. In a cascade rigged system, each elevator stage moves the same distance from its parent stage.

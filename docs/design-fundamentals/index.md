@@ -40,7 +40,7 @@ This section is all about the transmission of power to enable different kinds of
 ## Design Write-ups
 Write-ups on important topics for FRC design that aren't necessarily fundamentals but can take your design a step further.
 
-(Not Started) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
+(WIP) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
 
 (Not Started) [**Chain Tensioning Solutions**](design-writeups/chainTensioning.md): A number of different innovative ways to tension a chain to reduce backlash in a mechanism in a compact way.
 
