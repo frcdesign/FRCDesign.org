@@ -22,9 +22,12 @@ The two types of OTB intakes are "slapdown" which consists of a single set of ar
 Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../mechanism-examples/intake/slapdown/index.md) and [4-bar intakes page](../../mechanism-examples/intake/4bar/index.md). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 ## Project
-Reference [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f) to copy the 2022/2023 OTB intake in your own document. 
+
+This stage's project is a slapdown intake for 2022 or 2023 (both with the same gamepiece size of 9.5" diameter). 
 
 <center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
+
+The reference is provided in [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f). Model a copy of it in your own document. Related mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 ### Engineering Concepts & Decisions
 

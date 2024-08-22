@@ -60,7 +60,7 @@ This stage's project is a simple dead axle pivot, not for any specific game or i
 
 <center><img src="/img/design-guide/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938). Model a copy of it in your own document. Necessary concepts and a basic guide are both provided below.
+The reference is provided in [**this document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938). Model a copy of it in your own document. Related mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 ### Requirements
 - **Reduction:** Use Max planetaries.

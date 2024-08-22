@@ -34,7 +34,7 @@ The shooter will be designed to shoot the Power Cells into the high goal from ju
 
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). Model a copy of it in your own document. Necessary concepts and a basic guide are both provided below.
+The reference is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). Model a copy of it in your own document. Related mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 
 ### Engineering Concepts & Decisions
@@ -57,7 +57,7 @@ The following sections describe the intentions and concepts behind the design of
 
     For this game, at a fixed angle of around 45 degrees, you can effectively adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal.
 
-??? Concept "Wheel Speed, Inertia, Motors, and Ratios [Change ratio and recalc explanation :pray:]"
+??? Concept "Wheel Speed, Inertia, Motors, and Ratios"
 
     Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
 
@@ -179,3 +179,5 @@ You've completed Stage 2B, and your first full mechanism! To summarize what you'
 - How to model a whole mechanism!
 
 While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
+
+<br>
