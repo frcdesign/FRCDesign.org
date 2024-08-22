@@ -84,9 +84,6 @@ The following sections describe the intentions and concepts behind the design of
     <figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
     <br>
 
-    ![wcp bushing](wcpbushing.webp)
-    ![x contact bearing](1131386891.webp)
-
 ??? Concept "Power Transmission"
 
     Sprocket and chain is used for transmitting power due to the load rating for chain and extremely low chance of it slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
