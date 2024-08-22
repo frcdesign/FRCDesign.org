@@ -125,7 +125,7 @@ Sketches and features are the building blocks you will use to create every 3D mo
 
 Complete the following courses:
 
-1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/introduction-to-sketching) course runs you through different sketch tools, constraints, and a good sketch workflow.
+1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching) course runs you through different sketch tools, constraints, and a good sketch workflow.
 
 2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios) course runs you through creating different parts with a variety of features.
 
