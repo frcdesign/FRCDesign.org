@@ -96,49 +96,57 @@ So far the models you have created are all structural components, but this is on
 
 In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
 
-Below are some examples of power transmissions found in robots to achieve a range of different tasks.
+!!! Example
+    Below are some examples of power transmissions found in robots to achieve a range of different tasks.
 
-<center>**Power Transmission Examples**</center>
-<!-- Slideshow container -->
-  <div class="slideshow-container">
+    <center>**Power Transmission Examples**</center>
+    <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div id="slide1" class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/intakeRollers.webp" style="width:80%">
-          <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
-      </figure>
-  </div>
+      <!-- Full-width images with number and caption text -->
+      <div id="slide1" class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/intakeRollers.webp" style="width:80%">
+              <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
-          <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/intakePivot.webp" style="width:80%">
+              <figcaption> Gear and chain power transmission to pivot the intake. </figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/ampArm.webp" style="width:60%">
-          <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/shooter.webp" style="width:80%">
+              <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
+          </figure>
+      </div>
 
-  <div class="mySlides fade">
-      <figure>
-          <img src="/img/design-guide/stage1b/examples/armGearbox.webp" style="width:75%">
-          <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
-      </figure>
-  </div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/ampArm.webp" style="width:60%">
+              <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
+          </figure>
+      </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
-  <!-- The dots/circles -->
-  <div class="dotsContainer" style="text-align:center">
-  <!-- Dots will be generated here -->
-  </div>
-</div>
+      <div class="mySlides fade">
+          <figure>
+              <img src="/img/design-guide/stage1b/examples/armGearbox.webp" style="width:75%">
+              <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
+          </figure>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+      <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+      <!-- The dots/circles -->
+      <div class="dotsContainer" style="text-align:center">
+      <!-- Dots will be generated here -->
+      </div>
+    </div>
 
 In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
@@ -146,13 +154,13 @@ In this stage, there are exercises designed to practice modeling simple power tr
 
 Motors spin! They transform electrical energy supplied by the robot battery into rotational motion. From intaking to climbing to driving, just about anything on your robot can be moved with the right motor(s).
 
-<center><img src="\img\design-guide\stage1b\motorLineup.png" style="width:100%"></center>
+<center><img src="\img\design-guide\stage1b\motorLineup.webp" style="width:100%"></center>
 <center>*Some of the motors available for use in FRC.*</center>
 
 In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
 
 * The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
-* The motors' have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are also 10-32 thread.
+* The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded (0.159"), as #10-32 is the hardware standard for COTS parts.
 
 <center><img src="\img\design-guide\stage1b\cimBoltCircle.webp" style="width:50%"></center>
 <figcaption>Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.</figcaption>
@@ -290,7 +298,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
     To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
     <center>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/shiftSelectEdited.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/shiftSelectEdited.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
     </center>
@@ -381,7 +389,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s11.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s11.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>11. Use the <code>Shaft</code> Featurescript to model the output shaft. Follow the settings used. You can learn more about the shaft retention property on the Design Fundamentals page. </figcaption>
@@ -398,7 +406,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s13.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s13.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 13. Insert the part studio into the assembly and fix the gearbox plate. Group mate the two plates together and then mate the spacer to the motor plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
@@ -408,7 +416,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s14.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s14.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 14. Assemble the bearings and shaft using parts from the MKCad App.</figcaption>
@@ -418,7 +426,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s15.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
@@ -428,7 +436,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s16.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s16.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 16. Assemble the shaft spacer and gear using parts from the MKCad App. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
@@ -438,7 +446,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s17.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s17.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 17. Assemble the shaft retention bolts using the MKCad app parts. </figcaption>
@@ -448,7 +456,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e1/e1s18.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e1/e1s18.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption> 18. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. When inserting Onshape Standard Content, you can use the snap mode to automatically add the mates when inserting or insert the component and then manually mate it. </figcaption>
@@ -537,7 +545,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s5.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s5.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
     </figure>
   </div>
@@ -558,7 +569,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s8.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s8.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
     </figure>
   </div>
@@ -572,7 +586,10 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1b/exercises/e2/e2s10.gif" style="width:100%">
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s10.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <figcaption>10. Insert the part studio into the assembly and fix only the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
@@ -587,7 +604,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e2/e2s12.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s12.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>12. Assemble the bearings and shafts using parts from the MKCad App. </figcaption>
@@ -597,7 +614,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e2/e2s13.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s13.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>13. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
@@ -607,7 +624,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e2/e2s14.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s14.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>14. Assemble the shaft spacers and gears using parts from the MKCad App. </figcaption>
@@ -617,7 +634,7 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   <div class="mySlides fade">
     <li class="slideVideo">
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e2/e2s15.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e2/e2s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>15. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. </figcaption>
@@ -652,7 +669,7 @@ Timing belt and pulley drives are mechanical systems used to transmit motion and
 <center><img src="\img\design-guide\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
 <center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
 
-In order to change the torque and speed from the input to the output, different sized pulleys must be used. For belt transmissions, the gear ratio is the number of teeth on the output pulley to the number of teeth on the input pulley. This ratio is the mechanical advantage of the system. Note that unlike gears, pulleys will spin in the same direction.
+In order to change the torque and speed from the input to the output, different sized pulleys must be used. The mechanical advantage for belt transmissions, similar to gears, is based on the ratio between the number of teeth of the output pulley to the number of teeth of the input pulley. Note that unlike gears, pulleys will spin in the same direction.
 
 **Types of Belt**
 
@@ -690,8 +707,11 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1b/belt/beltCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/belt/beltCad3.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
     </figure>
 </div>
 
@@ -716,13 +736,13 @@ Roller chain and sprocket drives are very similar to belt and pulley transmissio
 <center><img src="\img\design-guide\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
 <center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
 
-In order to change the torque and speed from the input to the output, different sized sprockets must be used. For chain transmissions, the gear ratio is the number of teeth on the output sprocket to the number of teeth on the input sprocket. This ratio is the mechanical advantage of the system. Similar to pulleys, the sprockets will spin in the same direction.
+In order to change the torque and speed from the input to the output, different sized sprockets must be used. The mechanical advantage for chain transmissions, similar to gears and pulleys, is based on the ratio between the number of teeth of the output sprocket to the number of teeth of the input sprocket. Similar to pulleys, the sprockets will spin in the same direction.
 
 **Types of Chain**
 
 The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
 
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+<center>**`PD = Pitch / sin [180°/# of teeth]`**</center>
 
 Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
@@ -764,8 +784,11 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/design-guide/stage1b/chain/chainCad3.gif" style="width:100%">
-        <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
+      <video width="1920" controls>
+        <source src="/img/design-guide/stage1b/chain/chainCad3.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
     </figure>
 </div>
 <!-- Next and previous buttons -->
@@ -781,8 +804,9 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Fundamentals page](/design-fundamentals/) also dives deeper into this topic.
 
-<center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
-<figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+!!! Example
+    <center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
+    <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
 
 #### Exercise 3: Belt and Gear Transmission
 
@@ -1029,7 +1053,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a1.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the part studio into the assembly and fix only the bottom tube. Use the group mate on the tubes, plates, and gusset. Copy the gusset and mate it to the other side of the tube. Next, mate the spacer to the plate and use the <code>Replicate</code> tool to replicate the spacer. </figcaption>
@@ -1039,7 +1063,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a2.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Assemble the bearings and shafts using parts from the MKCad App. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
@@ -1049,7 +1073,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a3.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from the MKCad App. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
@@ -1059,7 +1083,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a4.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Assemble the shaft spacers and gears using parts from the MKCad App. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
@@ -1069,7 +1093,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a5.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. At this point, you have all of the core components assembled and can update the length of the first stage shaft. Copy the measured shaft length and update the part studio accordingly. It is recommended to round up to the nearest 0.01" for manufacturability. </figcaption>
@@ -1079,7 +1103,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a6.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a6.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>6. Assemble the shaft retention bolts using MKCad app parts.</figcaption>
@@ -1089,7 +1113,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a7.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>7. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts</figcaption>
@@ -1099,7 +1123,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1b/exercises/e3/e3a8.mp4" type="video/mp4">
+        <source src="/img/design-guide/stage1b/exercises/e3/e3a8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>8. Assemble the gusset rivets using the MKCad app parts.</figcaption>

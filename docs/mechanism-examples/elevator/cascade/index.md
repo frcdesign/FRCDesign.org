@@ -1,22 +1,14 @@
 ---
 title: Cascade Elevator Examples
+image: docs/img/mechanism-examples/elevator/cascade/3stage.webp
 ---
-<meta property="og:title" content="Cascade Elevator Examples">
-<meta property="og:description" content="Our collection of Cascade Elevators">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/cad-examples/elevator/cascade/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/elevator/cascade/3stage.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
-
-
 
 # Cascade Elevators
 Cascade elevators help move other mechanisms vertically. The first stage is driven directly and the subsequent stages are linked with loops of line, causing all the stages to extend up an equal amount. This is the "cascading" motion. They are generally faster than continuous elevators but the typical design doesn't allow anything to pass through the stages.
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/cad-examples/elevator/cascade/2stage.webp){width=63%}](2stage.md)</center>
+-   <center>[![](../../../img/mechanism-examples/elevator/cascade/2stage.webp){width=63%}](2stage.md)</center>
 
     ---
 
@@ -24,7 +16,7 @@ Cascade elevators help move other mechanisms vertically. The first stage is driv
     
     [:octicons-arrow-right-24: 2-Stage Cascade Elevator](2stage.md)
 
--   <center>[![](../../../img/cad-examples/elevator/cascade/3stage.webp){width=80%}](3stage.md)</center>
+-   <center>[![](../../../img/mechanism-examples/elevator/cascade/3stage.webp){width=80%}](3stage.md)</center>
 
     ---
 

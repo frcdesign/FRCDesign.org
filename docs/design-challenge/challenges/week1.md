@@ -1,10 +1,11 @@
+---
+title: "Design Challenge #1: Drivebase"
+description: Design challenges are offered to help students practice their CAD skills and develop their own designs.
+---
+
 # Design Challenge #1: Swerve Drivebase
 
 Welcome to the first design challenge! We are going to start with a swerve drivebase, the foundation of your robot. We have two different levels of challenges, beginner and advanced. It is recommended to complete the beginner challenge first before going on to the advanced version. The advanced version is the same as the beginner challenge, with a few additional things added on.
-
-!!! warning 
-    **The deadline for this design challenge is 11:59pm PST 05/04/24, any submissions after this deadline are subjected to late submission scoring outlined [here](../index.md)**
-
 
 === "Beginner Challenge"
 
@@ -23,11 +24,11 @@ Welcome to the first design challenge! We are going to start with a swerve drive
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
 
-Feel free to check out drivebase examples [here](https://www.frcdesign.org/cad-examples/drivebase/) if you need some brainstorming.
+Feel free to check out drivebase examples [here](https://www.frcdesign.org/mechanism-examples/drivebase/) if you need some brainstorming.
 
 Good luck with your first challenge! 
 
 <figure markdown="span">
-[![2910 Charged up Drivebase](../../img/cad-examples/drivebase/2910drivebase.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
+[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/2910drivebase.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
 <figcaption>One example of a drivebase! There are many different ways to make one, so don't let this one example drive your design! Be creative and let your mind go wild.</figcaption>
 </figure>

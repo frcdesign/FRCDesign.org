@@ -1,19 +1,15 @@
 ---
 title: Drivebase Examples
+image: docs/img/mechanism-examples/drivebase/2910drivebase.webp
 ---
-<meta property="og:title" content="Drivebase CAD Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://frcdesign.org/cad-examples/drivebase/">
-<meta property="og:image" content="https://www.frcdesign.org/img/cad-examples/drivebase/2910drivebase.webp">
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image"> 
+
 
 # Swerve Drivebases
 The drivebase is the single most important part of your robot, providing a bed for every other subsystem to build off. Examples of different drivebases can provide inspiration for electronics layout, bellypan shapes, and structural cross members for mounting, all of which can be a hard but crucial part of designing a robot, as accessibility and maintainability need to be preserved even as subsystems get placed on top of the robot.
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/cad-examples/drivebase/2910drivebase.webp)](2910.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/2910drivebase.webp)](2910.md)</center>
 
     ---
 
@@ -21,7 +17,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910.md)
 
--   <center>[![](../../img/cad-examples/drivebase/972dt.webp)](brainpan.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/972dt.webp)](brainpan.md)</center>
 
     ---
 

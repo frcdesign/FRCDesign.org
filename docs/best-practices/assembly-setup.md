@@ -1,3 +1,8 @@
+---
+title: Assembly Best Practices
+description: The best practices for inserting parts into assemblies and organizing them.
+---
+
 # Assembly Best Practices
 
 Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
@@ -106,7 +111,7 @@ WIP
 
 The first advice is to minimize primitives in your assembly. Primitives are kinda like the number of triangles used to render the mesh of the object, or in more simple terms, it's a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
 
-Use [simplified models](https://www.frcdesign.org/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
+Use [simplified models](https://www.frcdesign.org/resources/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
 
 ??? Video "Minimize Primitives"
     <video controls="true" allowfullscreen="true" poster="/img/best-practices/minimizePrimitives.webp">
@@ -122,6 +127,6 @@ Other things to keep in mind:
 
 See a well-organized assembly here: 
 
-<center><img src="/img/best-practices/assembly.png"></center>
+<center><img src="/img/best-practices/assembly.webp"></center>
 
 <br>
