@@ -742,7 +742,7 @@ In order to change the torque and speed from the input to the output, different 
 
 The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
 
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+<center>**`PD = Pitch / sin [180°/# of teeth]`**</center>
 
 Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
