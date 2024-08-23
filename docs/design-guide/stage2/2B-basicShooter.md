@@ -50,18 +50,23 @@ The following sections describe the intentions and concepts behind the design of
     Bottom cross rails and vertical tube supports are used to create the frame. The plates are kept apart from each other on both sides by standoffs (the ramp supports and the camera support). Spacers on a shaft with shaft retention can also help maintain the distance between the plates. In this way, the position of each part of the shooter is heavily constrained and kept rigid.
 
 ??? Concept "Exit Angle and Trajectory"
-
+    ![Shot Trajectory](shot-trajectory.gif)
     For a flywheel shooter, the ball trajectory is determined by the flywheel speed and the exit angle. While flywheel speed can be easily varied, varying the exit angle requires a fairly complex mechanism. For this shooter, you will be using a fixed exit angle, which is determined by hood. The hood is the backing that guides the ball out of the shooter.
 
     Though there are some calculations that can be made, they are complicated. The exit angle can be estimated pretty easily, and should be dependent on the field element that is being shot into and the range you're shooting from. If you pick an average distance you're most likely to be shooting a lot from (from game analysis and game strategy), you can create an arc to the goal and estimate the exit angle to get the desired arc.
 
-    For this game, at a fixed angle of around 45 degrees, you can effectively adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal.
+    For this game, at a fixed angle of around 45 degrees, you can effectively adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal. Play with [this](https://www.desmos.com/calculator/3re85nakjn) trajectory calculator and observe how changes in your angle and speed impact your shot.
+    !!! Calculator
+        <center><iframe src="https://www.desmos.com/calculator/cod9c98vs8?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
 ??? Concept "Wheel Speed, Inertia, Motors, and Ratios"
 
     Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
 
     The moment of inertia of the flywheel system is important for maintaining consistent speeds throughout contact with a gamepiece or multiple gamepieces. It refers to the flywheel's resistance to changes in rotational motion; while adding more mass can take more time to spin up, it decreases the recovery time (the amount of time to reach a target speed immediately following a shot). A balance must be achieved between the moment of inertia and spin-up time (independent of desired wheel speed).
+    !!! Image
+        This brass flywheel has the inside pocketed to lighten the flywheel, while maintaining the majority of the material on the outside to increase the inertia
+        ![Flywheel](brass-flywheel.webp)
 
     The preferred choice for motors is typically two CIM class brushless motors, which balance torque, speed, and thermal efficiency without needing excessive gearing. The combined torque of your shooter motors is important to maximize to keep spin-up and recovery times low, which is why we're using 2 Kraken X60 motors, however this could be swapped to any CIM class brushless motor with similar results. Just make sure to account for RPM differences properly.
 
@@ -71,6 +76,10 @@ The following sections describe the intentions and concepts behind the design of
 
     !!! Note
         Reductions or upductions are usually done with belts as they can maintain high speeds without maintenance and you can perform the ratio across a distance easily with the ratio between the pulleys. It's important to try to use pulleys larger than 24 teeth and keep the tooth engagement of the pulleys high to maximize energy transfer without wear (this is especially important to consider when using a double-sided belt run).
+    
+    !!! Calculator
+        Check out this calculator to visualize how changing the velocity would impact the shot. 
+        <center><iframe src="https://www.desmos.com/calculator/euvciqv3tr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
     Though there are some calculations that can be made, they are complicated. The exit angle can be estimated pretty easily, and should be dependent on the field element that is being shot into and the range you're shooting from. If you pick an average distance you're most likely to be shooting a lot from (from game analysis and game strategy), you can create an arc to the goal and estimate the exit angle to get the desired arc. If your shooter is a fixed angle make sure to prototype the exit angle on realistic field elements.
 
@@ -82,6 +91,17 @@ The following sections describe the intentions and concepts behind the design of
     Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. Of course, this requires there to be a good amount of inertia to keep the speed of the flywheel from dipping too much. When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance
 
     Compression is a delicate balance; compress it too little and the energy transfer will be bad, but compress it too much and it will introduce unnecessary friction and lose efficiency. Compression usually needs to be prototyped depending on the game piece. For most feeder mechanisms, you can introduce compliance in the mechanism to increase grip and contact time (i.e. using [compliance wheels](https://www.andymark.com/products/4-in-compliant-wheels-options)), but you don't want to use squishy wheels for shooter wheels as they will expand and can even explode when spun faster, making shots inconsistent. 
+
+    !!! Video
+        For Example, this is what it may look like if you do not have enough compression. See how loud the shooter is compared to how far the shot actually goes (Warning: Swearing):
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5OoCSAgqm3s?si=ui-Ca4EOX8czp1LB&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    !!! Video
+        This is what it looks like if you have good contact time and compression with the exact same robot. 
+
+        <iframe width="320" height="560" src="https://www.youtube.com/embed/9DEJG6eoeaQ" frameborder="0" allowfullscreen></iframe>
+
 
     Instead of adding compliance in the mechanism, prototype to find the best combination between compression and shooter wheel material. The grip of the shooter wheels, a result of the hardness rating in the case of silicone, can be maximized to maximize the energy transfer. The grippiest wheels are usually ones with soft silicone or a grippy texture (you can apply grip tape). Tread patterns may even help. 
 
@@ -96,6 +116,9 @@ The following sections describe the intentions and concepts behind the design of
     Depending on the gamepiece and field element into which you're launching it, spin may be crucial. In games like 2013 and 2024 with disc-shaped game pieces, adding spin stabilizes the gamepiece through gyroscopic motion. You can add backspin or topspin to spherical objects to help it stay inside the goal, like in 2017, or you may want to mitigate spin or change spin depending on the distance from the goal, like in 2022, because backspin would cause the balls to bounce or roll out of the goal. Sometimes, the spin won't matter, such as in games like 2014 or 2020. 
 
     According to initial prototyping for this hypothetical game, adding backspin helps with shot stabilization and accuracy. While you could have only the flywheel, with the friction against the polycarb causing backspin, this design uses both flywheel and hood wheels (spinning in the opposite direction) to launch the ball with more consistent force and direction. They are mechanically linked with a 1:1 ratio with a pair of gears to flip the direction, but because the hood wheels are 2" diameter, their surface speed is half as fast as the surface speed of the flywheels, causing the ball to leave with the desired backspin. Mechanically linking the flywheels and hood wheels means the speed of both sets of wheels can be carefully controlled with only one motor, simplifying the software and ensuring accuracy.
+    !!! Video
+        See how in this video the ball spins. There are backrollers that do help reduce the spin though. 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKDnRvLhrA?si=hsywtRLhwCMFNAME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ??? Concept "Friction & Efficiency (in the flywheel system)"
@@ -104,13 +127,18 @@ The following sections describe the intentions and concepts behind the design of
 
     Friction in the system can be minimized, however, by targeting each source. 
 
-    1. Belt tension can create inefficiencies and extra load on the system, so sometimes subtracting a little bit (0.01") from the center-to-center distance can make the system more efficient.
+    1. Belt tension can create inefficiencies and extra load on the system, so subtracting a little bit (0.01-0.02") from the center-to-center distance can make the system more efficient.
 
-    2. Reduce bearing friction by using rounded hex shafts and the associated bearings for rounded hex (13.75mm ID). Rounded hex shafts themselves don't reduce friction, but they allow the use of round bearings, which do reduce friction between the bearing and the shaft. Make sure to use spacers to reduce the friction between them and other components on the shaft (such as pulleys). Also don't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
+    2. Reduce bearing friction by using rounded hex shafts and the associated bearings for rounded hex (13.75mm ID). Rounded hex shafts themselves don't reduce friction, but they allow the use of round bearings, which do reduce friction between the bearing and the shaft. Make sure to use spacers to reduce the friction between them and other components on the shaft (such as pulleys).
+    
+    3.  Also don't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
+    !!! Example
+        Here is an example of an overconstrained shaft in CAD. See how the middle bearing may add an additional "constrain" point if the two outer plates are misalligned.
+        
+        ![Overconstrained](overconstrained-shaft.webp)
+    4. Bent shafts can reduce efficiency significantly. Shafts in a system can bend from two main reasons (besides being hit): overly cantilevered shafts with tight belts or misaligned fixed bearings. Try to keep your pulleys as close to a bearing as possible and avoid over-constraining shafts.
 
-    3. Bent shafts can reduce efficiency significantly. Shafts in a system can bend from two main reasons (besides being hit): overly cantilevered shafts with tight belts or misaligned fixed bearings. Try to keep your pulleys as close to a bearing as possible and avoid over-constraining shafts.
-
-    4. "Tolerance stackup" can happen when too much is connected to each other in a power transmission and the tolerances build up and put friction and tension on the system. You can reduce these issues by either adding more precision to your fabrication process or by designing to reduce connections to various different pieces. Here, all of the power transmission for the flywheels is run through two identical plates kept perfectly rigid, helping reduce tolerance stackup.
+    5. "Tolerance stackup" can happen when too much is connected to each other in a power transmission and the tolerances build up and put friction and tension on the system. You can reduce these issues by either adding more precision to your fabrication process or by designing to reduce connections to various different pieces. Here, all of the power transmission for the flywheels is run through two identical plates kept perfectly rigid, helping reduce tolerance stackup.
 
     !!! Note
         These tips for reducing friction can be applied to all power transmissions
