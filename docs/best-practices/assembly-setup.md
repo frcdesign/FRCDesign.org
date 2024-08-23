@@ -121,7 +121,7 @@ Use [simplified models](https://www.frcdesign.org/resources/simplified/) whereve
 Other things to keep in mind:
 
 - Import COTS parts from MKCAD
-- Use the **replicate tool** for adding hardware! You should only need toimport one of each type
+- Use the **replicate tool** for adding hardware! You should only need to import one of each type
 - Minimize the number of mates you use; this lowers the solve time
 - Stay organized with folders
 
