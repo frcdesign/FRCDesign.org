@@ -11,7 +11,10 @@
 ## Rotary Mechanisms & Dead Axles
 A rotary mechanism allows us to pivot objects or mechanisms through rotational movement, typically using wrists or arms.
 
-[INSERT 2 EXAMPLE IMAGES OF PIVOTS]
+<br>
+<figure><img align="left"  src="/img/design-guide/stage2-pivot/sushiPivot.webp" width="45%"><img align="right" src="/img/mechanism-examples/pivots/2910/2910pivotcropped.webp" width="45%"></figure>
+<figcaption>7461's 2023 Dead Axle Pivot and 2910's 2023 Dead Axle Pivot</figcaption>
+<br>
 
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  |
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|
@@ -21,11 +24,8 @@ A rotary mechanism allows us to pivot objects or mechanisms through rotational m
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
-- **Strength:** Larger diameter axles fastened to the rest of the structure are stronger, resist bending, and provide consistent motion.
+Some key points when designing pivoting mechanisms are: 
 
-- **Power Transmission:** Power is transferred through attached sprockets, pulleys, or gears, rather than through the axle itself.
-
-### Key Design Rules
 1. Keep the center of mass of the pivoting "arm" as close to the pivot as possible.
 2. Ensure the axle is fully supported, using either box tube or nested plates.
 3. Maintain a rigid support structure.
