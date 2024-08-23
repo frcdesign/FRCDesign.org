@@ -30,16 +30,14 @@ As with many good practices in CAD, smart origins are another good practice to m
 
 However, it should be noted that with multi-body part modeling, as opposed to a typical 1 part per file workflow in Solidworks, origins for parts are not quite as critical since there are multiple parts in a single file. For FRC CAD, the purpose of origin is two fold:
 
-1. To use the same origin point across all part studios and assemblies in order to have the same origin as the master sketch.
+1. To use the same origin point as the master sketch across all part studios and assemblies for a consistent central point you can reference
 2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope) and camera transformations more easily measured. 
 
 !!! Note
     Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
 
-In the following sections, a few different methods for creating origins are introduced.
-
-### Origin Cube Method
-The origin cube Featurescript inserts a 2"x2"x2" transparent cube at the origin of the part studio. The cube has a mate connector for the origin. There is also an option to import a number of useful design constants (bolt hole sizes, common FRC dimensions, etc).
+### The Origin Cube 
+The Origin Cube Featurescript inserts a 2"x2"x2" transparent cube at the origin of the part studio. The cube has a mate connector for the origin. There is also an option to import a number of useful design constants (bolt hole sizes, common FRC dimensions, etc).
 
 Compared to other methods like fixing components, the origin cube is a more robust and parametric method of aligning origins.
 
@@ -50,7 +48,7 @@ In each sub assembly, the cube is mated to the origin. Then, in the top level ro
 <center> <img src="\img\best-practices\originCubeFeature.webp" width="60%"> </center>
 <center> *Inserting the Origin Cube feature.* </center>
 
-#### Utilizing Origin Cube for Flexible Assemblies
+#### Utilizing the Origin Cube in Assemblies
 
 To utilize the full potential of origin cubes and master sketches, it is recommended to have separate sub assemblies for the stationary group of components and the moving group of components of each mechanism. A single part studio or multiple part studios can be used to achieve this, it is up to the personal preference of the designer.
 
@@ -101,15 +99,11 @@ Coming Soon
 
 </details> -->
 
-### Origin Mate Connector Method
-WIP
-
-
 ## Other Best Practices
 
 ### Simplified Models
 
-The first advice is to minimize primitives in your assembly. Primitives are kinda like the number of triangles used to render the mesh of the object, or in more simple terms, it's a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
+The first advice is to minimize primitives in your assembly. Primitives are a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
 
 Use [simplified models](https://www.frcdesign.org/resources/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
 
