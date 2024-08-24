@@ -12,7 +12,7 @@ Elevators as designed most typically may be out of the scope of a lower-capabili
 Cascade elevators are characterized by the way the stages move. In a cascade rigged system, each elevator stage moves the same distance from its parent stage.
 
 <figure markdown="span">
-    ![cascade](../../img/design-guide/stage2-elevator/cascade.gif)
+    ![cascade](/img/design-guide/stage2-elevator/cascade.gif)
     <figcaption>Cascade Motion</figcaption>
 </figure>
 
@@ -71,7 +71,6 @@ Most cascade elevators use chain to power their initial stage; this chain can ru
 <figure markdown="span">
     <img src="/img/design-guide/stage2-elevator/chain-comb.webp" style="width:75%">
 </figure>
-
 <br>
 
 **Cable Clamp & Pulleys**
