@@ -134,7 +134,7 @@ Cascade elevators are characterized by the way the stages move. In a cascade rig
 Because elevators are just mechanisms to move other mechanisms around, this project is similar to the dead axle pivot and will be designed without much context to learn the design process and components. You will get practice with designing elevators in the context of a robot in Stage 3.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
 </figure>
 
 The reference is provided in [**this document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283). Model a copy of it in your own document. Key components of the elevator and an overview of the design process are provided below.
@@ -211,7 +211,7 @@ Elevators need motors to power them. Once you have the rigging planned out you c
 There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
 <br>
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:50%">
+    <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:60%">
 </figure>
 
 
@@ -322,7 +322,18 @@ Now create the top level assembly, insert the subassemblies (fasten the origin c
 Because it's a cascade elevator, you can create "linear relation" between the two slider mates with a ratio of 1. This will link the motion together in the same way it would be in real life.
 
 ## Summary
-blah
+
+You've completed Stage 2E! To summarize what you've learned in this stage:
+
+- The concepts and key components of a cascade-rigged elevator
+- The master sketch concepts and geometry for elevators
+- Linear relations in assemblies
+- The uses of tube plugs and crush blocks for tube assemblies
+- More practice with a mechanism with moving parts and the origin cube
+
+There's a lot of freedom for attaching mechanisms to this kind of elevator. If you mount it 90 degrees offset from the front of your robot, you can even create a passthrough mechanism that can move up and down. Once you practice more master sketch integration in the next stage, you will be able to replicate a robot with an angled elevator in the later part of Stage 3.
+
+<br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
