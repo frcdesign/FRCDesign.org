@@ -165,6 +165,7 @@ Most cascade elevators use chain to power their initial stage; this chain can ru
 <br>
 
 **Rigging**
+
 Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
 <br>
 <figure markdown="span">
@@ -279,14 +280,46 @@ Elevator master sketches usually start with an extended side view so you can dri
 7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit) into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
 8. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
 9. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
-10. Derive the TTB cable clamp into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
+10. Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit) into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
 11. Add holes for the tube plugs on the crossmember.
 12. Create the chain transmission, including the chain, any custom spacers, and axles
 13. Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable
+14. Add plates at the bottom of the elevator to support the MAXplanetary shafts.
+15. Optionally, derive nut strips and a ratchet plate for the carriage and create the shaft for the rigging to be tied to.
+16. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
 
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/elevatorPartStudio.webp" style="width:75%">
+</figure>
 
+### Assembly
+Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.
 
+Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, MKCAD, and standard content, using replicate and patterns when you can.
 
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/frameSubassembly.webp" style="width:85%">
+</figure>
+
+Do the same thing for the first stage subassembly.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/stage1Subassembly.webp" style="width:85%">
+</figure>
+
+And finally the carriage subassembly.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/carriageSubassembly.webp" style="width:75%">
+</figure>
+
+Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator. 
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+</figure>
+
+Because it's a cascade elevator, you can create "linear relation" between the two slider mates with a ratio of 1. This will link the motion together in the same way it would be in real life.
 
 ## Summary
 blah
