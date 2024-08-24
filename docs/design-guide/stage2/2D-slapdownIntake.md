@@ -84,8 +84,6 @@ The following sections describe the intentions and concepts behind the design of
 
       For transferring power to the rollers, because of the plates in the way and how small the pulleys are, it's necessary to transfer power through the axles (live axle). However, one of these axles is repurposed as a deadaxle by the sprockets attached to the intake arms. The sprockets are on bearings, and driven by chain, so they rotate independently from the axles used by the belts and pulleys. A setup like this, where power is transferred both through the axle and just on top of it for packaging purposes, is called a 'zombie axle'.
 
-      good luck
-
 
 
 ### Master Sketch
