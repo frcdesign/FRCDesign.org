@@ -271,7 +271,7 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
+Where DP stands for **diametral Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1b\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>

@@ -1,39 +1,83 @@
-# FRC Design Guide and Curriculum
+<style>
+    .rightSide {
+        ul { direction: rtl; }
+        ul li a { direction: ltr; unicode-bidi: embed; }
+    }
+</style>
 
-Welcome to the DDS design guide! This guide is in progress, so if you have difficulty understanding something, please give us feedback as soon as possible!
+# FRC Robot Design Guide
 
-This design guide assumes you know about FRC and have gone through at least a season of FRC. As this guide develops, we hope to cover absolute beginners, but for now this helps keep the project a bit more feasible. We'll cover getting Onshape set up and all the various tools you need at first, then start working immediately on projects which help build your CAD skills while gradually introducing design principles.
+Welcome to the design guide, the main purpose and content of the website! Keep in mind that it's always a work in progress, so if you find any issues or have difficulty understanding something, please [give us feedback](https://forms.gle/dQ6w6RXJa6vSmcpw7)!
 
-Although heavily recommended to go through for now, the aim is to replace the [Onshape Learning Center](https://learn.onshape.com/), at least in the context of FRC. Eventually, you will be able to just go through this guide to become both proficient at using Onshape and at designing good robots for FRC.
+The purpose of the guide is to take you from zero to being able to model a full robot. You can start at any point you like to if you already have experience with CAD in Onshape, but as the usage and workflow of Onshape for FRC is very different than most CAD softwares, we recommend you go through the full guide to learn the fundamentals so you don't struggle with more complex CAD.
 
-Instead of covering random features and tools that you might not use in FRC, this curriculum focuses on using features and skills that would be beneficial to use in an FRC context. After the fundamentals for sketching and part design are learned, it focuses very heavily on guided projects, slowly becoming more open-ended.
-
-## Beginner Stages
+The guide's content focuses on FRC-relevant features and tools, using engaging projects that not only introduce new CAD skills and practice old ones but also introduce engineering concepts. These projects slowly become more open-ended.
 
 !!! Tip
-    If you already have some experience with CAD in Onshape, specifically sketching and part design, you may skip to [Stage 1B](stage1/1B-powerTransmissions.md) for your first project and continue from there. It will help you start learning the preferred workflow to design mechanisms in Onshape.
+    If you already have some experience with CAD in Onshape, you may skip to [Stage 1B](stage1/1B-powerTransmissions.md) for your first project and continue from there. It will help you start learning the preferred workflow to design mechanisms in Onshape.
+
+<img src="/img/design-guide/stage0/setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD">
 
 ### [Stage 0](stage0/0A-introductionToCAD.md)
 
-Stage 0 is for people that haven't touched CAD or Onshape before. It includes an in-depth introduction to CAD to read or skim through, a walkthrough to setup your Onshape account and add the tools you need to continue with the curriculum, a guide on navigating Onshape and the difference between part studios and assemblies, and some basic CAD theory that will help develop a good mindset. After this stage you can move onto the next one and actually start learning and practicing your skills. 
+- For people that haven't used CAD or Onshape before
+- Introduction to CAD to read or skim
+- Walkthrough to set up Onshape account and add necessary tools
+- Guide on navigating Onshape
+- Basic theory that helps develop a good mindset
 
-### [Stage 1](stage1/1A-onshapeFundamentals.md)
+<br>
+<hr>
 
-In this stage, you begin with learning the fundamentals of Onshape sketching and part design, then move onto guided projects (a swerve drivebase and two gearboxes) to teach you how to use tools, part studios, and assemblies in the context of FRC. We'll try to briefly cover a number of fundamental FRC-specific tools that will help speed up your workflow.
+<img src="/img/design-guide/stage1b/Exercise 2 Assembly.webp" align="left" style="width:35%">
 
+<div dir="rtl">
+<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1/1A-onshapeFundamentals.md">Stage 1</a></h3>
+<ul>
+<li>Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises</li>
+<li>Learn about power transmission and modeling gearboxes</li>
+<li>Model a swerve drivebase</li>
+<li>Start learning top-down design workflow for FRC</li>
+</ul>
+</div>
+
+<br>
+<hr>
+
+<img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" align="right" style="width:32%">
 
 ### [Stage 2](stage2/2A-drivebaseFullDetail.md)
 
-In stage 2 we continue to focus on covering more design skills and concepts while we practice our CAD skills, but through isolated mechanisms. There will be fewer new CAD concepts introduced here, while we introduce 1-2 design concepts per project. By the end of this stage you should be significantly more comfortable using Onshape as well as have an understanding of the mechanisms that go into a robot and the workflow required to design those mechanisms. 
+- Learn about common mechanisms in FRC and model them
+- Practice CAD skills until you're significantly more comfortable with Onshape
+- Learn engineering concepts and mechanism design
+- Learn layout sketches for different mechanisms
 
+<br>
+<hr>
 
-### [Stage 3](stage3/3A-multidoc&MS.md)
+<img src="/img/design-guide/stage3/1778-2024-MS.webp" align="left" style="width:25%; border:5px solid #ADADAD">
 
-After finishing the last stage, you should be comfortable with the tools required to design a robot. This stage transitions to higher level projects, first focusing on high-level design practices and workflows, like how to create effective mastersketches, then transitions into replicating simple robots using what you've learned about both the CAD and the mechanisms themselves. You will learn how the basic mechanisms integrate together and how to apply top-down design practices.
+<div dir="rtl">
+<h3 id="-stage-3-stage3-3a-multidoc-ms-md-"><a href="stage3/3A-multidoc&amp;MS.md">Stage 3</a></h3>
+<ul>
+<li>Practice full robot master sketches</li>
+<li>Replicate simple robots</li>
+<li>Practicing top-down workflow and integration</li>
+</ul>
+</div>
 
-## [Intermediate: Stage 4](stage4.md)
+<br>
+<hr>
 
-In this stage, you'll focus on mastering the design fundamentals to the point where they are natural. This means learning how to optimize your CAD to be more parametric, mastering best practices and workflow that makes your CAD faster and more easily collaborated on, and learning more about engineering design and strategic design. 
+### [Stage 4](stage4.md)
+
+- Master mechanism design
+- Practice integration and workflow
+- Master practices that optimize load time and make collaboration easier
+- Study game history
+- Learn strategic design
+- Make more robots and mechanisms and get review and feedback
 
 <br>
 
