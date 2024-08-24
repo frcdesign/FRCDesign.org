@@ -4,6 +4,16 @@
         font-size: 0.7rem !important;
     }    
 
+    .left {
+        float: left;
+        width: 50%;
+    }
+
+    .right {
+        float: right;
+        width: 50%;
+    }
+
 </style>
 
 # 2B: Basic Shooter
@@ -130,25 +140,33 @@ The following sections describe the intentions and concepts behind the design of
 
 ??? Concept "Friction & Efficiency (in the flywheel system)"
 
-    Friction both causes inefficiencies (by taking energy and turning it into heat) and adds unnecessary load to the motor. Some amount of friction in the system is unavoidable, but if there's too much, the flywheel may have problems getting up to speed (causing inconsistencies with shots) and the motors may heat up and even burn out.
+    Friction reduces efficiency by converting energy into heat and adding unnecessary load to the motor. Excessive friction can prevent the flywheel from reaching speed, causing shot inconsistencies, and may overheat or damage the motors.
 
-    Friction in the system can be minimized, however, by targeting each source. 
+    To minimize friction:
 
-    1. Belt tension can create inefficiencies and extra load on the system, so subtracting a little bit (0.01-0.02") from the center-to-center distance can make the system more efficient.
+    Belt Tension: Slightly reduce belt tension by shortening the center-to-center distance (0.01-0.02") to improve efficiency.
 
-    2. Reduce bearing friction by using rounded hex shafts and the associated bearings for rounded hex (13.75mm ID). Rounded hex shafts themselves don't reduce friction, but they allow the use of round bearings, which do reduce friction between the bearing and the shaft. Make sure to use spacers to reduce the friction between them and other components on the shaft (such as pulleys).
+    Spacers: Use spacers between components on shafts and bearings. Components should not contact the outer race of the bearing to avoid friction..
     
-    3.  Don't over-constrain shafts by using multiple fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
+    Shaft Constrain: Don't over-constrain shafts by using more than 2 fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
     !!! Example
-        <figure>
-        <img src="/img/design-guide/stage2-shooter/overconstrained-shaft.webp" width="60%">
-        <figcaption>An example of an overconstrained shaft in CAD. See how the middle bearing may add an additional "constrain" point if the two outer plates are misalligned.
-        </figure>
+        <div class = "right">
+            <center>
+            <img src="/img/design-guide/stage2-shooter/overconstrained-shaft.webp" width="40%">
+            <figcaption>Example of a shaft being overconstrained by having a fixed bearing in the middle of the shaft.</figcaption>
+            </center>
+        </div>
+        <div class = "left">
+            <center>
+            <img src="/img/design-guide/stage2-shooter/proper-constraint.webp" width="40%">
+            <figcaption>Example of a shaft being properly constrained with two fixed bearings.</figcaption>
+            </center>
+        </div>
         
 
-    4. Bent shafts can reduce efficiency significantly. Shafts in a system can bend from two main reasons (besides being hit): overly cantilevered shafts with tight belts or misaligned fixed bearings. Try to keep your pulleys as close to a bearing as possible and avoid over-constraining shafts.
+    Bent Shafts: Bent shafts reduce efficiency. Prevent bending by avoiding excessive cantilevering and ensuring proper alignment of bearings. Keep pulleys close to bearings
 
-    5. "Tolerance stackup" can happen when too much is connected to each other in a power transmission and the tolerances build up and put friction and tension on the system. You can reduce these issues by either adding more precision to your fabrication process or by designing to reduce connections to various different pieces. Here, all of the power transmission for the flywheels is run through two identical plates kept perfectly rigid, helping reduce tolerance stackup.
+    Tolerance Stackup: Minimize tolerance stackup, which occurs when multiple parts connect and introduce friction. Improve precision in fabrication or reduce the number of connections. In this design, a single manufactured plate for bearing holes and center-to-center distances helps reduce tolerance stackup.
 
     !!! Note
         These tips for reducing friction can be applied to all power transmissions
