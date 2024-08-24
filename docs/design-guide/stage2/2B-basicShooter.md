@@ -10,9 +10,9 @@
 
 ## Shooter Mechanisms
 
-In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal provides an easier and more reliable way of scoring for many teams, and through the nature of the game is sometimes even required at higher levels of gameplay, but the capability of scoring in the high goal will make it easier to succeed without depending on other teams in your alliance.
+In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal offers a more accessible and reliable scoring method for many teams. Due to the nature of the game, it is sometimes required at higher levels of play. However, the ability to score in the high goal increases the likelihood of success without relying on alliance partners.
 
-This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but were mostly accomplished by placing the gamepieces instead. Most games have you launch balls, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
+In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but scoring was more commonly accomplished by placing the gamepieces instead. Most shooting games involve launching a ball, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
 
 The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults and punchers, are also effective but often more challenging to execute with the required accuracy.
 
@@ -28,13 +28,14 @@ Other mechanism examples and deep dives for shooters can be found on the [ball s
 
 ## Project
 
-In this stage, you will be designing a shooter to launch the Power Cell from the 2020/2021 Infinite Recharge game. The Power Cell is a 7 inch diameter foam ball. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [1690's 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications.
+In this stage, you will be designing a shooter to launch the Power Cell, a 7 inch diameter foam ball, from the 2020/2021 Infinite Recharge game. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [Team 1690 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications.
 
 The shooter will be designed to shoot the Power Cells into the high goal from just behind the white "Initiation Line."
 
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
+<center><figcaption>Finished shooter assembly.</figcaption></center>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). Model a copy of it in your own document. Related mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
+The reference shooter is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). You should model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 
 ### Engineering Concepts & Decisions
@@ -112,8 +113,6 @@ The following sections describe the intentions and concepts behind the design of
     [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
 
     For this design, 4" Solid Roller Wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
-
-    A good gear ratio should allow us to spin up to speed quickly while allowing it to hit the maximum speed needed for a the distance you want to shoot from. The ratio needed is also heavily impacted by the diameter of the wheels; a larger wheel needs less angular speed than a smaller wheel. For instance, a 2-inch wheel at 3000 RPM matches a 4-inch wheel at 1500 RPM in effective speed.
 
 ??? Concept "Spin"
 
