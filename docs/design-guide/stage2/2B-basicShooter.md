@@ -50,7 +50,7 @@ The shooter will be designed to shoot the Power Cells into the high goal from ju
 <center><img src="\img\design-guide\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 <center><figcaption>Finished shooter assembly.</figcaption></center>
 
-The reference shooter is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). You should model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
+The reference shooter is provided in [**this document**](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410). Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 
 ### Engineering Concepts & Decisions
