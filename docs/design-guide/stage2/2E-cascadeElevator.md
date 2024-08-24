@@ -1,3 +1,92 @@
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+#slide1 {display:block}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.25s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
 
 # 2H: Cascade Elevator
 
@@ -44,7 +133,9 @@ Cascade elevators are characterized by the way the stages move. In a cascade rig
 
 Because elevators are just mechanisms to move other mechanisms around, this project is similar to the dead axle pivot and will be designed without much context to learn the design process and components. You will get practice with designing elevators in the context of a robot in Stage 3.
 
-[INSERT PICTURE OF MAIN ASSEMBLY]
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+</figure>
 
 The reference is provided in [**this document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283). Model a copy of it in your own document. Key components of the elevator and an overview of the design process are provided below.
 
@@ -72,6 +163,15 @@ Most cascade elevators use chain to power their initial stage; this chain can ru
     <img src="/img/design-guide/stage2-elevator/chain-comb.webp" style="width:75%">
 </figure>
 <br>
+
+**Rigging**
+
+Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
+<br>
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
+    <img src="/img/design-guide/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
+</figure>
 
 **Cable Clamp & Pulleys**
 
@@ -106,31 +206,6 @@ It is important to tie a self-tightening knot in the cable to prevent this from 
 </figure>
 
 
-
-### Master Sketch
-Like most mechanisms, it begins with a master sketch. Elevator master sketches usually start as a side view. It can sometimes be helpful to separate the stages into their own individual side sketches to let you "animate" how it moves in the sketch. After making a side sketch you can make a "top" sketch that lets you define in the master sketch how wide the elevator will be, and how big the carriage will be.
-<br>
-
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/master-sketch.webp" style="width:50%">
-</figure>
-
-### Tubing
-Usually the first place to start with an elevator is making the tubes from the master sketch. After you make the tubes you can mate those together, and give it off to other team members to work with, since that is the core of the elevator. This is just one example of how you can parallelize the design process.
-<br>
-
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevator-tubes.webp" style="width:50%">
-</figure>
-
-### Rigging
-Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
-<br>
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
-    <img src="/img/design-guide/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
-</figure>
-
 ### Power Gearbox
 Elevators need motors to power them. Once you have the rigging planned out you can figure out where you can fit the motors to drive the base elevator stage.
 There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
@@ -139,5 +214,160 @@ There are many methods to power the base stage, but this guide will be using a v
     <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:50%">
 </figure>
 
-### Polishing
-The polishing stage consists of adding crush blocks to key areas, shafts for gearboes/the top sprocket(s), and making sure everything is in line. Its important to not skip this step. Even if it "looks like an elevator" it is always critical to look everything over and put little polishes on the design to make sure assembly and operation go smoothly.
+
+### Master Sketches
+
+Elevator master sketches usually start with an extended side view so you can drive the length of it based off of the extension limits and your required beginning and end position for whatever mechanism you're moving. Though this elevator doesn't have that context, it's still useful to follow the same workflow of starting with a side sketch, which will contain most important dimensions but can be hard to conceptualize at first.
+
+<br>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div id="slide1" class="mySlides fade">
+        <figure>
+            <img src="/img/design-guide/stage2-elevator/master-sketch.webp" style="width:40%">
+            <figcaption>A clean view of the front sketch of the elevator tubes.</figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/design-guide/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%">
+            <figcaption> As practice for stage 3, we'll start with defining the position of the elevator in relation to drivetrain side sketch. Use rectangles to represent the 2x2 tube and the length of the stages. Add rectangles to represent the bottom tubes of each stage and carriage as well. </figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/design-guide/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%">
+            <figcaption> Feel free to create a retracted side sketch (constraining it to the geometry of the first side sketch) to help double check geometry and integration. This especially helpful when designing a full robot. </figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/design-guide/stage2-elevator/elevatorFrontSketch.webp" style="width:75%">
+            <figcaption> Now add the front sketch to define all the elevator tubes, the width of the elevator, and the distance between stages on the side.</figcaption>
+        </figure>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+    <!-- The dots/circles -->
+    <div class="dotsContainer" style="text-align:center">
+    <!-- Dots will be generated here -->
+    </div>
+</div>
+
+!!! Tip
+    Instead of creating "extended" and "retracted" views, you can separate the stages into their own individual side sketches to let you "animate" how it moves in the sketch. You can use configurations to do this.
+
+
+
+### Part Studio
+1. Use the origin cube featurescript and derive the master sketches if you made them in a separate part studio.
+2. Use extrude individual to create the tubes (without creating only duplicates; this means only the bottoms of stages on one side).
+3. Convert the extrusions into tubes.
+
+    !!! Tip
+        Tube converter is the easiest way to do this, as demonstrated before, but the hole pattern can break things and be misaligned pretty easily if the dimensions of the elevator end up changing. The most parametric way is to shell the tubes manually, then use a mix of sketches and linear patterns to create the hole pattern. This way you can build design intent into the hole pattern so it won't be misaligned with anything when dimensions change.
+
+4. Transform and copy the tubes to complete the structure.
+
+    !!! Tip
+        At this point, as design lead, you could create mate connectors, subassemblies, and top level assembly, and hand off the elevator to other people to parallelize the process if that's how your team works.
+
+5. Model any unique crushblocks
+6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
+7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit) into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
+8. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
+9. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
+10. Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit) into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
+11. Add holes for the tube plugs on the crossmember.
+12. Create the chain transmission, including the chain, any custom spacers, and axles
+13. Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable
+14. Add plates at the bottom of the elevator to support the MAXplanetary shafts.
+15. Optionally, derive nut strips and a ratchet plate for the carriage and create the shaft for the rigging to be tied to.
+16. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/elevatorPartStudio.webp" style="width:75%">
+</figure>
+
+### Assembly
+Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.
+
+Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, MKCAD, and standard content, using replicate and patterns when you can.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/frameSubassembly.webp" style="width:85%">
+</figure>
+
+Do the same thing for the first stage subassembly.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/stage1Subassembly.webp" style="width:85%">
+</figure>
+
+And finally the carriage subassembly.
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/carriageSubassembly.webp" style="width:75%">
+</figure>
+
+Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator. 
+
+<figure markdown="span">
+    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+</figure>
+
+Because it's a cascade elevator, you can create "linear relation" between the two slider mates with a ratio of 1. This will link the motion together in the same way it would be in real life.
+
+## Summary
+blah
+
+<!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
+
+<script>
+// Initialize slide index for each slideshow
+let slideIndices = [];
+
+let slideshows = document.getElementsByClassName("slideshow-container");
+  for (let no = 0; no < slideshows.length; no++) {
+    slideIndices[no] = 1;
+    let dotsContainer = slideshows[no].getElementsByClassName("dotsContainer")[0];
+    let slides = slideshows[no].getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      let dot = document.createElement("span");
+      dot.className = "dot";
+      dot.onclick = function() { currentSlide(i+1, no); };
+      dotsContainer.appendChild(dot);
+    }
+    showSlides(1, no);
+  }
+
+// Next/previous controls
+function plusSlides(n, no) {
+  showSlides(slideIndices[no] += n, no);
+}
+
+// Thumbnail image controls
+function currentSlide(n, no) {
+  showSlides(slideIndices[no] = n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("slideshow-container")[no].getElementsByClassName("dot");
+  if (n > x.length) {slideIndices[no] = 1}    
+  if (n < 1) {slideIndices[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  x[slideIndices[no]-1].style.display = "block";  
+  dots[slideIndices[no]-1].className += " active";
+}
+
+</script>
