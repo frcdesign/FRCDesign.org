@@ -81,7 +81,7 @@ The following sections describe the intentions and concepts behind the design of
 
 ??? Concept "Zombie Axles"
 
-      For transferring power to the rollers, because of the plates in the way and how small the pulleys are, it's necessary to transfer power through the axles (live axle). However, one of these axles is repurposed as a deadaxle by the sprockets attached to the intake arms. The sprockets are on bearings, and driven by chain, so they rotate independently from the axles used by the belts and pulleys. A setup like this, where power is transferred both through the axle and just on top of it for packaging purposes, is called a 'zombie axle'.
+      For transferring power to the rollers, because of the plates in the way and how small the pulleys are, it's necessary to transfer power through the axles (live axle). However, one of these axles is repurposed as a deadaxle by the sprockets attached to the intake arms. The sprockets are on bearings, and driven by chain, so they rotate independently from the axles used by the belts and pulleys. A setup like this, where power is transferred both through the axle and just on top of it for packaging purposes, is called a 'zombie axle'. A good way to explain a dead axle is that it is a dead axle, but the dead axle can also separately rotate. If you are having trouble visualizing this and have a 3d printer, try to print and assemble this 3d printed model. 
 
 
 
