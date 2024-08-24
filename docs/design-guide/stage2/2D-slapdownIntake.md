@@ -31,7 +31,7 @@ The reference is provided in [**this document**](https://cad.onshape.com/documen
 
 ### Engineering Concepts & Decisions
 
-The following sections describe the intentions and concepts behind the design of the intake you will be copying. This helps integrate functional mechanism design with the differing CAD concepts for each mechanism for a complete lesson.
+The following sections cover the design rationale for the slapdown intake you will be copying. This integrates practical design principles with CAD skills for a more complete understanding of mechanism design.
 
 ??? Concept "Intake Golden Rules"
 

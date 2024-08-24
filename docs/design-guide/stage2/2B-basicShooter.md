@@ -50,7 +50,7 @@ The reference shooter is provided in [**this document**](https://cad.onshape.com
 
 ### Engineering Concepts & Decisions
 
-The following sections describe the intentions and concepts behind the design of the shooter you will be copying. This helps integrate functional mechanism design with the differing CAD concepts for each mechanism for a complete lesson.
+The following sections cover the design rationale for the shooter mechanism you will be copying. This integrates practical design principles with CAD skills for a more complete understanding of mechanism design.
 
 ??? Concept "Rigidity"
 
