@@ -133,7 +133,7 @@ Because elevators are just mechanisms to move other mechanisms around, this proj
     <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
 </figure>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283). Model a copy of it in your own document. Key components of the elevator and an overview of the design process are provided below.
+The reference is provided in [**this document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283). You should model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 ### Key Components
 
