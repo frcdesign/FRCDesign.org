@@ -87,28 +87,32 @@ The following sections describe the intentions and concepts behind the design of
 
     Friction must be minimized since the mechanism pivots around the axle. This can be done using either bushings or bearings. Bushings can handle higher loads at lower speeds, while bearings are more suited for higher speeds and lower loads, but larger bearings can be used for large dead axles. Bushings are used for this dead axle example because they package well, are suitable for the low speeds and potential higher loads of an arm, and it is easy to source ones made specifically for sprockets and tube from FRC vendors.
 
-    <br>
-    <figure><img align="left"  src="/img/design-guide/stage2-pivot/wcpbushing.webp" width="40%"><img align="right" src="/img/design-guide/stage2-pivot/xcontact.webp" width="40%"></figure>
+    <div id="wrapper">
+        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"  width="30%">
+        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%">
     <figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
-    <br>
+    </div>
 
 ??? Concept "Power Transmission"
 
     Sprocket and chain is used for transmitting power due to the load rating for chain and extremely low chance of it slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
 
     <br>
-    <figure><img src="\img\design-guide\stage2-pivot\power-example.webp" alt="Power Example" /></figure>
+    <figure>
+    <img src="\img\design-guide\stage2-pivot\power-example.webp" alt="Power Example" width="60%">
     <figcaption> A chain and Sprocket</figcaption>
+    </figure>
     <br>
 
 ??? Concept "Tensioning"
 
     To accommodate chain stretch over the course of a season and reduce backlash, an active tensioning system is required. If enough chain length is available, **inline tensioners** such as turnbuckles and Spartan tensioners are the simplest way to tension the chain. If there isn't enough space for an inline tensioner (if the chain moves too much, the tensioner might run into either of the sprockets), other methods, such as moving the position of one of the sprockets with a sliding or rotating gearbox or stage, may be used. 
 
-    <br>
-    <figure><img align="left"  src="/img/design-guide/stage2-pivot/turnbuckle.webp" width="40%"><img align="right" src="/img/design-guide/stage2-pivot/spartan_tensioner.webp" width="40%"></figure>
-    <figcaption>Two types of inline tensioners, a turnbuckle and a Spartan tensioner.</figcaption>
-    <br>
+    <div id="wrapper">
+        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/turnbuckle.webp" width="30%">
+        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/spartan_tensioner.webp" width="30%">
+    <figcaption>Two types of inline tensioners, a turnbuckle and a Spartan tensioner</figcaption>
+    </div>
 
     For this design, enough chain length was provided for a simple inline spartan tensioner to work well.
 
@@ -126,12 +130,7 @@ The following sections describe the intentions and concepts behind the design of
 
     Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-fundamentals/design-writeups/DFC.md).
 
-<br>
-<div id="wrapper">
-    <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"  width="30%">
-    <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%">
-<figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
-</div>
+
 
 <br>
 
