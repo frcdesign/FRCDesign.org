@@ -128,10 +128,8 @@ The following sections describe the intentions and concepts behind the design of
 
 <br>
 <div id="wrapper">
-    <figure>
-        <a><img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"></a>
-        <a><img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%"></a>
-    </figure>
+    <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"  width="30%">
+    <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%">
 <figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
 </div>
 
