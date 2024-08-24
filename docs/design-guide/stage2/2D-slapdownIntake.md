@@ -13,7 +13,7 @@ A common style of intake for gamepieces in FRC (depending on extension rules) is
 
 The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 <br>
-<figure><img align="left"  src="/img/mechanism-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/mechanism-examples/intake/4bar/1678.webp" width="40%"></figure>
+<figure><img align="left"  src="/img/mechanism-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/mechanism-examples/intake/4bar/1678.webp" width="45%"></figure>
 <figcaption>4414's 2023 Slapdown Intake and 1678's 2022 Four-bar Intake</figcaption>
 <br>
 
@@ -39,20 +39,18 @@ The following sections describe the intentions and concepts behind the design of
 
       Summary:
 
-      - Surface speed of roller should be atleast double the robot speed.
-      - All power transfer needs grippiness. 
+      - The surface speed of intake rollers/wheels should be at least double the robot's max speed.
+      - Maximize grippiness with game piece through all methods to maximize energy transfer, and thus intake speed and reliability
       - If object is squishy, make your rollers rigid, if the object is hard, make your rollers compliant/squishy. 
       - Maximize intake area to make it easier to intake during auto and teleop. 
-      - Intakes need to be robust as they are frequently out of frame perimeter, typiclaly done with 1/4 polycarbonate. 
-      - USe sensors to detect game pieces. 
+      - Intakes need to be robust as they are frequently out of frame perimeter.
+      - Use sensors to detect game pieces. 
 
 ??? Concept "General Design and Robustness"
 
       The main structure uses 1/4" polycarbonate, 2x1 tubes, and nut strips to attach the plates directly to the frame. In this way, the structure would do an especially good job resisting impacts from the front. Because of the rigid nature in how the main plate is mounted, it can be polycarbonate, making it lighter and stronger than pocketed aluminum. The two secondary plates used to make sure all axles are supported on two points aren't connected with a very rigid structure and so work better as aluminum.
 
       The intake is as wide as possible to decrease the precision and time needed by the driveteam or autonomous code to intake the game piece. The only aim is to get the game piece into the robot, then it can be centered or serialized inside frame perimeter, also minimizing the time that the intake is down.
-      <figure><img src="\img\design-guide\stage2-slapdown\intake-area.webp" alt="intake area">
-      <figcaption> The intake area of an over the bumper intake </figcaption></figure>
 
 ??? Concept "Pivot"
 
@@ -63,10 +61,11 @@ The following sections describe the intentions and concepts behind the design of
       For reducing backlash in the system, the 1:1 belt/pulley is exact center-center distance, and the chains are tensioned with inline tensioners. Large sprockets on the output of the arms are good as well for more teeth engagement with the chain.
 
       For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
+      <br>
       <figure>
-    <img src="\img\design-guide\stage2-slapdown\pivot.webp" alt="Power Example">
-    <figcaption> An Intake Pivot</figcaption>
-    </figure>
+      <img src="\img\design-guide\stage2-slapdown\pivot.webp" alt="Power Example" width="60%" style="border:5px solid #ADADAD">
+      <figcaption> An Intake Pivot</figcaption>
+      </figure>
 
 ??? Concept "Rollers and Roller Position"
 
@@ -76,7 +75,7 @@ The following sections describe the intentions and concepts behind the design of
 
       Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
       <figure>
-    <img src="\img\design-guide\stage2-slapdown\ball-path.webp" alt="Ball Path">
+    <img src="\img\design-guide\stage2-slapdown\ball-path.webp" alt="Ball Path" width="60%" style="border:5px solid #ADADAD">
     <figcaption> See how the roller positions impact the ball path</figcaption>
     </figure>
 
@@ -93,7 +92,7 @@ The following sections describe the intentions and concepts behind the design of
    3. Sketch roller or wheel positions needed to get the game piece to move that way. The distance between rollers should be adjusted using the [WCP Belt Calculator](https://wcproducts.com/pages/calculator-belt). "Extra center" should be set as -0.02 for ease of assembly and efficiency.
    4.  Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
 
-<center><img src="/img/design-guide/stage2-slapdown/masterSketch.webp" width="70%"></center>
+<center><img src="/img/design-guide/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
 
 ### Part Studio
 
@@ -113,7 +112,7 @@ The following sections describe the intentions and concepts behind the design of
 ### Assembly
 Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. 
 
-Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can.
+Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. [Here's the link](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d) to the deadaxle rollers again. 
 
 <center><img src="/img/design-guide/stage2-slapdown/staticAssembly.webp" width="70%"></center>
 

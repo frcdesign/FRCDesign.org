@@ -21,14 +21,14 @@
 A rotary mechanism allows us to pivot objects or mechanisms through rotational movement, typically using wrists or arms.
 
 <br>
-<figure><img align="left"  src="/img/design-guide/stage2-pivot/sushiPivot.webp" width="45%"><img align="right" src="/img/mechanism-examples/pivots/2910/2910pivotcropped.webp" width="45%"></figure>
+<figure><img align="left"  src="/img/design-guide/stage2-pivot/sushiPivot.webp" width="45%" style="border:5px solid #ADADAD"><img align="right" src="/img/mechanism-examples/pivots/2910/2910pivotcropped.webp" width="45%"></figure>
 <figcaption>7461's 2023 Dead Axle Pivot and 2910's 2023 Dead Axle Pivot</figcaption>
 <br>
 
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May have packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp)
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs. Not recommended due to the risk of twisting.| Simple setup; direct power transfer.  | High risk of twisting. If using hex, extremely weak due to small diameter. | ![live axle](\img\design-guide\stage2-pivot\live-axle-8033-alpha.webp)
+| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May have packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp){width=70%}
+| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs. Not recommended due to the risk of twisting.| Simple setup; direct power transfer.  | High risk of twisting. If using hex, extremely weak due to small diameter. | ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
@@ -43,22 +43,14 @@ Some key points when designing pivoting mechanisms are:
 
 ## Applications/Examples
 
-[NEEDS IMAGES]
+| **Mechanism Type**       | **Description**                                                                 | **Axle Type**                                                        | **Friction Management**                                             |
+|--------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|
+| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           |
+| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. |
+| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             |
 
-### Wrist
-- **Description:** Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments.
-- **Axle Type:** You'll find coaxial, live, and dead axles for wrists. 
-- **Friction Management:** Both bearings and bushings are common. 
 
-### Large Pivots
-- **Description:** Include pink arms, pivoting elevators, and large arms.
-- **Axle Type:** Dead axle is preferred; consider using 35 chain for heavy loads.
-- **Friction Management:** Bushings are more common, though thin x contact bearings are used occasionally.
 
-### High Load Short Pivot
-- **Description:** Pivots full mechanisms such as a shooter to adjust shot angle.
-- **Axle Type:** Dead axle recommended with bearings or bushings.
-- **Power Transmission:** Rack and pinion are gaining popularity.
 
 <br>
 

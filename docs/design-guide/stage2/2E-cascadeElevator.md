@@ -97,7 +97,12 @@ details {
 ## Cascade Elevator
 Elevators pop up commonly in FRC and are used to move mechanisms in a compact linear fashion. This is usually to reach higher places with a mechanism, reach far out from your frame perimeter, or even climb on a field element. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either Cascade or Continuous. This page will be covering the design of a Cascade elevator due to there currently being much better COTS part availability for making a Cascade elevator.
 
-[INSERT EXAMPLE PICTURES OF ELEVATORS]
+<br>
+<figure><img align="left"  src="/img/design-guide/stage2-elevator/8177-2023.webp" width="30%"><img align="right" src="/img/design-guide/stage2-elevator/254-lockdown.webp" width="60%"></figure>
+<figcaption>Cascade Elevator Examples from teams 8177 and 254</figcaption>
+<br>
+
+Some match videos with examples of elevators include [one showcasing 8177's 2023 Robot with a cascade rigged elevator](https://www.youtube.com/watch?v=p_xUvj3Wwz4){target=void} and [one showcasing 4414's 2023 Robot with a continuous rigged elevator](https://youtu.be/PKPuqpe1Wlg){target=void}.
 
 Elevators as designed most typically may be out of the scope of a lower-capability team because of the amount of custom metal parts that need to be bought or manufactured, but once you know how one works and have designed one, you may be able to make one with minimal manufacturing capabalities and time required.
 
@@ -186,7 +191,7 @@ Elevators have some key components that differ from most other mechanisms, and i
 
     To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585) (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
 
-    It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly you will need to loosen the clamping plate before adding tension so that it gets added to each side, instead of just the side with the ratchet.
+    It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly, you will need to loosen the clamping plate before adding tension. This is for two reasons: in order to maintain sync between the stages and so that the tension gets added to each side instead of just the side with the ratchet.
     <br>
 
     <figure markdown="span">
@@ -221,19 +226,19 @@ Elevator master sketches usually start with an extended side view so you can dri
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%">
+            <img src="/img/design-guide/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
             <figcaption> As practice for stage 3, we'll start with defining the position of the elevator in relation to drivetrain side sketch. Use rectangles to represent the 2x2 tube and the length of the stages. Add rectangles to represent the bottom tubes of each stage and carriage as well. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%">
+            <img src="/img/design-guide/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%" style="border:5px solid #ADADAD">
             <figcaption> Feel free to create a retracted side sketch (constraining it to the geometry of the first side sketch) to help double check geometry and integration. This especially helpful when designing a full robot. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorFrontSketch.webp" style="width:75%">
+            <img src="/img/design-guide/stage2-elevator/elevatorFrontSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
             <figcaption> Now add the front sketch to define all the elevator tubes, the width of the elevator, and the distance between stages on the side.</figcaption>
         </figure>
     </div>
@@ -269,7 +274,11 @@ Elevator master sketches usually start with an extended side view so you can dri
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design fundamentals page about structure](\design-fundamentals\structure\structure.md).
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design fundamentals page about structure](../../design-fundamentals\structure\structure.md).
+
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
+    </figure>
 
 6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
 7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit) into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.

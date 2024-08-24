@@ -20,3 +20,5 @@ Tube plugs are metal inserts that go into the ends of box tube that allow you to
     Tube plugs are made to fit into tubes of 1/8" wall thickness. For tube with thinner walls you can use a simple plastic sleeve on the outside of the tube plug to fill the gap with no strength loss.
 
 <center>![tube plug](/img/best-practices/tube-plug.webp){width=50%}</center>
+
+<br>
