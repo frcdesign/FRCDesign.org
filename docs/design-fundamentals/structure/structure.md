@@ -14,9 +14,11 @@ Above is the most simple form of crushblock. Just a piece of plastic that fills 
 
 ## Tube Plugs
 
-Tube plugs are metal inserts that go into the ends of box tube, that allow allow you to fasten tubes together without the tube of gussets. This provides a simple and strong connection between tubes. Tube plugs find a major use in modern elevator designs due to how much they simplify the design process. By not having to worry about bearing blocks interfering with tube gussets you massively cut down on design complexity, while also cutting part count and robot cost. When bolting tube plugs to the tube you typically dont need to use all 8 available bolts, with 2-4 being acceptable for most use cases.
+Tube plugs are metal inserts that go into the ends of box tube that allow you to fasten tubes together without the tube of gussets. This provides a simple and strong connection between tubes. Tube plugs find a major use in modern elevator designs due to how much they simplify the design process. By not having to worry about bearing blocks interfering with tube gussets you massively cut down on design complexity, while also cutting part count and robot cost. When bolting tube plugs to the tube you typically dont need to use all 8 available bolts, with 2-4 being acceptable for most use cases.
 
 !!! note "Note"
     Tube plugs are made to fit into tubes of 1/8" wall thickness. For tube with thinner walls you can use a simple plastic sleeve on the outside of the tube plug to fill the gap with no strength loss.
 
 <center>![tube plug](/img/best-practices/tube-plug.webp){width=50%}</center>
+
+<br>
