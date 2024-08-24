@@ -19,10 +19,14 @@
 # 2B: Basic Shooter
 
 ## Shooter Mechanisms
-
 In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal provides an easier and more reliable way of scoring for many teams, and through the nature of the game is sometimes even required at higher levels of gameplay, but the capability of scoring in the high goal will make it easier to succeed without depending on other teams in your alliance.
 
 This type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but were mostly accomplished by placing the gamepieces instead. Most games have you launch balls, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
+
+<br>
+<figure><img align="left"  src="\img\design-guide\stage2-shooter\2910shooter.gif" width="47%"><img align="right"  src="\img\design-guide\stage2-shooter\1690shooter.gif" width="42%"></figure>
+<center><figcaption>FRC Team 2910 and's 2021 Robot Launching Game Pieces</figcaption></center>
+<br>
 
 The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults and punchers, are also effective but often more challenging to execute with the required accuracy.
 

@@ -98,11 +98,11 @@ details {
 Elevators pop up commonly in FRC and are used to move mechanisms in a compact linear fashion. This is usually to reach higher places with a mechanism, reach far out from your frame perimeter, or even climb on a field element. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either Cascade or Continuous. This page will be covering the design of a Cascade elevator due to there currently being much better COTS part availability for making a Cascade elevator.
 
 <br>
-<figure><img align="left"  src="/img/design-guide/stage2-elevator/8177-2023.webp" width="30%"><img align="right" src="/img/design-guide/stage2-elevator/254-lockdown.webp" width="60%"></figure>
-<figcaption>Cascade Elevator Examples from teams 8177 and 254</figcaption>
+<figure><img align="left"  src="\img\design-guide\stage2-elevator\2468elevator.gif" width="50%"><img align="right" src="\img\design-guide\stage2-elevator\4414elevator.gif" width="40%"></figure>
+<figcaption>2468's Cascade Elevator and 4414's Continuous Elevator</figcaption>
 <br>
 
-Some match videos with examples of elevators include [one showcasing 8177's 2023 Robot with a cascade rigged elevator](https://www.youtube.com/watch?v=p_xUvj3Wwz4){target=void} and [one showcasing 4414's 2023 Robot with a continuous rigged elevator](https://youtu.be/PKPuqpe1Wlg){target=void}.
+Some match videos with examples of elevators include [one showcasing 2468's 2023 Robot with a cascade rigged elevator](https://www.youtube.com/watch?v=RAFjZgB_72w){target=void} and [one showcasing 4414's 2023 Robot with a continuous rigged elevator](https://youtu.be/PKPuqpe1Wlg){target=void}.
 
 Elevators as designed most typically may be out of the scope of a lower-capability team because of the amount of custom metal parts that need to be bought or manufactured, but once you know how one works and have designed one, you may be able to make one with minimal manufacturing capabalities and time required.
 

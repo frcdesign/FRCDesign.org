@@ -21,8 +21,8 @@
 A rotary mechanism allows us to pivot objects or mechanisms through rotational movement, typically using wrists or arms.
 
 <br>
-<figure><img align="left"  src="/img/design-guide/stage2-pivot/sushiPivot.webp" width="45%" style="border:5px solid #ADADAD"><img align="right" src="/img/mechanism-examples/pivots/2910/2910pivotcropped.webp" width="45%"></figure>
-<figcaption>7461's 2023 Dead Axle Pivot and 2910's 2023 Dead Axle Pivot</figcaption>
+<figure><img align="center"  src="/img/design-guide/stage2-pivot/6036pivot.gif" width="50%" style="border:5px solid #ADADAD"><img align="center" src="\img\design-guide\stage2-pivot\2910video.gif" width="65%"></figure>
+<figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption>
 <br>
 
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 

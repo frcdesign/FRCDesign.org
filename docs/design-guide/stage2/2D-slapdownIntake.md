@@ -13,8 +13,8 @@ A common style of intake for gamepieces in FRC (depending on extension rules) is
 
 The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 <br>
-<figure><img align="left"  src="/img/mechanism-examples/intake/slapdown/4414style.webp" width="50%"><img align="right" src="/img/mechanism-examples/intake/4bar/1678.webp" width="45%"></figure>
-<figcaption>4414's 2023 Slapdown Intake and 1678's 2022 Four-bar Intake</figcaption>
+<figure><img align="left"  src="\img\design-guide\stage2-slapdown\1323intake.gif" width="45%"><img align="right" src="\img\design-guide\stage2-slapdown\1678intake.gif" width="50%"></figure>
+<figcaption>1323's 2022 Slapdown Intake and 1678's 2022 Four-bar Intake in action</figcaption>
 <br>
 
 [This video](https://www.youtube.com/watch?v=pSQX5c7G8yg) is a great example of a slapdown intake in 2022, on Madtown 1323's robot.
