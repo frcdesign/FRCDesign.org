@@ -26,7 +26,7 @@ In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, 
 
 <br>
 <figure><img align="left"  src="\img\design-guide\stage2-shooter\2910shooter.gif" width="47%"><img align="right"  src="\img\design-guide\stage2-shooter\1690shooter.gif" width="42%"></figure>
-<center><figcaption>FRC Team 2910 and's 2021 Robot Launching Game Pieces</figcaption></center>
+<center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
 <br>
 
 The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults and punchers, are also effective but often more challenging to execute with the required accuracy.
