@@ -1,8 +1,17 @@
 <style>
-
+    .centeredImages {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px; 
+    }
     details {
         font-size: 0.7rem !important;
     }    
+    
+    #wrapper{
+    text-align:center;
+    }
 
 </style>
 
@@ -114,6 +123,16 @@ The following sections describe the intentions and concepts behind the design of
 
     Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-fundamentals/design-writeups/DFC.md).
 
+<br>
+<div id="wrapper">
+    <figure>
+        <a><img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"></a>
+        <a><img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%"></a>
+    </figure>
+<figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
+</div>
+
+<br>
 
 ### Master Sketch
 
@@ -140,7 +159,7 @@ The master sketch is very simple as it uses maxplanetaries for most of the reduc
 <center><img src="/img/design-guide/stage2-pivot/PivotPartStudio.webp" width="70%"></center>
 
 !!! Note
-    Keep in mind you should be creating folders for related features while modeling the mechanism! It's easier doing it throughout the process than saving all the clean up for the end.
+    Keep in mind you should be creating folders for related features while modeling the mechanism! It's easier doing it throughout the process than saving all the clean-up for the end.
 
 ### Assembly
 
