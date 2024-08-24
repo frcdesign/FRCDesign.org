@@ -97,22 +97,21 @@ The following sections describe the intentions and concepts behind the design of
 
     ??? Video "Not Enough Compression/Contact Time/Grip"
         <figure>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5OoCSAgqm3s?si=ui-Ca4EOX8czp1LB&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5OoCSAgqm3s?si=ougTDRU_EV1QIwa3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </figure>
-        <figcaption>This is what it may look like if you do not have enough compression. See how loud the shooter is compared to how far the shot actually goes (Warning: Swearing)</figcaption>
+        <figcaption>This is what it may look like if you do not have enough compression. See how loud the shooter is compared to how far the shot actually goes (Warning: Loud Audio / Swearing)</figcaption>
 
     ??? Video "Good Contact Time and Compression"
         <figure>
         <iframe width="320" height="560" src="https://www.youtube.com/embed/9DEJG6eoeaQ" frameborder="0" allowfullscreen></iframe>
         </figure>
-        <figcaption>This is what it looks like if you have good contact time and compression with the exact same robot.</figcaption>
-
+        <figcaption>This is what it looks like if you have good contact time and compression with the exact same robot. (Warning: Loud Audio)</figcaption>
 
     Instead of adding compliance in the mechanism, prototype to find the best combination between compression and shooter wheel material. The grip of the shooter wheels, a result of the hardness rating in the case of silicone, can be maximized to maximize the energy transfer. The grippiest wheels are usually ones with soft silicone or a grippy texture (you can apply grip tape). Tread patterns may even help. 
 
     [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
 
-    For this design, 4" Stealth wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
+    For this design, 4" Solid Roller Wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
 
     A good gear ratio should allow us to spin up to speed quickly while allowing it to hit the maximum speed needed for a the distance you want to shoot from. The ratio needed is also heavily impacted by the diameter of the wheels; a larger wheel needs less angular speed than a smaller wheel. For instance, a 2-inch wheel at 3000 RPM matches a 4-inch wheel at 1500 RPM in effective speed.
 

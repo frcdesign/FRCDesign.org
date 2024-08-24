@@ -101,7 +101,7 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 2. Electronics Mounting: Adequate space must be allocated on the robot for ease of wiring. Typically, the robot’s electronics are mounted on the bellypan.
 
-3. Bellypan Pocketing: This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan significantly increases machining time.
+3. Bellypan Pocketing: This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan may significantly increase machining time.
 
 4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
