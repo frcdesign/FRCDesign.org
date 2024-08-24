@@ -18,17 +18,22 @@
 # 2C: Dead Axle Pivot
 
 ## Rotary Mechanisms & Dead Axles
-A rotary mechanism allows us to pivot objects or mechanisms through rotational movement, typically using wrists or arms.
+Rotary mechanisms enable the pivoting of mechanisms through rotational movement. These mechanisms come in many shapes and sizes but there are a couple good practices that should be followed when designing powered pivots.
 
 <br>
 <figure><img align="center"  src="/img/design-guide/stage2-pivot/6036pivot.gif" width="50%" style="border:5px solid #ADADAD"><img align="center" src="\img\design-guide\stage2-pivot\2910video.gif" width="65%"></figure>
 <figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption>
 <br>
 
+Take a look at [this video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65) to see team 2910's 2023 robot pivoting arm in action. 
+
+Two types of pivot drive systems exist: Dead Axles and Live Axles. The following table compares the pros and cons of the two types.
+
+
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May have packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp){width=70%}
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs. Not recommended due to the risk of twisting.| Simple setup; direct power transfer.  | High risk of twisting. If using hex, extremely weak due to small diameter. | ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
+| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp){width=70%}
+| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. | ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
@@ -41,25 +46,17 @@ Some key points when designing pivoting mechanisms are:
 
 <br>
 
-## Applications/Examples
+### Applications/Examples
 
-### Wrist
-- **Description:** Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments.
-- **Axle Type:** You'll find coaxial, live, and dead axles for wrists. 
-- **Friction Management:** Both bearings and bushings are common. 
-<center><img src="\img\design-guide\stage2-pivot\973-wrist.webp" width="50%"></center>
+| **Mechanism Type**       | **Description**                                                                 | **Axle Type**                                                        | **Friction Management**                                             | **Images**                                                                                                     |
+|--------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           | <center><img src="\img\design-guide\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
+| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. | <center><img src="\img\design-guide\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
+| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\design-guide\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
 
-### Large Pivots
-- **Description:** Include pink arms, pivoting elevators, and large arms.
-- **Axle Type:** Dead axle is preferred; consider using 35 chain for heavy loads.
-- **Friction Management:** Bushings are more common, though thin x contact bearings are used occasionally.
-<center><img src="\img\design-guide\stage2-pivot\2910-pivot.webp" width="50%"></center>
 
-### High Load Short Pivot
-- **Description:** Pivots full mechanisms such as a shooter to adjust shot angle.
-- **Axle Type:** Dead axle recommended with bearings or bushings.
-- **Power Transmission:** Rack and pinion are gaining popularity.
-<center><img src="\img\design-guide\stage2-pivot\citrus-pivot.webp" width="50%"></center>
+Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+
 
 <br>
 
@@ -69,7 +66,7 @@ This stage's project is a simple dead axle pivot, not for any specific game or i
 
 <center><img src="/img/design-guide/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938). Model a copy of it in your own document. Related mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
+The reference is provided in [**this document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938). You should model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
 ### Requirements
 - **Reduction:** Use Max planetaries.

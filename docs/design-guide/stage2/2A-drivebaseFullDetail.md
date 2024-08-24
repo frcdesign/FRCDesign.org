@@ -91,7 +91,7 @@
 
 # 2A: Full Detail Drivebase
 
-Welcome to Stage 2! This section is focused the design of common mechanisms in FRC, both through CAD skills and best practices and through key engineering concepts. Each project's guide will delve into the reasoning behind specific design decisions and the criteria they fulfill, providing less step-by-step instruction and encouraging more independent CAD work.
+Welcome to Stage 2! This section covers FRC mechanism design, emphasizing CAD skills, best practices, and key engineering concepts. Each project guide explains design decisions and criteria, promoting independent CAD work with less step-by-step instruction.
 
 ## Introduction
 
@@ -115,17 +115,17 @@ Ensuring that your robot’s battery does not fall out of your robot is critical
 Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
 
 ### Battery Placement
-Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent falling over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
+Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent tipping over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
 
 ### Battery Holder
 
-A strong strap should also be used to secure the battery to the mounting and prevent the battery from flying out of the robot on hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
+A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
 
 !!! Example
     <center><img src="\img\design-guide\stage2-drivebase\batt\battStrap.webp" style="width:70%"></center>
     <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
 
-Below we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
+Below, we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
 
 <center>**Sample Battery Holder Modeling Slides**</center>
 <!-- Slideshow container -->
