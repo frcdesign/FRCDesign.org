@@ -43,22 +43,23 @@ Some key points when designing pivoting mechanisms are:
 
 ## Applications/Examples
 
-[NEEDS IMAGES]
-
 ### Wrist
 - **Description:** Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments.
 - **Axle Type:** You'll find coaxial, live, and dead axles for wrists. 
 - **Friction Management:** Both bearings and bushings are common. 
+<center><img src="\img\design-guide\stage2-pivot\973-wrist.webp" width="50%"></center>
 
 ### Large Pivots
 - **Description:** Include pink arms, pivoting elevators, and large arms.
 - **Axle Type:** Dead axle is preferred; consider using 35 chain for heavy loads.
 - **Friction Management:** Bushings are more common, though thin x contact bearings are used occasionally.
+<center><img src="\img\design-guide\stage2-pivot\2910-pivot.webp" width="50%"></center>
 
 ### High Load Short Pivot
 - **Description:** Pivots full mechanisms such as a shooter to adjust shot angle.
 - **Axle Type:** Dead axle recommended with bearings or bushings.
 - **Power Transmission:** Rack and pinion are gaining popularity.
+<center><img src="\img\design-guide\stage2-pivot\citrus-pivot.webp" width="50%"></center>
 
 <br>
 
