@@ -8,7 +8,7 @@ This section is all about robustness and designing with fabrication in mind. Thi
 
 (WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, as well as a guide on lightening.
 
-(Not Started) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
+(WIP) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
 
 (WIP) [**Hardware**](structure/hardware.md): A guide on hardware and hardware standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware.
 

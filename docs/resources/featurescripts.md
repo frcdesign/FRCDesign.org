@@ -38,6 +38,8 @@ The below links contain several featurescripts each that you can add all at once
 
 [**TLamp's Featurescripts**](https://cad.onshape.com/documents/f46510f08cc311a34733cac2/v/f7f3a1c996c58466f6b88a37/e/8e9fbf1ac2f0980e4bc34951)
 
+[**CADSHARP's Featurescripts**](https://www.cadsharp.com/featurescripts/)
+
 
 ### Structure
 
@@ -213,6 +215,11 @@ The below links contain several featurescripts each that you can add all at once
 
 - Given some derived plates, either transformed from an in-context assembly (to maintain part count) or derived from a part studio, it will automatically lay them out into sheets of a given size, sorted by thickness. This is used to prepare a file to route or waterjet parts out of material with a machine.
 
+[**Measure Cut List**](https://cad.onshape.com/documents/395304920b30c3b382fd312d/w/86481637ad1e9da01b0e5d60/e/e19230df69a29e1fc2259b9d?renderMode=0&tangentEdgeStyle=2&uiState=6642611f3aed1a692ef01f41)
+
+- Creates a table of measurements
+- Great for creating cut lists for parts
+
 [**Laser Joint**](https://cad.onshape.com/documents/578830e4e4b0e65410f9c34e/v/8916b9beca0f64d7dd945ce5/e/dfd5effddfd7f2ecce4b0246)
 
 - Highly configurable featurescript that generates tab joints between overlapping parts
@@ -231,9 +238,11 @@ The below links contain several featurescripts each that you can add all at once
 - Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
 - See [Assembly Best Practices](../best-practices/assembly-setup.md#origin-cube-method) for more information on usage
 
-[**SuperDerive**](https://cad.onshape.com/documents/cfef86ed4f9635531599a973/v/07475511d9c61d4993261871/e/305f5ce7d2fdb46e12881f6f)
+[**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f)
 
-- Like the normal derive feature, but you can choose where the derived part is placed, duplicate it, perform a boolean operation, and even derive variables.
+- An extremely useful featurescript
+- Creates variables from measured values
+- Useful for creating parametric patterns, including hole patterns
 
 [**Assembly Mirror**](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392)
 

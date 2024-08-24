@@ -1,6 +1,10 @@
 <style>
 * {box-sizing:border-box}
 
+details {
+        font-size: 0.7rem !important;
+    }   
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -106,26 +110,13 @@ Cascade elevators are characterized by the way the stages move. In a cascade rig
 </figure>
 
 ### Comparison
-**Pros:**
 
-- Cascade elevators are great when you just need to move a mechanism up and down and you dont need more than 3 Elevator stages to reach the desired height. While it is possible to make cascade elevators with more than 3 stages, desigining the rigging gets harder, especially if you are width constrained.
+| **Pros** | **Cons** |
+|----------|----------|
+| Cascade elevators are great when you just need to move a mechanism up and down and you don't need more than 3 Elevator stages to reach the desired height. While it is possible to make cascade elevators with more than 3 stages, designing the rigging gets harder, especially if you are width constrained. | Usually things cannot be passed through a cascade elevator because of the rigging, while you can pass things through a continuous elevator. |
+| Cascade motion is faster than continuous due to the stages being linked together and continuous effectively being one long stage. | The center of gravity is not optimal in the middle range of extension compared to continuous. |
+| All of the major Cascade Elevator components are available as COTS components, which means you can simply stock cascade elevator components and throw it together without worrying about custom manufacturing. | The motors powering a cascade elevator need geared down more to counteract the natural upduction the cascade rigging adds. |
 
-- Cascade motion is faster than continuous due to the stages being linked together and continuous effectively being one long stage
-
-- All of the major Cascade Elevator components are available as COTS components, which means you can simply stock cascade elevator components and throw it together without worrying about custom manufacturing.
-
-<figure markdown="span">
-    ![elevatorComponents](https://wcproducts.com/cdn/shop/files/ElevatorComponents_10772d81-df3a-48ec-829f-4d084178ec66_2048x2048.png?v=1693864630){width=60%}
-    <figcaption>[Elevator Components Sold By West Coast Products](https://wcproducts.com/collections/systems-structure/products/elevator-components){target=none}</figcaption>
-</figure>
-
-**Cons:**
-
-- Usually things cannot be passed through a cascade elevator because of the rigging, while you can pass things through a continuous elevator
-
-- The center of gravity is not optimal in the middle range of extension compared to continuous
-
-- The motors powering a cascade elevator need geared down more to counteract the natural upduction the cascade rigging adds.
 
 <br>
 
@@ -141,78 +132,76 @@ The reference is provided in [**this document**](https://cad.onshape.com/documen
 
 ### Key Components
 
-**Elevator Blocks**
+Elevators have some key components that differ from most other mechanisms, and it's important to understand all of them.
 
-Every modern elevator will use some form of "elevator block" to allow the stages to slide past each other smoothly using bearings. Most teams will purchase elevator blocks from WCP or TTB instead of manufacturing them in-house (because of the time investment and machining capabilities of a typical team) but ones can be made with plates instead of billet (see [2471 2018](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e)). 
-<br>
+??? Concept "Elevator Blocks"
 
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevator-blocks.webp" style="width:75%">
-</figure>
+    Every modern elevator will use some form of "elevator block" to allow the stages to slide past each other smoothly using bearings. Most teams will purchase elevator blocks from WCP or TTB instead of manufacturing them in-house (because of the time investment and machining capabilities of a typical team) but ones can be made with plates instead of billet (see [2471 2018](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e)). 
+    <br>
 
-The elevator featured in this guide uses the WCP Inline Clamping and Inline blocks, but different blocks from WCP or TTB could be substituted with little to no design changes besides the distance between the stages on the sides.
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/elevator-blocks.webp" style="width:75%">
+    </figure>
 
-<br>
+    The elevator featured in this guide uses the WCP Inline Clamping and Inline blocks, but different blocks from WCP or TTB could be substituted with little to no design changes besides the distance between the stages on the sides.
 
-**Chain Attachment Point**
+??? Concept "Chain Attachment Point"
 
-Most cascade elevators use chain to power their initial stage; this chain can run either parallel or perpendicular to the face of the elevator, but the core concept is the same. The chain is bolted to the first stage of the elevator, and the rigging moves the other stages off it. The elevator design featured in this guide uses the TTB chain comb to bolt the chain to the first stage.
-<br>
+    Most cascade elevators use chain to power their initial stage; this chain can run either parallel or perpendicular to the face of the elevator, but the core concept is the same. The chain is bolted to the first stage of the elevator, and the rigging moves the other stages off it. The elevator design featured in this guide uses the TTB chain comb to bolt the chain to the first stage.
+    <br>
 
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/chain-comb.webp" style="width:75%">
-</figure>
-<br>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/chain-comb.webp" style="width:75%">
+    </figure>
 
-**Rigging**
+??? Concept "Rigging"
 
-Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
-<br>
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
-    <img src="/img/design-guide/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
-</figure>
+    Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
+    <br>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
+        <img src="/img/design-guide/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
+    </figure>
 
-**Cable Clamp & Pulleys**
+??? Concept "Cable Clamp & Pulleys"
 
-Cascade elevators function by moving a fixed length of cable from one side of a clamp to the other side of the clamp, to force the elevator up. This cable clamp is usually bolted to some form of crossmember. The elevator from this guide uses the TTB cable clamp to maintain consistency in rigging components (they come in [a kit](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r)). The clamp consists of two plates; the first one is fastened to the tube and the second one is ONLY fastened to the first plate. You can choose to make access holes for the bolts or bolt all the way through the cross member with a crushblock.
+    Cascade elevators function by moving a fixed length of cable from one side of a clamp to the other side of the clamp, to force the elevator up. This cable clamp is usually bolted to some form of crossmember. The elevator from this guide uses the TTB cable clamp to maintain consistency in rigging components (they come in [a kit](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r)). The clamp consists of two plates; the first one is fastened to the tube and the second one is ONLY fastened to the first plate. You can choose to make access holes for the bolts or bolt all the way through the cross member with a crushblock.
 
-!!! Note 
-    The WCP cable clamp uses a similar design but the fasteners go through both plates into the crossmember tube, sharing the clamping force with the crossmember.
-<br>
+    !!! Note 
+        The WCP cable clamp uses a similar design but the fasteners go through both plates into the crossmember tube, sharing the clamping force with the crossmember.
+    <br>
 
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/cable-clamp.webp" style="width:75%">
-</figure>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/cable-clamp.webp" style="width:75%">
+    </figure>
 
-<br>
+??? Concept "Cable Ends"
 
-**Cable Ends**
+    The ends of the cable are arguably the most important part of elevator rigging to do right. If they are handled improperly it can cause issues with rigging falling apart during impacts; this usually takes the elevator (and anything requiring it to move) completely out of commission for the match. Cascade rigging consists of at least one loop of cable per stage, which drives the motion for the next stage.
+    <br>
 
-The ends of the cable are arguably the most important part of elevator rigging to do right. If they are handled improperly it can cause issues with rigging falling apart during impacts; this usually takes the elevator (and anything requiring it to move) completely out of commission for the match. Cascade rigging consists of at least one loop of cable per stage, which drives the motion for the next stage.
-<br>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/carriage.webp" style="width:50%">
+    </figure>
 
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/carriage.webp" style="width:50%">
-</figure>
+    To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585) (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
 
-To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585) (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
+    It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly you will need to loosen the clamping plate before adding tension so that it gets added to each side, instead of just the side with the ratchet.
+    <br>
 
-It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly you will need to loosen the clamping plate before adding tension so that it gets added to each side, instead of just the side with the ratchet.
-<br>
-
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/ratchet-plate.webp" style="width:50%">
-</figure>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/ratchet-plate.webp" style="width:50%">
+    </figure>
 
 
-### Power Gearbox
-Elevators need motors to power them. Once you have the rigging planned out you can figure out where you can fit the motors to drive the base elevator stage.
-There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
-<br>
-<figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:60%">
-</figure>
+??? Concept "Power Gearbox"
+
+    Elevators need motors to power them. Once you have the rigging planned out you can figure out where you can fit the motors to drive the base elevator stage.
+    There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
+    <br>
+    <figure markdown="span">
+        <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:60%">
+    </figure>
 
 
 ### Master Sketches
@@ -267,8 +256,10 @@ Elevator master sketches usually start with an extended side view so you can dri
 2. Use extrude individual to create the tubes (without creating only duplicates; this means only the bottoms of stages on one side).
 3. Convert the extrusions into tubes.
 
-    !!! Tip
+    ??? Tip "Converting Extrusions into Tubes"
         Tube converter is the easiest way to do this, as demonstrated before, but the hole pattern can break things and be misaligned pretty easily if the dimensions of the elevator end up changing. The most parametric way is to shell the tubes manually, then use a mix of sketches and linear patterns to create the hole pattern. This way you can build design intent into the hole pattern so it won't be misaligned with anything when dimensions change.
+
+        To create parametric hole patterns, you first use the [**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f) featurescript from CADSHARP to measure the length of the tube. You create your first hole at the top of the tube, then create a feature pattern or sketch pattern down the length of the tube with the distance of 0.5" and the instance count set to `((#frame_side_tube/inch)*2)-1`. This method keeps the hole count parametric to the length of the tube.
 
 4. Transform and copy the tubes to complete the structure.
 
@@ -276,6 +267,10 @@ Elevator master sketches usually start with an extended side view so you can dri
         At this point, as design lead, you could create mate connectors, subassemblies, and top level assembly, and hand off the elevator to other people to parallelize the process if that's how your team works.
 
 5. Model any unique crushblocks
+
+    !!! Info 
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design fundamentals page about structure](\design-fundamentals\structure\structure.md).
+
 6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
 7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit) into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
 8. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
