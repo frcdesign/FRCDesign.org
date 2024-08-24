@@ -16,11 +16,10 @@ A rotary mechanism allows us to pivot objects or mechanisms through rotational m
 <figcaption>7461's 2023 Dead Axle Pivot and 2910's 2023 Dead Axle Pivot</figcaption>
 <br>
 
-| **Axle Type** | **Description**  | **Pros**   | **Cons**  |
-|---------------|------------------------------------------------------------|--------------------------|-----------------------------------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May have packaging issues  |
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs. Not recommended due to the risk of twisting.| Simple setup; direct power transfer.  | High risk of twisting; commonly weaker due to small diameter. |
-| **Coaxial Axle** | The axle rotates for one mechanism, while something separate pivots around it| Can be extremely light and compact| Difficult to design, sensitive to friction| 
+| **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
+|---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
+| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May have packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp)
+| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs. Not recommended due to the risk of twisting.| Simple setup; direct power transfer.  | High risk of twisting. If using hex, extremely weak due to small diameter. | ![live axle](\img\design-guide\stage2-pivot\live-axle-8033-alpha.webp)
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
@@ -88,6 +87,10 @@ The following sections describe the intentions and concepts behind the design of
 
     Sprocket and chain is used for transmitting power due to the load rating for chain and extremely low chance of it slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
 
+    <br>
+    <figure><img src="\img\design-guide\stage2-pivot\power-example.webp" alt="Power Example" /></figure>
+    <figcaption> A chain and Sprocket</figcaption>
+    <br>
 
 ??? Concept "Tensioning"
 
