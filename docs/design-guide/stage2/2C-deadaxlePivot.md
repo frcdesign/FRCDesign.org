@@ -33,7 +33,7 @@ Two types of pivot drive systems exist: Dead Axles and Live Axles. The following
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
 | **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp){width=70%}
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. | ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
+| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. Commonly done with 1/2 hex which may be too weak for the application| ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
@@ -79,7 +79,22 @@ The following sections cover the design rationale for the pivot you will be copy
 
 ??? Concept "Strength"
 
-    The primary considerations for the strength of a pivot are the rigidity (resistance to bending) and resistance to twisting. Dead axles provide superior strength to live axles due to the way they don't transmit any load and can be fastened to the rest of the structure. Larger round tube (such as 3/4" and 7/8" diameter) is preferred to 1/2" hex for its strength-to-weight ratio and resistance to twisting.
+    The primary considerations for the strength of a pivot are the rigidity (resistance to bending) and resistance to twisting. Dead axles provide superior strength to live axles due to the way they don't transmit any load and can be fastened to the rest of the structure. Larger round tube (such as 3/4" and 7/8" diameter) is preferred to 1/2" hex for its strength-to-weight ratio and resistance to twisting. Live axles do have a purpose for low load applications, though.
+
+    !!! Tip
+        Click through the tabs to see how much each axle bends, assuming the same load. 
+
+    === "1/2 in Hex"
+        <center><img src="/img/design-guide/stage2-pivot/12hex.webp" width="70%"></center>
+    === "3/4 in Tube"
+        <center><img src="/img/design-guide/stage2-pivot/34tube.webp" width="70%"></center>
+    === "7/8 in Tube"
+        <center><img src="/img/design-guide/stage2-pivot/78tube.webp" width="70%"></center>
+    === "SplineXL"
+        <center><img src="/img/design-guide/stage2-pivot/splinexl.webp" width="70%"></center>
+    === "2 in Tube"
+        <center><img src="/img/design-guide/stage2-pivot/2tube.webp" width="70%"></center>
+
 
 ??? Concept "Friction"
 
@@ -94,7 +109,10 @@ The following sections cover the design rationale for the pivot you will be copy
 ??? Concept "Power Transmission"
 
     Sprocket and chain is used for transmitting power due to the load rating for chain and extremely low chance of it slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
-
+    <figure>
+    <img src="\img\design-guide\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
+    <figcaption> A chain and sprocket turning a pivot</figcaption>
+    </figure>
     <br>
     <figure>
     <img src="\img\design-guide\stage2-pivot\power-example.webp" alt="Power Example" width="60%">
@@ -105,7 +123,12 @@ The following sections cover the design rationale for the pivot you will be copy
 ??? Concept "Tensioning"
 
     To accommodate chain stretch over the course of a season and reduce backlash, an active tensioning system is required. If enough chain length is available, **inline tensioners** such as turnbuckles and Spartan tensioners are the simplest way to tension the chain. If there isn't enough space for an inline tensioner (if the chain moves too much, the tensioner might run into either of the sprockets), other methods, such as moving the position of one of the sprockets with a sliding or rotating gearbox or stage, may be used. 
-
+    <br>
+    <figure>
+    <img src="\img\design-guide\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
+    <figcaption> A chain and sprocket moving with a turnbuckle tensioner</figcaption>
+    </figure>
+    <br>
     <div id="wrapper">
         <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/turnbuckle.webp" width="30%">
         <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/spartan_tensioner.webp" width="30%">
@@ -119,12 +142,12 @@ The following sections cover the design rationale for the pivot you will be copy
 
     Especially for pivots, which you want to make as rigid as possible for better control, you want to take steps to reduce the backlash as much as possible.
 
-    | **Source**        | **Details**  | **Solution**  |
-    |-------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-    | **Hex Interfaces**| Gaps in hex to hex hole interfaces create backlash. | Use shim tape to reduce gaps.  |
-    | **Sprocket Clocking** | Ensure correct alignment of sprockets to prevent uneven movement.   | Align notches on both sides. |
+    | **Source**        | **Details**  | **Solution**  | Image |
+    |-------------------|----------------------------|---------------------------------------------------------------------|-----|
+    | **Hex Interfaces**| Gaps in hex to hex hole interfaces create backlash. | Use shim tape to reduce gaps.  | <img src="/img/mechanism-fundamentals/DFC/hightide%20shim%20tape%20placement.webp" width=40%>
+    | **Sprocket Clocking** | Ensure correct alignment of sprockets to prevent uneven movement.   | Align notches on both sides. |<img src="\img\design-guide\stage2-pivot\wcp sprocket clock.webp" width=40%><figcaption>Note the notch on the sprocket</figcaption>
     | **Mounting Slop** | Loose bolt-to-hole interfaces can introduce slop.  | Use proper bolting and strong spacers. |
-    | **Reduction Stages**| More stages increase backlash. | Keep stages to 3 or fewer for optimal performance.|
+    | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
 
     Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-fundamentals/design-writeups/DFC.md).
 
