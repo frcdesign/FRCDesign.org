@@ -32,7 +32,7 @@ The guide's content focuses on FRC-relevant features and tools, using engaging p
 <img src="/img/design-guide/stage1b/Exercise 2 Assembly.webp" align="left" style="width:35%">
 
 <div dir="rtl">
-<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1/1A-onshapeFundamentals.md">Stage 1</a></h3>
+<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A-onshapeFundamentals">Stage 1</a></h3>
 <ul>
 <li>Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises</li>
 <li>Learn about power transmission and modeling gearboxes</li>

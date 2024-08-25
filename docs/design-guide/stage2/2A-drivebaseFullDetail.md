@@ -212,13 +212,11 @@ A list of typical electrical components found on FRC robots is provided below, a
 | Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: Neo, CIM) | Near the controlled motor  or on the bellypan |
 | Robot Radio | Required for robot communications | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio). |
 | Robot Signal Light | Required to indicate robot status | Somewhere easily visible |
-| Inertial Measurement Unit (IMU) Sensor | Used to determine robot heading | Ontop of the RoboRIO |
+| Inertial Measurement Unit (IMU) | Used to determine robot heading | As close to the center as possible is best practice |
 | Voltage Regulator Modules | Can be used for custom circuits | Bellypan |
 | Radio Power Module (RPM) | Powers the OpenMesh Radio | Not required for VH Radio |
 | Pneumatics Hub | Controls pneumatic components | Bellypan |
 
-!!! Warning
-    It is a very common misconception that the robot’s IMU sensor (eg: CTRE Pigeon, NavX) must be mounted at the center of the robot. The IMU can be mounted anywhere on the robot, as long as it is securely mounted. An easy place to mount the IMU is right on top of the RoboRIO.
 
 One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 

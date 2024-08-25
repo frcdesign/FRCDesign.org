@@ -88,6 +88,10 @@ The following sections cover the design rationale for the shooter mechanism you 
     Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
 
     The moment of inertia of the flywheel system is important for maintaining consistent speeds throughout contact with a gamepiece or multiple gamepieces. It refers to the flywheel's resistance to changes in rotational motion; while adding more mass can take more time to spin up, it decreases the recovery time (the amount of time to reach a target speed immediately following a shot). A balance must be achieved between the moment of inertia and spin-up time (independent of desired wheel speed).
+    <figure>
+        <img align="left" src="\img\design-guide\stage2-shooter\2056.gif" width="40%"><img align="right" src="\img\design-guide\stage2-shooter\118.gif" width="40%">
+        <figcaption> Team 2056 and 118 shooting quickly through a high moment of inertia. </figcaption>
+    </figure>
 
     The preferred choice for motors is typically two CIM class brushless motors, which balance torque, speed, and thermal efficiency without needing excessive gearing. The combined torque of your shooter motors is important to maximize to keep spin-up and recovery times low, which is why we're using 2 Kraken X60 motors; however, these could be swapped to any CIM class brushless motor with similar results. Just make sure to account for RPM differences properly.
 
@@ -146,11 +150,15 @@ The following sections cover the design rationale for the shooter mechanism you 
 
     Friction reduces efficiency by converting energy into heat and adding unnecessary load to the motor. Excessive friction can prevent the flywheel from reaching speed, causing shot inconsistencies, and may overheat or damage the motors.
 
-    To minimize friction:
+    **To minimize friction:**
 
     Belt Tension: Slightly reduce belt tension by shortening the center-to-center distance (0.01-0.02") to improve efficiency.
 
-    Spacers: Use spacers between components on shafts and bearings. Components should not contact the outer race of the bearing to avoid friction..
+    Spacers: Use spacers between components on shafts and bearings. Components should not contact the outer race of the bearing to avoid friction.
+    <figure>
+        <img src="/img/design-guide/stage2-shooter/hexspacers.webp" width="60%">
+        <figcaption>A COTS 1/2 hex delrin spacer which is used to reduce friction and constrain the object.
+    </figure>
     
     Shaft Constrain: Don't over-constrain shafts by using more than 2 fixed bearing points to hold a shaft; small misalignments can cause massive friction with the bearings.
     !!! Example
