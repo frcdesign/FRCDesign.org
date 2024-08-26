@@ -906,7 +906,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s12.webp" style="width:100%">
-      <figcaption>12. Add a 2" bolt circle for the motor. Constrain the center of the top left hole to be coincident with the center line between the pulleys. </figcaption>
+      <figcaption>12. Add a 2" bolt circle for the motor with a circular pattern. Constrain the center of the top left hole to be coincident with the center line between the pulleys (coincident uses an infinite extension of the line) </figcaption>
     </figure>
   </div>
 
