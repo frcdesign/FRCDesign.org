@@ -1,3 +1,7 @@
+---
+title: FRC Robot Design Guide
+---
+
 <style>
     .rightSide {
         ul { direction: rtl; }

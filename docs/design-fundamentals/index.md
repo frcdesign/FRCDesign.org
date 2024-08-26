@@ -1,3 +1,7 @@
+---
+title: Design Fundamentals
+---
+
 # Design Fundamentals
 This category includes fundamentals about engineering design in FRC, deep dives into various common mechanisms, and write-ups on other various design topics. This content is separate from CAD and is meant to be applicable no matter the software used. 
 
