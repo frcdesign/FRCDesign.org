@@ -205,16 +205,15 @@ A list of typical electrical components found on FRC robots is provided below, a
 
 | **Component** | **Function** | **Suggested Location** |
 |---|---|---|
-| Power Distribution Hub (PDH) or  Power Distribution Panel (PDP) | Required to distribute power | Bellypan |
-| Main Breaker | Required to power on/off the robot | Somewhere easily accessible and close to the PDH and Battery |
-| RoboRIO | Required to control the robot | Bellypan |
+| REV Power Distribution Hub (PDH) or  CTRE Power Distribution Panel (PDP) | Distributes power to all other components | Bellypan |
+| Main Breaker | Is used to turn on/off the robot and protect electronics from events with extremely high current drawn | Somewhere easily accessible and close to the PDH and Battery |
+| RoboRIO | Central controller for all robot operations | Bellypan |
 | Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required |
-| Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: Neo, CIM) | Near the controlled motor  or on the bellypan |
-| Robot Radio | Required for robot communications | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio). |
-| Robot Signal Light | Required to indicate robot status | Somewhere easily visible |
-| Inertial Measurement Unit (IMU) | Used to determine robot heading | As close to the center as possible is best practice |
-| Voltage Regulator Modules | Can be used for custom circuits | Bellypan |
-| Radio Power Module (RPM) | Powers the OpenMesh Radio | Not required for VH Radio |
+| Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: NEO, CIM) | Near the controlled motor  or on the bellypan |
+| Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio). |
+| Robot Signal Light (RSL) | Indicates whether the robot is on and enabled/disabled | Somewhere easily visible |
+| Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | As close to the center as possible is best practice (on Bellypan or RoboRIO) |
+| Voltage Regulator Module | Can be used for custom circuits | Bellypan |
 | Pneumatics Hub | Controls pneumatic components | Bellypan |
 
 
