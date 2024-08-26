@@ -8,7 +8,7 @@ This section is all about robustness and designing with fabrication in mind. Thi
 
 (WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, as well as a guide on lightening.
 
-(Not Started) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
+(WIP) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
 
 (WIP) [**Hardware**](structure/hardware.md): A guide on hardware and hardware standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware.
 
@@ -40,7 +40,7 @@ This section is all about the transmission of power to enable different kinds of
 ## Design Write-ups
 Write-ups on important topics for FRC design that aren't necessarily fundamentals but can take your design a step further.
 
-(Not Started) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
+(WIP) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
 
 (Not Started) [**Chain Tensioning Solutions**](design-writeups/chainTensioning.md): A number of different innovative ways to tension a chain to reduce backlash in a mechanism in a compact way.
 

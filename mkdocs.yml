@@ -85,27 +85,26 @@ nav:
   - Home: index.md
   - Design Guide:
     - design-guide/index.md
-    - Beginner Stages:
-      - Stage 0: 
-        - "A: Introduction to CAD": design-guide/stage0/0A-introductionToCAD.md
-        - "B: Onshape Setup": design-guide/stage0/0B-setup.md
-        - "C: Navigating Onshape": design-guide/stage0/0C-navigation.md
-        - "D: Theory": design-guide/stage0/0D-theory.md
-      - Stage 1:
-        - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
-        - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
-        - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
-      - Stage 2:
-        - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
-        - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
-        - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
-        - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
-        - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
-      - Stage 3: 
-        - "A: Multidoc & Mastersketching": design-guide/stage3/3A-multidoc&MS.md
-        - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
-        - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
-    - Intermediate Stage: design-guide/stage4.md
+    - Stage 0: 
+      - "A: Introduction to CAD": design-guide/stage0/0A-introductionToCAD.md
+      - "B: Onshape Setup": design-guide/stage0/0B-setup.md
+      - "C: Navigating Onshape": design-guide/stage0/0C-navigation.md
+      - "D: Theory": design-guide/stage0/0D-theory.md
+    - Stage 1:
+      - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
+      - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
+      - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
+    - Stage 2:
+      - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
+      - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
+      - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
+      - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
+      - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
+    - Stage 3: 
+      - "A: Master Sketch Practice": design-guide/stage3/3A-MSpractice.md
+      - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
+      - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
+    - Stage 4: design-guide/stage4.md
 
   - Design Fundamentals:
     - design-fundamentals/index.md
@@ -228,12 +227,6 @@ plugins:
       background: none
       width: 90%
       shadow: true
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: default_page
-      cards_layout_options:
-          font_family: Roboto
-      debug: false
   - search
 
     
@@ -252,3 +245,9 @@ plugins:
       enabled: !ENV INSIDERS
       plugins:
         - meta
+        - social:
+            cards_layout_dir: layouts
+            cards_layout: default_page
+            cards_layout_options:
+                font_family: Roboto
+            debug: false

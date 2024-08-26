@@ -271,7 +271,7 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
+Where DP stands for **diametral Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1b\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
@@ -742,7 +742,7 @@ In order to change the torque and speed from the input to the output, different 
 
 The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
 
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+<center>**`PD = Pitch / sin [180°/# of teeth]`**</center>
 
 Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
