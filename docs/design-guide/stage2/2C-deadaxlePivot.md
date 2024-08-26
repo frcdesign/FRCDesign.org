@@ -13,6 +13,16 @@
     text-align:center;
     }
 
+    .left {
+        float: left;
+        width: 50%;
+    }
+
+    .right {
+        float: right;
+        width: 50%;
+    }
+
 </style>
 
 # 2C: Dead Axle Pivot
@@ -20,9 +30,10 @@
 ## Rotary Mechanisms & Dead Axles
 Rotary mechanisms enable the pivoting of mechanisms through rotational movement. These mechanisms come in many shapes and sizes but there are a couple good practices that should be followed when designing powered pivots.
 
+
 <br>
-<figure><img align="center"  src="/img/design-guide/stage2-pivot/6036pivot.gif" width="50%" style="border:5px solid #ADADAD"><img align="center" src="\img\design-guide\stage2-pivot\2910video.gif" width="65%"></figure>
-<figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption>
+<figure><img align="left"  src="/img/design-guide/stage2-pivot/6036pivot.gif" width="46%" style="border:5px solid #ADADAD"><img align="right"  src="\img\design-guide\stage2-pivot\2910video.gif" width="48%" style="border:5px solid #ADADAD"></figure>
+<center><figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption></center>
 <br>
 
 Take a look at [this video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65) to see team 2910's 2023 robot pivoting arm in action. 
