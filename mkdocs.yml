@@ -10,6 +10,7 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.sections
     - navigation.indexes
