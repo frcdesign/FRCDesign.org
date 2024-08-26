@@ -108,6 +108,10 @@ The below links contain several featurescripts each that you can add all at once
 
   - Place different types of bearings in place in a part studio
 
+[**Electronics Mounting**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8) *(Julia's Featurescripts)*
+
+  - Generates hole patterns for different electronic components using center points and mate connectors on sketches
+
 [**MechSketch**](https://cad.onshape.com/documents/f46510f08cc311a34733cac2/v/f7f3a1c996c58466f6b88a37/e/8e9fbf1ac2f0980e4bc34951) *(TLamp's Featurescripts)*
 
   - Incredibly useful, generates sketch profiles for a variety of things
