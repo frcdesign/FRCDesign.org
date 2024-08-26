@@ -25,7 +25,7 @@ In FRC, games where you need to launch the game piece rather than directly placi
 In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but scoring was more commonly accomplished by placing the gamepieces instead. Most shooting games involve launching a ball, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
 
 <br>
-<figure><img align="left"  src="\img\design-guide\stage2-shooter\2910shooter.gif" width="47%"><img align="right"  src="\img\design-guide\stage2-shooter\1690shooter.gif" width="42%"></figure>
+<figure><img align="left"  src="\img\design-guide\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\design-guide\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
 <center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
 <br>
 
