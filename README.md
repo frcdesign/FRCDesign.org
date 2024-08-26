@@ -104,3 +104,5 @@ Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to 
 Tip: After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
 
 Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems
+
+This is an example change.
