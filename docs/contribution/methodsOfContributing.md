@@ -54,16 +54,16 @@ Windows installers will almost always need to be the 64-bit version if there is 
 
 **For Public Contributors:**
 
-1. Go to [the repository website](https://github.com/davidsdesignserver/dds-manual)
+1. Go to [the repository website](https://github.com/davidsdesignserver/FRCDesign.org)
 2. Click "Fork" near the top right, then click "Create Fork" on the next screen
 3. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
-4. Under "GitHub.com", select your forked ```[username]/dds-manual``` repository  and click "Clone"
+4. Under "GitHub.com", select your forked ```[username]/FRCDesign.org``` repository  and click "Clone"
 5. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
 
 **For Internal Contributors (added to the main repository):**
 
 1. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
-2. Under "GitHub.com", select the ```davidsdesignserver/dds-manual``` repository and click "Clone"
+2. Under "GitHub.com", select the ```davidsdesignserver/FRCDesign.org``` repository and click "Clone"
 3. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
 
 **How to Write and Pull Request Contributions**
