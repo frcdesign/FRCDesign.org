@@ -65,8 +65,7 @@ title: Mechanism Examples
     Elevators rigged in a cascading fashion, with each stage linked to the last
     
     [:octicons-arrow-right-24: Cascade Elevators](elevator/cascade/index.md)
-
-
+    
 -   <center>[![](../img/mechanism-examples/pivots/2910/2910pivot.webp)](pivots/index.md)</center>
 
     ---
