@@ -37,9 +37,9 @@ If you need to add a mechanism category, you must add a landing page for the mec
         cards_layout_dir: layouts
         cards_layout: mechanism_fundamentals_wide
     ```
-    This sets the size of image you will use for the social card for embeds for the whole category. You can choose between `mechanism_fundamentals_wide` or `mechanism_fundamentals_tall` for the `cards_layout` option
+    This sets the size of image you will use for the social card for embeds for the whole category. You can choose between `mechanism_fundamentals_wide` or `mechanism_fundamentals_tall` for the `cards_layout` option. 
 
-    [**INCLUDE INFORMATION ABOUT HOW TO FIND OUT WHAT THE DEFAULT IS FOR AN EXISTING CATEGORY, WHAT THE DIFFERENCE BETWEEN THE PICTURES IS, AND HOW TO CREATE THE IMAGE FROM ONSHAPE**]
+    Images have to be 1:1.545 or 1.545:1, any size. More information provided [here](mechanismContribution.md#adding-an-image-for-the-example)
 
 3. Create the landing page(s) for the category, named `index.md`. Only one of these can be made per folder.
 
@@ -150,7 +150,7 @@ Copy the following template into it and fill out the information using Markdown 
 
 ```
 ---
-image: link-to-image
+image: link-to-social-card-image
 ---
 
 # mechanism-example-name
@@ -190,9 +190,16 @@ image: docs\img\mechanism-examples\drivebase\2910drivebase.webp
 <br>
 ```
 
+Add any images you use for your page in `/docs/img/mechanism-examples/[category]/[example]/`.
+
 ### Adding an Image for the Example
 
-Depending on the category default for the social card 
+Check the category's .meta.yml for the default card layout (tall or wide). This will be the orientation of the 1:1.545 image you will use for the mechanism example.
+
+1:1.545 is the aspect ratio of a picture outputted from Onshape's "print" function using the "tabloid" paper size. You can select landscape or portrait from there for wide or tall. 
+
+!!! Tip
+    For images you already have, you can use GIMP and a calculator to crop an image by adding pixels to get it to the desired aspect ratio.
 
 ## Adding Pages to Site Navigation
 
