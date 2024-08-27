@@ -3,15 +3,18 @@ title: Feature Tree Best Practices
 description: The best practices for part studio feature trees in each mechanism document.
 ---
 
-# Feature Tree Best Practices
+# Part Studio Best Practices
 
-In general, every part studio feature tree should start with a derive command, pulling down the relevant mastersketch. This is what you will build on. 
+In general, every part studio feature tree should start with a derive command, pulling down the relevant mastersketch (or multiple for visibility). This is what you will build on. 
 
-When modeling within the part studio, just remember to avoid duplicating parts and deriving COTS parts, as stated above. Duplicating parts, using many derive commands or overusing heavy featurescripts, such as the tube converter, can make your part studio loading times extremely high.
+The part studio should contain **all parts that need to be manufactured by your team**. This could include fully custom plates, shafts cut to length, modified COTS parts, etc. However, unmodified COTs parts should be imported directly into the corresponding assembly - no modification inside the part studio is required. 
 
-Sorting and naming your features can be a good idea, especially to make your CAD more understandable for someone who wasn't there when you did it.
+Avoid duplicating parts and deriving COTS parts as much as you can. Using many derive commands or overusing heavy featurescripts, such as the tube converter, can make your part studio loading times extremely high. 
 
-On that note, naming your parts according to a convention is extremely beneficial down the line.
+!!! Tip
+    Instead of deriving COTS parts for reference, usually you can add simple measurements in your sketches (like a pitch circle instead of a a derived gear), which faster both in the moment and overall with load times. You can derive parts from your other subsystems (such as the frame and simplified modules from your drivetrain part studio into your intake part studio) and make them closed composites for easy reference, but keep it to a minimum.
+
+Sort and name the features, parts, and tabs and use folders to make your CAD more understandable for other people working on the robot. One of the biggest benefits of Onshape is its collaborative capability, but unnamed and unsorted documents eliminate that point entirely. Sorting and naming in real time can also make it easier to go back and change things (which you will inevitably need to do). Some teams even use a part naming system to assist with organizing manufacturing and assembly.
 
 !!! Tip
     You can rename parts manually or use one of many various [featurescripts](https://www.frcdesign.org/resources/featurescripts/?h=feat#onshape) to do so automatically. 
