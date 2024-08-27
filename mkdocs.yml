@@ -230,7 +230,6 @@ plugins:
       width: 90%
       shadow: true
   - search
-
     
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
@@ -238,7 +237,6 @@ plugins:
       - git-committers:
           repository: davidsdesignserver/FRCDesign.org
           branch: main
-      - privacy
       - git-revision-date-localized:
           enable_creation_date: true
       - optimize
