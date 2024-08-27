@@ -25,4 +25,8 @@ For example, you could split an elevator document into one part studio and corre
 
 <center><img src="/img/best-practices/subassembly.webp" style="border:5px solid #ADADAD"></center>
 
+[Stage 2E - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1) is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+
+<center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
+
 <br>
