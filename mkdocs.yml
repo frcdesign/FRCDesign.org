@@ -241,7 +241,6 @@ plugins:
       - privacy
       - git-revision-date-localized:
           enable_creation_date: true
-      - optimize
     
   - group: 
       enabled: !ENV INSIDERS
