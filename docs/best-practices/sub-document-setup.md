@@ -7,9 +7,6 @@ description: The best practices to follow with organizing your mechanism documen
 
 Each subsystem document should have at least one part studio and one assembly associated with it. 
 
-!!! Info "Important"
-    Never pattern or mirror parts in part studios that don't explicitly need to be patterned. Creating one of each part in the studio means you can simply duplicate it when assembling, and your part studio regeneration time will be greatly improved at no cost.
-
 [Stage 2B - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
 
 <center><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></center>
