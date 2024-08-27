@@ -123,7 +123,7 @@ Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documen
 ## Sketching and Part Design
 Sketches and features are the building blocks you will use to create every 3D model in Onshape, so it's good to have a good grasp on the fundamentals.
 
-Complete the following courses:
+**Complete the following courses:**
 
 1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching) course runs you through different sketch tools, constraints, and a good sketch workflow.
 
@@ -133,6 +133,10 @@ With a good understanding of both of these, you can create almost any part you w
 
 !!! Tip
     For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15), [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0), [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17), and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0) are all covered in text form in the help center. 
+
+<br>
+<center><p style="font-size:20px;"><b>DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO COURSES ABOVE</b></p></center>
+<br>
 
 ### Exercise 1: Simple Box Tube
 In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
