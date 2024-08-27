@@ -271,7 +271,7 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **Diametrical Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
+Where DP stands for **diametral Pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Fundamentals pages.
 
 <center><img src="\img\design-guide\stage1b\gears\gearDiagram.webp" style="width:70%"></center>
 <center>*Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
@@ -742,7 +742,7 @@ In order to change the torque and speed from the input to the output, different 
 
 The two commonly used sizes of roller chain in FRC is #25 and #35 chain, with 0.25" and 0.375" pitch respectively. For chain, the **pitch** is the length of each link. To calculate the pitch diameter, the following equation can be used:
 
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
+<center>**`PD = Pitch / sin [180°/# of teeth]`**</center>
 
 Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
@@ -906,7 +906,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s12.webp" style="width:100%">
-      <figcaption>12. Add a 2" bolt circle for the motor. Constrain the center of the top left hole to be coincident with the center line between the pulleys. </figcaption>
+      <figcaption>12. Add a 2" bolt circle for the motor with a circular pattern. Constrain the center of the top left hole to be coincident with the center line between the pulleys (coincident uses an infinite extension of the line) </figcaption>
     </figure>
   </div>
 
@@ -1018,7 +1018,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/design-guide/stage1b/exercises/e3/e3s28.webp" style="width:100%">
-      <figcaption>28. Use the <code>Vent</code> Featurescript to add the pocketing. Again, uUse 0.15" wide ribs and 0.15" tool radius. </figcaption>
+      <figcaption>28. Use the <code>Vent</code> Featurescript to add the pocketing. Again, use 0.15" wide ribs and 0.15" tool radius. </figcaption>
     </figure>
   </div>
 

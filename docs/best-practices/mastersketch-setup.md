@@ -24,8 +24,12 @@ Effective mastersketching requires you to stay organized. This means:
 
 - Multiple sketches, usually one per subsystem, within the mastersketches part studio. Keep everything separate!
 - Name your sketches accordingly
+- You can also give your sketches [different colors](https://www.youtube.com/watch?v=ZG_gVeGdI5c) to differentiate between them
 - Start with the drivetrain, then extension limits, then field elements to build off on
 - Sketch all the possible states of each moving subsystem 
+
+
+
 
 In general, mastersketching is an art that can require some practice to get the hang of. [This tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U) can help you get started if you are unsure.
 

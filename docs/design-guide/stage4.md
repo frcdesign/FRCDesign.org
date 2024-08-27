@@ -1,4 +1,4 @@
-# Stage 4: Intermediate
+# Stage 4: Next Steps
 
 Welcome to stage 4, practically the last stage! In this stage, you'll focus on mastering the design fundamentals to the point where they are natural. This means learning how to optimize your CAD to be more parametric, mastering best practices and workflow that makes your CAD faster and more easily collaborated on, and learning more about engineering design and strategic design. There aren't any specific steps or projects in this stage; it's a lot more open-ended, and can be seen more as a "choose your own adventure".
 
