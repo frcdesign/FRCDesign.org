@@ -51,7 +51,7 @@ Effective mastersketching requires you to stay organized. This means:
 - Sketch all the possible states of each moving subsystem 
 
 <figure>
-<img src="/img/design-guide/stage1c/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
+<img src="/img/learning-course/stage1c/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
 </figure>
 
 Mastersketching is an art that can require some practice to get the hang of. While Stage 3 helps you learn and practice doing full master sketches, [this tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U){:target="_blank"} can help you get started if you are unsure.

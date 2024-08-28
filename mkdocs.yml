@@ -3,8 +3,8 @@ site_description: A comprehensive learning guide and technical reference for FRC
 site_url: https://www.FRCDesign.org
 
 # Repository
-repo_name: davidsdesignserver/FRCDesign.org
-repo_url: https://github.com/davidsdesignserver/FRCDesign.org
+repo_name: frcdesign/FRCDesign.org
+repo_url: https://github.com/frcdesign/FRCDesign.org
 edit_uri: edit/main/docs/
 
 # Configuration
@@ -84,25 +84,25 @@ extra:
 # Page Tree
 nav:
   - Home: index.md
-  - Design Guide:
-    - design-guide/index.md
+  - Learning Course:
+    - learning-course/index.md
     - Stage 0: 
-      - "A: Introduction to CAD": design-guide/stage0/0A-introductionToCAD.md
-      - "B: Onshape Setup": design-guide/stage0/0B-setup.md
-      - "C: Navigating Onshape": design-guide/stage0/0C-navigation.md
-      - "D: Theory": design-guide/stage0/0D-theory.md
+      - "A: Introduction to CAD": learning-course/stage0/0A-introductionToCAD.md
+      - "B: Onshape Setup": learning-course/stage0/0B-setup.md
+      - "C: Navigating Onshape": learning-course/stage0/0C-navigation.md
+      - "D: Theory": learning-course/stage0/0D-theory.md
     - Stage 1:
-      - "A: Onshape Fundamentals": design-guide/stage1/1A-onshapeFundamentals.md
-      - "B: Power Transmissions": design-guide/stage1/1B-powerTransmissions.md
-      - "C: Design Methodology": design-guide/stage1/1C-designMethodology.md
+      - "A: Onshape Fundamentals": learning-course/stage1/1A-onshapeFundamentals.md
+      - "B: Power Transmissions": learning-course/stage1/1B-powerTransmissions.md
+      - "C: Design Methodology": learning-course/stage1/1C-designMethodology.md
     - Stage 2:
-      - "A: Full Detail Drivebase": design-guide/stage2/2A-drivebaseFullDetail.md
-      - "B: Basic Shooter": design-guide/stage2/2B-basicShooter.md
-      - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
-      - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
-      - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
-    - Stage 3: design-guide/stage3/index.md
-    - Stage 4: design-guide/stage4.md
+      - "A: Full Detail Drivebase": learning-course/stage2/2A-drivebaseFullDetail.md
+      - "B: Basic Shooter": learning-course/stage2/2B-basicShooter.md
+      - "C: Deadaxle Pivot": learning-course/stage2/2C-deadaxlePivot.md
+      - "D: Slapdown Intake": learning-course/stage2/2D-slapdownIntake.md
+      - "E: Cascade Elevator": learning-course/stage2/2E-cascadeElevator.md
+    - Stage 3: learning-course/stage3/index.md
+    - Stage 4: learning-course/stage4.md
 
   - Design Fundamentals:
     - design-fundamentals/index.md
@@ -232,7 +232,7 @@ plugins:
       enabled: !ENV CI
       plugins:
       - git-committers:
-          repository: davidsdesignserver/FRCDesign.org
+          repository: frcdesign/FRCDesign.org
           branch: main
       - git-revision-date-localized:
           enable_creation_date: true

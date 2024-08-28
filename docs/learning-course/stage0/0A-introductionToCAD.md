@@ -7,9 +7,9 @@ CAD is an acronym for "computer-aided design." It's a software tool used by engi
 CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly. We use the CAD software Onshape for this guide and website. 
 
 !!! Note
-    A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad) learning course, but it doesn't provide much relevant information for FRC.
+    A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad) official learning course, but it doesn't provide much relevant information for FRC.
 
-<img src="/img/design-guide/stage0/introcad/formula.webp" style="width:75%">
+<img src="/img/learning-course/stage0/introcad/formula.webp" style="width:75%">
 
 ## Why Use CAD?
 
@@ -29,7 +29,7 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 
 7. CAD skills are used in the real world all the time, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
-<img src="/img/design-guide/stage0/introcad/bread.webp" style="width:75%">
+<img src="/img/learning-course/stage0/introcad/bread.webp" style="width:75%">
 
 ## Types of CAD
 There are many different kinds of CAD, usually designed for specific industries in mind. The kind of CAD an architect might use would be different from the kind of CAD engineers use. The tools required may be different as well.

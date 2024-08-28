@@ -32,7 +32,7 @@ Rotary mechanisms enable the pivoting of mechanisms through rotational movement.
 
 
 <br>
-<figure><img align="left"  src="/img/design-guide/stage2-pivot/6036pivot.gif" width="46%" style="border:5px solid #ADADAD"><img align="right"  src="\img\design-guide\stage2-pivot\2910video.gif" width="48%" style="border:5px solid #ADADAD"></figure>
+<figure><img align="left"  src="/img/learning-course/stage2-pivot/6036pivot.gif" width="46%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-pivot\2910video.gif" width="48%" style="border:5px solid #ADADAD"></figure>
 <center><figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption></center>
 <br>
 
@@ -43,8 +43,8 @@ Two types of pivot drive systems exist: Dead Axles and Live Axles. The following
 
 | **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
 |---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\design-guide\stage2-pivot\dead-axle-side.webp){width=70%}
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. Commonly done with 1/2 hex which may be too weak for the application| ![live axle](\img\design-guide\stage2-pivot\liveAxlePivot.webp){width=70%}
+| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\learning-course\stage2-pivot\dead-axle-side.webp){width=70%}
+| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. Commonly done with 1/2 hex which may be too weak for the application| ![live axle](\img\learning-course\stage2-pivot\liveAxlePivot.webp){width=70%}
 
 Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
 
@@ -61,9 +61,9 @@ Some key points when designing pivoting mechanisms are:
 
 | **Mechanism Type**       | **Description**                                                                 | **Axle Type**                                                        | **Friction Management**                                             | **Images**                                                                                                     |
 |--------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           | <center><img src="\img\design-guide\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
-| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. | <center><img src="\img\design-guide\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
-| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\design-guide\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
+| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           | <center><img src="\img\learning-course\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
+| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. | <center><img src="\img\learning-course\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
+| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
 
 
 Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
@@ -75,7 +75,7 @@ Other mechanism examples and deep dives for pivots can be found on the [pivots p
 
 This stage's project is a simple dead axle pivot, not for any specific game or in a specific context, but one that teaches concepts that would allow one to apply it to any rotary mechanism.
 
-<center><img src="/img/design-guide/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
 
 The reference is provided in [**this document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938). Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
@@ -96,15 +96,15 @@ The following sections cover the design rationale for the pivot you will be copy
         Click through the tabs to see how much each axle bends, assuming the same load. 
 
     === "1/2 in Hex"
-        <center><img src="/img/design-guide/stage2-pivot/12hex.webp" width="70%"></center>
+        <center><img src="/img/learning-course/stage2-pivot/12hex.webp" width="70%"></center>
     === "3/4 in Tube"
-        <center><img src="/img/design-guide/stage2-pivot/34tube.webp" width="70%"></center>
+        <center><img src="/img/learning-course/stage2-pivot/34tube.webp" width="70%"></center>
     === "7/8 in Tube"
-        <center><img src="/img/design-guide/stage2-pivot/78tube.webp" width="70%"></center>
+        <center><img src="/img/learning-course/stage2-pivot/78tube.webp" width="70%"></center>
     === "SplineXL"
-        <center><img src="/img/design-guide/stage2-pivot/splinexl.webp" width="70%"></center>
+        <center><img src="/img/learning-course/stage2-pivot/splinexl.webp" width="70%"></center>
     === "2 in Tube"
-        <center><img src="/img/design-guide/stage2-pivot/2tube.webp" width="70%"></center>
+        <center><img src="/img/learning-course/stage2-pivot/2tube.webp" width="70%"></center>
 
 
 ??? Concept "Friction"
@@ -112,8 +112,8 @@ The following sections cover the design rationale for the pivot you will be copy
     Friction must be minimized since the mechanism pivots around the axle. This can be done using either bushings or bearings. Bushings can handle higher loads at lower speeds, while bearings are more suited for higher speeds and lower loads, but larger bearings can be used for large dead axles. Bushings are used for this dead axle example because they package well, are suitable for the low speeds and potential higher loads of an arm, and it is easy to source ones made specifically for sprockets and tube from FRC vendors.
 
     <div id="wrapper">
-        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/wcpbushing.webp"  width="30%">
-        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/xcontact.webp" width="30%">
+        <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/wcpbushing.webp"  width="30%">
+        <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/xcontact.webp" width="30%">
     <figcaption>A stepped bushing and a large x contact bearing sometimes used for large dead axles.</figcaption>
     </div>
 
@@ -121,12 +121,12 @@ The following sections cover the design rationale for the pivot you will be copy
 
     Sprocket and chain is used for transmitting power due to the load rating for chain and extremely low chance of it slipping. Using large sprockets bolted to the mechanism helps reduce backlash and increase load capacity, while ensuring that the axle remains a dead axle. Torque is transmitted directly to the rotating mechanism from the sprocket, while the entire thing only uses the axle as a structural member to rotate on.
     <figure>
-    <img src="\img\design-guide\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
+    <img src="\img\learning-course\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
     <figcaption> A chain and sprocket turning a pivot</figcaption>
     </figure>
     <br>
     <figure>
-    <img src="\img\design-guide\stage2-pivot\power-example.webp" alt="Power Example" width="60%">
+    <img src="\img\learning-course\stage2-pivot\power-example.webp" alt="Power Example" width="60%">
     <figcaption> A chain and Sprocket</figcaption>
     </figure>
     <br>
@@ -136,13 +136,13 @@ The following sections cover the design rationale for the pivot you will be copy
     To accommodate chain stretch over the course of a season and reduce backlash, an active tensioning system is required. If enough chain length is available, **inline tensioners** such as turnbuckles and Spartan tensioners are the simplest way to tension the chain. If there isn't enough space for an inline tensioner (if the chain moves too much, the tensioner might run into either of the sprockets), other methods, such as moving the position of one of the sprockets with a sliding or rotating gearbox or stage, may be used. 
     <br>
     <figure>
-    <img src="\img\design-guide\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
+    <img src="\img\learning-course\stage2-pivot\chaintensioncut.gif" alt="chain with tensioner" width="60%">
     <figcaption> A chain and sprocket moving with a turnbuckle tensioner</figcaption>
     </figure>
     <br>
     <div id="wrapper">
-        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/turnbuckle.webp" width="30%">
-        <img id="centeredImages" border="0" src="/img/design-guide/stage2-pivot/spartan_tensioner.webp" width="30%">
+        <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/turnbuckle.webp" width="30%">
+        <img id="centeredImages" border="0" src="/img/learning-course/stage2-pivot/spartan_tensioner.webp" width="30%">
     <figcaption>Two types of inline tensioners, a turnbuckle and a Spartan tensioner</figcaption>
     </div>
 
@@ -156,7 +156,7 @@ The following sections cover the design rationale for the pivot you will be copy
     | **Source**        | **Details**  | **Solution**  | Image |
     |-------------------|----------------------------|---------------------------------------------------------------------|-----|
     | **Hex Interfaces**| Gaps in hex to hex hole interfaces create backlash. | Use shim tape to reduce gaps.  | <img src="/img/mechanism-fundamentals/DFC/hightide%20shim%20tape%20placement.webp" width=40%>
-    | **Sprocket Clocking** | Ensure correct alignment of sprockets to prevent uneven movement.   | Align notches on both sides. |<img src="\img\design-guide\stage2-pivot\wcp sprocket clock.webp" width=40%><figcaption>Note the notch on the sprocket</figcaption>
+    | **Sprocket Clocking** | Ensure correct alignment of sprockets to prevent uneven movement.   | Align notches on both sides. |<img src="\img\learning-course\stage2-pivot\wcp sprocket clock.webp" width=40%><figcaption>Note the notch on the sprocket</figcaption>
     | **Mounting Slop** | Loose bolt-to-hole interfaces can introduce slop.  | Use proper bolting and strong spacers. |
     | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
 
@@ -175,7 +175,7 @@ The master sketch is very simple as it uses maxplanetaries for most of the reduc
 3. Lay out the pivot location and driving sprocket position above the cross bar. Dimension a construction line between them a distance that will give enough chain length to use an inline tensioner.
 4. Create construction circles to represent the pitch circles of both sprockets and the diameter of the motor.
 
-<center><img src="/img/design-guide/stage2-pivot/pivotMasterSketch.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-pivot/pivotMasterSketch.webp" width="70%"></center>
 
 ### Part Studio
 
@@ -188,7 +188,7 @@ The master sketch is very simple as it uses maxplanetaries for most of the reduc
 7. Create the plate to space the sprocket off from the arm.
 8. Name and give materials and appearances to all your parts
 
-<center><img src="/img/design-guide/stage2-pivot/PivotPartStudio.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-pivot/PivotPartStudio.webp" width="70%"></center>
 
 !!! Note
     Keep in mind you should be creating folders for related features while modeling the mechanism! It's easier doing it throughout the process than saving all the clean-up for the end.
@@ -199,19 +199,19 @@ Because this subsystem contains a static part and a moving part, we want to sepa
 
 Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can.
 
-<center><img src="/img/design-guide/stage2-pivot/Dead Axle Subassembly.webp" width="60%"></center>
+<center><img src="/img/learning-course/stage2-pivot/Dead Axle Subassembly.webp" width="60%"></center>
 
 Create an assembly for the arm portion of the mechanism and do the same thing as above to complete the assembly and make it rigid.
 
-<center><img src="/img/design-guide/stage2-pivot/Arm Subassembly.webp" width="60%"></center>
+<center><img src="/img/learning-course/stage2-pivot/Arm Subassembly.webp" width="60%"></center>
 
 !!! Tip
     Below is an example of the instance list of a rigid assembly. Notice the icon in the top left indicating it's rigid. You can tell what can still move in the assembly by a "degree of freedom" icon (3 arrows to indicate the 3 axis.)
-    <center><img src="/img/design-guide/stage2-pivot/deadAxleInstanceList.webp" width="20%"></center>
+    <center><img src="/img/learning-course/stage2-pivot/deadAxleInstanceList.webp" width="20%"></center>
 
 Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the deadaxle pivot assembly.
 
-<center><img src="/img/design-guide/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-pivot/Top Level Pivot.webp" width="70%"></center>
 
 ## Summary
 
