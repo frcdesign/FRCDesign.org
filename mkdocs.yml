@@ -101,10 +101,7 @@ nav:
       - "C: Deadaxle Pivot": design-guide/stage2/2C-deadaxlePivot.md
       - "D: Slapdown Intake": design-guide/stage2/2D-slapdownIntake.md
       - "E: Cascade Elevator": design-guide/stage2/2E-cascadeElevator.md
-    - Stage 3: 
-      - "A: Master Sketch Practice": design-guide/stage3/3A-MSpractice.md
-      - "B: 973 2020 Robot": design-guide/stage3/3B-973-2020.md
-      - "C: 973 2023 Robot": design-guide/stage3/3C-973-2023.md
+    - Stage 3: design-guide/stage3/index.md
     - Stage 4: design-guide/stage4.md
 
   - Design Fundamentals:

@@ -63,7 +63,7 @@ The guide's content focuses on FRC-relevant features and tools, using engaging p
 <img src="/img/design-guide/stage3/1778-2024-MS.webp" align="left" style="width:25%; border:5px solid #ADADAD">
 
 <div dir="rtl">
-<h3 id="-stage-3-stage3-3a-multidoc-ms-md-"><a href="stage3/3A-multidoc&amp;MS.md">Stage 3</a></h3>
+<h3 id="-stage-3-stage3-3a-multidoc-ms-md-"><a href="stage3/3A-multidoc&amp;MS.md">Stage 3</a> <strong>(Under Construction)</strong> </h3>
 <ul>
 <li>Practice full robot master sketches</li>
 <li>Replicate simple robots</li>
@@ -74,7 +74,7 @@ The guide's content focuses on FRC-relevant features and tools, using engaging p
 <br>
 <hr>
 
-### [Stage 4](stage4.md)
+### [Stage 4](stage4.md) (**Under Construction**)
 
 - Master mechanism design
 - Practice integration and workflow
