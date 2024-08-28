@@ -14,7 +14,7 @@ A master sketch is a series of sketches that capture the major dimensions of eac
 | Drivebase dimensions                                                     | Specific details like the shape of plates       |
 | Bumper height                                                             | Motor mounting locations                         |
 | End-effector wheel locations based off of prototyping                     |                                                  |
-| Intake wheel locations                                                    |                                                  |
+| Field element geometry and extension limits                                                    |                                                  |
 | Basic serializer geometry                                                |                                                  |
 
 </center>

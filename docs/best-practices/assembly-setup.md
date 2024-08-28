@@ -7,17 +7,6 @@ description: The best practices for inserting parts into assemblies and organizi
 
 Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. 
 
-### The Importance of Intelligent Origins
-As with many good practices in CAD, smart origins are another good practice to make future you's life easier. Intelligent origins allow designers to leverage default geometry (Front/Right/Top Planes, Origin Point) for robust axes of symmetry and references in their models. 
-
-For FRC CAD, the purpose of using the same origin as the master sketch across all studios and assemblies is twofold:
-
-1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
-2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope) and camera transformations more easily measured. 
-
-!!! Note
-    Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
-
 ### The Origin Cube 
 The [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a) inserts a 2" transparent cube at the origin of the part studio. The cube has a mate connector at the origin. Because this part will never change and always stays at the origin of the part studio, using it to group and fasten parts to the origin will always be more **robust and parametric** than fixing or using a mate connector attached to another part, in case that part changes or is deleted.
 
@@ -28,9 +17,6 @@ The [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5
 
 !!! Tip
     The origin cube has the option of importing a number of useful constants and functions, including bolt hole sizes, gear outer diameter, and a center-to-center calculator.
-
-
-
 
 ### Process for Inserting Parts
 
@@ -87,7 +73,7 @@ Now create a top-level subsystem assembly and insert each subassembly into it. F
 
 ### Simplified Models
 
-The first advice is to minimize primitives in your assembly. Primitives are a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
+Make sure to minimize primitives in your assembly. Primitives are a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
 
 Use [simplified models](https://www.frcdesign.org/resources/simplified/) wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
 
@@ -96,10 +82,10 @@ Use [simplified models](https://www.frcdesign.org/resources/simplified/) whereve
       <source src="/img/best-practices/minimizePrimitives.webm" type="video/webm">
     </video>
 
-Other things to keep in mind:
+### Other Small Things
 
 - Import COTS parts from MKCAD
-- Use the **replicate tool** for adding hardware! You should only need to import one of each type
+- Use the **replicate tool** for adding hardware!
 - Minimize the number of mates you use; this lowers the solve time
 - Stay organized with folders
 
