@@ -1,8 +1,8 @@
 ---
-title: Design Fundamentals
+title: Design Handbook
 ---
 
-# Design Fundamentals
+# Design Handbook
 This category includes fundamentals about engineering design in FRC, deep dives into various common mechanisms, and write-ups on other various design topics. This content is separate from CAD and is meant to be applicable no matter the software used. 
 
 Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (follow the [contribution guide](../contribution/methodsOfContributing.md).)

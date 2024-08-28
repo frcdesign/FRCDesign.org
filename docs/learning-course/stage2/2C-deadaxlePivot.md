@@ -160,7 +160,7 @@ The following sections cover the design rationale for the pivot you will be copy
     | **Mounting Slop** | Loose bolt-to-hole interfaces can introduce slop.  | Use proper bolting and strong spacers. |
     | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
 
-    Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-handbook/design-writeups/DFC.md).
+    Details on these solutions are gone over in [the design handbook page about designing for controllability](../../design-handbook/design-writeups/DFC.md).
 
 
 
