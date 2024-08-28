@@ -40,8 +40,7 @@ For FRC CAD, the purpose of using the same origin as the master sketch across al
 !!! Note
     Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
 
-
-
+One way to help achieve this is to use the [Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a), which is further explained in the [assembly best practices page](assembly-setup.md). If using the origin cube, make the origin cube the first feature in all part studios.
 
 
 <br>

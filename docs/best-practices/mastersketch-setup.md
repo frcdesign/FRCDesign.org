@@ -9,15 +9,18 @@ A master sketch is a series of sketches that capture the major dimensions of eac
 
 <center>
 
-| **They include:**                                             | **They do not include:**                                          |
-|-------------------------------------------------------------------------|--------------------------------------------------|
-| Drivebase dimensions                                                     | Specific details like the shape of plates       |
-| Bumper height                                                             | Motor mounting locations                         |
-| End-effector wheel locations based off of prototyping                     |                                                  |
-| Field element geometry and extension limits                                                    |                                                  |
-| Basic serializer geometry                                                |                                                  |
+| **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
+|-----------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
+| Drivebase dimensions                                                         | Gears                                               | Specific details like the shape of plates                  |
+| End-effector wheel locations based off of prototyping                        | Belts                                               | Gussets                                                     |
+| Field elements and extension limits                                          | Chain                                               | Mounting holes                                              |
+| Mechanism motion paths                                                        | Motor locations                                    |                                                             |
+| Gamepiece path                                                                |                                                     |                                                             |
+
 
 </center>
+
+This isn't an extensive list, and things can vary from team to team and from architecture to architecture. Detail can easily be added or removed later if necessary.
 
 All important measurements that drive the geometry of the robot exist in the master sketches part studio. They can all be easily viewed and changed together, as opposed to if you had to go through each subsystem to make changes to the geometry to try to make things fit in the top-level robot assembly.
 
