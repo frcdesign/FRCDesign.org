@@ -94,7 +94,7 @@
 
 So far the models you have created are all structural components, but this is only half of what makes up a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor to do just about anything. 
 
-In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-fundamentals/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
+In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios is gone over in detail in [the design fundamentals page about electronics, motors, and sensors](../../design-handbook/power-transmission/electronics-motors-sensors.md/) and also explored later in Stage 2 of the guide with multiple different mechanisms.
 
 !!! Example
     Below are some examples of power transmissions found in robots to achieve a range of different tasks.
@@ -292,7 +292,7 @@ In this exercise, you will be CADing and assembling a simple single stage gearbo
 The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
 
 !!! Note
-    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Fundamentals](/design-fundamentals/) page.
+    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Fundamentals](/design-handbook/) page.
 
 !!! Tip
     To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
@@ -802,7 +802,7 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 
 **Chain Tensioners**
 
-One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Fundamentals page](/design-fundamentals/) also dives deeper into this topic.
+One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Fundamentals page](/design-handbook/) also dives deeper into this topic.
 
 !!! Example
     <center><img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
@@ -1150,7 +1150,7 @@ In this exercise, you modeled a fairly complex gearbox that was integrated with 
 
 To get a feel for how parametric your model is, you can try and change certain key dimensions in the layout sketches, such as the length of the tubes, angle of the tubes, length of the belt, and the size of the gears. Play around with which modifications will update smoothly and which require additional fixes in the CAD.
 
-You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Fundamentals](/design-fundamentals/) pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
+You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Fundamentals](/design-handbook/) pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
 
 ## Summary
 
@@ -1165,7 +1165,7 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Replicate` tool
 
-Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. For future reference, you can refer to the [Design Fundamentals](/design-fundamentals/) power transmissions pages, which are more in depth.
+Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. For future reference, you can refer to the [Design Fundamentals](/design-handbook/) power transmissions pages, which are more in depth.
 
 In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
 

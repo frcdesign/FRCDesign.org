@@ -104,28 +104,28 @@ nav:
     - Stage 3: learning-course/stage3/index.md
     - Stage 4: learning-course/stage4.md
 
-  - Design Fundamentals:
-    - design-fundamentals/index.md
+  - Design Handbook:
+    - design-handbook/index.md
     - Structure:
-      - Materials: design-fundamentals/structure/materials.md
-      - Structure: design-fundamentals/structure/structure.md
-      - Hardware: design-fundamentals/structure/hardware.md
+      - Materials: design-handbook/structure/materials.md
+      - Structure: design-handbook/structure/structure.md
+      - Hardware: design-handbook/structure/hardware.md
     - Power Transmission:
-      - Electronics, Motors, and Sensors: design-fundamentals/power-transmission/electronics-motors-sensors.md
-      - Pneumatics: design-fundamentals/power-transmission/pneumatics.md
-      - Transfer of Rotational Motion: design-fundamentals/power-transmission/rotation.md
-      - Motion Components: design-fundamentals/power-transmission/motion-components.md
-      - Wheels and Rollers: design-fundamentals/power-transmission/wheels-rollers.md
-      - Linear Extension: design-fundamentals/power-transmission/linear-extension.md
+      - Electronics, Motors, and Sensors: design-handbook/power-transmission/electronics-motors-sensors.md
+      - Pneumatics: design-handbook/power-transmission/pneumatics.md
+      - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
+      - Motion Components: design-handbook/power-transmission/motion-components.md
+      - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
+      - Linear Extension: design-handbook/power-transmission/linear-extension.md
     - Mechanisms:
-      - Drivetrain: design-fundamentals/mechanisms/drivetrain.md
-      - Elevators: design-fundamentals/mechanisms/elevators.md
+      - Drivetrain: design-handbook/mechanisms/drivetrain.md
+      - Elevators: design-handbook/mechanisms/elevators.md
     - Design Write-ups:
-      - Designing for Controllability: design-fundamentals/design-writeups/DFC.md
-      - Chain Tensioning Solutions: design-fundamentals/design-writeups/chainTensioning.md
-      - Bumper Mounting Solutions: design-fundamentals/design-writeups/bumperMounting.md
-      - Springs and Shocks: design-fundamentals/design-writeups/springs-shocks.md
-      - Linkages: design-fundamentals/design-writeups/linkages.md
+      - Designing for Controllability: design-handbook/design-writeups/DFC.md
+      - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
+      - Bumper Mounting Solutions: design-handbook/design-writeups/bumperMounting.md
+      - Springs and Shocks: design-handbook/design-writeups/springs-shocks.md
+      - Linkages: design-handbook/design-writeups/linkages.md
 
   - Mechanism Examples:
       - mechanism-examples/index.md

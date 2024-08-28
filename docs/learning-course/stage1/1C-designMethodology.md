@@ -120,7 +120,7 @@ To achieve this, a ***master sketch*** is utilized. A master sketch is a series 
 ## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of reliable COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
 
-A swerve drivebase is composed of four *swerve modules*. Each module has two motors: one for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). There are many other COTS options available, each with their own advantages and tradeoffs. You can learn more about drivetrains on the [Design Fundamentals](/design-fundamentals/mechanisms/drivetrain/) page.
+A swerve drivebase is composed of four *swerve modules*. Each module has two motors: one for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). There are many other COTS options available, each with their own advantages and tradeoffs. You can learn more about drivetrains on the [Design Fundamentals](/design-handbook/mechanisms/drivetrain/) page.
 
 <center><img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:100%"></center>
 <center>*Stage 1C swerve drivebase project.*</center>

@@ -23,7 +23,7 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
     Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki. 
 
-    [:octicons-arrow-right-24: Design Fundamentals](design-fundamentals/index.md)
+    [:octicons-arrow-right-24: Design Fundamentals](design-handbook/index.md)
 
 -   :material-book:{ .lg .middle } __Mechanism Examples__
 

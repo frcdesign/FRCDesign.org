@@ -417,7 +417,7 @@ Next, you'll need to model your desired bumper mounts in the drivetrain part stu
 
 Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42).
 
-In the provided example, the threaded stud bumper mounting system is implemented. You can learn more about bumpers and different bumper mounting options in the [Design Fundamentals](/design-fundamentals/) pages. 
+In the provided example, the threaded stud bumper mounting system is implemented. You can learn more about bumpers and different bumper mounting options in the [Design Fundamentals](/design-handbook/) pages. 
 
 <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:60%"></center>
 <figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.</figcaption>

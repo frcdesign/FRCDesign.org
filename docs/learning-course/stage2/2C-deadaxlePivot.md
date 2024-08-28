@@ -155,12 +155,12 @@ The following sections cover the design rationale for the pivot you will be copy
 
     | **Source**        | **Details**  | **Solution**  | Image |
     |-------------------|----------------------------|---------------------------------------------------------------------|-----|
-    | **Hex Interfaces**| Gaps in hex to hex hole interfaces create backlash. | Use shim tape to reduce gaps.  | <img src="/img/mechanism-fundamentals/DFC/hightide%20shim%20tape%20placement.webp" width=40%>
+    | **Hex Interfaces**| Gaps in hex to hex hole interfaces create backlash. | Use shim tape to reduce gaps.  | <img src="/img/design-handbook/DFC/hightide%20shim%20tape%20placement.webp" width=40%>
     | **Sprocket Clocking** | Ensure correct alignment of sprockets to prevent uneven movement.   | Align notches on both sides. |<img src="\img\learning-course\stage2-pivot\wcp sprocket clock.webp" width=40%><figcaption>Note the notch on the sprocket</figcaption>
     | **Mounting Slop** | Loose bolt-to-hole interfaces can introduce slop.  | Use proper bolting and strong spacers. |
     | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
 
-    Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-fundamentals/design-writeups/DFC.md).
+    Details on these solutions are gone over in [the design fundamentals page about designing for controllability](../../design-handbook/design-writeups/DFC.md).
 
 
 
