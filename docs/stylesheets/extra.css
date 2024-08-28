@@ -95,3 +95,7 @@ abbr {
 .md-typeset .md-button--primary {
   margin-top: 0.5rem;
 }
+
+a:hover {
+  text-decoration: underline;
+}
