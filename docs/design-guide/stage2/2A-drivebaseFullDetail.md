@@ -9,7 +9,6 @@
 }
 
 .mySlides {
-
     display:none;
 }
 
@@ -107,7 +106,7 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
 
-<center><img src="/img/design-guide/stage2a/2a-FDdt.png" style="width:80%"></center>
+<center><img src="/img/design-guide/stage2-drivebase/2a-FDdt.webp" style="width:80%"></center>
 
 <figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption>
 
@@ -123,7 +122,7 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
 
 !!! Example
-    <center><img src="/img/design-guide/stage2a/batt/battStrap.webp" style="width:70%"></center>
+    <center><img src="/img/design-guide/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
     <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
 
 Below, we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 

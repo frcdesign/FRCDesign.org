@@ -1,4 +1,9 @@
-<style>
+# Transfer of Rotational Motion
+A power transmission is the transfer of rotational or linear motion from one system to another to transmit power. 
+
+**Coming Soon**
+
+<!-- <style>
 
 td, th , table{
    border: none!important;
@@ -14,9 +19,6 @@ table tr:hover{
 }
 
 </style>
-
-# Transfer of Rotational Motion
-A power transmission is the transfer of rotational or linear motion from one system to another to transmit power. 
 
 <p style="font-size:1rem;">Belts</p>
 
@@ -50,7 +52,7 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
 - How to eliminate backlash:
     - To minimize backlash in your system, you need to ensure that your chains are properly tensioned, or use a belt setup as your final reduction. When you assemble gearboxes apply [shim tape](https://www.mcmaster.com/products/shims/shim-tape-6/). In FRC, the hex shafts are not all the exact same size, and this causes slop between the gear and shaft, and in gearboxes this slop accumulates. The way that 4414 shims all their position controlled subsystems is by cutting strips around 1.5x the width of the actual gear, and then apply the tape onto 1-2 faces depending on the tolerance of the shaft.
 <p style="font-size:1rem;">How To Tension Chain:</p>
-    
+
   - Turnbuckle:
       - A turnbuckle is a device that is used to attach to two links, and tighten the chain together to keep the chain tensioned. 
 <figure markdown="span">
@@ -114,4 +116,4 @@ When designing belts, you need to use a calculator such as ReCalc's [belt-calcul
 ![winch](../../img/mechanism-fundamentals/linearAct.png){height=75% width=75%}
 </figure>
 
-<br>
+<br> -->
