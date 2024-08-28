@@ -5,7 +5,7 @@ description: The best practices for document setup for an FRC robot.
 
 # Document Setup
 
-In General, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
+In general, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
 
 To alleviate these challenges, we generally split FRC robots into several documents, each with an individual version number:
 
@@ -29,9 +29,9 @@ Here is a diagram showing the full file structure:
 
 You can see an example of this document structure here. Note the combination of the framework and master documents.
 
-<center><img src="/img/best-practices/docsetup3.png"></center>
+<center><img src="/img/best-practices/docsetup3.webp"></center>
 
-<center><img src="/img/best-practices/docsetup4.png"></center>
+<center><img src="/img/best-practices/docsetup4.webp"></center>
 
 The document structure isn't set in stone; as long as it helps your team fulfill the goal of top-down design and uses separate documents to split up the versions of mechanisms, you can place your master sketches wherever you want (master document, concept document, or the drivetrain document).
 

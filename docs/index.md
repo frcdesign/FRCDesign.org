@@ -1,13 +1,8 @@
 ---
 title: FRCDesign.org
-
+social:
+    cards_layout: homepage
 ---
-<meta property="og:title" content="FRCDesign.org">
-<meta property="og:description" content="A comprehensive learning guide and technical reference for FRC design using Onshape.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/">
-<meta property="og:image" content="https://www.frcdesign.org/img/embed/index.webp">
-<meta name="theme-color" content="#4CAE4F">
 
 # Welcome to FRCDesign.org
 FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape.

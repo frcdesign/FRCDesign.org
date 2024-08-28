@@ -1,6 +1,39 @@
-# Style Guide 
+---
+title: Style Guide
+description: The style guide for contribution according to the goals of the website.
+---
 
-*Kindly borrowed and modified with permission from the [gm0 style guide](https://gm0.org/en/latest/docs/contributing/style-guide.html)*
+# Contribution Style Guide 
+
+## Futureproofing and Usefulness
+
+To make the content you write useful for teams of all resource levels, while maintaining validity in the future, the goal isn’t to go broad and shallow, but to go extra deep to equip students with the understanding of the underlying fundamentals behind concepts to apply to their own unique situations. Pros and cons are context dependent while fundamentals are universal. 
+
+At the same time, things that aren’t easily accessible and/or commonly used by teams, like billet chassis and ball drive, shouldn’t be included to prevent confusion.
+
+On the other hand, including small details that you’d only discover through actually making the thing tends to be a lifesaver for everyone (such as electrical taping cat-tongue tape to make it not peel).
+
+### Why is this important?
+
+1. We don’t need to figure out the pros and cons of everything for students to make a decision. New products come out all the time, and equipping them with the skills lets students find creative solutions that no one would think of for their circumstances.
+
+2. This enables students to understand WHY a team would make a certain decision and figure out tradeoffs without us explicitly telling them. 
+
+3. It makes it significantly less intensive to future proof and maintain. If the meta shifts, having to redo sections to stay competitive is time consuming. If the project dies and is no longer maintained, the information stays useful for way longer.
+
+4. The small details are often the experience gap between the most reliable successful robots and not. It’s a lifesaver for teams without experience, and reduces the review workload on design mentors with experience.  
+
+
+### To make this easier, here are a few tips:
+
+1. You can usually find extremes for each concept to make it more obvious. (stealth wheels vs brass flywheels for inertia.)
+
+2. It may be useful to find one or two meta team applications and figure out what fundamental trade offs are made for that decision. This helps learners understand how these concepts relate to each other. This also applies to mechanism examples. 
+
+3. “how to cad xyz” and IRL nuances are very useful for certain applications. Examples include sketching linkages or tensioner placement depending on load. 
+
+
+## Inspired by gm0's Style Guide
 
 Don’t deal in absolutes.
 
@@ -35,9 +68,11 @@ Examples
 
 7236 Recharged Green, Rover Ruckus, Misumi SAR3 -->
 
+## Standards
+
 ### File Formats:
 - Compress images to .webp format using [squoosh](https://squoosh.app/)
-- Embed longer videos using a Youtube upload, and shorter videos with a webm file
+- Embed longer videos using a Youtube embed, and shorter videos with a webm file
 - Add images by using ```<center><img src="absolute link" width="x%"></center>```
 
 ### Brand Standards
@@ -52,7 +87,5 @@ Adhere to brand standards when possible.
 - Check [The Blue Alliance](https://www.thebluealliance.com/) if you don't know how to spell a team's name
 
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
-
-## Thanks to GM0 for the style guide reference
 
 <br>

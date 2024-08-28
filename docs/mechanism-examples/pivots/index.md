@@ -1,12 +1,7 @@
 ---
 title: Pivot Examples
+image: docs/img/mechanism-examples/pivots/2910/2910pivot.webp
 ---
-<meta property="og:title" content="Pivot Examples">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.frcdesign.org/mechanism-examples/pivots/">
-<!--meta property="og:image" content="https://www.frcdesign.org/img/mechanism-examples/"-->
-<meta name="theme-color" content="#4CAE4F">
-<meta name="twitter:card" content="summary_large_image">
 
 # Pivots
 

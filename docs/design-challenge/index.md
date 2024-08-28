@@ -1,3 +1,8 @@
+---
+title: Design Challenges
+description: Design challenges are offered to help students practice their CAD skills and develop their own designs.
+---
+
 # Design Challenges
 
 Design Challenges are at the core of what makes DDS Special. Design Challenges provide a variety of different practice scenarios to iron your design skills and compete against others in a mutually beneficial way.

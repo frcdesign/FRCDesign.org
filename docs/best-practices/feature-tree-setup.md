@@ -13,8 +13,11 @@ Sorting and naming your features can be a good idea, especially to make your CAD
 
 On that note, naming your parts according to a convention is extremely beneficial down the line.
 
+!!! Tip
+    You can rename parts manually or use one of many various [featurescripts](https://www.frcdesign.org/resources/featurescripts/?h=feat#onshape) to do so automatically. 
+
 See an example of a well-organized part studio here:
 
-<center><img src="/img/best-practices/part-studio-2.png"></center>
+<center><img src="/img/best-practices/part-studio-2.webp"></center>
 
 <br>
