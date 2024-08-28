@@ -9,7 +9,6 @@
 }
 
 .mySlides {
-
     display:none;
 }
 

@@ -374,7 +374,7 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
 !!! Example
     <center>
       <video width="1920" controls>
-        <source src="\img\design-guide\stage1a\1a-fasten.webm" type="video/webm">
+        <source src="\img\design-guide\stage1a\1a-fasten.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </center>
