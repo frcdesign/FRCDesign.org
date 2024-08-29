@@ -9,9 +9,9 @@ Keep in mind that this category is a large work in progress, and will continue t
 
 ## Strategic Design
 
-(Not Started) [**Strategic Design**](strategic-design.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
+(WIP) [**Strategic Design**](strategic-design.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
 
-## Structure
+## Hardware
 These pages are all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, and tools and machines.
 
 (WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, how to design for manufacturing, and a guide on lightening.
@@ -26,6 +26,10 @@ These pages are all about robustness and designing with fabrication in mind. Thi
 (WIP) [**Sheet Metal**](structure/sheet-metal.md): A guide on designing for sheet metal. 
 
 (WIP) [**3D Printing**](structure/3d-printing.md): A guide on designing for 3D printing.
+
+(WIP) [**Tolerances**](structure/tolerances.md): A guide on tolerances to account for when manufacturing real parts.
+
+(WIP) [**Weight Savings**](structure/weight-savings.md): A guide on designing your parts to be lighter with and without pocketing.
 
 
 ## Power Transmission
@@ -57,8 +61,6 @@ These pages discuss the transmission of power to enable robot functionality.
 (WIP) [**Drivetrain**](mechanisms/drivetrain.md): A guide on drivetrains. 
 <!-- , discussing rigidity, wheelbase location, and electrical mounting. -->
 
-(WIP) [**Bumpers**](mechanisms/bumpers.md): A guide on bumper materials, construction, and mounting solutions, with several references.
-
 (WIP) [**Elevators**](mechanisms/elevators.md): A guide on elevators, including different types of rigging, COTS parts, gearboxes, and use cases.
 
 (WIP) [**Arms**](mechanisms/arms.md): A guide on arms.
@@ -70,6 +72,8 @@ These pages discuss the transmission of power to enable robot functionality.
 (WIP) [**Shooters**](mechanisms/shooters.md): A guide on shooters.
 
 (WIP) [**Turrets**](mechanisms/turrets.md): A guide on turrets.
+
+(WIP) [**Bumpers**](mechanisms/bumpers.md): A guide on bumper materials, construction, and mounting solutions, with several references.
 
 ## Design Write-ups
 Write-ups on important topics to take your designs a step further.

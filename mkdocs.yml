@@ -114,6 +114,8 @@ nav:
         - Fasteners: design-handbook/structure/fasteners.md
         - Sheet Metal: design-handbook/structure/sheet-metal.md
         - 3D Printing: design-handbook/structure/3d-printing.md
+        - Tolerances: design-handbook/structure/tolerances.md
+        - Weight Saving: design-handbook/structure/weight-savings.md
       - Power Transmission:
         - Motion Components: design-handbook/power-transmission/motion-components.md
         - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
@@ -130,6 +132,7 @@ nav:
         - Intakes: design-handbook/mechanisms/intakes.md
         - Shooters: design-handbook/mechanisms/shooters.md
         - Turrets: design-handbook/mechanisms/turrets.md
+        - Bumpers: design-handbook/mechanisms/bumpers.md
       - Design Write-ups:
         - Designing for Controllability: design-handbook/design-writeups/DFC.md
         - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
