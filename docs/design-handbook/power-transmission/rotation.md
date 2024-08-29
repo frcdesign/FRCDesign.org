@@ -4,6 +4,8 @@ A guide on rotational power transmission components. Includes gears, belts, and 
 
 **Coming Soon**
 
+<br>
+
 <!-- <style>
 
 td, th , table{

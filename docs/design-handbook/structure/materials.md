@@ -27,7 +27,7 @@ Pocketing is used to reduce weight from high-thickness, high density materials s
 !!! Tip
     Pocketing always happens last. **Get design approval before pocketing**! Use [offset driven design](https://www.youtube.com/watch?v=TT_QmZoUwG8) so your plates look decent **before** pocketing.
 
-When pocketing, use the [Vent featurescript ](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/v/71f9487be753d9eef9c3f73f/e/d55354e2782385e34e0395c4?jumpToIndex=1209)
+When pocketing, use the [part lighten featurescript](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d).
 
 - Tool radius must be ≥0.125 the radius of the cutting tool you use on your CNC, typically 0.125
 - Strut thickness is usually 0.2 for 1/4 inch aluminum, and cut thru-all - but this depends on load and other factors

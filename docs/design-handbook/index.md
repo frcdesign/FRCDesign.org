@@ -7,11 +7,14 @@ These sections form an extensive and in depth reference manual that covers both 
 
 Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (See [contribution guide](../contribution/methodsOfContributing.md).)
 
+## Strategic Design
+
+(Not Started) [**Strategic Design**](strategic-design.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
+
 ## Structure
 These pages are all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, and tools and machines.
 
-(WIP) [**Materials**](structure/materials.md): An overview of raw materials commonly found on FRC robots.
-<!-- Different types of common materials in FRC and how to use them best, as well as a guide on lightening. -->
+(WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, how to design for manufacturing, and a guide on lightening.
 
 (WIP) [**Structure**](structure/structure.md): A guide on creating robust and versatile robot structures. 
 <!-- Covers different materials, techniques, and COTS components. -->
@@ -54,8 +57,9 @@ These pages discuss the transmission of power to enable robot functionality.
 (WIP) [**Drivetrain**](mechanisms/drivetrain.md): A guide on drivetrains. 
 <!-- , discussing rigidity, wheelbase location, and electrical mounting. -->
 
-(WIP) [**Elevators**](mechanisms/elevators.md): A guide on elevators.
-<!-- , discussing different types of rigging, COTS parts, and gearboxes. -->
+(WIP) [**Bumpers**](mechanisms/bumpers.md): A guide on bumper materials, construction, and mounting solutions, with several references.
+
+(WIP) [**Elevators**](mechanisms/elevators.md): A guide on elevators, including different types of rigging, COTS parts, gearboxes, and use cases.
 
 (WIP) [**Arms**](mechanisms/arms.md): A guide on arms.
 
@@ -76,6 +80,6 @@ Write-ups on important topics to take your designs a step further.
 
 (WIP) [**Bumper Mounting Solutions**](design-writeups/bumperMounting.md): Different solutions for bumper mounting.
 
-(WIP) [**Springs and Shocks**](design-writeups/springs-shocks.md): Springs and gas shocks for structures and mechanisms.
+(WIP) [**Springs and Shocks**](design-writeups/springs-shocks.md): Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
 
 <br>
