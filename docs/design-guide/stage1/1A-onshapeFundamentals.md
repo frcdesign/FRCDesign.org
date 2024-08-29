@@ -107,8 +107,12 @@ The structure of the courses includes some short videos and practice models, exp
 !!! Warning
     The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
-### Practice Exercises
-Make a copy of the [Stage 1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28). A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs). Each exercise also includes a preview of what the final model should look like in the `Reference` file. Solutions are available [here](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855).
+## Practice Exercises
+Make a copy of the Stage 1A Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs). Each exercise also includes a preview of what the final model should look like in the `Reference` file. Solutions are also provided to check your work afterwards.
+
+[1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28){ .md-button .md-button--primary }
+[1A Exercises Solutions](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855){ .md-button .md-button--primary }
+
 
 !!! Tip
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 

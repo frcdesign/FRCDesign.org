@@ -285,7 +285,12 @@ When modeling, an easy way to set the center-to-center distance between two gear
 
 It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
 
-#### Exercise 1: Simple Gearbox 
+## Exercise Document
+Make a copy of the Stage 1B Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs).
+
+[Copy the 1B Exercises Document Here](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c){ .md-button .md-button--primary }
+
+## Exercise 1: Simple Gearbox 
 
 In this exercise, you will be CADing and assembling a simple single stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
@@ -481,9 +486,12 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   </div>
 </div>
 
+
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
-#### Exercise 2: Two Stage Gearbox
+<br>
+
+## Exercise 2: Two Stage Gearbox
 
 In this exercise, you will be CADing and assembling a two stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
@@ -808,7 +816,7 @@ One difficulty when designing with chain is that it will physically stretch as i
     <center><img src="\img\design-guide\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
     <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
 
-#### Exercise 3: Belt and Gear Transmission
+## Exercise 3: Belt and Gear Transmission
 
 In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
 
