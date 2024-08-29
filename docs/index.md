@@ -1,4 +1,4 @@
----sign-guide
+---
 title: FRCDesign.org
 social:
     cards_layout: homepage

@@ -11,7 +11,7 @@ title: FRC Design Learning Course
 
 # FRC Design Learning Course
 
-Welcome to the learning course, the main purpose and content of the website! Keep in mind that it's always a work in progress, so if you find any issues or have difficulty understanding something, please [give us feedback](https://forms.gle/dQ6w6RXJa6vSmcpw7)!
+Welcome to the design learning course, the main purpose and content of the website! Keep in mind that it's always a work in progress, so if you find any issues or have difficulty understanding something, please [give us feedback](https://forms.gle/dQ6w6RXJa6vSmcpw7)!
 
 The purpose of the guide is to take you from zero to being able to model a full robot. You can start at any point you like to if you already have experience with CAD in Onshape, but as the usage and workflow of Onshape for FRC is very different than most CAD softwares, we recommend you go through the full guide to learn the fundamentals so you don't struggle with more complex CAD.
 
