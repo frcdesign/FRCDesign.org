@@ -5,20 +5,28 @@ description: The best practices to follow with organizing your mechanism documen
 
 # Sub-Document Setup
 
-Within each document, you should have a part studio and assembly attached to it. The part studio should contain **all parts that need to be manufactured by your team**. This could include fully custom plates, shafts cut to length, modified COTs parts, etc. However, unmodified COTs parts should be imported directly into the corresponding assembly - no modification inside the part studio is required.
+Each subsystem document should have at least one part studio and one assembly associated with it. 
 
-!!! Important note
-    Never pattern or mirror parts in part studios that don't explicitly need to be patterned. Creating one of each part in the studio means you can simply duplicate it when assembling, and your part studio regeneration time will be greatly improved at no cost.
+[Stage 2B - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
 
-Often, you only need to have one part studio and one top-level subsystem assembly, although depending on the complexity of the subsystem you may want to split into multiple. For example, you could split an elevator document into one part studio and corresponding assembly for each stage. The top-level elevator assembly would thus include each of the stage subassemblies within it.
+<center><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></center>
+
+### Subsystems with Multiple Degrees of Freedom
+
+You may want to split subsystems with multiple degrees of freedom into multiple rigid assemblies. Each separate moving part of the subsystem should have a 'rigid' assembly (no degrees of freedom allowed for any part), while the top-level subsystem assembly only defines the motion between them. 
+
+!!! Note
+    A rigid assembly, when inserted, is treated as a solid body with no mates calculated. It decreases load time in top-level assemblies greatly. You will learn how to integrate the origin cube into this system for easy parametric mates in [assembly best practices](assembly-setup.md).
+
+For example, you could split an elevator document into one part studio and corresponding rigid assembly for each stage. The top-level elevator assembly would thus include each of the stage subassemblies within it and the slider mates.
 
 
-Note how there's only 1 part studio and 1 assembly for this subsystem, as the part count is relatively low.
+[Stage 2D - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2) is a subsystem with a static portion and a pivoting portion. Functionally, this contains a part studio, a static assembly for the gearboxes and pivot, a rigid assembly for the arms and rollers, and a top-level assembly combining the two subassemblies.
 
-<center><img src="/img/best-practices/part-studio.webp"></center>
+<center><img src="/img/best-practices/subassembly.webp" style="border:5px solid #ADADAD"></center>
 
-Note how a subassembly is used to assemble several parts that can then be imported as a single item in the top-level subsystem assembly.
+[Stage 2E - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1) is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
 
-<center><img src="/img/best-practices/subassembly.webp"></center>
+<center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
 
 <br>

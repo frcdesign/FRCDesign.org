@@ -9,21 +9,21 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant:{ .lg .middle } __The Design Guide__
+-   :material-book-open-variant:{ .lg .middle } __Learning Course__
 
     ---
 
     A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
 
-    [:octicons-arrow-right-24: Design Guide](design-guide/index.md)
+    [:octicons-arrow-right-24: Learning Course](learning-course/index.md)
 
--   :material-bookshelf:{ .lg .middle } __Design Fundamentals__
+-   :material-bookshelf:{ .lg .middle } __Design Handbook__
 
     ---
 
-    Dives into the concepts necessary in order to design a competitive robot. Unlike the design guide, this is primarily a reference wiki. 
+    Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki. 
 
-    [:octicons-arrow-right-24: Design Fundamentals](design-fundamentals/index.md)
+    [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md)
 
 -   :material-book:{ .lg .middle } __Mechanism Examples__
 
@@ -47,7 +47,7 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
 1. FRCDesign.org is not just a resource collection. Though it includes many resources, almost all of the website's content has been written specifically for the website to align with our goals.
 2. Everything is taught from a competitive focus. Designing competitive robots helps inspire students and teach both engineering skills and life skills. It's also generally more fun when the robot performs well instead of breaking.
-2. We don't try to teach everything. The design guide is built around teaching a single CAD software (Onshape), and we encourage a specific design style which is optimized for the majority of mid-resource teams. 
+2. We don't try to teach everything. The learning course is built around teaching a single CAD software (Onshape), and we encourage a specific design style which is optimized for the majority of mid-resource teams. 
 3. We try to include the small details that most guides forget. The concept of an "arm" is almost ubiquitous, but the concepts behind designing a pivot that works every match and never breaks? That's not so much common knowledge and much more important.
 4. Design practices are important! We try to document and teach [the best practices possible]() so you can design faster during the season.  
 
