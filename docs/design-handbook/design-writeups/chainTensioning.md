@@ -1,6 +1,6 @@
 # Chain Tensioning Solutions
 
-A number of different innovative ways to tension a chain to reduce backlash in a mechanism in a compact way.
+A guide on tensioning chain drive mechanisms.
 
 **Coming Soon**
 

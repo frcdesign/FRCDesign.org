@@ -1,5 +1,6 @@
 # Transfer of Rotational Motion
-A power transmission is the transfer of rotational or linear motion from one system to another to transmit power. 
+
+A guide on rotational power transmission components. Includes gears, belts, and chain.
 
 **Coming Soon**
 

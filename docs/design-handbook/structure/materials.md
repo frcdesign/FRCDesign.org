@@ -1,5 +1,15 @@
 # Materials
 
+<!-- Needs an intro -->
+
+An overview of raw materials commonly found on FRC robots.
+
+## Aluminum
+
+**Coming Soon**
+
+## Polycarbonate
+
 Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc - it will almost never shatter and looks great.
 
 !!! Tip
