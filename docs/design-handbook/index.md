@@ -9,7 +9,7 @@ Keep in mind that this category is a large work in progress, and will continue t
 
 ## Strategic Design
 
-The [**Strategic Design page**](strategicDesign.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
+(Not Started) [**Strategic Design**](strategic-design.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
 
 ## Structure
 This section is all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, tools and machines, etc.

@@ -3,6 +3,8 @@ A power transmission is the transfer of rotational or linear motion from one sys
 
 **Coming Soon**
 
+<br>
+
 <!-- <style>
 
 td, th , table{

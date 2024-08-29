@@ -106,26 +106,28 @@ nav:
 
   - Design Handbook:
     - design-handbook/index.md
-    - Structure:
-      - Materials: design-handbook/structure/materials.md
-      - Structure: design-handbook/structure/structure.md
-      - Hardware: design-handbook/structure/hardware.md
-    - Power Transmission:
-      - Electronics, Motors, and Sensors: design-handbook/power-transmission/electronics-motors-sensors.md
-      - Pneumatics: design-handbook/power-transmission/pneumatics.md
-      - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
-      - Motion Components: design-handbook/power-transmission/motion-components.md
-      - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
-      - Linear Extension: design-handbook/power-transmission/linear-extension.md
-    - Mechanisms:
-      - Drivetrain: design-handbook/mechanisms/drivetrain.md
-      - Elevators: design-handbook/mechanisms/elevators.md
-    - Design Write-ups:
-      - Designing for Controllability: design-handbook/design-writeups/DFC.md
-      - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
-      - Bumper Mounting Solutions: design-handbook/design-writeups/bumperMounting.md
-      - Springs and Shocks: design-handbook/design-writeups/springs-shocks.md
-      - Linkages: design-handbook/design-writeups/linkages.md
+    - Strategic Design: design-handbook/strategic-design.md
+    - Handbook:
+      - Structure:
+        - Materials: design-handbook/structure/materials.md
+        - Structure: design-handbook/structure/structure.md
+        - Hardware: design-handbook/structure/hardware.md
+      - Power Transmission:
+        - Electronics, Motors, and Sensors: design-handbook/power-transmission/electronics-motors-sensors.md
+        - Pneumatics: design-handbook/power-transmission/pneumatics.md
+        - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
+        - Motion Components: design-handbook/power-transmission/motion-components.md
+        - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
+        - Linear Extension: design-handbook/power-transmission/linear-extension.md
+      - Mechanisms:
+        - Drivetrain: design-handbook/mechanisms/drivetrain.md
+        - Elevators: design-handbook/mechanisms/elevators.md
+      - Design Write-ups:
+        - Designing for Controllability: design-handbook/design-writeups/DFC.md
+        - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
+        - Bumper Mounting Solutions: design-handbook/design-writeups/bumperMounting.md
+        - Springs and Shocks: design-handbook/design-writeups/springs-shocks.md
+        - Linkages: design-handbook/design-writeups/linkages.md
 
   - Mechanism Examples:
       - mechanism-examples/index.md
@@ -180,7 +182,6 @@ nav:
   - Other Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
-    - Strategic Design: resources/strategicDesignResources.md
 
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md

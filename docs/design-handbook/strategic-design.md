@@ -2,6 +2,12 @@
 
 Strategic Design is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
 
+**Coming Soon**
+
+<br>
+
+<!--
+
 This page is not yet finished and will eventually be a full guide to strategic design, but for now, external resources are included and linked to for the content. There are many different elements to strategic design, and in this page they're formatted in the order you would do them in a build season.
 
 ## General Strategic Design Resources
@@ -74,3 +80,4 @@ https://www.igniteminds.us/post/blocks-sketches-prototyping-in-cad
 https://www.youtube.com/watch?v=huB3j6bCxmc&list=PL2masFy2jbzZGhpn1gGgjQ8xQmzcICKDl&index=4&pp=iAQB
 
 <br>
+-->
