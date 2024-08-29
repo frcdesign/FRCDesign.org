@@ -20,9 +20,9 @@
 
 ## Shooter Mechanisms
 
-In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is paired with a "low goal" worth less points but within the height limit of the robot. The low goal offers a more accessible and reliable scoring method for many teams. Due to the nature of the game, it is sometimes required at higher levels of play. However, the ability to score in the high goal increases the likelihood of success without relying on alliance partners.
+In FRC, games where you need to launch the game piece rather than directly placing it into the goal are very common. In these games, a "high goal" worth more points and significantly above the height limit of the robot is often paired with a "low goal" worth less points but within the height limit of the robot. The low goal offers a more accessible and reliable scoring method for many teams. Due to the nature of the game, it is sometimes required at higher levels of play. However, the ability to score in the high goal increases the likelihood of success without relying on alliance partners.
 
-In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. 2018 and 2023 saw some small usage of shooters as well, but scoring was more commonly accomplished by placing the gamepieces instead. Most shooting games involve launching a ball, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
+In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, and 2024. Most shooting games involve launching a ball, but the fundamentals between ball shooters and shooters for non-spherical objects remain roughly the same.
 
 <br>
 <figure><img align="left"  src="\img\learning-course\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
@@ -57,17 +57,21 @@ The reference shooter is provided in [**this document**](https://cad.onshape.com
 
 The following sections cover the design rationale for the shooter mechanism you will be copying. This integrates practical design principles with CAD skills for a more complete understanding of mechanism design.
 
+### Goal
+
+Every time a game piece is launched, energy is lost from the flywheel, taking time to spin back to full speed. You can optimize various design concepts to reduce the energy required to launch a game piece at your target speed and rate. 
+
 ??? Concept "Rigidity"
 
-    Just like most mechanisms you will design for a robot, rigidity is extremely important. For shooters, high speeds from the flywheel could cause shaking and shot inconsistencies if the shooter construction isn't rigid enough. Aluminum is usually plenty rigid without much added stuff, but can be heavy and expensive.
+    Just like most mechanisms you will design for a robot, rigidity is extremely important. For shooters, high speeds from the flywheel could cause shaking and shot inconsistencies if the shooter construction isn't rigid enough. 
 
-    This shooter uses two plates of 1/4" polycarbonate for the sides (both for bearing support and extra rigidity). Polycarb is used for this shooter design because it is light, any game pieces can be easily seen through it (which is important during a match when the driveteam needs to be able to see the state of all game pieces inside the robot), it is a smooth surface for balls to move across, and it can be made into a rigid structure with the right amount of support. While 1/8" aluminum plates could be comparable, they would require pocketing to be light enough, and you lose out on the benefits of transparency.
+    This shooter uses two plates of 1/4" polycarbonate for the sides (both for bearing support and extra rigidity). Polycarbonate is used as it is easy to machine, rigid enough for shooters with some support, and cheap to acquire in large sizes. Alternatives include 1/8 aluminum and 1/4 pocketed aluminum (although expensive).
 
     Bottom cross rails and vertical tube supports are used to create the frame. The plates are kept apart from each other on both sides by standoffs (the ramp supports and the camera support). Spacers on a shaft with shaft retention can also help maintain the distance between the plates. In this way, the position of each part of the shooter is heavily constrained and kept rigid.
 
-??? Concept "Exit Angle and Trajectory"
+??? Concept "Trajectory"
     
-    For a flywheel shooter, the ball trajectory is determined by the flywheel speed and the exit angle. While flywheel speed can be easily varied, varying the exit angle requires a fairly complex mechanism. For this shooter, you will be using a fixed exit angle, which is determined by hood. The hood is the backing that guides the ball out of the shooter.
+    For a flywheel shooter, the ball trajectory is determined by the speed of the game piece and the exit angle. Game piece speed can be adjusted for a small adjustment range, but varying the exit angle is more difficult. For this design, the exit angle is fixed. 
 
     <br>
     <figure>
@@ -75,17 +79,17 @@ The following sections cover the design rationale for the shooter mechanism you 
     </figure>
     <br>
 
-    Though there are some calculations that can be made, they are complicated. The exit angle can be estimated pretty easily, and should be dependent on the field element that is being shot into and the range you're shooting from. If you pick an average distance you're most likely to be shooting a lot from (from game analysis and game strategy), you can create an arc to the goal and estimate the exit angle to get the desired arc. 
+    In most games, you can determine a single spot to shoot from every time then estimate your shot angle using a sketch of the field in relation to the shooter or a community made calculator. Further adjustments should be made by having a way to manually adjust the fixed angle after constructing the shooter. 
 
-    For this game, at a fixed angle of around 45 degrees, you can effectively adjust the speed of the shot depending on the distance to make the trajectory of the shot go through the goal. In real life, for fixed angle shooters you would want to test the exit angle (after estimating to a reasonable degree) with a prototype and accurate field elements.
+    For 2020, you can use the white line on the field to estimate where to shoot from and the angle, and the scoring size allows for enough forgiveness if you aren't in the exact spot when scoring. 
     
     Play with [this](https://www.desmos.com/calculator/euvciqv3tr) trajectory calculator and observe how changes in your angle and speed impact your shot. 
     !!! Calculator
         <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
-??? Concept "Wheel Speed, Inertia, Motors, and Ratios"
+??? Concept "Surface Speed, Inertia, Motors, and Ratios"
 
-    Wheel speed determines how fast the flywheel spins and directly affects the distance a power cell can be shot. Higher speeds increase range but require a longer time to spin up to speed. 
+    Surface speed determines how fast the game piece is launched. This is determined by 
 
     The moment of inertia of the flywheel system is important for maintaining consistent speeds throughout contact with a gamepiece or multiple gamepieces. It refers to the flywheel's resistance to changes in rotational motion; while adding more mass can take more time to spin up, it decreases the recovery time (the amount of time to reach a target speed immediately following a shot). A balance must be achieved between the moment of inertia and spin-up time (independent of desired wheel speed).
     <figure>
@@ -107,11 +111,11 @@ The following sections cover the design rationale for the shooter mechanism you 
     !!! Note
         Reductions or upductions are usually done with belts as they can maintain high speeds without maintenance and you can perform the ratio across a distance easily with the ratio between the pulleys. It's important to try to use pulleys larger than 24 teeth and keep the tooth engagement of the pulleys high to maximize energy transfer without wear (this is especially important to consider when using a double-sided belt run).
 
-??? Concept "Contact Time and Compression (Energy Transfer)"
+??? Concept "Wrap and Compression (Energy Transfer)"
 
     Contact time, compression, and shooter wheel material are all important factors for how much energy is transferred from the shooter wheels to the game piece. You may have high shooter wheel speeds, but without contact time, compression, grip, and the energy to transfer (moment of inertia), the game piece won't be able to speed up enough before it leaves the shooter. 
 
-    Contact time is the duration for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. Of course, this requires there to be a good amount of inertia to keep the speed of the flywheel from dipping too much. When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance
+    Wrap is the distance for which the game piece remains in contact with the spinning wheel. A longer contact time allows more energy transfer from the wheel to the game piece. Of course, this requires there to be a good amount of inertia to keep the speed of the flywheel from dipping too much. When you design for contact time, you may find that a larger diameter wheel often allows for a longer contact time with the game piece. As a result, it is prioritized to have a large diameter wheel with a long contact distance
 
     Compression is a delicate balance; compress it too little and the energy transfer will be bad, but compress it too much and it will introduce unnecessary friction and lose efficiency. Compression usually needs to be prototyped depending on the game piece. For most feeder mechanisms, you can introduce compliance in the mechanism to increase grip and contact time (i.e. using [compliance wheels](https://www.andymark.com/products/4-in-compliant-wheels-options)), but you don't want to use squishy wheels for shooter wheels as they will expand and can even explode when spun faster, making shots inconsistent. 
 
@@ -127,22 +131,30 @@ The following sections cover the design rationale for the shooter mechanism you 
         </figure>
         <figcaption>This is what it looks like if you have good contact time and compression with the exact same robot. (Warning: Loud Audio)</figcaption>
 
-    Instead of adding compliance in the mechanism, prototype to find the best combination between compression and shooter wheel material. The grip of the shooter wheels, a result of the hardness rating in the case of silicone, can be maximized to maximize the energy transfer. The grippiest wheels are usually ones with soft silicone or a grippy texture (you can apply grip tape). Tread patterns may even help. 
+    In short, you want to avoid complaint wheels as their profile makes them expand at a high RPM. Treaded wheels face similar problems due to wearing out causing inconsistent contact and diameter. 
 
-    [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), fairlane wheels (colloqiual term in FRC for wheels made of solid rubber with a small core for the axle) ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
+    [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), Solid roller wheels, ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
 
-    For this design, 4" Solid Roller Wheels have been chosen because of their grip and large diameter (leading to good contact time). This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
+    The example design uses 4 inch diameter roller wheels. The diameter allows for enough contact time while being small enough to reasonably package. This is combined with a compression of about half an inch to transfer a good amount of energy to the power cells when they are launched.
 
-??? Concept "Spin"
+??? Concept "Spin/Additional Energy Transfer (Back Rollers)"
 
-    Depending on the gamepiece and field element into which you're launching it, spin may be crucial. In games like 2013 and 2024 with disc-shaped game pieces, adding spin stabilizes the gamepiece through gyroscopic motion. You can add backspin or topspin to spherical objects to help it stay inside the goal, like in 2017, or you may want to mitigate spin or change spin depending on the distance from the goal, like in 2022, because backspin would cause the balls to bounce or roll out of the goal. Sometimes, the spin won't matter, such as in games like 2014 or 2020. 
+    For spherical gamepieces, backrollers may be used for two different applications. Reducing spin and adding extra energy.
 
-    According to initial prototyping for this hypothetical game, adding backspin helps with shot stabilization and accuracy. While you could have only the flywheel, with the friction against the polycarb causing backspin, this design uses both flywheel and hood wheels (spinning in the opposite direction) to launch the ball with more consistent force and direction. They are mechanically linked with a 1:1 ratio with a pair of gears to flip the direction, but because the hood wheels are 2" diameter, their surface speed is half as fast as the surface speed of the flywheels, causing the ball to leave with the desired backspin. Mechanically linking the flywheels and hood wheels means the speed of both sets of wheels can be carefully controlled with only one motor, simplifying the software and ensuring accuracy.
-    ??? Video
-        <figure>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKDnRvLhrA?si=9ZoKnbHI4jayoux0&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <figcaption>See how in this video the ball spins. This spin is controlled by the back hood rollers.</figcaption>
-        </figure>
+    ### Spin
+    Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. You don't need to eliminate all of it, just enough for the application.
+
+    In games with disc-shaped game pieces such as 2013 or 2024, adding spin is required for a stable shot.
+    
+    ### Additional Energy Transfer
+    In the case that you cannot transfer enough energy to the game piece from your main flywheel, additional rollers add additional energy transfer, which may allow for even longer distances if necessary. This was used in 2020 due to it being difficult to transfer enough energy into the powercell. Additional motors can also be used. 
+    
+    The example uses backspin rollers to show how you can execute it into your design, typically involving a long belt + gears to reverse the direction. As the wheels are only 2 inches thick, some spin still remains.
+
+     <figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QZKDnRvLhrA?si=9ZoKnbHI4jayoux0&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <figcaption>See how the ball spins as it travels along the shooter path. Although there are back rollers, there is still some spin </figcaption>
+     </figure>
         
 
 
