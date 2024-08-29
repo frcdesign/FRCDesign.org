@@ -105,21 +105,21 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
-          <img src="/img/design-guide/stage0/setup/signup.webp" style="width:90%; border:5px solid #ADADAD">
+          <img src="/img/learning-course/stage0/setup/signup.webp" style="width:90%; border:5px solid #ADADAD">
           <figcaption> Fill out the details in the sign up form. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/design-guide/stage0/setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD">
+          <img src="/img/learning-course/stage0/setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD">
           <figcaption> On the next screen, select that you are a student and that you are in grade school.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/design-guide/stage0/setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD">
+          <img src="/img/learning-course/stage0/setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD">
           <figcaption> Finally, fill the form with your school information. You may enter "Robotics" as the reason for using Onshape. </figcaption>
       </figure>
   </div>
@@ -149,11 +149,11 @@ The first time you enter Onshape, it will prompt you to set up your account, inc
 
     First, type `chrome://settings/` in your searchbar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
 
-    <center><img src="/img/design-guide/stage0/setup/chrome/graphicsacceleration.webp" style="border:5px solid #ADADAD"></center>
+    <center><img src="/img/learning-course/stage0/setup/chrome/graphicsacceleration.webp" style="border:5px solid #ADADAD"></center>
 
     Next, go to `chrome://flags/` and enable these:
 
-    <center><img src="/img/design-guide/stage0/setup/chrome/flags.webp" style="border:5px solid #ADADAD"></center>
+    <center><img src="/img/learning-course/stage0/setup/chrome/flags.webp" style="border:5px solid #ADADAD"></center>
 
 If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
 
@@ -172,8 +172,8 @@ Press "Subscribe", then "Get for Free". This will automatically add MKCad to you
     After subscribing, the MKCAD inserter won't show up in already open documents until you reload. This is a first-time thing though.
 
 ??? Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="/img/design-guide/stage0/setup/subscribe.webp">
-      <source src="/img/design-guide/stage0/setup/MKCADsetup.webm" type="video/webm">
+    <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/stage0/setup/subscribe.webp">
+      <source src="/img/learning-course/stage0/setup/MKCADsetup.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
 
@@ -188,8 +188,8 @@ Featurescripts are custom features coded by members of the community, and are of
 3. Click "Belts", "Chain Path", "Electronics Mounting", "Extrude Individual", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
 
 ??? Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="../../../../img/design-guide/stage0/setup/addingJulia'sFeaturescripts.webp">
-      <source src="../../../../img/design-guide/stage0/setup/addingJulia'sFeaturescripts.webm" type="video/webm">
+    <video width="1920" controls="true" allowfullscreen="true" poster="../../../../img/learning-course/stage0/setup/addingJulia'sFeaturescripts.webp">
+      <source src="../../../../img/learning-course/stage0/setup/addingJulia'sFeaturescripts.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
 

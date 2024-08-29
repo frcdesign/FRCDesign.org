@@ -5,7 +5,7 @@ Onshape has its own scripting language to create custom features to automate asp
 ### How To Install Featurescripts
 
 1. Open any Onshape document and go inside of a part studio
-2. Click the rightmost button on the toolbar <img align="center" src="../../../../img/featurescripts/addCustomFeatures.webp">
+2. Click the rightmost button on the toolbar <img align="center" src="../../../../img/resources/featurescripts/addCustomFeatures.webp">
     - **Note:** If you have previously added any Featurescripts one of those may show up as the right most icon. In that case click the dropdown to show the add button.
 3. Paste the link of the document with the featurescript(s) in it into the search bar
     - **Note:** Some of the below featurescripts exist in the same document, so you can add multiple from the same link.
@@ -13,12 +13,12 @@ Onshape has its own scripting language to create custom features to automate asp
 4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/addingFeaturescriptsTutorial.webp">
-      <source src="../../../../img/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/addingFeaturescriptsTutorial.webp">
+      <source src="../../../../img/resources/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
     </video>
 
 !!! alternate
-    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile. This method is used in [stage 0](../design-guide/stage0/0B-setup.md/#featurescripts) to add Julia's Featurescripts when setting up Onshape.
+    When viewing a tab in a document that uses custom features, you can click a button near the top left that says 'custom features'. From here you can add custom features used in the document to your profile. This method is used in [stage 0](../learning-course/stage0/0B-setup.md/#featurescripts) to add Julia's Featurescripts when setting up Onshape.
 
 ## List of Featurescripts
 
@@ -49,8 +49,8 @@ The below links contain several featurescripts each that you can add all at once
 - Commonly used with tube converter to make punched aluminum tubes from a top view sketch
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/EI.webp">
-      <source src="../../../../img/featurescripts/extrudeIndividual.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/EI.webp">
+      <source src="../../../../img/resources/featurescripts/extrudeIndividual.mp4" type="video/mp4">
     </video>
 
 [**Tube Converter**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8) *(Julia's Featurescripts)*
@@ -58,8 +58,8 @@ The below links contain several featurescripts each that you can add all at once
 - Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/TC.webp">
-      <source src="../../../../img/featurescripts/tubeConverter.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/TC.webp">
+      <source src="../../../../img/resources/featurescripts/tubeConverter.mp4" type="video/mp4">
     </video>
 
 
@@ -73,8 +73,8 @@ The below links contain several featurescripts each that you can add all at once
 - After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/FAE.webp">
-      <source src="../../../../img/featurescripts/filletEdges.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/FAE.webp">
+      <source src="../../../../img/resources/featurescripts/filletEdges.mp4" type="video/mp4">
     </video>
 
 
@@ -85,8 +85,8 @@ The below links contain several featurescripts each that you can add all at once
 - Can be generated in-place and with offsets
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/SG.webp">
-      <source src="../../../../img/featurescripts/shaftGenerator.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/SG.webp">
+      <source src="../../../../img/resources/featurescripts/shaftGenerator.mp4" type="video/mp4">
     </video>
 
 
@@ -95,8 +95,8 @@ The below links contain several featurescripts each that you can add all at once
 - Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/S.webp">
-      <source src="../../../../img/featurescripts/spacer.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/S.webp">
+      <source src="../../../../img/resources/featurescripts/spacer.mp4" type="video/mp4">
     </video>
 
 
@@ -128,8 +128,8 @@ The below links contain several featurescripts each that you can add all at once
 - Either in-place and generates the closest belt, or takes a c-c distance without context and does the same
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CB.webp">
-      <source src="../../../../img/featurescripts/contextlessBelts.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/CB.webp">
+      <source src="../../../../img/resources/featurescripts/contextlessBelts.mp4" type="video/mp4">
     </video>
 
 
@@ -166,8 +166,8 @@ The below links contain several featurescripts each that you can add all at once
 - Options for simplified or realistic
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/CG.webp">
-      <source src="../../../../img/featurescripts/chainGen.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/CG.webp">
+      <source src="../../../../img/resources/featurescripts/chainGen.mp4" type="video/mp4">
     </video>
 
 
@@ -195,8 +195,8 @@ The below links contain several featurescripts each that you can add all at once
 - Uses sketch regions to determine pocket and rib placement
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/V.webp">
-      <source src="../../../../img/featurescripts/vent.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/V.webp">
+      <source src="../../../../img/resources/featurescripts/vent.mp4" type="video/mp4">
     </video>
 
 [**Lighten**](https://cad.onshape.com/documents/573f7d70e4b0fddafb52148c/v/0edea0fa2707e715d040e74f/e/5eccf6d369b0312a728d77d3)
@@ -279,8 +279,8 @@ The below links contain several featurescripts each that you can add all at once
 - Modifies 3D-printed parts to have accurate mass with given material, infill, and wall thickness
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/3DP.webp">
-      <source src="../../../../img/featurescripts/3DPMass.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/3DP.webp">
+      <source src="../../../../img/resources/featurescripts/3DPMass.mp4" type="video/mp4">
     </video>
 
 [**Advanced Variables**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d) *(2471 Featurescripts)*
@@ -297,8 +297,8 @@ If a featurescript is not working as expected, the current version might be brok
 2. The second, and slightly more permanent way (until the maintainer of the custom feature creates a new version), is by right clicking any of the featurescript icons in your toolbar or in the custom features dropdown and clicking "Update..." or "Update all..." From there, you can see the current versions of the custom features you have added to your profile and update selected ones to use the current latest version when you use a featurescript.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/featurescripts/updatingFeaturescriptDocuments.webp">
-      <source src="../../../../img/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
+    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/updatingFeaturescriptDocuments.webp">
+      <source src="../../../../img/resources/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
     </video>
 
 <br>

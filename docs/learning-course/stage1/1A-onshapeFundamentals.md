@@ -118,7 +118,7 @@ Make a copy of the Stage 1A Exercises Document through the button below. A templ
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
     <center>
       <video width="1920" controls>
-        <source src="\img\design-guide\stage1a\1a-tabs.webm" type="video/webm">
+        <source src="\img\learning-course\stage1a\1a-tabs.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
     <center> *Accessing the Tab Manager.* </center>
@@ -143,11 +143,11 @@ With a good understanding of both of these, you can create almost any part you w
 <br>
 
 ### Exercise 1: Simple Box Tube
-In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the design-guide, we will use this notation when referring to box tube.
+In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the learning-course, we will use this notation when referring to box tube.
 
 
 !!! Example
-    <center><img src="\img\design-guide\stage1a\tube.webp" width="45%"> </center>
+    <center><img src="\img\learning-course\stage1a\tube.webp" width="45%"> </center>
     <center> *Example of 2x1 box tube structure on a robot* </center>
 
 For exercise 1, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts.
@@ -164,21 +164,21 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%">
       <figcaption>0. The final part.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s1.webp" style="width:100%">
       <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s2.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s2.webp" style="width:100%">
       <figcaption>2. Extrude the rectangle symmetrically, 2" tall.</figcaption>
     </figure>
   </div>
@@ -186,7 +186,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s3.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e1/e1s3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Shell the block to turn it into a 1/16" wall tube.</figcaption>
@@ -196,7 +196,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s4.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e1/e1s4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
@@ -206,7 +206,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e1/e1s5.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e1/e1s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
@@ -215,7 +215,7 @@ For exercise 1, you will be modeling a simple 2x1 with some holes in it. For thi
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e1/e1s6.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%">
       <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
     </figure>
   </div>
@@ -241,7 +241,7 @@ As introduced in the learning course, Onshape is a software focused on multi-bod
 
 !!! Example
     Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
-    <center><img src="\img\design-guide\stage1a\1a-PartStudio.webp" width="55%"></center>
+    <center><img src="\img\learning-course\stage1a\1a-PartStudio.webp" width="55%"></center>
     <center> *Example of a part studio* </center>
 
 
@@ -249,7 +249,7 @@ As introduced in the learning course, Onshape is a software focused on multi-bod
 For this exercise, you will design two tubes and a part called a "gusset". A gusset is the flat part that connects the two tubes. This gusset will be created in the same part studio as the tubes that it is connecting!
 
 !!! Example
-    <center><img src="\img\design-guide\stage1a\8033-000-2024C_8.png" width="45%"> </center>
+    <center><img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="45%"> </center>
     <center> *Example of a gusset* </center>
 
 You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. Do not use the `Gusset` Featurescript for this exercise.
@@ -260,7 +260,7 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
 
 !!! Tip
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
-    <center><img src="\img\design-guide\stage1a\1a-merge.png" width="20%"></center>
+    <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
 
 <center>**Exercise 2 Instruction Slides**</center>
@@ -271,84 +271,84 @@ The `Tube Converter` Featurescript condenses the steps of shelling, sketching an
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s11.webp" style="width:100%">
       <figcaption>0. The finished parts.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s1.webp" style="width:100%">
       <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s2.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s2.webp" style="width:100%">
       <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s3.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s3.webp" style="width:100%">
       <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s4.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s4.webp" style="width:100%">
       <figcaption>4. Draw a triangle with construction geometry for the gusset. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s5.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s5.webp" style="width:100%">
       <figcaption>5. Dimension the triangle to be 0.5" away from the edges of the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s6.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s6.webp" style="width:100%">
       <figcaption>6. Use the <code>Offset Entities</code> tool to offset the construction geometry 0.25". This will be the outline of the gusset. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s7.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s7.webp" style="width:100%">
       <figcaption>7. Use the <code>Sketch Fillet</code> tool to add a 0.25" fillet to the three corners of the gusset. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s8.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s8.webp" style="width:100%">
       <figcaption>8. Delete the three points left over from the fillet. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s9.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s9.webp" style="width:100%">
       <figcaption>9. Use the <code>Use (Project/Convert)</code> tool to project the tube holes onto the gusset sketch. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s10.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s10.webp" style="width:100%">
       <figcaption>10. Extrude the gusset to be 1/8" thick. Select <code>New</code> as the extrude type to make the extrude a new part. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e2/e2s11.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e2/e2s11.webp" style="width:100%">
       <figcaption>11. Name the key sketches and parts. Set the material to be 6061 Aluminum. </figcaption>
     </figure>
   </div>
@@ -382,7 +382,7 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
 !!! Example
     <center>
       <video width="1920" controls>
-        <source src="\img\design-guide\stage1a\1a-fasten.mp4" type="video/mp4">
+        <source src="\img\learning-course\stage1a\1a-fasten.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </center>
@@ -406,49 +406,49 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s1.webp" style="width:100%">
       <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s2.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s2.webp" style="width:100%">
       <figcaption>2. Use the <code>Extrude Individual</code> Featurescript to extrude the blocks.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s3.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s3.webp" style="width:100%">
       <figcaption>3. Use <code>Tube Converter</code> Featurescript to turn the blocks into 1/16" wall tubes with a 0.5" spacing pattern of 0.196" holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s4.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s4.webp" style="width:100%">
       <figcaption>4. Use the <code>Gusset</code> tool to create the top gusset by selecting the holes on the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s5.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s5.webp" style="width:100%">
       <figcaption>5. Use the <code>Gusset</code> tool to create the bottom gusset by selecting the holes on the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s6.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s6.webp" style="width:100%">
       <figcaption>6. Name the key sketches and parts. The materials will have already been set to 6061 Aluminum from the Featurescripts.</figcaption>
     </figure>
   </div>
@@ -456,7 +456,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s7.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e3/e3s7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>7. Insert the parts into the assembly by directly clicking on the green checkmark. Then, <code>Group</code> all the parts together. Finally, <code>fix</code> the bottom tube in place. </figcaption>
@@ -466,7 +466,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s8.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e3/e3s8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>8. Copy and paste the gussets four times. Then, use the <code>Fasten</code> mate to attach the gussets to the tube. </figcaption>
@@ -476,7 +476,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e3/e3s9.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e3/e3s9.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>9. Some gussets may need to have their <code>Fasten</code> mate reoriented in order to properly line up. </figcaption>
@@ -485,7 +485,7 @@ The `Gusset` Featurescript is an easy way to create gussets by selecting the loc
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e3/e3s10.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e3/e3s10.webp" style="width:100%">
       <figcaption>10. Finished assembly. </figcaption>
     </figure>
   </div>
@@ -518,28 +518,28 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s10.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s1.webp" style="width:100%">
       <figcaption>1. Start by sketching the tube on the right plane.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s2.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s2.webp" style="width:100%">
       <figcaption>2. Use the <code>Tube</code> Featurescript to create a thin-wall 1"x1" tube with no holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s3.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s3.webp" style="width:100%">
       <figcaption>3. Draw the climber hook sketch. The construction geometry circle represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with. Pay attention to the sketch constraints used.</figcaption>
     </figure>
   </div>
@@ -547,7 +547,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e4/e4s4.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e4/e4s4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Use the <code>Linear Pattern</code> sketch tool to pattern the mounting holes. </figcaption>
@@ -556,14 +556,14 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s5.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s5.webp" style="width:100%">
       <figcaption>5. Make the hook 3/16" thick. Select <code>New</code> as the extrude type to make the extrude a new part.  </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s6.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s6.webp" style="width:100%">
       <figcaption>6. Fillet the bottom two corners with a 0.25" radius.</figcaption>
     </figure>
   </div>
@@ -571,7 +571,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/design-guide/stage1a/exercises/e4/e4s7.webm" type="video/webm">
+        <source src="/img/learning-course/stage1a/exercises/e4/e4s7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>7. Use the <code>Spacer</code> Featurescript to add a 0.5" diameter spacer. Use the `Up to Face` end condition to make the spacer match the tube width. </figcaption>
@@ -580,21 +580,21 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s8.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s8.webp" style="width:100%">
       <figcaption>8. Use the <code>Use</code> sketch tool to add the mounting holes to the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s9.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s9.webp" style="width:100%">
       <figcaption>9. Name the key sketches and parts. Set the material of the hook and spacer to 6061 Aluminum. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/design-guide/stage1a/exercises/e4/e4s10.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s10.webp" style="width:100%">
       <figcaption>10. Finished assembly. </figcaption>
     </figure>
   </div>

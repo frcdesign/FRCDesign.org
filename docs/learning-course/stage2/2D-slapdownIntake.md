@@ -14,7 +14,7 @@ A common style of intake for gamepieces in FRC (depending on extension rules) is
 The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 
 <br>
-<figure><img align="left"  src="\img\design-guide\stage2-slapdown\1323intake.gif" width="45%" style="border:5px solid #ADADAD"><img align="right" src="\img\design-guide\stage2-slapdown\1678intake.gif" width="51%" style="border:5px solid #ADADAD"></figure>
+<figure><img align="left"  src="\img\learning-course\stage2-slapdown\1323intake.gif" width="45%" style="border:5px solid #ADADAD"><img align="right" src="\img\learning-course\stage2-slapdown\1678intake.gif" width="51%" style="border:5px solid #ADADAD"></figure>
 <center><figcaption>1323's 2022 Slapdown Intake and 1678's 2022 Four-bar Intake in action</figcaption></center>
 <br>
 
@@ -26,7 +26,7 @@ Other mechanism examples and deep dives for OTB intakes can be found on the [sla
 
 This stage's project is a slapdown intake for 2022 or 2023 (both with the same gamepiece size of 9.5" diameter). 
 
-<center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
 
 The reference is provided in [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f). Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
@@ -64,7 +64,7 @@ The following sections cover the design rationale for the slapdown intake you wi
       For controlling the intake position, no absolute encoder is needed. You can zero the position when it is stowed and against the hardstop or have it rest on the ground when the robot is turned on, and use the relative encoder to take it to a specific position down.
       <br>
       <figure>
-      <img src="\img\design-guide\stage2-slapdown\pivot.webp" alt="Power Example" width="60%" style="border:5px solid #ADADAD">
+      <img src="\img\learning-course\stage2-slapdown\pivot.webp" alt="Power Example" width="60%" style="border:5px solid #ADADAD">
       <figcaption> An Intake Pivot</figcaption>
       </figure>
 
@@ -76,7 +76,7 @@ The following sections cover the design rationale for the slapdown intake you wi
 
       Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
       <figure>
-    <img src="\img\design-guide\stage2-slapdown\ball-path.webp" alt="Ball Path" width="60%" style="border:5px solid #ADADAD">
+    <img src="\img\learning-course\stage2-slapdown\ball-path.webp" alt="Ball Path" width="60%" style="border:5px solid #ADADAD">
     <figcaption> See how the roller positions impact the ball path</figcaption>
     </figure>
 
@@ -93,7 +93,7 @@ The following sections cover the design rationale for the slapdown intake you wi
    3. Sketch roller or wheel positions needed to get the game piece to move that way. The distance between rollers should be adjusted using the [WCP Belt Calculator](https://wcproducts.com/pages/calculator-belt). "Extra center" should be set as -0.02 for ease of assembly and efficiency.
    4.  Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
 
-<center><img src="/img/design-guide/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
+<center><img src="/img/learning-course/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
 
 ### Part Studio
 
@@ -108,22 +108,22 @@ The following sections cover the design rationale for the slapdown intake you wi
 9. Use your chosen belt/chain generator featurescripts to create the belts and chain
 10. Name and give materials and appearances to all your parts
 
-<center><img src="/img/design-guide/stage2-slapdown/intakePartStudio.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-slapdown/intakePartStudio.webp" width="70%"></center>
 
 ### Assembly
 Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. 
 
 Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. [Here's the link](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d) to the deadaxle rollers again. 
 
-<center><img src="/img/design-guide/stage2-slapdown/staticAssembly.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-slapdown/staticAssembly.webp" width="70%"></center>
 
 Create an assembly for the intake arms and do the same thing as above to complete the assembly and make it rigid.
 
-<center><img src="/img/design-guide/stage2-slapdown/intakeArms.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-slapdown/intakeArms.webp" width="70%"></center>
 
 Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the slapdown intake assembly.
 
-<center><img src="/img/design-guide/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
+<center><img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
 
 ## Summary
 

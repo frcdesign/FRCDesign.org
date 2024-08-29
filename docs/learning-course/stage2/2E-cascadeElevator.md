@@ -98,7 +98,7 @@ details {
 Elevators pop up commonly in FRC and are used to move mechanisms in a compact linear fashion. This is usually to reach higher places with a mechanism, reach far out from your frame perimeter, or even climb on a field element. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either "Cascade" or "Continuous." 
 
 <br>
-<figure><img align="left"  src="\img\design-guide\stage2-elevator\2468elevator.gif" width="55%" style="border:5px solid #ADADAD"><img align="right" src="\img\design-guide\stage2-elevator\4414elevator.gif" width="39%" style="border:5px solid #ADADAD"></figure>
+<figure><img align="left"  src="\img\learning-course\stage2-elevator\2468elevator.gif" width="55%" style="border:5px solid #ADADAD"><img align="right" src="\img\learning-course\stage2-elevator\4414elevator.gif" width="39%" style="border:5px solid #ADADAD"></figure>
 <center><figcaption>2468's Cascade Elevator and 4414's Continuous Elevator</figcaption></center>
 <br>
 
@@ -110,7 +110,7 @@ Elevators as designed most typically may be out of the scope of a lower-capabili
 Cascade elevators are characterized by the way the stages move. In a cascade rigged system, each elevator stage moves the same distance from its parent stage.
 
 <figure markdown="span">
-    ![cascade](/img/design-guide/stage2-elevator/cascade.gif)
+    ![cascade](/img/learning-course/stage2-elevator/cascade.gif)
     <figcaption>Cascade Motion</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Cascade elevators are characterized by the way the stages move. In a cascade rig
 Because elevators are just mechanisms to move other mechanisms around, this project is similar to the dead axle pivot and will be designed without much context to learn the design process and components. You will get practice with designing elevators in the context of a robot in Stage 3.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
+    <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
 </figure>
 
 The reference is provided in [**this document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283). Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
@@ -145,7 +145,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     <br>
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/elevator-blocks.webp" style="width:75%">
+        <img src="/img/learning-course/stage2-elevator/elevator-blocks.webp" style="width:75%">
     </figure>
 
     The elevator featured in this guide uses the WCP Inline Clamping and Inline blocks, but different blocks from WCP or TTB could be substituted with little to no design changes besides the distance between the stages on the sides.
@@ -156,7 +156,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     <br>
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/chain-comb.webp" style="width:75%">
+        <img src="/img/learning-course/stage2-elevator/chain-comb.webp" style="width:75%">
     </figure>
 
 ??? Concept "Rigging"
@@ -164,8 +164,8 @@ Elevators have some key components that differ from most other mechanisms, and i
     Elevator rigging typically takes up the bulk of the design process, as its the most important part of the elevator. Rigging style, and organization drives the motor mounting, and position of the crossmember the clamp plate is mounted to, so its important to properly plan out the cable paths.
     <br>
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
-        <img src="/img/design-guide/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
+        <img src="/img/learning-course/stage2-elevator/rigging-light.webp#only-light" style="width:50%">
+        <img src="/img/learning-course/stage2-elevator/rigging-dark.webp#only-dark" style="width:50%">
     </figure>
 
 ??? Concept "Cable Clamp & Pulleys"
@@ -177,7 +177,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     <br>
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/cable-clamp.webp" style="width:75%">
+        <img src="/img/learning-course/stage2-elevator/cable-clamp.webp" style="width:75%">
     </figure>
 
 ??? Concept "Cable Ends"
@@ -186,7 +186,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     <br>
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/carriage.webp" style="width:50%">
+        <img src="/img/learning-course/stage2-elevator/carriage.webp" style="width:50%">
     </figure>
 
     To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585) (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
@@ -195,7 +195,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     <br>
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/ratchet-plate.webp" style="width:50%">
+        <img src="/img/learning-course/stage2-elevator/ratchet-plate.webp" style="width:50%">
     </figure>
 
 
@@ -205,7 +205,7 @@ Elevators have some key components that differ from most other mechanisms, and i
     There are many methods to power the base stage, but this guide will be using a vertical chain, and the TTB chain comb.
     <br>
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/gearbox.webp" style="width:60%">
+        <img src="/img/learning-course/stage2-elevator/gearbox.webp" style="width:60%">
     </figure>
 
 
@@ -220,25 +220,25 @@ Elevator master sketches usually start with an extended side view so you can dri
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/master-sketch.webp" style="width:40%">
+            <img src="/img/learning-course/stage2-elevator/master-sketch.webp" style="width:40%">
             <figcaption>A clean view of the front sketch of the elevator tubes.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
+            <img src="/img/learning-course/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
             <figcaption> As practice for stage 3, we'll start with defining the position of the elevator in relation to drivetrain side sketch. Use rectangles to represent the 2x2 tube and the length of the stages. Add rectangles to represent the bottom tubes of each stage and carriage as well. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%" style="border:5px solid #ADADAD">
+            <img src="/img/learning-course/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%" style="border:5px solid #ADADAD">
             <figcaption> Feel free to create a retracted side sketch (constraining it to the geometry of the first side sketch) to help double check geometry and integration. This especially helpful when designing a full robot. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/design-guide/stage2-elevator/elevatorFrontSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
+            <img src="/img/learning-course/stage2-elevator/elevatorFrontSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
             <figcaption> Now add the front sketch to define all the elevator tubes, the width of the elevator, and the distance between stages on the side.</figcaption>
         </figure>
     </div>
@@ -274,10 +274,10 @@ Elevator master sketches usually start with an extended side view so you can dri
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design fundamentals page about structure](../../design-fundamentals\structure\structure.md).
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../design-handbook\structure\structure.md).
 
     <figure markdown="span">
-        <img src="/img/design-guide/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
+        <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
     </figure>
 
 6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
@@ -293,7 +293,7 @@ Elevator master sketches usually start with an extended side view so you can dri
 16. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevatorPartStudio.webp" style="width:75%">
+    <img src="/img/learning-course/stage2-elevator/elevatorPartStudio.webp" style="width:75%">
 </figure>
 
 ### Assembly
@@ -302,25 +302,25 @@ Because this subsystem has multiple moving parts, just like the dead axle pivot 
 Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, MKCAD, and standard content, using replicate and patterns when you can.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/frameSubassembly.webp" style="width:85%">
+    <img src="/img/learning-course/stage2-elevator/frameSubassembly.webp" style="width:85%">
 </figure>
 
 Do the same thing for the first stage subassembly.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/stage1Subassembly.webp" style="width:85%">
+    <img src="/img/learning-course/stage2-elevator/stage1Subassembly.webp" style="width:85%">
 </figure>
 
 And finally the carriage subassembly.
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/carriageSubassembly.webp" style="width:75%">
+    <img src="/img/learning-course/stage2-elevator/carriageSubassembly.webp" style="width:75%">
 </figure>
 
 Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator. 
 
 <figure markdown="span">
-    <img src="/img/design-guide/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+    <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
 </figure>
 
 Because it's a cascade elevator, you can create "linear relation" between the two slider mates with a ratio of 1. This will link the motion together in the same way it would be in real life.
