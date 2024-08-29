@@ -116,9 +116,10 @@ nav:
       - Motion Components: design-handbook/power-transmission/motion-components.md
       - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
       - Linear Extension: design-handbook/power-transmission/linear-extension.md
+      - Motors: design-handbook/power-transmission/motors.md
       - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
       - Pneumatics: design-handbook/power-transmission/pneumatics.md
-      - Electronics, Motors, and Sensors: design-handbook/power-transmission/electronics-motors-sensors.md
+      - Electronics and Sensors: design-handbook/power-transmission/electronics-sensors.md
     - Mechanisms:
       - Drivetrains: design-handbook/mechanisms/drivetrains.md
       - Elevators: design-handbook/mechanisms/elevators.md

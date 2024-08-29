@@ -1,6 +1,6 @@
 # Fastener Standards
 
-A guide on fasteners and fastener standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware.
+A guide on fasteners and fastener standards common in FRC.
 
 ## Bolts and Nuts
 
