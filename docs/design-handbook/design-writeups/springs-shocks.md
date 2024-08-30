@@ -1,6 +1,6 @@
-# Springs and Shocks
+# Springs and Gas Shocks
 
-Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
+A guide on springs and gas shocks.
 
 **Coming Soon**
 

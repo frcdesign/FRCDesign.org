@@ -3,55 +3,87 @@ title: Design Handbook
 ---
 
 # Design Handbook
-This category includes fundamentals about engineering design in FRC, deep dives into various common mechanisms, and write-ups on other various design topics. This content is separate from CAD and is meant to be applicable no matter the software used. 
+These sections form an extensive and in depth reference manual that covers both fundamentals and advanced techniques in FRC robot design. While examples are given in Onshape, the content is largely CAD software agnostic.
 
-Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (follow the [contribution guide](../contribution/methodsOfContributing.md).)
+Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (See [contribution guide](../contribution/methodsOfContributing.md).)
 
-## Structure
-This section is all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, tools and machines, etc.
+## Strategic Design
 
-(WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, as well as a guide on lightening.
+(WIP) [**Strategic Design**](strategic-design.md) is the holy grail of fundamentals. It can take any team's performance and raise it significantly (with a solid support structure of students and mentors). Strategic design is about all the factors that go into what robot your team decides to build, creating a successful build season schedule for getting it done, and executing it well for competitions. It's about priorities and tradeoffs. It's about designing a robot and playing the game within your capabilities. 
 
-(WIP) [**Structure**](structure/structure.md): How to use materials in different forms and various COTS pieces to create a robust and versatile structure system.
+## Hardware
+These pages are all about robustness and designing with fabrication in mind. This means materials, types of structure, hardware, tolerances, and tools and machines.
 
-(WIP) [**Hardware**](structure/hardware.md): A guide on hardware and hardware standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware.
+(WIP) [**Materials**](structure/materials.md): Different types of common materials in FRC and how to use them best, how to design for manufacturing, and a guide on lightening.
+
+(WIP) [**Structure**](structure/structure.md): A guide on creating robust and versatile robot structures. 
+<!-- Covers different materials, techniques, and COTS components. -->
+<!-- How to use materials in different forms and various COTS pieces to create a robust and versatile structure system. -->
+
+(WIP) [**Fasteners**](structure/fasteners.md): A guide on fasteners and fastener standards common in FRC.
+<!-- A guide on hardware and hardware standards common in FRC, including best use cases and what to keep in mind when designing a robot in relation to hardware. -->
+
+(WIP) [**Sheet Metal**](structure/sheet-metal.md): A guide on designing for sheet metal. 
+
+(WIP) [**3D Printing**](structure/3d-printing.md): A guide on designing for 3D printing.
+
+(WIP) [**Tolerances**](structure/tolerances.md): A guide on tolerances to account for when manufacturing real parts.
+
+(WIP) [**Weight Savings**](structure/weight-savings.md): A guide on designing your parts to be lighter with and without pocketing.
 
 
 ## Power Transmission
-This section is all about the transmission of power to enable different kinds of actions, whether that's a pivot that needs only two positions or a whole range, spinning things to bring a game piece in, or deploying a mechanism
+These pages discuss the transmission of power to enable robot functionality.
+<!-- This section is all about the transmission of power to enable different kinds of actions, whether that's a pivot that needs only two positions or a whole range, spinning things to bring a game piece in, or deploying a mechanism -->
 
-(Not Started) [**Electronics, Motors, and Sensors**](power-transmission/electronics-motors-sensors.md): A guide on how to design space for electronics, the differences between commonly used motors in FRC, and sensors that can be used to increase the controllability of a robot.
+(WIP) [**Motion Components**](power-transmission/motion-components.md): A guide on bearings, bushings, axles, and the best use cases for them, including the mechanics behind transmission of torque through axles.
+<!-- A rundown of bearings, bushings, axles, and the best use cases for them, including the mechanics behind transmission of torque through axles. -->
 
-(Not Started) [**Pneumatics**](power-transmission/pneumatics.md): An overview of how pneumatic systems work, the components required for one, and potential tradeoffs and use cases for pneumatics on a robot.
+(WIP) [**Transfer of Rotational Motion**](power-transmission/rotation.md): A guide on rotational power transmission components. Includes gears, belts, and chain.
+<!-- The basics of mechanical advantage, the transfer of torque and speed, and the differences and use for gears, belts, and chain. -->
 
-(WIP) [**Transfer of Rotational Motion**](power-transmission/rotation.md): The basics of mechanical advantage, the transfer of torque and speed, and the differences and use for gears, belts, and chain.
+(WIP) [**Linear Extension**](power-transmission/linear-extension.md): A guide on linear extension systems such as worm gears and rack and pinion.
+<!-- Covers various linear extension systems such as worm gears and rack and pinion. -->
 
-(Not Started) [**Motion Components**](power-transmission/motion-components.md): A rundown of bearings, bushings, axles, and the best use cases for them, including the mechanics behind transmission of torque through axles.
+(WIP) [**Motors**](power-transmission/motors.md): A guide on motors. Discusses motor selection and motor calculations.
 
-(Not Started) [**Wheels and Rollers**](power-transmission/wheels-rollers.md): Various wheels sold, their mechanical properties, and various use cases for them. Also a guide to different rollers. Useful for manipulation of a game piece.
+(WIP) [**Wheels and Rollers**](power-transmission/wheels-rollers.md): A extensive guide on wheels found in FRC. Discusses their mechanical properties and use cases. 
+<!-- Various wheels sold, their mechanical properties, and various use cases for them. Also a guide to different rollers. Useful for manipulation of a game piece. -->
 
-(Not Started) [**Linear Extension**](power-transmission/linear-extension.md): Covers various linear extension systems such as worm gears and rack and pinion.
+(WIP) [**Pneumatics**](power-transmission/pneumatics.md): A guide on how and when to use pneumatics. 
+<!-- An overview of how pneumatic systems work, the components required for one, and potential tradeoffs and use cases for pneumatics on a robot. -->
+
+(WIP) [**Electronics and Sensors**](power-transmission/electronics-motors-sensors.md): A guide on how to design for electronics and incorporate sensors to improve the controllability.
 
 
 ## Mechanisms
 
-[**Drivetrain**](mechanisms/drivetrain.md): A guide on drivetrains, drivebase rigidity, wheelbase location, and electrical mounting.
+(WIP) [**Drivetrain**](mechanisms/drivetrain.md): A guide on drivetrains. 
+<!-- , discussing rigidity, wheelbase location, and electrical mounting. -->
 
-(Not Started) [**Elevators**](mechanisms/elevators.md): A guide on elevators, including different types of rigging, COTS parts, gearboxes, and use cases.
+(WIP) [**Elevators**](mechanisms/elevators.md): A guide on elevators, including different types of rigging, COTS parts, gearboxes, and use cases.
 
-**More mechanisms coming eventually**
+(WIP) [**Arms**](mechanisms/arms.md): A guide on arms.
+
+(WIP) [**Linkages**](mechanisms/linkages.md): A guide on linkages.
+
+(WIP) [**Intakes**](mechanisms/intakes.md): A guide on intakes.
+
+(WIP) [**Shooters**](mechanisms/shooters.md): A guide on shooters.
+
+(WIP) [**Turrets**](mechanisms/turrets.md): A guide on turrets.
+
+(WIP) [**Bumpers**](mechanisms/bumpers.md): A guide on bumper materials, construction, and mounting solutions, with several references.
 
 ## Design Write-ups
-Write-ups on important topics for FRC design that aren't necessarily fundamentals but can take your design a step further.
+Write-ups on important topics to take your designs a step further.
 
-(WIP) [**Designing for Controllability**](design-writeups/DFC.md): This page is about making your mechanisms and power transmission as easy to control as possible, including various ways to reduce backlash in systems.
+(WIP) [**Designing for Controllability**](design-writeups/DFC.md): Designing mechanisms and power transmissions for controllability.
 
-(Not Started) [**Chain Tensioning Solutions**](design-writeups/chainTensioning.md): A number of different innovative ways to tension a chain to reduce backlash in a mechanism in a compact way.
+(WIP) [**Chain Tensioning Solutions**](design-writeups/chainTensioning.md): Tensioning chain drive mechanisms.
 
-(Not Started) [**Bumper Mounting Solutions**](design-writeups/bumperMounting.md): An overview of different bumper mounting solutions implemented by different teams or sold by different companies.
+(WIP) [**Bumper Mounting Solutions**](design-writeups/bumperMounting.md): Different solutions for bumper mounting.
 
-(Not Started) [**Springs and Shocks**](design-writeups/springs-shocks.md): Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
-
-(Not Started) [**Linkages**](design-writeups/linkages.md): An overview of mechanical linkages and different use cases for them in robots.
+(WIP) [**Springs and Shocks**](design-writeups/springs-shocks.md): Different forms of tension that can be used to lessen the load on structure or motors and how to use them.
 
 <br>

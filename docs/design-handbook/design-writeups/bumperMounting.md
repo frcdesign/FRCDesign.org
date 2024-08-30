@@ -1,6 +1,6 @@
 # Bumper Mounting Solutions
 
-An overview of different bumper mounting solutions implemented by different teams or sold by different companies.
+A guide on different bumper mounting solutions.
 
 **Coming Soon**
 

@@ -55,3 +55,5 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events. 
 
 <center>[![](./img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)</center>
+
+<br>
