@@ -29,7 +29,7 @@ In recent years, this type of game can be seen in 2014, 2016, 2017, 2020, 2022, 
 <center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
 <br>
 
-The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults and punchers, are also effective but often more challenging to execute with the required accuracy.
+The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults or punchers, tend be more challenging to execute with the required accuracy/fire rate and rely on different concepts than flywheel shooters. 
 
 <br>
 <figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/learning-course/stage2-shooter/1678-2024-shooter.webp" width="47%"></figure>
