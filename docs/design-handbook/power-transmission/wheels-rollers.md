@@ -1,6 +1,6 @@
 # Wheels and Rollers
 
-Various wheels sold, their mechanical properties, and various use cases for them. Also a guide to different rollers. Useful for manipulation of a game piece.
+A extensive guide on wheels found in FRC. Discusses their mechanical properties and use cases.
 
 **Coming Soon**
 

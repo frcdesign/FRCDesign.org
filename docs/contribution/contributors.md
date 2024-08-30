@@ -10,19 +10,19 @@ FRCDesign.org would not happen without the wonderful work of these people!
 ## Website Writers
 - David
 - Kelly
-- Astro
 - Andrew Card
-- Kremer
-- Eeshwar 
-- Neel 
-- Brendan 
-- Vaughn
 - Jonathan Mi
+- Brendan 
+- Astro
+- Neel 
+- Eeshwar 
+- Vaughn
 
 ## External Contributors
 - Evan
 
 ## Additional Input
+- Kremer
 - Nick Aarestad
 - Trisha
 - Chickenbonker

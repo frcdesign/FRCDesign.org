@@ -104,7 +104,9 @@ Even if you've already CADed a drivetrain the past, this guide serves as an exce
 <center>*Swerve drivebase with pre-modeled mechanism*</center>
 
 
-As with previous exercises, the finished project is available for reference [here](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51). If you need help, please feel free to ask on the Discord!
+As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on the Discord!
+
+<center>[1C Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51){ .md-button .md-button--primary }</center>
 
 ## Master Sketch Methodology
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
