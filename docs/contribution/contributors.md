@@ -14,7 +14,6 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Jonathan Mi
 - Brendan 
 - Astro
-- Kremer
 - Neel 
 - Eeshwar 
 - Vaughn
@@ -23,6 +22,7 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Evan
 
 ## Additional Input
+- Kremer
 - Nick Aarestad
 - Trisha
 - Chickenbonker
