@@ -161,10 +161,13 @@ The following sections cover the basic shooter concepts, as well as the reasons 
     ### Spin
     Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. Spin also allows for a more stable shot, so in 2022 you didn't want to remove all of it, while in 2017 it was useful to have due to the steep arc trajectory. 
 
-    <figure>
-    <img src="\img\learning-course\stage2-shooter\bounceout.webm">
-    <figcaption>Bounceout caused by spin on the game piece. </figcaption>
-    </figure>
+
+    <center>
+    <video width="600" controls>
+    <source src="\img\learning-course\stage2-shooter\bounceout.webm" type="video/webm">
+    Your browser does not support the video tag.
+    </video>
+    <center> *Bounceout caused by too much spin. Credit: FRC Team 7492* </center>
 
     ### Additional Energy Transfer Through Back Rollers
     Friction causes some of the energy spent on accelerating the ball into spinning the ball. As a result, this reduces the translational energy (how fast it shoots). Lowering the friction on the backing helped, but back rollers were a better solution. 
