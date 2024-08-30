@@ -28,7 +28,9 @@ This stage's project is a slapdown intake for 2022 or 2023 (both with the same g
 
 <center><img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" width="70%"></center>
 
-The reference is provided in [**this document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f). Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
+The reference CAD model is provided. Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
+
+<center>[**Slap Down Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f){ .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 

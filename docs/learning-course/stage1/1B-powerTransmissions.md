@@ -285,10 +285,11 @@ When modeling, an easy way to set the center-to-center distance between two gear
 
 It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
 
-## Exercise Document
+## Practice Exercises
 Make a copy of the Stage 1B Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs).
 
-[Copy the 1B Exercises Document Here](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c){ .md-button .md-button--primary }
+<center>[1B Exercises Document](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c){ .md-button .md-button--primary }
+[1B Exercises Solution](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b){ .md-button .md-button--primary } </center>
 
 ## Exercise 1: Simple Gearbox 
 
@@ -297,7 +298,7 @@ In this exercise, you will be CADing and assembling a simple single stage gearbo
 The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
 
 !!! Note
-    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/hardware) page.
+    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/) page.
 
 !!! Tip
     To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
