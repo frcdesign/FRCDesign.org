@@ -1222,7 +1222,7 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned about speed, torque, and mechanical advantage
 * Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model basic power transmissions
-* Learned how to use the `Contextless Belt`, `Chain Generator`, `Shaft`, and `Vent` Featurescripts
+* Learned how to use the `Belt Gen`, `Chain Gen`, `Shaft`, and `Vent` Featurescripts
 * Learned how to use the `Origin Cube` FRC functions Featurescript for chain and belt c-c's
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Replicate` tool
