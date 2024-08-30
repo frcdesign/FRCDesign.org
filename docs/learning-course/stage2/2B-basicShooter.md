@@ -58,9 +58,9 @@ The reference shooter is provided below. Note that the reference shooter is not 
 
 The following sections cover the basic shooter concepts, as well as the reasons for specific implementations in the example. We cover these concepts lightly so you can design your shooter and understand the basic ideas behind shooters, but the design handbook covers the "why" and in depth concepts if you are interested.
 
-
 ??? Concept "Trajectory"
-    ## Trajectory 
+    **Trajectory**
+
     For a ball shooter, the trajectory is determined by the exit angle and exit velocity of the game piece. (How hard you launch and where you point)
 
     Rigidity impacts the consistency of the trajectory which makes your shooter less accurate. (Think about if your shooter wobbled how your shot would behave)
@@ -78,7 +78,8 @@ The following sections cover the basic shooter concepts, as well as the reasons 
         <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
 ??? Concept "Rigidity"
-    ## Rigidity
+    **Rigidity**
+
     Rigidity is important for every mechanism you design. For shooters it is vital to shoot at the same place every time. Think about what would happen if the shooter wobbled as you drove and shot. 
 
     This shooter uses two plates of 1/4" polycarbonate for the sides. 1/4 inch thick Polycarbonate is used as it is easy to machine, cheap, and rigid enough for shooters once you add supports. 
@@ -92,7 +93,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
 
 ??? Concept "Exit Velocity"
-    ### Surface Speed
+    **Surface Speed**
 
     The exit velocity is primarily impacted/controlled by the surface speed. 
 
@@ -105,7 +106,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
     <figcaption>Two Krakens driving the shooter wheels, flywheels, and a belt transferring power to the hood wheels.
     </figure>
 
-    ### Inertia
+    **Inertia**
 
     If shooting a single game piece at a time, common choices include stealth wheels, colsons, and solid roller wheels. These wheels store enough energy for your shot while being hard enough to be consistent. Do not use compliant wheels or treaded wheels as they will explode/be inconsistent.
      
@@ -124,9 +125,12 @@ The following sections cover the basic shooter concepts, as well as the reasons 
         Reductions or upductions should be done with belts for their high efficiency and low maintenance. It's important to try to use pulleys larger than 24 teeth and keep the tooth engagement of the pulleys high to maximize energy transfer without skipping.
 
 ??? Concept "Wrap and Compression (Energy Transfer)"
-    ### Compression
+    **Compression**
+
     The purpose of compression is to transfer energy into the game piece from the flywheel. The squishier the game piece, the more compression is required in order to get efficient energy transfer. Too little compression and the game piece slips, meaning energy isn't put into the ball. At the same time, too much compression leads to dragging on the rollers, which adds additional friction and inefficiency. It is important to find a balance through prototyping. For games with extremely hard game pieces such as 2017, compression is done through a foam backing instead.
-    ### Wrap
+
+    **Wrap**
+
     Wrap impacts the duration that the game piece stays in contact with the flywheel. The longer time the game piece remains in contact with the shooter, the more energy can be transferred consistently. For the associated physics concept see [Impulse (Wikipedia)](https://en.wikipedia.org/wiki/Impulse_(physics)).
 
     ??? Video "Not Enough Compression/Contact Time"
@@ -145,7 +149,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     The example design uses 4 inch diameter roller wheels. The diameter allows for enough contact time while being small enough to reasonably package. 
 
-    ### Feeder
+    **Feeder**
 
      A wheel or set of belts is frequently used to feed game pieces into the flywheel. The setup depends on the game and how you approach it feeding, but in 2020 you want to have both sides of your feeder powered due to the power cell being sticky. In the example, a single compliant wheel is used to feed the game pieces into the shooter. (Note: A feeder/Indexing section may be added to stage 2 in the future. The design handbook will have the concepts earlier)
     <br>
@@ -158,9 +162,9 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     For spherical gamepieces, back rollers may be used for two different applications. Reducing spin and adding extra energy.
 
-    ### Spin
-    Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. Spin also allows for a more stable shot, so in 2022 you didn't want to remove all of it, while in 2017 it was useful to have due to the steep arc trajectory. 
+    **Spin
 
+    Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. Spin also allows for a more stable shot, so in 2022 you didn't want to remove all of it, while in 2017 it was useful to have due to the steep arc trajectory. 
 
     <center>
     <video width="600" controls>
@@ -168,12 +172,15 @@ The following sections cover the basic shooter concepts, as well as the reasons 
     Your browser does not support the video tag.
     </video>
     <center> *Bounceout caused by too much spin. Credit: FRC Team 7492* </center>
+    </center>
 
-    ### Additional Energy Transfer Through Back Rollers
+    **Additional Energy Transfer Through Back Rollers**
+    
     Friction causes some of the energy spent on accelerating the ball into spinning the ball. As a result, this reduces the translational energy (how fast it shoots). Lowering the friction on the backing helped, but back rollers were a better solution. 
 
     <figure><center><iframe width="560" height="315" src="https://www.youtube.com/embed/1b8spBWIAT4?si=daEZUNFTRv_rsYMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption> This high speed shooter video uses PTFE tape to lower the friction on the hood backing to reduce some of the spin. This led to a higher exit velocity by 2 miles per hour. </figcaption></center></figure>
     
+
     Back rollers allow for three different ways to increase the energy transfer:
 
     1. It reduces the amount of spin which turns into translational energy (shoots faster)
