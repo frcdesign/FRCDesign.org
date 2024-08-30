@@ -98,7 +98,7 @@ nav:
     - Stage 2:
       - "A: Full Detail Drivebase": learning-course/stage2/2A-drivebaseFullDetail.md
       - "B: Basic Shooter": learning-course/stage2/2B-basicShooter.md
-      - "C: Deadaxle Pivot": learning-course/stage2/2C-deadaxlePivot.md
+      - "C: Dead Axle Pivot": learning-course/stage2/2C-deadaxlePivot.md
       - "D: Slapdown Intake": learning-course/stage2/2D-slapdownIntake.md
       - "E: Cascade Elevator": learning-course/stage2/2E-cascadeElevator.md
     - Stage 3: learning-course/stage3/index.md
