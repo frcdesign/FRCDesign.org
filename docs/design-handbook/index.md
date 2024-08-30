@@ -5,7 +5,7 @@ title: Design Handbook
 # Design Handbook
 These sections form an extensive and in depth reference manual that covers both fundamentals and advanced techniques in FRC robot design. While examples are given in Onshape, the content is largely CAD software agnostic.
 
-Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (See [contribution guide](../contribution/methodsOfContributing.md).)
+Keep in mind that this category is a large work in progress, and will continue to be added to long after the design guide is finished. Feel free to write your own content for something we don't have yet and we'll try to incorporate it into the website (See [contribution guide](../contribution/methodsOfContributing.md "Contribution Guide page").)
 
 ## Strategic Design
 

@@ -8,7 +8,7 @@ description: A guide to publically contributing to the website, including settin
 ## Public Contribution
 Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors.
 
-In [the discord server](https://discord.gg/jHXTdNjYCg), go to the ["website-discussion" channel](https://discord.com/channels/1120162219502608426/1233961750639018104) and ask if you can contribute the thing you want to by filling out this template:
+In [the discord server](https://discord.gg/jHXTdNjYCg "FRC Design Discord Server"){:target="_blank"}, go to the ["website-discussion" channel](https://discord.com/channels/1120162219502608426/1233961750639018104 "#website-discussion Discord Channel"){:target="_blank"} and ask if you can contribute the thing you want to by filling out this template:
 
     Issue/content:
     Solution or Notes about the execution of the content:
@@ -17,7 +17,7 @@ In [the discord server](https://discord.gg/jHXTdNjYCg), go to the ["website-disc
 
 This is to make sure you don't waste your time if it's not something that won't get put on the website or something that someone has already started working on.
 
-If you're given approval to start working on it, an internal contributor will make a new post in the ["public-website-contribution" forum channel](https://discord.com/channels/1120162219502608426/1233993910817259663) or direct you an existing post to work with and supplement another contributor if the content or issue has already started to be addressed.
+If you're given approval to start working on it, an internal contributor will make a new post in the ["public-website-contribution" forum channel](https://discord.com/channels/1120162219502608426/1233993910817259663 "#public-website-contribution Discord Forum Channel"){:target="_blank"} or direct you an existing post to work with and supplement another contributor if the content or issue has already started to be addressed.
 
 When you start on your work, you may choose to either:
 
@@ -30,16 +30,16 @@ Make sure to download the correct versions for the OS that you have (Windows, Ma
 
 Windows installers will almost always need to be the 64-bit version if there is a distinction.
 
-- The latest version of [Git Bash](https://git-scm.com/downloads)
+- The latest version of [Git Bash](https://git-scm.com/downloads "Git Bash Download"){:target="_blank"}
     - Follow instructions for your OS
     - Use all default options for installation
-- [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) 
+- [Python 3.10.6](https://www.python.org/downloads/release/python-3106/ "Python 3.10.6 Download"){:target="_blank"}
     - When the installer opens, make sure to select "Add Python 3.10 to PATH" at the bottom and click "Install Now"
     - For Windows users, you have the option of disabling the PATH length limit at the end; this can be helpful for other projects but is not required for contributing to the website
-- [VSCode](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/ "VSCode"){:target="_blank"}
     - Download the stable build for your OS
     - Use all default options for installation, except creating a desktop icon if you want
-- [GitHub Desktop](https://desktop.github.com/)
+- [GitHub Desktop](https://desktop.github.com/ "Github Desktop"){:target="_blank"} (Optional - you can also use git interface in VSCode)
     - After installing, select "Sign in to GitHub.com"
     - Sign in or sign up for a new GitHub account, then click "Authorize Desktop"
         - If you choose to sign up, you must verify your account with a captcha at the end of the registration and an emailed code
@@ -54,7 +54,7 @@ Windows installers will almost always need to be the 64-bit version if there is 
 
 **For Public Contributors:**
 
-1. Go to [the repository website](https://github.com/davidsdesignserver/FRCDesign.org)
+1. Go to [the repository website](https://github.com/davidsdesignserver/FRCDesign.org "FRC Design Github Repository"){:target="_blank"}
 2. Click "Fork" near the top right, then click "Create Fork" on the next screen
 3. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
 4. Under "GitHub.com", select your forked ```[username]/FRCDesign.org``` repository  and click "Clone"

@@ -24,7 +24,7 @@ Welcome to the first design challenge! We are going to start with a swerve drive
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
 
-Feel free to check out drivebase examples [here](https://www.frcdesign.org/mechanism-examples/drivebase/) if you need some brainstorming.
+Feel free to check out drivebase examples [here](https://www.frcdesign.org/mechanism-examples/drivebase/ "Drive Base Mechanism Examples Page") if you need some brainstorming.
 
 Good luck with your first challenge! 
 

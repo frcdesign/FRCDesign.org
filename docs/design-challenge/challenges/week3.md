@@ -26,11 +26,11 @@ This week we’re moving onto a different challenge: ball shooters! These mechan
         The game pieces are 6” rubber kickballs weighing 0.29lbs. Optimal compression is up to your own interpretation.
         The goal geometry means the ideal way to score is to land the ball right on the lip of the goal while it’s near the top of its arc.
 
-        [Recalc Link](https://www.reca.lc/)
+        [ReCalc Link](https://www.reca.lc/ "ReCalc Design Calculator"){:target="_blank"}
 
-        [Klib Link](https://docs.google.com/spreadsheets/d/1nGXMrhDdKpTQLD6yNFVDU9gId8WHatjQ_5eJAODExIY/edit#gid=179212563) (make a copy of the spreadsheet to use)
+        [Klib Link](https://docs.google.com/spreadsheets/d/1nGXMrhDdKpTQLD6yNFVDU9gId8WHatjQ_5eJAODExIY/edit#gid=179212563 "Klib Design Calculator"){:target="_blank"} (make a copy of the spreadsheet to use)
         
-        [Field CAD](https://cad.onshape.com/documents/aa791c5f7088e79a0a87cd17/w/9fa7c81772ed25b960d91b42/e/4a36003268192a4442d5a65b?renderMode=0&uiState=66592ac49e3d02479578d211)
+        [Field CAD](https://cad.onshape.com/documents/aa791c5f7088e79a0a87cd17/w/9fa7c81772ed25b960d91b42/e/4a36003268192a4442d5a65b?renderMode=0&uiState=66592ac49e3d02479578d211 "Field CAD Onshape Document"){:target="_blank"}
 
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
