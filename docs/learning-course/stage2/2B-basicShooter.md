@@ -29,7 +29,7 @@ Most shooting games involve launching a ball, but the fundamentals between ball 
 <center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
 <br>
 
-The most common way to launch game pieces is with flywheel shooters. Other methods tend to be extremely difficult to execute and do not follow the same fundamentals as below. 
+The most common way to launch game pieces is with flywheel shooters. Other methods such as catapults or punchers tend be more challenging to execute with the required accuracy/fire rate. They also have different fundamentals compared to flywheel shooters.
 
 <br>
 <figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/learning-course/stage2-shooter/1678-2024-shooter.webp" width="47%"></figure>
