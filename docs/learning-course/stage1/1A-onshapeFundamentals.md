@@ -671,7 +671,6 @@ function showSlides(n, no) {
   x[slideIndices[no]-1].style.display = "block";  
   dots[slideIndices[no]-1].className += " active";
 }
-
 </script>
 
 
