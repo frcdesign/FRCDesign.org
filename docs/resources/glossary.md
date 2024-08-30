@@ -152,4 +152,3 @@ We know it can be hard learning each and every term thrown around in FRC design,
 :   Designed in a way that uses relationships between steps to maintain design intent
 
 <br>
-<br>

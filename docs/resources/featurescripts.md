@@ -302,4 +302,3 @@ If a featurescript is not working as expected, the current version might be brok
     </video>
 
 <br>
-<br>

@@ -1,5 +1,15 @@
 # Materials
 
+<!-- Needs an intro -->
+
+An overview of raw materials commonly found on FRC robots.
+
+## Aluminum
+
+**Coming Soon**
+
+## Polycarbonate
+
 Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc - it will almost never shatter and looks great.
 
 !!! Tip
@@ -10,16 +20,5 @@ Polycarbonate plastic is used in high impact applications such as subsystems tha
 !!! Note
     Make sure to check your supplier's thickness and tolerance for each material. Sometimes something marketed as in imperial measurements is actually manufactured to fit metric tolerances. For instance: 1/4" polycarb is actually sometimes manufactured as 6mm, which is 14 thousandths of an inch off of 1/4in. Account for these actual stock measurements when designing to make sure things end up fitting together!
 
-## Pocketing and internal features
-
-Pocketing is used to reduce weight from high-thickness, high density materials such as 3/16 or 1/4 aluminum. While thinner aluminum and plastics can also be pocketed, this is less common, and higher risk.
-
-!!! Tip
-    Pocketing always happens last. **Get design approval before pocketing**! Use [offset driven design](https://www.youtube.com/watch?v=TT_QmZoUwG8) so your plates look decent **before** pocketing.
-
-When pocketing, use the [Vent featurescript ](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/v/71f9487be753d9eef9c3f73f/e/d55354e2782385e34e0395c4?jumpToIndex=1209)
-
-- Tool radius must be ≥0.125 the radius of the cutting tool you use on your CNC, typically 0.125
-- Strut thickness is usually 0.2 for 1/4 inch aluminum, and cut thru-all - but this depends on load and other factors
 
 <br>

@@ -7,4 +7,3 @@ Parts in FRC such as printed pulleys can be standardized. Here is a list of comm
 More coming soon.
 
 <br>
-<br>
