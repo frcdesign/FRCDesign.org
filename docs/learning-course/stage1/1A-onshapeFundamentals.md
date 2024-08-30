@@ -622,7 +622,7 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned how to model basic FRC structures
 * Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
 * Learned how to assemble basic models using `Group` and `Fasten`
-* Learned how to insert models into assemblies using the MKCad parts library
+<!-- * Learned how to insert models into assemblies using the MKCad parts library -->
 
 In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
 
