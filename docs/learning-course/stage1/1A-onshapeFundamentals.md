@@ -154,8 +154,9 @@ With a good understanding of both of these, you can create almost any part you w
 !!! Tip
     For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15){:target="_blank"}, [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0){:target="_blank"}, [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17){:target="_blank"}, and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0){:target="_blank"} are all covered in text form in the help center. 
 
-!!! Warning
-    <center>**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO LEARNING COURSES ABOVE**</center>
+!!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO LEARNING COURSES ABOVE**</span>"
+
+<br>
 
 ### Exercise #1: Simple Box Tube
 
@@ -251,7 +252,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
-
+<br>
 
 ## Multi-Part Modeling
 
@@ -268,8 +269,9 @@ Check out [this page](../../best-practices/sub-document-setup.md) to learn more 
     <center><img src="\img\learning-course\stage1a\1a-PartStudio.webp" width="55%"></center>
     <center> *Example of a part studio* </center>
 
-!!! Warning
-    <center>**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</center>
+!!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</span>"
+
+<br>
 
 ### Exercise #2: Box Tube and Gusset Joint
 
@@ -398,11 +400,15 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
+<br>
+
 ## Assemblies
 
-Assembling is the basic function of defining the position and motion of parts in an assembly.
+Assemblies are where parts designed in the part studio get assembled together. This is where you truly define the position and motion of all the different parts of something. 
 
-The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies) course introduces assemblies, mating parts together, and other useful assembly concepts.
+**Complete the following Onshape Learning Course:**
+
+- The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies) learning course introduces assemblies, mating parts together, and other useful assembly concepts.
 
 As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
@@ -413,26 +419,28 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
     - `Revolute`: Allows rotational movement about the z-axis between two mate connectors (e.g. an arm pivot)
     - `Slider`: Enables linear movement along the z-axis between two mate connectors (e.g. an elevator)
 
-!!! Example
+??? Example "Example of a Fasten Mate"
     <center>
       <video width="1920" controls>
         <source src="\img\learning-course\stage1a\1a-fasten.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </center>
-    <center> *Example of a fasten mate.* </center>
 
 The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md) page.
 
+!!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</span>"
 
-### Exercise 3: Box Tube Frame
-For this exercise, you will create a simple frame and two gussets. Then, you will create an assembly and mate together all the components.
+<br>
+
+### Exercise #3: Box Tube Frame
+For this exercise, you will create a simple frame and two gussets in the part studio, then create an assembly and mate together all the components.
 
 You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
 
-The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
+- The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
 
-<center>**Exercise 3 Instruction Slides**</center>
+**Navigate to the "Exercise #3 Structure" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -538,13 +546,13 @@ In this exercise, you were introduced to yet another highly useful Featurescript
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
-### Exercise 4: Climber Hook
+### Exercise #4: Climber Hook
 
-As you get more comfortable with modeling, we can begin to draw more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
+As you get more comfortable with modeling, we can begin to create more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
 
 You will utilize the `Spacer` Featurescript for this exercise.
 
-<center>**Exercise 4 Instruction Slides**</center>
+**Navigate to the "Exercise #4 Climber Hook" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -650,7 +658,7 @@ Congratulations on completing Stage 1A! Remember, practice is essential – the 
 
 Here is a quick summary of what you have achieved in 1A:
 
-* Learned how to use the OnShape interface and basic sketching and modeling features with the OnShape Learning Center courses
+* Learned how to use the Onshape interface and basic sketching and modeling features with the OnShape Learning Center courses
 * Learned how to model basic FRC structures
 * Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
 * Learned how to assemble basic models using `Group` and `Fasten`

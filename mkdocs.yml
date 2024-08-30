@@ -200,7 +200,7 @@ nav:
       - KrayonCAD: resources/krayonCAD.md
     
 
-  - Contribution Guide:
+  - Contribution:
     - Methods of Contributing: contribution/methodsOfContributing.md
     - Contributing to Mech. Examples: contribution/mechanismContribution.md
     - Style Guide: contribution/styleguide.md
