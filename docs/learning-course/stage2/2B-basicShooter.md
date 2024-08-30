@@ -147,7 +147,12 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     ### Feeder
 
-        A wheel or set of belts is frequently used to feed game pieces into the flywheel. The setup depends on the game and how you approach it feeding, but in 2020 you want to have both sides of your feeder powered due to the power cell being sticky. In the example, a single compliant wheel is used to feed the game pieces into the shooter. (Note: A feeder/Indexing section may be added to stage 2 in the future. The design handbook will have the concepts earlier)
+     A wheel or set of belts is frequently used to feed game pieces into the flywheel. The setup depends on the game and how you approach it feeding, but in 2020 you want to have both sides of your feeder powered due to the power cell being sticky. In the example, a single compliant wheel is used to feed the game pieces into the shooter. (Note: A feeder/Indexing section may be added to stage 2 in the future. The design handbook will have the concepts earlier)
+    <br>
+    <figure><img align="left"  src="\img\learning-course\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
+    <center><figcaption>Observe how the game pieces are fed into 2910's and 1690's robot.</figcaption></center>
+    <br>
+        
 
 ??? Concept "Spin Control and Additional Energy (Back Rollers)"
 
@@ -155,7 +160,15 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     ### Spin
     Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. Spin also allows for a more stable shot, so in 2022 you didn't want to remove all of it, while in 2017 it was useful to have due to the steep arc trajectory. 
-    
+
+
+    <center>
+    <video width="600" controls>
+    <source src="\img\learning-course\stage2-shooter\bounceout.webm" type="video/webm">
+    Your browser does not support the video tag.
+    </video>
+    <center> *Bounceout caused by too much spin. Credit: FRC Team 7492* </center>
+
     ### Additional Energy Transfer Through Back Rollers
     Friction causes some of the energy spent on accelerating the ball into spinning the ball. As a result, this reduces the translational energy (how fast it shoots). Lowering the friction on the backing helped, but back rollers were a better solution. 
 

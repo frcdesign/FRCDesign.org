@@ -173,6 +173,10 @@ Shafts transmit rotational power along an axis, with hex shafts being the most c
 
 Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
+<center><img src="\img\learning-course\stage1b\examples\shaftspining.gif" style="width:75%"></center>
+<center>*A spinning shaft in bearing*</center>
+
+
 !!! Tip
     The easiest way to model shafts is to use the [`Shaft` Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
 
