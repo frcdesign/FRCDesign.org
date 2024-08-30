@@ -94,7 +94,7 @@
 
 So far the models you have created are all structural components, but this is only half of what makes up a robot. In order to make our robots move and score, motors that generate rotational motion are typically utilized. In Stage 1B, you'll be introduced to modeling basic *power transmissions*. Power transmissions include the motors, bearings, shafts, gears, belts, and chains that are used to transform rotational motion from a motor to do just about anything. 
 
-In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios will be gone over on [the design handbook page about electronics, motors, and sensors](../../design-handbook/power-transmission/electronics-motors-sensors.md/) (**Coming Soon**) and also explored later in Stage 2 of the guide with multiple different mechanisms.
+In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios will be explored later in Stage 2 of the guide with multiple different mechanisms.
 
 !!! Example
     Below are some examples of power transmissions found in robots to achieve a range of different tasks.
@@ -148,7 +148,7 @@ In this stage, you'll focus on the fundamentals of power transmissions, with an 
       </div>
     </div>
 
-In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model more integrated power transmissions within mechanisms. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
+In this stage, there are exercises designed to practice modeling simple power transmissions in the form of stand alone gearboxes. In stage 2, you will begin to model power transmissions integrated within mechanisms.
 
 ## Motors
 
@@ -160,7 +160,7 @@ Motors spin! They transform electrical energy supplied by the robot battery into
 In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
 
 * The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
-* The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded (0.159"), as #10-32 is the hardware standard for COTS parts.
+* The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded, as #10-32 is the hardware standard for FRC COTS parts.
 
 <center><img src="\img\learning-course\stage1b\cimBoltCircle.webp" style="width:50%"></center>
 <figcaption>Mounting holes for CIM class motors are on a 2" diameter bolt circle. All of the holes are 1" away from the center of the motor.</figcaption>
@@ -174,7 +174,7 @@ Shafts transmit rotational power along an axis, with hex shafts being the most c
 Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
 !!! Tip
-    The easiest way to model shafts is to use the `Shaft` [Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
+    The easiest way to model shafts is to use the [`Shaft` Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
 
 <center><img src="\img\learning-course\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
@@ -188,9 +188,9 @@ When designing power transmissions, there are two interlinked quantities that we
 
 ### Mechanical Advantage
 
-Many mechanical systems use the principle of the conservation of energy to convert energy from type to another, usually to produce larger forces or larger speeds with a set amount of force and speed at the beginning. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, gears, or pulley, mechanical advantage is used to quantify how the force changes.
+Many mechanical systems use the principle of the conservation of energy to convert energy from one form to another to produce either larger forces or faster speeds. ***Mechanical advantage*** is the ratio of output force to input force in a system, whether it's a lever, screw, gears, or pulley, mechanical advantage is used to quantify how the force changes.
 
-The ratio between the number of teeth of the input and output gear/sprocket/pulley system represents the mechanical advantage of that system. This is also called the **gear ratio**, and is the key to understanding how to achieve a needed torque or speed from the set torque and speed of a given motor.
+The ratio between the number of teeth of the input and output gear/sprocket/pulley system represents the mechanical advantage of that system. This is also called the ***gear ratio***, and is the key to understanding how to achieve a needed torque or speed from the specified torque and speed of a given motor.
 
 Gear ratio is typically written in the form `n1:n2`. Since torque and speed are interlinked quantities, the ratio can be understood from the perspective of torque or speed. From the perspective of torque, `n1` is the output torque for `n2` input torque. From the perspective of speed, `n1` is the speed of the input for `n2` speed of the output. 
 
@@ -283,7 +283,11 @@ When modeling, an easy way to set the center-to-center distance between two gear
 <center><img src="\img\learning-course\stage1b\gears\gearCad.webp" style="width:60%"></center>
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by DP, which is 20 in this case.</figcaption>
 
-It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see the tooth count of the designed gear. 
+It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can see the tooth count of the designed gear in the sketch. 
+
+!!! Tip
+    You can show the expression that a dimension was evaluated from by checking the <code>Show Expression</code> checkbox on the sketch menu. The result will look like the previous image, which allowed you to easily see that the two gears were a 20T and 60T gear, both 20 DP.
+
 
 ## Practice Exercises
 Make a copy of the Stage 1B Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs).
@@ -491,6 +495,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
 <br>
+<br>
 
 ## Exercise 2: Two Stage Gearbox
 
@@ -668,7 +673,8 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 
 In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
 
-
+<br>
+<br>
 
 ### Belts and Pulley Basics
 
@@ -692,9 +698,22 @@ Belts also come in various widths. In FRC, you will typically use either 9 mm or
 
 To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
 
+!!! Note
+    In order to capture design intent, it should be clear where dimensions are derived from. Simply copy pasting the calculated center to center distance from ReCalc into the sketch does not convey any information about the belt.
+
+    Thus, to capture the design intent, you wil use the FRC functions functionality of the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433), which will allow you to calculate belt and chain center to center distances directly inside sketches. The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in Stage 1C. The Origin Cube feature will be **the first feature in all part studios** from here on out.
+
 **Modeling Belt Transmissions**
 
-When modeling, you will typically draw either the pitch diameter of the two pulleys and connect them with tangent lines to represent the belt. A simplified 3D model of the belt can be generated using the `Contextless Belts` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts).
+When modeling, you should draw the pitch diameter of the two pulleys and the centerline then connect the pulley circles with tangent lines to represent the belt. A 3D model of the belt can be generated using the [`Belt Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f).
+
+You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433) FRC functions:
+
+* `#PulleyPD_5mm(n)`: Calculates the pitch diameter of a 5 mm pitch pulley with `n` teeth.
+    * Ex: `#PulleyPD_5mm(18)` returns the pitch diameter of an 18T 5mm pitch pulley.
+
+* `#BeltCTC_5mm(n1, n2, n3)`: Calculates the c-c distance of a `n1` tooth 5 mm pitch belt connecting pulleys with tooth count `n2` and pulley with tooth count `n3`.
+    * Ex: `#BeltCTC_5mm(80,18,36)` returns the center distance for an 80T 5 mm pitch belt connecting an 18T pulley to a 36T pulley.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -703,14 +722,31 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 <div id="slide1" class="mySlides fade">
     <figure>
         <img src="/img/learning-course/stage1b/belt/beltCad1.webp" style="width:75%">
-        <figcaption>1. Use ReCalc to find the closest belt size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger belt, whichever fits your design better.</figcaption>
+        <figcaption>1. Use ReCalc to find the closest belt size to the desired C-C distance. Set the pitch diameter and select the closest smaller or larger belt, whichever fits your design better. In this example, we choose 80T.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/learning-course/stage1b/belt/beltCad2.webp" style="width:100%">
-        <figcaption>2. Draw two circles to represent pulley pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
+        <img src="/img/learning-course/stage1b/belt/oCube.webp" style="width:100%">
+        <figcaption>2. Insert the <code>Origin Cube</code> feature using the <code>Origin Cube</code> Featurescript. For the exercises in 1B we do not require the cube generated by the feature so we will uncheck it.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+          <source src="/img/learning-course/stage1b/belt/beltCad2.webm" type="video/webm">
+          Your browser does not support the video tag.
+      </video>
+        <figcaption>3. Draw two circles to represent pulley pitch diameters. Set the diameters using the <code>#PulleyPD_5mm(# of teeth)</code> function. Draw the center line to connect the pulleys and set the c-c distance using the belt size calculated from ReCalc and the <code>#BeltCTC_5mm(# belt teeth, # pulley 1 teeth, # pulley 2 teeth)</code> function. Finally, connect the circles with tangent lines.</figcaption>
+    </figure>
+</div>
+
+<div class="mySlides fade">
+    <figure>
+        <img src="/img/learning-course/stage1b/belt/beltCad4.webp" style="width:100%">
+        <figcaption>4. Finished layout sketch. Checking the <code>Show Expressions</code> box enables you to see the designed belt pitch, pulley tooth counts, and belt tooth count.</figcaption>
     </figure>
 </div>
 
@@ -720,7 +756,7 @@ When modeling, you will typically draw either the pitch diameter of the two pull
         <source src="/img/learning-course/stage1b/belt/beltCad3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Use the <code>Contextless Belts</code> Featurescript to generate a 3D model of the belt.</figcaption>
+      <figcaption>5. Use the <code>Belt Gen</code> Featurescript to generate a 3D model of the belt.</figcaption>
     </figure>
 </div>
 
@@ -736,7 +772,8 @@ When modeling, you will typically draw either the pitch diameter of the two pull
 
 
 
-
+<br>
+<br>
 
 ### Chain and Sprocket Basics
 
@@ -768,7 +805,15 @@ In FRC, #25 chain is most commonly used as it is strong yet relatively lightweig
 
 Calculating sprocket center-to-center is very similar to pulley center-to-centers. To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains). In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
 
-When modeling, you will typically draw either the pitch diameter or chain clearance diameter of the two sprockets and connect them with tangent lines to represent the links. A simplified 3D model of the chain can be generated using the `Chain Generator` Featurescript from [Julia's Featurescripts](/resources/featurescripts/#julias-featurescripts). The modeling workflow is very similar to belt and pulley.
+When modeling, you should draw the pitch diameter of the two sprockets and the centerline then connect the sprocket circles with tangent lines to represent the chain links. A 3D model of the chain can be generated using the [`Chain Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f). The modeling workflow is exactly the same as belt and pulley.
+
+You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433) FRC functions:
+
+* `#SprocketPD_25(n)`: Calculates the pitch diameter of a #25 pitch sprocket with `n` teeth.
+    * Ex: `#SprocketPD_25(16)` returns the pitch diameter of an 16T #25 pitch sprocket.
+
+* `#ChainCTC_25(n1, n2, n3)`: Calculates the c-c distance of a `n1` link #25 pitch chain connecting sprocket with tooth count `n2` and sprocket with tooth count `n3`.
+    * Ex: `#ChainCTC_25(80,16,48)` returns the center distance for an 80 link #25 pitch chain connecting a 16T sprocket to a 48T sprocket.
 
 <center>**Modeling Chain Transmissions**</center>
 
@@ -787,7 +832,7 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
 <div class="mySlides fade">
     <figure>
         <img src="/img/learning-course/stage1b/chain/chainCad2.webp" style="width:100%">
-        <figcaption>2. Draw two circles to represent sprocket pitch diameters and connect them with tangent lines. Set the center distance with the calculated number from ReCalc.</figcaption>
+        <figcaption>2. Draw two circles to represent sprocket pitch diameters and connect them with tangent lines. Set the pitch diameters and center distance with FRC Functions from the <code>Origin Cube</code>.</figcaption>
     </figure>
 </div>
 
@@ -797,9 +842,10 @@ When modeling, you will typically draw either the pitch diameter or chain cleara
         <source src="/img/learning-course/stage1b/chain/chainCad3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Use the <code>Chain Generator</code> Featurescript to generate a simplified 3D model of the chain.</figcaption>
+      <figcaption>3. Use the <code>Chain Gen</code> Featurescript to generate a simplified 3D model of the chain. While you can also generate a full detail model of the chain, it is very laggy.</figcaption>
     </figure>
 </div>
+
 <!-- Next and previous buttons -->
 <a class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</a>
 <a class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</a>
@@ -816,6 +862,10 @@ One difficulty when designing with chain is that it will physically stretch as i
 !!! Example
     <center><img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
     <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+
+
+<br>
+<br>
 
 ## Exercise 3: Belt and Gear Transmission
 
@@ -873,7 +923,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s6.webp" style="width:100%">
-      <figcaption>6. Next, draw the 5mm pitch 12T and 36T pulleys. Use a line to connect the two pulleys. Pay attention to the expressions that were entered to calculate the pitch diameters of the pulleys. Also space the 36T pulley to be 0.25" from the vertical tube. This step fully constrains the location of the gears.</figcaption>
+      <figcaption>6. Next, draw the 5mm pitch 12T and 36T pulleys. Use a line to connect the two pulleys. Use the <code>#PulleyPD_5mm()</code> function to calculate the pitch diameters of the pulleys. Also space the 36T pulley to be 0.25" from the vertical tube. This step fully constrains the location of the gears.</figcaption>
     </figure>
   </div>
 
@@ -887,7 +937,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s8.webp" style="width:100%">
-      <figcaption>8. Add the calculated c-c to the layout sketch.</figcaption>
+      <figcaption>8. Add the belt c-c to the layout sketch using the <code>#BeltCTC_5mm()</code> function.</figcaption>
     </figure>
   </div>
 
@@ -985,7 +1035,7 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s22.webp" style="width:100%">
-      <figcaption>22. Use the <code>Contextless Belt</code> Featurescript to create a simplified model of the belt. The pitch of the belt is 5mm and the width is 9mm.  </figcaption>
+      <figcaption>22. Use the <code>Belt Gen</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Notice that the <code>Belt Gen</code> Feature script also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
     </figure>
   </div>
 
@@ -1161,6 +1211,8 @@ To get a feel for how parametric your model is, you can try and change certain k
 
 You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Handbook](/design-handbook/) pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
 
+<br>
+
 ## Summary
 
 Congratulations on completing Stage 1B! Keep up the good work! Remember that practice is key - the only way to get better is to model more.
@@ -1170,9 +1222,11 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned about speed, torque, and mechanical advantage
 * Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model basic power transmissions
-* Learned how to use the `Contextless Belt`, `Chain Generator`, `Shaft`, and `Vent` Featurescripts
+* Learned how to use the `Belt Gen`, `Chain Gen`, `Shaft`, and `Vent` Featurescripts
+* Learned how to use the `Origin Cube` FRC functions Featurescript for chain and belt c-c's
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Replicate` tool
+* Learned how to insert models into assemblies using the MKCad parts library
 
 Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
 
