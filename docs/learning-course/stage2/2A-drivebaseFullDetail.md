@@ -104,11 +104,13 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 4. Bumpers: While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
-While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided [here](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985).
+While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided.
+
+<center>[2A Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){ .md-button .md-button--primary } </center>
 
 <center><img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%"></center>
 
-<figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption>
+<center><figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption></center>
 
 ## Battery Mounting
 Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86) wrong. 
@@ -123,7 +125,7 @@ A strong strap is needed to secure the battery to its mount, preventing it from 
 
 !!! Example
     <center><img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
-    <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
+    <center><figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption></center>
 
 Below, we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
 
@@ -198,7 +200,7 @@ To make wiring the robot and later inspecting the wiring easier, enough space sh
 
 !!! Example
     <center><img src="\img\learning-course\stage2-drivebase\elec\elecPic.png" style="width:80%"></center>
-    <figcaption>Example layout of various different electronic components on a bellypan.</figcaption>
+    <center><figcaption>Example layout of various different electronic components on a bellypan.</figcaption></center>
 
 A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
 
@@ -217,7 +219,7 @@ A list of typical electrical components found on FRC robots is provided below, a
 | Pneumatics Hub | Controls pneumatic components | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\pcm.webp" width="50%"></center> 
 
 
-One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The `Electronic Mounting` Featurescript can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9) can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
 <center>**Sample Electronics Mounting Slides**</center>
 <!-- Slideshow container -->
@@ -267,7 +269,7 @@ It is recommended to use the Simplified electronics models to improve assembly p
 Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
 
 <center><img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
-<figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption>
+<center><figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption></center>
 
 Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
 
@@ -422,7 +424,7 @@ In the provided example, the threaded stud bumper mounting system is implemented
 You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
 
 <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:60%"></center>
-<figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.</figcaption>
+<center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.</figcaption></center>
 
 <center>**Sample Bumper Mount Modeling Slides**</center>
 <!-- Slideshow container -->
