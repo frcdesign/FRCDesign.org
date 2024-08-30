@@ -106,14 +106,14 @@ The first project in Stage 2 will be detailing the drivetrain you began modeling
 
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided.
 
-<center>[2A Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){ .md-button .md-button--primary } </center>
+<center>[2A Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
 
 <center><img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%"></center>
 
 <center><figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption></center>
 
 ## Battery Mounting
-Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105) get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86) wrong. 
+Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105 "3647 Battery Falling Out"){:target="_blank"} get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86 "3647 Battery Falling Out...Again"){:target="_blank"} wrong. 
 Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
 
 ### Battery Placement
@@ -121,7 +121,7 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 
 ### Battery Holder
 
-A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories) including battery holders and straps.
+A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories "WCP Battery Accessories Product Page"){:target="_blank"} including battery holders and straps.
 
 !!! Example
     <center><img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
@@ -212,14 +212,14 @@ A list of typical electrical components found on FRC robots is provided below, a
 | RoboRIO | Central controller for all robot operations | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\rio.webp" width="50%"></center> 
 | Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\kx60.webp" width="50%"></center> 
 | Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: NEO, CIM) | Near the controlled motor  or on the bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\smax.webp" width="50%"></center> 
-| Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio). |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\vh109.webp" width="50%"></center> 
+| Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}. |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\vh109.webp" width="50%"></center> 
 | Robot Signal Light (RSL) | Indicates whether the robot is on and enabled/disabled | Somewhere easily visible |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\rsl.webp" width="50%"></center> 
 | Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | Close to the center is best practice (on Bellypan or VHB tape to attach to RoboRIO) |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\imu.webp" width="50%"></center> 
 | Voltage Regulator Module | Can be used for custom circuits | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\vrm.webp" width="50%"></center> 
 | Pneumatics Hub | Controls pneumatic components | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\pcm.webp" width="50%"></center> 
 
 
-One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9) can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
 <center>**Sample Electronics Mounting Slides**</center>
 <!-- Slideshow container -->
@@ -264,20 +264,20 @@ One option for mounting the Power Distribution Hub (PDH), main breaker, and Robo
 </div>
 </div>
 
-It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/). Simplified swerve module models can also be used to reduce lag. 
+It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Simplified swerve module models can also be used to reduce lag. 
 
 Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
 
 <center><img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
 <center><figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption></center>
 
-Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio).
+Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
 
 ## Bellypan Pocketing
 
-Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/)). You should carefully consider the tradeoffs with your team.
+Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}). You should carefully consider the tradeoffs with your team.
 
-If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` Featurescripts to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
+If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
 
 <center>**Sample Bellypan Pocketing Slides**</center>
 <!-- Slideshow container -->
@@ -417,7 +417,7 @@ Keeping the bumper part studio and assembly separate from the drivetrain keeps t
 
 Next, you'll need to model your desired bumper mounts in the drivetrain part studio. 
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42).
+Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
 
 In the provided example, the threaded stud bumper mounting system is implemented. 
 <!-- 
