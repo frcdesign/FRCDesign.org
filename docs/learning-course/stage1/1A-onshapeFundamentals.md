@@ -95,13 +95,16 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 
 In Stage 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
+!!! Tip
+    Remember to take a look at the [website feature guide](../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+
 ### Learning Courses
 [Onshape's Learning Center](https://learn.onshape.com/ "Onshape Learning Center"){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
 
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
 !!! Warning
-    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
+    The Onshape learning courses are important as they will teach you the interface and form a basic foundation for CAD skills. Unless you have a significant amount of prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
 
     
@@ -134,7 +137,7 @@ With a good understanding of both of these, you can create almost any part you w
 <br>
 
 
-!!! Tip
+??? Tip "Tab Manager"
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
     <center>
       <video width="1920" controls>
@@ -234,8 +237,8 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   </div>
 </div>
 
-!!! note "Validation"
-    If you did everything correctly your box tube should weigh about 0.351lbs
+!!! success "Verification"
+    If you did everything correctly your box tube should weigh about 0.35lbs
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
@@ -392,7 +395,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
-!!! note "Verification"
+!!! success "Verification"
     If all is done correctly your parts should weigh a combined 0.27lbs
 
 <br>
@@ -541,8 +544,8 @@ In this exercise, you were introduced to yet another highly useful Featurescript
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.946lbs.
+!!! success "Verification"
+    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.95lbs.
                           
 ### Exercise #4: Climber Hook
 
@@ -650,7 +653,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
-!!! note "Verification"
+!!! success "Verification"
     If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
 
 ## Summary
