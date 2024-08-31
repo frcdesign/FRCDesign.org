@@ -95,7 +95,7 @@ The following sections cover the design rationale for the pivot you will be copy
     The primary considerations for the strength of a pivot are the rigidity (resistance to bending) and resistance to twisting. Dead axles provide superior strength to live axles due to the way they don't transmit any load and can be fastened to the rest of the structure. Larger round tube (such as 3/4" and 7/8" diameter) is preferred to 1/2" hex for its strength-to-weight ratio and resistance to twisting. Live axles do have a purpose for low load applications, though.
 
     !!! Tip
-        Click through the tabs to see how much each axle bends, assuming the same load. 
+        Click through the tabs to see how much each axle bends, assuming the same load. **Deformation is exaggerated by 100 times**.
 
     === "1/2 in Hex"
         <center><img src="/img/learning-course/stage2-pivot/12hex.webp" width="70%"></center>
