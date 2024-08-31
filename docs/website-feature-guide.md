@@ -97,19 +97,19 @@ hide:
 
 # Website Feature Guide
 
-Different features of the website are vital to the different sections, and can be easy to miss.
+There are several features across the website that, if missed, will make it hard to go through the content effectively. The following features are shown with examples to help you gain a quick understanding of them before you make your way through the website.
 
 ## Across the Website
 
 - [Links](learning-course/index.md "Learning Course Landing Page"){:target="_blank"} are shown with green text
-- Clicking on an image enlarges it and shows a caption, if applicable
-- The website has a [glossary](resources/glossary.md "Glossary Page"){:target="_blank"} of terms related to the content. Whenever a word in that glossary is mentioned in the website, it will be underlined. You can hover over these underlined words to get a quick definition. Useful when you want to know what COTS or OTB means.
+- Clicking on an image enlarges it and shows a caption, if applicable. Press the `Esc` key to minimize it again. 
+- The website has a [glossary](resources/glossary.md "Glossary Page"){:target="_blank"} of terms related to the content. Whenever a word in that glossary is mentioned in the website, it will be underlined. You can hover over these underlined words to get a quick definition (e.g. COTS, OTB). 
 - Some information is hidden in dropdowns. Try to check most of them!
     
     ??? Example
         Information is hidden here to clean up pages.
 
-### Admonitions
+### Admonitions (Call-Outs)
 
 !!! Tip
     Quick tips are shown in a "Tip" box like this one.
@@ -174,15 +174,16 @@ Important Onshape documents for the page will be shown as a button like the one 
 
 
 !!! Warning
-    While you can click on an image to enlarge it, do not use this to navigate slideshows! Videos are not shown using this method and can be missed.
-
+    You may have to disable your adblocker to get some videos to load (we do not host any ads on the site).
 
 !!! Tip
     If a slideshow has issues loading, reload the webpage and it should be fixed.
 
-
 <br>
 
+Use the arrows at the bottom of the page to navigate to the next or previous page! :material-arrow-down:
+
+<br>
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
 <script>

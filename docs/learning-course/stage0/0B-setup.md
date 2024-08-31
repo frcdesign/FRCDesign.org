@@ -91,6 +91,9 @@
 
 # 0B: Onshape Setup
 
+!!! Tip
+    Remember to take a look at the [website feature guide](../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+
 ## Registering for Onshape
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
