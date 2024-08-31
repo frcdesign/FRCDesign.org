@@ -637,7 +637,7 @@ Here is a quick summary of what you have achieved in 1A:
 <!-- * Learned how to insert models into assemblies using the MKCad parts library -->
 
 In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
-
+<!-- 
 ## Check for Comprehension Questions for 1A
 
 Before moving on to the next stage, take a moment to check your understanding of the key concepts from 1A. Try answering the following questions:
@@ -708,7 +708,7 @@ Before moving on to the next stage, take a moment to check your understanding of
 
     8. Key points:
         * Automate complex/repetitive tasks
-        * Ensure consistency across designs
+        * Ensure consistency across designs -->
 
 <br>
 
