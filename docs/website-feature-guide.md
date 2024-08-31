@@ -174,8 +174,7 @@ Important Onshape documents for the page will be shown as a button like the one 
 
 
 !!! Warning
-    While you can click on an image to enlarge it, do not use this to navigate slideshows! Videos are not shown using this method and can be missed.
-
+    You may have to disable your adblocker to get some videos to load (we do not host any ads on the site).
 
 !!! Tip
     If a slideshow has issues loading, reload the webpage and it should be fixed.
