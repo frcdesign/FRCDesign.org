@@ -8,13 +8,13 @@ We know it can be hard learning each and every term thrown around in FRC design,
 :   "Center to Center" distance
 
 `WCP`
-:   ["West Coast Products"](https://wcproducts.com/)
+:   ["West Coast Products"](https://wcproducts.com/ "WCP Storefront"){:target="_blank"}
 
 `TTB`
-:   ["The Thrifty Bot"](https://www.thethriftybot.com/)
+:   ["The Thrifty Bot"](https://www.thethriftybot.com/ "Thrifty Bot Storefront"){:target="_blank"}
 
 `SDS`
-:   ["Swerve Drive Specialties"](https://www.swervedrivespecialties.com/)
+:   ["Swerve Drive Specialties"](https://www.swervedrivespecialties.com/ "SDS Storefront"){:target="_blank"}
 
 `Turnbuckle`
 :   A threaded part that goes in between chain links to tension the chain

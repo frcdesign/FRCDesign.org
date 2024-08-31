@@ -71,21 +71,28 @@ Examples
 ## Standards
 
 ### File Formats:
-- Compress images to .webp format using [squoosh](https://squoosh.app/)
+- Compress images to .webp format using [squoosh](https://squoosh.app/ "sqoosh Image Compressor"){:target="_blank"}
 - Embed longer videos using a Youtube embed, and shorter videos with a webm file
 - Add images by using ```<center><img src="absolute link" width="x%"></center>```
 
 ### Brand Standards
 Adhere to brand standards when possible.
 
-- Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf)
+- Abide by FIRST® Trademark guidelines, available [here](https://www.firstinspires.org/sites/default/files/uploads/resource_library/UseofUSFIRSTandLEGOGroupTrademarksandCopyrightedMaterials.pdf "FIRST Trademark Guidelines"){:target="_blank"}
 - The first instance of *FIRST* and FRC on a page should include ® (i.e, FIRST®)
 - Always capitalize and italize the name *FIRST*
 - Do NOT use a possessive on the *FIRST* name (e.g, FIRST’s)
 <!-- It’s gm0 not GM0 damn it; look at the logo. -->
 - This also applies to team names: spell them how they are officially spelled
-- Check [The Blue Alliance](https://www.thebluealliance.com/) if you don't know how to spell a team's name
+- Check [The Blue Alliance](https://www.thebluealliance.com/ "The Blue Alliance"){:target="_blank"} if you don't know how to spell a team's name
 
 You can use “you” when writing, when it makes writing less awkward. However, try avoiding excessively using it.
+
+### Links:
+- External links should open in a new tab: `[Link Text](link_url "Link Title"){:target="_blank"}`
+    - Links to CAD documents should use a large centered button: `<center>[Link Text](link_url "Link Title"){:target="_blank" .md-button .md-button--primary}</center>`
+    - Link titles for Onshape documents should be `[Document name] Onshape Document`
+- Internal links should open in the current tab and use a relative link: `[Link Text](relative_link "Link Title")`
+    - Link titles for internal links should be in the format: `"[Page Name] Page"`
 
 <br>

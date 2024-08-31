@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/elevator/cascade/2stage.webp
 
 ### Links
 
-[CAD Link](https://cad.onshape.com/documents/9d90cf1c3e2d2b3c2f3996a3/w/06553b0689c28e57c04b06b7/e/b42b6baee43b15995577002e){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/9d90cf1c3e2d2b3c2f3996a3/w/06553b0689c28e57c04b06b7/e/b42b6baee43b15995577002e "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the design
 **Coming Soon**
