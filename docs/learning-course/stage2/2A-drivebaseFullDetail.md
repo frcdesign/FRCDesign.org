@@ -205,18 +205,19 @@ To make wiring the robot and later inspecting the wiring easier, enough space sh
 A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
 
 
-| **Component** | **Function** | **Suggested Location** | **Image**
-|---|---|---|---|
-| REV Power Distribution Hub (PDH) or  CTRE Power Distribution Panel (PDP) | Distributes power to all other components | Bellypan | <center><img src="\img\learning-course\stage2-drivebase\elecComponents\pdh.webp" width="50%"></center> 
-| Main Breaker | Is used to turn on/off the robot and protect electronics from events with extremely high current drawn | Somewhere easily accessible and close to the PDH and Battery |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\mbreak.webp" width="50%"></center> 
-| RoboRIO | Central controller for all robot operations | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\rio.webp" width="50%"></center> 
-| Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\kx60.webp" width="50%"></center> 
-| Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: NEO, CIM) | Near the controlled motor  or on the bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\smax.webp" width="50%"></center> 
-| Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}. |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\vh109.webp" width="50%"></center> 
-| Robot Signal Light (RSL) | Indicates whether the robot is on and enabled/disabled | Somewhere easily visible |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\rsl.webp" width="50%"></center> 
-| Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | Close to the center is best practice (on Bellypan or VHB tape to attach to RoboRIO) |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\imu.webp" width="50%"></center> 
-| Voltage Regulator Module | Can be used for custom circuits | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\vrm.webp" width="50%"></center> 
-| Pneumatics Hub | Controls pneumatic components | Bellypan |  <center><img src="\img\learning-course\stage2-drivebase\elecComponents\pcm.webp" width="50%"></center> 
+??? note "Electrical Components"
+    | **Component** | **Function** | **Suggested Location** | **Image** |
+    |---|---|---|---|
+    | REV Power Distribution Hub (PDH) or  CTRE Power Distribution Panel (PDP) | Distributes power to all other components | Bellypan | ![PDH](\img\learning-course\stage2-drivebase\elecComponents\pdh.webp) |
+    | Main Breaker | Is used to turn on/off the robot and protect electronics from events with extremely high current drawn | Somewhere easily accessible and close to the PDH and Battery | ![Main Breaker](\img\learning-course\stage2-drivebase\elecComponents\mbreak.webp) |
+    | RoboRIO | Central controller for all robot operations | Bellypan | ![RoboRIO](\img\learning-course\stage2-drivebase\elecComponents\rio.webp) |
+    | Integrated motor controller (eg: Falcon 500, Kraken X60) | Powers and controls the  integrated motor | No electrical mounting required | ![Integrated motor controller](\img\learning-course\stage2-drivebase\elecComponents\kx60.webp) |
+    | Discrete motor controller  (eg: Spark Max, Talon SRX) | Required to power and control some motors  (eg: NEO, CIM) | Near the controlled motor  or on the bellypan | ![Discrete motor controller](\img\learning-course\stage2-drivebase\elecComponents\smax.webp) |
+    | Robot Radio | Allows the robot to establish wireless connections to the field or driver station | Follow Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}. | ![Robot Radio](\img\learning-course\stage2-drivebase\elecComponents\vh109.webp) |
+    | Robot Signal Light (RSL) | Indicates whether the robot is on and enabled/disabled | Somewhere easily visible | ![Robot Signal Light](\img\learning-course\stage2-drivebase\elecComponents\rsl.webp) |
+    | Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | Close to the center is best practice (on Bellypan or VHB tape to attach to RoboRIO) | ![Inertial Measurement Unit](\img\learning-course\stage2-drivebase\elecComponents\imu.webp) |
+    | Voltage Regulator Module | Can be used for custom circuits | Bellypan | ![Voltage Regulator Module](\img\learning-course\stage2-drivebase\elecComponents\vrm.webp) |
+    | Pneumatics Hub | Controls pneumatic components | Bellypan | ![Pneumatics Hub](\img\learning-course\stage2-drivebase\elecComponents\pcm.webp) |
 
 
 One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
