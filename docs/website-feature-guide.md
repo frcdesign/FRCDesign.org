@@ -174,10 +174,11 @@ Important Onshape documents for the page will be shown as a button like the one 
 
 
 !!! Warning
-    When clicking on an image to enlarge it, you can click arrows on the sides of the screen to scroll through the images on the page. Do not use this to navigate slideshows! Videos are not shown using this method and can be missed.
+    While you can click on an image to enlarge it, do not use this to navigate slideshows! Videos are not shown using this method and can be missed.
+
 
 !!! Tip
-    If a slideshow has issues loading, reload and it will be fixed
+    If a slideshow has issues loading, reload the webpage and it should be fixed.
 
 
 <br>
