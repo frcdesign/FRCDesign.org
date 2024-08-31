@@ -96,7 +96,7 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 In Stage 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
 !!! Tip
-    Remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+    Remember to take a look at the [website feature guide](../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
 
 ### Learning Courses
 [Onshape's Learning Center](https://learn.onshape.com/ "Onshape Learning Center"){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
