@@ -177,7 +177,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e1/e1s1.webp" style="width:100%; data-description="1. Start by sketching a center rectangle on the top plane."">
-      <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
+      <figcaption>1. Start by sketching a center rectangle on the top plane. Notice that we put the origin of the part at the center of the tube so that we can leverage the default geometry later on. </figcaption>
     </figure>
   </div>
 
@@ -204,7 +204,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
         <source src="/img/learning-course/stage1a/exercises/e1/e1s4.webm" type="video/webm"> 
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
+      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. We are able to use the front plane to mirror since we intelligently placed the origin at the center of the tube in step 1. </figcaption>
     </figure>
   </div>
 
@@ -214,14 +214,14 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
         <source src="/img/learning-course/stage1a/exercises/e1/e1s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
+      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. Again, having the origin at the center of the tube lets us place the center of the pattern at the center of the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%; data-description="6. Name the key sketches and part. Set the material to be 6061 Aluminum."">
-      <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+      <figcaption>6. Extrude the holes to cut all the way through the tube. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
     </figure>
   </div>
 
@@ -233,6 +233,11 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
     <!-- Dots will be generated here -->
   </div>
 </div>
+
+!!! note "Validation"
+    If you did everything correctly your box tube should weigh about 0.351lbs
+
+Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
 !!! Note
     Some sketches and features have been renamed (i.e. "Tube Profile"). You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
@@ -281,7 +286,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 - The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
-??? Warning "Creating New Parts"
+???+ Warning "Creating New Parts"
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
     <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
@@ -302,7 +307,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e2/e2s1.webp" style="width:100%; data-description="1. Start by sketching the tubes on the right plane."">
-      <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
+      <figcaption>1. Start by sketching the tubes on the right plane. Positioning the origin horizontally in the center of the part studio enables mirroring the vertical tube from the left to the right using the front plane.</figcaption>
     </figure>
   </div>
 
@@ -386,6 +391,9 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 </div>
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
+
+!!! note "Verification"
+    If all is done correctly your parts should weigh a combined 0.27lbs
 
 <br>
 
@@ -533,6 +541,9 @@ In this exercise, you were introduced to yet another highly useful Featurescript
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.946lbs.
+                          
 ### Exercise #4: Climber Hook
 
 As you get more comfortable with modeling, we can begin to create more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
@@ -639,6 +650,9 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
+
 ## Summary
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
@@ -649,17 +663,81 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned how to model basic FRC structures
 * Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
 * Learned how to assemble basic models using `Group` and `Fasten`
+* Learned about leveraging default geometry to enable easy symmetry with intelligently placed origins
 
-In Stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+<!-- 
+## Check for Comprehension Questions for 1A
 
-<!--
-## Extra Practice
+Before moving on to the next stage, take a moment to check your understanding of the key concepts from 1A. Try answering the following questions:
 
+!!! note "Note"
+    Feel free to refer back to the guide, but try your best to do these on your own.
 
+1.  What is the primary advantage of using construction geometry in sketches?
+    1.  It makes the sketch look more professional
+    2.  It helps convey design intent and makes parts more parametric
+    3.  It automatically creates dimensions
+    4.  It reduces file size
 
+2. Which Featurescript is used to create tubes with specified wall thickness and hole patterns?
+    1. Extrude Individual
+    2. Gusset
+    3. Tube Converter
+    4. Spacer
 
+3. In a multi-part Part Studio, what extrude type should you select when creating a new part?
+    1. Add
+    2. Remove
+    3. New
+    4. Intersect
 
--->
+4. What is the purpose of the `Group` function in assemblies?
+    1. To color-code parts
+    2. To restrict relative motion between parts
+    3. To hide parts from view
+    4. To create a bill of materials
+
+5. Short Answer: Describe the process of creating a gusset using the Gusset Featurescript.
+
+6. What is the advantage of using the `Fasten` mate in an assembly compared to using `Fix`?
+    1. It's faster to apply
+    2. It allows for more degrees of freedom
+    3. It's more parametric and maintains relationships between parts
+    4. It automatically aligns parts
+
+7. Short Answer: Explain why it's generally better to model all unique parts in a Part Studio, even if some parts are identical (like the vertical tubes in Exercise 3).
+
+8. Short Answer: Describe two ways that using Featurescripts can improve your CAD workflow efficiency.
+
+##  Answer Key for 1A Comprehension Check Questions
+??? note "Answer Key"
+
+    1. b: It helps convey design intent and makes parts more parametric
+
+    2. c: Tube Converter
+
+    3. c: New
+
+    4. b: To restrict relative motion between parts
+
+    5. Key points:
+        * Select Gusset tool
+        * Choose attachment holes
+        * Adjust parameters if needed
+        * Confirm creation
+
+    6. c: It's more parametric and maintains relationships between parts
+
+    7. Key points:
+        * Easier future modifications
+        * Maintains design intent
+        * Simplifies assembly
+        * More parametric
+
+    8. Key points:
+        * Automate complex/repetitive tasks
+        * Ensure consistency across designs -->
 
 <br>
 
