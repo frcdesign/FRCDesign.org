@@ -136,6 +136,13 @@ With a good understanding of both of these, you can create almost any part you w
 
 <br>
 
+??? Tip "Copying a Document"
+    <center>
+      <video width="1920" controls>
+        <source src="\img\learning-course\stage1a\1a-copy.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    <center> *Copying the 1A Exercises Document.* </center>
 
 ??? Tip "Tab Manager"
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
