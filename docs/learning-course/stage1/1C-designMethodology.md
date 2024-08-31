@@ -238,8 +238,8 @@ Start by creating a new Onshape Document called `Stage 1C Robot` and within it, 
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -366,8 +366,8 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -454,8 +454,8 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -529,8 +529,8 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -596,8 +596,8 @@ The scoring mechanism CAD can be accessed from here:
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,4)"style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->

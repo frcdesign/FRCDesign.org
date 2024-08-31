@@ -139,8 +139,8 @@ In this stage, you'll focus on the fundamentals of power transmissions, with an 
       </div>
 
       <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-      <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+      <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+      <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
       <!-- The dots/circles -->
       <div class="dotsContainer" style="text-align:center">
       <!-- Dots will be generated here -->
@@ -257,8 +257,8 @@ In order to change the torque and speed from the input to output, different size
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -487,8 +487,8 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -669,8 +669,8 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -769,8 +769,8 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -851,8 +851,8 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,5)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,5)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->
@@ -1091,8 +1091,8 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,6)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,6)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,6)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,6)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -1199,8 +1199,8 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,7)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,7)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,7)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,7)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
