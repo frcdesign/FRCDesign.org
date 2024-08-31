@@ -59,13 +59,10 @@ The reference shooter is provided below. Note that the reference shooter is not 
 The following sections cover the basic shooter concepts, as well as the reasons for specific implementations in the example. We cover these concepts lightly so you can design your shooter and understand the basic ideas behind shooters. The design handbook covers the "why" if you would like to gain a deeper understanding.
 
 ??? Concept "Trajectory"
-    **Trajectory**
-
     In a ball shooter, the trajectory is primarily determined by the exit angle and exit velocity of the game piece, which translates to how hard you launch and where you point the shooter.
 
     Rigidity is crucial for maintaining trajectory consistency. Any wobbling or flexing in the shooter structure can negatively impact accuracy, as even slight movements can alter the exit angle or velocity, leading to unpredictable shot behavior.
 
-    <br>
     <figure>
     <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:60%; border:5px solid #ADADAD">
     </figure>
