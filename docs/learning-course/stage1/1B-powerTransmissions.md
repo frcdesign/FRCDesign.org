@@ -495,11 +495,10 @@ In this exercise, you will be CADing and assembling a simple single stage gearbo
     </center>
     <center>*Using Shift key to lock mate inferences while mating.*</center>
 
-
-In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
-
 !!! note "Verification"
     If all is done correctly your assembly should have 19 Instances, and weigh approximately 2.3lb.
+
+In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
 <br>
 

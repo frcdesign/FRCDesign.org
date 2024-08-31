@@ -150,10 +150,10 @@ Box tubing extrusions can be purchased at most metal suppliers, but many FRC ven
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
-Start by creating a new Onshape Document called `Stage 1C Robot` and within it, a new part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube.
+Start by **creating a new Onshape Document called `Stage 1C Robot`** and within it, **a new part studio called `Master Sketch`**. Then, use the `Origin Cube` Featurescript to create an origin cube. **Follow the instructions in the slides** to complete the master sketch.
 
 
-<center>**Drivetrain Layout Sketch Slides**</center>
+<!-- <center>**Drivetrain Layout Sketch Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -252,9 +252,8 @@ As previously explained, this method of top-down modeling is extremely powerful 
 
 Now that you have created the layout sketch, you can begin modeling the individual parts. The critical dimensions of the parts, such as the length of the tubes, will be driven by the layout sketch. This way, the tubes will automatically update with any changes in the size of the drivebase in the layout sketch.
 
-Start by creating a new folder tab called `Drivetrain`. Then, create a new part studio called `Drivetrain` within the folder.
+Start by **creating a new folder tab in your Document called `Drivetrain`**. Then, **create a new part studio called `Drivetrain`** within the `Drivetrain` folder. **Follow the instructions in the slides** to complete the part studio. Remember that the Origin Cube should be the first feature in your part studio.
 
-<center>**Drivetrain Part Modeling**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -380,11 +379,13 @@ At this point, you should be feeling more and more comfortable with Onshape mode
 
 ### Assembly
 
-Now that the part studio is finished, you can create the drivetrain assembly. Create a new assembly tab called `Drivetrain Assembly` in the `Drivetrain` folder you made previously. 
+Now that the part studio is finished, you can create the drivetrain assembly. 
 
 Previously, in Stage 1A when you created assemblies one of the parts in the group mate was fixed in place. However, this is not considered a good practice as it is not parametric. This is where the origin cube comes in: the origin cube has a mate connector placed at the origin of the part studio. After inserting and grouping all of the parts, you can fasten the origin cube to the origin of the assembly. This aligns the part studio origin and assembly origin.
 
-<center>**Drivetrain Assembly**</center>
+Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Drivetrain` folder. **Follow the instructions in the slides** to complete the assembly.
+
+<!-- <center>**Drivetrain Assembly**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -462,7 +463,7 @@ Previously, in Stage 1A when you created assemblies one of the parts in the grou
   </div>
 </div>
 
-The `Replicate` tool, which was introduced in Stage 1A exercise 5, is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
+The `Replicate` tool is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
 
 ??? Video "Match Individual Edges for Replicate"
     <video width="1920" controls>
@@ -475,7 +476,9 @@ When you model more parts in the part studio, you can insert them into the assem
 
 Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
-<center>**Adding a Gusset**</center>
+Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` folder. **Follow the instructions in the slides** to add the gusset.
+
+<!-- <center>**Adding a Gusset**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -543,20 +546,25 @@ Make sure you sort the instances in your assembly into folders (i.e. frame, swer
 !!! success "Verification"
     If all is done correctly your assembly should weigh approximately 31.4lbs.
 
-More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
+    Your tab manager should have the following tabs and folder:
+    <figure>
+      <img src="/img/learning-course/stage1c/SwerveBase/dtTabManager.webp" style="width:100%">
+    </figure>
 
 It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
 
+More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
+
 ## Top Level Robot Assembly
-Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the [assembly hierarchy](/best-practices/document-setup/ "Document Setup Best Practices Page"){:target="_blank"}. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
+Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the assembly hierarchy. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
 
-Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023 "1678 2023 Blue Alliance Page"){:target="_blank"}.
-
-The scoring mechanism CAD can be accessed from here:
+You will create a top level robot assembly to go with your drivebase. The mechanism you'll be adding is the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023 "1678 2023 Blue Alliance Page"). The scoring mechanism CAD can be accessed from here:
 
 <center>[1678 2023 Scoring Mechanism Document](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80 "Team 1678 2023 Scoring Mechanism Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
-<center>**Top Level Robot Assembly**</center>
+Start by, **creating a new assembly tab above the `Master Sketch` part studio** and name it **`Top Level Robot Assembly`**. **Follow the instructions in the slides** to complete the top level robot assembly.
+
+<!-- <center>**Top Level Robot Assembly**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -603,6 +611,12 @@ The scoring mechanism CAD can be accessed from here:
     <!-- Dots will be generated here -->
   </div>
 </div>
+
+!!! success "Verification"
+    Your tab manager should now looks like this:
+    <figure>
+      <img src="/img/learning-course/stage1c/SwerveBase/dtTabManager2.webp" style="width:100%">
+    </figure>
 
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.
 
