@@ -181,17 +181,27 @@ Press "Subscribe", then "Get for Free". This will automatically add MKCad to you
 ## Featurescripts
 Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../resources/featurescripts.md "Featurescript Page"){:target="_blank"}.
 
+To get you started, lets install all the Featurescripts that you will utilize in Stage 1 and 2.
+
 1. Open the document [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}
 
-2. Click "Custom Features" 
+    a. Click "Custom Features" 
 
-3. Click "Belts", "Chain Path", "Electronics Mounting", "Extrude Individual", "FilletXpert", "Gusset Generator", "Shaft", "Spacer", and **"Tube Converter"** (this one is important)
+    b. Add the `Electronics Mounting`, `Extrude Individual`, `Gusset Generator`, `Shaft`, `Spacer`, and `Tube Converter` Featurescripts
+
+2. Add the `Origin Cube` Featurescript from the [Origin Cube Featurescript Document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"}
+
+3. Add the `Belt Gen` and `Chain Gen` Featurescripts from the [Configurable Parts Document](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Configurable Parts Onshape Document"){:target="_blank"}
+
+4. Add the `Vent` Featurescript from the [Vent Featurescript Document](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4 "Vent Featurescript Onshape Document"){:target="_blank"}
 
 ??? Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="../../../../img/learning-course/stage0/setup/addingJulia'sFeaturescripts.webp">
+    <video width="1920" controls="true" allowfullscreen="true">
       <source src="../../../../img/learning-course/stage0/setup/addingJulia'sFeaturescripts.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
+
+    <center>*Repeat the same process for all the other Featurescript documents.*</center>
 
 Once you have that done, you are ready for the next stage!
 

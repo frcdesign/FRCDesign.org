@@ -84,6 +84,7 @@ extra:
 # Page Tree
 nav:
   - Home: index.md
+  - Website Feature Guide: website-feature-guide.md
   - Learning Course:
     - learning-course/index.md
     - Stage 0: 

@@ -115,9 +115,23 @@ Top-down design offers a holistic approach, allowing for better system integrati
 
 To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/ "Master Sketch Best Practices Page"){:target="_blank"} page.
 
-!!! Example
+???+ Example "Example Master Layout Sketch"
     <center><img src="\img\learning-course\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
     <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
+
+
+### Origin Placement and Origin Cube
+To fully utilize master sketch top-down design, we must choose a unified origin for all part studios. Utilizing the same origin as the master sketch across all part studios and assemblies is twofold:
+
+1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
+2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"} and camera transformations more easily measured. 
+
+!!! Note
+    Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
+
+To achieve this, we use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"} which generates a transparent 2" cube at the origin and provides several useful constants and functions that have already been used in previous stage.
+
+The Origin Cube will become very useful later on for assembly mating but for now all you need to remember is that **the Origin Cube should be the first feature in all part studios**. You can read more about the Origin Cube on the [assembly best practices page](assembly-setup.md "Assembly Best Practices Page"){:target="_blank"}., 
 
 ## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of reliable COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
@@ -126,7 +140,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 
 <!-- You can learn more about drivetrains on the [Design Handbook](/design-handbook/mechanisms/drivetrain/) page. -->
 
-<center><img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:100%"></center>
+<center><img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:80%"></center>
 <center>*Stage 1C swerve drivebase project.*</center>
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
@@ -136,7 +150,7 @@ Box tubing extrusions can be purchased at most metal suppliers, but many FRC ven
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
-Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. **You should start every part studio with an origin cube to set a reference for the origin of the robot.** The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"}.
+Start by creating a new Onshape Document called `Stage 1C Robot` and within it, a new part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube.
 
 
 <center>**Drivetrain Layout Sketch Slides**</center>
@@ -570,7 +584,7 @@ The scoring mechanism CAD can be accessed from here:
         <source src="/img/learning-course/stage1c/TopLevel/topL2.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the `Insert` menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
+      <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the <code>Insert</code> menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
     </figure>
   </div>
 

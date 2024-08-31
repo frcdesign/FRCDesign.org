@@ -2,6 +2,9 @@
 title: FRCDesign.org
 social:
     cards_layout: homepage
+hide:
+  - navigation
+  - toc
 ---
 
 # Welcome to FRCDesign.org
