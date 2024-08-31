@@ -246,6 +246,11 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   </div>
 </div>
 
+!!! note "Validation"
+    If you did everything correctly your box tube should weigh about 0.351lbs
+
+Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
+
 !!! Note
     Some sketches and features have been renamed (i.e. "Tube Profile"). You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
 
@@ -399,6 +404,9 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
+!!! note "Verification"
+    If all is done correctly your parts should weigh a combined 0.27lbs
+
 <br>
 
 ## Assemblies
@@ -545,6 +553,9 @@ In this exercise, you were introduced to yet another highly useful Featurescript
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.946lbs.
+                          
 ### Exercise #4: Climber Hook
 
 As you get more comfortable with modeling, we can begin to create more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
@@ -651,6 +662,9 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
+
 ## Summary
 
 Congratulations on completing Stage 1A! Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits. Keep up the good work!
@@ -664,16 +678,79 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned about leveraging default geometry to enable easy symmetry with intelligently placed origins
 <!-- * Learned how to insert models into assemblies using the MKCad parts library -->
 
-In Stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+<!-- 
+## Check for Comprehension Questions for 1A
 
-<!--
-## Extra Practice
+Before moving on to the next stage, take a moment to check your understanding of the key concepts from 1A. Try answering the following questions:
 
+!!! note "Note"
+    Feel free to refer back to the guide, but try your best to do these on your own.
 
+1.  What is the primary advantage of using construction geometry in sketches?
+    1.  It makes the sketch look more professional
+    2.  It helps convey design intent and makes parts more parametric
+    3.  It automatically creates dimensions
+    4.  It reduces file size
 
+2. Which Featurescript is used to create tubes with specified wall thickness and hole patterns?
+    1. Extrude Individual
+    2. Gusset
+    3. Tube Converter
+    4. Spacer
 
+3. In a multi-part Part Studio, what extrude type should you select when creating a new part?
+    1. Add
+    2. Remove
+    3. New
+    4. Intersect
 
--->
+4. What is the purpose of the `Group` function in assemblies?
+    1. To color-code parts
+    2. To restrict relative motion between parts
+    3. To hide parts from view
+    4. To create a bill of materials
+
+5. Short Answer: Describe the process of creating a gusset using the Gusset Featurescript.
+
+6. What is the advantage of using the `Fasten` mate in an assembly compared to using `Fix`?
+    1. It's faster to apply
+    2. It allows for more degrees of freedom
+    3. It's more parametric and maintains relationships between parts
+    4. It automatically aligns parts
+
+7. Short Answer: Explain why it's generally better to model all unique parts in a Part Studio, even if some parts are identical (like the vertical tubes in Exercise 3).
+
+8. Short Answer: Describe two ways that using Featurescripts can improve your CAD workflow efficiency.
+
+##  Answer Key for 1A Comprehension Check Questions
+??? note "Answer Key"
+
+    1. b: It helps convey design intent and makes parts more parametric
+
+    2. c: Tube Converter
+
+    3. c: New
+
+    4. b: To restrict relative motion between parts
+
+    5. Key points:
+        * Select Gusset tool
+        * Choose attachment holes
+        * Adjust parameters if needed
+        * Confirm creation
+
+    6. c: It's more parametric and maintains relationships between parts
+
+    7. Key points:
+        * Easier future modifications
+        * Maintains design intent
+        * Simplifies assembly
+        * More parametric
+
+    8. Key points:
+        * Automate complex/repetitive tasks
+        * Ensure consistency across designs -->
 
 <br>
 
