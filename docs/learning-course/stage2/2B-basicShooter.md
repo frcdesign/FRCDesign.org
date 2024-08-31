@@ -67,9 +67,8 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     <br>
     <figure>
-    <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:80%; border:5px solid #ADADAD">
+    <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:60%; border:5px solid #ADADAD">
     </figure>
-    <br>
 
     For 2020, the initiation line on the field can serve as a reference point to estimate your shooting position and angle. The goal's scoring area is forgiving enough to accommodate slight variations in position, making precise alignment less critical. By using a shot distance calculator, you can estimate the optimal shooting parameters.
     
@@ -78,7 +77,6 @@ The following sections cover the basic shooter concepts, as well as the reasons 
         <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
 ??? Concept "Rigidity"
-    **Rigidity**
 
     Rigidity is essential for every mechanism you design, and it is particularly critical for shooters to ensure consistent performance. If a shooter wobbles while driving or shooting, accuracy will be compromised, making it difficult to hit the target consistently.
 
