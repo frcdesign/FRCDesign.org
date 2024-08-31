@@ -59,17 +59,15 @@ The reference shooter is provided below. Note that the reference shooter is not 
 The following sections cover the basic shooter concepts, as well as the reasons for specific implementations in the example. We cover these concepts lightly so you can design your shooter and understand the basic ideas behind shooters, but the design handbook covers the "why" and in depth concepts if you are interested.
 
 ??? Concept "Trajectory"
-    **Trajectory**
 
     For a ball shooter, the trajectory is determined by the exit angle and exit velocity of the game piece. (How hard you launch and where you point)
 
     Rigidity impacts the consistency of the trajectory which makes your shooter less accurate. (Think about if your shooter wobbled how your shot would behave)
 
-    <br>
+
     <figure>
-    <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:80%; border:5px solid #ADADAD">
+    <img src="/img/learning-course/stage2-shooter/shot-trajectory.gif" style="width:60%; border:5px solid #ADADAD">
     </figure>
-    <br>
 
     For 2020, you can use the initiation line (big white line) on the field to estimate where to shoot from and the angle, and the scoring size allows for enough forgiveness if you aren't in the exact spot when scoring. You can use a calculator to estimate your shot distance. 
     
@@ -78,7 +76,6 @@ The following sections cover the basic shooter concepts, as well as the reasons 
         <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
 ??? Concept "Rigidity"
-    **Rigidity**
 
     Rigidity is important for every mechanism you design. For shooters it is vital to shoot at the same place every time. Think about what would happen if the shooter wobbled as you drove and shot. 
 
@@ -162,7 +159,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     For spherical gamepieces, back rollers may be used for two different applications. Reducing spin and adding extra energy.
 
-    **Spin
+    **Spin**
 
     Due to one side of the shooter being static, spherical game pieces have spin when shot with a single flywheel. In 2022, too much spin was detrimental since it led to bounce out of the game piece. Backrollers help reduce the amount of spin by spinning opposite of the spin direction while not being a source of friction. Spin also allows for a more stable shot, so in 2022 you didn't want to remove all of it, while in 2017 it was useful to have due to the steep arc trajectory. 
 
