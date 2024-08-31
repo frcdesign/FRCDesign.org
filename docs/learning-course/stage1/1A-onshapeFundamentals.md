@@ -169,9 +169,9 @@ In FRC, robot structures are typically constructed out of aluminum box tubing, s
 
 **Instructions**
 
-For this exercise, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts. **Navigate to the "Exercise #1 Box Tube" tab** in your copied document and **follow the instructions in the slides** to complete your first exercise.
+For this exercise, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts. 
 
-<br>
+**Navigate to the "Exercise #1 Box Tube" tab** in your copied document and **follow the instructions in the slides** to complete your first exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -280,8 +280,6 @@ Notice how we utilized construction geometry to define the location of the holes
 !!! Note
     Some sketches and features have been renamed (i.e. "Tube Profile"). You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
 
-Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
-
 <br>
 
 ## Multi-Part Modeling
@@ -324,12 +322,12 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 - The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
-???+ Warning "Creating New Parts"
+??? Warning "Creating New Parts"
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
     <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
 
-**Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -473,7 +471,7 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 - The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
 
-**Navigate to the "Exercise #3 Structure" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #3 Structure" part studio tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -588,7 +586,7 @@ As you get more comfortable with modeling, we can begin to create more complex p
 
 You will utilize the `Spacer` Featurescript for this exercise.
 
-**Navigate to the "Exercise #4 Climber Hook" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #4 Climber Hook" part studio tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
