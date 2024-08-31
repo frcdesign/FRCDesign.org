@@ -22,7 +22,10 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Eeshwar - FTC 7244A
 - Vaughn - FRC 8033
 - Eliot D - FRC 111
-- Ben - 8738
+- Ben - FRC 8738
+- Sid - FRC 4089 AM
+- George T - FRC 840
+- Connor - FRC 8177A
 
 ## Additional Input
 - Andrew Torrance - FRC 254M
@@ -32,12 +35,32 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Nick Coussens - FRC 33M
 - Nick Aarestad - FRC 2220M
 - Andrew Lawrence
-- Bryce - FRC 7525M/125M
+- Bryce Hanson- FRC 7525M/125M
 - Trisha - FRC 1868
 - Chickenbonker - FRC 6423A
 - Lati
 - Jeremy
 - Sarah - FRC 3647
 - Evan
-
+- John - FRC 3928M
+- Brian Wagg - FRC 739M
+- Tung Chan (Joe) - FRC 4546M
+- Andy M-P - FRC 3504M
+- Chun-che Lo - FRC 4499M
+- Travis Norris - FRC 2423M
+- Eric Berquist - FRC 3100M
+- Kevin - FRC 2399M
+- Anand Rajamani - Redux Robotics
+- Nolan - FRC 9432 student 
+- Tim - FRC 8248M 
+- Oliver - FRC 4089 
+- Cloudcake8 - FRC 3006
+- pointybirb - FRC 3256A 
+- Lewy - FRC 8033
+- George - FRC 2521A 
+- Ishaan - FRC 8177A
+- Honore - FRC 1072
+- Wither - FRC 6443A
+- Zachary - FRC 4990A
+- Jupiter - FRC 9483
 <br>
