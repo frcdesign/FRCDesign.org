@@ -31,7 +31,7 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - Andrew Torrance - FRC 254M
 - JJ - FRC 4414M
 - Mike Corsetto - FRC 1678M
-- Kremer - FRC 3512AM
+- Nick Kremer - FRC 3512AM
 - Nick Coussens - FRC 33M
 - Nick Aarestad - FRC 2220M
 - Andrew Lawrence
