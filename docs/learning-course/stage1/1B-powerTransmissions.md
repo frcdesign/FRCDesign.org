@@ -498,6 +498,9 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 19 Instances, and weigh approximately 2.3lb.
+
 <br>
 
 ## Exercise 2: Two Stage Gearbox
@@ -675,6 +678,9 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 </div>
 
 In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
+
+!!! note "Verification"
+    If all is done correctly your assembly should have 27 Instances.
 
 <br>
 
@@ -1203,9 +1209,14 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
 
 In this exercise, you modeled a fairly complex gearbox that was integrated with some frame elements. At this point, you should be begin to feel comfortable with the sketching and extrude tools. You should also familiarize yourself with all the options present in the Featurescripts that you have used up until this point by playing around with different settings. 
 
+!!! note "Verification"
+    If all is done correctly your assembly should have 31 Instances.
+
 To get a feel for how parametric your model is, you can try and change certain key dimensions in the layout sketches, such as the length of the tubes, angle of the tubes, length of the belt, and the size of the gears. Play around with which modifications will update smoothly and which require additional fixes in the CAD.
 
 You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Handbook](/design-handbook/ "Design Handbook Page"){:target="_blank"} pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
+
+
 
 <br>
 

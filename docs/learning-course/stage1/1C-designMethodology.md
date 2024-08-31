@@ -526,6 +526,9 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
 Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
 
+!!! note "Verification"
+    If all is done correctly your assembly should weigh approximately 31.415lbs.
+
 More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
 
 It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
@@ -588,6 +591,8 @@ The scoring mechanism CAD can be accessed from here:
 </div>
 
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.
+
+
 
 <!-- TODO: CHANGE THIS TEXT -->
 
