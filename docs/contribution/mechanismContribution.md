@@ -1,6 +1,6 @@
 # Contributing to Mechanism Examples
 
-The [mechanism examples](../mechanism-examples/index.md) pages are the ones that would benefit the most from outside contribution. You can add examples from other teams, of course, but adding your own mechanism and going behind the design and performance on it will be ideal. If adding an example from another team, try to interview them for their input and more accurate information.
+The [mechanism examples](../mechanism-examples/index.md "Mechanism Examples Page"){:target="_blank"} pages are the ones that would benefit the most from outside contribution. You can add examples from other teams, of course, but adding your own mechanism and going behind the design and performance on it will be ideal. If adding an example from another team, try to interview them for their input and more accurate information.
 
 **Criteria for Mechanism Examples:**
 
@@ -12,16 +12,16 @@ The [mechanism examples](../mechanism-examples/index.md) pages are the ones that
 
 ## Adding Mechanism Examples
 
-As was described in [methods of contributing](methodsOfContributing.md), there are two methods:
+As was described in [methods of contributing](methodsOfContributing.md "Contribution Guide Page"), there are two methods:
 
 1. Writing the contribution on a separate platform (such as Google Docs) and getting an internal contributor to add it to the website
 2. Forking and making a pull request on GitHub
 
-The first method is pretty self explanatory, but if you choose to fork and make a pull request on GitHub, there is some formatting required. Make sure to follow the contribution guide on the [methods of contributing](methodsOfContributing.md) page to get up and running with GitHub and VS Code.
+The first method is pretty self explanatory, but if you choose to fork and make a pull request on GitHub, there is some formatting required. Make sure to follow the contribution guide on the [methods of contributing](methodsOfContributing.md "Contribution Guide Page") page to get up and running with GitHub and VS Code.
 
 ## Adding a Mechanism Category (OPTIONAL)
 
-If you need to add a mechanism category, you must add a landing page for the mechanism examples in that category and a grid card to the [mechanism examples landing page](../mechanism-examples/index.md).
+If you need to add a mechanism category, you must add a landing page for the mechanism examples in that category and a grid card to the [mechanism examples landing page](../mechanism-examples/index.md "Mechanism Example Index Page").
 
 ### Adding the Folders and Files
 
@@ -39,7 +39,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
     ```
     This sets the size of image you will use for the social card for embeds for the whole category. You can choose between `mechanism_fundamentals_wide` or `mechanism_fundamentals_tall` for the `cards_layout` option. 
 
-    Images have to be 1:1.545 or 1.545:1, any size. More information provided [here](mechanismContribution.md#adding-an-image-for-the-example)
+    Images have to be 1:1.545 or 1.545:1, any size. More information provided [here](mechanismContribution.md#adding-an-image-for-the-example "Adding images section")
 
 3. Create the landing page(s) for the category, named `index.md`. Only one of these can be made per folder.
 
@@ -108,7 +108,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
 
 ### Adding a Grid Card to the Mechanism Examples Landing Page
 
-All grid cards are contained in the `<div class="grid cards" markdown>` div. See the [mkdocs-material docs about grid cards](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids) for more information.
+All grid cards are contained in the `<div class="grid cards" markdown>` div. See the [mkdocs-material docs about grid cards](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids "MKdocs Card Documentation"){:target="_blank"} for more information.
 
 Copy and paste the following code into the div and replace all template information with your own.
 

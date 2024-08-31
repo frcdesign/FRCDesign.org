@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/elevator/continuous/cable.webp
 
 ### Link
 
-[CAD Link](https://cad.onshape.com/documents/79b0f48266d9c0d8381a1d17/w/442b54966a8aa4ca80a5cec6/e/89863d0d5119abd0076d00ef){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/79b0f48266d9c0d8381a1d17/w/442b54966a8aa4ca80a5cec6/e/89863d0d5119abd0076d00ef "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the design
 **Coming Soon**

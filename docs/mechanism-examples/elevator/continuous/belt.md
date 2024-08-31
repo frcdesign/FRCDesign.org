@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/elevator/continuous/belt.webp
 
 ### Link
 
-[CAD Link](https://cad.onshape.com/documents/3597b5fca393d8bbca0e92e1/w/55c068c37ffe98f2d8a1de13/e/043cba182a9bd07d73fc451f){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/3597b5fca393d8bbca0e92e1/w/55c068c37ffe98f2d8a1de13/e/043cba182a9bd07d73fc451f "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the design
 **Coming Soon**

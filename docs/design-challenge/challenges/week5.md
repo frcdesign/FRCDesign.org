@@ -8,9 +8,9 @@ The year is 2050. The internet was completely wiped 5 years ago, and all traces 
 === "Advanced"
     Your goal is to create a master sketch for a full robot that can complete all aspects of the game. Additionally, pick one of those subsystems that *directly interacts with the game piece* and cad it.
 
-[Game Manual](https://docs.google.com/document/d/1ynYfuKPXyR3cytz_HU-oRXMlP_4aaSq4HhAE19bZBNE/edit#heading=h.x9wc4itn09tl)
+[Game Manual](https://docs.google.com/document/d/1ynYfuKPXyR3cytz_HU-oRXMlP_4aaSq4HhAE19bZBNE/edit#heading=h.x9wc4itn09tl "Game Manual Link"){:target="_blank"}
 
-[Field CAD](https://cad.onshape.com/documents/3cb2381443a6206600862230/w/fcd215a042e135caf23927da/e/4c377c7ca70196bc2daa0ac0)
+[Field CAD](https://cad.onshape.com/documents/3cb2381443a6206600862230/w/fcd215a042e135caf23927da/e/4c377c7ca70196bc2daa0ac0 "Field CAD Onshape Document"){:target="_blank"}
 
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!
