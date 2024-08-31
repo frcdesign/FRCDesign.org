@@ -184,8 +184,8 @@ Below, we've provided one option for mounting the battery. In this design, the b
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -256,8 +256,8 @@ One option for mounting the Power Distribution Hub (PDH), main breaker, and Robo
 
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -327,8 +327,8 @@ If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -403,8 +403,8 @@ To begin, you'll need to model the bumpers. It is recommended to place the bumpe
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,3)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,3)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
     <div class="dotsContainer" style="text-align:center">
         <!-- Dots will be generated here -->
@@ -474,8 +474,8 @@ You can learn more about bumpers and different bumper mounting options in the [D
 </div>
 
 <!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</a>
-<a class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</a>
+<button class="prev" onclick="plusSlides(-1,4)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,4)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
     <div class="dotsContainer" style="text-align:center">
         <!-- Dots will be generated here -->

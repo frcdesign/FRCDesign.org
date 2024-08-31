@@ -126,8 +126,8 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
 
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</a>
-  <a class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</a>
+  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
   <!-- Dots will be generated here -->
