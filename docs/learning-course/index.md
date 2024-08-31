@@ -18,6 +18,9 @@ The purpose of the course is to take you from zero to being able to model a full
 !!! Tip
     Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A-introductionToCAD.md "Stage 0A"){:target="_blank"} if you're switching from another CAD software and [Stage 1A](stage1/1A-onshapeFundamentals.md "Stage 1A"){:target="_blank"} if you already have some experience using Onshape. You will struggle with later stages if you don't have a solid grasp on the fundamentals of Onshape.
 
+!!! Warning
+    Remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+
 <img src="/img/learning-course/stage0/setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD">
 
 ### [Stage 0](stage0/0A-introductionToCAD.md "Stage 0 Page")

@@ -56,7 +56,7 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
     ---
 
-    Besides the other content on the website, we have a nice collection of resources (like featurescripts).
+    Besides the other content on the website, we have a nice collection of resources (e.g. featurescripts and models).
 
     [:octicons-arrow-right-24: Other Resources](resources/index.md){:target="_blank"}
 

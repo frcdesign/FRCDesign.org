@@ -95,13 +95,16 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 
 In Stage 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
+!!! Tip
+    Remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+
 ### Learning Courses
 [Onshape's Learning Center](https://learn.onshape.com/ "Onshape Learning Center"){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
 
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
 !!! Warning
-    The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
+    The Onshape learning courses are important as they will teach you the interface and form a basic foundation for CAD skills. Unless you have a significant amount of prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
 
     
@@ -134,7 +137,7 @@ With a good understanding of both of these, you can create almost any part you w
 <br>
 
 
-!!! Tip
+??? Tip "Tab Manager"
     You can navigate between the tabs by accessing the tab manager or from the bottom navigation bar. 
     <center>
       <video width="1920" controls>
@@ -234,7 +237,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   </div>
 </div>
 
-!!! note "Validation"
+!!! note "Verification"
     If you did everything correctly your box tube should weigh about 0.351lbs
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
