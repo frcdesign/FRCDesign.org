@@ -179,7 +179,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure markdown="span">
-      <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%; data-description="0. The final part"">
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s0.webp" style="width:100%; data-description="0. The final part"">
       <figcaption>0. The final part.</figcaption>
     </figure>
   </div>
@@ -224,14 +224,42 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
         <source src="/img/learning-course/stage1a/exercises/e1/e1s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. Again, having the origin at the center of the tube lets us place the center of the pattern at the center of the tube. </figcaption>
+      <figcaption>5. Extrude the top holes to cut all the way through the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%; data-description="6. Name the key sketches and part. Set the material to be 6061 Aluminum."">
-      <figcaption>6. Extrude the holes to cut all the way through the tube. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1a/exercises/e1/e1s6.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>6. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. Again, having the origin at the center of the tube lets us place the center of the pattern at the center of the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s7.webp" style="width:100%; data-description="6. Name the key sketches and part. Set the material to be 6061 Aluminum."">
+      <figcaption>7. Extrude the side holes to cut all the way through the tube. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1a/exercises/e1/e1s8.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>8. Name the key sketches and part. You can set part appearances and materials by right clicking on the part instance. Set the material to be 6061 Aluminum. To see the mass of parts, use the <code>Display Mass Properties</code> Menu </figcaption>
+    </figure>
+  </div>
+
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1a/exercises/e1/e1s0.webp" style="width:100%; data-description="6. Name the key sketches and part. Set the material to be 6061 Aluminum."">
+      <figcaption>9. Finished Part Studio. </figcaption>
     </figure>
   </div>
 
