@@ -105,6 +105,7 @@ a:hover {
   cursor: default;
 }
 
-.gclose, .gnext, .gprev {
+.gnext, .gprev {
   cursor: default !important;
+  visibility: hidden !important;
 }
