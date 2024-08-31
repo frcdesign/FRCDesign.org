@@ -7,56 +7,37 @@ description: A list of contributors to FRCDesign.org
 
 FRCDesign.org would not happen without the wonderful work of these people!
 
-| Primary Contributors | Other Contributors | Additional Input |
-|-----------------|-----------------|-----------------|
-| David | Brendan | JJ |
-| Kelly | Astro | Andrew Torrance |
-| Andrew Card    | Neel | Mike Corsetto |
-| Jonathan Mi | Vaughn | Nick Coussens |
-|  | Eeshwar | Kremer |
-|  | Eliot | Nick Aarestad |
-|  |  | Andrew Lawrence |
-|  |  | Bryce |
-|  |  | Trisha |
-|  |  | Chickenbonker |
-|  |  | Lati |
-|  |  | Jeremy |
-|  |  | Sarah |
-|  |  | Ben |
-|  |  | Evan |
 
 
 ## Primary Contributors
 - David
-- Kelly
-- Andrew Card
-- Jonathan Mi
+- Kelly - FRC 1778AM
+- Andrew Card - FRC 6657AM
+- Jonathan Mi - FRC 3647/9442M
 
 ## Other Contributors
-- Brendan 
-- Astro
-- Neel 
-- Eeshwar 
-- Vaughn
-- Nick Coussens
-- Eliot
+- Brendan - FRC 1153/1119
+- Astro - FRC 6423A
+- Neel - FRC 5026A
+- Eeshwar - FTC 7244A
+- Vaughn - FRC 8033
+- Eliot D - FRC 111
+- Ben - 8738
 
 ## Additional Input
-- Andrew Torrance
-- JJ
-- Mike Corsetto
-- Kremer
-- Nick Aarestad
+- Andrew Torrance - FRC 254M
+- JJ - FRC 4414M
+- Mike Corsetto - FRC 1678M
+- Kremer - FRC 3512AM
+- Nick Coussens - FRC 33M
+- Nick Aarestad - FRC 2220M
 - Andrew Lawrence
-- Bryce
-- Trisha
-- Chickenbonker
+- Bryce - FRC 7525M/125M
+- Trisha - FRC 1868
+- Chickenbonker - FRC 6423A
 - Lati
 - Jeremy
-- Sarah
+- Sarah - FRC 3647
 - Evan
-
-## Social Card Design
-- Ben
 
 <br>
