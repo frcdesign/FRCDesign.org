@@ -145,14 +145,14 @@ Sketches and features are the building blocks you will use to create every 3D mo
 
 **Complete the following Onshape Learning Courses:**
 
-1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching){:target="_blank"} course runs you through different sketch tools, constraints, and a good sketch workflow.
+1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching "Introduction to Sketching Onshape Learning Course"){:target="_blank"} course runs you through different sketch tools, constraints, and a good sketch workflow.
 
-2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios){:target="_blank"} course runs you through creating different parts with a variety of features.
+2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios "Part Design Using Part Studios Onshape Learning Course"){:target="_blank"} course runs you through creating different parts with a variety of features.
 
 With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
 
 !!! Tip
-    For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15){:target="_blank"}, [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0){:target="_blank"}, [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17){:target="_blank"}, and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0){:target="_blank"} are all covered in text form in the help center. 
+    For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15 "Sketch Basics Onshape Help Page"){:target="_blank"}, [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0 "Sketch Tools Onshape Help Page"){:target="_blank"}, [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17 "Feature Basics Onshape Help Page"){:target="_blank"}, and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0 "Feature Tools Onshape Help Page"){:target="_blank"} are all covered in text form in the help center. 
 
 !!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO LEARNING COURSES ABOVE**</span>"
 
@@ -256,13 +256,13 @@ Notice how we utilized construction geometry to define the location of the holes
 
 ## Multi-Part Modeling
 
-Onshape is a software focused on a *top-down design* workflow (explored more in [Stage 1C](1C-designMethodology.md)) using multi-part part studios. It allows you to create several different related parts in the same tab, all referencing each other, making the part creation for something like a subsystem easy.
+Onshape is a software focused on a *top-down design* workflow (explored more in [Stage 1C](1C-designMethodology.md "Learning Course Stage 1C Page"){:target="_blank"}) using multi-part part studios. It allows you to create several different related parts in the same tab, all referencing each other, making the part creation for something like a subsystem easy.
 
 **Complete the following Onshape Learning Course:**
 
-- The [**Multi-Part Part Studios**](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios){:target="_blank"} course runs you through top-down design principles (EXTREMELY important in FRC), sketching for multiple parts (master sketches), and some more practical skills for working with multiple parts in a part studio.
+- The [**Multi-Part Part Studios**](https://learn.onshape.com/courses/fundamentals-multi-part-part-studios "Multi-Part Part Studios Onshape Learning Course"){:target="_blank"} course runs you through top-down design principles, sketching for multiple parts (master sketches), and some more practical skills for working with multiple parts in a part studio.
 
-Check out [this page](../../best-practices/sub-document-setup.md) to learn more about best practices for sub-documents. The following practice exercises will help you reinforce these concepts.
+Check out [this page](../../best-practices/sub-document-setup.md "Sub-Document Best Practices Page"){:target="_blank"} to learn more about best practices for sub-documents. The following practice exercises will help you reinforce these concepts.
 
 ??? Example "Multi-Part Part Studio Example"
     Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
@@ -408,7 +408,7 @@ Assemblies are where parts designed in the part studio get assembled together. T
 
 **Complete the following Onshape Learning Course:**
 
-- The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies) learning course introduces assemblies, mating parts together, and other useful assembly concepts.
+- The [Onshape Assemblies](https://learn.onshape.com/courses/fundamentals-onshape-assemblies "Onshape Assemblies Onshape Learning Course"){:target="_blank"} learning course introduces assemblies, mating parts together, and other useful assembly concepts.
 
 As was introduced in the Onshape learning tutorials, when parts are inserted into an assembly, they free float. We can utilize a number of different assembly tools to constrain the motion of all the parts:
 
@@ -427,7 +427,7 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
       </video>
     </center>
 
-The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md) page.
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"} page.
 
 !!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</span>"
 
@@ -544,7 +544,7 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
-It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method) for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
+It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
 ### Exercise #4: Climber Hook
 
@@ -664,9 +664,20 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned how to assemble basic models using `Group` and `Fasten`
 <!-- * Learned how to insert models into assemblies using the MKCad parts library -->
 
-In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+In Stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
+
+<!--
+## Extra Practice
+
+
+
+
+
+-->
 
 <br>
+
+
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
