@@ -280,8 +280,6 @@ Notice how we utilized construction geometry to define the location of the holes
 !!! Note
     Some sketches and features have been renamed (i.e. "Tube Profile"). You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
 
-Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
-
 <br>
 
 ## Multi-Part Modeling
