@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/intake/slapdown/washed/overview.webp
 
 ### Links
 
-[CAD Link](https://cad.onshape.com/documents/a8bcc47e45d88a8d0a06a0c1/w/e7681756deb1852096cca3fb/e/a6c984890b1390dde1e33ab4){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/a8bcc47e45d88a8d0a06a0c1/w/e7681756deb1852096cca3fb/e/a6c984890b1390dde1e33ab4 "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the design
 

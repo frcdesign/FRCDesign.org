@@ -28,11 +28,11 @@ table tr:hover{
 
 ### Links
 
-[CAD Link](https://cad.onshape.com/documents/43505c3f750efb19e995ad36/w/e246489aced2d23991a0f2a1/e/0237a300633b2cf31e173173?renderMode=0&uiState=663907354e7bd8067caebdc4){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/43505c3f750efb19e995ad36/w/e246489aced2d23991a0f2a1/e/0237a300633b2cf31e173173?renderMode=0&uiState=663907354e7bd8067caebdc4 "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
-[CAD and Tech Binder Release ChiefDelphi Thread](https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2023/436653)
+[CAD and Tech Binder Release ChiefDelphi Thread](https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2023/436653 "Tech Binder Chief Delphi Thread"){:target="_blank"}
 
-[Match Video](https://www.youtube.com/watch?v=LzgU0rbpWqY)
+[Match Video](https://www.youtube.com/watch?v=LzgU0rbpWqY "2910 Match Video"){:target="_blank"}
 
 ## Behind the Design
 

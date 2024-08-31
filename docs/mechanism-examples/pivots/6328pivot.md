@@ -28,7 +28,7 @@ table tr:hover{
 
 ### Links
 
-[CAD Link](https://cad.onshape.com/documents/7b17c8664d1313c397a0fcf3/w/61b5c8329f7f5c6023f50c77/e/58bc5035e6e718d34ade872d){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/7b17c8664d1313c397a0fcf3/w/61b5c8329f7f5c6023f50c77/e/58bc5035e6e718d34ade872d "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the Design
 
@@ -36,8 +36,8 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 
 |||
 |:-:|:-:|
-|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 [NEO](https://www.revrobotics.com/rev-21-1650/) high-reduction gearbox that is integrated into the A-Frame of the pivot. This is the most important pivot on the robot, since it moves the most mass. For those reasons want as much power as possible here, so two-four motors is ideal. [MAXPlanetaries](https://www.revrobotics.com/rev-21-2100/) are not rated for the forces expected to be applied in this gearbox, so a custom gearbox is a necessity. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
-|<span style="font-size:.8rem;"> The gearbox drives a [Super Max Spline](https://www.chiefdelphi.com/t/experiences-with-rev-ion-so-far/431176/80?page=2) shaft, which is a [Max Spline](https://www.revrobotics.com/rev-21-2520/) shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/mechanism-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
+|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 NEO high-reduction gearbox that is integrated into the A-Frame of the pivot. This is the most important pivot on the robot, since it moves the most mass. For those reasons want as much power as possible here, so two-four motors is ideal. MAXPlanetaries are not rated for the forces expected to be applied in this gearbox, so a custom gearbox is a necessity. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
+|<span style="font-size:.8rem;"> The gearbox drives a Super Max Spline shaft, which is a Max Spline shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/mechanism-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
 
 ***
 <span style="text-align: center; font-size:1rem">The main pivot joint is supported vertically on each side by 2 angled 1x1 shafts and a 2x1 shaft. Triangles are strong! The A frame is a triangle, and the vertical 2x1 splits each side into two more mirrored triangles. With the plates clamping on both sides this thing is bulletproof. Plates are not lightweighted at the bottom in order to lower COG and because these parts are fixed to the superstructure, so their weight doesn’t limit the rotational speed of the pivot.</span>
@@ -56,8 +56,10 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 
 ## <p style="text-align: center;"> See this Pivot in Action Here </p>
 
-|||
-|:-:|:-:|
-|[<figure>![6328 Behind the Bumpers](../../img/mechanism-examples/pivots/6328/6328btb.webp){height=200% width=200%}<figcaption>6328 Behind the Bumpers</figcaption><figure>](https://youtu.be/3cXXOSFAnJU)|[<figure>![1678 Clean Match Vid](../../img/mechanism-examples/pivots/6328/6328_match.webp){height=55% width=55%}<figcaption>6328 Rhode Island 2023 Recap</figcaption></figure>](https://youtu.be/89FRu3nUPtU)|
+!!! Tip
+    Click the images to watch the videos.
+
+
+<a href=https://youtu.be/3cXXOSFAnJU> <img align="left" src="/img/mechanism-examples/pivots/6328/6328btb.webp" style="width:45%"></a> <a href=https://youtu.be/89FRu3nUPtU><img align="right" src=/img/mechanism-examples/pivots/6328/6328_match.webp style="width:50%"></a>
 
 <br>

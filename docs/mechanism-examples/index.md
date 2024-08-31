@@ -12,7 +12,7 @@ title: Mechanism Examples
 
 !!! Abstract "Contribution"
 
-    This library of mechanism examples could always be expanded. By following the instructions on the [methods of contributing page](../contribution/methodsOfContributing.md), you can add your own examples or help write "Behind the Design"s for existing examples.
+    This library of mechanism examples could always be expanded. Follow the [methods of contributing page](../contribution/methodsOfContributing.md "Methods of Contributing Page") to add your own examples or help write "Behind the Design"s for existing examples.
 
 <div class="grid cards" markdown>
 
