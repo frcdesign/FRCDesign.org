@@ -294,31 +294,21 @@ It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather th
 
 
 ## Practice Exercises
-Make a copy of the Stage 1B Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs).
+Time to practice! Start by **make a copy of the Stage 1B Exercises Document** through the button below, just like you did with the Stage 1A Exercises Document. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1B Exercise Solutions Document to check your work afterwards.
 
 <center>[1B Exercises Document](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c "1B Exercises Onshape Document"){:target="_blank" .md-button .md-button--primary }
 [1B Exercise Solutions](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b "1B Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary } </center>
 
 ## Exercise 1: Simple Gearbox 
 
-In this exercise, you will be CADing and assembling a simple single stage gearbox.
+In this exercise, you will be CADing and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
 
-The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
+**Navigate to the "Exercise #1 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
 
-???+ Tip "Locking Mate Inferences"
-    To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
-    <center>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/shiftSelectEdited.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-    </center>
-    <center>*Using Shift key to lock mate inferences while mating.*</center>
-
-<center>**Exercise 1 Instruction Slides**</center>
+<!-- <center>**Exercise 1 Instruction Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -443,7 +433,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
         <source src="/img/learning-course/stage1b/exercises/e1/e1s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+      <figcaption> 15. Assemble the motor and motor pinion gear using parts from the MKCad App. You will need to use mate inference locking to fasten the motor to the motor pinion: See the below drop down to learn how. </figcaption>
     </figure>
   </div>
 
@@ -495,6 +485,16 @@ The goal of this exercise is to introduce how to model a very simple gear transm
   </div>
 </div>
 
+??? Tip "Locking Mate Inferences when Mating Assemblies"
+    To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
+    <center>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1b/shiftSelectEdited.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </center>
+    <center>*Using Shift key to lock mate inferences while mating.*</center>
+
 
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
@@ -505,9 +505,9 @@ In this exercise you made your first gearbox. In doing so, you also used part co
 
 ## Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
+In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
 
-The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
+**Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete this exercise.
 
 <center>**Exercise 2 Instruction Slides**</center>
 <!-- Slideshow container -->
@@ -821,7 +821,6 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 
 <center>**Modeling Chain Transmissions**</center>
 
-
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -871,11 +870,10 @@ One difficulty when designing with chain is that it will physically stretch as i
 
 ## Exercise 3: Belt and Gear Transmission
 
-In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A.
+In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized.
 
-The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized. 
+**Navigate to the "Exercise #3 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
 
-<center>**Exercise 3 Part Studio Instruction Slides**</center>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -1099,7 +1097,8 @@ The goal of this exercise is to continue to ramp up your modeling skills. Always
   </div>
 </div>
 
-<center>**Exercise 3 Assembly Instruction Slides**</center>
+Now that you've completed the part studio, **navigate to the "Exercise #3 Assembly" tab** in your copied document and **follow the instructions in the slides** to finish this exercise.
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
