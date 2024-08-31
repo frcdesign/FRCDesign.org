@@ -7,6 +7,25 @@ description: A list of contributors to FRCDesign.org
 
 FRCDesign.org would not happen without the wonderful work of these people!
 
+| Primary Contributors | Other Contributors | Additional Input |
+|-----------------|-----------------|-----------------|
+| David | Brendan | JJ |
+| Kelly | Astro | Andrew Torrance |
+| Andrew Card    | Neel | Mike Corsetto |
+| Jonathan Mi | Vaughn | Nick Coussens |
+|  | Eeshwar | Kremer |
+|  | Eliot | Nick Aarestad |
+|  |  | Andrew Lawrence |
+|  |  | Bryce |
+|  |  | Trisha |
+|  |  | Chickenbonker |
+|  |  | Lati |
+|  |  | Jeremy |
+|  |  | Sarah |
+|  |  | Ben |
+|  |  | Evan |
+
+
 ## Primary Contributors
 - David
 - Kelly

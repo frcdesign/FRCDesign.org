@@ -61,37 +61,6 @@ The most effective tool for learning design is getting feedback and learning fro
 
 ## Who is FRCDesign.org?
 
-FRCDesign.org would not happen without the wonderful work of these people!
-
-### Primary Contributors
-- David
-- Kelly
-- Andrew Card
-- Jonathan Mi
-### Other Contributors
-- Brendan 
-- Astro
-- Neel 
-- Eeshwar 
-- Vaughn
-- Nick Coussens
-- Eliot
-### Additional Input
-- Andrew Torrance
-- JJ
-- Mike Corsetto
-- Kremer
-- Nick Aarestad
-- Andrew Lawrence
-- Bryce
-- Trisha
-- Chickenbonker
-- Lati
-- Jeremy
-- Sarah
-- Evan
-
-### Social Card Design
-- Ben
+FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world. See the full list of contributors [here](https://www.frcdesign.org/contribution/contributors/){:target="_blank"}
 
 <br>
