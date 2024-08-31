@@ -12,13 +12,21 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
 <div class="grid cards" markdown>
 
+-   :fontawesome-solid-flask-vial:{ .lg .middle } __Website Feature Guide__
+
+    ---
+
+    Explains the main features of the website. Recommended to go through before the learning course.
+
+    [:octicons-arrow-right-24: Website Feature Guide](website-feature-guide.md){:target="_blank"}
+
 -   :material-book-open-variant:{ .lg .middle } __Learning Course__
 
     ---
 
     A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
 
-    [:octicons-arrow-right-24: Learning Course](learning-course/index.md)
+    [:octicons-arrow-right-24: Learning Course](learning-course/index.md){:target="_blank"}
 
 -   :material-bookshelf:{ .lg .middle } __Design Handbook__
 
@@ -26,23 +34,31 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
     Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki. 
 
-    [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md)
+    [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md){:target="_blank"}
 
--   :material-book:{ .lg .middle } __Mechanism Examples__
+-   :material-robot:{ .lg .middle } __Mechanism Examples__
 
     ---
 
     Unlike other mechanism example collections, these are hand picked for specific concepts, with detailed breakdowns behind the design.
 
-    [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md)
+    [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md){:target="_blank"}
 
--   :material-trophy:{ .lg .middle } __Design Challenges__
+-   :material-file-cad-box:{ .lg .middle } __CAD Best Practices__
 
     ---
 
-    We run weekly design challenges! (Think of them as mini Cadathons.) Try them here.
+    A reference for best practices when you're modeling a robot in Onshape.
 
-    [:octicons-arrow-right-24: Challenges](design-challenge/index.md)
+    [:octicons-arrow-right-24: CAD Best Practices](best-practices/index.md){:target="_blank"}
+
+-   :material-book:{ .lg .middle } __Other Resources__
+
+    ---
+
+    Besides the other content on the website, we have a nice collection of resources (like featurescripts).
+
+    [:octicons-arrow-right-24: Other Resources](resources/index.md){:target="_blank"}
 
 </div>
 
