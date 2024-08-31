@@ -70,9 +70,18 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 3. We try to include the small details that most guides forget. The concept of an "arm" is almost ubiquitous, but the concepts behind designing a pivot that works every match and never breaks? That's not so much common knowledge and much more important.
 4. Design practices are important! We try to document and teach [the best practices possible](../docs/best-practices/index.md "Best Practices Page") so you can design faster during the season.  
 
+## Who is FRCDesign.org?
+
+FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world. 
+
+<center>
+[Contributors List](https://www.frcdesign.org/contribution/contributors/ "Contributor List"){:target="_blank"  .md-button .md-button--primary}
+</center>
+
 ## Discord
 The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events. 
 
 <center>[![](./img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)</center>
+
 
 <br>
