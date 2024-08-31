@@ -127,9 +127,9 @@ A strong strap is needed to secure the battery to its mount, preventing it from 
     <center><img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
     <center><figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption></center>
 
-Below, we've provided one option for mounting the battery. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
+**Add a battery holder to your Stage 1C drivetrain.** You can **take inspiration from the following instructions slides**. In this design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
 
-<center>**Sample Battery Holder Modeling Slides**</center>
+<!-- <center>**Sample Battery Holder Modeling Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -205,7 +205,7 @@ To make wiring the robot and later inspecting the wiring easier, enough space sh
 A list of typical electrical components found on FRC robots is provided below, as well as a recommended mounting location. Again, mounting locations are highly dependent on the rest of your robot, make sure to always coordinate with your electrical team to decide what is best.
 
 
-??? note "Electrical Components"
+??? note "FRC Electrical Components"
     | **Component** | **Function** | **Suggested Location** | **Image** |
     |---|---|---|---|
     | REV Power Distribution Hub (PDH) or  CTRE Power Distribution Panel (PDP) | Distributes power to all other components | Bellypan | ![PDH](\img\learning-course\stage2-drivebase\elecComponents\pdh.webp) |
@@ -220,9 +220,9 @@ A list of typical electrical components found on FRC robots is provided below, a
     | Pneumatics Hub | Controls pneumatic components | Bellypan | ![Pneumatics Hub](\img\learning-course\stage2-drivebase\elecComponents\pcm.webp) |
 
 
-One option for mounting the Power Distribution Hub (PDH), main breaker, and RoboRIO onto the bellypan is provided in the below example. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+**Add mounting for some electronic components to your Stage 1C drivetrain.** You can **take inspiration from the following instructions slides**. In this design, the Power Distribution Hub (PDH), main breaker, and RoboRIO are mounted onto the bellypan. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
-<center>**Sample Electronics Mounting Slides**</center>
+<!-- <center>**Sample Electronics Mounting Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -278,9 +278,9 @@ Each robot is also required to have a radio. The radio should be mounted on the 
 
 Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}). You should carefully consider the tradeoffs with your team.
 
-If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may slightly vary between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
+**If you choose to pocket your bellypan for your 1C Stage Drivetrain**, you can **follow the instructions in the slides** which utilize the `Vent` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"}. You could also use the `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may vary slightly between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
 
-<center>**Sample Bellypan Pocketing Slides**</center>
+<!-- <center>**Sample Bellypan Pocketing Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -340,9 +340,11 @@ If you choose to pocket your bellypan, you can utilize the `Vent`, `Lighten`, or
 Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
 
 ### Bumper Model
-To begin, you'll need to model the bumpers. It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
+**Add bumpers to your Stage 1C drivetrain.** It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
 
-<center>**Sample Bumper Modeling Slides**</center>
+You can take inspiration from **the following instructions slides**.
+
+<!-- <center>**Sample Bumper Modeling Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -416,18 +418,17 @@ Keeping the bumper part studio and assembly separate from the drivetrain keeps t
 
 ### Bumper Mounting
 
-Next, you'll need to model your desired bumper mounts in the drivetrain part studio. 
+Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to [bumper damage](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to bumper damage, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
+??? Example "Threaded Stud Bumper Mounting System"
+    <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%"></center>
+    <center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption></center>
 
-In the provided example, the threaded stud bumper mounting system is implemented. 
+**Add your desired bumper mounts to your Stage 1C drivetrain.** **You can take inspiration from the following instructions slides.** In this design, the threaded stud bumper mounting system is implemented. 
 <!-- 
 You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
 
-<center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:60%"></center>
-<center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the stud tight.</figcaption></center>
-
-<center>**Sample Bumper Mount Modeling Slides**</center>
+<!-- <center>**Sample Bumper Mount Modeling Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
