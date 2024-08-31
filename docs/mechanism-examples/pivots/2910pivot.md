@@ -36,29 +36,29 @@ table tr:hover{
 
 ## Behind the Design
 
-The pivot is driven by 2 mirrored dual falcon 500 gearboxes. These gearboxes are incredibly compact and are designed immaculately to reduce part count. The first stage gear shaft is a piece of ½” Hex shaft turned down to 13.75mm (thunderhex) on each end, which fully constrains each flange bearing as long as the two plates are compressed.
+The pivot is driven by 2 mirrored dual falcon 500 gearboxes. These gearboxes are incredibly compact and thoughtful design decisions have been made throughout the whole pivot to reduce part count. One method utilized in this gearbox is to use a Thunderhex bearing retention technique in which each shaft is turned down from 1/2" Hex to 13.75mm (Thunderhex diameter) on each end, which fully constrains each flange bearing as long as the two plates are compressed. This both reduces part count, design complexity, and makes the gearboxes easier to assemble and service, requiring only 5 bolts to swap out the entire motor plate (motors included) and the entire gearset.
 
 ||||
 |:-:|:-:|:-:|
-|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/2910gearbox.webp){height=60% width=60%}</figure>|<figure markdown="span">![Thunderhex Pivot](../../img/mechanism-examples/pivots/2910/thunderhex_example.webp){height=100% width=100%}</figure>|<figure markdown="span">![Lightened Plates](../../img/mechanism-examples/pivots/2910/gearbox_plates.webp){height=60% width=60%}</figure>|
+|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/2910gearbox.webp){height=60% width=60%}</figure>|<figure markdown="span">![Thunderhex Pivot](../../img/mechanism-examples/pivots/2910/thunderhex_example.webp){height=100% width=100%}<figcaption>Thunderhex bearing retention technique utilizing turned hex flanges, bearing flanges, and fixed plates.</figcaption></figure>|<figure markdown="span">![Exploded View](../../img/mechanism-examples/pivots/2910/2910_exploded.webp){height=60% width=60%}</figure>|
 
-All of these plates are heavily lightened to make the robot light, increase the acceleration capabilities (F=ma), and keep the center of gravity low. The gearboxes and even motor placement on the gearboxes are as low and central as possible to improve the robots center of mass. Lower center of mass helps to reduce tipping and gives the robot an advantage in pushing battles.
+All of these plates are heavily lightened to increase the robots top speed and acceleration capabilities (F=ma), and to keep the center of gravity low. The gearboxes and even motor placement on the gearboxes are as low and central as possible to improve the robots center of mass. Lower center of mass helps to reduce tipping and gives the robot an advantage in pushing battles.
 
-The second stage shaft runs across the robot to link the two gearboxes. These second stage gears are cantilever to reduce gearbox size, and are properly supported with two bearings on each end.
+The second stage shaft runs across the robot to link the two gearboxes, which is essential to eliminate any torsion in the arm that would be caused by unevenly driving each side of the pivot independently.
 
 |||
 |:-:|:-:|
 |<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/pivot_link.webp){height=60% width=60%}</figure>|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/bearings.webp){height=100% width=100%}<figcaption>Wheel Support Reference from REV ION Robot Basics Guide</figcaption></figure>|
 
-The third stage ingeniously doubles as a tensioner arm for the final chain run reduction to the main pivot. Using a chain for the final reduction and power transmission is optimal due to its ability to absorb shock loads. Tightening the bolt here pulls the lever, applying tension to the chain. The entire tensioner pivots around the 2nd stage shaft, using the existing bearing. The planet (larger) gear rotates around the sun (smaller) gear. The planet gear & sprocket shaft uses the same ½” to 13.75mm diameter hex shaft technique to reduce part count.
+The third stage is an additional reduction that doubles as a tensioning mechanism,  reusing the mechanical link shaft as an idler shaft to pivot around, adjusting the center to center distance of the final chain run. Tightening the bolt (shown in red in the diagram below) pulls the lever back, applying tension to the chain. The planet gear & sprocket shaft uses the same ½” to 13.75mm diameter hex shaft technique to reduce part count. Using a chain for the final reduction and power transmission is optimal due to its exeptional tensile strength and ability to absorb shock loads.
 
 <figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/planetgear_idler.webp){height=80% width=80%}</figure>
 
-The main pivot itself is a massive dead axle fixed into the triangular superstructure. Triangles are strong! This (almost) right angle superstructure is incompressible, as when a force is applied to compress any side there is always an opposite side in tension to counteract that force.
+The main pivot itself is a massive dead axle fixed into the triangular superstructure. Triangles are strong! This (almost) right angle superstructure is incompressible, as when a force is applied to compress any side there is always an opposite side in tension to counteract that force. This dead axle assembly is very simple, with 3 custom parts that are all easily manually machineable on a lathe. The large dead axle has two end caps and a single bolt through from one end to the other to hold the whole axle assembly together.
 
 |||
 |:-:|:-:|
-|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/aframe1.webp){height=100% width=100%}</figure>|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/aframe2.webp){height=100% width=100%}</figure>|
+|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/deadaxle_retention.webp){height=100% width=100%}</figure>|<figure markdown="span">![2910 Dead Axle Pivot](../../img/mechanism-examples/pivots/2910/aframe2.webp){height=100% width=100%}</figure>|
 
 |||
 |:-:|:-:|
