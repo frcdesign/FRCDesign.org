@@ -99,3 +99,12 @@ abbr {
 a:hover {
   text-decoration: underline;
 }
+
+.gnext, .gprev svg{
+  visibility: hidden;
+  cursor: default;
+}
+
+.gclose, .gnext, .gprev {
+  cursor: default !important;
+}
