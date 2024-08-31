@@ -5,7 +5,7 @@ Documents can be viewed and managed from the documents page. You can sort them w
 
 You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left.
 
-<center><img src="/img/learning-course/stage0/navigation/documentsPage.webp" style="width:90%"></center>
+<center><img src="/img/learning-course/stage0/navigation/documentsPage.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
 You can complete the [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} in the Onshape learning center to learn more about the documents page.
 
@@ -29,12 +29,12 @@ An Onshape document is not a CAD file, but a container that holds data related t
     - **Tab bar:** Organizes different tabs in the document. Can be sorted into folders. Add new folders and tabs to the document by clicking the plus on the bottom left.
     - **Left Side (Feature/Part/Instance/Mate List)**: Breaks down how parts/assembly was made.
 
-    <center> <img src="/img/learning-course/stage0/navigation/documentNavigationLabeled.webp" style="width:90%"></center>
+    <center> <img src="/img/learning-course/stage0/navigation/documentNavigationLabeled.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
     The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
 
     ??? Info "Mouse Controls"
-        <center> <img src="/img/learning-course/stage0/navigation/mouseControls.webp" style="width:55%"> </center>
+        <center> <img src="/img/learning-course/stage0/navigation/mouseControls.webp" style="width:50%; border:5px solid #ADADAD"> </center>
 
     !!! Tip "Selection"
         Onshape has persistent selection, which means each left click on a face or entity adds it to a selection group. Clicking an entity again will deselect it, while clicking in the blank space or pressing the spacebar will deselect all entities.

@@ -263,11 +263,11 @@ The below links contain several featurescripts each that you can add all at once
 
 - Adds reflected mate connectors to a part so you can easily mate it reflected across a plane in an assembly (does not mirror geometry).
 
-<!-- [**Part Color**](https://cad.onshape.com/documents/d997b0ffc30f659113b10c00/v/a9e4f209775174dbb9f2b5fa/e/b6db0c9545b9a2df1d7ea546 "Part Color Featurescript Onshape Document"){:target="_blank"}
+[**Part Color**](https://cad.onshape.com/documents/d997b0ffc30f659113b10c00/v/a9e4f209775174dbb9f2b5fa/e/b6db0c9545b9a2df1d7ea546 "Part Color Featurescript Onshape Document"){:target="_blank"}
 
 - Give color to faces on a part retroactively
 - Can use a variety of different color inputs
-- Can be used for part color configurations -->
+- Can be used for part color configurations
 
 [**Set Materials**](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true "Set Materials Featurescript Onshape Document"){:target="_blank"} *(Abhi's Features & Configs)*
 
