@@ -105,8 +105,7 @@
 
 Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and projects designed to introduce and develop your CAD skills within an FRC context. 
 
-## Getting Started
-In 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
+In Stage 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
 ### Learning Courses
 [Onshape's Learning Center](https://learn.onshape.com/ "Onshape Learning Center"){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
@@ -116,10 +115,28 @@ The structure of the courses includes some short videos and practice models, exp
 !!! Warning
     The Onshape learning courses are important as they will teach you the Onshape interface and form a basic foundation for CAD skills. Unless you have prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
-### Practice Exercises
-**Make a copy of the Stage 1A Exercises Document** through the button below. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1A Exercise Solutions Document to check your work afterwards.
+
+    
+## Sketching and Part Design
+Sketches and features are the building blocks you will use to create every 3D model in Onshape, so it's good to have a good grasp on the fundamentals.
+
+**Complete the following Onshape Learning Courses:**
+
+1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching "Introduction to Sketching Onshape Learning Course"){:target="_blank"} course runs you through different sketch tools, constraints, and a good sketch workflow.
+
+2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios "Part Design Using Part Studios Onshape Learning Course"){:target="_blank"} course runs you through creating different parts with a variety of features.
+
+With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
+
+!!! Tip
+    For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15 "Sketch Basics Onshape Help Page"){:target="_blank"}, [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0 "Sketch Tools Onshape Help Page"){:target="_blank"}, [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17 "Feature Basics Onshape Help Page"){:target="_blank"}, and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0 "Feature Tools Onshape Help Page"){:target="_blank"} are all covered in text form in the help center. 
+
+!!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO LEARNING COURSES ABOVE**</span>"
 
 <br>
+
+### Practice Exercise Prerequisites
+**Make a copy of the Stage 1A Exercises Document** through the button below. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1A Exercise Solutions Document to check your work afterwards.
 
 <center>
 [1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28 "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
@@ -137,24 +154,6 @@ The structure of the courses includes some short videos and practice models, exp
         Your browser does not support the video tag.
       </video>
     <center> *Accessing the Tab Manager.* </center>
-
-<br>
-    
-## Sketching and Part Design
-Sketches and features are the building blocks you will use to create every 3D model in Onshape, so it's good to have a good grasp on the fundamentals.
-
-**Complete the following Onshape Learning Courses:**
-
-1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching "Introduction to Sketching Onshape Learning Course"){:target="_blank"} course runs you through different sketch tools, constraints, and a good sketch workflow.
-
-2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios "Part Design Using Part Studios Onshape Learning Course"){:target="_blank"} course runs you through creating different parts with a variety of features.
-
-With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
-
-!!! Tip
-    For future reference without having to go through the learning center, [sketch basics](https://cad.onshape.com/help/Content/sketch_basics.htm?tocpath=Part%20Studios%7C_____15 "Sketch Basics Onshape Help Page"){:target="_blank"}, [sketch tools](https://cad.onshape.com/help/Content/sketch-tools.htm?TocPath=Part%20Studios%7CSketch%20Tools%7C_____0 "Sketch Tools Onshape Help Page"){:target="_blank"}, [feature basics](https://cad.onshape.com/help/Content/feature-basics.htm?tocpath=Part%20Studios%7C_____17 "Feature Basics Onshape Help Page"){:target="_blank"}, and [feature tools](https://cad.onshape.com/help/Content/featuretools.htm?TocPath=Part%20Studios%7CFeature%20Tools%7C_____0 "Feature Tools Onshape Help Page"){:target="_blank"} are all covered in text form in the help center. 
-
-!!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE TWO LEARNING COURSES ABOVE**</span>"
 
 <br>
 
