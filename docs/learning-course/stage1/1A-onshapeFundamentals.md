@@ -189,7 +189,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e1/e1s1.webp" style="width:100%; data-description="1. Start by sketching a center rectangle on the top plane."">
-      <figcaption>1. Start by sketching a center rectangle on the top plane.</figcaption>
+      <figcaption>1. Start by sketching a center rectangle on the top plane. Notice that we put the origin of the part at the center of the tube so that we can leverage the default geometry later on. </figcaption>
     </figure>
   </div>
 
@@ -216,7 +216,7 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
         <source src="/img/learning-course/stage1a/exercises/e1/e1s4.webm" type="video/webm"> 
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. </figcaption>
+      <figcaption>4. Add the top holes. Set the centerpoint of the hole to be vertical with the midpoint of the bottom line, then Mirror the hole across, using the front plane as the mirror line. We are able to use the front plane to mirror since we intelligently placed the origin at the center of the tube in step 1. </figcaption>
     </figure>
   </div>
 
@@ -226,14 +226,14 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
         <source src="/img/learning-course/stage1a/exercises/e1/e1s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. </figcaption>
+      <figcaption>5. Add the side holes. Create the layout for the side holes by creating a center point rectangle and turning it into construction geometry. Again, having the origin at the center of the tube lets us place the center of the pattern at the center of the tube. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e1/e1s6.webp" style="width:100%; data-description="6. Name the key sketches and part. Set the material to be 6061 Aluminum."">
-      <figcaption>6. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
+      <figcaption>6. Extrude the holes to cut all the way through the tube. Name the key sketches and part. Set the material to be 6061 Aluminum. </figcaption>
     </figure>
   </div>
 
@@ -293,7 +293,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 - The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
-??? Warning "Creating New Parts"
+???+ Warning "Creating New Parts"
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
     <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
@@ -314,7 +314,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e2/e2s1.webp" style="width:100%; data-description="1. Start by sketching the tubes on the right plane."">
-      <figcaption>1. Start by sketching the tubes on the right plane.</figcaption>
+      <figcaption>1. Start by sketching the tubes on the right plane. Positioning the origin horizontally in the center of the part studio enables mirroring the vertical tube from the left to the right using the front plane.</figcaption>
     </figure>
   </div>
 
@@ -661,6 +661,7 @@ Here is a quick summary of what you have achieved in 1A:
 * Learned how to model basic FRC structures
 * Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
 * Learned how to assemble basic models using `Group` and `Fasten`
+* Learned about leveraging default geometry to enable easy symmetry with intelligently placed origins
 <!-- * Learned how to insert models into assemblies using the MKCad parts library -->
 
 In Stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 

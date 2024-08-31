@@ -96,8 +96,7 @@ So far the models you have created are all structural components, but this is on
 
 In this stage, you'll focus on the fundamentals of power transmissions, with an emphasis on how to model them in CAD. The process of selecting motors and calculating power transmission ratios will be explored later in Stage 2 of the guide with multiple different mechanisms.
 
-!!! Example
-    Below are some examples of power transmissions found in robots to achieve a range of different tasks.
+???+ Example "Examples of Power Transmissions in Robots"
 
     <center>**Power Transmission Examples**</center>
     <!-- Slideshow container -->
@@ -173,9 +172,6 @@ Shafts transmit rotational power along an axis, with hex shafts being the most c
 
 Bearings allow shafts to spin independently of plates and/or things to spin independently of shafts. Standard hex shafts use 1/2" hex bearings, while rounded hex shafts can use round bearings for easier assembly.
 
-<center><img src="\img\learning-course\stage1b\examples\shaftspining.gif" style="width:75%"></center>
-<center>*A spinning shaft in bearing*</center>
-
 
 !!! Tip
     The easiest way to model shafts is to use the [`Shaft` Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
@@ -183,11 +179,15 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 <center><img src="\img\learning-course\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
 
+??? Example "Example of a Shaft Spinning in a Bearing"
+    <center><img src="\img\learning-course\stage1b\examples\shaftspining.gif" style="width:75%"></center>
+    <center>*A spinning shaft in bearing*</center>
+
 ## Torque and Speed
 
 When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. In FRC, the unit used for speed is typically Rotations Per Minute (RPM). The units used for torque is typically Newton-Meters (Nm).
 
-!!! Note
+!!! Note "Torque and Speed"
     Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy (ignoring losses like friction), so if speed is reduced through mechanical means, torque must increase.
 
 ### Mechanical Advantage
@@ -308,7 +308,7 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/) page.
 
-!!! Tip
+???+ Tip "Locking Mate Inferences"
     To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
     <center>
       <video width="1920" controls>
@@ -702,7 +702,7 @@ Belts also come in various widths. In FRC, you will typically use either 9 mm or
 
 To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
 
-!!! Note
+!!! Note "Capturing Design Intent"
     In order to capture design intent, it should be clear where dimensions are derived from. Simply copy pasting the calculated center to center distance from ReCalc into the sketch does not convey any information about the belt.
 
     Thus, to capture the design intent, you wil use the FRC functions functionality of the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433), which will allow you to calculate belt and chain center to center distances directly inside sketches. The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in Stage 1C. The Origin Cube feature will be **the first feature in all part studios** from here on out.
@@ -863,12 +863,11 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 
 One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Handbook page](/design-handbook/) also dives deeper into this topic.
 
-!!! Example
+??? Example "Example of Chain Tensioning"
     <center><img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
     <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
 
 
-<br>
 <br>
 
 ## Exercise 3: Belt and Gear Transmission
