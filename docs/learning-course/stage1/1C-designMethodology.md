@@ -540,8 +540,8 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
 Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
 
-!!! note "Verification"
-    If all is done correctly your assembly should weigh approximately 31.415lbs.
+!!! success "Verification"
+    If all is done correctly your assembly should weigh approximately 31.4lbs.
 
 More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
 

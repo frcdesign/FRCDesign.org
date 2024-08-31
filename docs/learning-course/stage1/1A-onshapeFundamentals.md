@@ -237,8 +237,8 @@ For this exercise, you will be modeling a simple 2x1 with some holes in it. For 
   </div>
 </div>
 
-!!! note "Verification"
-    If you did everything correctly your box tube should weigh about 0.351lbs
+!!! success "Verification"
+    If you did everything correctly your box tube should weigh about 0.35lbs
 
 Notice how we utilized construction geometry to define the location of the holes on the 2" face of the tube. Using construction geometry to assist with sketching makes your parts more parametric and betters conveys design intent compared to manually specifying the location of each hole with dimensions.
 
@@ -395,7 +395,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 
-!!! note "Verification"
+!!! success "Verification"
     If all is done correctly your parts should weigh a combined 0.27lbs
 
 <br>
@@ -544,8 +544,8 @@ In this exercise, you were introduced to yet another highly useful Featurescript
 
 It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.946lbs.
+!!! success "Verification"
+    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.95lbs.
                           
 ### Exercise #4: Climber Hook
 
@@ -653,7 +653,7 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
-!!! note "Verification"
+!!! success "Verification"
     If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
 
 ## Summary
