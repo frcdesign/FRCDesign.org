@@ -7,29 +7,35 @@ description: A list of contributors to FRCDesign.org
 
 FRCDesign.org would not happen without the wonderful work of these people!
 
-## Website Writers
+## Primary Contributors
 - David
 - Kelly
 - Andrew Card
 - Jonathan Mi
+
+## Other Contributors
 - Brendan 
 - Astro
 - Neel 
 - Eeshwar 
 - Vaughn
-
-## External Contributors
-- Evan
+- Nick Coussens
+- Eliot
 
 ## Additional Input
+- Andrew Torrance
+- JJ
+- Mike Corsetto
 - Kremer
 - Nick Aarestad
+- Andrew Lawrence
+- Bryce
 - Trisha
 - Chickenbonker
-- Andrew Torrance
 - Lati
 - Jeremy
 - Sarah
+- Evan
 
 ## Social Card Design
 - Ben
