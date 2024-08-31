@@ -36,7 +36,7 @@ Rotary mechanisms enable the pivoting of mechanisms through rotational movement.
 <center><figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption></center>
 <br>
 
-Take a look at [this video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65) to see team 2910's 2023 robot pivoting arm in action. 
+Take a look at [Team 2910's 2023 robot reveal video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65 "2910 2023 Reveal Video"){:target="_blank"} to see their pivoting arm in action. 
 
 Two types of pivot drive systems exist: Dead Axles and Live Axles. The following table compares the pros and cons of the two types.
 
@@ -66,7 +66,7 @@ Some key points when designing pivoting mechanisms are:
 | **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
 
 
-Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/ "Pivot Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 
 <br>
@@ -79,7 +79,7 @@ This stage's project is a simple dead axle pivot, not for any specific game or i
 
 The reference CAD model is provided. Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
-<center>[**Dead Axle Reference Document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938){ .md-button .md-button--primary } </center>
+<center>[**Dead Axle Reference Document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Requirements
 - **Reduction:** Use Max planetaries.
@@ -162,7 +162,7 @@ The following sections cover the design rationale for the pivot you will be copy
     | **Mounting Slop** | Loose bolt-to-hole interfaces can introduce slop.  | Use proper bolting and strong spacers. |
     | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
 
-    Details on these solutions are gone over in [the design handbook page about designing for controllability](../../design-handbook/design-writeups/DFC.md).
+    Details on these solutions are covered in [the design handbook page discussing designing for controllability](../../design-handbook/design-writeups/DFC.md "Designing for Controllability Page"){:target="_blank"}.
 
 
 

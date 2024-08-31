@@ -17,7 +17,7 @@ This week we will be designing a custom gearbox. Custom gearboxes can be used fo
         * Gearbox must fit within the space requirements as outlined
         * Gearbox may use any motors of your choice, minimum of 2 maximum of 3
 
-    [Beginner Document Template](https://cad.onshape.com/documents/a5430daff4670d1486b7695b/w/4da97d9476651eed57e3472c/e/4d2023b6ef24b1a9d48639b2?renderMode=0&uiState=664c23f2cf4914770d4488c9)
+    <center>[Beginner Template Document](https://cad.onshape.com/documents/a5430daff4670d1486b7695b/w/4da97d9476651eed57e3472c/e/4d2023b6ef24b1a9d48639b2?renderMode=0&uiState=664c23f2cf4914770d4488c9 "Beginner Template Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 === "Advanced Challenge"
     Advanced Challenge:
@@ -31,7 +31,7 @@ This week we will be designing a custom gearbox. Custom gearboxes can be used fo
         * No COTS gearboxes
         * Proper master sketch. 
 
-    [Advanced Document Template](https://cad.onshape.com/documents/3a922c18a861a358bab68348/w/ee43ec67ce25ef3ea6c8fc47/e/c6ede479085a56bd159f8031?renderMode=0&uiState=664c2414bdf7ee59183251be)
+    <center>[Advanced Template Document](https://cad.onshape.com/documents/3a922c18a861a358bab68348/w/ee43ec67ce25ef3ea6c8fc47/e/c6ede479085a56bd159f8031?renderMode=0&uiState=664c2414bdf7ee59183251be "Advanced Template Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 !!! question "Need Help?"
     If you are stuck, or have any questions, feel free to ask in the discord server! Same goes with getting your design looked over!

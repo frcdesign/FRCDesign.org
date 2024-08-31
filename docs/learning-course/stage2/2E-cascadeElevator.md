@@ -102,7 +102,7 @@ Elevators pop up commonly in FRC and are used to move mechanisms in a compact li
 <center><figcaption>2468's Cascade Elevator and 4414's Continuous Elevator</figcaption></center>
 <br>
 
-Some match videos with examples of elevators include [one showcasing 2468's 2023 Robot with a cascade-rigged elevator](https://www.youtube.com/watch?v=RAFjZgB_72w){target=void} and [one showcasing 4414's 2023 Robot with a continuous-rigged elevator](https://youtu.be/PKPuqpe1Wlg){target=void}.
+Watch the following match videos to see [2468's 2023 Robot with a cascade-rigged elevator](https://www.youtube.com/watch?v=RAFjZgB_72w "2468 2023 Match Footage Video"){target=void} and [4414's 2023 Robot with a continuous-rigged elevator](https://youtu.be/PKPuqpe1Wlg "4414 2023 Match Footage Video"){target=void} in action.
 
 Elevators as designed most typically may be out of the scope of a lower-capability team because of the amount of custom metal parts that need to be bought or manufactured, but once you know how one works and have designed one, you may be able to make one with minimal manufacturing capabalities and time required. This page will be covering the design of a cascade-rigged elevator due to the availability of COTS parts for it and the minimal manufacturing that would need to be done. 
 
@@ -135,7 +135,7 @@ Because elevators are just mechanisms to move other mechanisms around, this proj
 
 The reference CAD model is provided. Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
-<center>[**Cascade Elevator Reference Document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283){ .md-button .md-button--primary } </center>
+<center>[**Cascade Elevator Reference Document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Key Components
 
@@ -143,7 +143,7 @@ Elevators have some key components that differ from most other mechanisms, and i
 
 ??? Concept "Elevator Blocks"
 
-    Every modern elevator will use some form of "elevator block" to allow the stages to slide past each other smoothly using bearings. Most teams will purchase elevator blocks from WCP or TTB instead of manufacturing them in-house (because of the time investment and machining capabilities of a typical team) but ones can be made with plates instead of billet (see [2471 2018](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e)). 
+    Every modern elevator will use some form of "elevator block" to allow the stages to slide past each other smoothly using bearings. Most teams will purchase elevator blocks from WCP or TTB instead of manufacturing them in-house (because of the time investment and machining capabilities of a typical team) but elevator blocks can also be made with plates instead of billet (see [2471 2018 Robot CAD](https://cad.onshape.com/documents/bd18a956391f75b5bca27546/w/827793489fb93072e2a1d993/e/adea515b9f2a94ccfd7ca72e "2471's 2018 Robot Onshape Document"){:target="_blank"}). 
     <br>
 
     <figure markdown="span">
@@ -172,7 +172,7 @@ Elevators have some key components that differ from most other mechanisms, and i
 
 ??? Concept "Cable Clamp & Pulleys"
 
-    Cascade elevators function by moving a fixed length of cable from one side of a clamp to the other side of the clamp, to force the elevator up. This cable clamp is usually bolted to some form of crossmember. The elevator from this guide uses the TTB cable clamp to maintain consistency in rigging components (they come in [a kit](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r)). The clamp consists of two plates; the first one is fastened to the tube and the second one is ONLY fastened to the first plate. You can choose to make access holes for the bolts or bolt all the way through the cross member with a crushblock.
+    Cascade elevators function by moving a fixed length of cable from one side of a clamp to the other side of the clamp, to force the elevator up. This cable clamp is usually bolted to some form of crossmember. The elevator from this guide uses the TTB cable clamp to maintain consistency in rigging components (they come in [a kit](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit?_pos=6&_sid=1876486ab&_ss=r"TTB Pulley Kit Product Page"){:target="_blank"}). The clamp consists of two plates; the first one is fastened to the tube and the second one is ONLY fastened to the first plate. You can choose to make access holes for the bolts or bolt all the way through the cross member with a crushblock.
 
     !!! Note 
         The WCP cable clamp uses a similar design but the fasteners go through both plates into the crossmember tube, sharing the clamping force with the crossmember.
@@ -191,7 +191,7 @@ Elevators have some key components that differ from most other mechanisms, and i
         <img src="/img/learning-course/stage2-elevator/carriage.webp" style="width:50%">
     </figure>
 
-    To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585) (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
+    To ensure smooth motion, these cables need tensioned. One of the best ways to tension these cables is through a ratcheting cable spool. The COTS solution is to use the [WCP Ratchet Plate](https://wcproducts.com/products/wcp-0585 "WCP Ratchet Plate Product page"){:target="_blank"} (though an easy homemade solution can be done by cutting the end off of a ratcheting wrench and fastening it to your mechanism), with a hex shaft acting as the spool. The hex shaft gets a hole drilled in it so the cable is forced to wrap around it. 
 
     It is important to tie a self-tightening knot in the cable to prevent this from coming undone under high load. This ratcheting spool only needs to be done on one side, with a simple fixed loop on the other side. To tension properly, you will need to loosen the clamping plate before adding tension. This is for two reasons: in order to maintain sync between the stages and so that the tension gets added to each side instead of just the side with the ratchet.
     <br>
@@ -259,14 +259,14 @@ Elevator master sketches usually start with an extended side view so you can dri
 
 
 ### Part Studio
-1. Use the origin cube featurescript and derive the master sketches if you made them in a separate part studio.
+1. Add the `Origin Cube` feature and derive the master sketches if you made them in a separate part studio.
 2. Use extrude individual to create the tubes (without creating only duplicates; this means only the bottoms of stages on one side).
 3. Convert the extrusions into tubes.
 
     ??? Tip "Converting Extrusions into Tubes"
         Tube converter is the easiest way to do this, as demonstrated before, but the hole pattern can break things and be misaligned pretty easily if the dimensions of the elevator end up changing. The most parametric way is to shell the tubes manually, then use a mix of sketches and linear patterns to create the hole pattern. This way you can build design intent into the hole pattern so it won't be misaligned with anything when dimensions change.
 
-        To create parametric hole patterns, you first use the [**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f) featurescript from CADSHARP to measure the length of the tube. You create your first hole at the top of the tube, then create a feature pattern or sketch pattern down the length of the tube with the distance of 0.5" and the instance count set to `((#frame_side_tube/inch)*2)-1`. This method keeps the hole count parametric to the length of the tube.
+        To create parametric hole patterns, you first use the [**Measure Value**](https://cad.onshape.com/documents/77baa8153589a7fc5f289829/w/cffd0f2a7077380d5378a885/e/d3174bf5315e6aafcb889367?renderMode=0&uiState=652ee7d25129162fc0afad5f "Measure Value Featurescript Onshape Document"){:target="_blank"} featurescript from CADSHARP to measure the length of the tube. You create your first hole at the top of the tube, then create a feature pattern or sketch pattern down the length of the tube with the distance of 0.5" and the instance count set to `((#frame_side_tube/inch)*2)-1`. This method keeps the hole count parametric to the length of the tube.
 
 4. Transform and copy the tubes to complete the structure.
 
@@ -276,17 +276,17 @@ Elevator master sketches usually start with an extended side view so you can dri
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../design-handbook\structure\structure.md).
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../design-handbook\structure\structure.md "Structure Handbook Page"){:target="_blank"}.
 
     <figure markdown="span">
         <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
     </figure>
 
 6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
-7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit) into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
+7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit "TTB Chain Comb Product Page"){:target="_blank"} into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
 8. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
 9. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
-10. Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit) into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
+10. Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit "TTB Cable Clamp Product Page"){:target="_blank"} into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
 11. Add holes for the tube plugs on the crossmember.
 12. Create the chain transmission, including the chain, any custom spacers, and axles
 13. Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable

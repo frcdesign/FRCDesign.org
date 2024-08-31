@@ -178,7 +178,7 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 
 
 !!! Tip
-    The easiest way to model shafts is to use the [`Shaft` Featurescript](/resources/featurescripts/). For bearings, insert your desired bearing from the MKCad app.
+    The easiest way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}. For bearings, insert your desired bearing from the MKCad app.
 
 <center><img src="\img\learning-course\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
@@ -296,17 +296,17 @@ It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather th
 ## Practice Exercises
 Make a copy of the Stage 1B Exercises Document through the button below. A template for each exercise has been created for you in the exercises document (you do not need to create any new tabs).
 
-<center>[1B Exercises Document](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c){ .md-button .md-button--primary }
-[1B Exercises Solution](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b){ .md-button .md-button--primary } </center>
+<center>[1B Exercises Document](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/b31e08475df637b12d58f61e?renderMode=0&uiState=66cf9bde38437847c7b79c0c "1B Exercises Onshape Document"){:target="_blank" .md-button .md-button--primary }
+[1B Exercise Solutions](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b "1B Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary } </center>
 
 ## Exercise 1: Simple Gearbox 
 
-In this exercise, you will be CADing and assembling a simple single stage gearbox. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
+In this exercise, you will be CADing and assembling a simple single stage gearbox.
 
 The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the `Shaft` Featurescript, `Replicate` tool, MKCad parts library, and part configurations.
 
 !!! Note
-    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/) page.
+    Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
 
 !!! Tip
     To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
@@ -499,7 +499,6 @@ The goal of this exercise is to introduce how to model a very simple gear transm
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
 
 <br>
-<br>
 
 ## Exercise 2: Two Stage Gearbox
 
@@ -678,7 +677,6 @@ The goal of this exercise is to practice modeling more advanced gearboxes. You w
 In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
 
 <br>
-<br>
 
 ### Belts and Pulley Basics
 
@@ -686,7 +684,7 @@ Timing belt and pulley drives are mechanical systems used to transmit motion and
 
 
 <center><img src="\img\learning-course\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
-<center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts))*</center>
+<center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts){:target="_blank"})*</center>
 
 In order to change the torque and speed from the input to the output, different sized pulleys must be used. The mechanical advantage for belt transmissions, similar to gears, is based on the ratio between the number of teeth of the output pulley to the number of teeth of the input pulley. Note that unlike gears, pulleys will spin in the same direction.
 
@@ -700,18 +698,18 @@ Belts also come in various widths. In FRC, you will typically use either 9 mm or
 
 **Center to Center Calculation**
 
-To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts). In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
+To calculate the center-to-center distance of the pulleys, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/belts "ReCalc Design Calculator"){:target="_blank"}. In the calculator, you can set the belt pitch, desired center distance, and the number of teeth on each pulley to get the closest integer belt size  (belt tooth counts must be whole numbers) and corresponding center to center distance.
 
 !!! Note
     In order to capture design intent, it should be clear where dimensions are derived from. Simply copy pasting the calculated center to center distance from ReCalc into the sketch does not convey any information about the belt.
 
-    Thus, to capture the design intent, you wil use the FRC functions functionality of the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433), which will allow you to calculate belt and chain center to center distances directly inside sketches. The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in Stage 1C. The Origin Cube feature will be **the first feature in all part studios** from here on out.
+    Thus, to capture the design intent, you wil use the FRC functions functionality of the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"}, which will allow you to calculate belt and chain center to center distances directly inside sketches. The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in Stage 1C. The Origin Cube feature will be **the first feature in all part studios** from here on out.
 
 **Modeling Belt Transmissions**
 
-When modeling, you should draw the pitch diameter of the two pulleys and the centerline then connect the pulley circles with tangent lines to represent the belt. A 3D model of the belt can be generated using the [`Belt Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f).
+When modeling, you should draw the pitch diameter of the two pulleys and the centerline then connect the pulley circles with tangent lines to represent the belt. A 3D model of the belt can be generated using the [`Belt Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Belt Gen Featurescript Onshape Document"){:target="_blank"}.
 
-You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433) FRC functions:
+You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} FRC functions:
 
 * `#PulleyPD_5mm(n)`: Calculates the pitch diameter of a 5 mm pitch pulley with `n` teeth.
     * Ex: `#PulleyPD_5mm(18)` returns the pitch diameter of an 18T 5mm pitch pulley.
@@ -773,10 +771,6 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 </div>
 </div>
 
-
-
-
-<br>
 <br>
 
 ### Chain and Sprocket Basics
@@ -807,11 +801,11 @@ In FRC, #25 chain is most commonly used as it is strong yet relatively lightweig
 
 **Center to Center Calculation** 
 
-Calculating sprocket center-to-center is very similar to pulley center-to-centers. To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains). In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
+Calculating sprocket center-to-center is very similar to pulley center-to-centers. To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains "ReCalc Design Calculator"){:target="_blank"}. In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
 
-When modeling, you should draw the pitch diameter of the two sprockets and the centerline then connect the sprocket circles with tangent lines to represent the chain links. A 3D model of the chain can be generated using the [`Chain Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f). The modeling workflow is exactly the same as belt and pulley.
+When modeling, you should draw the pitch diameter of the two sprockets and the centerline then connect the sprocket circles with tangent lines to represent the chain links. A 3D model of the chain can be generated using the [`Chain Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Chain Gen Featurescript Onshape Document"){:target="_blank"}. The modeling workflow is exactly the same as belt and pulley.
 
-You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433) FRC functions:
+You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} FRC functions:
 
 * `#SprocketPD_25(n)`: Calculates the pitch diameter of a #25 pitch sprocket with `n` teeth.
     * Ex: `#SprocketPD_25(16)` returns the pitch diameter of an 16T #25 pitch sprocket.
@@ -861,19 +855,17 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
 
 **Chain Tensioners**
 
-One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Handbook page](/design-handbook/) also dives deeper into this topic.
+One difficulty when designing with chain is that it will physically stretch as it is used. This means the distance between each link will slightly increase, making the overall chain longer in a non-insignificant way. Loose chain can be difficult to fix if the chain transmission is not designed with chain tensioning in mind. Although you will not be learning about chain tensioning methods quite yet, you should keep this idea in the back of your mind. In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Handbook page](/design-handbook/ "Design Handbook Page"){:target="_blank"} also dives deeper into this topic.
 
 !!! Example
     <center><img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
     <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
 
-
-<br>
 <br>
 
 ## Exercise 3: Belt and Gear Transmission
 
-In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. Practice exercise solutions can be found [here](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/21fa04df80572c41ab64f27b).
+In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A.
 
 The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized. 
 
@@ -1213,7 +1205,7 @@ In this exercise, you modeled a fairly complex gearbox that was integrated with 
 
 To get a feel for how parametric your model is, you can try and change certain key dimensions in the layout sketches, such as the length of the tubes, angle of the tubes, length of the belt, and the size of the gears. Play around with which modifications will update smoothly and which require additional fixes in the CAD.
 
-You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Handbook](/design-handbook/) pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
+You may also be curious as to how things like the hole sizes, materials, etc were selected in each of these designs. You are encouraged to learn more by browsing the [Design Handbook](/design-handbook/ "Design Handbook Page"){:target="_blank"} pages which contain in-depth information on a wide range of topics, or by discussing with your team and or other students and mentors on the DDS Discord.
 
 <br>
 
