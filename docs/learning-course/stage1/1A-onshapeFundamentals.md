@@ -327,7 +327,7 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
     <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
 
-**Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -471,7 +471,7 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 - The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
 
-**Navigate to the "Exercise #3 Structure" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #3 Structure" part studio tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -586,7 +586,7 @@ As you get more comfortable with modeling, we can begin to create more complex p
 
 You will utilize the `Spacer` Featurescript for this exercise.
 
-**Navigate to the "Exercise #4 Climber Hook" part studio tab** in your copied document and **follow the instructions in the slides** to complete the second exercise.
+**Navigate to the "Exercise #4 Climber Hook" part studio tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
