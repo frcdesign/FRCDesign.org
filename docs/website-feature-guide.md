@@ -102,7 +102,7 @@ Different features of the website are vital to the different sections, and can b
 ## Across the Website
 
 - [Links](learning-course/index.md "Learning Course Landing Page"){:target="_blank"} are shown with green text
-- Clicking on an image enlarges it and shows a caption, if applicable
+- Clicking on an image enlarges it and shows a caption, if applicable. Press the `Esc` key to minimize it again. 
 - The website has a [glossary](resources/glossary.md "Glossary Page"){:target="_blank"} of terms related to the content. Whenever a word in that glossary is mentioned in the website, it will be underlined. You can hover over these underlined words to get a quick definition. Useful when you want to know what COTS or OTB means.
 - Some information is hidden in dropdowns. Try to check most of them!
     
