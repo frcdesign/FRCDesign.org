@@ -10,7 +10,8 @@ image: docs/img/mechanism-examples/drivebase/972dt.webp
 </figure>
 
 ### Links
-[CAD Link](https://lgsstudent.onshape.com/documents/0e95e39213c03c7423bfb91b/w/4b99a31cc58cad3a9204fd96/e/6abeeb6af28f118928da9d06?aa=true){target = "_blank"}
+
+[CAD Document](https://lgsstudent.onshape.com/documents/0e95e39213c03c7423bfb91b/w/4b99a31cc58cad3a9204fd96/e/6abeeb6af28f118928da9d06?aa=true "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the Design
 **Coming Soon**

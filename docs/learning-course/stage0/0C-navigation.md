@@ -7,7 +7,7 @@ You can create a document or folder or import CAD files from your computer using
 
 <center><img src="/img/learning-course/stage0/navigation/documentsPage.webp" style="width:90%"></center>
 
-You can use [this page](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1) in the learning center to explore the documents page.
+You can complete the [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} in the Onshape learning center to learn more about the documents page.
 
 ### Customizing Your Account
 
@@ -15,7 +15,6 @@ You can use [this page](https://learn.onshape.com/learn/course/navigating-onshap
 - Change email notifications
 - Change default view manipulation if you're more familiar with a different CAD software
 - Use the subscriptions section to renew your student/educator subscription each year
-
 
 ## Navigating Documents
 

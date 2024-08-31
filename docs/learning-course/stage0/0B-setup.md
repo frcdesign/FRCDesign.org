@@ -95,7 +95,7 @@
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
 
-To start registering, go to the [Onshape for Education](https://onshape.com/education-plan){:target="_blank"} page and select "Create EDU ACCOUNT" or click [this link](https://www.onshape.com/en/education/sign-up). Follow the slides below to finish registering.
+To start registering, go to the [Onshape for Education](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} page and select "Create EDU ACCOUNT" or click [this link](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"}. Follow the slides below to finish registering.
 
 <br>
 
@@ -164,7 +164,7 @@ If your team uses Onshape, contact your mentor/design lead for access to the Ons
 
 MKCad is an Onshape plugin that contains a large library of parts that are often useful in FRC.
 
-To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description){:target="_blank"} in the Onshape Appstore.
+To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description "MKCad App Store Page"){:target="_blank"} in the Onshape Appstore.
 
 Press "Subscribe", then "Get for Free". This will automatically add MKCad to your Onshape account.
 
@@ -179,9 +179,9 @@ Press "Subscribe", then "Get for Free". This will automatically add MKCad to you
 
 
 ## Featurescripts
-Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../resources/featurescripts.md).
+Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../resources/featurescripts.md "Featurescript Page"){:target="_blank"}.
 
-1. Open the document [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8){:target="_blank"}
+1. Open the document [Julia's Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}
 
 2. Click "Custom Features" 
 
@@ -200,7 +200,7 @@ Besides individual setup, if your team uses Onshape or are switching to it, one 
 
 We recommend you read the ChiefDelphi post linked below for a better overview and walkthrough to set it up for your team.
 
-[Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394)
+[Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394 "Onshape Educator Plan Chief Delphi Thread"){:target="_blank"}
 
 <br>
 

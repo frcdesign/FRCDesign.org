@@ -7,7 +7,9 @@ description: The best practices to follow with organizing your mechanism documen
 
 Each subsystem document should have at least one part studio and one assembly associated with it. 
 
-[Stage 2B - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410) is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
+The Stage 2B Basic Shooter is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
+
+<center>[Stage 2B - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Stage 2B Basic Shooter Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></center>
 
@@ -21,11 +23,15 @@ You may want to split subsystems with multiple degrees of freedom into multiple 
 For example, you could split an elevator document into one part studio and corresponding rigid assembly for each stage. The top-level elevator assembly would thus include each of the stage subassemblies within it and the slider mates.
 
 
-[Stage 2D - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2) is a subsystem with a static portion and a pivoting portion. Functionally, this contains a part studio, a static assembly for the gearboxes and pivot, a rigid assembly for the arms and rollers, and a top-level assembly combining the two subassemblies.
+The Stage 2D Slapdown Intake is a subsystem with a static portion and a pivoting portion. Functionally, this contains a part studio, a static assembly for the gearboxes and pivot, a rigid assembly for the arms and rollers, and a top-level assembly combining the two subassemblies.
+
+<center>[Stage 2D - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2D Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/subassembly.webp" style="border:5px solid #ADADAD"></center>
 
-[Stage 2E - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1) is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+The Stage 2E Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+
+<center>[Stage 2E Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2E Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
 

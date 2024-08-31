@@ -34,6 +34,6 @@ KrayonCAD is a simple as 1, 2, 3:
     <center><img src="\img\resources\krayonCAD\krayoncadMate.gif"></center>
 
 ## Credit
-[Link to original ChiefDelphi release and contributors](https://www.chiefdelphi.com/t/announcing-krayoncad-a-robot-planning-library-for-onshape/444484)
+[ChiefDelphi release post and contributors](https://www.chiefdelphi.com/t/announcing-krayoncad-a-robot-planning-library-for-onshape/444484 "KrayonCAD Release Page"){:target="_blank"}
 
 <br>

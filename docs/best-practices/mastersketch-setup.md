@@ -47,15 +47,15 @@ Effective mastersketching requires you to stay organized. This means:
 
 - Multiple sketches, usually one per subsystem, within the mastersketches part studio. Keep everything separate!
 - Name your sketches accordingly
-- You can also give your sketches [different colors](https://www.youtube.com/watch?v=ZG_gVeGdI5c){:target="_blank"} to differentiate between them
+- You can also give your sketches [different colors](https://www.youtube.com/watch?v=ZG_gVeGdI5c "Adding Color to Sketches in Onshape Video Tutorial"){:target="_blank"} to differentiate between them
 - Sketch all the possible states of each moving subsystem 
 
 <figure>
 <img src="/img/learning-course/stage1c/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
 </figure>
 
-Mastersketching is an art that can require some practice to get the hang of. While Stage 3 helps you learn and practice doing full master sketches, [this tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U){:target="_blank"} can help you get started if you are unsure.
+Mastersketching is an art that can require some practice to get the hang of. While Stage 3 helps you learn and practice doing full master sketches, [this tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U "2023 David Bot Master Sketch Livestream"){:target="_blank"} can help you get started if you are unsure.
 
-A presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing){:target="_blank"}
+A presentation of an example: [8177 Vector 2023 Robot](https://docs.google.com/presentation/d/1IwjXvcAZFVcEUFSZZDHlTYlLA_5PbI3wPJzbfAOTz8Y/edit?usp=sharing "8177 2023 Robot Master Sketch Presentation"){:target="_blank"}
 
 <br>

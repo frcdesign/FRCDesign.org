@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/intake/4bar/clean.webp
 
 ### Link
 
-[CAD Link](https://cad.onshape.com/documents/6234b0d874936d2e9369564a/w/d125e10125b7bf681b26e6fc/e/b555fd481c3384d870efd5e1){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/6234b0d874936d2e9369564a/w/d125e10125b7bf681b26e6fc/e/b555fd481c3384d870efd5e1 "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the Design
 

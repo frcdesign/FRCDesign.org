@@ -18,9 +18,9 @@ The two types of OTB intakes are "slapdown" which consists of a single set of ar
 <center><figcaption>1323's 2022 Slapdown Intake and 1678's 2022 Four-bar Intake in action</figcaption></center>
 <br>
 
-[This video](https://www.youtube.com/watch?v=pSQX5c7G8yg) is a great example of a slapdown intake in 2022, on Madtown 1323's robot.
+[Match footage of Team 1323's 2022 intake](https://www.youtube.com/watch?v=pSQX5c7G8yg "Team 1323 Match Footage"){:target="_blank"} is an example of a well executed slapdown intake.
 
-Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../mechanism-examples/intake/slapdown/index.md) and [4-bar intakes page](../../mechanism-examples/intake/4bar/index.md). The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} and [4-bar intakes page](../../mechanism-examples/intake/4bar/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 ## Project
 
@@ -30,7 +30,7 @@ This stage's project is a slapdown intake for 2022 or 2023 (both with the same g
 
 The reference CAD model is provided. Model a copy of it in your own document. The mechanism design concepts, decisions made for this design, and a basic guide are all provided below.
 
-<center>[**Slap Down Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f){ .md-button .md-button--primary } </center>
+<center>[**Slap Down Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f "Slap Down Intake Reference Document"){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 
@@ -38,7 +38,7 @@ The following sections cover the design rationale for the slapdown intake you wi
 
 ??? Concept "Intake Golden Rules"
 
-      There are many good resources out there for how to design good intakes. Torrance from Team 254 has provided [a list of golden rules for roller intakes](https://www.chiefdelphi.com/t/besiktas-rsports-9483-2023-off-season-build-blog/440340/15). This will also be slightly paraphrased/added to in the intake fundamentals page.
+      There are many good resources out there for how to design good intakes. Andrew Torrance from Team 254 has provided [a list of golden rules for roller intakes](https://www.chiefdelphi.com/t/besiktas-rsports-9483-2023-off-season-build-blog/440340/15 "Andrew Torrance's Golden Intake Rules Thread"){:target="_blank"}.
 
       Summary:
 
@@ -74,12 +74,14 @@ The following sections cover the design rationale for the slapdown intake you wi
 
       The rollers are powered with a single Kraken motor with small reduction of 1.6:1; often, you want rollers to be spinning very fast, but still have enough torque to bring in game pieces without stalling the motor. Compression also matters a lot with this. You want to balance compression of a game piece so the intake can move it easily enough without needing too much extra torque from the motors. This is often why adding grippy material to the rollers instead of increasing compression is optimal.
 
-      There are 3 total rollers. Rollers often provide more consistent compression than wheels and are a great option for transporting game pieces. They are typically cheaper, lighter, and easier to put on a dead axle than wheels. Dead axles allow the intake arms to be connected by effectively long standoffs, making the assembly more rigid, while still allowing the rollers to spin on bearings. The dead axle rollers used in this project use polycarbonate tube and 3D-printed endcaps for the bearings and power transfer. The document can be found [here](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d).
+      There are 3 total rollers. Rollers often provide more consistent compression than wheels and are a great option for transporting game pieces. They are typically cheaper, lighter, and easier to put on a dead axle than wheels. Dead axles allow the intake arms to be connected by effectively long standoffs, making the assembly more rigid, while still allowing the rollers to spin on bearings. The dead axle rollers used in this project use polycarbonate tube and 3D-printed endcaps for the bearings and power transfer. We use Andrew Card's Configurable Rollers for the example intake, but you are also welcome to model your own rollers.
 
-      Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, lowering the vertical height of the intake when stowed.
+      <center>[Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
+
+      Only 2 of the rollers are on the pivoting arm portion. The final one inside the frame perimeter is on a separate plate. This can keep the pivot for the intake arms lower, decreasing the vertical height of the intake when stowed.
       <figure>
     <img src="\img\learning-course\stage2-slapdown\ball-path.webp" alt="Ball Path" width="60%" style="border:5px solid #ADADAD">
-    <figcaption> See how the roller positions impact the ball path</figcaption>
+    <figcaption> Roller positions influence the ball path.</figcaption>
     </figure>
 
 ??? Concept "Zombie Axles"
@@ -92,8 +94,8 @@ The following sections cover the design rationale for the slapdown intake you wi
 
    1. Sketch the side of your drivetrain and bumper profile
    2. Sketch the path of the ball over the bumper
-   3. Sketch roller or wheel positions needed to get the game piece to move that way. The distance between rollers should be adjusted using the [WCP Belt Calculator](https://wcproducts.com/pages/calculator-belt). "Extra center" should be set as -0.02 for ease of assembly and efficiency.
-   4.  Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
+   3. Sketch roller or wheel positions needed to get the game piece to move that way. Use the belt transmission tools you learned in 1B to dimension the location of the rollers. Decreasing the c-c distance by 0.02" can help with ease of assembly and roller efficiency.
+   4. Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
 
 <center><img src="/img/learning-course/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
 
@@ -115,7 +117,9 @@ The following sections cover the design rationale for the slapdown intake you wi
 ### Assembly
 Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. 
 
-Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. [Here's the link](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d) to the deadaxle rollers again. 
+Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. For the rollers, insert them from the configurable rollers document.
+
+<center>[Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 <center><img src="/img/learning-course/stage2-slapdown/staticAssembly.webp" width="70%"></center>
 

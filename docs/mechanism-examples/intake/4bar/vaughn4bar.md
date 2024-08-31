@@ -11,7 +11,7 @@ image: docs/img/mechanism-examples/intake/4bar/vaughn4bar.webp
 
 ### Link
 
-[CAD Link](https://cad.onshape.com/documents/0240c56dd59a35adc08efb64/w/e5c853d4b027af1b1c60e272/e/e5ac8dd57fe0c91a13372170){target = "_blank"}
+[CAD Document](https://cad.onshape.com/documents/0240c56dd59a35adc08efb64/w/e5c853d4b027af1b1c60e272/e/e5ac8dd57fe0c91a13372170 "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
 ## Behind the design
 

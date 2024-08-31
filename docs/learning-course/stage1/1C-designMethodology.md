@@ -106,14 +106,14 @@ Even if you've already CADed a drivetrain the past, this guide serves as an exce
 
 As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on the Discord!
 
-<center>[1C Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51){ .md-button .md-button--primary }</center>
+<center>[1C Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51 "1C Drivebase Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ## Master Sketch Methodology
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
 
 Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
 
-To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/) page.
+To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/ "Master Sketch Best Practices Page"){:target="_blank"} page.
 
 !!! Example
     <center><img src="\img\learning-course\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
@@ -122,7 +122,7 @@ To achieve this, a ***master sketch*** is utilized. A master sketch is a series 
 ## Swerve Drivebase
 A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of reliable COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 
 
-A swerve drivebase is composed of four *swerve modules*. Each module has two motors: one for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module). There are many other COTS options available, each with their own advantages and tradeoffs. 
+A swerve drivebase is composed of four *swerve modules*. Each module has two motors: one for spinning the wheel and one for steering it. This enables the robot to translate in any direction independent of the rotation of the robot. In this project, we'll be using [SDS MK4i modules](https://www.swervedrivespecialties.com/products/mk4i-swerve-module "SDS MK4i Product Page"){:target="_blank"}. There are many other COTS options available, each with their own advantages and tradeoffs. 
 
 <!-- You can learn more about drivetrains on the [Design Handbook](/design-handbook/mechanisms/drivetrain/) page. -->
 
@@ -131,12 +131,12 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 
 As was introduced in Stage 1A, robot structures are typically constructed out of aluminum box tubing. The drivebase is no exception to this. Most teams will opt to design their box tubing with a standard 0.5" spacing pattern of 0.196" diameter holes. This enables modularity and allows for easy integration of many COTS components like gussets.
 
-Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing), [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion), and [REV](https://www.revrobotics.com/MAXTube/) sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
+Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing){:target="_blank"}, [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion){:target="_blank"}, and [REV](https://www.revrobotics.com/MAXTube/){:target="_blank"} sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
 ### Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
-Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. **You should start every part studio with an origin cube to set a reference for the origin of the robot.** The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method).
+Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cube` Featurescript to create an origin cube. **You should start every part studio with an origin cube to set a reference for the origin of the robot.** The origin of the robot is typically defined as the center of the drivebase on ground level. You can learn more about origins and the origin cube in [Assembly Best Practices](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"}.
 
 
 <center>**Drivetrain Layout Sketch Slides**</center>
@@ -232,7 +232,7 @@ Start by creating a part studio called `Master Sketch`. Then, use the `Origin Cu
   </div>
 </div>
 
-As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. Besides the [page on master sketches](/best-practices/mastersketch-setup/), you will be practicing master sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
+As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. You will be practicing master sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
 
 ### Deriving Layout Sketches and Part Modeling
 
@@ -362,8 +362,7 @@ Start by creating a new folder tab called `Drivetrain`. Then, create a new part 
 
 In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
 
-At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/) page.
-
+At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can more learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"} page.
 
 ### Assembly
 
@@ -530,16 +529,18 @@ Make sure you sort the instances in your assembly into folders (i.e. frame, swer
 !!! note "Verification"
     If all is done correctly your assembly should weigh approximately 31.415lbs.
 
-More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/).
+More details about best practices for Onshape assemblies are included on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}.
 
 It should be noted that while modeling every detail of the robot hardware (bolts, rivets, nuts) is beneficial for purchasing and real life assembly purposes, it isn't strictly necessary. Time is a precious resource, especially during build season, so you should spend it on what will give you the biggest return.
 
 ## Top Level Robot Assembly
-Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the [assembly hierarchy](/best-practices/document-setup/). Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
+Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the [assembly hierarchy](/best-practices/document-setup/ "Document Setup Best Practices Page"){:target="_blank"}. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
 
-Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023).
+Create an assembly tab above the `Master Sketch` part studio and name it `Top Level Robot Assembly`. Here, you will bring in the drivebase and the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023 "1678 2023 Blue Alliance Page"){:target="_blank"}.
 
-Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80) to access the scoring mechanism.
+The scoring mechanism CAD can be accessed from here:
+
+<center>[1678 2023 Scoring Mechanism Document](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80 "Team 1678 2023 Scoring Mechanism Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 <center>**Top Level Robot Assembly**</center>
 <!-- Slideshow container -->
@@ -589,7 +590,7 @@ Copy [this link](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e
   </div>
 </div>
 
-And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies).
+And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.
 
 
 
@@ -610,7 +611,7 @@ Remember, practice is essential – the more CAD models you create, the more pro
 
 In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1! Note that in stage 2, the learning course will become less step-by-step and more open ended, which will enable you to add your own input on designs based on your team's way of doing things. As always though, reference CAD models will be available.
 
-Optionally, please fill out [this feedback form](https://forms.gle/J1QNvRkvpi7xyfuU8) about stages 0 and 1.
+Optionally, please fill out [this feedback form](https://forms.gle/J1QNvRkvpi7xyfuU8 "Learning Course Feedback Form"){:target="_blank"} about stages 0 and 1.
 
 <br>
 
