@@ -109,7 +109,7 @@ Welcome to Stage 1! Here, you'll engage in a series of Onshape exercises and pro
 In 1A, there are 3 major sections: sketching and part design, multi-part part studios, and assemblies. Each section has a link to a learning course to learn the skills of each topic, then an exercise to help immediately apply those skills in an FRC context. 
 
 ### Learning Courses
-[Onshape's Learning Center](https://learn.onshape.com/){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
+[Onshape's Learning Center](https://learn.onshape.com/ "Onshape Learning Center"){:target="_blank"} provides free learning courses and articles covering everything from document navigation and sketching to advanced surface and sheet metal modeling. It's a valuable resource for both novice and seasoned users alike. We use a few selected courses to assist learning the fundamentals of doing CAD in Onshape, but the rest of the curriculum is project based.
 
 The structure of the courses includes some short videos and practice models, expected time is 2-4 hours.
 
@@ -544,7 +544,7 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
-It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
+It should be noted that while fixing the tube is not considered an [assembly best practice](/best-practices/assembly-setup#origin-cube-method "Assembly Best Practices Page"){:target="_blank"} for setting the origin of an assembly, it is sufficient for the purposes of these exercises.
 
 ### Exercise #4: Climber Hook
 
