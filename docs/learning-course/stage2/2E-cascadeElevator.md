@@ -92,7 +92,7 @@ details {
 }
 </style>
 
-# 2H: Cascade Elevator
+# 2E: Cascade Elevator
 
 ## Cascade Elevator
 Elevators pop up commonly in FRC and are used to move mechanisms in a compact linear fashion. This is usually to reach higher places with a mechanism, reach far out from your frame perimeter, or even climb on a field element. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either "Cascade" or "Continuous." 
@@ -276,7 +276,7 @@ Elevator master sketches usually start with an extended side view so you can dri
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../design-handbook\structure\structure.md "Structure Handbook Page"){:target="_blank"}.
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](https://www.frcdesign.org/design-handbook/structure/structure/#crush-blocks "Structure Handbook Page"){:target="_blank"}.
 
     <figure markdown="span">
         <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
