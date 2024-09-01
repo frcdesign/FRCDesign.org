@@ -92,7 +92,7 @@ details {
 }
 </style>
 
-# 2H: Cascade Elevator
+# 2E: Cascade Elevator
 
 ## Cascade Elevator
 Elevators pop up commonly in FRC and are used to move mechanisms in a compact linear fashion. This is usually to reach higher places with a mechanism, reach far out from your frame perimeter, or even climb on a field element. Elevators are typically classified by the way they are "Rigged". Elevator "Rigging" is what allows the motor to transmit motion to each stage. FRC elevators are usually rigged to be either "Cascade" or "Continuous." 
