@@ -36,14 +36,14 @@ The most common way to launch game pieces is with flywheel shooters. Other metho
 <center><figcaption>1678's 2022 and 2024 Flywheel Shooters. The 2022 shooter launched 9.5" diameter inflated balls and the 2024 shooter launched 14" diameter foam rings.</figcaption></center>
 <br>
 
-[This video](https://youtu.be/QZKDnRvLhrA) is a good slow-motion look at how a ball gets propelled out of a shooter.
+[This video](https://youtu.be/QZKDnRvLhrA "1678 Shooter Slow Mo Video"){:target="_blank"} is a good slow-motion look at how a ball gets propelled out of a shooter.
 
-Other mechanism examples and deep dives for shooters can be found on the [ball shooters page](/mechanism-examples/shooter/). The design handbook page will have a deeper dive when the shooter design page is completed. 
+Other mechanism examples and deep dives for shooters can be found on the [ball shooters page](/mechanism-examples/shooter/ "Ball Shooters Page"){:target="_blank"}. The design handbook page will have a deeper dive when the shooter design page is completed. 
 
 
 ## Project
 
-You will be designing a flywheel shooter to launch a Power Cell, a 7 inch diameter foam ball, from the 2020/2021 Infinite Recharge game. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE), [Team 1690 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw) and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI) for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf) and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf) for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball) for power cell specifications.
+You will be designing a flywheel shooter to launch a Power Cell, a 7 inch diameter foam ball, from the 2020/2021 Infinite Recharge game. Watch the [2020 Game Animation](https://www.youtube.com/watch?v=gmiYWTmFRVE "2020 Game Animation Video"){:target="_blank"}, [Team 1690 2020 Robot Reveal](https://www.youtube.com/watch?v=7EPv0gfnSEw "1690 2020 Robot Reveal"){:target="_blank"} and [2021 Chezy Champs Finals 2](https://www.youtube.com/watch?v=kBWlbf5j5SI "2021 Chezy CHamps Finals 2 Video"){:target="_blank"} for an understanding of the game tasks. Refer to the [game manual](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf "2020 Game Manual PDF"){:target="_blank"} and [field layout drawings](https://firstfrc.blob.core.windows.net/frc2020/PlayingField/LayoutandMarkingDiagram.pdf "2020 Field Layout Drawings"){:target="_blank"} for field elements and the [AndyMark website](https://www.andymark.com/products/7-in-diameter-foam-ball "Power Cell Product Page"){:target="_blank"} for power cell specifications.
 
 The shooter will be designed to shoot the Power Cells into the high goal from just behind the white "Initiation Line."
 
@@ -52,7 +52,7 @@ The shooter will be designed to shoot the Power Cells into the high goal from ju
 
 The reference shooter is provided below. Note that the reference shooter is not designed for the 2020 game. 
 
-<center>[Shooter Example]((https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410)){ .md-button .md-button--primary }</center>
+<center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ### Engineering Concepts & Decisions
 
@@ -69,7 +69,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
 
     For 2020, the initiation line on the field can serve as a reference point to estimate your shooting position and angle. The goal's scoring area is forgiving enough to accommodate slight variations in position, making precise alignment less critical. By using a shot distance calculator, you can estimate the optimal shooting parameters.
     
-    Explore [this 2020 trajectory calculator](https://www.desmos.com/calculator/euvciqv3tr) to see how adjustments to angle and speed affect your shot. Can you identify a combination of angle and speed that allows for consistent scoring even with some positional variation?
+    Explore [this 2020 trajectory calculator](https://www.desmos.com/calculator/euvciqv3tr "Desmos 2020 Trajcetory Calculator"){:target="_blank"} to see how adjustments to angle and speed affect your shot. Can you identify a combination of angle and speed that allows for consistent scoring even with some positional variation?
     !!! Calculator
         <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
 
@@ -108,13 +108,9 @@ The following sections cover the basic shooter concepts, as well as the reasons 
     <figcaption> Team 2056 and 118 shooting quickly through a high moment of inertia. </figcaption>
     </figure>
 
-    Acceleration time and recovery time can also be reduced by gearing down your motors properly, or adding additional motors. 
-
-    A fantastic tool to help you decide your gear ratio is [https://www.reca.lc/flywheel](https://www.reca.lc/flywheel). Given a set of information, it calculates spin-up time, recovery time, and estimated projectile speed. You can mess with the target shooter rpm, ratio, and mass of your flywheel shooter to try to optimize the spin-up time and recovery time, while keeping the projectile speed above around 12 m/s (for this game). For this shooter, [these calculations] were done and a 4:3 reduction was decided upon for the 4 inch shooter wheels and two 4 inch brass flywheels. 
-
     Acceleration and recovery times can be improved by properly gearing down your motors or adding additional motors.
 
-    A useful tool for determining the optimal gear ratio is the [ReCalc Flywheel Calculator](https://www.reca.lc/flywheel "ReCalc Flywheel Calculator){:target="_blank"}. This tool calculates spin-up time, recovery time, and estimated projectile speed based on input parameters. You can adjust the target shooter RPM, gear ratio, and flywheel mass to optimize performance, while ensuring the projectile speed remains above 12 m/s for this game. For this shooter design, [the calculations](https://www.reca.lc/flywheel?currentLimit=%7B%22s%22%3A40%2C%22u%22%3A%22A%22%7D&efficiency=90&flywheelMomentOfInertia=%7B%22s%22%3A24.688%2C%22u%22%3A%22in2%2Albs%22%7D&flywheelRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&flywheelRatio=%7B%22magnitude%22%3A1%2C%22ratioType%22%3A%22Reduction%22%7D&flywheelWeight=%7B%22s%22%3A3.086%2C%22u%22%3A%22lbs%22%7D&motor=%7B%22quantity%22%3A2%2C%22name%22%3A%22Kraken%20X60%2A%22%7D&motorRatio=%7B%22magnitude%22%3A1.33333%2C%22ratioType%22%3A%22Reduction%22%7D&projectileRadius=%7B%22s%22%3A2%2C%22u%22%3A%22in%22%7D&projectileWeight=%7B%22s%22%3A5%2C%22u%22%3A%22oz%22%7D&shooterMomentOfInertia=%7B%22s%22%3A16.056%2C%22u%22%3A%22in2%2Albs%22%7D&shooterRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&shooterTargetSpeed=%7B%22s%22%3A3000%2C%22u%22%3A%22rpm%22%7D&shooterWeight=%7B%22s%22%3A2.007%2C%22u%22%3A%22lbs%22%7D&useCustomFlywheelMoi=0&useCustomShooterMoi=0 "ReCalc Calculations for Example ShooteR"){:target="_blank"} were performed with ReCalc, leading to the selection of a 4:3 reduction for the 4-inch shooter wheels and two 4-inch brass flywheels.
+    A useful tool for determining the optimal gear ratio is the [ReCalc Flywheel Calculator](https://www.reca.lc/flywheel "ReCalc Flywheel Calculator"){:target="_blank"}. This tool calculates spin-up time, recovery time, and estimated projectile speed based on input parameters. You can adjust the target shooter RPM, gear ratio, and flywheel mass to optimize performance, while ensuring the projectile speed remains above 12 m/s for this game. For this shooter design, [the calculations](https://www.reca.lc/flywheel?currentLimit=%7B%22s%22%3A40%2C%22u%22%3A%22A%22%7D&efficiency=90&flywheelMomentOfInertia=%7B%22s%22%3A24.688%2C%22u%22%3A%22in2%2Albs%22%7D&flywheelRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&flywheelRatio=%7B%22magnitude%22%3A1%2C%22ratioType%22%3A%22Reduction%22%7D&flywheelWeight=%7B%22s%22%3A3.086%2C%22u%22%3A%22lbs%22%7D&motor=%7B%22quantity%22%3A2%2C%22name%22%3A%22Kraken%20X60%2A%22%7D&motorRatio=%7B%22magnitude%22%3A1.33333%2C%22ratioType%22%3A%22Reduction%22%7D&projectileRadius=%7B%22s%22%3A2%2C%22u%22%3A%22in%22%7D&projectileWeight=%7B%22s%22%3A5%2C%22u%22%3A%22oz%22%7D&shooterMomentOfInertia=%7B%22s%22%3A16.056%2C%22u%22%3A%22in2%2Albs%22%7D&shooterRadius=%7B%22s%22%3A4%2C%22u%22%3A%22in%22%7D&shooterTargetSpeed=%7B%22s%22%3A3000%2C%22u%22%3A%22rpm%22%7D&shooterWeight=%7B%22s%22%3A2.007%2C%22u%22%3A%22lbs%22%7D&useCustomFlywheelMoi=0&useCustomShooterMoi=0 "ReCalc Calculations for Example ShooteR"){:target="_blank"} were performed with ReCalc, leading to the selection of a 4:3 reduction for the 4-inch shooter wheels and two 4-inch brass flywheels.
 
     !!! Note
         Reductions or upductions should be done with belts due to their high efficiency and low maintenance. Use pulleys larger than 24 teeth on the flywheel and ensure high tooth engagement to maximize energy transfer and prevent belt skipping.
@@ -140,7 +136,7 @@ The following sections cover the basic shooter concepts, as well as the reasons 
         </figure>
         <figcaption>This is what it looks like if you have good contact time and compression with the exact same robot. (Warning: Loud Audio)</figcaption>
 
-    [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), Solid roller wheels, ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels)), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
+    [Stealth wheels](https://www.andymark.com/products/stealth-wheels-options "Stealth Wheel Product Page"){:target="_blank"}, Solid roller wheels, ([WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels "WCP Solid Rubber Wheel Product Page"){:target="_blank"}), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season. 
 
     The example design uses 4 inch diameter roller wheels. The diameter allows for enough contact time while being small enough to reasonably package. 
 
@@ -266,14 +262,14 @@ Now make sure all the geometry in the master sketch is fully constrained (black)
 2. Model your main plate on the inside of the cross rails, sketching mounting hardware holes first, including standoffs to hold the bent polycarb following the edge of the large ball path circle concentric to the feeder wheels, then power transmission (motors, belt center-to-center lines, gear pitch circles), then finally the plate outline. Similar to sketching a large gearbox, isn't it? Make sure to extrude it and mirror it for parametric reference for other parts.
 3. Model the additional 1x1 tube used to mount the front of the shooter to the drivetrain. This helps keep it rigid despite potential flywheel vibrations at high speeds.
 4. Model the power transmission components using the contextless belts and shaft generator featurescripts. 
-5. Most pulleys will be inserted in the assembly using MKCAD's configurable HTD pulley part (they can all be 3D-printed), but the Kraken x60 pinion pulley for the feeder wheels will use a SplineXS 3D-printed part adapter. Use MKCAD to derive the base pulley into the part studio, and derive the SplineXS 3dp adapter from [this document](https://cad.onshape.com/documents/1b85e3f2d6e09d4be8bb81ba/v/531d064ba727d665df487f4a/e/e64fbaae49bd0a01559aa66c?renderMode=0&uiState=668f43004852b8565ff6390e). Perform a boolean subtract operation on the pulley with the adapter to create the cutout, checking keep tools to keep the adapter part. Make sure they're transformed into the correct place on the main plate.
+5. Most pulleys will be inserted in the assembly using MKCAD's configurable HTD pulley part (they can all be 3D-printed), but the Kraken x60 pinion pulley for the feeder wheels will use a SplineXS 3D-printed part adapter. Use MKCAD to derive the base pulley into the part studio, and derive the SplineXS 3dp adapter from [this document](https://cad.onshape.com/documents/1b85e3f2d6e09d4be8bb81ba/v/531d064ba727d665df487f4a/e/e64fbaae49bd0a01559aa66c?renderMode=0&uiState=668f43004852b8565ff6390e "SplineXS 3D Print Adapter"){:target="_blank"}. Perform a boolean subtract operation on the pulley with the adapter to create the cutout, checking keep tools to keep the adapter part. Make sure they're transformed into the correct place on the main plate.
 6. Model the polycarb backing with holes in it to attach it to the standoffs with zip ties.
 7. Model the 3D-printed camera mount and camera mount spacers for the Limelight 3
 
 <center><img src="/img/learning-course/stage2-shooter/Shooter Part Studio.webp" width="50%"></center>
 
 ### Assembly
-Create an assembly, insert the parts and origin cube from the part studio (excluding the reference tubes) with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. Try to use [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117).
+Create an assembly, insert the parts and origin cube from the part studio (excluding the reference tubes) with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. Try to use [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117 "Simplified Motors Onshape Document"){:target="_blank"}.
 
 <center><img src="\img\learning-course\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 
