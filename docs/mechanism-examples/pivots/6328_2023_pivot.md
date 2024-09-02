@@ -58,11 +58,19 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 <br>
 <br>
 <br>
-<br>
 </span>
 
 # **The Improved Design**
 
+## Custom Gearbox
+
+Due to the limited availability of MAXPlanetaries and belly pan space constraints, we have re-evaluated the way we are powering the first joint. The gearbox will be placed low in the belly pan powering a dead-axle MAXSpline where we chain that to the two first joints. This has a few major advantages over our previous approach: packaging, mechanically linking the first two joints, limited stick out into the middle of the robot to make it easier to pass through, and eliminating several MAXPlantary cartridges.
+
+<figure markdown="span">![6328 Gearbox](../../img/mechanism-examples/pivots/6328/6328_gearbox.webp){height=50% width=50%}</figure>
+
+The two bottom Neos power the MAXSpline that crosses the width of the robot, while the MAXPlantery neo is powering the joint of the cube intake.
+
+<br>
 For the new first joint dead axles, we are using 1.25” 0.25 wall tube turned down to 30mm for the bearings. To hold the dead axles, we were inspired by 971’s 2018 robot and their use of mitee-bites to hold the dead axle.
 
 <figure markdown="span">![6328_1](../../img/mechanism-examples/pivots/6328/6328_1.webp){height=50% width=50%}
@@ -129,7 +137,5 @@ The second joint has significantly more bracing in the previous design. We will 
 </figure>
 
 The wrist stackup will be the exact same as the previous, with the same end effector and encoder/chain system.
-
-### *Joint writeup written by [Matthew3 of FRC 6328](https://www.chiefdelphi.com/u/Matthew3/summary)*
 
 <br>
