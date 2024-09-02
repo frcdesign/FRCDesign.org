@@ -11,21 +11,21 @@ Pivots come in all sorts of shapes and sizes, and their designs are highly depen
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/mechanism-examples/pivots/6328/6328_2023_pivot.webp){width=100%}](6328_2023_pivot.md)</center>
+- <center>[![](../../img/mechanism-examples/pivots/6328/6328arm.webp){width=50%}](6328pivot.md)</center>
 
     ---
 
-    A double jointed arm with a high pivot, A-frame structure, and stub axles
-    
-    [:octicons-arrow-right-24: 6328 A-Frame Pivot](6328_2023_pivot.md)
+    Double jointed arm, high pivot, A-frame structure, stub axles
 
--   <center>[![](../../img/mechanism-examples/pivots/2910/2910_2023_pivot.webp){width=100%}](2910_2023_pivot.md)</center>
+    [:octicons-arrow-right-24: 6328 A-Frame Pivot](6328pivot.md)
+
+- <center>[![](../../img/mechanism-examples/pivots/2910/2910pivot.webp){width=100%}](2910pivot.md)</center>
 
     ---
 
-    A custom dead-axle pivot with a creative chain tensioning solution
-    
-    [:octicons-arrow-right-24: 2910 Dead Axle Pivot](2910_2023_pivot.md)
+    Chain-driven custom dead axle pivot, electronics and camera mounts, rotating final stage tensioning
+
+    [:octicons-arrow-right-24: 2910 Dead Axle Pivot](2910pivot.md)
 
 -   <center>[![](../../img/mechanism-examples/pivots/1690_2024_pivot.webp){width=100%}](1690_2024_pivot.md)</center>
 
@@ -43,11 +43,5 @@ Pivots come in all sorts of shapes and sizes, and their designs are highly depen
     
     [:octicons-arrow-right-24: 5460 Charged Up Belt Pivot](5460_2023_pivot.md)
 </div>
-
-<br>
-
-## More Examples
-
-**Coming Soon**
-
+  
 <br>

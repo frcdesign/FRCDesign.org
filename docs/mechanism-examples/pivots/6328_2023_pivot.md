@@ -17,6 +17,10 @@ table tr:hover{
     background-color: transparent !important;
 }
 
+span{
+  text-align: center !important;
+}
+
 </style>
 
 # 6328 A-Frame Pivot 2023
@@ -39,41 +43,93 @@ table tr:hover{
 In many cases, pivoting arms are a fundamental mechanism in the architecture of a robot. Thus, rigid, robust, and fast pivoting mechanisms can make or break a good design. Due to the massive moment load applied on this pivot joint at full arm extension, its essential that this pivots drive mechanism is both powerful and bulletproof.
 
 ### Force Breakdown on Pivot Arm
+
 <span style="text-align: center">Torque is a function of two main variables: the magnitude of the applied force, the distance from the axis of rotation to where the force is applied (often referred to as the lever arm or moment arm), as well as the angle at which the force is applied. The force applied across an objects mass by gravity can be equivalently represented by a single force applied to the center of gravity of the object. At full arm extension, the CoG of the lever arm is at its max distance from the pivot axis, and gravity applies a point load at the CoG at a 90 degree angle relative to the lever arm, at which point the torque applied the pivot is this force MULTIPLIED by the distance from the CoG to the pivot.</span>
 
 <figure markdown="span">![6328 Force Breakdown](../../img/mechanism-examples/pivots/6328/6328_forces.webp){height=150% width=150%}
 </figure>
 
-<span style="text-align: center">This massive moment load on the main pivot joint requires the pivot mechanism to both be built durable enough to handle this large torque without breaking, and also powerful enough to counteract and overcome this torque so that the pivot is able to be driven. When designing drive mechanisms and gearboxes for pivot arms like this, it is generally very useful to get a good estimation of how powerful a mechanism you will need to drive your arm depending on its length and mass, so many designers use simulators such as the [Reca.lc Arm Calculator](https://www.reca.lc/arm) or the [AMB Mechanism Ratio Calculator](https://ambcalc.com/mechanism?=)</span>
+<span style="text-align: center">This massive moment load on the main pivot joint requires the pivot mechanism to both be built durable enough to handle this large torque without breaking, and also powerful enough to counteract and overcome this torque so that the pivot is able to be driven. When designing drive mechanisms and gearboxes for pivot arms like this, it is generally very useful to get a good estimation of how powerful a mechanism you will need to drive your arm depending on its length and mass, so many designers use simulators such as the [Reca.lc Arm Calculator](https://www.reca.lc/arm) or the [AMB Mechanism Ratio Calculator](https://ambcalc.com/mechanism?=).</span>
 
+<span>
+<br>
+<br>
+*The following breakdown is an exerpt from the 6328 OpenAlliance thread on ChiefDelphi, written by [Matthew3 of FRC 6328](https://www.chiefdelphi.com/u/Matthew3/summary)*
+<br>
+<br>
+<br>
+<br>
+</span>
 
+# **The Improved Design**
+
+For the new first joint dead axles, we are using 1.25” 0.25 wall tube turned down to 30mm for the bearings. To hold the dead axles, we were inspired by 971’s 2018 robot and their use of mitee-bites to hold the dead axle.
+
+<figure markdown="span">![6328_1](../../img/mechanism-examples/pivots/6328/6328_1.webp){height=50% width=50%}
+</figure>
+
+For this, we use an ‘outside’ 0.25 aluminum plate with an interesting profile put into it for clearance around the tube and to be selective about contact points. On the inside plate, the one that can move, this same profile is used but flipped 180 degrees.
+
+<figure markdown="span">![6328_2](../../img/mechanism-examples/pivots/6328/6328_2.webp){height=50% width=50%}
+</figure>
+
+This inside plate is mounted with a few bolts in some oversized holes (0.005”). They tap into the outer plate and the clearance holes in the blue plate allow the blue inner plate to have some movement. This means when you tighten the mitee-bite, it clamps the dead-axle in place. We calculated that this system provides around 1800 lbs of clamping force on the dead-axle for secure mounting. This also means it can easily switch out in the somewhat extreme scenario where we need to replace the dead-axle or if we need to replace the joint.
+
+<figure markdown="span">![6328_3](../../img/mechanism-examples/pivots/6328/6328_3.webp){height=50% width=50%}
+</figure>
+
+This stackup is all contained within two snap rings (98541A134). This outermost constraint is for the “worst case scenario” where the mitee-bites fail. The inside snap ring is essential for keeping the stack up together.
+
+<figure markdown="span">![6328_4](../../img/mechanism-examples/pivots/6328/6328_4.webp){height=50% width=50%}
+</figure>
+
+Moving to the joint itself, the previous design for this was a live axle MAXspline, this had a few small issues, but definitely things we would like to fix going forward. With the move to a real dead-axle, we solve all of these problems (hopefully).
+
+<figure markdown="span">![6328_5](../../img/mechanism-examples/pivots/6328/6328_5.webp){height=50% width=50%}
+</figure>
+
+Taking a look at the joint itself, you will see the tube of the link, and the joint that connects to that link, this is a drastic improvement in repairability and was a requirement for us. We also switched the link tube into a thick wall MAXtube from the thin wall MAXtube. The joint itself consists of 0.25” aluminum plates captured in PA12-CF nylon 3d prints. In the following picture, you can see the aluminum plate (light blue) captured in the nylon part (light gray). The aluminum plate takes the bearing while the nylon part captures it and locates it in the tube (creating the more complicated geometry of the inside of the MAXtube) and becomes a spacer for the bearings side to side.
+
+<figure markdown="span">![6328_6](../../img/mechanism-examples/pivots/6328/6328_6.webp){height=50% width=50%}
+</figure>
+
+The encoder is a 3d printed part that comes off the side of the sprocket and uses the same system as the previous design.
+
+<figure markdown="span">![6328_7](../../img/mechanism-examples/pivots/6328/6328_7.webp){height=50% width=50%}
+</figure>
+
+## The second joint
+
+The second joint was host to most of the issues with the arm. This is mostly due to us taking what seemed to be the easiest design-wise when building it at first. Just as a reminder, the previous joint was a 3 stage max planetary and a 32t to 80t geared reduction. A very simple joint, but an issue ridden one at best. The MAXplanetary has a significant amount of backlash, it is all assembled with press fit tube blocks and such, making it almost impossible to take apart, and the MAXspline itself has a significant amount of spring in it. With these issues in mind, let’s take a look at the new design.
+
+<figure markdown="span">![6328_8](../../img/mechanism-examples/pivots/6328/6328_8.webp){height=50% width=50%}
+</figure>
+
+This joint looks fairly similar to the first joint. The dead axle is clamped by a very similar system as the first joint, with the sub plate (light blue) clamping the dead axle onto the first tube. The shaft has snap rings on the outside for the worst case scenario where the tube slips.
+
+<figure markdown="span">![6328_9](../../img/mechanism-examples/pivots/6328/6328_9.webp){height=50% width=50%}
+</figure>
+
+The dead axle tube (orange) has thin wall aluminum tube (1.25 OD 0.028 wall) acting as spacers, contacting the inner race of the bearing and the outer tube. The dead axle (orange tube) has a length of it turned 0.005” less than the 30mm OD of the rest of the tube (the length where no bearings are in contact) for assembly reasons.
+
+This system will (hopefully) reduce spring and separate the joints from the tubes, aiding repairability.
 
 |||
 |:-:|:-:|
-|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 NEO high-reduction gearbox that is integrated into the A-Frame of the pivot. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
-|<span style="font-size:.8rem;"> The gearbox drives a Super Max Spline shaft, which is a Max Spline shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/mechanism-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
+|<figure markdown="span">![6328_10](../../img/mechanism-examples/pivots/6328/6328_10.webp){height=100% width=100%}</figure>|<figure markdown="span">![6328_11](../../img/mechanism-examples/pivots/6328/6328_11.webp){height=100% width=100%}</figure>|
 
-***
-<span style="text-align: center; font-size:1rem">The main pivot joint is supported vertically on each side by 2 angled 1x1 shafts and a 2x1 shaft. Triangles are strong! The A frame is a triangle, and the vertical 2x1 splits each side into two more mirrored triangles. With the plates clamping on both sides this thing is bulletproof. Plates are not lightweighted at the bottom in order to lower COG and because these parts are fixed to the superstructure, so their weight doesn’t limit the rotational speed of the pivot.</span>
+The gearbox is 3 stages (+ chain) to a total of 228:1 of reduction. While this will add weight to the arm, it is located relatively low when compared to the previous solution and we are willing to trade weight for lower backlash. The output of the gearbox is chained to the sprocket attached to the second link. The sprocket is a Rev 64t maxspline sprocket with the center enlarged to 1.375 for clearance around the dead axle. The sprocket is spaced off of the joint with a 3d printed spacer made in Pa12-CF nylon filament bolted to the joint with through bolts.
 
-|||
-|:-:|:-:|
-|<figure>![6328 A-Frame](../../img/mechanism-examples/pivots/6328/aframe.webp){height=75% width=75%}<figcaption> A-Frame superstructure side view. </figcaption></figure>|<figure>![Triangle Breakdown](../../img/mechanism-examples/pivots/6328/triangles.webp){height=120% width=1500rem}<figcaption> Static triangle load distribution breakdown. Triangles are the only shape which are not collapsable when a force is applied to any side. </figcaption></figure>|
+<figure markdown="span">![6328_12](../../img/mechanism-examples/pivots/6328/6328_12.webp){height=50% width=50%}
+</figure>
 
-<span style="text-align: center; font-size:1rem">The main pivot is driven on both sides by long runs of chain to prevent torsion (twisting of the arm). These long runs of chain allow for inline tensioners to eliminate backlash in the pivot. The maxspline here is a live axle. There are bearings in the blue plates that are constrained from the outside with button head cap flanges and on the inside with 3d printed spacers. The large axle collar in between the two plates prevents the spline from sliding. The second arm section is rigidly bolted to both the sprocket and the maxspline shaft. There is tiny Zombie-Axle shaft with a gear on it rigged 1:1 with the main shaft to measure the rotation of the shaft directly for more accurate positioning. It doesn’t need a bearing, the shaft just spins with the inside of the encoder!</span>
+The second joint has significantly more bracing in the previous design. We will now have full 1/16 wall 2x1s going across the second link, compared to the previous ½ hex going across. The gussets will be riveted onto the cross 2x1 and bolted onto the MAXtube to allow for repairability.
 
-|||
-|:-:|:-:|
-|<figure>![Main Pivot](../../img/mechanism-examples/pivots/6328/mainpivot.webp){height=60% width=60%}<figcaption> Main pivot side view. </figcaption></figure>|<figure>![Pivot Bearing Retention](../../img/mechanism-examples/pivots/6328/pivot_side.webp){height=60% width=60%}<figcaption> Bearing retention using button head machine screw flange. </figcaption></figure>|
+<figure markdown="span">![6328_13](../../img/mechanism-examples/pivots/6328/6328_13.webp){height=50% width=50%}
+</figure>
 
-***
+The wrist stackup will be the exact same as the previous, with the same end effector and encoder/chain system.
 
-## <p style="text-align: center;"> See this Pivot in Action Here </p>
-
-!!! Tip
-    Click the images to watch the videos.
-
-
-<a href=https://youtu.be/3cXXOSFAnJU> <img align="left" src="/img/mechanism-examples/pivots/6328/6328btb.webp" style="width:45%"></a> <a href=https://youtu.be/89FRu3nUPtU><img align="right" src=/img/mechanism-examples/pivots/6328/6328_match.webp style="width:50%"></a>
+### *Joint writeup written by [Matthew3 of FRC 6328](https://www.chiefdelphi.com/u/Matthew3/summary)*
 
 <br>
