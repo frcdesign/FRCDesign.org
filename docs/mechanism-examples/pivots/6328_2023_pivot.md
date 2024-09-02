@@ -30,13 +30,27 @@ table tr:hover{
 
 [CAD Document](https://cad.onshape.com/documents/7b17c8664d1313c397a0fcf3/w/61b5c8329f7f5c6023f50c77/e/58bc5035e6e718d34ade872d "CAD Document Link"){:target="_blank" .md-button .md-button--primary}
 
+[ChiefDelphi OpenAlliance Build Thread](https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2023-build-thread/420691 "ChiefDelphi OpenAlliance Build Thread")
+
+[Pivot April Tag Tracking](https://youtu.be/XA15Qq2CXY0 "6328 Pivot April Tag Tracking")
+
 ## Behind the Design
 
-In many cases, pivoting arms are a fundamental mechanism in the architecture of a robot. Thus, rigid, robust, and fast pivoting mechanisms can make or break a good design. A failure in the pivot of a design like this would put completely put a robot out of commission.
+In many cases, pivoting arms are a fundamental mechanism in the architecture of a robot. Thus, rigid, robust, and fast pivoting mechanisms can make or break a good design. Due to the massive moment load applied on this pivot joint at full arm extension, its essential that this pivots drive mechanism is both powerful and bulletproof.
+
+### Force Breakdown on Pivot Arm
+<span style="text-align: center">Torque is a function of two main variables: the magnitude of the applied force, the distance from the axis of rotation to where the force is applied (often referred to as the lever arm or moment arm), as well as the angle at which the force is applied. The force applied across an objects mass by gravity can be equivalently represented by a single force applied to the center of gravity of the object. At full arm extension, the CoG of the lever arm is at its max distance from the pivot axis, and gravity applies a point load at the CoG at a 90 degree angle relative to the lever arm, at which point the torque applied the pivot is this force MULTIPLIED by the distance from the CoG to the pivot.</span>
+
+<figure markdown="span">![6328 Force Breakdown](../../img/mechanism-examples/pivots/6328/6328_forces.webp){height=150% width=150%}
+</figure>
+
+<span style="text-align: center">This massive moment load on the main pivot joint requires the pivot mechanism to both be built durable enough to handle this large torque without breaking, and also powerful enough to counteract and overcome this torque so that the pivot is able to be driven. When designing drive mechanisms and gearboxes for pivot arms like this, it is generally very useful to get a good estimation of how powerful a mechanism you will need to drive your arm depending on its length and mass, so many designers use simulators such as the [Reca.lc Arm Calculator](https://www.reca.lc/arm) or the [AMB Mechanism Ratio Calculator](https://ambcalc.com/mechanism?=)</span>
+
+
 
 |||
 |:-:|:-:|
-|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 NEO high-reduction gearbox that is integrated into the A-Frame of the pivot. This is the most important pivot on the robot, since it moves the most mass. For those reasons want as much power as possible here, so two-four motors is ideal. MAXPlanetaries are not rated for the forces expected to be applied in this gearbox, so a custom gearbox is a necessity. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
+|<figure>![Main Pivot Gearbox](../../img/mechanism-examples/pivots/6328/gearbox.webp){height=120% width=120%}<figcaption> Robots with lower COG's are less likely to tip and have the advantage in pushing battles! </figcaption></figure>|<span style="font-size:.8rem;">The main pivot is powered by a custom 2 NEO high-reduction gearbox that is integrated into the A-Frame of the pivot. The gearbox is placed as low as possible to lower the COG of the robot.</span>|
 |<span style="font-size:.8rem;"> The gearbox drives a Super Max Spline shaft, which is a Max Spline shaft reinforced with an interal aluminum tube. Using this liveaxle takes the load of the pivot off of the gearbox and onto an incredibly heavy duty shaft. All of the Max Spline on this robot is reinforced Super Max Spline, except for the main pivot joint.</span>|<figure>![Super Max Spline](../../img/mechanism-examples/pivots/6328/supermaxspline.webp){height=60% width=60%}<figcaption> Internal aluminum tube reinforces the main drive shaft. </figcaption></figure>|
 
 ***
