@@ -49,7 +49,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Example"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/learning-course/stage1b/belt/beltCad2.webm" type="video/webm">
+      <source src="/img/resources/featurescripts/origincube.webm" type="video/webm">
     </video>
     <figcaption><center>Origin Cube's FRC Functions enables belt and chain calculations directly inside of sketches and fully captures design intent by capturing tooth counts.</center></figcaption>
 
