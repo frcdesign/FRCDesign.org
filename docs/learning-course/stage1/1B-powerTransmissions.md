@@ -1033,8 +1033,11 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e3/e3s22.webp" style="width:100%">
-      <figcaption>22. Use the <code>Belt Gen</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Notice that the <code>Belt Gen</code> Feature script also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1b/exercises/e3/e3s22.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>22. Use the <code>Belt & Chain Gen</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Offset the reference plane by 0.5" so that the belt does not collide with the plate. Optionally turn on teeth modeling - note that this option will significantly increase rebuild time. Notice that the <code>Belt & Chain</code> Featurescript also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
     </figure>
   </div>
 
