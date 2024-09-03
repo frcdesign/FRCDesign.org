@@ -275,6 +275,11 @@ The below links contain several featurescripts each that you can add all at once
 
   - Generate a sprocket for common types of chain
 
+[**doesinlinechaintensionerfit**](https://cad.onshape.com/documents/0a4b1991c2c84d83452b66db/w/16955b48319c55202a97d587/e/2c07d47526c2d94d25697091 "doesinlinetensionerfit Featurescipt Onshape Document"){:target="_blank"}
+
+- Calculates whether or not an inline chain tensioner will fit on a chain transmission
+- For when you are too lazy to do basic math
+
 [**Spur Gear**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/d1389fa34235160533671706/e/99672d1e329b38e647d90146 "Spur Gear Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
 
   - Generates a spur gear with with many different options
