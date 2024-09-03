@@ -712,7 +712,7 @@ To calculate the center-to-center distance of the pulleys, it is recommended to 
 
 **Modeling Belt Transmissions**
 
-When modeling, you should draw the pitch diameter of the two pulleys and the centerline then connect the pulley circles with tangent lines to represent the belt. A 3D model of the belt can be generated using the [`Belt Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Belt Gen Featurescript Onshape Document"){:target="_blank"}.
+When modeling, you should draw the pitch diameter of the two pulleys and the centerline then connect the pulley circles with tangent lines to represent the belt. A 3D model of the belt can be generated using the [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}.
 
 You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} FRC functions:
 
@@ -763,7 +763,7 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
         <source src="/img/learning-course/stage1b/belt/beltCad3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Use the <code>Belt Gen</code> Featurescript to generate a 3D model of the belt.</figcaption>
+      <figcaption>5. Use the <code>Belt & Chain Gen</code> Featurescript to generate a 3D model of the belt. The reference plane mate connector sets the location of the centerline of the belt. You can modify the selected mate connector offset the location of the belt. You can also choose to generate belt teeth, but do not that this will significantly increase rebuild time.</figcaption>
     </figure>
 </div>
 
@@ -808,7 +808,7 @@ In FRC, #25 chain is most commonly used as it is strong yet relatively lightweig
 
 Calculating sprocket center-to-center is very similar to pulley center-to-centers. To calculate the center-to-center distance of the sprockets, it is recommended to use an online calculator, such as [ReCalc](https://www.reca.lc/chains "ReCalc Design Calculator"){:target="_blank"}. In the calculator, you can set the chain size, desired center distance, and the number of teeth on each sprocket to get the required center distance.
 
-When modeling, you should draw the pitch diameter of the two sprockets and the centerline then connect the sprocket circles with tangent lines to represent the chain links. A 3D model of the chain can be generated using the [`Chain Gen` Featurescript](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Chain Gen Featurescript Onshape Document"){:target="_blank"}. The modeling workflow is exactly the same as belt and pulley.
+When modeling, you should draw the pitch diameter of the two sprockets and the centerline then connect the sprocket circles with tangent lines to represent the chain links. A 3D model of the chain can be generated using the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts. The modeling workflow is exactly the same as belt and pulley.
 
 You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} FRC functions:
 
@@ -844,7 +844,7 @@ You will utilize use the following functions from the [`Origin Cube` Featurescri
         <source src="/img/learning-course/stage1b/chain/chainCad3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Use the <code>Chain Gen</code> Featurescript to generate a simplified 3D model of the chain. While you can also generate a full detail model of the chain, it is very laggy.</figcaption>
+      <figcaption>3. Use the <code>Belt & Chain Gen</code> Featurescript to generate a simplified 3D model of the chain. While you can also generate a full detail model of the chain, it is very laggy.</figcaption>
     </figure>
 </div>
 
@@ -1230,7 +1230,7 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned about speed, torque, and mechanical advantage
 * Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model basic power transmissions
-* Learned how to use the `Belt Gen`, `Chain Gen`, `Shaft`, and `Part Lighten` Featurescripts
+* Learned how to use the `Belt & Chain Gen`, `Shaft`, and `Part Lighten` Featurescripts
 * Learned how to use the `Origin Cube` FRC functions Featurescript for chain and belt c-c's
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Replicate` tool
