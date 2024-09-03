@@ -592,7 +592,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Use the <code>Vent</code> Featurescript to pocket the plate by selecting the sketch regions created by the previous sketch. </figcaption>
+      <figcaption>8. Use the <code>Part Lighten</code> Featurescript to pocket the plate by selecting the ribs created by the previous sketch. </figcaption>
     </figure>
   </div>
 
@@ -1062,7 +1062,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s26.webp" style="width:100%">
-      <figcaption>26. Use the <code>Vent</code> Featurescript to add the pocketing. Use 0.15" wide ribs and 0.15" tool radius. </figcaption>
+      <figcaption>26. Use the <code>Part Lighten</code> Featurescript to add the pocketing. Use 0.15" wide ribs and 1/4" tool diameter. </figcaption>
     </figure>
   </div>
 
@@ -1076,7 +1076,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s28.webp" style="width:100%">
-      <figcaption>28. Use the <code>Vent</code> Featurescript to add the pocketing. Again, use 0.15" wide ribs and 0.15" tool radius. </figcaption>
+      <figcaption>28. Use the <code>Part Lighten</code> Featurescript to add the pocketing. Again, use 0.15" wide ribs and 1/4" tool diameter. </figcaption>
     </figure>
   </div>
 
