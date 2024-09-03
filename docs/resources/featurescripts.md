@@ -235,7 +235,7 @@ The below links contain several featurescripts each that you can add all at once
       <source src="../../../../img/resources/featurescripts/beltGen.mp4" type="video/mp4">
     </video> -->
 
-[**Chain Gen**](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Chain Gen Featurescript Onshape Document"){:target="_blank"}
+<!-- [**Chain Gen**](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Chain Gen Featurescript Onshape Document"){:target="_blank"}
 
 - Generates a chain path from sprocket pitch diameter circles
 - Allows for multiple sprockets and tensioners
@@ -245,7 +245,7 @@ The below links contain several featurescripts each that you can add all at once
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
       <source src="../../../../img/resources/featurescripts/chainGen.mp4" type="video/mp4">
-    </video> --> -->
+    </video> -->
 
 [**Belt & Chain Gen**](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
 
