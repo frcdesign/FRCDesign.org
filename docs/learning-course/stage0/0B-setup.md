@@ -194,9 +194,9 @@ To get you started, lets install all the Featurescripts that you will utilize in
 
 2. Add the `Origin Cube` Featurescript from the [Origin Cube Featurescript Document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"}
 
-3. Add the `Belt & Chain Gen` Featurescript from the [Belt & Chain Gen Document](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
+3. Add the `Belt Gen` and `Chain Gen` Featurescripts from the [Configurable Parts Document](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Configurable Parts Onshape Document"){:target="_blank"}
 
-4. Add the `Part Lighten` Featurescript from [2471's Featurescript Document](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"}
+4. Add the `Vent` Featurescript from the [Vent Featurescript Document](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4 "Vent Featurescript Onshape Document"){:target="_blank"}
 
 ??? Video "Video Tutorial"
     <video width="1920" controls="true" allowfullscreen="true">
