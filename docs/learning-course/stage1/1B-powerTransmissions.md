@@ -504,7 +504,7 @@ In this exercise you made your first gearbox. In doing so, you also used part co
 
 ## Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Vent` Featurescript used for pocketing.
+In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Part Lighten` Featurescript used for pocketing.
 
 **Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete this exercise.
 
@@ -1227,7 +1227,7 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned about speed, torque, and mechanical advantage
 * Learned the basics of motors, bearings, shafts, gears, chain and sprockets, and belt and pulleys
 * Learned how to model basic power transmissions
-* Learned how to use the `Belt Gen`, `Chain Gen`, `Shaft`, and `Vent` Featurescripts
+* Learned how to use the `Belt Gen`, `Chain Gen`, `Shaft`, and `Part Lighten` Featurescripts
 * Learned how to use the `Origin Cube` FRC functions Featurescript for chain and belt c-c's
 * Learned how to insert Standard Library components and mate bolts and nuts
 * Learned how to use the `Replicate` tool
