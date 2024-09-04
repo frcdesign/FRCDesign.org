@@ -359,8 +359,18 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
 
   <div class="mySlides fade">
     <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1c/SwerveBase/dtParts12.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>12. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
       <img src="/img/learning-course/stage1c/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>12. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+      <figcaption>13. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
   </div>
 
@@ -544,7 +554,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
 
 !!! success "Verification"
-    If all is done correctly your assembly should weigh approximately 31.4lbs.
+    If all is done correctly your assembly should weigh approximately 37.2lbs.
 
     Your tab manager should have the following tabs and folder:
     <figure>
