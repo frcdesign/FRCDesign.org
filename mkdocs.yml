@@ -94,9 +94,20 @@ nav:
       - "C: Navigating Onshape": learning-course/stage0/0C-navigation.md
       - "D: Theory": learning-course/stage0/0D-theory.md
     - Stage 1:
-      - "A: Onshape Fundamentals": learning-course/stage1/1A-onshapeFundamentals.md
-      - "B: Power Transmissions": learning-course/stage1/1B-powerTransmissions.md
-      - "C: Design Methodology": learning-course/stage1/1C-designMethodology.md
+      - Onshape Fundamentals:
+        - "Sketching and Part Modeling": learning-course/stage1/1A-sketchPartModeling.md
+        - "Exercises Document": learning-course/stage1/1A-exerciseSetup.md
+        - "Exercise 1: Simple Box Tube": learning-course/stage1/1A-exercise1.md
+        - "Multi-Body Modeling": learning-course/stage1/1A-multiBody.md
+        - "Exercise 2: Box Tube and Gusset Joint": learning-course/stage1/1A-exercise2.md
+        - "Assembly Modeling": learning-course/stage1/1A-assembly.md
+        - "Exercise 3: Box Tube Frame": learning-course/stage1/1A-exercise3.md
+        - "Exercise 4: Climber Hook": learning-course/stage1/1A-exercise4.md
+        - "Summary": learning-course/stage1/1A-summary.md
+      - Power Transmissions:
+        - "B: Power Transmissions": learning-course/stage1/1B-powerTransmissions.md
+      - Design Methodology:
+        - "C: Design Methodology": learning-course/stage1/1C-designMethodology.md
     - Stage 2:
       - "A: Full Detail Drivebase": learning-course/stage2/2A-drivebaseFullDetail.md
       - "B: Basic Shooter": learning-course/stage2/2B-basicShooter.md
