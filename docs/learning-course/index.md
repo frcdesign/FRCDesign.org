@@ -16,7 +16,7 @@ Welcome to the design learning course, the main purpose and content of the websi
 The purpose of the course is to take you from zero to being able to model a full robot. The content focuses on FRC-relevant features and tools, using engaging projects that not only introduce new CAD skills and practice old ones but also introduce engineering concepts. These projects slowly become more open-ended.
 
 !!! Tip
-    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A-whatAndWhyCAD.md "Stage 0A") if you're switching from another CAD software and [Stage 1A](stage1/1A-onshapeFundamentals.md "Stage 1A") if you already have some experience using Onshape. You will struggle with later stages if you don't have a solid grasp on the fundamentals of Onshape.
+    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A-whatAndWhyCAD.md "Stage 0A") if you're switching from another CAD software and [Stage 1A](stage1/1A-sketchPartModeling.md "Stage 1A") if you already have some experience using Onshape. You will struggle with later stages if you don't have a solid grasp on the fundamentals of Onshape.
 
     If you choose to skip to Stage 1A, make sure to still add the [required featurescripts](stage0/0B-featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
 
