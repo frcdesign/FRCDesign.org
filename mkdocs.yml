@@ -89,10 +89,20 @@ nav:
   - Learning Course:
     - learning-course/index.md
     - Stage 0: 
-      - "A: Introduction to CAD": learning-course/stage0/0A-introductionToCAD.md
-      - "B: Onshape Setup": learning-course/stage0/0B-setup.md
-      - "C: Navigating Onshape": learning-course/stage0/0C-navigation.md
-      - "D: Theory": learning-course/stage0/0D-theory.md
+      - Introduction to CAD:
+        - "What and Why": learning-course/stage0/0A-whatAndWhyCAD.md
+        - "CAD Software": learning-course/stage0/0A-cadSoftware.md
+      - Onshape Setup:
+        - "Account Setup": learning-course/stage0/0B-accountSetup.md
+        - "MKCad": learning-course/stage0/0B-MKCad.md
+        - "Featurescripts": learning-course/stage0/0B-featurescripts.md
+      - Navigating Onshape:
+        - "Documents Page": learning-course/stage0/0C-documents.md
+        - "Document Navigation": learning-course/stage0/0C-documentNavigation.md
+        - "Other Notes": learning-course/stage0/0C-otherNotes.md
+      - CAD Theory:
+        - "Theory": learning-course/stage0/0D-theory.md
+        - "Summary": learning-course/stage0/0D-summary.md
     - Stage 1:
       - "A: Onshape Fundamentals": learning-course/stage1/1A-onshapeFundamentals.md
       - "B: Power Transmissions": learning-course/stage1/1B-powerTransmissions.md

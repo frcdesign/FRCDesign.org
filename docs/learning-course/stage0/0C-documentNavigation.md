@@ -1,21 +1,5 @@
 # 0C: Navigating Onshape
 
-## Documents Page
-Documents can be viewed and managed from the documents page. You can sort them with folders and labels. On the sidebar, you can switch between stuff owned by you and stuff owned by a classroom/team/organization, and a public search page which can be used to look through public Onshape files. In the top right corner of the page, you can access the app store, learning center, and account settings.
-
-You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left.
-
-<center><img src="/img/learning-course/stage0/navigation/documentsPage.webp" style="width:90%; border:5px solid #ADADAD"></center>
-
-You can complete the [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} in the Onshape learning center to learn more about the documents page.
-
-### Customizing Your Account
-
-- Change default units and precision
-- Change email notifications
-- Change default view manipulation if you're more familiar with a different CAD software
-- Use the subscriptions section to renew your student/educator subscription each year
-
 ## Navigating Documents
 
 An Onshape document is not a CAD file, but a container that holds data related to a project, including any number of part studios, assemblies, drawings, and other media/files. It can be versioned and linked to from other documents. There are two main types of environments in a document: ***part studios*** and ***assemblies***.
@@ -33,7 +17,7 @@ An Onshape document is not a CAD file, but a container that holds data related t
 
     The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
 
-    ??? Info "Mouse Controls"
+    !!! Info "Mouse Controls"
         <center> <img src="/img/learning-course/stage0/navigation/mouseControls.webp" style="width:50%; border:5px solid #ADADAD"> </center>
 
     !!! Tip "Selection"
@@ -80,15 +64,5 @@ An Onshape document is not a CAD file, but a container that holds data related t
     - Select two separate mate connectors
     - Flip or rotate axis to get the part/assembly in the right orientation
     - You can offset in a specific axis by distance or angle
-
-## Other Notes
-
-### Organization Practices
-One of the big reasons Onshape is desirable for FRC is its collaboration capabilities, but that means nothing when nobody can read or work with your CAD. Different subsystem leads will have to collaborate and view other separate subsystems. None of the easy communication and collaboration can be done without good organization and naming practices.
-
-Make it annoyingly clear what sketches and features do what. Name sketches and features, and try to use folders. Sort by parts or groups of parts (e.g. tubes, gussets, bellypan). The instance list in assemblies can also get very messy and slow down your workflow, so keep similar instances in folders. And finally, just make sure to name tabs. This will all make a big difference for the readability of your CAD by other people and yourself.
-
-### Versions and History
-Every action by every user is saved in the history, and can be rolled back to or created a version at. When assemblies are linked between documents, documents have to be versioned. This reduces loading times as well, since it's only referencing a single static version and not constantly attempting to update. Versions cannot be deleted, and branches can be created and merged for changes, similar to git.
 
 <br>
