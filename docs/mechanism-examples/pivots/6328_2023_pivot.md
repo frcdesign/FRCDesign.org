@@ -54,7 +54,7 @@ In many cases, pivoting arms are a fundamental mechanism in the architecture of 
 <span>
 <br>
 <br>
-*The following breakdown is an exerpt from the 6328 OpenAlliance thread on ChiefDelphi, written by [Matthew3 of FRC 6328](https://www.chiefdelphi.com/u/Matthew3/summary)*
+*The following breakdown is an excerpt from the 6328 OpenAlliance thread on ChiefDelphi, written by [Matthew3 of FRC 6328](https://www.chiefdelphi.com/u/Matthew3/summary)*
 <br>
 <br>
 <br>
@@ -68,7 +68,7 @@ Due to the limited availability of MAXPlanetaries and belly pan space constraint
 
 <figure markdown="span">![6328 Gearbox](../../img/mechanism-examples/pivots/6328/6328_gearbox.webp){height=50% width=50%}</figure>
 
-The two bottom Neos power the MAXSpline that crosses the width of the robot, while the MAXPlantery neo is powering the joint of the cube intake.
+The two bottom NEOs power the MAXSpline that crosses the width of the robot, while the MAXPlanetary NEO is powering the joint of the cube intake.
 
 <br>
 For the new first joint dead axles, we are using 1.25” 0.25 wall tube turned down to 30mm for the bearings. To hold the dead axles, we were inspired by 971’s 2018 robot and their use of mitee-bites to hold the dead axle.
@@ -106,7 +106,7 @@ The encoder is a 3d printed part that comes off the side of the sprocket and use
 <figure markdown="span">![6328_7](../../img/mechanism-examples/pivots/6328/6328_7.webp){height=50% width=50%}
 </figure>
 
-## The second joint
+## The Second Joint
 
 The second joint was host to most of the issues with the arm. This is mostly due to us taking what seemed to be the easiest design-wise when building it at first. Just as a reminder, the previous joint was a 3 stage max planetary and a 32t to 80t geared reduction. A very simple joint, but an issue ridden one at best. The MAXplanetary has a significant amount of backlash, it is all assembled with press fit tube blocks and such, making it almost impossible to take apart, and the MAXspline itself has a significant amount of spring in it. With these issues in mind, let’s take a look at the new design.
 
