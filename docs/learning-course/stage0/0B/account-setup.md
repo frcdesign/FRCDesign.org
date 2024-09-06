@@ -92,7 +92,7 @@
 # 0B: Onshape Setup
 
 !!! Tip
-    Remember to take a look at the [website feature guide](../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+    Remember to take a look at the [website feature guide](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
 
 ## Registering for Onshape
 

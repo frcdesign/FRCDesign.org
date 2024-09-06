@@ -4,12 +4,12 @@ Now, you’ve built a shooter, a gearbox for a pivot, and a drivetrain. For your
 === "Beginner Challenge"
     While you may not have designed a shooter last week, don’t fret. Your job this week will be to design a slapdown style intake for the game piece. Make sure to include fasteners and proper power transmission. We do recommend that you mastersketch up to a theoretical shooter just to think about integration a little. 
 
-    <center>[Slapdown Example Mechanisms](../../../mechanism-examples/intake/slapdown "Slapdown Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
+    <center>[Slapdown Example Mechanisms](../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
 
 === "Advanced Challenge"
     I can’t believe you all designed a shooter without the intake 🤦. Anyway, your job will be to design a 4-bar intake to intake these game pieces effectively. Preferably, you design this around your shooter that you made last week, so think about how to package with the space you left, along with the ideal ball path for your design. (Hint: Do a master sketch)
 
-    <center>[4-Bar Example Mechanisms](../../../mechanism-examples/intake/4bar "4-Bar Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
+    <center>[4-Bar Example Mechanisms](../../mechanism-examples/intake/4bar/index.md "4-Bar Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
 
 For both challenges: You may pivot using motors or pneumatics. 
 

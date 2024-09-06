@@ -2,7 +2,7 @@
 
 As you probably know, CAD is a tool used to design parts digitally before they are manufactured. Most of our documentation will focus on FRC-specific CAD practice. However, to get started with Onshape, it’s important to understand some basic theory.
 
-![purple_cylinder](../../img/learning-course/stage0/theory/purplecyl.webp){align=right width=15%}
+![purple_cylinder](../../../img/learning-course/stage0/theory/purplecyl.webp){align=right width=15%}
 <hr style="height:5px; visibility:hidden;" />
 
 Consider a basic 3D object, such as this cylinder. Every object you design in Onshape starts with a 2D sketch within a window called a part studio. Sketches are used to define a 2D profile, that is then manipulated with features. These features transform the 2D sketch, one change at a time, into a 3D object - by “extruding” or pulling the profile into 3D, revolving it around an axis, or by other methods. 
@@ -19,7 +19,7 @@ If you wanted to create this cylinder in Onshape, we would start by representing
 
 
 ## Making the leap to 3D
-![extrude](../../img/learning-course/stage0/theory/extrude-light.webp#only-light){align=right width=40%} ![extrude](../../img/learning-course/stage0/theory/extrude-dark.webp#only-dark){align=right width=40%}
+![extrude](../../../img/learning-course/stage0/theory/extrude-light.webp#only-light){align=right width=40%} ![extrude](../../../img/learning-course/stage0/theory/extrude-dark.webp#only-dark){align=right width=40%}
 
 While in the sketch, we define the nature of the circle - its position in space and its diameter. When we bring the sketch into 3D, these characteristics are maintained - determining the final diameter and position of the cylinder within the part studio. It is important to completely define the characteristics sketches so that the characteristics of the part being designed are not arbitrary. 
 

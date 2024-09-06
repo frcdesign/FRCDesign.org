@@ -276,7 +276,7 @@ Elevator master sketches usually start with an extended side view so you can dri
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../design-handbook\structure\structure.md "Structure Handbook Page"){:target="_blank"}.
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../../design-handbook\structure\structure.md "Structure Handbook Page"){:target="_blank"}.
 
     <figure markdown="span">
         <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">

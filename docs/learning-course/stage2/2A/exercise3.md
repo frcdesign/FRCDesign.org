@@ -97,7 +97,7 @@ Some teams may choose to pocket their bellypan to reduce weight and make wiring 
 
 ### Instructions
 
-**If you choose to pocket your bellypan for your 1C Stage Drivetrain**, you can **follow the instructions in the slides** which utilize the `Vent` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"}. You could also use the `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts/ "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may vary slightly between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
+**If you choose to pocket your bellypan for your 1C Stage Drivetrain**, you can **follow the instructions in the slides** which utilize the `Vent` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"}. You could also use the `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may vary slightly between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
 
 <!-- <center>**Sample Bellypan Pocketing Slides**</center> -->
 <!-- Slideshow container -->

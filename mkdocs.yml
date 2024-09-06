@@ -90,18 +90,18 @@ nav:
     - learning-course/index.md
     - Stage 0: 
       - "A: Introduction to CAD":
-        - "What and Why": learning-course/stage0/0A-what-and-why-CAD.md
-        - "CAD Software": learning-course/stage0/0A-cad-software.md
+        - "What and Why": learning-course/stage0/0A/what-and-why-CAD.md
+        - "CAD Software": learning-course/stage0/0A/cad-software.md
       - "B: Onshape Setup":
-        - "Account Setup": learning-course/stage0/0B-account-setup.md
-        - "MKCad": learning-course/stage0/0B-MKCad.md
-        - "Featurescripts": learning-course/stage0/0B-featurescripts.md
+        - "Account Setup": learning-course/stage0/0B/account-setup.md
+        - "MKCad": learning-course/stage0/0B/MKCad.md
+        - "Featurescripts": learning-course/stage0/0B/featurescripts.md
       - "C: Navigating Onshape":
-        - "Documents Page": learning-course/stage0/0C-documents.md
-        - "Document Navigation": learning-course/stage0/0C-document-navigation.md
-        - "Other Notes": learning-course/stage0/0C-other-notes.md
-      - "D: CAD Theory": learning-course/stage0/0D-theory.md
-      - "Summary": learning-course/stage0/0-summary.md
+        - "Documents Page": learning-course/stage0/0C/documents.md
+        - "Document Navigation": learning-course/stage0/0C/document-navigation.md
+        - "Other Notes": learning-course/stage0/0C/other-notes.md
+      - "D: CAD Theory": learning-course/stage0/0D/theory.md
+      - "Summary": learning-course/stage0/summary.md
     - Stage 1:
       - "A: Onshape Fundamentals":
         - "Introduction": learning-course/stage1/1A/introduction.md
@@ -115,28 +115,28 @@ nav:
         - "Exercise 4: Climber Hook": learning-course/stage1/1A/exercise4.md
         - "Summary": learning-course/stage1/1A/summary.md
       - "B: Power Transmissions":
-        - "Introduction": learning-course/stage1/1B-introduction.md
-        - "Motors": learning-course/stage1/1B-motors.md
-        - "Shafts and Bearings": learning-course/stage1/1B-shaftsBearings.md
-        - "Torque and Speed": learning-course/stage1/1B-torqueSpeed.md
-        - "Gear Basics": learning-course/stage1/1B-gears.md
-        - "Exercise 1: Simple Gearbox": learning-course/stage1/1B-exercise1.md
-        - "Exercise 2: Two Stage Gearbox": learning-course/stage1/1B-exercise2.md
-        - "Belt and Pulley Basics": learning-course/stage1/1B-belts.md
-        - "Chain and Sprocket Basics": learning-course/stage1/1B-chain.md
-        - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B-exercise3.md
-        - "Summary": learning-course/stage1/1B-summary.md
+        - "Introduction": learning-course/stage1/1B/introduction.md
+        - "Motors": learning-course/stage1/1B/motors.md
+        - "Shafts and Bearings": learning-course/stage1/1B/shafts-bearings.md
+        - "Torque and Speed": learning-course/stage1/1B/torque-speed.md
+        - "Gear Basics": learning-course/stage1/1B/gears.md
+        - "Exercise 1: Simple Gearbox": learning-course/stage1/1B/exercise1.md
+        - "Exercise 2: Two Stage Gearbox": learning-course/stage1/1B/exercise2.md
+        - "Belt and Pulley Basics": learning-course/stage1/1B/belts.md
+        - "Chain and Sprocket Basics": learning-course/stage1/1B/chain.md
+        - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B/exercise3.md
+        - "Summary": learning-course/stage1/1B/summary.md
 
       - "C: Design Methodology":
-        - "Introduction": learning-course/stage1/1C-introduction.md
-        - "Top Down Design": learning-course/stage1/1C-topDownDesign.md
-        - "Project Overview": learning-course/stage1/1C-projectOverview.md
-        - "Layout Sketch": learning-course/stage1/1C-layoutSketch.md
-        - "Part Studio": learning-course/stage1/1C-partModeling.md
-        - "Assembly": learning-course/stage1/1C-assemblyModeling.md
-        - "Adding More Components": learning-course/stage1/1C-addingComponents.md
-        - "Robot Assembly": learning-course/stage1/1C-topLevelAssembly.md
-        - "Summary": learning-course/stage1/1C-summary.md
+        - "Introduction": learning-course/stage1/1C/introduction.md
+        - "Top Down Design": learning-course/stage1/1C/top-down-design.md
+        - "Project Overview": learning-course/stage1/1C/project-overview.md
+        - "Layout Sketch": learning-course/stage1/1C/layout-sketch.md
+        - "Part Studio": learning-course/stage1/1C/part-modeling.md
+        - "Assembly": learning-course/stage1/1C/assembly-modeling.md
+        - "Adding More Components": learning-course/stage1/1C/adding-components.md
+        - "Robot Assembly": learning-course/stage1/1C/top-level-assembly.md
+        - "Summary": learning-course/stage1/1C/summary.md
 
     - Stage 2:
       - "A: Full Detail Drivebase":
@@ -165,7 +165,7 @@ nav:
       - "C: Dead Axle Pivot": learning-course/stage2/2C-deadaxlePivot.md
       - "D: Slapdown Intake": learning-course/stage2/2D-slapdownIntake.md
       - "E: Cascade Elevator": learning-course/stage2/2E-cascadeElevator.md
-    - Stage 3: learning-course/stage3/index.md
+    - Stage 3: learning-course/stage3/3A/introduction.md
     - Stage 4: learning-course/stage4.md
 
   - Design Handbook:

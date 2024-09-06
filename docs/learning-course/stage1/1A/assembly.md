@@ -34,7 +34,7 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
 
 ### Best Practices
 
-The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"} page.
+The best practices for constraining an assembly, along with other assembly tools like replicate, pattern, and standard content, will be learned through projects and described in more detail in later stages. They are also outlined in the [assembly best practices](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"} page.
 
 !!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</span>"
 

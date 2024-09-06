@@ -66,7 +66,7 @@ Some key points when designing pivoting mechanisms are:
 | **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
 
 
-Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/ "Pivot Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/index.md "Pivot Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 
 <br>
@@ -163,7 +163,7 @@ The following sections cover the design rationale for the pivot you will be copy
     | **Reduction Stages**| More reduction stages increase backlash. | Keep stages to 3 or fewer for optimal performance. One of the "stages" being the sprocket reduction|
     | ** Chain Stretch** | Chain stretching over time leading to backlash| Periodically check chain tension. If extremely high precision is needed (shooters), utilize a sector gear instead| 
 
-    Details on these solutions are covered in [the design handbook page discussing designing for controllability](../../design-handbook/design-writeups/DFC.md "Designing for Controllability Page"){:target="_blank"}.
+    Details on these solutions are covered in [the design handbook page discussing designing for controllability](../../../design-handbook/design-writeups/DFC.md "Designing for Controllability Page"){:target="_blank"}.
 
 
 

@@ -7,7 +7,7 @@ Top-down design offers a holistic approach, allowing for better system integrati
 
 ### Master Sketch
 
-To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](/best-practices/mastersketch-setup/ "Master Sketch Best Practices Page"){:target="_blank"} page.
+To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Master Sketch Best Practices Page"){:target="_blank"} page.
 
 ???+ Example "Example Master Layout Sketch"
     <center><img src="\img\learning-course\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
@@ -25,4 +25,4 @@ To fully utilize master sketch top-down design, we must choose a unified origin 
 
 To achieve this, we use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"} which generates a transparent 2" cube at the origin and provides several useful constants and functions that have already been used in previous stage.
 
-The Origin Cube will become very useful later on for assembly mating but for now all you need to remember is that **the Origin Cube should be the first feature in all part studios**. You can read more about the Origin Cube on the [assembly best practices page](../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"}., 
+The Origin Cube will become very useful later on for assembly mating but for now all you need to remember is that **the Origin Cube should be the first feature in all part studios**. You can read more about the Origin Cube on the [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"}., 
