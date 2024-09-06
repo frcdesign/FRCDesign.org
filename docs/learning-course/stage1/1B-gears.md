@@ -103,7 +103,7 @@ Gears are mechanical devices with teeth that mesh with each other to transmit mo
 <center><img src="\img\learning-course\stage1b\gears\simpleGears.gif" style="width:40%"></center>
 <center>*A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.*</center>
 
-In order to change the torque and speed from the input to output, different sized gears must be used. Remember that the ratio is related to the number of teeth of the gears. Teeth will always mesh together one by one, but the number of teeth per revolution is different for different sized gears, causing a difference in angular speed even if the surface speed of the gear is the same.
+In order to change the torque and speed from the input to output, different sized gears must be used. Remember that the ratio is related to the number of teeth of the gears. Teeth will always mesh together one by one, but the number of teeth per revolution is different for different sized gears, causing a difference in angular speed even if the surface speed of the gear is the same. Click through the following slides to see a visualization of different gear ratios.
 
 <center>**Changing Speed and Torque with Gears**</center>
 <!-- Slideshow container -->
@@ -132,8 +132,8 @@ In order to change the torque and speed from the input to output, different size
 </div>
 
 <!-- Next and previous buttons -->
-<button class="prev" onclick="plusSlides(-1,1)" style="background-color: #000; color: #fff;">&#10094;</button>
-<button class="next" onclick="plusSlides(1,1)" style="background-color: #000; color: #fff;">&#10095;</button>
+<button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
 <!-- The dots/circles -->
 <div class="dotsContainer" style="text-align:center">
 <!-- Dots will be generated here -->

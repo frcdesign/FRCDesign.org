@@ -197,10 +197,12 @@ You will utilize the `Spacer` Featurescript for this exercise.
   </div>
 </div>
 
-In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
-
 !!! success "Verification"
     If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
+
+In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
+
+
 
 <br>
 

@@ -284,10 +284,12 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
   </div>
 </div>
 
-In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
-
 !!! note "Verification"
     If all is done correctly your assembly should have 27 Instances.
+
+In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
+
+
 
 <br>
 

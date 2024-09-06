@@ -221,10 +221,12 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
   </div>
 </div>
 
-In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
-
 !!! success "Verification"
     If all is done correctly your parts should weigh a combined 0.27lbs
+
+In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
+
+
 <br>
 
 

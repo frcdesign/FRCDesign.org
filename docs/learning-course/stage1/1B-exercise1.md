@@ -320,7 +320,10 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
 !!! note "Verification"
     If all is done correctly your assembly should have 19 Instances, and weigh approximately 2.3lb.
 
-In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component.
+
+### Configurable Parts
+
+In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
 
 <br>
 
