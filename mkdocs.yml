@@ -89,34 +89,45 @@ nav:
   - Learning Course:
     - learning-course/index.md
     - Stage 0: 
-      - Introduction to CAD:
+      - "A: Introduction to CAD":
         - "What and Why": learning-course/stage0/0A-whatAndWhyCAD.md
         - "CAD Software": learning-course/stage0/0A-cadSoftware.md
-      - Onshape Setup:
+      - "B: Onshape Setup":
         - "Account Setup": learning-course/stage0/0B-accountSetup.md
         - "MKCad": learning-course/stage0/0B-MKCad.md
         - "Featurescripts": learning-course/stage0/0B-featurescripts.md
-      - Navigating Onshape:
+      - "C: Navigating Onshape":
         - "Documents Page": learning-course/stage0/0C-documents.md
         - "Document Navigation": learning-course/stage0/0C-documentNavigation.md
         - "Other Notes": learning-course/stage0/0C-otherNotes.md
-      - CAD Theory:
+      - "D: CAD Theory":
         - "Theory": learning-course/stage0/0D-theory.md
         - "Summary": learning-course/stage0/0D-summary.md
     - Stage 1:
-      - Onshape Fundamentals:
+      - "A: Onshape Fundamentals":
         - "Sketching and Part Modeling": learning-course/stage1/1A-sketchPartModeling.md
         - "Exercises Document": learning-course/stage1/1A-exerciseSetup.md
         - "Exercise 1: Simple Box Tube": learning-course/stage1/1A-exercise1.md
         - "Multi-Body Modeling": learning-course/stage1/1A-multiBody.md
-        - "Exercise 2: Box Tube and Gusset Joint": learning-course/stage1/1A-exercise2.md
+        - "Exercise 2: Gusset Joint": learning-course/stage1/1A-exercise2.md
         - "Assembly Modeling": learning-course/stage1/1A-assembly.md
         - "Exercise 3: Box Tube Frame": learning-course/stage1/1A-exercise3.md
         - "Exercise 4: Climber Hook": learning-course/stage1/1A-exercise4.md
         - "Summary": learning-course/stage1/1A-summary.md
-      - Power Transmissions:
-        - "B: Power Transmissions": learning-course/stage1/1B-powerTransmissions.md
-      - Design Methodology:
+      - "B: Power Transmissions":
+        - "Introduction": learning-course/stage1/1B-introduction.md
+        - "Motors": learning-course/stage1/1B-motors.md
+        - "Shafts and Bearings": learning-course/stage1/1B-shaftsBearings.md
+        - "Torque and Speed": learning-course/stage1/1B-torqueSpeed.md
+        - "Gear Basics": learning-course/stage1/1B-gears.md
+        - "Exercise 1: Simple Gearbox": learning-course/stage1/1B-exercise1.md
+        - "Exercise 2: Two Stage Gearbox": learning-course/stage1/1B-exercise2.md
+        - "Belt and Pulley Basics": learning-course/stage1/1B-belts.md
+        - "Chain and Sprocket Basics": learning-course/stage1/1B-chain.md
+        - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B-exercise3.md
+        - "Summary": learning-course/stage1/1B-summary.md
+
+      - "C: Design Methodology":
         - "C: Design Methodology": learning-course/stage1/1C-designMethodology.md
     - Stage 2:
       - "A: Full Detail Drivebase": learning-course/stage2/2A-drivebaseFullDetail.md
