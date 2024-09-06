@@ -194,8 +194,8 @@ You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featur
 
 
   <!-- Next and previous buttons -->
-  <button class="prev" onclick="plusSlides(-1,2)" style="background-color: #000; color: #fff;">&#10094;</button>
-  <button class="next" onclick="plusSlides(1,2)" style="background-color: #000; color: #fff;">&#10095;</button>
+  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
