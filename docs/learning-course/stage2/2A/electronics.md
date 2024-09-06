@@ -26,3 +26,5 @@ A list of typical electrical components found on FRC robots is provided below, a
     | Inertial Measurement Unit (IMU) | Used to determine robot heading and acceleration | Close to the center is best practice (on Bellypan or VHB tape to attach to RoboRIO) | ![Inertial Measurement Unit](\img\learning-course\stage2-drivebase\elecComponents\imu.webp) |
     | Voltage Regulator Module | Can be used for custom circuits | Bellypan | ![Voltage Regulator Module](\img\learning-course\stage2-drivebase\elecComponents\vrm.webp) |
     | Pneumatics Hub | Controls pneumatic components | Bellypan | ![Pneumatics Hub](\img\learning-course\stage2-drivebase\elecComponents\pcm.webp) |
+
+<br>

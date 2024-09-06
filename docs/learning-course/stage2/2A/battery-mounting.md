@@ -14,3 +14,5 @@ A strong strap is needed to secure the battery to its mount, preventing it from 
 !!! Example
     <center><img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
     <center><figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption></center>
+
+<br>

@@ -141,15 +141,15 @@ nav:
 
     - Stage 2:
       - "A: Full Detail Drivebase":
-        - "Introduction": learning-course/stage2/2A-introduction.md
-        - "Battery Mounting": learning-course/stage2/2A-batteryMounting.md
-        - "Exercise: Battery Holder": learning-course/stage2/2A-exercise1.md
-        - "Electronics": learning-course/stage2/2A-electronics.md
-        - "Exercise: Mounting Electronics": learning-course/stage2/2A-exercise2.md
-        - "Exercise: Bellypan Pocketing": learning-course/stage2/2A-exercise3.md
-        - "Exercise: Bumpers": learning-course/stage2/2A-exercise4.md
-        - "Exercise: Bumper Mounting": learning-course/stage2/2A-exercise5.md
-        - "Summary": learning-course/stage2/2A-summary.md
+        - "Introduction": learning-course/stage2/2A/introduction.md
+        - "Battery Mounting": learning-course/stage2/2A/battery-mounting.md
+        - "Exercise: Battery Holder": learning-course/stage2/2A/exercise1.md
+        - "Electronics": learning-course/stage2/2A/electronics.md
+        - "Exercise: Mounting Electronics": learning-course/stage2/2A/exercise2.md
+        - "Exercise: Bellypan Pocketing": learning-course/stage2/2A/exercise3.md
+        - "Exercise: Bumpers": learning-course/stage2/2A/exercise4.md
+        - "Exercise: Bumper Mounting": learning-course/stage2/2A/exercise5.md
+        - "Summary": learning-course/stage2/2A/summary.md
       - "B: Basic Shooter":
         - "Introduction": learning-course/stage2/2B-introduction.md
         - "Project Overview": learning-course/stage2/2B-projectOverview.md

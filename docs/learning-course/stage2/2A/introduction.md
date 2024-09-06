@@ -24,3 +24,5 @@ While the exact implementation for each of these details will vary based on the 
 You can access the reference CAD model with the button below. It is based off of the Stage 1C drivebase.
 
 <center>[2A Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+
+<br>
