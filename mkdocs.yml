@@ -129,7 +129,6 @@ nav:
         - "Summary": learning-course/stage1/1B-summary.md
 
       - "C: Design Methodology":
-        - "C: Design Methodology": learning-course/stage1/1C-designMethodology.md
         - "Introduction": learning-course/stage1/1C-introduction.md
         - "Top Down Design": learning-course/stage1/1C-topDownDesign.md
         - "Project Overview": learning-course/stage1/1C-projectOverview.md

@@ -23,10 +23,13 @@ As was introduced in the Onshape learning tutorials, when parts are inserted int
 
 !!! Example "Example of a Fasten Mate"
     <center>
+    <figure>
       <video width="1920" controls>
         <source src="\img\learning-course\stage1a\1a-fasten.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+      <figcaption>Using a fasten mate to secure a gusset to a tube.</figcaption>
+    </figure>
     </center>
 
 ### Best Practices

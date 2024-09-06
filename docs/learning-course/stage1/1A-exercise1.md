@@ -97,7 +97,10 @@ In FRC, robot structures are typically constructed out of aluminum box tubing, s
 
 
 ???+ Example "Box Tube Example"
-    <center><img src="\img\learning-course\stage1a\tube.webp" width="45%"> </center>
+    <figure>
+      <center><img src="\img\learning-course\stage1a\tube.webp" width="45%"> </center>
+      <figcaption>2x1 thinwall tube forming part of a robot structure.</figcaption>
+    </figure>
 
 <br>
 

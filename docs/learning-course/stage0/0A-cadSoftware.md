@@ -10,3 +10,10 @@ Although this guide uses Onshape, and the majority of FRC teams use Onshape due 
 
 ## Onshape
 Depending on the circumstances, Onshape may not be the best fit for a team; however, this guide focuses on only Onshape. Much of the design process itself and many of the mechanism fundamentals and glossary still apply, no matter what CAD software you're using. If you choose to use a different software while going through the guide, be aware that the CAD workflow may be different and that you will have significantly less support. 
+
+
+
+<figure>
+    <center><img src="/img/learning-course/stage0/introcad/bread.webp" style="width:75%"></center>
+    <figcaption>Team 5940 is a high caliber team that models their robot in Onshape.</figcaption>
+</figure>
