@@ -16,7 +16,7 @@ Welcome to the design learning course, the main purpose and content of the websi
 The purpose of the course is to take you from zero to being able to model a full robot. The content focuses on FRC-relevant features and tools, using engaging projects that not only introduce new CAD skills and practice old ones but also introduce engineering concepts. These projects slowly become more open-ended.
 
 !!! Tip
-    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A-whatAndWhyCAD.md "Stage 0A") if you're switching from another CAD software and [Stage 1A](stage1/1A-sketchPartModeling.md "Stage 1A") if you already have some experience using Onshape. You will struggle with later stages if you don't have a solid grasp on the fundamentals of Onshape.
+    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A-whatAndWhyCAD.md "Stage 0A") if you're switching from another CAD software and [Stage 1A](stage1/1A-introduction.md "Stage 1A") if you already have some experience using Onshape. You will struggle with later stages if you don't have a solid grasp on the fundamentals of Onshape.
 
     If you choose to skip to Stage 1A, make sure to still add the [required featurescripts](stage0/0B-featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
 
@@ -39,7 +39,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <img src="/img/learning-course/stage1b/Exercise 2 Assembly.webp" align="left" style="width:35%">
 
 <div dir="rtl">
-<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A-sketchPartModeling" title="Stage 1 Page">Stage 1</a></h3>
+<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A-introduction" title="Stage 1 Page">Stage 1</a></h3>
 <ul>
 <li>Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises</li>
 <li>Learn about power transmission and modeling gearboxes</li>
