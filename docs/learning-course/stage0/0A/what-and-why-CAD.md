@@ -30,3 +30,5 @@ CAD is the intermediary between an idea and a built product. Teams can iterate i
 6. CAD works like a **digital blueprint and bill of materials** of the robot. It allows you to figure out exactly what you need to order and make for the robot, and how it fits together.
 
 7. **CAD skills are used in the real world all the time**, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
+
+<br>

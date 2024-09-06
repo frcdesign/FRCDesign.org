@@ -168,6 +168,8 @@ If you are interested, direct your design lead or mentors to read the ChiefDelph
 
 [Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394 "Onshape Educator Plan Chief Delphi Thread"){:target="_blank"}
 
+<br>
+
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
 <script>

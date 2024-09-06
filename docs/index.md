@@ -75,7 +75,7 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world. 
 
 <center>
-[Contributors List](../../contribution/contributors "Contributor List"){.md-button .md-button--primary}
+[Contributors List](../../contribution/contributors.md "Contributor List"){.md-button .md-button--primary}
 </center>
 
 ## Discord

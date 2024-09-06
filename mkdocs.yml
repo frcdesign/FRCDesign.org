@@ -90,31 +90,30 @@ nav:
     - learning-course/index.md
     - Stage 0: 
       - "A: Introduction to CAD":
-        - "What and Why": learning-course/stage0/0A-whatAndWhyCAD.md
-        - "CAD Software": learning-course/stage0/0A-cadSoftware.md
+        - "What and Why": learning-course/stage0/0A-what-and-why-CAD.md
+        - "CAD Software": learning-course/stage0/0A-cad-software.md
       - "B: Onshape Setup":
-        - "Account Setup": learning-course/stage0/0B-accountSetup.md
+        - "Account Setup": learning-course/stage0/0B-account-setup.md
         - "MKCad": learning-course/stage0/0B-MKCad.md
         - "Featurescripts": learning-course/stage0/0B-featurescripts.md
       - "C: Navigating Onshape":
         - "Documents Page": learning-course/stage0/0C-documents.md
-        - "Document Navigation": learning-course/stage0/0C-documentNavigation.md
-        - "Other Notes": learning-course/stage0/0C-otherNotes.md
-      - "D: CAD Theory":
-        - "Theory": learning-course/stage0/0D-theory.md
-        - "Summary": learning-course/stage0/0D-summary.md
+        - "Document Navigation": learning-course/stage0/0C-document-navigation.md
+        - "Other Notes": learning-course/stage0/0C-other-notes.md
+      - "D: CAD Theory": learning-course/stage0/0D-theory.md
+      - "Summary": learning-course/stage0/0-summary.md
     - Stage 1:
       - "A: Onshape Fundamentals":
-        - "Introduction": learning-course/stage1/1A-introduction.md
-        - "Sketching and Part Modeling": learning-course/stage1/1A-sketchPartModeling.md
-        - "Exercises Document": learning-course/stage1/1A-exerciseSetup.md
-        - "Exercise 1: Simple Box Tube": learning-course/stage1/1A-exercise1.md
-        - "Multi-Body Modeling": learning-course/stage1/1A-multiBody.md
-        - "Exercise 2: Gusset Joint": learning-course/stage1/1A-exercise2.md
-        - "Assembly Modeling": learning-course/stage1/1A-assembly.md
-        - "Exercise 3: Box Tube Frame": learning-course/stage1/1A-exercise3.md
-        - "Exercise 4: Climber Hook": learning-course/stage1/1A-exercise4.md
-        - "Summary": learning-course/stage1/1A-summary.md
+        - "Introduction": learning-course/stage1/1A/introduction.md
+        - "Sketching and Part Modeling": learning-course/stage1/1A/sketch-part-modeling.md
+        - "Exercises Document": learning-course/stage1/1A/exercise-setup.md
+        - "Exercise 1: Simple Box Tube": learning-course/stage1/1A/exercise1.md
+        - "Multi-Body Modeling": learning-course/stage1/1A/multi-body.md
+        - "Exercise 2: Gusset Joint": learning-course/stage1/1A/exercise2.md
+        - "Assembly Modeling": learning-course/stage1/1A/assembly.md
+        - "Exercise 3: Box Tube Frame": learning-course/stage1/1A/exercise3.md
+        - "Exercise 4: Climber Hook": learning-course/stage1/1A/exercise4.md
+        - "Summary": learning-course/stage1/1A/summary.md
       - "B: Power Transmissions":
         - "Introduction": learning-course/stage1/1B-introduction.md
         - "Motors": learning-course/stage1/1B-motors.md

@@ -23,6 +23,8 @@ To get you started, lets install all the Featurescripts that you will utilize in
       Your browser does not support the video tag.
     </video>
 
-    <center>*Repeat the same process for all the other Featurescript documents.*</center>
+    <center>*Repeat this process for all the other Featurescript documents.*</center>
 
-Once you have that done, you are ready for the next stage!
+Once you have set up your account and added MKCad and necessary featurescripts, you are ready for the next stage!
+
+<br>
