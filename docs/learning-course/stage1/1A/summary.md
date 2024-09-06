@@ -6,7 +6,7 @@ Congratulations on completing Stage 1A! Remember, practice is essential – the 
 
 Here is a quick summary of what you have achieved in 1A:
 
-* Learned how to use the Onshape interface and basic sketching and modeling features with the OnShape Learning Center courses
+* Learned how to use the Onshape interface and basic sketching and modeling features with the Onshape Learning Center courses
 * Learned how to model basic FRC structures
 * Learned how to use the `Gusset`, `Extrude Individual`, `Tube Converter`, and `Spacer` Featurescripts
 * Learned how to assemble basic models using `Group` and `Fasten`

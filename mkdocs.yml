@@ -106,7 +106,7 @@ nav:
       - "A: Onshape Fundamentals":
         - "Introduction": learning-course/stage1/1A/introduction.md
         - "Sketching and Part Modeling": learning-course/stage1/1A/sketch-part-modeling.md
-        - "Exercises Document": learning-course/stage1/1A/exercise-setup.md
+        - "Exercise Prequisites": learning-course/stage1/1A/exercise-setup.md
         - "Exercise 1: Simple Box Tube": learning-course/stage1/1A/exercise1.md
         - "Multi-Body Modeling": learning-course/stage1/1A/multi-body.md
         - "Exercise 2: Gusset Joint": learning-course/stage1/1A/exercise2.md
@@ -114,6 +114,7 @@ nav:
         - "Exercise 3: Box Tube Frame": learning-course/stage1/1A/exercise3.md
         - "Exercise 4: Climber Hook": learning-course/stage1/1A/exercise4.md
         - "Summary": learning-course/stage1/1A/summary.md
+
       - "B: Power Transmissions":
         - "Introduction": learning-course/stage1/1B/introduction.md
         - "Motors": learning-course/stage1/1B/motors.md
@@ -135,7 +136,7 @@ nav:
         - "Part Studio": learning-course/stage1/1C/part-modeling.md
         - "Assembly": learning-course/stage1/1C/assembly-modeling.md
         - "Adding More Components": learning-course/stage1/1C/adding-components.md
-        - "Robot Assembly": learning-course/stage1/1C/top-level-assembly.md
+        - "Top Level Assembly": learning-course/stage1/1C/top-level-assembly.md
         - "Summary": learning-course/stage1/1C/summary.md
 
     - Stage 2:

@@ -10,7 +10,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 <center><img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:80%"></center>
 <center>*Stage 1C swerve drivebase project.*</center>
 
-As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on the Discord!
+As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/jHXTdNjYCg "DDS Discord Invite"){:target="_blank"}!
 
 <center>[1C Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51 "1C Drivebase Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
@@ -20,3 +20,4 @@ As was introduced in Stage 1A, robot structures are typically constructed out of
 
 Box tubing extrusions can be purchased at most metal suppliers, but many FRC vendors including [WCP](https://wcproducts.com/collections/systems-structure/products/punched-tubing){:target="_blank"}, [TTB](https://www.thethriftybot.com/products/thrifty-box-extrusion){:target="_blank"}, and [REV](https://www.revrobotics.com/MAXTube/){:target="_blank"} sell box tubing with pre-cut hole patterns which can significantly reduce manufacturing time and equipment requirements.
 
+<br>

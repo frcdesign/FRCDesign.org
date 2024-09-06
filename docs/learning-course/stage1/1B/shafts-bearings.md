@@ -14,7 +14,7 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 
 !!! Example "Example of a Shaft Spinning in a Bearing"
     <center><img src="\img\learning-course\stage1b\examples\shaftspining.gif" style="width:75%"></center>
-    <center>*A spinning shaft in bearing*</center>
+    <center>*A spinning shaft in bearings*</center>
 
     <br>
 
@@ -22,3 +22,5 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 The easiest way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
 
 For bearings, insert your desired bearing from the MKCad app.
+
+<br>

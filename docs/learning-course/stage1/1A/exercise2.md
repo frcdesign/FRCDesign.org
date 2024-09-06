@@ -91,8 +91,11 @@
 
 # 1A: Onshape Fundamentals
 
+## Exercise #2: Box Tube and Gusset Joint
 
-## Gussets
+For this exercise, you will design two box tubes attached together with a gusset. This gusset will be created in the same part studio as the tubes that it is connecting!
+
+### Gussets
 
 Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a flat plate that, when attached to both tubes, helps create rigidity in the structure. 
 
@@ -104,9 +107,7 @@ Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a
 
 <br>
 
-## Exercise #2: Box Tube and Gusset Joint
-
-For this exercise, you will design two box tubes attached together with a gusset. This gusset will be created in the same part studio as the tubes that it is connecting!
+### Featurescripts
 
 You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. **Do not use the `Gusset` Featurescript for this exercise.**
 
@@ -115,12 +116,12 @@ You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts fo
 
 - The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
 
+### Instructions
+
 ???+ Warning "Creating New Parts"
     When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
     <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
     <center> *The different options for extruding* </center>
-
-### Instructions
 
 **Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 

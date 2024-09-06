@@ -28,3 +28,5 @@ Shooter wheels or intake rollers often have little to no reduction, and in some 
 
 !!! Tip
     For situations that require higher speed and higher torque than what a single motor can provide, add more motors.
+
+<br>

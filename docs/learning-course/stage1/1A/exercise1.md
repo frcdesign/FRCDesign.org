@@ -90,8 +90,11 @@
 
 # 1A: Onshape Fundamentals
 
+## Exercise #1: Simple Box Tube
 
-## Box Tubes
+For this exercise, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts. 
+
+### Box Tubes
 
 In FRC, robot structures are typically constructed out of aluminum box tubing, similar to wood beams for a house. Aluminum box tubing is commonly found in 2"x1", 1"x1", and 2"x2" sizes with 1/8" (thickwall) or 1/16" (thinwall) wall thicknesses. Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the learning course, we will use this notation when referring to box tube.
 
@@ -103,10 +106,6 @@ In FRC, robot structures are typically constructed out of aluminum box tubing, s
     </figure>
 
 <br>
-
-## Exercise #1: Simple Box Tube
-
-For this exercise, you will be modeling a simple 2x1 with some holes in it. For this exercise, do not use any Featurescripts. 
 
 ### Instructions
 

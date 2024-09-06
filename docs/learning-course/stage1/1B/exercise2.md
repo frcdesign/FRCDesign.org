@@ -92,7 +92,7 @@
 
 ## Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Part Lighten` Featurescript used for pocketing.
+In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Part Lighten` Featurescript used for lightening parts.
 
 ### Part Studio Instructions
 **Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio. 

@@ -92,7 +92,10 @@
 # 1A: Onshape Fundamentals
 
 ## Exercise #3: Box Tube Frame
+
 For this exercise, you will create a simple frame and two gussets in the part studio, then create an assembly and mate together all the components.
+
+### Featurescripts
 
 You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
 

@@ -8,8 +8,6 @@
 [1A Exercise Solutions Document](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d?renderMode=0&uiState=663d81d5d060d67d3cd48855 "1A Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
 </center>
 
-<br>
-
 ### Copying a Document
 Copy a document by hitting the "Make a Copy to Edit" button and saving it in your personal files. 
 
