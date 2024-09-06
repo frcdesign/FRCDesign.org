@@ -23,3 +23,5 @@ The most common way to launch game pieces is with flywheel shooters. Other metho
 [This video](https://youtu.be/QZKDnRvLhrA "1678 Shooter Slow Mo Video"){:target="_blank"} is a good slow-motion look at how a ball gets propelled out of a shooter.
 
 Other mechanism examples and deep dives for shooters can be found on the [ball shooters page](/mechanism-examples/shooter/ "Ball Shooters Page"){:target="_blank"}. The design handbook page will have a deeper dive when the shooter design page is completed. 
+
+<br>

@@ -9,10 +9,12 @@ The shooter will be designed to shoot the Power Cells into the high goal from ju
 <center><img src="\img\learning-course\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
 <center><figcaption>Finished shooter assembly.</figcaption></center>
 
-The reference shooter is provided below. Note that the reference shooter is not designed for the 2020 game. 
+To design the shooter, this document will be used as reference:
 
 <center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ### Engineering Concepts & Decisions
 
-The following sections cover the basic shooter concepts, as well as the reasons for specific implementations in the example. We cover these concepts lightly so you can design your shooter and understand the basic ideas behind shooters. The design handbook covers the "why" if you would like to gain a deeper understanding.
+The engineering concepts and decisions made to design the reference shooter are covered in the following sections. We cover these concepts lightly so you can understand the principles of designing flywheel shooters enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
+
+<br>

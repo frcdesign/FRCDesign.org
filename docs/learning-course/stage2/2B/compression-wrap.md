@@ -36,4 +36,5 @@ A wheel or set of belts is commonly used to feed game pieces into the flywheel. 
 <br>
 <figure><img align="left"  src="\img\learning-course\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
 <center><figcaption>Observe how the game pieces are fed into 2910's and 1690's robot.</figcaption></center>
+
 <br>

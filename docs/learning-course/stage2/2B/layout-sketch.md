@@ -2,7 +2,9 @@
 
 ## Layout Sketch
 
-The following outlines the steps you should take to design your ball shooter.
+The following outlines the steps you should take to design your ball shooter. The reference document is provided below:
+
+<center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ### Initial Layout
 

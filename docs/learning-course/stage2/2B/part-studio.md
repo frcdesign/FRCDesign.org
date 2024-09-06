@@ -1,6 +1,8 @@
 # 2B: Basic Shooter
 
-### Part Studio
+<center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
+
+## Part Studio
 
 !!! Tip
     You can use the rollback bar to view the reference shooter part studio at each step of the process.

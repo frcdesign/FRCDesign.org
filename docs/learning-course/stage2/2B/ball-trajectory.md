@@ -20,3 +20,5 @@ For 2020, the initiation line on the field can serve as a reference point to est
 Explore [this 2020 trajectory calculator](https://www.desmos.com/calculator/euvciqv3tr "Desmos 2020 Trajcetory Calculator"){:target="_blank"} to see how adjustments to angle and speed affect your shot. Can you identify a combination of angle and speed that allows for consistent scoring even with some positional variation?
 !!! Calculator
     <center><iframe src="https://www.desmos.com/calculator/5fil8alfmd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
+
+<br>

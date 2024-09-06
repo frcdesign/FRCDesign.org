@@ -38,3 +38,4 @@ A useful tool for determining the optimal gear ratio is the [ReCalc Flywheel Cal
 !!! Note
     Reductions or upductions should be done with belts due to their high efficiency and low maintenance. Use pulleys larger than 24 teeth on the flywheel and ensure high tooth engagement to maximize energy transfer and prevent belt skipping.
 
+<br>

@@ -12,3 +12,5 @@ This shooter uses two 1/4" polycarbonate plates for the sides. The 1/4" thicknes
     <img src="/img/learning-course/stage2-shooter/shooterfront.webp" width="60%">
     <figcaption>1x1 structure with the gussets helping support the polycaronbate plates.</figcaption>
 </figure>  
+
+<br>
