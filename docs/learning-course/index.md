@@ -53,7 +53,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" align="right" style="width:32%">
 
-### [Stage 2](stage2/2A-drivebaseFullDetail.md "Stage 2 Page")
+### [Stage 2](stage2/2A-introduction.md "Stage 2 Page")
 
 - Learn about common mechanisms in FRC and model them
 - Practice CAD skills until you're significantly more comfortable with Onshape
