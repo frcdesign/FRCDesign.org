@@ -21,6 +21,6 @@ To design the arm, this document will be used as reference. Model a copy of it i
 
 ### Engineering Concepts & Decisions
 
-The engineering concepts and decisions made to design the reference shooter are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
+The engineering concepts and decisions made to design the reference pivot are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
 
 <br>

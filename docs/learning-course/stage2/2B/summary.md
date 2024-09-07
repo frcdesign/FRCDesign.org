@@ -14,6 +14,8 @@ You've completed Stage 2B, and your first full mechanism! To summarize what you'
 - Designing a custom limelight mount for a shooter
 - How to model a whole mechanism!
 
-While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
+While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. 
+
+In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
 
 <br>

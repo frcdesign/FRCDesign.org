@@ -183,8 +183,20 @@ nav:
         - "Assembly": learning-course/stage2/2C/assembly.md
         - "Summary": learning-course/stage2/2C/summary.md
 
-      - "D: Slapdown Intake": learning-course/stage2/2D/slapdown-intake.md
-
+      - "D: Slapdown Intake":
+        - "Introduction": learning-course/stage2/2D/introduction.md
+        - "Project Overview": learning-course/stage2/2D/project-overview.md
+        - "Engineering Concepts":
+          - "Intake Golden Rules": learning-course/stage2/2D/intake-golden-rules.md
+          - "Robustness": learning-course/stage2/2D/robustness.md
+          - "Pivot": learning-course/stage2/2D/pivot.md
+          - "Rollers": learning-course/stage2/2D/rollers.md
+          - "Zombie Axles": learning-course/stage2/2D/zombie-axles.md
+        - "Layout Sketch": learning-course/stage2/2D/layout-sketch.md
+        - "Part Studio": learning-course/stage2/2D/part-studio.md
+        - "Assembly": learning-course/stage2/2D/assembly.md
+        - "Summary": learning-course/stage2/2D/summary.md
+        
       - "E: Cascade Elevator": learning-course/stage2/2E/cascade-elevator.md
 
     - Stage 3: learning-course/stage3/3A/introduction.md
