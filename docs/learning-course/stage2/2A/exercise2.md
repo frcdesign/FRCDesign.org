@@ -111,12 +111,15 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/elec/elec1s1.webp" style="width:100%">
-            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker.</figcaption>
+            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker. (The `Electronic Mounting` Featurescript does not support mounting holes for the main breaker at this time unforunately).</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec1s2.webp" style="width:100%">
+            <video width="1920" controls>
+              <source src="/img/learning-course/stage2-drivebase/elec/elec1s2.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
             <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
         </figure>
     </div>
