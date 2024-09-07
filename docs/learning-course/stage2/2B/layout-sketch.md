@@ -11,7 +11,10 @@ The following outlines the steps you should take to design your ball shooter. Th
 1. Use the Origin Cube Featurescript to insert the Origin Cube.
 2. Sketch any field elements you intend to interact with. There's no hard alignment, but you intend to shoot into the back goal of the "Power Port," so you must sketch that from a side view using the game manual and field layout drawings for reference. Place it 135 inches away from the origin, as that places the center of your robot 15 inches away from the white "initiation line"
 
-    <center><img src="/img/learning-course/stage2-shooter/Field Elements.webp" width="80%"></center>
+<figure>
+    <img src="/img/learning-course/stage2-shooter/Field Elements.webp" width="80%">    
+    <figcaption>Field Element Layout Sketch</figcaption>
+</figure>
 
 3. Sketch a side view of your drivetrain + bumpers.
 4. Sketch a rectangle with your frame perimeter and height limit. This becomes your bounding box on where to design.
@@ -24,7 +27,10 @@ The following outlines the steps you should take to design your ball shooter. Th
 8. Sketch your hood wheels by adding two 2 inch circles tangent to the outside of the large circle. Dimension them from each other using a belt calculator.
 9. To constrain your shot angle to the field element placement, since the hood is not adjustable, create a line between the 3" compression circle and the last hood wheel, create an arc from the center of that line to the center of the back goal of the Power Port, and make it normal to the first line you made in this step. Adjust the radius of the arc until you are happy with the arc. The arc itself can be adjustable in real life depending on how far away from the goal you are by adjusting the speed of the flywheels.
 
-    <center><img src="/img/learning-course/stage2-shooter/Constrained Shot Angle.webp" width="80%"></center>
+<figure>
+    <img src="/img/learning-course/stage2-shooter/Constrained Shot Angle.webp" width="80%">    
+    <figcaption>Sketched Shooter Ball Trajectory</figcaption>
+</figure>
 
 10. Decide where you want the motors for the flywheels to go and dimension them away from the flywheel center using a belt calculator.
 
@@ -35,6 +41,9 @@ The following outlines the steps you should take to design your ball shooter. Th
 
 Now make sure all the geometry in the master sketch is fully constrained (black). Constrain any unconstrained geometry arbitrarily if you need to.
 
-<center><img src="/img/learning-course/stage2-shooter/Finished Master Sketch.webp" width="70%"></center>
+<figure>
+    <img src="/img/learning-course/stage2-shooter/Finished Master Sketch.webp" width="70%">    
+    <figcaption>Finished Layout Sketch</figcaption>
+</figure>
 
 <br>

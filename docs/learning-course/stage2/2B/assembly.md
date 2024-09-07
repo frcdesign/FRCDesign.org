@@ -8,6 +8,9 @@ In your own document, create an assembly, insert the parts and origin cube from 
 
 Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. You can try using [simplified motors](https://cad.onshape.com/documents/6df614f3562416a3f9d98607/w/4e6feba12e09e298d8220fdc/e/7c565c28856cdb62e8b20117 "Simplified Motors Onshape Document"){:target="_blank"}.
 
-<center><img src="\img\learning-course\stage2-shooter\Shooter Assembly.webp" style="width:60%"></center>
+<figure>
+    <img src="\img\learning-course\stage2-shooter\Shooter Assembly.webp" style="width:60%">
+    <figcaption>Finished Assembly</figcaption>
+</figure>
 
 <br>

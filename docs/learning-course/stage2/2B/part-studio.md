@@ -22,6 +22,9 @@
 6. Model the polycarb backing with holes in it to attach it to the standoffs with zip ties.
 7. Model the 3D-printed camera mount and camera mount spacers for the Limelight 3
 
-<center><img src="/img/learning-course/stage2-shooter/Shooter Part Studio.webp" width="50%"></center>
+<figure>
+    <img src="/img/learning-course/stage2-shooter/Shooter Part Studio.webp" width="50%">
+    <figcaption>Finished Part Studio</figcaption>
+</figure>
 
 <br>
