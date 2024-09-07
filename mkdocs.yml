@@ -196,8 +196,21 @@ nav:
         - "Part Studio": learning-course/stage2/2D/part-studio.md
         - "Assembly": learning-course/stage2/2D/assembly.md
         - "Summary": learning-course/stage2/2D/summary.md
-        
-      - "E: Cascade Elevator": learning-course/stage2/2E/cascade-elevator.md
+
+      - "E: Cascade Elevator":
+        - "Introduction": learning-course/stage2/2E/introduction.md
+        - "Project Overview": learning-course/stage2/2E/project-overview.md
+        - "Engineering Concepts":
+          - "Elevator Blocks": learning-course/stage2/2E/elevator-blocks.md
+          - "Chain Attachment": learning-course/stage2/2E/chain-attachment.md
+          - "Rigging": learning-course/stage2/2E/rigging.md
+          - "Cable Clamp": learning-course/stage2/2E/cable-clamp.md
+          - "Cable Ends": learning-course/stage2/2E/cable-ends.md
+          - "Gearbox": learning-course/stage2/2E/drive-system.md
+        - "Layout Sketch": learning-course/stage2/2E/layout-sketch.md
+        - "Part Studio": learning-course/stage2/2E/part-studio.md
+        - "Assembly": learning-course/stage2/2E/assembly.md
+        - "Summary": learning-course/stage2/2E/summary.md
 
     - Stage 3: learning-course/stage3/3A/introduction.md
     - Stage 4: learning-course/stage4.md
