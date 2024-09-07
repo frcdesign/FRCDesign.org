@@ -104,7 +104,7 @@ In order to change the torque and speed from the input to the output, different 
 
 Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. The *pitch length* of the belt is then the pitch (5 mm) multiplied by the number of teeth. Belts will always have an integer number of teeth so the pitch length will be a multiple of 5mm.
 
-For example, an 80T belt will have a pitch length of 400 mm.
+For example, an 80T belt will have a length of 400 mm.
 <!-- To calculate the pitch diameter of a pulley, the following equation can be used:
 <center>**`PD = Pitch * (# of Teeth) / 3.14`**</center> -->
 
@@ -124,7 +124,7 @@ You will utilize the following functions for belts. You can use them in sketches
 
 #### Design Intent
 
-Before the advent of these two Featurescripts, designers would need to use online calculators, such as [ReCalc](https://www.reca.lc/belts "ReCalc Design Calculator"){:target="_blank"}, to calculate c-c distances. However, this method does not capture design intent as it relies on copy pasting a calculated value into the layout sketch.
+Before the advent of these two Featurescripts, designers would need to use online calculators, such as [ReCalc](https://www.reca.lc/belts "ReCalc Design Calculator"){:target="_blank"}, to calculate c-c distances. However, this method does not capture design intent as it relies on copy-pasting a calculated value into the layout sketch.
 
 !!! Note "Capturing Design Intent"
     In order to capture design intent, it should be clear what dimensions are derived from. Simply copy pasting the calculated center to center distance from ReCalc into the sketch does not convey any information about the belt or pulleys. The FRC functions of the `Origin Cube` Featurescript shows the belt and pulley parameters that the dimensions were derived from.
