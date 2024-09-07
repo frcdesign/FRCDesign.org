@@ -169,7 +169,19 @@ nav:
         - "Assembly": learning-course/stage2/2B/assembly.md
         - "Summary": learning-course/stage2/2B/summary.md
 
-      - "C: Dead Axle Pivot": learning-course/stage2/2C/deadaxle-pivot.md
+      - "C: Dead Axle Pivot":
+        - "Introduction": learning-course/stage2/2C/introduction.md
+        - "Project Overview": learning-course/stage2/2C/project-overview.md
+        - "Engineering Concepts":
+          - "Strength": learning-course/stage2/2C/strength.md
+          - "Friction": learning-course/stage2/2C/friction.md
+          - "Power Transmission": learning-course/stage2/2C/power-transmission.md
+          - "Tensioning": learning-course/stage2/2C/tensioning.md
+          - "Backlash": learning-course/stage2/2C/backlash.md
+        - "Layout Sketch": learning-course/stage2/2C/layout-sketch.md
+        - "Part Studio": learning-course/stage2/2C/part-studio.md
+        - "Assembly": learning-course/stage2/2C/assembly.md
+        - "Summary": learning-course/stage2/2C/summary.md
 
       - "D: Slapdown Intake": learning-course/stage2/2D/slapdown-intake.md
 
