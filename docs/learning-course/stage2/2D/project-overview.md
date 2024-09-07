@@ -9,9 +9,9 @@ You will be designing a slapdown intake applicable to both the 2022 and 2023 gam
     <figcaption>Finished Intake Assembly</figcaption>
 </figure>
 
-To design the intake, this document will be used as reference. Model a copy of it in your own document.
+To design the intake, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
 
-<center>[**Slap Down Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f "Slap Down Intake Reference Document"){:target="_blank" .md-button .md-button--primary } </center>
+<center>[**Slapdown Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f "Slap Down Intake Reference Document"){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 

@@ -18,7 +18,7 @@ Only 2 of the rollers are on the pivoting arm portion. The final one inside the 
 
 <figure>
     <img src="\img\learning-course\stage2-slapdown\ball-path.webp" alt="Ball Path" width="60%" style="border:5px solid #ADADAD">
-    <figcaption> Roller positions influence the ball path.</figcaption>
+    <figcaption> The sketched ball path influences the position of the rollers</figcaption>
 </figure>
 
 

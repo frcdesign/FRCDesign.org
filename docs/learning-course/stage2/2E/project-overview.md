@@ -9,12 +9,12 @@ Because elevators are just mechanisms to move other mechanisms around, this proj
     <figcaption>Reference Elevator Assembly</figcaption>
 </figure>
 
-To design the elevator, this document will be used as reference. Model a copy of it in your own document.
+To design the elevator, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
 
 <center>[**Cascade Elevator Reference Document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/c64f9fd69e2ddbe82410f283){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 
-The engineering concepts and decisions made to design the reference pivot are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
+The engineering concepts and decisions made to design the reference elevator are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
 
 <br>

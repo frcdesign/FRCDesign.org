@@ -11,6 +11,6 @@ Elevators need motors to power them. Once you have the rigging planned out you c
 </figure>
 
 ### Reference Design
-The reference design utilizes a vertical chain with eh TTB chain comb, and NEO motors with MAX planetary gearboxes.
+The reference design utilizes a vertical chain with the TTB chain comb and NEO motors with MAX planetary gearboxes.
 
 <br>

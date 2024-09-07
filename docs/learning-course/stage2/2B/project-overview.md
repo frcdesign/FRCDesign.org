@@ -10,7 +10,7 @@ The shooter will be designed to shoot the Power Cells into the high goal from ju
     <figcaption>Finished shooter assembly.</figcaption>
 </figure>
 
-To design the shooter, this document will be used as reference. Model a copy of it in your own document.
+To design the shooter, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
 
 <center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
