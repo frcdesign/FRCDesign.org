@@ -127,7 +127,7 @@ Utilize the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c
 * `#SprocketPD_25(n)`: Calculates the pitch diameter of a #25 pitch sprocket with `n` teeth.
     * Ex: `#SprocketPD_25(16)` returns the pitch diameter of an 16T #25 pitch sprocket.
 
-Generate a 3D model of the chain with the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts, check the chain link count that it generates, then  go back to the sketch and dimension your center-to-center distance between the sprockets using the `Origin Cube` Featurescript function.
+Generate a 3D model of the chain with the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts, check the chain link count that it generates, then  go back to the sketch and dimension your center-to-center distance using that chain link count to get the correct center-to-center distance. Use the following Origin Cube function: 
 
 * `#ChainCTC_25(n1, n2, n3)`: Calculates the c-c distance of a `n1` link #25 pitch chain connecting sprocket with tooth count `n2` and sprocket with tooth count `n3`.
     * Ex: `#ChainCTC_25(80,16,48)` returns the center distance for an 80 link #25 pitch chain connecting a 16T sprocket to a 48T sprocket.
