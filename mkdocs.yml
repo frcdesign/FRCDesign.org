@@ -355,9 +355,6 @@ plugins:
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
-      - git-committers:
-          repository: frcdesign/FRCDesign.org
-          branch: main
       - git-revision-date-localized:
           enable_creation_date: true
       - optimize
