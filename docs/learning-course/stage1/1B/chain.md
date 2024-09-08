@@ -118,73 +118,20 @@ Below is an illustration of the pitch, pitch diameter, outside diameter, and cha
 
 In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
 
-### Center to Center Calculation
+### Modeling Chain Transmissions
 
-Calculating sprocket center-to-center is very similar to pulley center-to-centers. 
+The modeling workflow for chain is the exact same as for belts in the previous page. You will need the pitch diameter of the two sprockets and a correct center-to-center distance.
 
-You will utilize use the following functions from the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} FRC functions. You can use them in sketches by entering them as dimensions.
+Utilize the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} function to dimension the pitch diameters of two sprockets on points you want connected with a chain. 
 
 * `#SprocketPD_25(n)`: Calculates the pitch diameter of a #25 pitch sprocket with `n` teeth.
     * Ex: `#SprocketPD_25(16)` returns the pitch diameter of an 16T #25 pitch sprocket.
 
+Generate a 3D model of the chain with the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts, check the chain link count that it generates, then  go back to the sketch and dimension your center-to-center distance between the sprockets using the `Origin Cube` Featurescript function.
+
 * `#ChainCTC_25(n1, n2, n3)`: Calculates the c-c distance of a `n1` link #25 pitch chain connecting sprocket with tooth count `n2` and sprocket with tooth count `n3`.
     * Ex: `#ChainCTC_25(80,16,48)` returns the center distance for an 80 link #25 pitch chain connecting a 16T sprocket to a 48T sprocket.
 
-### Modeling Chain Transmissions
-
-The modeling workflow is exactly the same as belt and pulley. Start by drawing the pitch diameter of the two sprockets, the centerline, and tangent lines to represent the chain links. A 3D model of the chain can be generated using the same [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"} that you used for belts. The `Belt & Chain Gen` Featurescript will tell you the pitch length of the chain, which you can then use to find the next closest **even number** of chain links.
-
-The following slides demonstrate the workflow one would go through to model a chain transmission. 
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-  <!-- Full-width images with number and caption text -->
-  <div id="slide1" class="mySlides fade">
-  <figure>
-    <img src="/img/learning-course/stage1b/chain/chainCad1.webp" style="width:100%">
-    <figcaption>1. Set the sprocket diameters using the <code>#SprockeOD_25(# of teeth)</code> function. Draw the center line to connect the sprockets and set your target c-c distance. In this example, our target c-c distance is 5". Optionally connect the circles with tangent lines.</figcaption>
-  </figure>
-  </div>
-
-  <div class="mySlides fade">
-  <figure>
-  <video width="1920" controls>
-    <source src="/img/learning-course/stage1b/chain/chainCad2.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-  <figcaption>2. Use the <code>Belt & Chain Gen</code> Featurescript to generate a simplified 3D model of the chain. While you can also generate a full detail model of the chain, it is very laggy.</figcaption>
-  </figure>
-  </div>
-
-  <div class="mySlides fade">
-  <figure>
-    <img src="/img/learning-course/stage1b/chain/chainCad4.webp" style="width:100%">
-    <figcaption>3. The <code>Belt & Chain Gen</code> Featurescript will return the closest integer chain link count and the pitch length. Keeping in mind that we should only use even an even number of links, we can see that the next closest link count is 74L.</figcaption>
-  </figure>
-  </div>
-
-  <div class="mySlides fade">
-  <figure>
-    <img src="/img/learning-course/stage1b/chain/chainCad3.webp" style="width:100%">
-    <figcaption>4. Modify the c-c dimension to use the <code>#chainCTC_25(# belt teeth, # pulley 1 teeth, # pulley 2 teeth)</code> function to get an exact c-c distance for the 74L chain. </figcaption>
-  </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1b/chain/chainCad5.webp" style="width:100%">
-      <figcaption>5. The <code>Belt & Chain Gen</code> feature automatically updates and we can see that the chain link count is correct (74T) and the pitch length is a multiple of 0.25", meaning that the link count is exact and not being rounded.</figcaption>
-    </figure>
-  </div>
-  
-  <!-- Next and previous buttons -->
-  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
-  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
-  <!-- The dots/circles -->
-  <div class="dotsContainer" style="text-align:center">
-  <!-- Dots will be generated here -->
-  </div>
-</div>
 
 ### Chain Tensioners
 
