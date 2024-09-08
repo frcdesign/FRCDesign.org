@@ -9,6 +9,6 @@ Parts in FRC such as printed pulleys can be standardized. Here is a list of comm
 - [Configurable Deadaxle Roller](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Deadaxle Roller Onshape Document"){:target="_blank"}
 
 
-**Coming Soon**
+**More Parts Coming Soon**
 
 <br>
