@@ -49,7 +49,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Example"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/learning-course/stage1b/belt/beltCad2.webm" type="video/webm">
+      <source src="/img/resources/featurescripts/origincube.webm" type="video/webm">
     </video>
     <figcaption><center>Origin Cube's FRC Functions enables belt and chain calculations directly inside of sketches and fully captures design intent by capturing tooth counts.</center></figcaption>
 
@@ -274,6 +274,11 @@ The below links contain several featurescripts each that you can add all at once
 [**Sprocket**](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true "Sprocket Featurescript Onshape Document"){:target="_blank"} *(Abhi's Features & Configs)*
 
   - Generate a sprocket for common types of chain
+
+[**doesinlinechaintensionerfit**](https://cad.onshape.com/documents/0a4b1991c2c84d83452b66db/w/16955b48319c55202a97d587/e/2c07d47526c2d94d25697091 "doesinlinetensionerfit Featurescipt Onshape Document"){:target="_blank"}
+
+- Calculates whether or not an inline chain tensioner will fit on a chain transmission
+- For when you are too lazy to do basic math
 
 [**Spur Gear**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/d1389fa34235160533671706/e/99672d1e329b38e647d90146 "Spur Gear Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
 
