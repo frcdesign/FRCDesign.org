@@ -157,12 +157,14 @@ Where DP stands for **diametral pitch**. For now, you can assume it to always be
 
 ### Modeling Gear Transmissions
 
-When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. The reason we enter the full expression is so that we can easily see what the circle represents (a gear, sprocket, or pulley, and how many teeth it has).
+When modeling, an easy way to set the center-to-center distance between two gears is to draw two circles sized to the gears' pitch diameters and then set the two circles to be tangent to each other. For example, if you need to mesh a 20T gear and a 60T gear, you can draw a `20/20 = 1"` and a `60/20 = 3"` circle and add a tangent constraint between the two circles. 
 
-<center><img src="\img\learning-course\stage1b\gears\gearCad.webp" style="width:60%"></center>
+<figure>
+<img src="\img\learning-course\stage1b\gears\gearCad.webp" style="width:60%">
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by DP, which is 20 in this case.</figcaption>
+</figure>
 
-It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can see the tooth count of the designed gear in the sketch. 
+It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see what the circle represents (a gear, sprocket, or pulley) and how many teeth it has. 
 
 !!! Tip
     You can show the expression that a dimension was evaluated from by checking the <code>Show Expression</code> checkbox on the sketch menu. The result will look like the previous image, which allowed you to easily see that the two gears were a 20T and 60T gear, both 20 DP.

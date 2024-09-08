@@ -196,7 +196,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s14.webp" style="width:100%">
-      <figcaption>13. Draw the outline for the plate. Space the bottom of the plate 0.25" from the edge of the pitch circle for the 60T gear. </figcaption>
+      <figcaption>13. Draw the outline for the plate using centerpoint arcs and tangent lines. Space the bottom of the plate 0.25" from the edge of the pitch circle for the 60T gear. </figcaption>
     </figure>
   </div>
 

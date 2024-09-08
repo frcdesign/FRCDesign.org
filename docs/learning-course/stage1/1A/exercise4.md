@@ -95,7 +95,7 @@
 
 As you get more comfortable with modeling, we can begin to create more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
 
-You will utilize the `Spacer` Featurescript for this exercise.
+You will utilize the [`Spacer` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise.
 
 ### Instructions
 

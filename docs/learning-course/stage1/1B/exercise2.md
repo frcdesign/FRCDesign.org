@@ -92,7 +92,7 @@
 
 ## Exercise 2: Two Stage Gearbox
 
-In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the `Part Lighten` Featurescript used for lightening parts.
+In this exercise, you will be CADing and assembling a two stage gearbox. The goal of this exercise is to practice modeling more advanced gearboxes. You will also learn how to use the [`Part Lighten` Featurescript](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} used for lightening parts.
 
 ### Part Studio Instructions
 **Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio. 
