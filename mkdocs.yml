@@ -159,7 +159,7 @@ nav:
         - "Project Overview": learning-course/stage2/2B/project-overview.md
         - "Engineering Concepts":
           - "Structure Rigidity": learning-course/stage2/2B/structure-rigidity.md
-          - "Ball Trajcetory": learning-course/stage2/2B/ball-trajectory.md
+          - "Ball Trajectory": learning-course/stage2/2B/ball-trajectory.md
           - "Exit Velocity": learning-course/stage2/2B/exit-velocity.md
           - "Compression & Wrap": learning-course/stage2/2B/compression-wrap.md
           - "Spin Control": learning-course/stage2/2B/spin-control.md
