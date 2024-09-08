@@ -7,6 +7,8 @@ repo_name: frcdesign/FRCDesign.org
 repo_url: https://github.com/frcdesign/FRCDesign.org
 edit_uri: edit/main/docs/
 
+copyright: Need custom laser cut parts for your robot? Check out our sponsor <a href="https://www.fabworks.com" class="footerlink"/>Fabworks.</a>
+
 # Configuration
 theme:
   name: material
