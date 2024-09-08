@@ -156,7 +156,7 @@ To model belts, you will need two featurescripts, the [`Origin Cube` Featurescri
     <figcaption></figcaption>
   </figure>
 
-6. Modify the c-c dimension to use the <code>#BeltCTC_5mm(# belt teeth, # pulley 1 teeth, # pulley 2 teeth)</code> function to get an exact c-c distance for the 80T belt. Checking the <code>Show Expressions</code> box enables you to see the belt pitch, pulley tooth counts, and belt tooth count.
+6. Modify the c-c dimension to use the <code>#BeltCTC_5mm()</code> function to get an exact c-c distance for the 80T belt. Checking the <code>Show Expressions</code> box enables you to see the belt pitch, pulley tooth counts, and belt tooth count.
     
     - `#BeltCTC_5mm(n1, n2, n3)`: Calculates the c-c distance of a `n1` tooth 5 mm pitch belt connecting pulleys with tooth count `n2` and pulley with tooth count `n3`.
     - Ex: `#BeltCTC_5mm(80,18,36)` returns the center distance for an 80T 5 mm pitch belt connecting an 18T pulley to a 36T pulley.
