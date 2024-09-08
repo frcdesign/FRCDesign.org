@@ -20,31 +20,22 @@ Replicate Tool - You only need to import each unique size of fastener per assemb
 
 ## Bolts and Nuts
 
-### Types of Bolts
+| Type of Bolt | Description | Image |
+|:--------------:|:-------:|:-------:|
+| Socket Head Cap Bolt |
+| Button Head Bolt |
+| Flathead/Countersunk Bolt |
+| Shoulder Bolt |
 
-Socket Head Cap Bolt
-
-Button Head Bolt
-
-Flathead/Countersunk Bolt
-
-Shoulder Bolt
-
-### Types of Nuts
-
-Nylock Nuts
-
-Low Profile Nylock Nuts
-
-Rivnuts
-
-Heat Set Inserts
-
-Tee Nut?
-
-Wing Nut?
-
-PEM Nuts
+| Types of Nuts | Description | Image |
+|:-------------:|:-------:|:---------:|
+| Nylock Nuts | 
+| Low Profile Nylock Nuts |
+| Rivnuts |
+| Heat Set Inserts |
+| Tee Nut |
+| Wing Nut |
+| PEM Nuts |
 
 ### Imperial Bolt Sizes
 
