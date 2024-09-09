@@ -8,7 +8,7 @@ Remember, practice is essential – the more CAD models you create, the more pro
 
 These mechanisms will not be designed in the context of a robot and are purely for practicing relevant CAD skills for FRC, so an intelligent origin will not be used. It will be used again in stage 2 though because whole subsystems should always be designed in the context of a robot using a larger collection of layout sketches.
 
-You should attempt to use layout sketches like the ones used for the gearboxes in 1B and the drivetrain in 1C to guide the design of the practice mechanisms. A layout sketch workflow will be useful no matter the scale, as you can define most of your important dimensions there, ready to be easily changed if needed.
+Though the mechanisms will not be designed in the context of a robot, maintaining good top-down design workflow and utilizing intelligent origins will be extremely useful still. Make sure to use layout sketches like the ones used for the gearboxes in 1B and the drivetrain in 1C to guide the design of the practice mechanisms. A layout sketch workflow will be useful no matter the scale, as you can define most of your important dimensions there, ready to be easily changed if needed. The origin of your part studio and assembly should be consistent as well. You can use the origin cube + insert/group/fastenToOrigin assembly insertion method to make things really easy.
 
 In Stage 2, you will begin to model robot mechanisms using all the skills you have learned in Stage 0 and Stage 1! This will teach mechanism design, the purpose and correct usage of some COTS parts and power transmission techniques used in some of these practice mechanisms
 
