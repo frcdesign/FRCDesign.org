@@ -12,6 +12,6 @@ Here is a quick summary of what you have achieved in 2A:
 * Optionally learned how to pocket a bellypan
 * Learned about bumpers, how to model them, and the importance of having a secure mounting system
 
-
+Stage 1E will have you design out-of-context mechanisms that will help you practice CAD skills and power transmission techniques. This will help prepare you for creating full subsystems in Stage 2 in a robot context using a layout sketch workflow and intelligent origins.
 
 <br>
