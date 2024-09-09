@@ -1,21 +1,20 @@
-# 2B: Basic Shooter
+# 2C: Dead Axle Pivot
 
 ## Summary
 
-You've completed Stage 2B, and your first full mechanism! To summarize what you've learned in this stage:
+You've completed Stage 2C! To summarize what you've learned in this stage:
 
-- One way to make 2 parallel plates rigid
-- All the factors that go into designing a flywheel shooter
-- Tips to reduce friction and inefficiences in power transmissions
-- Using a reference drivetrain to build a mechanism off of to reduce integration complexity
-- How to create a master sketch for a flywheel shooter for balls
-- Direction-changes in power transmissions
-- Customizing a 3D-printed pulley
-- Designing a custom limelight mount for a shooter
-- How to model a whole mechanism!
+- Different types of axle usage
+- Principles of designing a good pivot
+- Applications of pivots (wrists, arms)
+- One way of tensioning chain
+- Different sources of backlash in a power transmission
+- How to model a subsystem with multiple moving parts using the origin cube
 
-While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. 
+This mechanism being completed leads to many more mechanisms that have multiple moving parts. Most robots have at least one pivot, though each one can be designed differently depending on the use case and packaging. 
 
-In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
+Each pivot has some things in common though: try to minimize backlash, use a dead axle (usually with chain), and it will obviously need a power transmission included. 
+
+In the next stage, you'll apply very similar concepts to an intake with a pivot and several rollers.
 
 <br>

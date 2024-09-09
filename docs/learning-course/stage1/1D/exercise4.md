@@ -88,63 +88,68 @@
 }
 </style>
 
-# 2A: Full Detail Drivebase
+# 1D: Full Detail Drivebase
 
-## Exercise: Bumper Mounting
+## Exercise: Bumpers
+Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to [bumper damage](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
-
-In the reference design, the threaded stud bumper mounting system is implemented. 
-
-!!! Example "Threaded Stud Bumper Mounting System"
-    <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%"></center>
-    <center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption></center>
-
+### Bumper Model
+It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
 
 ### Instructions
 
-**Add your desired bumper mounts to your Stage 1C drivetrain.** You can take inspiration from the following instructions slides.
-<!-- 
-You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
+**Add bumpers to your Stage 1C drivetrain.** You can take inspiration from the following instructions slides.
 
-<!-- <center>**Sample Bumper Mount Modeling Slides**</center> -->
+<!-- <center>**Sample Bumper Modeling Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
-            <figcaption>0. Finished bumper mounts. </figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
+            <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s1.webp" style="width:100%">
-            <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s1.webp" style="width:100%">
+            <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s2.webp" style="width:100%">
-            <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s2.webp" style="width:100%">
+            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s3.webp" style="width:100%">
-            <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s3.webp" style="width:100%">
+            <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s4.webp" style="width:100%">
-            <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s4.webp" style="width:100%">
+            <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
-            <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s5.webp" style="width:100%">
+            <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s6.webp" style="width:100%">
+            <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
+            <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -155,6 +160,9 @@ You can learn more about bumpers and different bumper mounting options in the [D
         <!-- Dots will be generated here -->
     </div>
 </div>
+
+Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
+
 
 
 

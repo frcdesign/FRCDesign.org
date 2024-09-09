@@ -1,10 +1,6 @@
 <style>
 * {box-sizing:border-box}
 
-details {
-        font-size: 0.7rem !important;
-    }   
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -12,10 +8,10 @@ details {
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
-  display: none;
+    display:none;
 }
+
 #slide1 {display:block}
 
 /* Next & previous buttons */
@@ -92,42 +88,63 @@ details {
 }
 </style>
 
+# 1D: Full Detail Drivebase
 
-# 2E: Cascade Elevator
+## Exercise: Bumper Mounting
 
-## Layout Sketches
+Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to [bumper damage](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
 
-Elevator master sketches usually start with an extended side view so you can drive the length of it based off of the extension limits and your required beginning and end position for whatever mechanism you're moving. 
+In the reference design, the threaded stud bumper mounting system is implemented. 
 
-Though this elevator doesn't have that context, it's still useful to follow the same workflow of starting with a side sketch, which will contain most important dimensions but can be hard to conceptualize at first.
+!!! Example "Threaded Stud Bumper Mounting System"
+    <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%"></center>
+    <center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption></center>
 
-Follow the instructions in the slides to create your elevator layout sketches.
 
+### Instructions
+
+**Add your desired bumper mounts to your Stage 1C drivetrain.** You can take inspiration from the following instructions slides.
+<!-- 
+You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
+
+<!-- <center>**Sample Bumper Mount Modeling Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-elevator/master-sketch.webp" style="width:40%">
-            <figcaption>A clean view of the front sketch of the elevator tubes.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
+            <figcaption>0. Finished bumper mounts. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-elevator/elevatorSideExtendedSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
-            <figcaption> As practice for stage 3, we'll start with defining the position of the elevator in relation to drivetrain side sketch. Use rectangles to represent the 2x2 tube and the length of the stages. Add rectangles to represent the bottom tubes of each stage and carriage as well. </figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s1.webp" style="width:100%">
+            <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-elevator/elevatorSideRetractedSketch.webp" style="width:70%" style="border:5px solid #ADADAD">
-            <figcaption> Feel free to create a retracted side sketch (constraining it to the geometry of the first side sketch) to help double check geometry and integration. This especially helpful when designing a full robot. </figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s2.webp" style="width:100%">
+            <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-elevator/elevatorFrontSketch.webp" style="width:75%" style="border:5px solid #ADADAD">
-            <figcaption> Now add the front sketch to define all the elevator tubes, the width of the elevator, and the distance between stages on the side.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s3.webp" style="width:100%">
+            <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s4.webp" style="width:100%">
+            <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
+        </figure>
+    </div>
+    <div class="mySlides fade">
+        <figure>
+            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
+            <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -135,20 +152,21 @@ Follow the instructions in the slides to create your elevator layout sketches.
     <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
     <!-- The dots/circles -->
     <div class="dotsContainer" style="text-align:center">
-    <!-- Dots will be generated here -->
+        <!-- Dots will be generated here -->
     </div>
 </div>
 
-!!! Tip
-    Instead of creating "extended" and "retracted" views, you can separate the stages into their own individual side sketches to let you "animate" how it moves in the sketch. You can use configurations to do this.
+
 
 <br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
 <script>
+
 // Initialize slide index for each slideshow
-let slideIndices = [];
+
+let slideIndices = [0];
 
 let slideshows = document.getElementsByClassName("slideshow-container");
   for (let no = 0; no < slideshows.length; no++) {
@@ -163,6 +181,8 @@ let slideshows = document.getElementsByClassName("slideshow-container");
     }
     showSlides(1, no);
   }
+
+  currentSlide(1);
 
 // Next/previous controls
 function plusSlides(n, no) {

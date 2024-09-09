@@ -88,68 +88,45 @@
 }
 </style>
 
-# 2A: Full Detail Drivebase
+# 1D: Full Detail Drivebase
 
-## Exercise: Bumpers
-Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
+## Exercise: Mounting Electronics
 
-### Bumper Model
-It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
+In the reference design, the Power Distribution Hub (PDH), main breaker, and RoboRIO are mounted onto the bellypan. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
 
-### Instructions
+### Bellypan Mounting Instructions
 
-**Add bumpers to your Stage 1C drivetrain.** You can take inspiration from the following instructions slides.
+**Add mounting for some electronic components to your Stage 1C drivetrain.** You can take inspiration from the following instructions slides. 
 
-<!-- <center>**Sample Bumper Modeling Slides**</center> -->
+<!-- <center>**Sample Electronics Mounting Slides**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
-            <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
+            <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
+            <figcaption>0. Finished mounted electronics.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s1.webp" style="width:100%">
-            <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/elec/elec1s1.webp" style="width:100%">
+            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker. (The `Electronic Mounting` Featurescript does not support mounting holes for the main breaker at this time unforunately).</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s2.webp" style="width:100%">
-            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
+            <video width="1920" controls>
+              <source src="/img/learning-course/stage2-drivebase/elec/elec1s2.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s3.webp" style="width:100%">
-            <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
-        </figure>
-    </div>
-    <div class="mySlides fade">
-        <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s4.webp" style="width:100%">
-            <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
-        </figure>
-    </div>
-    <div class="mySlides fade">
-        <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s5.webp" style="width:100%">
-            <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
-        </figure>
-    </div>
-    <div class="mySlides fade">
-        <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s6.webp" style="width:100%">
-            <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
-        </figure>
-    </div>
-    <div class="mySlides fade">
-        <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
-            <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
+            <figcaption>3. Insert the electronics from the MKCad parts library and fasten them. The Pigeon IMU can be fastened to the RoboRIO.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -161,8 +138,21 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
     </div>
 </div>
 
-Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
+!!! Tip "Simplified Models"
+    It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Simplified swerve module models can also be used to reduce lag. 
 
+### Robot Signal Light (RSL)
+
+Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
+
+**Add mounting for an RSL to your Stage 1C drivetrain.** You can take inspiration from the following image. 
+
+<center><img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
+<center><figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption></center>
+
+### Radio
+
+Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
 
 
 

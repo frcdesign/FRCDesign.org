@@ -7,8 +7,10 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 
 <!-- You can learn more about drivetrains on the [Design Handbook](/design-handbook/mechanisms/drivetrain/) page. -->
 
-<center><img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:80%"></center>
-<center>*Stage 1C swerve drivebase project.*</center>
+<figure>
+<img src="\img\learning-course\stage1c\SwerveBase\DriveAssy.webp" style="width:80%"></center>
+<figcaption>*Stage 1C swerve drivebase project.</figcaption>
+</figure>
 
 As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/jHXTdNjYCg "DDS Discord Invite"){:target="_blank"}!
 

@@ -1,16 +1,16 @@
-# 2C: Dead Axle Pivot
+# 2D: Slapdown Intake
 
 ## Layout Sketch
 
-The layout sketch is very simple as it uses Maxplanetaries for the gear reduction. 
-
 1. Use the origin cube featurescript to insert the origin cube
-2. Dimension the cross bar
-3. Lay out the pivot location and driving sprocket position above the cross bar. Dimension a construction line between them a distance that will give enough chain length to use an inline tensioner.
-4. Create construction circles to represent the pitch circles of both sprockets and the diameter of the motor.
+1. Sketch the side of your drivetrain and bumper profile
+2. Sketch the path of the ball over the bumper
+3. Sketch roller or wheel positions needed to get the game piece to move that way. Use the belt transmission tools you learned in 1B to dimension the location of the rollers. Decreasing the c-c distance by 0.02" can help with ease of assembly and roller efficiency.
+4. Use a sketch circular pattern to represent the stowed position of your intake rollers and define where you want the pivot to be
+
 <figure>
-    <img src="/img/learning-course/stage2-pivot/pivotMasterSketch.webp" width="70%">
-    <figcaption>Finished Master Sketch.</figcaption>
+    <img src="/img/learning-course/stage2-slapdown/masterSketch.webp" width="70%" style="border:5px solid #ADADAD">
+    <figcaption>Finished Layout Sketch</figcaption>
 </figure>
 
 <br>
