@@ -133,7 +133,7 @@ nav:
         - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B/exercise3.md
         - "Summary": learning-course/stage1/1B/summary.md
 
-      - "C: Design Methodology - Simple Swerve Drivebase":
+      - "C: Design Methodology":
         - "Introduction": learning-course/stage1/1C/introduction.md
         - "Top Down Design": learning-course/stage1/1C/top-down-design.md
         - "Project Overview": learning-course/stage1/1C/project-overview.md
@@ -144,7 +144,7 @@ nav:
         - "Top Level Assembly": learning-course/stage1/1C/top-level-assembly.md
         - "Summary": learning-course/stage1/1C/summary.md
 
-      - "D: Subsystem Workflow - Detailing the Drivebase":
+      - "D: Subsystem Workflow":
         - "Introduction": learning-course/stage1/1D/introduction.md
         - "Battery Mounting": learning-course/stage1/1D/battery-mounting.md
         - "Exercise: Battery Holder": learning-course/stage1/1D/exercise1.md

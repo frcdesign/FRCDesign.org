@@ -1,4 +1,4 @@
-# 1C: Design Methodology
+# 1C: Design Methodology - Simple Swerve Drivebase
 
 ## Project Overview
 In this stage, you will be designing a swerve drivebase. A drivebase is the mobile platform on which all our other mechanisms are designed around and attached to. With the advent of reliable COTS swerve, designing a swerve drivebase has been made significantly easier and has become the most commonly used competitive drivetrain in FRC. 

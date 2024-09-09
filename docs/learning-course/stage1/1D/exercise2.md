@@ -88,7 +88,7 @@
 }
 </style>
 
-# 1D: Full Detail Drivebase
+# 1D: Subsystem Workflow - Detailing the Drivebase
 
 ## Exercise: Mounting Electronics
 

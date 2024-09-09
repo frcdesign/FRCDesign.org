@@ -88,7 +88,7 @@
 }
 </style>
 
-# 1D: Full Detail Drivebase
+# 1D: Subsystem Workflow - Detailing the Drivebase
 
 ## Exercise: Bumpers
 Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.

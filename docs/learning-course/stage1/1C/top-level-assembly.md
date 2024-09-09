@@ -88,7 +88,7 @@
 }
 </style>
 
-# 1C: Design Methodology
+# 1C: Design Methodology - Simple Swerve Drivebase
 
 ## Top Level Robot Assembly
 Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the assembly hierarchy. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 

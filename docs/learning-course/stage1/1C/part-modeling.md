@@ -88,7 +88,7 @@
 }
 </style>
 
-# 1C: Design Methodology
+# 1C: Design Methodology - Simple Swerve Drivebase
 
 ## Deriving Layout Sketches and Part Modeling
 

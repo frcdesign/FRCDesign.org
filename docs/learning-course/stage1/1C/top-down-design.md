@@ -1,4 +1,4 @@
-# 1C: Design Methodology
+# 1C: Design Methodology - Simple Swerve Drivebase
 
 ## Top Down Design Methodology 
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 

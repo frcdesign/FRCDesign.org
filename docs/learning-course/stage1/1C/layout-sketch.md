@@ -88,7 +88,7 @@
 }
 </style>
 
-# 1C: Design Methodology
+# 1C: Design Methodology - Simple Swerve Drivebase
 
 ## Drivetrain Master Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
