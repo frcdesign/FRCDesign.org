@@ -90,13 +90,22 @@
 
 # 1E: Practice Mechanisms
 
-## Exercise #: XXX
+## Exercise 2: Dead Axle Rollers
 
-In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XXXX, XXXX. Be sure to pay attention to XXX when modeling. 
+In this exercise, you will be modeling some dead axle rollers. To spin things, whether it be rollers, wheels, or even arms, two types of axles can be utilized: "live" and "dead" axles. 
+
+You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the *shaft* to spin our mechanism, where as with dead axle, we directly power the spinning component.
+For live axle, the shaft spins on fixed bearings, while for dead axle, the shaft does **not** spin and the bearings are instead on the spinning component. Take a look at the visual below to better understand.
+
+!!! Example "Live vs Dead Axle Rollers"
+    pic here
+
+This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} and
+[`Assembly Mirror` Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392 "Assembly Mirror Featurescript"){:target="_blank"}.
 
 ### Part Studio Instructions
 
-**Navigate to the "Exercise #XX Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+**Navigate to the "Exercise #2 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -104,17 +113,119 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/a1.webp" style="width:100%">
-      <figcaption>1. </figcaption>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s1.webp" style="width:100%">
+      <figcaption>1. Start the layout sketch on the Right Plane. Sketch the hole for a bearing and four #10-32 clearance holes with a 2" bolt circle. </figcaption>
     </figure>
   </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s2.webp" style="width:100%">
+      <figcaption>2. Sketch the pulleys and belt paths for the first two rollers. You will use 5mm pitch 24T pulleys. We subtract 0.015" from the calculated c-c distance to decrease friction from linking together multiple belts. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s3.webp" style="width:100%">
+      <figcaption>3. Add the pulley and belt path for the 3rd roller.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s4.webp" style="width:100%">
+      <figcaption>4. Sketch 2" construction circles to represent the rollers, which are 2" OD. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s5.webp" style="width:100%">
+      <figcaption>5. Sketch the pulleys and belt path for the motor. Since the motor transmission will also utilize a 24T pulley, we can reutilize the same pulley PD sketch from the first roller. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s6.webp" style="width:100%">
+      <figcaption>6. Sketch the OD of the Kraken motor, which is 60 mm.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s7.webp" style="width:100%">
+      <figcaption>7. Create the plate sketch by using an offset mate connector from the layout sketch as the origin entity. Select the motor pulley and offset by 12".</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s8.webp" style="width:100%">
+      <figcaption>8. Sketch the plate outline. Pay attention to the sketch constraints in the solutions document. We offset the curve on the top right 0.25" away from the belt to that it is fully covered by the plate.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s9.webp" style="width:100%">
+      <figcaption>9. Add the holes for the mounting point by using the <code>Use</code> feature and selecting the layout sketch entities to convert over.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s10.webp" style="width:100%">
+      <figcaption>10. Sketch the 2" bolt circle of #10-32 bolts and bore for the motor. Note that we only use 3 out of 6 of the patterned mounting holes, the rest are left as construction geometry. Sketch the bolts holes for the dead axle shafts. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s11.webp" style="width:100%">
+      <figcaption>11. Extrude the plate to be 1/4" thick. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1e/dead-axle-rollers/s12.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>12. Add the 9 mm wide HTD 5mm belts. Use the plate as the reference plane and select the pulley PDs from the layout sketch. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s13.webp" style="width:100%">
+      <figcaption>13. Your belt tooth count and pitch length should match the solution document. The two 70T belts have a pitch length slightly less than 350 mm since we subtracted 0.015" from the c-c's in the layout. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s14.webp" style="width:100%">
+      <figcaption>14. Use the Assembly Mirror Featurescript to add a mate connector for mating the opposite side plate. There is no reason to use a part mirror since the two plates will be identical. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/s0.webp" style="width:100%">
+      <figcaption>15. Finsh the part studio by naming your features and putting them into folders. Assign the plate material to be polycarbonate. </figcaption>
+    </figure>
+  </div>
+
 
   <!-- Next and previous buttons -->
   <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
@@ -133,7 +244,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/a0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/a0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
@@ -141,7 +252,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1e/XXX/a1.webm" type="video/webm">
+        <source src="/img/learning-course/stage1e/dead-axle-rollers/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>1.  </figcaption>
@@ -158,7 +269,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have XX Instances.
+    If all is done correctly your assembly should have 17 Instances.
 
 
 

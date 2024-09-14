@@ -157,15 +157,14 @@ nav:
       
       - "E: Practice Mechanisms": 
         - "Introduction": learning-course/stage1/1E/practice-mechanisms.md
-        - "Exercise 1: ": learning-course/stage1/1E/exercise1.md
-        - "Exercise 2: ": learning-course/stage1/1E/exercise2.md
-        - "Exercise 3: ": learning-course/stage1/1E/exercise3.md
-        - "Exercise 4: ": learning-course/stage1/1E/exercise4.md
-        - "Exercise 5: ": learning-course/stage1/1E/exercise5.md
-        - "Exercise 6: ": learning-course/stage1/1E/exercise6.md
-        - "Exercise 7: ": learning-course/stage1/1E/exercise7.md
-        - "Exercise 8: ": learning-course/stage1/1E/exercise8.md
-        - "Exercise 9: ": learning-course/stage1/1E/exercise9.md
+        - "Exercise 1: Flat Intake": learning-course/stage1/1E/exercise1.md
+        - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1E/exercise2.md
+        - "Exercise 3: Shooter": learning-course/stage1/1E/exercise3.md
+        - "Exercise 4: Telescoping Hook": learning-course/stage1/1E/exercise4.md
+        - "Exercise 5: Pocketed Gearbox": learning-course/stage1/1E/exercise5.md
+        - "Exercise 6: Direction Swap": learning-course/stage1/1E/exercise6.md
+        - "Exercise 7: Vertical Rollers": learning-course/stage1/1E/exercise7.md
+        - "Exercise 8: Indexer Centering": learning-course/stage1/1E/exercise8.md
 
     - Stage 2:
 
