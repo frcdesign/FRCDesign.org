@@ -110,3 +110,12 @@ a:hover {
   cursor: default !important;
   visibility: hidden !important;
 }
+
+.footerlink {
+  color:#54AC58 !important;
+  font-weight: bold !important;
+}
+
+.md-typeset .note > .admonition-title::after, .md-typeset .note > summary::after {
+	color: #54AC58
+}
