@@ -94,17 +94,18 @@
 
 In this exercise, you will be modeling some dead axle rollers. To spin things, whether it be rollers, wheels, or even arms, two types of axles can be utilized: "live" and "dead" axles. 
 
-You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the *shaft* to spin our mechanism, where as with dead axle, we directly power the spinning component.
-For live axle, the shaft spins on fixed bearings, while for dead axle, the shaft does **not** spin and the bearings are instead on the spinning component. Take a look at the visual below to better understand.
+You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the shaft to spin our mechanism, whereas with dead axle, we directly power the spinning component.
+For live axle, the shaft spins on fixed bearings, while for dead axle, the bearings are on the spinning component. Take a look at the visual below to better understand.
 
 ???+ Example "Live vs Dead Axle Rollers"
     <figure>
-      <img src="/img/learning-course/stage1e/dead-axle-rollers/dead-vs-live.webp" style="width:100%">
-      <figcaption>Section view of a dead (left) and live (right) axle roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from the hex shaft.</figcaption>
+      <img src="/img/learning-course/stage1e/dead-axle-rollers/dead-vs-live.webp" style="width:80%">
+      <figcaption>Section view of a dead (left) and live (right) axle roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
     </figure>
 
-This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} and
-[`Assembly Mirror` Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392 "Assembly Mirror Featurescript"){:target="_blank"}.
+This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"}.
+
+<!-- [`Assembly Mirror` Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392 "Assembly Mirror Featurescript"){:target="_blank"}. -->
 
 ### Part Studio Instructions
 
@@ -124,14 +125,14 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/dead-axle-rollers/s1.webp" style="width:100%">
-      <figcaption>1. Start the layout sketch on the Right Plane. Sketch the hole for a bearing and four #10-32 clearance holes with a 2" bolt circle. </figcaption>
+      <figcaption>1. Start the layout sketch on the Right Plane. Sketch the hole for a bearing and four #10-32 clearance holes on a 2" bolt circle. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/dead-axle-rollers/s2.webp" style="width:100%">
-      <figcaption>2. Sketch the pulleys and belt paths for the first two rollers. You will use 5mm pitch 24T pulleys. We subtract 0.015" from the calculated c-c distance to decrease friction from linking together multiple belts. </figcaption>
+      <figcaption>2. Sketch the pulleys and belt paths for the first two rollers. You will use 5mm pitch 24T pulleys. We subtract 0.015" from the calculated c-c distance to decrease the friction that results from linking together multiple belts. </figcaption>
     </figure>
   </div>
 
@@ -152,7 +153,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/dead-axle-rollers/s5.webp" style="width:100%">
-      <figcaption>5. Sketch the pulleys and belt path for the motor. Since the motor transmission will also utilize a 24T pulley, we can reutilize the same pulley PD sketch from the first roller. </figcaption>
+      <figcaption>5. Sketch the pulleys and belt path for the motor. Since the motor transmission will also utilize a 24T pulley, we can reutilize the same pulley PD sketch from the first roller. The motor pulley will be a 12T pinion.</figcaption>
     </figure>
   </div>
 
@@ -187,7 +188,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/dead-axle-rollers/s10.webp" style="width:100%">
-      <figcaption>10. Sketch the 2" bolt circle of #10-32 bolts and bore for the motor. Note that we only use 3 out of 6 of the patterned mounting holes, the rest are left as construction geometry. Sketch the bolts holes for the dead axle shafts. </figcaption>
+      <figcaption>10. Sketch the motor bore and #10-32 clearance holes for motor mounting. Note that we only use 3 out of 6 of the patterned mounting holes, the rest are left as construction geometry. Also sketch the #10-32 clearance holes for the dead axle shafts. </figcaption>
     </figure>
   </div>
 
@@ -318,7 +319,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
         <source src="/img/learning-course/stage1e/dead-axle-rollers/a7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>7. Insert the Kraken motor and mate it to the spacers. While in most cases we wouldn't care to align the motor exactly with the mounting holes, since we are mounting to spacers, we need to align it properly. To do so, use two revolute mates. Make sure to select the right holes. Also insert the motor pulley.</figcaption>
+      <figcaption>7. Insert the Kraken motor and mate it to the spacers. While in most cases we wouldn't care to align the motor exactly with the mounting holes, since we are mounting to spacers, we need to align it properly. To do so, use two revolute mates. Make sure to select the right holes. Also insert and fasten the motor pulley.</figcaption>
     </figure>
   </div>
 
@@ -353,13 +354,15 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have 17 Instances.
+    If all is done correctly, your assembly should have 17 Instances.
 
 ### Minimizing Unique Part Count
 
 You may have noticed that the 3rd roller has a 24T pulley on both ends despite there only being a belt connected to one end. 
 While the configurable roller does allow you to choose no pulley for the end with no belt, it can be advantageous to still keep the pulley in situations like this to reduce the number of unique parts. 
 By doing so, all three rollers are identical, making part tracking and spare parts easier.
+
+<br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
