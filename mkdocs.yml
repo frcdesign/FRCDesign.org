@@ -369,3 +369,6 @@ plugins:
             cards_layout_options:
                 font_family: Roboto
             debug: false
+
+extra_javascript:
+  - javascripts/extra.js
