@@ -160,10 +160,7 @@ This style of gearbox can be desired in some situations to meet packaging constr
 
 ### Assembly Instructions
 
-**Next, navigate to the "Exercise #5 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instructions slides** only provide a general outline and some key details.
-
-
-
+**Next, navigate to the "Exercise #5 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -238,13 +235,18 @@ This style of gearbox can be desired in some situations to meet packaging constr
 !!! note "Verification"
     If all is done correctly your assembly should have 30 Instances.
 
+### Interference Detection
+
+Catch errors in the CAD rather than in real life! Always double and triple check your CAD models for mistakes like interferences. An extra 10 minutes verifying the correctness of your CAD can save you hours of rework if an erroneous part slips through and is fabricated.
+
 !!! warning "Interference Detection"
     If an interference is detected with the Check Interference tool, it will highlight the intersected volumes in red.
     <figure>
       <img src="/img/learning-course/stage1e/flipped-gb/interference.webp" style="width:100%">
-      <figcaption>Interference detected by the Check Interference tool.</figcaption>
+      <figcaption>Interference between a motor and plate detected by the Check Interference tool.</figcaption>
     </figure>
 
+<br>
 
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
