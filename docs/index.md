@@ -68,14 +68,14 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 2. Everything is taught from a competitive focus. Designing competitive robots helps inspire students and teach both engineering skills and life skills. It's also generally more fun when the robot performs well instead of breaking.
 2. We don't try to teach everything. The learning course is built around teaching a single CAD software (Onshape), and we encourage a specific design style which is optimized for the majority of mid-resource teams. 
 3. We try to include the small details that most guides forget. The concept of an "arm" is almost ubiquitous, but the concepts behind designing a pivot that works every match and never breaks? That's not so much common knowledge and much more important.
-4. Design practices are important! We try to document and teach [the best practices possible](/best-practices/index.md "Best Practices Page") so you can design faster during the season.  
+4. Design practices are important! We try to document and teach [the best practices possible](best-practices/index.md "Best Practices Page") so you can design faster during the season.  
 
 ## Who is FRCDesign.org?
 
 FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world. 
 
 <center>
-[Contributors List](/contribution/contributors/ "Contributor List"){.md-button .md-button--primary}
+[Contributors List](contribution/contributors.md "Contributor List"){.md-button .md-button--primary}
 </center>
 
 ## Discord
