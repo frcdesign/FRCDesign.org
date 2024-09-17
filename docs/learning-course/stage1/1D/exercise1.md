@@ -1,4 +1,4 @@
-# 1D: Subsystem Workflow - Detailing the Drivebase
+# 2A: Full Detail Drivebase
 
 ## Exercise: Battery Holder
 
