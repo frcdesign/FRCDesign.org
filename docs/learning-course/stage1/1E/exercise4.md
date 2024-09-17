@@ -92,7 +92,7 @@
 
 ## Exercise 4: Telescoping Hook
 
-In this exercise, you will be modeling a telescoping climber. This mechanism features WCP telescoping bearing blocks and half-pocketed MAXPlanetary mounting gearbox plates. Be sure to pay attention to XXX when modeling. 
+In this exercise, you will be modeling a telescoping climber. This mechanism features WCP telescoping bearing blocks and half-pocketed MAXPlanetary mounting gearbox plates. Be sure to pay attention to hook and gearbox sketches when modeling. 
 
 ### Part Studio Instructions
 
@@ -164,7 +164,7 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/telescope/s8.webp" style="width:100%">
-      <figcaption>8. Sketch the gearbox mounting plate on the outside of the tube. The 13.75 mm construction circle represents the rounded hex spool. The #10-32 tapped hole allows for a bolt to thread into the plate and sit flush with the inside of the outer tube to lock the gearbox in place without interfering with the inner tube.</figcaption>
+      <figcaption>8. Sketch the gearbox mounting plate on the outside of the tube. There should be a small 0.01" gap between the 3/8" clamping spacers and the tube to make sure that the gearbox can be assembled properly. The 13.75 mm construction circle represents the rounded hex spool. The #10-32 tapped hole allows for a bolt to thread into the plate and sit flush with the inside of the outer tube to lock the gearbox in place without interfering with the inner tube.</figcaption>
     </figure>
   </div>
   
@@ -178,7 +178,7 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/telescope/s10.webp" style="width:100%">
-      <figcaption>10. Extrude the plate, then add half depth pockets. The pockets should leave 1/16" of material on the bottom. The half-depth pocketing allows the contact face between the gearbox plate and tube to be solid. The plate should be mirror to generate the opposite hand version on the other side of the tube.</figcaption>
+      <figcaption>10. Extrude the plate, then add half depth pockets. The pockets should leave 1/16" of material on the bottom. The half-depth pocketing allows the contact face between the gearbox plate and tube to be solid. The plate should be mirrored to generate the opposite hand version on the other side of the tube.</figcaption>
     </figure>
   </div>
   
@@ -199,7 +199,7 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/telescope/s0.webp" style="width:100%">
-      <figcaption>13. Finish the part studio by naming your features and putting them into folders. Also assign materials according to the design. </figcaption>
+      <figcaption>13. Finish the part studio by naming your features and putting them into folders. Also assign materials according to the reference design. </figcaption>
     </figure>
   </div>
   
@@ -232,7 +232,66 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
         <source src="/img/learning-course/stage1e/telescope/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1.  </figcaption>
+      <figcaption>1. Insert the climber components and group only the base stage components together to the Origin Cube. This is because the inner stage moves relative to the base stage, so we cannot group them together.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a2.webp" style="width:100%">
+      <figcaption>2. Fasten the inner stage components together. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a3.webp" style="width:100%">
+      <figcaption>3. Insert and fasten the WCP GreyT telescope bearing blocks from the <a href="https://cad.onshape.com/documents/3f21b4b70302525a1e1f2c29/v/4ec8cc58f734f29f41a0fdb8/e/4646e6fc60ff8c4fe2a9d4dd" target="_blank">WCP GreyT telescope document</a>.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1e/telescope/a4.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>4. Use two <code>Slider</code> mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not explicitly specify a travel length. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a5.webp" style="width:100%">
+      <figcaption>5. Fasten the spacer and replicate it. Insert and fasten the shaft bearing to the plate and shaft. Note that we only require one bearing on the plate since the MAXPlanetary gearbox has another bearing at its output as we do not want to overconstrain the shaft.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a6.webp" style="width:100%">
+      <figcaption>6. Insert and fasten the MAXPlanetary gearbox from MKCad. We use the 90 degree output with a 25:1 gear ratio.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a7.webp" style="width:100%">
+      <figcaption>7. Insert, fasten, and replicate all of the required fasteners.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a8.webp" style="width:100%">
+      <figcaption>8. Close up of the bolt used to pin the gearbox in place. This bolt keeps the gearbox from sliding up and down.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/a0.webp" style="width:100%">
+      <figcaption>9. Finish your assembly by organizing the parts into folders and naming your replicates.</figcaption>
     </figure>
   </div>
 
@@ -246,7 +305,20 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have XX Instances.
+    If all is done correctly your assembly should have 27 Instances.
+
+### Section Views
+
+Section views are a helpful tool that allow you to reveal the internal features of a part or assembly by slicing through it along a specified plane. You can select a plane, planar face, cylinder, cone, or mate connector to use as the sectioning plane. You can also choose to include or exclude specific parts from the section view.
+
+!!! Tip "Creating a Section View"
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1e/telescope/section-view.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Creating a section view to get a better view of the pinning bolt.</figcaption>
+    </figure>
 
 <br>
 
