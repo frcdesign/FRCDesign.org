@@ -96,7 +96,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 
 ### Part Studio Instructions
 
-**Navigate to the "Exercise #XX Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+**Navigate to the "Exercise #8 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -127,7 +127,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 
 ### Assembly Instructions
 
-**Next, navigate to the "Exercise #XXX Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
+**Next, navigate to the "Exercise #8 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
@@ -160,6 +160,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 !!! note "Verification"
     If all is done correctly your assembly should have XX Instances.
 
+<br>
 
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->

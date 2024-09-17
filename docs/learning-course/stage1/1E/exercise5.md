@@ -101,7 +101,7 @@ This style of gearbox can be desired in some situations to meet packaging constr
 
 ### Part Studio Instructions
 
-**Navigate to the "Exercise #5 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instructions slides** only provide a general outline and some key details.
+**Navigate to the "Exercise #5 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
