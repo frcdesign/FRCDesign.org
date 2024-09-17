@@ -90,13 +90,13 @@
 
 # 1E: Practice Mechanisms
 
-## Exercise #: XXX
+## Exercise 4: Telescoping Hook
 
-In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XXXX, XXXX. Be sure to pay attention to XXX when modeling. 
+In this exercise, you will be modeling a telescoping climber. This mechanism features WCP telescoping bearing blocks and half-pocketed MAXPlanetary mounting gearbox plates. Be sure to pay attention to XXX when modeling. 
 
 ### Part Studio Instructions
 
-**Navigate to the "Exercise #XX Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+**Navigate to the "Exercise #4 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -104,17 +104,105 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1e/telescope/s0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/a1.webp" style="width:100%">
-      <figcaption>1. </figcaption>
+      <img src="/img/learning-course/stage1e/telescope/s1.webp" style="width:100%">
+      <figcaption>1. Begin by creating a side profile sketch of the telescope tubes on the right plane.</figcaption>
     </figure>
   </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s2.webp" style="width:100%">
+      <figcaption>2. Use two extrudes to create the solid bodies for the tubes. Then, use the Tube Converter Featurescript to convert the solid bodies into two thin-wall tubes with no hole pattern.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s3.webp" style="width:100%">
+      <figcaption>3. Add the holes for the WCP bearing blocks to the inner and outer tubes. The dimensions are from <a href="https://docs.wcproducts.com/greyt-telescope/overview-and-features/tubing-hole-pattern">WCP's documentation</a>.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s4.webp" style="width:100%">
+      <figcaption>4. Model the crush block at the top of the inner tube. You will add the holes that go through the crush block after you model the hook.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s5.webp" style="width:100%">
+      <figcaption>5. Sketch the hook. Pay attention to the sketch relations in the solution document.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s6.webp" style="width:100%">
+      <figcaption>6. Extrude the hook. Then, extrude the mounting holes to cut through the tube and the crush block. Also add the hook spacer.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1e/telescope/s7.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>7. Model the hook 3d printed spacer. With sketch imprinting enabled, we only need to draw the line for where the 3d printed block starts. There is no need to use the <code>Use</code> feature to copy the hook profile into the sketch.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s8.webp" style="width:100%">
+      <figcaption>8. Sketch the gearbox mounting plate on the outside of the tube. The 13.75 mm construction circle represents the rounded hex spool. The #10-32 tapped hole allows for a bolt to thread into the plate and sit flush with the inside of the outer tube to lock the gearbox in place without interfering with the inner tube.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s9.webp" style="width:100%">
+      <figcaption>9. Sketch the pull down string by creating a line tangent to the rounded hex spool. Note that we will use this line to create a sweep of the rope, therefore this line cannot be construction geometry.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s10.webp" style="width:100%">
+      <figcaption>10. Extrude the plate, then add half depth pockets. The pockets should leave 1/16" of material on the bottom. The half-depth pocketing allows the contact face between the gearbox plate and tube to be solid. The plate should be mirror to generate the opposite hand version on the other side of the tube.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s11.webp" style="width:100%">
+      <figcaption>11. Add a 10-32 clearance hole for the bolt that is threaded into the gearbox plate. Also model the gearbox spacer and the shaft.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s12.webp" style="width:100%">
+      <figcaption>12. Model the rope by creating an 3 mm circle on the end of the vertical line from the gearbox. Then, sweep the circle along the vertical line from the gearbox to create a model of the rope. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1e/telescope/s0.webp" style="width:100%">
+      <figcaption>13. Finish the part studio by naming your features and putting them into folders. Also assign materials according to the design. </figcaption>
+    </figure>
+  </div>
+  
 
   <!-- Next and previous buttons -->
   <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
@@ -127,13 +215,13 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 
 ### Assembly Instructions
 
-**Next, navigate to the "Exercise #XXX Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
+**Next, navigate to the "Exercise #4 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1e/XXX/a0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1e/telescope/a0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
@@ -141,7 +229,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1e/XXX/a1.webm" type="video/webm">
+        <source src="/img/learning-course/stage1e/telescope/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>1.  </figcaption>
@@ -160,7 +248,7 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 !!! note "Verification"
     If all is done correctly your assembly should have XX Instances.
 
-
+<br>
 
 <!-- ------------------DO NOT TOUCH ANYTHING BELOW HERE------------------ -->
 
