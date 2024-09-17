@@ -92,7 +92,7 @@
 
 ## Exercise 4: Telescoping Hook
 
-In this exercise, you will be modeling a telescoping climber. This mechanism features WCP telescoping bearing blocks and half-pocketed MAXPlanetary mounting gearbox plates. Be sure to pay attention to hook and gearbox sketches when modeling. 
+In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling. 
 
 ### Part Studio Instructions
 
@@ -256,7 +256,7 @@ In this exercise, you will be modeling a telescoping climber. This mechanism fea
         <source src="/img/learning-course/stage1e/telescope/a4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Use two <code>Slider</code> mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not explicitly specify a travel length. </figcaption>
+      <figcaption>4. Use two <code>Slider</code> mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not need to explicitly specify a travel length. </figcaption>
     </figure>
   </div>
 

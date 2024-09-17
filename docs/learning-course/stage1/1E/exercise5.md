@@ -96,7 +96,7 @@ Focus on capturing design intent and maintaining best practices in your part stu
 
 ## Exercise 5: Flipped Gearbox
 
-In this exercise, you will be modeling a two motor, two-stage, flipped gearbox. The reason these types of gearboxes are referred to as flipped "flipped" is because the output points in the opposite direction as the input motors. 
+In this exercise, you will be modeling a two motor, two-stage flipped gearbox. These types of gearboxes are referred to as "flipped" because the output shaft points in the opposite direction as the input motors. 
 This style of gearbox can be desired in some situations to meet packaging constraints.
 
 ### Part Studio Instructions
