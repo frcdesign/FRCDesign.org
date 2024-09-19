@@ -136,7 +136,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/dead-axle-rollers/s0.webp" style="width:100%">
-      <figcaption>15. Finsh the part studio by naming your features and putting them into folders. Assign the plate material to be polycarbonate. </figcaption>
+      <figcaption>15. Finish the part studio by naming your features and organizing them into folders. Assign the plate material to be polycarbonate. </figcaption>
     </figure>
   </div>
 
