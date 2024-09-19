@@ -10,6 +10,14 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 <center><img src="\img\learning-course\stage1b\bearingAndShaft.webp" style="width:75%"></center>
 <center>*A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right). (Image Source: WCP)*</center>
 
+
+### Bushings
+Bushings are similar to bearings, they are usually made of a self lubricating material such as bronze or acetal/delrin and are used in applications that require a high load, but not high RPM. Bushings are mostly used on round tubing, but bushings for rounded hex shafts also have their uses, mainly for saving space.
+
+<center><img src="\img\learning-course\stage1b\bushing.webp" style="width:50%"></center>
+<center>Bronze Bushing (Image Source: WCP)*</center>
+
+
 ### Example
 
 !!! Example "Example of a Shaft Spinning in a Bearing"
