@@ -239,8 +239,17 @@ This exercise introduces you to the use of the the [Assembly Mirror Featurescrip
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have XX Instances.
+    If all is done correctly your assembly should have 32 Instances.
+
+### Parametric Modeling
+
+Some of the steps we took to complete this exercise could have been simplified.
+For instance, we didn’t necessarily *need* to use the Assembly Mirror feature for the plate.
+We didn’t *need* to use an “Up to face” extrude for the upper tube. 
+We didn’t *need* to [something here].
+
+However, we practice these techniques because, while they may marginally increase modeling time upfront, they can save ***significant*** amounts of time when *going back and editing&.
+CAD is an iterative process — your models and designs won’t be perfect the first time around, so making your model easier to modify and more robust to changes (e.g., changing the width of this intake) will save you time and effort in the long run.
+As you use best practices, they’ll become second nature.
 
 <br>
-
-[def]: img/learning-course/stage1e/flat-intake/s18.web
