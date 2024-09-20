@@ -8,8 +8,8 @@ In this exercise, you will be modeling a sort of flat game piece manipulator. Th
     Tube plugs are a great way to build simple and robust structures. 
     They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
     <figure>
-      <img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/learning-course/stage2-shooter/1678-2024-shooter.webp" width="47%">
-      <figcaption>Using tube plugs to create gusset-less tube to tube (left) and tube to plate connections (right). Photo Credits: FRC 4414 (Left), FRC 9442 (Right).</figcaption>
+      <img align="left"  src="/img/learning-course/stage1e/flat-intake/high-tide-tube-plugs.webp" width="47%"><img align="right" src="/img/learning-course/stage1e/flat-intake/miso-tube-plug.webp" width="47%">
+      <figcaption>Using tube plugs to create gusset-less tube to tube (left) and tube to plate (right) connections. Photo Credits: FRC 4414 (Left), FRC 9442 (Right).</figcaption>
     </figure>
 
 This exercise also introduces you to the use of the the [Assembly Mirror Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"} which is a useful tool to  help make your assembly more parametric. 
