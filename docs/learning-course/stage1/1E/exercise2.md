@@ -4,6 +4,8 @@
 
 In this exercise, you will be modeling some dead axle rollers. To spin things, whether it be rollers, wheels, or even arms, two types of axles can be utilized: "live" and "dead" axles. 
 
+### Live and Dead Axle Rollers
+
 You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the shaft to spin our mechanism, whereas with dead axle, we directly power the spinning component.
 For live axle, the shaft spins on fixed bearings, while for dead axle, the bearings are on the spinning component. Take a look at the visual below to better understand.
 

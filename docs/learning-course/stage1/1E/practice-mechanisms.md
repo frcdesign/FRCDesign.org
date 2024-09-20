@@ -1,11 +1,15 @@
 # Practice Mechanisms
 ## Introduction
 
-This is the final section of Stage 1. Before moving on to Stage 2 (where you will learn mechanism design and be introduced to a variety of COTS parts and concepts), you will need to complete some practice mechanisms to practice your CAD skills. 
+This is the final section of Stage 1. 
+Before moving on to Stage 2 (where you will learn mechanism design and be introduced to a variety of COTS parts and concepts), you will need to complete some practice mechanisms to practice your CAD skills. 
 
-For simplicity, these mechanisms will be modeled out-of-context of a full robot. For these exercises, don't think too hard about the design behind them. Instead, focus on refining your CAD techniques and following best practices such as fully constraining your sketches, modeling in a way that captures design intent, and naming your features and parts. 
+For simplicity, these mechanisms will be modeled out-of-context of a full robot. 
+For these exercises, don't think too hard about the design behind them. 
+Instead, focus on refining your CAD techniques and following best practices such as fully constraining your sketches, modeling in a way that captures design intent, and naming your features and parts. 
 
-As you progress, the level of guidance will gradually decrease. Try to avoid blindly copying the reference model.
+As you progress, the level of guidance will gradually decrease. 
+While you should reference the solutions document to ensure your model and modeling methods are correct, try to avoid *blindly* copying the model.
 
 Each exercise should take no more than 40 to 45 minutes to complete.
 
