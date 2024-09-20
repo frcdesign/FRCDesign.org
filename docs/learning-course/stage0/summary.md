@@ -4,9 +4,6 @@ Congratulations on completing Stage 0!
 
 You've been introduced to the idea of CAD and why we use it in FRC, helped you set up an Onshape account with useful tools, and fundamentals about navigating Onshape.
 
-!!! note 
-    Many of these basic concepts transfer to other CAD software, so even if you're not using Onshape, you can still benefit from this guide.
-
 You also learned the theory behind creating parts in feature-based CAD:
 
 - Create a new sketch within a new part studio
@@ -14,6 +11,8 @@ You also learned the theory behind creating parts in feature-based CAD:
 - Transform the sketch into a 3D object with specified features
 - Manipulate the part with additional features 
 - Repeat these steps until the part is complete
+
+All of these concepts, including the creation of parts and the assembly of those parts in assemblies, are close to universal in parametric CAD software.
 
 Remember: One “part studio” can have multiple different parts. We won’t focus on it for now, but keep it in mind!
 
