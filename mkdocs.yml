@@ -133,39 +133,39 @@ nav:
         - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B/exercise3.md
         - "Summary": learning-course/stage1/1B/summary.md
 
-      - "C: Design Methodology":
-        - "Introduction": learning-course/stage1/1C/introduction.md
-        - "Top Down Design": learning-course/stage1/1C/top-down-design.md
-        - "Project Overview": learning-course/stage1/1C/project-overview.md
-        - "Layout Sketch": learning-course/stage1/1C/layout-sketch.md
-        - "Part Studio": learning-course/stage1/1C/part-modeling.md
-        - "Assembly": learning-course/stage1/1C/assembly-modeling.md
-        - "Adding More Components": learning-course/stage1/1C/adding-components.md
-        - "Top Level Assembly": learning-course/stage1/1C/top-level-assembly.md
-        - "Summary": learning-course/stage1/1C/summary.md
+      - "C: Practice Mechanisms": 
+        - "Introduction": learning-course/stage1/1C/practice-mechanisms.md
+        - "Exercise 1: Flat Intake": learning-course/stage1/1C/exercise1.md
+        - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1C/exercise2.md
+        - "Exercise 3: Shooter": learning-course/stage1/1C/exercise3.md
+        - "Exercise 4: Telescoping Hook": learning-course/stage1/1C/exercise4.md
+        - "Exercise 5: Flipped Gearbox": learning-course/stage1/1C/exercise5.md
+        - "Exercise 6: Direction Swap": learning-course/stage1/1C/exercise6.md
+        - "Exercise 7: Vertical Rollers": learning-course/stage1/1C/exercise7.md
+        - "Exercise 8: Indexer Centering": learning-course/stage1/1C/exercise8.md
 
-      - "D: Subsystem Workflow":
+      - "D: Design Methodology":
         - "Introduction": learning-course/stage1/1D/introduction.md
-        - "Battery Mounting": learning-course/stage1/1D/battery-mounting.md
-        - "Exercise: Battery Holder": learning-course/stage1/1D/exercise1.md
-        - "Electronics": learning-course/stage1/1D/electronics.md
-        - "Exercise: Mounting Electronics": learning-course/stage1/1D/exercise2.md
-        - "Exercise: Bellypan Pocketing": learning-course/stage1/1D/exercise3.md
-        - "Exercise: Bumpers": learning-course/stage1/1D/exercise4.md
-        - "Exercise: Bumper Mounting": learning-course/stage1/1D/exercise5.md
+        - "Top Down Design": learning-course/stage1/1D/top-down-design.md
+        - "Project Overview": learning-course/stage1/1D/project-overview.md
+        - "Layout Sketch": learning-course/stage1/1D/layout-sketch.md
+        - "Part Studio": learning-course/stage1/1D/part-modeling.md
+        - "Assembly": learning-course/stage1/1D/assembly-modeling.md
+        - "Adding More Components": learning-course/stage1/1D/adding-components.md
+        - "Top Level Assembly": learning-course/stage1/1D/top-level-assembly.md
         - "Summary": learning-course/stage1/1D/summary.md
-      
-      - "E: Practice Mechanisms": 
-        - "Introduction": learning-course/stage1/1E/practice-mechanisms.md
-        - "Exercise 1: Flat Intake": learning-course/stage1/1E/exercise1.md
-        - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1E/exercise2.md
-        - "Exercise 3: Shooter": learning-course/stage1/1E/exercise3.md
-        - "Exercise 4: Telescoping Hook": learning-course/stage1/1E/exercise4.md
-        - "Exercise 5: Flipped Gearbox": learning-course/stage1/1E/exercise5.md
-        - "Exercise 6: Direction Swap": learning-course/stage1/1E/exercise6.md
-        - "Exercise 7: Vertical Rollers": learning-course/stage1/1E/exercise7.md
-        - "Exercise 8: Indexer Centering": learning-course/stage1/1E/exercise8.md
 
+      - "E: Subsystem Workflow":
+        - "Introduction": learning-course/stage1/1E/introduction.md
+        - "Battery Mounting": learning-course/stage1/1E/battery-mounting.md
+        - "Exercise: Battery Holder": learning-course/stage1/1E/exercise1.md
+        - "Electronics": learning-course/stage1/1E/electronics.md
+        - "Exercise: Mounting Electronics": learning-course/stage1/1E/exercise2.md
+        - "Exercise: Bellypan Pocketing": learning-course/stage1/1E/exercise3.md
+        - "Exercise: Bumpers": learning-course/stage1/1E/exercise4.md
+        - "Exercise: Bumper Mounting": learning-course/stage1/1E/exercise5.md
+        - "Summary": learning-course/stage1/1E/summary.md
+      
     - Stage 2:
 
       - "A: Basic Shooter":

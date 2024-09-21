@@ -1,4 +1,4 @@
-# Practice Mechanisms
+# 1C: Practice Mechanisms
 ## Introduction
 
 This is the final section of Stage 1. 

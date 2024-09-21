@@ -65,7 +65,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <br>
 <hr>
 
-<img src="/img/learning-course/stage3/1778-2024-MS.webp" align="left" style="width:25%; border:5px solid #ADADAD">
+<img src="/img/learning-course/stage3/1778-2024-MS.webp" align="left" style="width:40%">
 
 <div dir="rtl">
 <h3 id="-stage-3-stage3-3a-multidoc-ms-md-"><a href="stage3\3A\introduction" title="Stage 3 Page">Stage 3</a> <strong>(Under Construction)</strong> </h3>

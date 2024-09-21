@@ -1,17 +1,16 @@
+# 1D: Design Methodology - Simple Swerve Drivebase
+
 ## Summary
 
-Congratulations on completing Stage 1D! With the Stage 1D tasks completed, your drivebase is now fully functional and could even be used as a blueprint to manufacture and assemble one.
+Congratulations on completing Stage 1D! Keep up the good work!
 
-Here is a quick summary of what you have achieved in 2A:
+Here is a quick summary of what you have achieved in 1C:
 
-* Practiced adding parts within the context of a robot, making sure to use an intelligent origin
-* Learned the typical workflow for detailing a complex subsystem
-* Learned about battery mounting and the importance of a secure battery holder
-* Learned about core FRC electronics and how and where to mount them
-* Learned how to use the `Electronic Mounting` Featurescript
-* Optionally learned how to pocket a bellypan
-* Learned about bumpers, how to model them, and the importance of having a secure mounting system
+* Learned about top-down robot design methodology and master sketches
+* Learned how to use the derive feature to drive part studios using master sketches
+* Learned how to use the origin cube to mate together top level assemblies
+* Learned how to model a simple swerve drivetrain
 
-Stage 1E will have you design out-of-context mechanisms that will help you practice CAD skills and power transmission techniques. This will help prepare you for creating full subsystems in Stage 2 in a robot context using a layout sketch workflow and intelligent origins.
+In Stage 1E, you will continue to detail the swerve drivebase you just created and practice the workflow for adding components to a subsystem with an intelligent origin.
 
 <br>

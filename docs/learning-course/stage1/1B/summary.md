@@ -17,6 +17,8 @@ Again, it should be noted that Stage 1B is a very basic introduction to modeling
 
 <!-- For future reference, you can refer to the [Design Handbook](/design-handbook/) power transmissions pages, which are more in depth. -->
 
-In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
+<!-- In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism! -->
+
+In stage 1C, you will be practicing the skills you've learned by modeling a number of different mechanisms.
 
 <br>

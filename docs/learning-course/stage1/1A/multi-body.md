@@ -3,7 +3,7 @@
 
 ## Multi-Part Modeling
 
-Onshape is a software focused on a *top-down design* workflow (explored more in [Stage 1C](../1C/introduction.md "Learning Course Stage 1C Page"){:target="_blank"}) using multi-part part studios. It allows you to create several different related parts in the same tab, all referencing each other, making the part creation for something like a subsystem easy.
+Onshape is a software focused on a *top-down design* workflow using multi-part part studios. It allows you to create several different related parts in the same tab, all referencing each other, making the part creation for something like a subsystem easy.
 
 ### Learning Center Course
 **Complete the following Onshape Learning Course:**

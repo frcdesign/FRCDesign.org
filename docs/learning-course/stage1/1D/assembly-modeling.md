@@ -1,6 +1,4 @@
-
-
-# 1C: Design Methodology - Simple Swerve Drivebase
+# 1D: Design Methodology - Simple Swerve Drivebase
 
 ## Assembly
 
@@ -19,7 +17,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/SwerveBase/dtAssy0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1d/SwerveBase/dtAssy0.webp" style="width:100%">
       <figcaption>0. The assembly.</figcaption>
     </figure>
   </div>
@@ -27,7 +25,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/SwerveBase/dtAssy1.mp4" type="video/mp4">
+        <source src="/img/learning-course/stage1d/SwerveBase/dtAssy1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the parts into the assembly, <code>Group</code> them, then fasten the origin cube to the origin of the assembly.</figcaption>
@@ -37,7 +35,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/SwerveBase/dtAssy2.mp4" type="video/mp4">
+        <source src="/img/learning-course/stage1d/SwerveBase/dtAssy2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the MK4i module from the MKCad app into the assembly and mate it into place. </figcaption>
@@ -47,7 +45,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/SwerveBase/dtAssy3.mp4" type="video/mp4">
+        <source src="/img/learning-course/stage1d/SwerveBase/dtAssy3.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
@@ -57,7 +55,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/SwerveBase/dtAssy4.mp4" type="video/mp4">
+        <source src="/img/learning-course/stage1d/SwerveBase/dtAssy4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Insert a 3/16" rivet from the MKCad app into the assembly and mate it. </figcaption>
@@ -67,7 +65,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/SwerveBase/dtAssy5.mp4" type="video/mp4">
+        <source src="/img/learning-course/stage1d/SwerveBase/dtAssy5.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. Use the <code>Replicate </code> assembly tool to replicate the rivet and rivet mate onto all matching geometry on the bottom face of the bellypan</figcaption>
@@ -76,7 +74,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/SwerveBase/dtAssy0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1d/SwerveBase/dtAssy0.webp" style="width:100%">
       <figcaption>6. The assembly.</figcaption>
     </figure>
   </div>
@@ -98,7 +96,7 @@ In your assembly, you use the select the face for replicate to apply to. What th
 
 !!! Video "Match Individual Edges for Replicate"
     <video width="1920" controls>
-      <source src="/img/learning-course/stage1c/replicateExample.webm" type="video/mp4">
+      <source src="/img/learning-course/stage1d/replicateExample.webm" type="video/mp4">
     </video>
 
 

@@ -1,6 +1,4 @@
-
-
-# 1C: Design Methodology - Simple Swerve Drivebase
+# 1D: Design Methodology - Simple Swerve Drivebase
 
 ## Top Level Robot Assembly
 Now that you have a drivebase, you can create a *top level robot assembly*. The top level robot assembly is the highest in the assembly hierarchy. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint. 
@@ -20,7 +18,7 @@ Start by, **creating a new assembly tab above the `Master Sketch` part studio** 
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/TopLevel/topL0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
       <figcaption>0. Finished top level robot assembly.</figcaption>
     </figure>
   </div>
@@ -28,7 +26,7 @@ Start by, **creating a new assembly tab above the `Master Sketch` part studio** 
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/TopLevel/topL1.webm" type="video/mp4">
+        <source src="/img/learning-course/stage1d/TopLevel/topL1.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
@@ -38,7 +36,7 @@ Start by, **creating a new assembly tab above the `Master Sketch` part studio** 
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/TopLevel/topL2.webm" type="video/mp4">
+        <source src="/img/learning-course/stage1d/TopLevel/topL2.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the <code>Insert</code> menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
@@ -47,7 +45,7 @@ Start by, **creating a new assembly tab above the `Master Sketch` part studio** 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/TopLevel/topL0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
       <figcaption>3. Finished top level assembly. </figcaption>
     </figure>
   </div>
@@ -64,7 +62,7 @@ Start by, **creating a new assembly tab above the `Master Sketch` part studio** 
 !!! success "Verification"
     Your tab manager should now looks like this:
     <figure>
-      <img src="/img/learning-course/stage1c/SwerveBase/dtTabManager2.webp" style="width:100%">
+      <img src="/img/learning-course/stage1d/SwerveBase/dtTabManager2.webp" style="width:100%">
     </figure>
 
 And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.

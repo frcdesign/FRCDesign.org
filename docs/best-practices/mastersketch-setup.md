@@ -28,7 +28,6 @@ All important measurements that drive the geometry of the robot exist in the mas
 <img src="/img/best-practices/1778-2024-MS-Part-Studio.webp" style="border:5px solid #ADADAD"></center>
 <figcaption>1778 Chill Out's 2024 Robot Master Sketches</figcaption>
 </figure>
-<br>
 
 Master sketches always start with your drivetrain, bumpers, initial configuration, and extension limits. Field elements are sketched next. You can use hard alignment against bumpers to ensure your geometry can score pieces without much software or mechanical complexity. 
 
@@ -51,7 +50,8 @@ Effective mastersketching requires you to stay organized. This means:
 - Sketch all the possible states of each moving subsystem 
 
 <figure>
-<img src="/img/learning-course/stage1c/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
+<img src="/img/learning-course/stage1d/exampleMasterSketch.webp" width="70%" style="border:5px solid #ADADAD"></center>
+<figcaption>3647's 2024 Robot Master Sketches</figcaption>
 </figure>
 
 Mastersketching is an art that can require some practice to get the hang of. While Stage 3 helps you learn and practice doing full master sketches, [this tutorial](https://www.youtube.com/watch?v=Bd_XzBw5V_U "2023 David Bot Master Sketch Livestream"){:target="_blank"} can help you get started if you are unsure.

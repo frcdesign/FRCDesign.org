@@ -1,4 +1,4 @@
-# 1C: Design Methodology - Simple Swerve Drivebase
+# 1D: Design Methodology - Simple Swerve Drivebase
 
 ## Top Down Design Methodology 
 When designing a model in CAD, there are two high level strategies that can be employed: top-down and bottom-up. Top-down design employs high level, low detail sketches to dictate the design, and then refining details and components within that framework. Conversely, bottom-up design involves creating individual components or parts separately and then assembling them to form the final product. 
@@ -10,7 +10,7 @@ Top-down design offers a holistic approach, allowing for better system integrati
 To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Master Sketch Best Practices Page"){:target="_blank"} page.
 
 ???+ Example "Example Master Layout Sketch"
-    <center><img src="\img\learning-course\stage1c\exampleMasterSketch.webp" style="width:60%"></center>
+    <center><img src="\img\learning-course\stage1d\exampleMasterSketch.webp" style="width:60%"></center>
     <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
 
 
