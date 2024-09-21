@@ -5,7 +5,8 @@
 In this exercise, you will be modeling a sort of flat game piece manipulator. This mechanism features live-axle compliant wheels, a belt reduction, and tube plugs.
 
 ### Tube Plugs
-Tube plugs are a great way to build simple and robust structures. 
+Tube plugs are a great way to build simple and robust structures.
+Many vendors like [WCP](https://wcproducts.com/products/tube-plugs "WCP Tube Plug Product Page"){:target="_blank"}, [Andymark](https://www.andymark.com/products/tube-plugs "Andymark Tube Plug Product Page"){:target="_blank"}, and [Last Anvil](https://lastanvil.com/products/1-x-1-x-0-0625-end-cap "Last Anvil Tube Plug Product Page"){:target="_blank"} offer in various tubing sizes.
 They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
 
 ???+ Example "Tube Plugs"

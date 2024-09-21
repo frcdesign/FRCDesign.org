@@ -1,8 +1,26 @@
 # 1C: Practice Mechanisms
 
-## Exercise #: XXX
+## Exercise 6: Direction Swap
 
-In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XXXX, XXXX. Be sure to pay attention to XXX when modeling. 
+In this exercise, you will be modeling a power transmission with a direction swap gear. 
+This mechanism features features a 1:1 gear transmission that inverts the direction of the motor, which can be useful when you want two different shafts to be powered by the same motor but spin in opposite directions.
+Be sure to pay attention to the layout and plate sketches when modeling. 
+
+### COTS vs Custom Aluminum Spacers
+So far, you've used both custom spacers generated with the `Spacer` Featurescript as well as COTS 3/8" OD spacers from the MKCad library (the [WCP Aluminum Spacers](https://wcproducts.com/products/aluminum-spacers "WCP Aluminum Spacers Product Page"){:target="_blank"}).
+There are pros and cons to using COTS or custom spacers that you should discuss with your team.
+
+If you do not have access to machinery to cut spacers (e.g. a lathe), COTS spacers can be a good option. 
+However, they can be pricy and only come in certain lengths, though you can easily get around this by designing for standard spacer lengths.
+
+???+ Example "Spacer Stock"
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/spacer-stock.webp" width="80%">
+      <figcaption>Spacers can be fabricated in-house from spacer stock (left) or purchased as COTS pre-cut spacers (Right). (Image Source: WCP)</figcaption>
+    </figure>
+
+When modeling, it is recommended to use the `Spacer` Featurescript for spacers that you will fabricate in house (e.g. using [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) and use the configurable MKCad spacer part for COTS spacers.
+This helps make it clear which parts are custom and which are COTS.
 
 ### Part Studio Instructions
 
@@ -14,15 +32,69 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/XXX/s1.webp" style="width:100%">
+      <img src="/img/learning-course/stage1c/dir-swap/s0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/XXX/a1.webp" style="width:100%">
-      <figcaption>1. </figcaption>
+      <img src="/img/learning-course/stage1c/dir-swap/s1.webp" style="width:100%">
+      <figcaption>1. Begin by creating the layout sketch on the right plane. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s2.webp" style="width:100%">
+      <figcaption>2. Using a mate connector offset 0.5" from the Right plane as the sketch plane, sketch the plate. 
+                  Pay close attention to the clearances used to define the edges of the plate.
+                  The location of the two spacers to the left of the motor are driven by the tangency between the 3/8" OD spacer and the 2.5" motor clearance circle.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <video width="100%" controls>
+        <source src="/img/learning-course/stage1c/dir-swap/s3.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3. Use a <code>Driven Dimension</code> to show the distance between the left gear and the spacer and verify that there is enough clearance. A driven dimension, as opposed to a driving dimension, just reports the distance between the selected elements and is faded gray to indicate that it does not define the sketch geometry.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s4.webp" style="width:100%">
+      <figcaption>4. Mirror the plate across the Right plane and add the motor cutout.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s5.webp" style="width:100%">
+      <figcaption>5. If you choose to not use COTS spacers, you can use the <code>Spacer</code> Featurescript to create the plate spacer.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s6.webp" style="width:100%">
+      <figcaption>6. Model all of the shafts and belts. You should be feeling very comfortable using the <code>Shaft</code> and <code>Belt & Chain Gen</code> Featurescripts at this point.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s7.webp" style="width:100%">
+      <figcaption>7. Pocket the two plates. Since the plates are identical apart from the motor cutout, you can use same sketch to pocket both plates. Only create one sketch with the ribs.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/s0.webp" style="width:100%">
+      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
     </figure>
   </div>
 
@@ -43,18 +115,59 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/XXX/a0.webp" style="width:100%">
+      <img src="/img/learning-course/stage1c/dir-swap/a0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/XXX/a1.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>1.  </figcaption>
+      <img src="/img/learning-course/stage1c/dir-swap/a1.webp" style="width:100%">
+      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a2.webp" style="width:100%">
+      <figcaption>2. Fasten the spacer to the plate and replicate it.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a3.webp" style="width:100%">
+      <figcaption>3. Insert, fasten, and replicate the bearings. Also insert the 2" flex wheel and Kraken motor from MKCad.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a4.webp" style="width:100%">
+      <figcaption>4. Insert and fasten the pulleys pulleys and spacers. Use the Configurable Spacer Stack from MKCad for all the spacers. 
+                  For the pulleys, you can utilize 3D printed HTD pulleys from the MKCad library with 1/2" hex inserts.
+                  Also fasten the belts into place. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a5.webp" style="width:100%">
+      <figcaption>5. Insert, fasten, and replicate all of the required fasteners.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a6.webp" style="width:100%">
+      <figcaption>6. When replicating the plate bolts, flip the mounting side for this bolt so that the nut does not hit the belt. </figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="/img/learning-course/stage1c/dir-swap/a0.webp" style="width:100%">
+      <figcaption>7. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
     </figure>
   </div>
 
@@ -68,7 +181,23 @@ In this exercise, you will be modeling a XXXXX. This mechanism features XXXX, XX
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have XX Instances.
+    If all is done correctly your assembly should have 38 Instances.
 
+
+### Driving and Driven Dimensions
+
+In sketches, driving dimensions define and control the geometry, appearing black and editable. 
+Driven dimensions,on the other hand, are light gray and reflect existing geometry without altering it, useful for maintaining design intent like keeping a specific clearance or thickness. 
+
+To toggle between them, right-click the dimension and select "Driving/Driven" from the context menu—useful when a new dimension would over-constrain the sketch or when you need to inspect geometry without changing it.
+
+!!! tip "Switching Between Driving and Driven Dimensions"
+    <figure>
+      <video width="100%" controls>
+        <source src="/img/learning-course/stage1c/dir-swap/driven-dims.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Switch a dimension from driving to driven and vice versa by right-clicking the dimension. Notice that the driven dimension will update based on other features.</figcaption>
+    </figure>
 
 <br>
