@@ -274,7 +274,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1e/shooter/a0.webp" style="width:100%">
-      <figcaption>12. Finish your assembly by organizing the parts into folders and naming your replicates. </figcaption>
+      <figcaption>12. Finish your assembly by organizing the parts into folders and naming your replicates. You can also insert and position the ball to visualize it. </figcaption>
     </figure>
   </div>
 
