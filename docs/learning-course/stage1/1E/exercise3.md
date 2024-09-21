@@ -292,7 +292,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
 
 ### Isolate, Hide, and Make Transparent
 
-The Isolate tool hides all other parts except the selected one, helping focus on specific components. 
+The Isolate tool hides all other parts except the selected ones, helping focus on specific components. 
 The Hide tool removes the selected parts from view, while Make transparent allows you to see through the selected parts without removing it, useful for accessing obscured components. 
 
 Rather than deleting or moving parts, you should use these tools to access the parts you need for your task. If you hide parts, don't forget to un-hide them for the next person!
