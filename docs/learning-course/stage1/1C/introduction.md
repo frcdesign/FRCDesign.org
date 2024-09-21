@@ -1,7 +1,7 @@
 # 1C: Practice Mechanisms
 ## Introduction
 
-Welcome to stage 1C! In this stage, you will be modeling a number of practice mechanisms to practice your CAD skills. You'll also learn a number of FRC and Onshape tips and tricks along the way to keep things fresh.
+Welcome to stage 1C! In this stage, you will be modeling a number of practice mechanisms to practice your CAD skills. You'll also learn some useful FRC and Onshape tips and tricks along the way to keep things fresh.
 
 For simplicity, these mechanisms will be modeled out-of-context of a full robot. 
 For these exercises, don't think too hard about the design behind them. 

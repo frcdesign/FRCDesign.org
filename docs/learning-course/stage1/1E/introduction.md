@@ -2,7 +2,9 @@
 
 ## Introduction
 
-In the past three sections, you've learned the fundamentals of modeling parts and power transmissions and learned the top-down design workflow. In Stage 1E, you will practice those modeling techniques by **adding the rest of the necessary components to the drivebase you began modeling in Stage 1D**. This will help you get comfortable with the typical workflow of a modeling an entire subsystem while keeping things simple.
+In the previous sections, you've learned the fundamentals of modeling parts and power transmissions and learned the top-down design workflow. 
+In Stage 1E, you will practice those modeling techniques by **adding the rest of the necessary components to the drivebase you began modeling in Stage 1D**. 
+This will help you get comfortable with the typical workflow of a modeling an entire subsystem while keeping things simple.
 
 ### Subsystem Workflow
 The typical workflow when modeling a subsystem involves the following:
