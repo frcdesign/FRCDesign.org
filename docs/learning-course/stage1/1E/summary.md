@@ -2,7 +2,7 @@
 
 Congratulations on completing Stage 1E! With the Stage 1E tasks completed, your drivebase is now fully functional and could even be used as a blueprint to manufacture and assemble one.
 
-Here is a quick summary of what you have achieved in 2A:
+Here is a quick summary of what you have achieved in 1E:
 
 * Practiced adding parts within the context of a robot, making sure to use an intelligent origin
 * Learned the typical workflow for detailing a complex subsystem
@@ -12,6 +12,6 @@ Here is a quick summary of what you have achieved in 2A:
 * Optionally learned how to pocket a bellypan
 * Learned about bumpers, how to model them, and the importance of having a secure mounting system
 
-Stage 1E will have you design out-of-context mechanisms that will help you practice CAD skills and power transmission techniques. This will help prepare you for creating full subsystems in Stage 2 in a robot context using a layout sketch workflow and intelligent origins.
+In Stage 2A, you will begin to learn how to design mechanisms starting with a ball shooter.
 
 <br>

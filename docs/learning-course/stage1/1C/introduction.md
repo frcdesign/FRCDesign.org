@@ -1,17 +1,21 @@
 # 1C: Practice Mechanisms
 ## Introduction
 
-This is the final section of Stage 1. 
-Before moving on to Stage 2 (where you will learn mechanism design and be introduced to a variety of COTS parts and concepts), you will need to complete some practice mechanisms to practice your CAD skills. 
+Welcome to stage 1C! In this stage, you will be modeling a number of practice mechanisms to practice your CAD skills. You'll also learn a number of FRC and Onshape tips and tricks along the way to keep things fresh.
 
 For simplicity, these mechanisms will be modeled out-of-context of a full robot. 
 For these exercises, don't think too hard about the design behind them. 
-Instead, focus on refining your CAD techniques and following best practices such as fully constraining your sketches, modeling in a way that captures design intent, and naming your features and parts. 
+Instead, focus on refining your CAD techniques and following best practices such as fully constraining your sketches, modeling in a way that captures design intent, and naming your features and parts.
+
+CARDS?? IMAGES OF PRACTICE MECHANISMS
 
 As you progress, the level of guidance will gradually decrease. 
 While you should reference the solutions document to ensure your model and modeling methods are correct, try to avoid *blindly* copying the model.
 
 Each exercise should take no more than 40 to 45 minutes to complete.
+
+
+INSERT SOMETHING ABOUT ORIGIN CUBE?? USING IT TO GROUP AND FASTEN TO ORIGIN
 
 <!-- The following is just notes that can be used in the final content of the page.
 

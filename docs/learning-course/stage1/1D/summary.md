@@ -4,7 +4,7 @@
 
 Congratulations on completing Stage 1D! Keep up the good work!
 
-Here is a quick summary of what you have achieved in 1C:
+Here is a quick summary of what you have achieved in 1D:
 
 * Learned about top-down robot design methodology and master sketches
 * Learned how to use the derive feature to drive part studios using master sketches

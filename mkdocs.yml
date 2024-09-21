@@ -134,7 +134,7 @@ nav:
         - "Summary": learning-course/stage1/1B/summary.md
 
       - "C: Practice Mechanisms": 
-        - "Introduction": learning-course/stage1/1C/practice-mechanisms.md
+        - "Introduction": learning-course/stage1/1C/introduction.md
         - "Exercise 1: Flat Intake": learning-course/stage1/1C/exercise1.md
         - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1C/exercise2.md
         - "Exercise 3: Shooter": learning-course/stage1/1C/exercise3.md
@@ -143,6 +143,7 @@ nav:
         - "Exercise 6: Direction Swap": learning-course/stage1/1C/exercise6.md
         - "Exercise 7: Vertical Rollers": learning-course/stage1/1C/exercise7.md
         - "Exercise 8: Indexer Centering": learning-course/stage1/1C/exercise8.md
+        - "Summary": learning-course/stage1/1C/summary.md
 
       - "D: Design Methodology":
         - "Introduction": learning-course/stage1/1D/introduction.md
