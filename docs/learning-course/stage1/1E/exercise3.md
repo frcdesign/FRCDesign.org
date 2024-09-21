@@ -288,7 +288,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
 </div>
 
 !!! note "Verification"
-    If all is done correctly your assembly should have XX Instances.
+    If all is done correctly your assembly should have 44 Instances.
 
 ### Isolate, Hide, and Make Transparent
 
