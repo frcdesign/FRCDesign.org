@@ -6,7 +6,7 @@ In this exercise, you will be modeling a sort of flat game piece manipulator. Th
 
 ### Tube Plugs
 Tube plugs are a great way to build simple and robust structures.
-Many vendors like [WCP](https://wcproducts.com/products/tube-plugs "WCP Tube Plug Product Page"){:target="_blank"}, [Andymark](https://www.andymark.com/products/tube-plugs "Andymark Tube Plug Product Page"){:target="_blank"}, and [Last Anvil](https://lastanvil.com/products/1-x-1-x-0-0625-end-cap "Last Anvil Tube Plug Product Page"){:target="_blank"} offer in various tubing sizes.
+Many vendors including [WCP](https://wcproducts.com/products/tube-plugs "WCP Tube Plug Product Page"){:target="_blank"}, [REV](https://www.revrobotics.com/MAXTube-Endcaps/ "REV Tube Plugs Product Page"){:target="_blank"}, [Andymark](https://www.andymark.com/products/tube-plugs "Andymark Tube Plug Product Page"){:target="_blank"}, and [Last Anvil](https://lastanvil.com/products/1-x-1-x-0-0625-end-cap "Last Anvil Tube Plug Product Page"){:target="_blank"} offer in various tubing sizes.
 They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
 
 ???+ Example "Tube Plugs"
@@ -90,7 +90,7 @@ Make sure to add this to your Featurescripts if you have not already.
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s8.webp" style="width:100%">
-      <figcaption>8. Sketch the 2" bolt circle for mounting motor. You can utilize the Origin Cube variable for a #10-32 clearance hole by typing <code>#10_32</code> into the dimension and selecting the <code>#Clearance_Fit_10_32</code> variable. Use a <code>Circular pattern</code> to pattern the hole sketch. Although we pattern the hole 6 times, we only utilize 3. Set the left most hole to be coincident with the centerline between the pulleys. </figcaption>
+      <figcaption>8. Sketch the 2" bolt circle for mounting motor. You can utilize the Origin Cube variable for a #10-32 clearance hole by typing <code>#10_32</code> into the dimension and selecting the <code>#Clearance_Fit_10_32</code> variable. Use a <code>Circular pattern</code> to pattern the hole sketch. Although we pattern the hole 6 times, we set three of them to construction geometry as we only need 3. Set the left most hole to be coincident with the centerline between the pulleys. </figcaption>
     </figure>
   </div>
 
@@ -163,7 +163,7 @@ Make sure to add this to your Featurescripts if you have not already.
         <source src="/img/learning-course/stage1c/flat-intake/s18.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>18. In the assembly, we would like the location of the two plates to be fully parametric. Since OnShape does not support assembly mirroring, we can instead use the <code>Assembly Mirror</code> Featurescript which provides a workaround to assembly mirroring by generating a pair of mate connectors to simulate an assembly mirror. The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
+      <figcaption>18. In the assembly, we would like the location of the two plates to be fully parametric. Since Onshape does not support assembly mirroring, we can instead use the <code>Assembly Mirror</code> Featurescript which provides a workaround to assembly mirroring by generating a pair of mate connectors to simulate an assembly mirror. The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
     </figure>
   </div>
 
@@ -198,7 +198,7 @@ Make sure to add this to your Featurescripts if you have not already.
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s23.webp" style="width:100%">
-      <figcaption>23. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane. Select the layout sketch pulley PDs to use as the guides.</figcaption>
+      <figcaption>23. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offet by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
     </figure>
   </div>
 
@@ -237,7 +237,7 @@ Make sure to add this to your Featurescripts if you have not already.
         <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates and tubes with the origin cube. Fasten the cube tot he origin.</figcaption>
+      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates and tubes with the origin cube. Fasten the cube to the origin.</figcaption>
     </figure>
   </div>
 
@@ -368,9 +368,8 @@ Make sure to add this to your Featurescripts if you have not already.
 Some of the steps we took to complete this exercise could have been simplified.
 For instance, we didn’t necessarily *need* to use the Assembly Mirror feature for the plate.
 We didn’t *need* to use an “Up to face” extrude for the upper tube. 
-We didn’t *need* to [something here].
 
-However, we practice these techniques because, while they may marginally increase modeling time upfront, they can save ***significant*** amounts of time when *going back and editing&.
+However, we practice these techniques because, while they may marginally increase modeling time upfront, they can save ***significant*** amounts of time when going back and editing.
 CAD is an iterative process — your models and designs won’t be perfect the first time around, so making your model easier to modify and more robust to changes (e.g., changing the width of this intake) will save you time and effort in the long run.
 As you use best practices, they’ll become second nature.
 
