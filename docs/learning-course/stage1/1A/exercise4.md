@@ -37,8 +37,17 @@ You will utilize the [`Spacer` Featurescript](https://cad.onshape.com/documents/
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1a/exercises/e4/e4s3.webp" style="width:100%">
-      <figcaption>3. Draw the climber hook sketch. The construction geometry circle represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with. Pay attention to the sketch constraints used.</figcaption>
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s3a.webp" style="width:100%">
+      <figcaption>3a. Start the climber hook sketch by drawing the construction geometry circle that represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with.</figcaption>
+    </figure>
+  </div>
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1a/exercises/e4/e4s3b.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3b. Draw the outline of the hook. Pay attention to the sketch constraints used. To avoid adding unintended sketch relations, you can hold down the shift key while sketching to disable inferred sketch constraints.</figcaption>
     </figure>
   </div>
 
