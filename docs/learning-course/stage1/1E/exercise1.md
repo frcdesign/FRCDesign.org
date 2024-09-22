@@ -6,7 +6,7 @@ In the reference design, the battery is placed horizontally on the bellypan. It 
 
 ### Instructions
 
-**Add a battery holder to your Stage 1D drivetrain.** You can take inspiration from the following instructions slides. 
+**Add a battery holder to your drivetrain.** You can take inspiration from the following instructions slides. 
 
 <!-- <center>**Sample Battery Holder Modeling Slides**</center> -->
 <!-- Slideshow container -->

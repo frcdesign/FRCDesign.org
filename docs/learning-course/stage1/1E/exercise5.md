@@ -13,7 +13,7 @@ In the reference design, the threaded stud bumper mounting system is implemented
 
 ### Instructions
 
-**Add your desired bumper mounts to your Stage 1D drivetrain.** You can take inspiration from the following instructions slides.
+**Add your desired bumper mounts to your drivetrain.** You can take inspiration from the following instructions slides.
 <!-- 
 You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
 

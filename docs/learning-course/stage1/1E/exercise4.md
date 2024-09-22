@@ -10,7 +10,7 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
 
 ### Instructions
 
-**Add bumpers to your Stage 1D drivetrain.** You can take inspiration from the following instructions slides.
+**Add bumpers to your drivetrain.** You can take inspiration from the following instructions slides.
 
 <!-- <center>**Sample Bumper Modeling Slides**</center> -->
 <!-- Slideshow container -->

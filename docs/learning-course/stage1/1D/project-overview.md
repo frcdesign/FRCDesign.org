@@ -9,7 +9,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 
 <figure>
 <img src="\img\learning-course\stage1d\SwerveBase\DriveAssy.webp" style="width:80%"></center>
-<figcaption>*Stage 1D swerve drivebase project.</figcaption>
+<figcaption>Stage 1D swerve drivebase project.</figcaption>
 </figure>
 
 As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/jHXTdNjYCg "DDS Discord Invite"){:target="_blank"}!

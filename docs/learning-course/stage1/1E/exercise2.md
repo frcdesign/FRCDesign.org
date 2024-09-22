@@ -8,7 +8,7 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
 
 ### Bellypan Mounting Instructions
 
-**Add mounting for some electronic components to your Stage 1D drivetrain.** You can take inspiration from the following instructions slides. 
+**Add mounting for some electronic components to your drivetrain.** You can take inspiration from the following instructions slides. 
 
 <!-- <center>**Sample Electronics Mounting Slides**</center> -->
 <!-- Slideshow container -->

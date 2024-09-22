@@ -158,6 +158,7 @@ nav:
 
       - "E: Subsystem Workflow":
         - "Introduction": learning-course/stage1/1E/introduction.md
+        - "Project Overview": learning-course/stage1/1E/project-overview.md
         - "Battery Mounting": learning-course/stage1/1E/battery-mounting.md
         - "Exercise: Battery Holder": learning-course/stage1/1E/exercise1.md
         - "Electronics": learning-course/stage1/1E/electronics.md
