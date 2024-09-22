@@ -231,7 +231,8 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
         <source src="/img/learning-course/stage1c/dead-axle-rollers/a7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>7. Insert the Kraken motor and mate it to the spacers. While in most cases we wouldn't care to align the motor exactly with the mounting holes, since we are mounting to spacers, we need to align it properly. To do so, use two revolute mates. Make sure to select the right holes. Also insert and fasten the motor pulley.</figcaption>
+      <figcaption>7. Insert the Kraken motor and mate it to the spacers. While in most cases we wouldn't care to align the motor exactly with the mounting holes, since we are mounting to spacers, we need to align it properly. To do so, use a revolute and a cylindrical mate. 
+                  Also insert and fasten the motor pulley.</figcaption>
     </figure>
   </div>
 

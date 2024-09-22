@@ -21,7 +21,6 @@ If you have a 3D printer, this can be a good option.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
-
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
