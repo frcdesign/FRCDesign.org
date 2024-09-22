@@ -135,6 +135,7 @@ nav:
 
       - "C: Practice Mechanisms": 
         - "Introduction": learning-course/stage1/1C/introduction.md
+        - "Exercise Overview": learning-course/stage1/1C/exercise-overview.md
         - "Exercise 1: Flat Intake": learning-course/stage1/1C/exercise1.md
         - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1C/exercise2.md
         - "Exercise 3: Shooter": learning-course/stage1/1C/exercise3.md
@@ -365,7 +366,7 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - meta
+  # - meta
     
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
