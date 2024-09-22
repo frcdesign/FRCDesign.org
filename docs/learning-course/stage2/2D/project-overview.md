@@ -1,4 +1,4 @@
-# 2E: Cascade Elevator
+# 2D: Cascade Elevator
 
 ## Project Overview
 

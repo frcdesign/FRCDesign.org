@@ -1,4 +1,4 @@
-# 2E: Cascade Elevator
+# 2D: Cascade Elevator
 
 ## Part Studio
 1. Add the `Origin Cube` feature and derive the master sketches if you made them in a separate part studio.

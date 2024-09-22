@@ -1,9 +1,9 @@
-# 2D: Slapdown Intake
+# 2C: Slapdown Intake
 
 
 ## Summary
 
-You've completed Stage 2D! To summarize what you've learned in this stage:
+You've completed Stage 2C! To summarize what you've learned in this stage:
 
 - Concepts behind designing an effective and robust intake
 - Real application of a pivot

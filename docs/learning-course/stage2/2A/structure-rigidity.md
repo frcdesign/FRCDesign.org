@@ -1,4 +1,4 @@
-# 2B: Basic Shooter
+# 2A: Basic Shooter
 
 ## Rigidity
 

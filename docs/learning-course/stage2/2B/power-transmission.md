@@ -1,4 +1,4 @@
-# 2C: Dead Axle Pivot
+# 2B: Dead Axle Pivot
 
 ## Power Transmission
 

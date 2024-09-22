@@ -1,4 +1,4 @@
-# 2E: Cascade Elevator
+# 2D: Cascade Elevator
 
 ## Assembly
 Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.

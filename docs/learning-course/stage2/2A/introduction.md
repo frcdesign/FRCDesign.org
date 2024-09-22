@@ -1,4 +1,4 @@
-# 2B: Basic Shooter
+# 2A: Basic Shooter
 
 Welcome to Stage 2! This section covers FRC mechanism design, emphasizing CAD skills, best practices, and key engineering concepts. Each project guide explains design decisions and criteria, promoting independent CAD work with less step-by-step instruction.
 

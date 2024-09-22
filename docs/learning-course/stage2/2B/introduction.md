@@ -1,4 +1,4 @@
-# 2C: Dead Axle Pivot
+# 2B: Dead Axle Pivot
 
 ## Rotary Mechanisms
 Rotary mechanisms enable the pivoting of mechanisms through rotational movement. These mechanisms come in many shapes and sizes but there are a couple good practices that should be followed when designing powered pivots.
