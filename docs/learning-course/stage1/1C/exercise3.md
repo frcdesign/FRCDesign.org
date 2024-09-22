@@ -27,7 +27,7 @@ Take a look below at some examples of 3D printed pulleys with different types of
 
 ### Nut Strips
 Nut strips are a very versatile structural component often used to connect perpendicular plates or a plate to a tube.
-Vendors like [WCP](https://wcproducts.com/products/nut-strips){:target="_blank"} and [Last Anvil](https://lastanvil.com/products/nut-strip){:target="_blank"} carry nut strips in 6" long segments with either #10-32 or #8-32 tapped holes.
+Vendors like [WCP](https://wcproducts.com/products/nut-strips){:target="_blank"}, [REV](https://www.revrobotics.com/3-8in-nut-strips/ "REV Nut Strips Product Page"){:target="_blank"}, and [Last Anvil](https://lastanvil.com/products/nut-strip){:target="_blank"} carry nut strips in 6" long segments with either #10-32 or #8-32 tapped holes.
 These nut strips are very robust and can be easily cut to any length.
 In the exercise you just completed, the nut strips would allow you to easily mount the shooter onto any surface.
 
@@ -37,8 +37,6 @@ In the exercise you just completed, the nut strips would allow you to easily mou
       <!-- <figcaption>Example of using a nut strip to connect two perpendicular plates (left) as well as a plate to a tube (right)</figcaption> -->
       <figcaption>Nut strips can be used to connect a plate to a tube or a plate to a perpendicular plate. (Photo Credits: FRC 4414)</figcaption>
     </figure>
-
-
 
 ### Part Studio Instructions
 
