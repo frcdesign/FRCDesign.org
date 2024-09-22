@@ -4,6 +4,18 @@
 
 In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling. 
 
+### Leveraging COTS Components
+Using COTS components is crucial in a time-constrained build season. 
+Even if you have the capability to fabricate every part, relying on COTS parts allows you to spend your time on more important tasks—like refining designs or testing. 
+This helps ensure your time is spent where it makes the most impact, rather than on re-inventing parts that are already readily available.
+
+???+ Example "Exercise 4 COTS Components"
+    <figure>
+      <img align="left"  src="/img/learning-course/stage1c/telescope/greyt.webp" width="47%"><img align="right" src="/img/learning-course/stage1c/telescope/maxplanetary.webp" width="47%">
+      <figcaption>The telescoping bearing blocks have complex geometry that would be difficult and time consuming to manufacture for most teams.
+                  The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)</figcaption>
+    </figure>
+
 ### Part Studio Instructions
 
 **Navigate to the "Exercise #4 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.

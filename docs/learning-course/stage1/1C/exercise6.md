@@ -6,20 +6,21 @@ In this exercise, you will be modeling a power transmission with a direction swa
 This mechanism features features a 1:1 gear transmission that inverts the direction of the motor, which can be useful when you want two different shafts to be powered by the same motor but spin in opposite directions.
 Be sure to pay attention to the layout and plate sketches when modeling. 
 
-### COTS vs Custom Aluminum Spacers
+### 3D Printed, COTS, and Custom Aluminum Spacers
 So far, you've used both custom spacers generated with the `Spacer` Featurescript as well as COTS 3/8" OD spacers from the MKCad library (the [WCP Aluminum Spacers](https://wcproducts.com/products/aluminum-spacers "WCP Aluminum Spacers Product Page"){:target="_blank"}).
 There are pros and cons to using COTS or custom spacers that you should discuss with your team.
 
-If you do not have access to machinery to cut spacers (e.g. a lathe), COTS spacers can be a good option. 
+3D printed spacers are a fantastic option for teams with 3D prints, they are cheap and easy to fabricate. 
+If you want to use aluminum spacers but do not have access to machinery to cut them (e.g. a lathe), COTS aluminum spacers can be a good option as they can also be pre-stocked.
 However, they can be pricy and only come in certain lengths, though you can easily get around this by designing for standard spacer lengths.
 
 ???+ Example "Spacer Stock"
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/spacer-stock.webp" width="80%">
-      <figcaption>Spacers can be fabricated in-house from spacer stock (left) or purchased as COTS pre-cut spacers (Right). (Image Source: WCP)</figcaption>
+      <figcaption>Spacers can be 3D printed (left), purchased as COTS pre-cut spacers (Center), or fabricated in-house from spacer stock (right). (Image Source: WCP)</figcaption>
     </figure>
 
-When modeling, it is recommended to use the `Spacer` Featurescript for spacers that you will fabricate in house (e.g. using [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) and use the configurable MKCad spacer part for COTS spacers.
+When modeling, it is recommended to use the `Spacer` Featurescript for spacers that you will fabricate in house (e.g. 3D printing or using [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) and use the configurable MKCad spacer part for COTS spacers.
 This helps make it clear which parts are custom and which are COTS.
 
 ### Part Studio Instructions
