@@ -1,8 +1,8 @@
-# 2E: Cascade Elevator
+# 2D: Cascade Elevator
 
 ## Summary
 
-You've completed Stage 2E! To summarize what you've learned in this stage:
+You've completed Stage 2D! To summarize what you've learned in this stage:
 
 - The concepts and key components of a cascade-rigged elevator
 - The master sketch concepts and geometry for elevators

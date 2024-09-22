@@ -44,10 +44,10 @@ Repeat steps 4-7 of the process for all other rigid subassemblies, if applicable
 
 Now create a top-level subsystem assembly and insert each subassembly into it. Fasten the origin cube of the static subassembly to the origin, and use the other mate connectors to mate the other subassemblies together.
 
-??? Example "Stage 2D - Slapdown Intake"
-    The Stage 2D Slapdown Intake is a subsystem with a static portion and a pivoting portion. An extra mate connector is added for the pivot on the master sketch, owned by the origin cube
+??? Example "Stage 2C - Slapdown Intake"
+    The Stage 2C Slapdown Intake is a subsystem with a static portion and a pivoting portion. An extra mate connector is added for the pivot on the master sketch, owned by the origin cube
 
-    <center>[Stage 2D - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2D Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+    <center>[Stage 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2C Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-mate-connector.webp" style="border:5px solid #ADADAD"></center>
 
@@ -60,10 +60,10 @@ Now create a top-level subsystem assembly and insert each subassembly into it. F
     <center><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-top-level.webp" style="border:5px solid #ADADAD"></center>
 
 
-??? Example "Stage 2E - Cascade Elevator"
-    The Stage 2E Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
+??? Example "Stage 2D - Cascade Elevator"
+    The Stage 2D Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.
 
-    <center>[Stage 2E - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2E - Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+    <center>[Stage 2D - Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2D - Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
     <center><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></center>
 

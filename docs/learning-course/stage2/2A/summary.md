@@ -1,8 +1,8 @@
-# 2B: Basic Shooter
+# 2A: Basic Shooter
 
 ## Summary
 
-You've completed Stage 2B, and your first full mechanism! To summarize what you've learned in this stage:
+You've completed Stage 2A, and your first full mechanism! To summarize what you've learned in this stage:
 
 - One way to make 2 parallel plates rigid
 - All the factors that go into designing a flywheel shooter

@@ -1,8 +1,8 @@
-# 2C: Dead Axle Pivot
+# 2B: Dead Axle Pivot
 
 ## Summary
 
-You've completed Stage 2C! To summarize what you've learned in this stage:
+You've completed Stage 2B! To summarize what you've learned in this stage:
 
 - Different types of axle usage
 - Principles of designing a good pivot
