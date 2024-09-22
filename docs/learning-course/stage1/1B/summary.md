@@ -15,6 +15,6 @@ Here is a quick summary of what you have achieved in stage 1B:
 
 Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
 
-In stage 1C, you will be practicing the skills you've learned by modeling a number of different mechanisms.
+In stage 1C, you will be practicing the skills you've learned so far by modeling a number of different mechanisms. These mechanisms will focus on introducing some COTS parts, refining CAD skills, and introducing more useful Onshape tools to use when modeling. 
 
 <br>

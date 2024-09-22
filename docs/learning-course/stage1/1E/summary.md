@@ -12,6 +12,6 @@ Here is a quick summary of what you have achieved in 1E:
 * Optionally learned how to pocket a bellypan
 * Learned about bumpers, how to model them, and the importance of having a secure mounting system
 
-In Stage 2A, you will begin to learn how to design mechanisms starting with a ball shooter.
+In Stage 2, you will begin to model robot mechanisms using all the skills you have learned and practiced in Stage 0 and Stage 1. This will teach mechanism design, the purpose and correct usage of some COTS parts, and many important engineering concepts.
 
 <br>
