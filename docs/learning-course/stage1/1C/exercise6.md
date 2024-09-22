@@ -16,8 +16,8 @@ However, they can be pricy and only come in certain lengths, though you can easi
 
 ???+ Example "Spacer Stock"
     <figure>
-      <img src="/img/learning-course/stage1c/dir-swap/spacer-stock.webp" width="80%">
-      <figcaption>Spacers can be 3D printed (left), purchased as COTS pre-cut spacers (Center), or fabricated in-house from spacer stock (right). (Image Source: WCP)</figcaption>
+      <img src="/img/learning-course/stage1c/dir-swap/spacers.webp" width="100%">
+      <figcaption>Spacers can be 3D printed (left), purchased as COTS pre-cut spacers (center), or fabricated in-house from spacer stock (right). (Image Source: WCP)</figcaption>
     </figure>
 
 When modeling, it is recommended to use the `Spacer` Featurescript for spacers that you will fabricate in house (e.g. 3D printing or using [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) and use the configurable MKCad spacer part for COTS spacers.
