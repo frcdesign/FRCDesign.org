@@ -152,7 +152,7 @@ Catch errors in the CAD rather than in real life! Always double and triple check
 !!! warning "Interference Detection"
     If an interference is detected with the Check Interference tool, it will highlight the intersected volumes in red.
     <figure>
-      <img src="/img/learning-course/stage1c/flipped-gb/interference.webp" style="width:100%">
+      <img src="/img/learning-course/stage1c/flipped-gb/interference.webp" style="width:80%">
       <figcaption>Interference between a motor and plate detected by the Check Interference tool.</figcaption>
     </figure>
 

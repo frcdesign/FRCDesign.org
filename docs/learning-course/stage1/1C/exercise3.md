@@ -20,7 +20,7 @@ Take a look below at some examples of 3D printed pulleys with different types of
 
 ???+ example "3D Printed Pulley Inserts"
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/3dp-pulleys.webp" style="width:100%">
+      <img src="/img/learning-course/stage1c/shooter/3dp-pulleys.webp" style="width:80%">
       <figcaption>3D printed pulleys with hex insert for hex shaft (left), SplineXS insert for Kraken motors (center), and pinion gear insert for NEO/CIM motors (right). </figcaption>
     </figure>
 
@@ -33,7 +33,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
 
 ???+ example "Nut Strips"
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/nut-strips-real.webp" style="width:80%">
+      <img src="/img/learning-course/stage1c/shooter/nut-strips-real.webp" style="width:65%">
       <!-- <figcaption>Example of using a nut strip to connect two perpendicular plates (left) as well as a plate to a tube (right)</figcaption> -->
       <figcaption>Nut strips can be used to connect a plate to a tube or a plate to a perpendicular plate. (Photo Credits: FRC 4414)</figcaption>
     </figure>

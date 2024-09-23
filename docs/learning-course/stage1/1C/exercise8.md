@@ -15,7 +15,7 @@ In this exercise, you will use a [configurable 3D printed crush block](https://c
 
 ???+ example "Crush Blocks and Crush Plates"
     <figure>
-      <img src="/img/learning-course/stage1c/index-centering/crush-blocks.webp" width="80%">
+      <img src="/img/learning-course/stage1c/index-centering/crush-blocks.webp" width="65%">
       <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
     </figure>
 

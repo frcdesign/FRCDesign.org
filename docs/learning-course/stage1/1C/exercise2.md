@@ -11,7 +11,7 @@ For live axle, the shaft spins on fixed bearings, while for dead axle, the beari
 
 ???+ Example "Live vs Dead Axle Rollers"
     <figure>
-      <img src="/img/learning-course/stage1c/dead-axle-rollers/dead-vs-live.webp" style="width:80%">
+      <img src="/img/learning-course/stage1c/dead-axle-rollers/dead-vs-live.webp" style="width:65%">
       <figcaption>Section view of a dead axle (left) and live axle (right) roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
     </figure>
 
