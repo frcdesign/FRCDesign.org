@@ -9,7 +9,7 @@ In this exercise, you will be modeling some dead axle rollers. To spin things, w
 You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the shaft to spin our mechanism, whereas with dead axle, we directly power the spinning component.
 For live axle, the shaft spins on fixed bearings, while for dead axle, the bearings are on the spinning component. Take a look at the visual below to better understand.
 
-???+ Example "Live vs Dead Axle Rollers"ass
+???+ Example "Live vs Dead Axle Rollers"
     <figure>
       <img src="/img/learning-course/stage1c/dead-axle-rollers/dead-vs-live.webp" style="width:80%">
       <figcaption>Section view of a dead axle (left) and live axle (right) roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
