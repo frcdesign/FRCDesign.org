@@ -9,10 +9,10 @@ In this exercise, you will be modeling some dead axle rollers. To spin things, w
 You'll learn more about live and dead axle design in Stage 2, but for now, all you need know is that live axle means we power the shaft to spin our mechanism, whereas with dead axle, we directly power the spinning component.
 For live axle, the shaft spins on fixed bearings, while for dead axle, the bearings are on the spinning component. Take a look at the visual below to better understand.
 
-???+ Example "Live vs Dead Axle Rollers"
+???+ Example "Live vs Dead Axle Rollers"ass
     <figure>
       <img src="/img/learning-course/stage1c/dead-axle-rollers/dead-vs-live.webp" style="width:80%">
-      <figcaption>Section view of a dead (left) and live (right) axle roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
+      <figcaption>Section view of a dead axle (left) and live axle (right) roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
     </figure>
 
 This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"}.
@@ -131,7 +131,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dead-axle-rollers/s14.webp" style="width:100%">
-      <figcaption>14. Use the Assembly Mirror Featurescript to add a mate connector for mating the opposite side plate. There is no reason to use a part mirror since the two plates will be identical. </figcaption>
+      <figcaption>14. Use the Assembly Mirror Featurescript to add a mate connector for mating the opposite side plate. There is no reason to use a part mirror since the two plates will be identical and we have no need to reference the other plate in the part studio. </figcaption>
     </figure>
   </div>
 
@@ -191,7 +191,9 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
         <source src="/img/learning-course/stage1c/dead-axle-rollers/a3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Insert the Configurable Roller assembly from the link at the top of this page. Follow the settings exactly as described to generate a 20" wide, 2" OD roller with 24T HTD 5mm pulleys on each end.</figcaption>
+      <figcaption>3. Insert the Configurable Roller assembly from the link at the top of this page. 
+                  Follow the settings exactly as described to generate a 20" wide, 2" OD roller with 24T HTD 5mm pulleys on each end. 
+                  The length specified is the <i>effective length</i> meaning the distance between the plates, not the length of the roller itself.</figcaption>
     </figure>
   </div>
 
@@ -246,7 +248,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dead-axle-rollers/a9.webp" style="width:100%">
-      <figcaption>9. Insert a 0.5" long, #10-32 button head bolt for the roller shafts. Fasten one instance and replicate the other 5.</figcaption>
+      <figcaption>9. Insert a 3/4" long, #10-32 button head bolt for the roller shafts. Fasten one instance and replicate the other 5.</figcaption>
     </figure>
   </div>
 

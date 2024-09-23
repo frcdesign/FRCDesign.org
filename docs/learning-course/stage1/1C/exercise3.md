@@ -21,7 +21,7 @@ Take a look below at some examples of 3D printed pulleys with different types of
 ???+ example "3D Printed Pulley Inserts"
     <figure>
       <img src="/img/learning-course/stage1c/shooter/3dp-pulleys.webp" style="width:100%">
-      <figcaption>3D printed pulleys with hex insert for hex shaft (left), SplineXL insert for Kraken motors (center), and pinion gear insert for NEO/CIM motors (right). </figcaption>
+      <figcaption>3D printed pulleys with hex insert for hex shaft (left), SplineXS insert for Kraken motors (center), and pinion gear insert for NEO/CIM motors (right). </figcaption>
     </figure>
 
 
@@ -70,7 +70,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/shooter/s3.webp" style="width:100%">
-      <figcaption>3. Using a mate connector offset 1.375" from the Right plane as the sketch plane, sketch the side plate. Use a circular pattern to sketch the #10-32 clearance holes around the shooter hood. </figcaption>
+      <figcaption>3. Using a mate connector offset 1.375" from the layout sketch plane as the sketch plane, sketch the side plate. Use a circular pattern to sketch the #10-32 clearance holes around the shooter hood. </figcaption>
     </figure>
   </div>
 
@@ -195,7 +195,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
         <source src="/img/learning-course/stage1c/shooter/a4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Insert and configure the feeder pulley to be 24T with a WCP 1/2" hex insert. 
+      <figcaption>4. Insert and configure the feeder pulley to be 24T with 1/2" Hex w/WCP insert. 
                   Using a 1/16" spacer, fasten it to the feeder bearing. 
                   Then, fasten the belt to the pulley and the motor pulley to the belt. 
                   Finally, use the <code>Isolate</code> tool to fasten the 8mm NEO shaft to 1/2" hex adapter.</figcaption>
