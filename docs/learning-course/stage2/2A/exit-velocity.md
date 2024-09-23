@@ -14,10 +14,20 @@ When shooting a single game piece at a time, common choices for flywheel wheels 
 
 Each time a game piece is launched, the flywheel loses energy and slows down as the game piece accelerates to match the wheel's speed. When shooting multiple game pieces, this can result in delays between shots. Adding mass to the flywheel increases its [moment of inertia](https://en.wikipedia.org/wiki/Moment_of_inertia "MOI Wikipedia Page"){:target="_blank"}, which reduces the time between shots by minimizing the energy loss per shot. The tradeoff is a longer spin-up time to reach the target speed initially.
 
+<br>
+
+<div class="grid cards" markdown>
+
+-   <center><img src="\img\learning-course\stage2-shooter\2056.gif" width="100%" style="border:5px solid #ADADAD; border-radius: 2%"></center>
+
+-   <center><img src="\img\learning-course\stage2-shooter\118.gif" width="81%" style="border:5px solid #ADADAD; border-radius: 2%"></center>
+
+</div>
+
 <figure>
-<img align="left" src="\img\learning-course\stage2-shooter\2056.gif" width="40%"><img align="right" src="\img\learning-course\stage2-shooter\118.gif" width="40%">
-<figcaption> Team 2056 and 118 shooting quickly by utilizing a high moment of inertia shooter wheel. </figcaption>
+<figcaption> Team 2056 and 118 shooting quickly by utilizing a high moment of inertia shooter wheel </figcaption>
 </figure>
+<br>
 
 Acceleration and recovery times can be improved by properly gearing down your motors or adding additional motors.
 
@@ -26,7 +36,7 @@ Acceleration and recovery times can be improved by properly gearing down your mo
 In the reference design, two Kraken X60 motors are employed, though any brushless CIM-class motor will suffice. 
 
 <figure>
-<img src="/img/learning-course/stage2-shooter/motorsAndFlywheels.webp" width="60%">
+<img src="/img/learning-course/stage2-shooter/motorsAndFlywheels.webp" width="60%" style="border-radius: 2%">
 <figcaption>Two Krakens driving the shooter wheels, flywheels, and a belt transferring power to the hood wheels.
 </figure>
 

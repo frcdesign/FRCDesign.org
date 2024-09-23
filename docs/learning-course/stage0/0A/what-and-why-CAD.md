@@ -9,7 +9,7 @@ CAD is used to create a 3D model from various kinds of steps and tools to help p
     A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"} official learning course, but it doesn't provide much relevant information for FRC.
 
 <figure>
-    <center><img src="/img/learning-course/stage0/introcad/formula.webp" style="width:100%"></center>
+    <center><img src="/img/learning-course/stage0/introcad/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
     <figcaption>Formula 1 racecars are an example of something that is CADed.</figcaption>
 </figure>
 

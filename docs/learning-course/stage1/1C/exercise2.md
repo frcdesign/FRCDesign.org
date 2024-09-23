@@ -15,7 +15,7 @@ For live axle, the shaft spins on fixed bearings, while for dead axle, the beari
       <figcaption>Section view of a dead axle (left) and live axle (right) roller. The dead axle roller sits on bearings and needs to be directly powered (in this case, through the integrated pulley). The live axle roller is powered from a pulley farther down the hex shaft.</figcaption>
     </figure>
 
-This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"}.
+This exercise introduces you to the use of the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"}. The assembly instruction slides have you copy this link to insert the rollers.
 
 <!-- [`Assembly Mirror` Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392 "Assembly Mirror Featurescript"){:target="_blank"}. -->
 
