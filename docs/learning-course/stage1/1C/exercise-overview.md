@@ -5,7 +5,7 @@
 
 <center>
 [1C Exercises Document](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c96f153b351bc1f1eafdef8a "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
-[1C Exercise Solutions Document](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/08676a32914225413f14b28b "1C Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
+[1C Exercise Solutions Document](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/52d6f1268d1392beb2834209 "1C Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
 </center>
 
 <div class="grid cards" markdown>
