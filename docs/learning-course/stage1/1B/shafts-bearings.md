@@ -18,6 +18,13 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 
     <br>
 
+### Bushings
+Bushings are a cheap and low friction alternative to bearings and are used with metal shafts such as shoulder bolts, hex shafts, and round tube, mainly to save space. They are made out of a self-lubricating material such as bronze or acetal/delrin and typically used in applications with relatively low RPM, such as for pivots and linkage joints. 
+
+<center><img src="\img\learning-course\stage1b\bushing.webp" style="width:50%"></center>
+<center>Bronze Bushing (Image Source: WCP)*</center>
+
+
 ### Modeling
 The easiest way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
 

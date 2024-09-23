@@ -8,6 +8,7 @@ As you probably know, CAD is a tool used to design parts digitally before they a
 Consider a basic 3D object, such as this cylinder. Every object you design in Onshape starts with a 2D sketch within a window called a part studio. Sketches are used to define a 2D profile, that is then manipulated with features. These features transform the 2D sketch, one change at a time, into a 3D object - by “extruding” or pulling the profile into 3D, revolving it around an axis, or by other methods. 
 
 <br>
+
 ## Starting with a Sketch
 
 <img src="/img/learning-course/stage0/theory/cross-light.webp#only-light" style="float:right; width:35%; margin-left:15px; margin-top:-30px">
@@ -26,6 +27,11 @@ While in the sketch, we define the nature of the circle - its position in space 
 <br>
 But how do we transform this defined sketch into a 3D object? By using *features*. In this case, an “extrude” feature is used to extend the profile of the sketch into 3D space.
 Just like how we defined the sketch, we define the characteristics of this extrude. For example, we must specify a “depth” or final “height” for the cylinder. This is used to create the final geometry. There are many such settings we must specify when using features.
+
+Using a side profile of the cylinder, you may also use the "revolve" feature to create the cylinder. There are usually different paths you can take to modeling something, and the one you choose depends on the intent of the design.
+
+!!! Note
+    These concepts, using sketches and features to model shapes, are universal across most parametric CAD software.
 
 Additional sketches and features are used to add more complex geometry to parts or to create additional parts within the part studio.
 

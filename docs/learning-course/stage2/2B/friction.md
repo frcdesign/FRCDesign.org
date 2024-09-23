@@ -13,7 +13,7 @@ Friction must be minimized since the mechanism pivots around the axle. This can 
 
 ### Reference Design
 
-The reference design utilizes 7/8" ID bushings for the arm pivot to match the 7/8" OD tube axle. Bushings are used for this dead axle example because they package well, are suitable for the low speeds and potential higher loads of an arm, and it is easy to source ones made specifically for sprockets and tube from FRC vendors.
+This reference design uses 7/8" ID, 1.125" OD Bushings for its pivot. This design is intended to handle a high load, which was why 7/8" tube was chosen for the pivot axle. Its larger OD gives it more strength than 1/2" hex or 3/4" tube, but while keeping a much lower profile than an extruded spline shaft. The bushing having a 1.125" OD makes it compatible with the 1.125" bore found on most COTS plate sprockets.
 
 
 <br>
