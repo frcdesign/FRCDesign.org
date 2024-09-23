@@ -27,6 +27,11 @@ As you progress through the exercises, the level of guidance will gradually decr
 !!! Note "Primary Goal"
     The primary goal of this stage is to get you enough practice with CAD and modeling in the context of FRC where you won't need guidance in every step that you do. If you find that you struggle without guidance on the later exercises, feel free to try and model more small mechanisms of your choice, making sure to get feedback on them from [the Discord Server](https://discord.gg/jHXTdNjYCg "David's Design Server Invite"){:target="_blank"} or your team.
 
-Focus on refining your CAD techniques and following best practices such as fully constraining your sketches, modeling in a way that captures design intent, and naming your features and parts.
+Focus on refining your CAD techniques and following best practices such as fully constraining your sketches, learning and practicing keyboard shortcuts, modeling in a way that captures design intent, and naming your features and parts.
+
+!!! Tip "Customizing Keyboard Shortcuts"
+    If the default for a keyboard shortcut doesn't work for you, you can rebind it by going to your account page, going to `Preferences`, and scrolling down to find the keyboard shortcuts.
+    
+    For example: you can rebind the keyboard shortcut for renaming something (the default is `shift+n`) to something easier, like `shift+r`, to make your workflow faster.
 
 <br>
