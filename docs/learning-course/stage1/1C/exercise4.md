@@ -10,8 +10,15 @@ Even if you have the capability to fabricate every part, relying on COTS parts a
 This helps ensure your time is spent where it makes the most impact, rather than on re-inventing parts that are already readily available.
 
 ???+ Example "Exercise 4 COTS Components"
+    <div class="grid cards" markdown>
+
+    -   <center><img src="/img/learning-course/stage1c/telescope/greyt.webp" width="100%"></center>
+
+    -   <center><img src="/img/learning-course/stage1c/telescope/maxplanetary.webp" width="100%"></center>
+
+    </div>
+
     <figure>
-      <img align="left"  src="/img/learning-course/stage1c/telescope/greyt.webp" width="47%"><img align="right" src="/img/learning-course/stage1c/telescope/maxplanetary.webp" width="47%">
       <figcaption>The telescoping bearing blocks have complex geometry that would be difficult and time consuming to manufacture for most teams.
                   The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)</figcaption>
     </figure>
