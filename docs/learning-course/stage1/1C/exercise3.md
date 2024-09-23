@@ -304,4 +304,8 @@ Rather than deleting or moving parts, you should use these tools to access the p
       <figcaption>Isolate parts, hide parts, or make parts transparent to help with assembly. </figcaption>
     </figure>
 
+!!! Tip "Keyboard Shortcuts"
+    Just like most other tools and constraints in Onshape, hide/show has a nice keyboard shorctut combination. Hover over a part with your cursor or select it and press `y` to hide it. Hover over the same space and press `shift+y` to unhide the part.
+
+
 <br>
