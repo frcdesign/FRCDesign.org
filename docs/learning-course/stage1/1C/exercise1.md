@@ -10,12 +10,19 @@ Many vendors including [WCP](https://wcproducts.com/products/tube-plugs "WCP Tub
 They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
 
 ???+ Example "Tube Plugs"
+    <div class="grid cards" markdown>
+
+    -   <center><img src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
+
+    -   <center><img src="/img/learning-course/stage1c/flat-intake/miso-tube-plug.webp" width="100%"></center>
+
+    </div>
+
     <figure>
-      <img align="left"  src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="47%"><img align="right" src="/img/learning-course/stage1c/flat-intake/miso-tube-plug.webp" width="47%">
       <figcaption>Tube plugs can be used to create gusset-less tube to tube (left) and tube to plate (right) connections. (Photo Credits: FRC 4414, FRC 9442)</figcaption>
     </figure>
 
-This exercise also introduces you to the use of the the [Assembly Mirror Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"} which is a useful tool to  help make your assembly more parametric. 
+This exercise also introduces you to the use of the the [Assembly Mirror Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"} which is a useful tool to  help make your assembly more parametric.
 Make sure to add this to your Featurescripts if you have not already.
 
 ### Part Studio Instructions
