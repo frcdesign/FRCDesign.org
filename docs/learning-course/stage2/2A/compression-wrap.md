@@ -33,8 +33,19 @@ The example design uses 4 inch diameter roller wheels. The diameter allows for e
 ### Feeder
 
 A wheel or set of belts is commonly used to feed game pieces into the flywheel. The design depends on the game and the specific feeding strategy. For instance, in the 2020 game, it is advantageous to power both sides of the feeder due to the sticky nature of the power cell. In the example, a single compliant wheel is employed to direct the game pieces into the shooter.
-<br>
-<figure><img align="left"  src="\img\learning-course\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
-<center><figcaption>Observe how the game pieces are fed into 2910's and 1690's robot.</figcaption></center>
 
+
+<br>
+
+<div class="grid cards" markdown>
+
+-   <center><img src="\img\learning-course\stage2-shooter\2910shooter.gif" width="100%" style="border:5px solid #ADADAD; border-radius: 2%"></center>
+
+-   <center><img src="\img\learning-course\stage2-shooter\1690shooter.gif" width="88%" style="border:5px solid #ADADAD; border-radius: 2%"></center>
+
+</div>
+
+<figure>
+<figcaption>Observe how the game pieces are fed into 2910's and 1690's robot.</figcaption>
+</figure>
 <br>

@@ -14,7 +14,7 @@ Slightly reduce belt tension by shortening the center-to-center distance (0.01-0
 #### Spacers
 Use spacers between components on shafts and bearings. Components should not contact the outer race of the bearing to avoid friction.
 <figure>
-    <img src="/img/learning-course/stage2-shooter/hexspacers.webp" width="60%">
+    <img src="/img/learning-course/stage2-shooter/hexspacers.webp" width="60%" style="border-radius: 2%">
     <figcaption>A COTS 1/2 hex delrin spacer which is used to reduce friction and constrain the object.
 </figure>
 
