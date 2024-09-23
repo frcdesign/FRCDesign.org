@@ -12,6 +12,8 @@ You also learned the theory behind creating parts in feature-based CAD:
 - Manipulate the part with additional features 
 - Repeat these steps until the part is complete
 
+All of these concepts, including the creation of parts and the assembly of those parts in assemblies, are close to universal in parametric CAD software.
+
 Remember: One “part studio” can have multiple different parts. We won’t focus on it for now, but keep it in mind!
 
 Now it's time to move on to Stage 1 where you'll start learning the software and doing exercises, practicing skills relevant to an FRC context. Good luck!
