@@ -23,10 +23,10 @@ Replicate Tool - You only need to import each unique size of fastener per assemb
 ### Bolts
 | Type of Bolt | Description | Image |
 |:--------------:|:-------:|:-------:|
-| Socket Head Cap Bolt (SHCS)| Standard bolt, hard to strip out due to the larger tool used with it |  |
-| Button Head Bolt | Has a wider, rounded head that is thinner than the socket head bolt |  |
-| Flathead/Countersunk Bolt | Meant to be flush with the material, requires you to countersink the hole its going into |  |
-| Shoulder Bolt | Bolt with a smooth portion mean to act as a small shaft for a bearing or bushing |  |
+| Socket Head Cap Bolt (SHCS)| Standard bolt, hard to strip out due to the larger tool used with it | ![Alt text](image.webp) |
+| Button Head Bolt | Has a wider, rounded head that is thinner than the socket head bolt | ![Alt text](<image (1).webp>) |
+| Flathead/Countersunk Bolt | Meant to be flush with the material, requires you to countersink the hole its going into | ![Alt text](<image (2).webp>) |
+| Shoulder Bolt | Bolt with a smooth portion mean to act as a small shaft for a bearing or bushing | ![Alt text](<image (3).webp>) |
 
 ### Nuts
 | Types of Nuts | Description | Image |
