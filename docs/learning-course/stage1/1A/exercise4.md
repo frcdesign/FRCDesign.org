@@ -4,7 +4,7 @@
 
 As you get more comfortable with modeling, we can begin to create more complex parts. For this exercise, you will create a climber hook and tube. Then, you will create the assembly and mate together the components.
 
-You will utilize the `Spacer` Featurescript for this exercise.
+You will utilize the [`Spacer` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise.
 
 ### Instructions
 
@@ -37,8 +37,17 @@ You will utilize the `Spacer` Featurescript for this exercise.
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1a/exercises/e4/e4s3.webp" style="width:100%">
-      <figcaption>3. Draw the climber hook sketch. The construction geometry circle represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with. Pay attention to the sketch constraints used.</figcaption>
+      <img src="/img/learning-course/stage1a/exercises/e4/e4s3a.webp" style="width:100%">
+      <figcaption>3a. Start the climber hook sketch by drawing the construction geometry circle that represents the bar on which the hook will grab onto. The hole on the far right would be to attach a rope to pull the hook with.</figcaption>
+    </figure>
+  </div>
+  <div class="mySlides fade">
+    <figure>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1a/exercises/e4/e4s3b.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>3b. Draw the outline of the hook. Pay attention to the sketch constraints used. To avoid adding unintended sketch relations, you can hold down the shift key while sketching to disable inferred sketch constraints.</figcaption>
     </figure>
   </div>
 

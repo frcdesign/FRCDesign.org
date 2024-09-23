@@ -6,7 +6,7 @@ For this exercise, you will create a simple frame and two gussets in the part st
 
 ### Featurescripts
 
-You will utilize the `Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts for this exercise.
+You will utilize the [`Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise.
 
 - The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
 

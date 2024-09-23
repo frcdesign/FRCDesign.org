@@ -15,8 +15,6 @@ Here is a quick summary of what you have achieved in stage 1B:
 
 Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
 
-<!-- For future reference, you can refer to the [Design Handbook](/design-handbook/) power transmissions pages, which are more in depth. -->
-
-In stage 1C, you will begin to learn the basic workflow for robot modeling. This is the final step before being able to design a full mechanism!
+In stage 1C, you will be practicing the skills you've learned so far by modeling a number of different mechanisms. These mechanisms will focus on introducing some COTS parts, refining CAD skills, and introducing more useful Onshape tools to use when modeling. 
 
 <br>

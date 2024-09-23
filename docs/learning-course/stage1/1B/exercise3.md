@@ -108,7 +108,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s14.webp" style="width:100%">
-      <figcaption>13. Draw the outline for the plate. Space the bottom of the plate 0.25" from the edge of the pitch circle for the 60T gear. </figcaption>
+      <figcaption>13. Draw the outline for the plate using centerpoint arcs and tangent lines. Space the bottom of the plate 0.25" from the edge of the pitch circle for the 60T gear. </figcaption>
     </figure>
   </div>
 
@@ -195,7 +195,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s26.webp" style="width:100%">
-      <figcaption>25. Use the <code>Part Lighten</code> Featurescript to add the pocketing. Use 0.15" wide ribs and 1/4" tool diameter. </figcaption>
+      <figcaption>25. Use the <code>Part Lighten</code> Featurescript to add the pocketing by selecting the previous sketch. Use 0.15" wide ribs and 0.26" tool diameter. </figcaption>
     </figure>
   </div>
 
@@ -209,7 +209,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s28.webp" style="width:100%">
-      <figcaption>27. Use the <code>Part Lighten</code> Featurescript to add the pocketing. Again, use 0.15" wide ribs and 1/4" tool diameter. </figcaption>
+      <figcaption>27. Use the <code>Part Lighten</code> Featurescript to add the pocketing by selecting the previous sketch. Again, use 0.15" wide ribs and 0.26" tool diameter. </figcaption>
     </figure>
   </div>
 

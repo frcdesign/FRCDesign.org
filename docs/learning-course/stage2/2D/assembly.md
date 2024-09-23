@@ -1,34 +1,43 @@
-# 2D: Slapdown Intake
+# 2D: Cascade Elevator
 
 ## Assembly
+Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.
 
-Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level. 
+### Base Stage Assembly
 
-### Base Assembly
+Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, MKCAD, and standard content, using replicate and patterns when you can.
 
-Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, MKCAD, and standard content, using replicate and patterns when you can. 
-
-<figure>
-    <img src="/img/learning-course/stage2-slapdown/staticAssembly.webp" width="70%">
-    <figcaption>Finished Static Assembly</figcaption>
+<figure markdown="span">
+    <img src="/img/learning-course/stage2-elevator/frameSubassembly.webp" style="width:85%">
+    <figcaption>Finished base stage assembly</figcaption>
 </figure>
 
-### Arm Assembly
+### First Stage Assembly
 
-Create an assembly for the intake arms and do the same thing as above to complete the assembly and make it rigid. For the rollers, insert them from the [Configurable Rollers Document](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"}.
+Do the same thing for the first stage subassembly.
 
-<figure>
-    <img src="/img/learning-course/stage2-slapdown/intakeArms.webp" width="70%">
-    <figcaption>Finished Intake Arms Assembly</figcaption>
+<figure markdown="span">
+    <img src="/img/learning-course/stage2-elevator/stage1Subassembly.webp" style="width:85%">
+    <figcaption>Finished first stage assembly</figcaption>
 </figure>
 
-### Top Level Assembly 
+### Carriage Assembly
 
-Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the slapdown intake assembly.
+And finally the carriage subassembly.
 
-<figure>
-    <img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" width="70%">
-    <figcaption>Finished Top Level Intake Assembly</figcaption>
+<figure markdown="span">
+    <img src="/img/learning-course/stage2-elevator/carriageSubassembly.webp" style="width:75%">
+    <figcaption>Finished carriage assembly</figcaption>
 </figure>
+
+### Top Level Assembly
+
+Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator. 
+
+<figure markdown="span">
+    <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:75%">
+</figure>
+
+Because it's a cascade elevator, you can use the "Linear Relation" assembly tool between the two slider mates with a ratio of 1 to link the motion of the stages together in the same way it would be in real life.
 
 <br>

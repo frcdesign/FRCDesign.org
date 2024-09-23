@@ -1,28 +1,29 @@
-# 2A: Full Detail Drivebase
+# 2A: Basic Shooter
 
 Welcome to Stage 2! This section covers FRC mechanism design, emphasizing CAD skills, best practices, and key engineering concepts. Each project guide explains design decisions and criteria, promoting independent CAD work with less step-by-step instruction.
 
-## Introduction
+## Shooter Mechanisms
 
-The first project in Stage 2 will be detailing the drivebase you began modeling in Stage 1B. So far, you’ve only modeled the frame and bare bellypan. **To finish the drivebase, you should add the following details.**
+Shooters are used in FRC games when you need to score in high places but are not allowed to physically reach up to the scoring position. A flywheel is the most common method of scoring as illustrated below. 
 
-1. **Battery Mounting:** Every robot needs a battery, and while the location may vary based on the other mechanisms present in your robot, it should always be placed as low as possible to make the robot more stable.
+While most shooting games involve launching a ball, the fundamentals between ball shooters and shooters for non-spherical objects (discs or rings) remain roughly the same.
 
-2. **Electronics Mounting:** Adequate space must be allocated on the robot for ease of wiring. Typically, the robot’s electronics are mounted on the bellypan.
+<br>
+<figure><img align="left"  src="\img\learning-course\stage2-shooter\2910shooter.gif" width="47%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-shooter\1690shooter.gif" width="42%" style="border:5px solid #ADADAD"></figure>
+<center><figcaption>FRC Team 2910 and's 1690's 2021 Robot Launching Game Pieces</figcaption></center>
+<br>
 
-3. **Bellypan Pocketing:** This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan may significantly increase machining time.
+### Flywheel Shooters
 
-4. **Bumpers:** While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
+The most common way to launch game pieces is with flywheel shooters. Other methods, such as catapults or punchers, tend be more challenging to execute with the required accuracy/fire rate and rely on different concepts than flywheel shooters.
 
-While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 2A is provided.
+<br>
+<figure><img align="left"  src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="47%"><img align="right" src="/img/learning-course/stage2-shooter/1678-2024-shooter.webp" width="47%"></figure>
+<center><figcaption>1678's 2022 and 2024 Flywheel Shooters. The 2022 shooter launched 9.5" diameter inflated balls and the 2024 shooter launched 14" diameter foam rings.</figcaption></center>
+<br>
 
-<figure>
-    <center><img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%"></center>
-    <figcaption>Example of a fully detailed Stage 2A drivetrain.</figcaption>
-</figure>
+[This video](https://youtu.be/QZKDnRvLhrA "1678 Shooter Slow Mo Video"){:target="_blank"} is a good slow-motion look at how a ball gets propelled out of a shooter.
 
-You can access the reference CAD model with the button below. It is based off of the Stage 1C drivebase.
-
-<center>[2A Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+Other mechanism examples and deep dives for shooters can be found on the [ball shooters page](/mechanism-examples/shooter/ "Ball Shooters Page"){:target="_blank"}. The design handbook page will have a deeper dive when the shooter design page is completed. 
 
 <br>

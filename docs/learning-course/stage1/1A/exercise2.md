@@ -18,12 +18,16 @@ Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a
 
 ### Featurescripts
 
-You will utilize the `Extrude Individual` and `Tube Converter` Featurescripts for this exercise. **Do not use the `Gusset` Featurescript for this exercise.**
+!!! Warning
+    If you haven't already, please add [MKCAD](../../../stage0/0B/MKCad/ "Adding MKCAD Tutorial Page"){:target="_blank"} and the [required featurescripts](../../../stage0/0B/featurescripts/ "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
+
+You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise. **Do not use the `Gusset` Featurescript for this exercise.**
 
 
 - The `Extrude individual` Featurescript enables you to extrude sketch regions without merging them. In this exercise, if you were to extrude the sketch of the tubes with the standard <code>Extrude</code> tool, only a single part would generate.
 
 - The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
+
 
 ### Instructions
 

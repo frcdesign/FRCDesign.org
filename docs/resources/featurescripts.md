@@ -114,7 +114,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/learning-course/stage1b/exercises/e2/e2s8.webm" type="video/mp4">
+      <source src="../../../../img/resources/featurescripts/part-lighten.webm" type="video/mp4">
     </video>
 
 [**FilletXpert (Fillet All Edges)**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Fillet All Edges Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -304,7 +304,7 @@ The below links contain several featurescripts each that you can add all at once
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/learning-course/stage1b/exercises/e2/e2s8.webm" type="video/mp4">
+      <source src="../../../../img/resources/featurescripts/part-lighten.webm" type="video/mp4">
     </video>
 
 [**Vent**](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4 "Vent Featurescript Onshape Document"){:target="_blank"}
