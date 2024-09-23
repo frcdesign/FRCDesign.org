@@ -3,7 +3,8 @@
 
 Welcome to stage 1C! In this stage, you will be modeling a number of different mechanisms to practice your CAD skills and execution of small details. You will be introduced to new COTS parts and Onshape tips and tricks along the way to help your workflow.
 
-Because these mechanisms are designed specifically to help practice skills and introduce concepts, they are modeled out-of-context of a full robot.
+Because these mechanisms are designed specifically to help practice skills and introduce concepts, they are modeled out-of-context of a full robot. 
+While these mechanisms do include some good design techniques, they are not necessarily complete systems. The models are strictly for CAD practice and not recommended for use on real robots.
 
 ### Layout Sketches
 
