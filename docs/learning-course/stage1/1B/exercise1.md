@@ -183,7 +183,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 3. Assemble the motor and motor pinion gear using parts from the MKCad App. You will need to use mate inference locking to fasten the motor to the motor pinion: See the below drop down to learn how. </figcaption>
+      <figcaption> 3. Assemble the motor and motor pinion gear using parts from the MKCad App. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
 
