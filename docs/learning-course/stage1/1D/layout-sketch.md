@@ -1,11 +1,11 @@
 # 1D: Design Methodology - Simple Swerve Drivebase
 
-## Drivetrain Master Sketches
+## Drivetrain Layout Sketches
 To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
 
 ### Instructions
 
-Start by **creating a new Onshape Document called `Stage 1D Robot`** and within it, **a new part studio called `Master Sketch`**. Then, use the `Origin Cube` Featurescript to create an origin cube. **Follow the instructions in the slides** to complete the master sketch.
+Start by **creating a new Onshape Document called `Stage 1D Robot`** and within it, **a new part studio called `Main Layout Sketch`**. Then, use the `Origin Cube` Featurescript to create an origin cube. **Follow the instructions in the slides** to complete the layout sketch.
 
 
 <!-- <center>**Drivetrain Layout Sketch Slides**</center> -->
@@ -108,6 +108,6 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   </div>
 </div>
 
-As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail master sketches. You will be practicing master sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
+As previously explained, this method of top-down modeling is extremely powerful as it enables you to capture the most important dimensions all in one place. However, you should be careful to not over-detail layout sketches. You will be practicing layout sketches all throughout Stage 2, and use them in Stage 3 alongside multi-document practices to design a whole robot.
 
 <br>

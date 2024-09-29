@@ -22,7 +22,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts1.webp" style="width:100%">
-      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Master Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
+      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Main Layout Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
     </figure>
   </div>
 
@@ -107,7 +107,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts11.webp" style="width:100%">
-      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern all of the holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
+      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
     </figure>
   </div>
 
@@ -137,7 +137,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   </div>
 </div>
 
-### Derive Feature
+### Derived Feature
 
 In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
 

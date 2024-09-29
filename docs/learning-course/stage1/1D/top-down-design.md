@@ -5,17 +5,17 @@ When designing a model in CAD, there are two high level strategies that can be e
 
 Top-down design offers a holistic approach, allowing for better system integration, consistency, and is more parametric. Bottom-up design offers flexibility and independence in designing individual parts. In FRC robot design, top-down approach is favored as system integration is often the most challenging aspect. Top-down ensures that the robot architecture dictates part design.
 
-### Master Sketch
+### Main Layout Sketch
 
-To achieve this, a ***master sketch*** is utilized. A master sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the master sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on master sketches can be found on the [Master Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Master Sketch Best Practices Page"){:target="_blank"} page.
+To achieve this, a ***Main layout sketch*** is utilized. The main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on layout sketches can be found on the [Layout Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Layout Sketch Best Practices Page"){:target="_blank"} page.
 
-???+ Example "Example Master Layout Sketch"
+???+ Example "Example Main Layout Sketch"
     <center><img src="\img\learning-course\stage1d\exampleMasterSketch.webp" style="width:60%"></center>
-    <center>*Example of robot master sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
+    <center>*Example of robot main layout sketches. Each mechanism has a number of layout sketches that capture the important details.*</center>
 
 
 ### Origin Placement and Origin Cube
-To fully utilize master sketch top-down design, we must choose a unified origin for all part studios. Utilizing the same origin as the master sketch across all part studios and assemblies is twofold:
+To fully utilize layout sketch top-down design, we must choose a unified origin for all part studios. Utilizing the same origin as the main layout sketch across all part studios and assemblies is twofold:
 
 1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
 2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"} and camera transformations more easily measured. 
