@@ -9,7 +9,7 @@ You will create a top level robot assembly to go with your drivebase. The mechan
 
 ### Instructions
 
-Start by, **creating a new assembly tab above the `Master Sketch` part studio** and name it **`Top Level Robot Assembly`**. **Follow the instructions in the slides** to complete the top level robot assembly.
+Start by, **creating a new assembly tab above the `Main Layout Sketch` part studio** and name it **`Top Level Robot Assembly`**. **Follow the instructions in the slides** to complete the top level robot assembly.
 
 <!-- <center>**Top Level Robot Assembly**</center> -->
 <!-- Slideshow container -->
