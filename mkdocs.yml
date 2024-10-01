@@ -357,7 +357,7 @@ nav:
       - KrayonCAD: resources/krayonCAD.md 
     
     - Educator's Guide:
-        - resources/educators-guide/introduction/index.md
+        - Overview: resources/educators-guide/introduction/overview.md
         - The Stages: resources/educators-guide/introduction/thestages.md
         - Preparing Yourself: resources/educators-guide/introduction/preparation.md
         - Stage 1:
