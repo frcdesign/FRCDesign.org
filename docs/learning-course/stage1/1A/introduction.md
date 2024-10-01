@@ -16,4 +16,17 @@ The structure of the courses includes some short videos and practice models, exp
 !!! Warning
     The Onshape learning courses are important as they will teach you the interface and form a basic foundation for CAD skills. Unless you have a significant amount of prior experience using Onshape, you should not skip the learning courses as the exercises assume that you have an understanding of CAD basics.
 
+
+### Split Screen
+The learning courses and exercises work better if you can see both the instructions and the Onshape document at the same time. Tabbing back and forth can lose a significant amount of time when going through the course. 
+
+The recommended way of going through the course is using two screens, but if this isn't possible, split screen is an option that works. The toolbars in Onshape will be shrunk, but learning **keyboard shortcuts** can minimize the time loss this might cause.
+
+<br>
+
+<figure>
+      <img src="/img/learning-course/stage1a/split-screen.webp" style="width:100%">
+      <figcaption>Example of split screen when doing the Onshape Learning Courses</figcaption>
+</figure>
+
 <br>
