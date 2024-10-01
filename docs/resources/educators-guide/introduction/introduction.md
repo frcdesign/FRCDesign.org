@@ -10,7 +10,7 @@ The course is built for self-paced learning, where students can progress at thei
 
 In an classroom-esque setting, students must still be allowed to go through the course at their own pace. Different people will have different starting points and different things they don't understand or struggle with. Going at a set pace may cause some students to be bored and others to struggle and fall behind. 
 
-The ideal setup is for educators to offload the curriculum (concepts, exercises, projects) to the website, freeing them up to give more individualized help and review to each student. This is what may be called a "blended learning" approach, where preferably meeting time or class time is given for students to do the work and for educators to review and catch mistakes as students are working through exercises and projects. This approach helps increase motivation and engagement, reduces gaps in knowledge, builds confidence, and helps make sure every student gets the support they need to learn. 
+The ideal setup is for educators to offload the curriculum (concepts, exercises, projects) to the website, freeing them up to give more individualized help and review to each student. This is what may be called a "self-paced blended learning" approach, where preferably meeting time or class time is given for students to do the work at their own pace and for educators to review and catch mistakes as students are working through exercises and projects. This approach helps increase motivation and engagement, reduces gaps in knowledge, builds confidence, and helps make sure every student gets the support they need to learn. 
 
 ### Course Content
 
