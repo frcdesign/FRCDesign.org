@@ -2,6 +2,7 @@
 
 ## Stage 0
 Setup (Estimated time: 30 minutes)
+
 The objectives of Stage 0 are to set up an Onshape account, install necessary Featurescripts and MKCad, and familiarize students with basic Onshape navigation. Verification for this stage involves ensuring students have completed setup and can access their Onshape account.
 
 ## Stage 1 Fundamentals (Estimated time: 8-16 hours)
@@ -13,9 +14,9 @@ The stage itself is divided into five modules:
 
 - 1B covers power transmissions
 
-- 1C introduces top-down design with simple layout sketches, and teaches a wide variety of FRC  Concepts through simple example projects.
+- 1C helps practice cad skills through a series of 8 exercises while introducing several new COTS parts
 
-- 1D goes into the overal structure of an FRC Robot's CAD model, from master sketching to the top     level assembly. These concepts are taught through the process of modeling a simple Swerve Drivebase
+- 1D introduces top-down design within the context of a robot and walks through starting a subsystem for a robot, creating a swerve drivetrain from main layout sketch to assembly. 
 
 - 1E teaches the general subsystem CAD workflow through adding onto the drivebase started in the prior module.
 
@@ -30,3 +31,5 @@ Stage 3 is currently under construction. This page will be updated when it is co
 
 ## Stage 4: Advanced Design
 Stage 4 is currently under construction. THis page will be updated when it is complte. Stage 4 represents ongoing learning and specialization based on student interests and team needs. There is no set curriculum for this stage, as it's meant to be flexible and adaptable.
+
+<br>
