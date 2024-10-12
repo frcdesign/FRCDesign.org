@@ -11,36 +11,18 @@
                 "isDefault": false
             },
             "isBackground": false,
-            "presentation": {
-                "echo": true,
-                "reveal": "silent",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            },
             "problemMatcher": []
         },
         {
-            "label": "open",
-            "detail": "Open the website",
+            "label": "serve",
+            "detail": "Serve the website for local development",
             "type": "shell",
             "command": "mkdocs serve",
-            "isBackground": false,
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "presentation": {
-                "echo": false,
-                "revealProblems": "never",
-                "reveal": "never",
-                "focus": false,
-                "panel": "new",
-                "showReuseMessage": true,
-                "clear": false,
-                "close": true
-            },
+            "isBackground": true,
             "problemMatcher": []
         }
     ]
