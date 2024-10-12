@@ -1,7 +1,7 @@
 from typing import cast
 import manim as mn
-from library.design import sketch
-from library.style import color
+from animations.common import sketch
+from animations.style import color
 
 
 # doesn't work as a class member...

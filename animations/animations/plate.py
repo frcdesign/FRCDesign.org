@@ -1,10 +1,10 @@
 """Animations which model basic plates."""
 
 import manim as mn
-from library.style import color, animation
-from library.math import vector
-from library.utils import title_sequence
-from library.design import plate, sketch, constraint
+from animations.style import color, animation
+from animations.geometry import vector
+from animations.utils import title_sequence
+from animations.common import plate, sketch, constraint
 
 inner_color: color.Color = color.Palette.GREEN
 boundary_color: color.Color = color.Palette.BLUE

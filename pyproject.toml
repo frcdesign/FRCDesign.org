@@ -22,10 +22,7 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["library"]
-
-[tool.setuptools.package-dir]
-"" = "animations"
+packages = ["animations"]
 
 [build-system]
 requires = ["setuptools", "setuptools-scm"]

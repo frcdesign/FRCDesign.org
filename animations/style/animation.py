@@ -4,9 +4,9 @@ Style elements intrinsically linked with animation, such as timing.
 
 from typing import override
 import manim as mn
-from library.utils.type_utils import ALMOST_ZERO
-from library.style import color
-from library.math import vector
+from animations.utils.type_utils import ALMOST_ZERO
+from animations.style import color
+from animations.geometry import vector
 
 END_DELAY = 2.5
 

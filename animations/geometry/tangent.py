@@ -1,5 +1,5 @@
 import math
-from library.math import vector
+from animations.geometry import vector
 
 
 def circle_to_circle_tangent(

@@ -9,9 +9,9 @@ import enum
 
 import manim as mn
 
-from library.math import vector
-from library.style import color, animation
-from library.utils.type_utils import not_none
+from animations.geometry import vector
+from animations.style import color, animation
+from animations.utils.type_utils import not_none
 
 
 class SketchState(color.Color, enum.Enum):

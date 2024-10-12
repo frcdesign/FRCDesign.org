@@ -2,9 +2,9 @@ from typing import Any
 
 import manim as mn
 
-from library.design import sketch, sketch_animation
-from library.math import vector, tangent
-from library.utils.type_utils import not_none
+from animations.common import sketch, sketch_animation
+from animations.geometry import vector, tangent
+from animations.utils.type_utils import not_none
 
 
 class ConstraintBase(mn.Succession):

@@ -1,7 +1,7 @@
 # Animations
 
 This folder contains Python code for specifying and creating animations using Manim Community.
-Specifying animations in Python allows for precise programmatic control over content, which is great for showcasing simple behaviors.
+Specifying animations in Python allows for precise programmatic control over content, which is great for showcasing simple behaviors and workflows.
 
 # Style
 
