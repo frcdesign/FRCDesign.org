@@ -22,4 +22,4 @@
 # install pip requirements
 # Use sudo to get access to filesystem
 # Note: Do not use --root-user-action to disable sudo warning since Github Actions's pip doesn't support it
-sudo pip install .
+pip install .

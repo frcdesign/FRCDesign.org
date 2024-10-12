@@ -15,7 +15,7 @@ jobs:
           python-version: "3.12-dev"
 
       - name: Download dependencies
-        run: pip install .
+        run: bash setup.sh
 
       - name: Build website
         env:
