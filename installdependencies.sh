@@ -1,5 +1,5 @@
 source venv/scripts/activate
-source animation_setup.sh
+source setup.sh
 
 # pip install mkdocs-material
 # pip install mkdocs-glightbox

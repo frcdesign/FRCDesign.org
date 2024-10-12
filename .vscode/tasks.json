@@ -2,13 +2,29 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "setup",
+            "detail": "Install dependencies",
+            "type": "shell",
+            "command": "bash setup.sh",
+            "isBackground": false,
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "build",
             "detail": "Build the website",
             "type": "shell",
-            "command": "make clean && make html",
+            "command": "bash build_animations.sh && mkdocs build",
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "isBackground": false,
             "presentation": {
@@ -25,8 +41,12 @@
             "label": "open",
             "detail": "Open the website",
             "type": "shell",
-            "command": "python -m http.server",
-            "isBackground": true,
+            "command": "mkdocs serve",
+            "isBackground": false,
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "presentation": {
                 "echo": false,
                 "revealProblems": "never",
@@ -36,22 +56,6 @@
                 "showReuseMessage": true,
                 "clear": false,
                 "close": true
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "clean",
-            "detail": "Delete generated files",
-            "type": "shell",
-            "command": "make clean",
-            "isBackground": false,
-            "presentation": {
-                "echo": true,
-                "reveal": "silent",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
             },
             "problemMatcher": []
         }

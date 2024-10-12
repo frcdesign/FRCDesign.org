@@ -21,13 +21,14 @@ import manim as mn
 
 sys.stdout = sys.__stdout__
 
-
-source_path = pathlib.Path("website")
+# The path to search for animations
+source_path = pathlib.Path("animations/animations")
 
 quality_folder_lookup = {"l": "480p15", "m": "720p30", "h": "1080p60"}
 
 exclude_folders = ["__pycache__", "media", "_style"]
 
+# A regex used to split animation names
 split_regex = "A-Z_/\\\\"
 
 
@@ -86,10 +87,12 @@ def move_output(quality: str, file_path: pathlib.Path, scene_name: str) -> None:
     path, sub_folder = os.path.split(file_path)
 
     # -p suppresses errors
-    subprocess.run("mkdir -p {}/media".format(path), shell=True)
+    # subprocess.run(f"mkdir -p {path}/media", shell=True)
+    subprocess.run(f"mkdir -p videos", shell=True)
 
     # for scene in scenes:
-    move_command = "mv media/videos/{sub_folder}/{quality_folder}/{scene_name}.mp4 {path}/media/.".format(
+    # {path}/media/.
+    move_command = "mv media/videos/{sub_folder}/{quality_folder}/{scene_name}.mp4 videos/.".format(
         sub_folder=sub_folder.removesuffix(".py"),
         scene_name=scene_name,
         quality_folder=quality_folder,
@@ -221,7 +224,7 @@ def main():
         move_output(quality, file_path, scene_name)
 
     if args.make:
-        subprocess.run("make html", shell=True)
+        subprocess.run("mkdocs build", shell=True)
 
 
 if __name__ == "__main__":

@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
@@ -11,22 +14,28 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.12
 
       - uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
 
+      - name: Build site
+        run: |
+          bash setup.sh
+          bash build_animations.sh
+
       - name: Install dependencies
         env: 
           INSIDERS: ${{ secrets.INSIDERS }}
+        # Shouldn't need to install everything again?
         run: |
           pip install git+https://${INSIDERS}@github.com/davidsdesignserver/mkdocs-material-insiders.git
           pip install mkdocs-glightbox

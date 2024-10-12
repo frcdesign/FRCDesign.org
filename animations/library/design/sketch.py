@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from typing import Callable, Self, Any, override
+from typing import Callable, Any
 from abc import ABC, abstractmethod
 import enum
 
@@ -36,7 +36,7 @@ class Base(mn.VMobject, ABC):
         raise NotImplementedError
 
     # @abstractmethod
-    # def set_state(self, state: SketchState) -> Self:
+    # def set_state(self, state: SketchState) -> Base:
     #     self.state = state
     #     return self
 
@@ -57,7 +57,7 @@ class Point(mn.Dot, Base):
         super().__init__()
         self.become(dot)
 
-    def follow(self, point_function: Callable[[], vector.Point2d]) -> Self:
+    def follow(self, point_function: Callable[[], vector.Point2d]) -> Point:
         """Adds an updater function which causes this point to track the specified input."""
 
         def updater(mobject: mn.Mobject):
@@ -69,7 +69,6 @@ class Point(mn.Dot, Base):
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self)
 
-    @override
     def click_target(self) -> mn.VMobject:
         return self
 
@@ -114,19 +113,15 @@ class Line(mn.VGroup, Base):
 
         self.line.add_updater(updater)
 
-    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.line, self.start, self.end)
 
-    @override
     def get_start(self) -> vector.Point2d:
         return self.start.get_center()
 
-    @override
     def get_end(self) -> vector.Point2d:
         return self.end.get_center()
 
-    @override
     def get_midpoint(self) -> vector.Point2d:
         return self.line.get_midpoint()
 
@@ -136,15 +131,14 @@ class Line(mn.VGroup, Base):
     def get_direction(self) -> vector.Direction2d:
         return vector.normalize(self.get_end() - self.get_start())
 
-    def move_start(self, point: vector.Point2d) -> Self:
+    def move_start(self, point: vector.Point2d) -> Line:
         self.start.move_to(point)
         return self
 
-    def move_end(self, point: vector.Point2d) -> Self:
+    def move_end(self, point: vector.Point2d) -> Line:
         self.end.move_to(point)
         return self
 
-    @override
     def click_target(self) -> mn.VMobject:
         return self.line
 
@@ -165,7 +159,7 @@ class Line(mn.VGroup, Base):
                 angle = -mn.PI - curr_angle
         return mn.Rotate(self, angle=angle, about_point=self.get_midpoint())  # type: ignore
 
-    def equal_constraint(self, target: Self) -> Any:
+    def equal_constraint(self, target: Line) -> Any:
         midpoint = target.get_midpoint()
         offset = target.get_direction() * (self.get_length() / 2)
         return target.animate.move_start(midpoint - offset).move_end(midpoint + offset)
@@ -185,7 +179,6 @@ class Line(mn.VGroup, Base):
             self.get_end() - target.get_center()
         )
 
-    @override
     @mn.override_animation(mn.Create)
     def _create_override(self) -> mn.Animation:
         end = self.get_end()
@@ -197,7 +190,6 @@ class Line(mn.VGroup, Base):
             )
         )
 
-    @override
     @mn.override_animation(mn.Uncreate)
     def _uncreate_override(self) -> mn.Animation:
         start = self.get_start() + vector.ZERO_LENGTH_VECTOR
@@ -215,14 +207,13 @@ class ArcBase(mn.VGroup, Base, ABC):
         self.middle = _make_point(point=self.arc.arc_center)
         super().__init__(self.middle)
 
-    @override
     def get_center(self) -> vector.Point2d:
         return self.middle.get_center()
 
     def get_radius(self) -> float:
         return self.arc.radius
 
-    def set_radius(self, radius: float) -> Self:
+    def set_radius(self, radius: float) -> ArcBase:
         self.arc.scale(radius / self.get_radius())
         self.arc.radius = radius
         return self
@@ -238,7 +229,6 @@ class ArcBase(mn.VGroup, Base, ABC):
         self.arc.radius = radius
         return not_none(animation)
 
-    @override
     def click_target(self) -> mn.VMobject:
         return self.arc
 
@@ -273,7 +263,6 @@ class Circle(ArcBase):
 
         self.arc.add_updater(updater)
 
-    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.circle, self.middle)
 
@@ -312,7 +301,6 @@ class Arc(ArcBase):
 
         self.arc.add_updater(updater)
 
-    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.arc, self.start, self.end, self.middle)
 

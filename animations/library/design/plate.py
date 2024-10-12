@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 import manim as mn
-from typing import Callable, Self
+from typing import Callable
 
 from library.style import color
 from library.math import tangent, vector
@@ -54,11 +56,11 @@ class PlateCircleFactory:
         self._inner_color: color.Color = color.FOREGROUND
         self._outer_color: color.Color = color.FOREGROUND
 
-    def set_inner_color(self, color: color.Color) -> Self:
+    def set_inner_color(self, color: color.Color) -> PlateCircleFactory:
         self._inner_color = color
         return self
 
-    def set_outer_color(self, color: color.Color) -> Self:
+    def set_outer_color(self, color: color.Color) -> PlateCircleFactory:
         self._outer_color = color
         return self
 

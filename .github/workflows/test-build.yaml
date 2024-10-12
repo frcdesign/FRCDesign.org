@@ -17,5 +17,5 @@ jobs:
       - name: Install and build
         run: |
           bash setup.sh
-          python3 -m build
-          make html
+          bash build_animations.sh
+          mkdocs build

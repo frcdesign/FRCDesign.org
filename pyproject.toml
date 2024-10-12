@@ -1,19 +1,33 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
-name = "spam-eggs"
-version = "1.0.0"
-dependencies = [
-  "httpx",
-  "gidgethub[httpx]>4.0.0",
-  "django>2.1; os_name != 'nt'",
-  "django>2.0; os_name == 'nt'",
-]
-requires-python = ">=3.10"
+name = "frc-design"
+version = "0.1.0"
 readme = "README.md"
-license = {file = "LICENSE.txt"}
+requires-python = ">=3.10"
 
-[project.scripts]
-spam-cli = "spam:main_cli"
+dependencies = [
+    # Website
+    "mkdocs-material",
+    "mkdocs-glightbox",
+    "mkdocs-git-revision-date-localized-plugin",
+    "pymdown-extensions",
+    "pyyaml",
+    "mkdocs-git-committers-plugin-2",
+    "mkdocs-material[imaging]",
+
+    # Animations
+    "manim==0.18.0", # Pin manim 0.18.0 since 0.18.1 breaks everything???
+    "numpy>=1.24.2",
+
+    # Animation build script
+    "thefuzz[speedup]>=0.19.0"
+]
+
+[tool.setuptools]
+packages = ["library"]
+
+[tool.setuptools.package-dir]
+"" = "animations"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
