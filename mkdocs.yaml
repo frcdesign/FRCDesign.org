@@ -363,13 +363,13 @@ plugins:
       shadow: true
   - search
   - group:
-      enabled: !ENV [CI, false]
+      enabled: !ENV CI
       plugins:
         - git-revision-date-localized:
             enable_creation_date: true
         - optimize
   - group:
-      enabled: !ENV [INSIDERS, false]
+      enabled: !ENV INSIDERS
       plugins:
         - meta
         - social:

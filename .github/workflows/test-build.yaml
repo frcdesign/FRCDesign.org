@@ -17,14 +17,11 @@ jobs:
       - name: Download dependencies
         run: bash setup.sh
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
-
       - name: Build animations
         run: bash build_animations.sh
 
       - name: Build website
+        env:
+          CI: false
+          INSIDERS: false
         run: mkdocs build
