@@ -12,10 +12,10 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.12-dev"
 
       - name: Download dependencies
-        run: bash setup.sh
+        run: pip install .
 
       - name: Build website
         env:
