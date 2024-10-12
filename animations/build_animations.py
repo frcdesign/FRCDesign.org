@@ -27,6 +27,8 @@ exclude_folders = ["__pycache__", "media", "_style"]
 # A regex used to split animation names
 split_regex = "A-Z_/\\\\"
 
+output_directory = "videos"
+
 
 def get_all_file_paths(base: pathlib.Path) -> list[pathlib.Path]:
     """Searches source_path for all potential files. Returns a mapping of file names to their paths."""
@@ -80,20 +82,16 @@ def move_output(quality: str, file_path: pathlib.Path, scene_name: str) -> None:
     """Moves produced files from media to the appropriate location in website."""
     quality_folder = quality_folder_lookup[quality]
 
-    path, sub_folder = os.path.split(file_path)
+    _path, sub_folder = os.path.split(file_path)
+    sub_folder = sub_folder.removesuffix(".py")
 
     # -p suppresses errors
     # subprocess.run(f"mkdir -p {path}/media", shell=True)
-    subprocess.run(f"mkdir -p videos", shell=True)
+    subprocess.run(f"mkdir -p {output_directory}", shell=True)
 
     # for scene in scenes:
     # {path}/media/.
-    move_command = "mv media/videos/{sub_folder}/{quality_folder}/{scene_name}.mp4 videos/.".format(
-        sub_folder=sub_folder.removesuffix(".py"),
-        scene_name=scene_name,
-        quality_folder=quality_folder,
-        path=path,
-    )
+    move_command = f"mv media/videos/{sub_folder}/{quality_folder}/{scene_name}.mp4 {output_directory}/."
     subprocess.run(move_command, shell=True)
 
 
@@ -178,9 +176,8 @@ def split_tokens(input: str) -> str:
 
 
 async def render_scene(quality: str, scene_name: str, file_path: pathlib.Path):
-    manim_command = f"manim render -v ERROR -q{quality} {file_path} {scene_name}"
-
     print(f"Rendering {file_path} - {scene_name}")
+    manim_command = f"manim render -v ERROR -q{quality} {file_path} {scene_name}"
     process = await asyncio.create_subprocess_shell(manim_command)
     await process.wait()
     move_output(quality, file_path, scene_name)
@@ -220,6 +217,7 @@ async def main():
         for scene_name, file_path in scenes.items():
             tg.create_task(render_scene(quality, scene_name, file_path))
     end = time.time()
+
     duration = round(end - start, 2)
     print(f"Built {len(scenes)} scenes in {duration} seconds")
 
