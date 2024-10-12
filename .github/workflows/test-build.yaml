@@ -12,8 +12,11 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12-dev'
-      
+          python-version: "3.12-dev"
+
+      - name: Download dependencies
+        run: bash setup.sh
+
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
@@ -21,12 +24,7 @@ jobs:
           path: .cache
 
       - name: Build animations
-        run: |
-          bash setup.sh
-          bash build_animations.sh
-      
+        run: bash build_animations.sh
+
       - name: Build website
-        env: 
-          CI: false
-          INSIDERS: false
         run: mkdocs build
