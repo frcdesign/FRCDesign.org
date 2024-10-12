@@ -1,0 +1,16 @@
+# Website
+mkdocs-material
+mkdocs-glightbox
+mkdocs-git-revision-date-localized-plugin
+pymdown-extensions 
+pyyaml
+mkdocs-git-committers-plugin-2
+mkdocs-material[imaging]
+
+# animation libraries
+setuptools
+manim>=0.18
+numpy>=1.24.2
+
+# build script
+thefuzz[speedup]>=0.19.0

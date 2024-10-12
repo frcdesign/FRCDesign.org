@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "detail": "Build the website",
+            "type": "shell",
+            "command": "make clean && make html",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": false,
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "open",
+            "detail": "Open the website",
+            "type": "shell",
+            "command": "python -m http.server",
+            "isBackground": true,
+            "presentation": {
+                "echo": false,
+                "revealProblems": "never",
+                "reveal": "never",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false,
+                "close": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "detail": "Delete generated files",
+            "type": "shell",
+            "command": "make clean",
+            "isBackground": false,
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
