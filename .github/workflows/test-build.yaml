@@ -28,4 +28,5 @@ jobs:
       - name: Build website
         env: 
           CI: false
-          run: mkdocs build
+          INSIDERS: false
+        run: mkdocs build

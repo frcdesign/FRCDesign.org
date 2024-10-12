@@ -14,6 +14,7 @@
 		"vscode": {
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
+				"redhat.vscode-yaml",
 				"yzhang.markdown-all-in-one",
 				"ms-python.black-formatter",
 				"ms-python.python"
