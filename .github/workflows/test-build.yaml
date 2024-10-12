@@ -14,14 +14,18 @@ jobs:
         with:
           python-version: '3.12-dev'
       
-      # - name: Cache dependencies
-      #   uses: actions/cache@v2
-      #   with:
-      #     key: ${{ github.ref }}
-      #     path: .cache
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
 
-      - name: Build
+      - name: Build animations
         run: |
           bash setup.sh
           bash build_animations.sh
-          mkdocs build
+      
+      - name: Build website
+        env: 
+          CI: false
+          run: mkdocs build
