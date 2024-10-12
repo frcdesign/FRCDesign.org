@@ -20,7 +20,17 @@ When you start on your work, you may choose to either:
 2. Work on an alternate platform such as Google Docs or Notion and let an internal contributor port it over to the website when you're done
 
 ## Setting up Github and VS Code For Contributing
-### Install Prerequisites
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/). This should not be confused with Visual Studio, which has a Purple logo and is a different Microsoft product.
+2. Download [Docker Desktop](https://www.docker.com/) and open it.
+3. Fork this repository in Github.
+4. Clone your fork of this repository onto your local machine and open it in VSCode.
+5. Open the Command Palette by pressing `Ctrl + Shift + P`.
+6. Search for and select `Dev Containers: Launch in Container`. 
+7. VSCode should re-open inside a dev container. Note this may take a few minutes the first time you do it, but will be much faster on subsequent loads.
+8. Launch a local version of the website by running the `development` task or by pressing `Ctrl + Shift + B`, then opening [localhost:8000](http://localhost:8000/) in your browser.
+
+<!-- ### Install Prerequisites
 Make sure to download the correct versions for the OS that you have (Windows, Mac, or Linux).
 
 Windows installers will almost always need to be the 64-bit version if there is a distinction.
@@ -43,7 +53,7 @@ Windows installers will almost always need to be the 64-bit version if there is 
         - If it doesn't take you to the authorization page after signing up, go back to the GitHub Desktop application, press "Cancel", the select "Sign in to GitHub.com" again
     - Allow your browser to open GitHub Desktop
     - Click "Finish"
-    
+     -->
 
 ### Steps to Start Writing Contributions
 
@@ -88,7 +98,7 @@ Windows installers will almost always need to be the 64-bit version if there is 
 To recap the contribution steps, do the combination of creating and publishing a branch, making changes and commits, updating from main, pushing commits, and creating a pull request.
 
 
-### How to Get The Local Preview of the Website Running
+<!-- ### How to Get The Local Preview of the Website Running
 You can get a local hosted version of the website to have a live preview of the site while editing.
 
 1. Open the repository in VS Code (doesn't matter which branch)
@@ -103,4 +113,4 @@ Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to 
 
 Tip: After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
 
-Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems
+Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems -->

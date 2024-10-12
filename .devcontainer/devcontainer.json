@@ -8,7 +8,7 @@
 			"WORKSPACE": "${containerWorkspaceFolder}"
 		}
 	},
-	"postCreateCommand": "bash setup.sh",
+	"postCreateCommand": "bash setup.sh && bash build_animations.sh",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {

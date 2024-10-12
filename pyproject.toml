@@ -7,12 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     # Website
     "mkdocs-material",
+    "mkdocs-material[imaging]",
     "mkdocs-glightbox",
     "mkdocs-git-revision-date-localized-plugin",
     "pymdown-extensions",
     "pyyaml",
     "mkdocs-git-committers-plugin-2",
-    "mkdocs-material[imaging]",
 
     # Animations
     "manim>=0.18.1",

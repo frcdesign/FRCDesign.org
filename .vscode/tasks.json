@@ -2,6 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "develop",
+            "detail": "Build and launch a version of the website suitable for local development",
+            "type": "shell",
+            "command": "mkdocs serve",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
             "label": "build",
             "detail": "Build the website",
             "type": "shell",
@@ -11,18 +23,14 @@
                 "isDefault": false
             },
             "isBackground": false,
-            "problemMatcher": []
-        },
-        {
-            "label": "serve",
-            "detail": "Serve the website for local development",
-            "type": "shell",
-            "command": "mkdocs serve",
-            "group": {
-                "kind": "build",
-                "isDefault": true
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
             },
-            "isBackground": true,
             "problemMatcher": []
         }
     ]
