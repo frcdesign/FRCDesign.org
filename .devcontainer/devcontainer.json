@@ -18,7 +18,10 @@
 				"yzhang.markdown-all-in-one",
 				"ms-python.black-formatter",
 				"ms-python.python"
-			]
+			],
+			"settings": {
+				"python.defaultInterpreterPath": "/usr/local/bin/python"
+			}
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

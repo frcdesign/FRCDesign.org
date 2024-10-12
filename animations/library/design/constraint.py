@@ -11,7 +11,7 @@ class ConstraintBase(mn.Succession):
     def __init__(self, animation: mn.Animation | Any, *mobjects: sketch.Base) -> None:
         super().__init__(
             *[not_none(sketch_animation.Click(mobject)) for mobject in mobjects],
-            animation
+            animation,
         )
 
 
@@ -73,7 +73,7 @@ class Tangent(ConstraintBase):
             ) * (-1 if reverse else 1)
 
             animation = close.animate(
-                path_arc=angle, path_arg_centers=[target.get_center()]
+                path_arc=angle, path_arg_centers=[target.get_center()]  # type: ignore
             ).move_to(tangent_point)
 
         super().__init__(animation, base, target)

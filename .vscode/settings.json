@@ -18,8 +18,7 @@
     ],
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": true,
-    "python.defaultInterpreterPath": "/usr/bin/python",
-    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },

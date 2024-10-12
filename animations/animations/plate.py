@@ -1,4 +1,5 @@
 """Animations which model basic plates."""
+
 import manim as mn
 from library.style import color, animation
 from library.math import vector
@@ -18,16 +19,14 @@ title: title_sequence.TitleSequence = title_sequence.TitleSequence(
 
 class IntakePlateScene(mn.Scene):
     def setup(self):
-        small_base: plate.PlateCircleGenerator = plate_factory.make_generator(
-            0.15, 0.2)
-        medium_base: plate.PlateCircleGenerator = plate_factory.make_generator(
-            0.4, 0.2)
+        small_base: plate.PlateCircleGenerator = plate_factory.make_generator(0.15, 0.2)
+        medium_base: plate.PlateCircleGenerator = plate_factory.make_generator(0.4, 0.2)
 
         front_hole = vector.point_2d(-4, -3)
         middle_hole = vector.point_2d(-1.5, 0.25)
         back_hole = vector.point_2d(2.5, 1.5)
 
-        points: list[plate.PlateCircle] = [
+        circles: list[plate.PlateCircle] = [
             medium_base(front_hole),
             medium_base(middle_hole),
             medium_base(back_hole),
@@ -37,8 +36,7 @@ class IntakePlateScene(mn.Scene):
             small_base((front_hole + middle_hole) / 2),
         ]
         boundary_order: list[int] = [1, 3, 4, 0]
-        self._plate_group: plate.PlateGroup = plate.PlateGroup(
-            points, boundary_order)
+        self._plate_group: plate.PlateGroup = plate.PlateGroup(circles, boundary_order)
         title.reset()
 
     def construct(self):
@@ -51,16 +49,15 @@ class IntakePlateScene(mn.Scene):
         self.play(title.next("Connect boundary"))
         self.play(self._plate_group.draw_boundary())
 
-        # self.play(title.next("Trim", color=boundary_color))
-        # self.play(plate_group.trim(), run_time=5)
+        self.play(title.next("Trim circles"))
+        self.play(self._plate_group.trim_boundary())
 
         self.wait(animation.END_DELAY)
 
 
 class BoundaryRedrawScene(mn.Scene):
     def setup(self):
-        generator: plate.PlateCircleGenerator = plate_factory.make_generator(
-            1.75, 0.75)
+        generator: plate.PlateCircleGenerator = plate_factory.make_generator(1.75, 0.75)
         self._left: plate.PlateCircle = generator(vector.point_2d(-6, -2))
         self._right: plate.PlateCircle = generator(vector.point_2d(6, -2))
         self._middle: plate.PlateCircle = plate_factory.make(
@@ -85,10 +82,8 @@ class BoundaryRedrawScene(mn.Scene):
         self.play(title.next("Redraw boundary"))
         self.play(mn.Uncreate(self._line))
         self.wait(0.5)
-        self.play(mn.Create(plate.plate_circle_tangent_line(
-            self._left, self._middle)))
-        self.play(mn.Create(plate.plate_circle_tangent_line(
-            self._middle, self._right)))
+        self.play(mn.Create(plate.plate_circle_tangent_line(self._left, self._middle)))
+        self.play(mn.Create(plate.plate_circle_tangent_line(self._middle, self._right)))
 
         self.wait(animation.END_DELAY)
 
@@ -98,19 +93,16 @@ class BoundaryConstraintScene(mn.Scene):
         generator = plate_factory.make_generator(1.75, 0.75)
         self._left: plate.PlateCircle = generator(vector.point_2d(-6, -2))
         self._right: plate.PlateCircle = generator(vector.point_2d(6, -2))
-        self.add_foreground_mobjects(
-            self._left.get_group(), self._right.get_group())
+        self.add(self._left.get_group(), self._right.get_group())
 
-        self._tangent_points: tuple[
-            vector.Point2d, vector.Point2d
-        ] = plate.plate_circle_tangent_points(self._left, self._right)
+        self._tangent_points: tuple[vector.Point2d, vector.Point2d] = (
+            plate.plate_circle_tangent_points(self._left, self._right)
+        )
 
-        left_start_point = self._tangent_points[0] + \
-            vector.point_2d(1.75, 0.75)
+        left_start_point = self._tangent_points[0] + vector.point_2d(1.75, 0.75)
         right_start_point = self._tangent_points[1] + vector.point_2d(-2, 0.5)
 
-        self._line = sketch.make_line(
-            left_start_point, right_start_point)
+        self._line = sketch.make_line(left_start_point, right_start_point)
         title.reset()
 
     def construct(self):
@@ -124,8 +116,7 @@ class BoundaryConstraintScene(mn.Scene):
         self.play(title.next("Add tangent constraints"))
         self.play(constraint.Tangent(self._line, self._left, rotate=True))
         self.play(
-            constraint.Tangent(self._line, self._right,
-                               rotate=True, reverse=True)
+            constraint.Tangent(self._line, self._right, rotate=True, reverse=True)
         )
 
         self.wait(animation.END_DELAY)

@@ -1,6 +1,7 @@
 """
     A collection of semantic aliases for type hinting used throughout the library.
 """
+
 from typing import cast, TypeAlias, Any
 
 import manim as mn
@@ -73,13 +74,9 @@ def direction_2d(x: float, y: float) -> Direction2d:
 #     return normalize(np.array([x, y, z]))
 
 
-def angle_between_vectors(x1: Vector, x2: Vector) -> Angle:
-    return mn.angle_between_vectors(x1, x2)
-
-
 def angle_between_points(start: Point, end: Point, center: Point) -> Angle:
-    return angle_between_vectors(start - center, end - center)
+    return mn.angle_between_vectors(start - center, end - center)
 
 
-ZERO_LENGTH: float = 0.00001
+ZERO_LENGTH: float = 0.000001
 ZERO_LENGTH_VECTOR: Vector2d = vector_2d(ZERO_LENGTH, ZERO_LENGTH)

@@ -63,7 +63,7 @@ class Point(mn.Dot, Base):
         def updater(mobject: mn.Mobject):
             mobject.move_to(point_function())
 
-        self.add_updater(updater, call_updater=True)
+        self.add_updater(updater)
         return self
 
     @override
@@ -113,13 +113,9 @@ class Line(mn.VGroup, Base):
         super().__init__(self.start, self.end)
 
         def updater(mobject: mn.Mobject) -> None:
-            mn.always_redraw(
-                lambda: mobject.put_start_and_end_on(
-                    self.start.get_center(), self.end.get_center()
-                )
-            )
+            mobject.put_start_and_end_on(self.start.get_center(), self.end.get_center())
 
-        self.line.add_updater(updater, call_updater=True)
+        self.line.add_updater(updater)
 
     @override
     def get_group(self) -> mn.VGroup:
@@ -167,7 +163,6 @@ class Line(mn.VGroup, Base):
                 angle = -curr_angle
             else:
                 angle = -mn.PI - curr_angle
-        # type: ignore
         return mn.Rotate(self, angle=angle, about_point=self.get_midpoint())
 
     def equal_constraint(self, target: Line) -> Any:
@@ -176,9 +171,7 @@ class Line(mn.VGroup, Base):
         return target.animate.move_start(midpoint - offset).move_end(midpoint + offset)
 
     def get_tangent_translation(self, target: ArcBase) -> vector.Vector2d:
-        projection: vector.Point2d = self.line.get_projection(
-            target.get_center()
-        )  # type: ignore
+        projection: vector.Point2d = self.line.get_projection(target.get_center())
         return vector.direction(projection, target.get_center()) * (
             vector.norm(target.get_center() - projection) - target.get_radius()
         )
@@ -196,6 +189,7 @@ class Line(mn.VGroup, Base):
     def _create_override(self) -> mn.Animation:
         end = self.get_end()
         self.move_end(self.get_start() + vector.ZERO_LENGTH_VECTOR)
+        # Has to be a mn.Succession with self.animate called second
         return mn.Succession(
             animation.Add(self.line),
             self.animate(introducer=True).move_end(end),  # type: ignore
@@ -237,7 +231,7 @@ class ArcBase(mn.VGroup, Base, ABC):
             **anim_args,
         )
         self.arc.radius = radius
-        return not_none(animation)
+        return animation
 
     @override
     def click_target(self) -> mn.VMobject:
@@ -280,20 +274,16 @@ class Circle(ArcBase):
 
     @mn.override_animation(mn.Create)
     def _create_override(self) -> mn.Animation:
-        return not_none(
-            mn.Succession(
-                animation.Add(self.middle),
-                mn.GrowFromCenter(self.arc),
-            )
+        return mn.Succession(
+            animation.Add(self.middle),
+            mn.GrowFromCenter(self.arc),
         )
 
     @mn.override_animation(mn.Uncreate)
     def _uncreate_override(self) -> mn.Animation:
-        return not_none(
-            mn.Succession(
-                mn.GrowFromCenter(self.arc, reverse_rate_function=True, remover=True),
-                animation.Remove(self.middle),
-            )
+        return mn.Succession(
+            mn.GrowFromCenter(self.arc, reverse_rate_function=True, remover=True),
+            animation.Remove(self.middle),
         )
 
 
@@ -319,20 +309,16 @@ class Arc(ArcBase):
 
     @mn.override_animation(mn.Create)
     def _create_override(self) -> mn.Animation:
-        return not_none(
-            mn.Succession(
-                animation.Add(self.start, self.end, self.middle),
-                mn.GrowFromCenter(self.arc),
-            )
+        return mn.Succession(
+            animation.Add(self.start, self.end, self.middle),
+            mn.GrowFromCenter(self.arc),
         )
 
     @mn.override_animation(mn.Uncreate)
     def _uncreate_override(self) -> mn.Animation:
-        return not_none(
-            mn.Succession(
-                mn.GrowFromCenter(self.arc, reverse_rate_function=True, remover=True),
-                animation.Remove(self.start, self.end, self.middle),
-            )
+        return mn.Succession(
+            mn.GrowFromCenter(self.arc, reverse_rate_function=True, remover=True),
+            animation.Remove(self.start, self.end, self.middle),
         )
 
 
@@ -353,10 +339,10 @@ def make_arc(
 ) -> Arc:
     return Arc(
         mn.Arc(
-            radius,
-            start_angle=start_angle,  # type: ignore
+            start_angle=start_angle,
             angle=angle,
-            color=SketchState.NORMAL,
             arc_center=center,
+            radius=radius,
+            color=SketchState.NORMAL,
         )
     )

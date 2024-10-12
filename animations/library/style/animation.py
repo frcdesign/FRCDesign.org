@@ -2,8 +2,9 @@
 Style elements intrinsically linked with animation, such as timing.
 """
 
-from library.utils.type_utils import ALMOST_ZERO
+from typing import override
 import manim as mn
+from library.utils.type_utils import ALMOST_ZERO
 from library.style import color
 from library.math import vector
 
@@ -47,12 +48,35 @@ class ShrinkToCenter(ShrinkToPoint):
 
 
 class Add(mn.Animation):
-    def __init__(self, *mobjects: mn.VMobject):
-        super().__init__(mn.VGroup(*mobjects), introducer=True, run_time=ALMOST_ZERO)
+    def __init__(self, *mobjects: mn.VMobject, almost_zero: bool = False):
+        super().__init__(
+            mn.VGroup(*mobjects),
+            introducer=True,
+            run_time=(ALMOST_ZERO if almost_zero else 0),
+        )
+
+    # Override begin to allow run_time of 0
+    @override
+    def begin(self) -> None:
+        self.starting_mobject = self.create_starting_mobject()
+        if self.suspend_mobject_updating:
+            self.mobject.suspend_updating()
+        self.interpolate(0)
 
 
 class Remove(mn.Animation):
-    def __init__(self, *mobjects: mn.VMobject):
+    def __init__(self, *mobjects: mn.VMobject, almost_zero: bool = False):
+        # Has to also be an introducer to allow updaters to run for some reason
         super().__init__(
-            mn.VGroup(*mobjects), introducer=True, remover=True, run_time=ALMOST_ZERO
+            mn.VGroup(*mobjects),
+            introducer=True,
+            remover=True,
+            run_time=(ALMOST_ZERO if almost_zero else 0),
         )
+
+    @override
+    def begin(self) -> None:
+        self.starting_mobject = self.create_starting_mobject()
+        if self.suspend_mobject_updating:
+            self.mobject.suspend_updating()
+        self.interpolate(0)
