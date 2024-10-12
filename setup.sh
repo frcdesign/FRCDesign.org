@@ -20,5 +20,6 @@ sudo apt-get install -y libtiff5-dev libjpeg62-turbo-dev libopenjp2-7-dev zlib1g
     libharfbuzz-dev libfribidi-dev libxcb1-dev
 
 # install pip requirements
-# Use sudo (and --root-user-action) to get access to filesystem
-sudo pip install --root-user-action ignore --editable .
+# Use sudo to get access to filesystem
+# Note: Do not use --root-user-action to disable sudo warning since Github Actions's pip doesn't support it
+sudo pip install --editable .
