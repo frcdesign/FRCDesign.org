@@ -17,7 +17,7 @@
             "label": "build",
             "detail": "Build the website",
             "type": "shell",
-            "command": "bash build_animations.sh && mkdocs build",
+            "command": "mkdocs build",
             "group": {
                 "kind": "build",
                 "isDefault": false

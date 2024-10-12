@@ -11,18 +11,11 @@ dependencies = [
     "mkdocs-git-revision-date-localized-plugin",
     "pymdown-extensions",
     "pyyaml",
-    "mkdocs-git-committers-plugin-2",
-
-    # Animations
-    "manim>=0.18.1",
-    "numpy>=1.24.2",
-
-    # Animation build script
-    "thefuzz[speedup]>=0.19.0"
+    "mkdocs-git-committers-plugin-2"
 ]
 
 [tool.setuptools]
-packages = ["animations"]
+packages = []
 
 [build-system]
 requires = ["setuptools", "setuptools-scm"]

@@ -30,7 +30,6 @@ jobs:
       - name: Build site
         run: |
           bash setup.sh
-          bash build_animations.sh --production
 
       - name: Install dependencies
         env:
