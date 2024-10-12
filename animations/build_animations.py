@@ -1,7 +1,7 @@
 """
 A build script which can be used to compile animations and build the website.
 
-Fuzzy matching is used to enable quickly specifying targets in the website folder.
+Fuzzy matching is used to enable quickly specifying targets in the animations sub-folder.
 """
 
 import inspect
