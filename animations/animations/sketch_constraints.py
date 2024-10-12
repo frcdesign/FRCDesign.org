@@ -49,9 +49,7 @@ class CoincidentLineScene(sketch_scene.Scene):
 
         self.introduce(fixed_line, start_line)
 
-        animation = not_none(
-            mn.Rotate(start_line, -angle, about_point=fixed_line.get_end())
-        )
+        animation = mn.Rotate(start_line, -angle, about_point=fixed_line.get_end())
         self.run_group(sketch_animation.make(animation, start_line, fixed_line))
 
 

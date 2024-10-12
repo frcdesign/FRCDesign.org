@@ -2,7 +2,7 @@
 name = "frc-design"
 version = "0.1.0"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 
 dependencies = [
     # Website
@@ -15,7 +15,7 @@ dependencies = [
     "mkdocs-material[imaging]",
 
     # Animations
-    "manim==0.18.0", # Pin manim 0.18.0 since 0.18.1 breaks everything???
+    "manim>=0.18.1",
     "numpy>=1.24.2",
 
     # Animation build script

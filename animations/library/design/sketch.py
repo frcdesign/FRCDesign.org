@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from typing import Callable, Any
+from typing import Callable, Any, override
 from abc import ABC, abstractmethod
 import enum
 
@@ -66,9 +66,11 @@ class Point(mn.Dot, Base):
         self.add_updater(updater, call_updater=True)
         return self
 
+    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self)
 
+    @override
     def click_target(self) -> mn.VMobject:
         return self
 
@@ -86,7 +88,9 @@ class Point(mn.Dot, Base):
         elif points is None:
             raise ValueError("Expected a line or two points.")
 
-        return self.animate.move_to((points[0].get_center() + points[1].get_center()) / 2)  # type: ignore
+        return self.animate.move_to(
+            (points[0].get_center() + points[1].get_center()) / 2  # type: ignore
+        )
 
     def align_constraint(self, target: Point, type: AlignType) -> mn.Animation:
         if type == AlignType.VERTICAL:
@@ -109,12 +113,21 @@ class Line(mn.VGroup, Base):
         super().__init__(self.start, self.end)
 
         def updater(mobject: mn.Mobject) -> None:
-            mobject.put_start_and_end_on(self.start.get_center(), self.end.get_center())
+            mn.always_redraw(
+                lambda: mobject.put_start_and_end_on(
+                    self.start.get_center(), self.end.get_center()
+                )
+            )
 
-        self.line.add_updater(updater)
+        self.line.add_updater(updater, call_updater=True)
 
+    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.line, self.start, self.end)
+
+    @override
+    def click_target(self) -> mn.VMobject:
+        return self.line
 
     def get_start(self) -> vector.Point2d:
         return self.start.get_center()
@@ -139,9 +152,6 @@ class Line(mn.VGroup, Base):
         self.end.move_to(point)
         return self
 
-    def click_target(self) -> mn.VMobject:
-        return self.line
-
     def coincident_target(self, point: vector.Point2d) -> vector.Point2d:
         return self.line.get_projection(point)
 
@@ -157,7 +167,8 @@ class Line(mn.VGroup, Base):
                 angle = -curr_angle
             else:
                 angle = -mn.PI - curr_angle
-        return mn.Rotate(self, angle=angle, about_point=self.get_midpoint())  # type: ignore
+        # type: ignore
+        return mn.Rotate(self, angle=angle, about_point=self.get_midpoint())
 
     def equal_constraint(self, target: Line) -> Any:
         midpoint = target.get_midpoint()
@@ -165,7 +176,9 @@ class Line(mn.VGroup, Base):
         return target.animate.move_start(midpoint - offset).move_end(midpoint + offset)
 
     def get_tangent_translation(self, target: ArcBase) -> vector.Vector2d:
-        projection: vector.Point2d = self.line.get_projection(target.get_center())  # type: ignore
+        projection: vector.Point2d = self.line.get_projection(
+            target.get_center()
+        )  # type: ignore
         return vector.direction(projection, target.get_center()) * (
             vector.norm(target.get_center() - projection) - target.get_radius()
         )
@@ -183,21 +196,17 @@ class Line(mn.VGroup, Base):
     def _create_override(self) -> mn.Animation:
         end = self.get_end()
         self.move_end(self.get_start() + vector.ZERO_LENGTH_VECTOR)
-        return not_none(
-            mn.Succession(
-                animation.Add(self.line),
-                self.animate(introducer=True).move_end(end),
-            )
+        return mn.Succession(
+            animation.Add(self.line),
+            self.animate(introducer=True).move_end(end),  # type: ignore
         )
 
     @mn.override_animation(mn.Uncreate)
     def _uncreate_override(self) -> mn.Animation:
         start = self.get_start() + vector.ZERO_LENGTH_VECTOR
-        return not_none(
-            mn.Succession(
-                self.animate(remover=True).move_end(start),
-                animation.Remove(self.line),
-            )
+        return mn.Succession(
+            self.animate(remover=True).move_end(start),  # type: ignore
+            animation.Remove(self.line),
         )
 
 
@@ -207,6 +216,7 @@ class ArcBase(mn.VGroup, Base, ABC):
         self.middle = _make_point(point=self.arc.arc_center)
         super().__init__(self.middle)
 
+    @override
     def get_center(self) -> vector.Point2d:
         return self.middle.get_center()
 
@@ -229,6 +239,7 @@ class ArcBase(mn.VGroup, Base, ABC):
         self.arc.radius = radius
         return not_none(animation)
 
+    @override
     def click_target(self) -> mn.VMobject:
         return self.arc
 
@@ -263,6 +274,7 @@ class Circle(ArcBase):
 
         self.arc.add_updater(updater)
 
+    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.circle, self.middle)
 
@@ -301,6 +313,7 @@ class Arc(ArcBase):
 
         self.arc.add_updater(updater)
 
+    @override
     def get_group(self) -> mn.VGroup:
         return mn.VGroup(self.arc, self.start, self.end, self.middle)
 

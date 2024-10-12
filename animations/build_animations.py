@@ -8,18 +8,14 @@ import inspect
 import os
 import subprocess
 import argparse
-import sys
+import time
 import pathlib
 import importlib
 import re
+import asyncio
 
 from thefuzz import process, fuzz
-
-# prevent manim from printing
-sys.stdout = open(os.devnull, "w")
 import manim as mn
-
-sys.stdout = sys.__stdout__
 
 # The path to search for animations
 source_path = pathlib.Path("animations/animations")
@@ -181,7 +177,16 @@ def split_tokens(input: str) -> str:
     return " ".join(matches)
 
 
-def main():
+async def render_scene(quality: str, scene_name: str, file_path: pathlib.Path):
+    manim_command = f"manim render -v ERROR -q{quality} {file_path} {scene_name}"
+
+    print(f"Rendering {file_path} - {scene_name}")
+    process = await asyncio.create_subprocess_shell(manim_command)
+    await process.wait()
+    move_output(quality, file_path, scene_name)
+
+
+async def main():
     args = get_arg_parser().parse_args()
 
     quality = "m" if args.production else "l"
@@ -210,22 +215,17 @@ def main():
         results = fuzzy_search(list(scenes.keys()), args.scene)
         scenes = dict([(k, v) for k, v in scenes.items() if k in results])
 
-    for scene_name, file_path in scenes.items():
-        manim_command = (
-            "manim render -v ERROR -q{quality} {file_path} {scene_names}".format(
-                quality=quality,
-                file_path=file_path,
-                scene_names=scene_name,  # " ".join(scene_names),
-            )
-        )
-
-        print("Rendering {} - {}".format(file_path, scene_name))
-        subprocess.run(manim_command, shell=True)
-        move_output(quality, file_path, scene_name)
+    start = time.time()
+    async with asyncio.TaskGroup() as tg:
+        for scene_name, file_path in scenes.items():
+            tg.create_task(render_scene(quality, scene_name, file_path))
+    end = time.time()
+    duration = round(end - start, 2)
+    print(f"Built {len(scenes)} scenes in {duration} seconds")
 
     if args.make:
         subprocess.run("mkdocs build", shell=True)
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

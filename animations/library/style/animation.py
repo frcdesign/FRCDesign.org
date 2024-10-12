@@ -1,11 +1,14 @@
 """
 Style elements intrinsically linked with animation, such as timing.
 """
+
+from library.utils.type_utils import ALMOST_ZERO
 import manim as mn
 from library.style import color
 from library.math import vector
 
 END_DELAY = 2.5
+
 
 class ShrinkToPoint(mn.Transform):
     """Removes a mobject by shrinking it to point."""
@@ -31,6 +34,7 @@ class ShrinkToPoint(mn.Transform):
             start.set_color(self.point_color)  # type: ignore
         return start
 
+
 class ShrinkToCenter(ShrinkToPoint):
     """Remove a mobject by shrinking it to its center."""
 
@@ -44,11 +48,11 @@ class ShrinkToCenter(ShrinkToPoint):
 
 class Add(mn.Animation):
     def __init__(self, *mobjects: mn.VMobject):
-        super().__init__(mn.VGroup(*mobjects), introducer=True, run_time=0)
+        super().__init__(mn.VGroup(*mobjects), introducer=True, run_time=ALMOST_ZERO)
 
 
 class Remove(mn.Animation):
     def __init__(self, *mobjects: mn.VMobject):
         super().__init__(
-            mn.VGroup(*mobjects), introducer=True, remover=True, run_time=0
+            mn.VGroup(*mobjects), introducer=True, remover=True, run_time=ALMOST_ZERO
         )

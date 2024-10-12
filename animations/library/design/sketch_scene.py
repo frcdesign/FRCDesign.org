@@ -21,7 +21,8 @@ class Scene(mn.Scene, ABC):
         The mobjects are also scheduled for removal at the end of the scene.
         """
         self._static_mobjects.extend(mobjects)
-        self.play(mn.AnimationGroup(*[mn.Create(mobject) for mobject in mobjects]))
+        self.play(mn.AnimationGroup(
+            *[mn.Create(mobject) for mobject in mobjects]))
         self.wait(self.CONSTRAINT_DELAY)
 
     def run_group(self, *animation: mn.Animation | Any):
