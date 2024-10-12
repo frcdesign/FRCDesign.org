@@ -23,12 +23,15 @@ When you start on your work, you may choose to either:
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/). This should not be confused with Visual Studio, which has a Purple logo and is a different Microsoft product.
 2. Download [Docker Desktop](https://www.docker.com/) and open it.
-3. Fork this repository in Github.
-4. Clone your fork of this repository onto your local machine and open it in VSCode.
-5. Open the Command Palette by pressing `Ctrl + Shift + P`.
-6. Search for and select `Dev Containers: Launch in Container`. 
+3. [Fork this repository in Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui).
+4. [In VSCode, clone your fork](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=command-palette).
+5. Open the Command Palette by pressing `Ctrl + Shift + P`, then search for and select `Dev Containers: Launch in Container`. 
 7. VSCode should re-open inside a dev container. Note this may take a few minutes the first time you do it, but will be much faster on subsequent loads.
-8. Launch a local version of the website by running the `development` task or by pressing `Ctrl + Shift + B`, then opening [localhost:8000](http://localhost:8000/) in your browser.
+8. Launch a local version of the website by running the `development` VSCode task or by pressing `Ctrl + Shift + B`, then opening [localhost:8000](http://localhost:8000/) in your browser.
+9. Make edits to files in `/docs` as you see fit. Any changes you make should be reflected in the version of the website running on your browser.
+
+See the next section for more information on contributing the repository and opening it in VSCode.
+<!-- 9. Make edits to pages in `docs/`. After saving, any changes you make should automatically show up on the website running in localhost on your browser. -->
 
 <!-- ### Install Prerequisites
 Make sure to download the correct versions for the OS that you have (Windows, Mac, or Linux).
