@@ -1,8 +1,20 @@
 {
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.eol": "\n",
     "cSpell.words": [
         "bellypan",
         "Bellypans",
         "Drivebase",
-        "leaderboards"
-    ]
+        "leaderboards",
+        "Uncreate"
+    ],
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
 }

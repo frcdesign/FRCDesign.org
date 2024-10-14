@@ -1,0 +1,24 @@
+name: test-build
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12-dev"
+
+      - name: Download dependencies
+        run: bash setup.sh
+
+      - name: Build website
+        env:
+          CI: false
+          INSIDERS: false
+        run: mkdocs build

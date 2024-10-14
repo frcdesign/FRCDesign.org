@@ -1,0 +1,48 @@
+name: deploy-website
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12-dev"
+          cache: "pip"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Build site
+        run: |
+          bash setup.sh
+
+      - name: Install dependencies
+        env:
+          INSIDERS: ${{ secrets.INSIDERS }}
+        run: |
+          pip install git+https://${INSIDERS}@github.com/davidsdesignserver/mkdocs-material-insiders.git
+          sudo apt-get install pngquant
+
+      - name: Build and Deploy MkDocs
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
+          CI: true
+          INSIDERS: true
+        run: |
+          mkdocs build
+          mkdocs gh-deploy --force

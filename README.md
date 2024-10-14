@@ -20,7 +20,21 @@ When you start on your work, you may choose to either:
 2. Work on an alternate platform such as Google Docs or Notion and let an internal contributor port it over to the website when you're done
 
 ## Setting up Github and VS Code For Contributing
-### Install Prerequisites
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/). This should not be confused with Visual Studio, which has a Purple logo and is a different Microsoft product.
+2.Install the "Dev Containers", and "Docker" extensions in VS Code. This can be done by clicking on the extensions icon on the left side of the screen, searching for the extension, and clicking install.
+3. Download [Docker Desktop](https://www.docker.com/) and open it.
+4. [Fork this repository in Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui).
+5. [In VSCode, clone your fork](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=command-palette).
+6. Open the Command Palette by pressing `Ctrl + Shift + P`, then search for and select `Dev Containers: Launch in Container`. 
+7. VSCode should re-open inside a dev container. Note this may take a few minutes the first time you do it, but will be much faster on subsequent loads.
+8. Launch a local version of the website by running the `development` VSCode task or by pressing `Ctrl + Shift + B`, then opening [localhost:8000](http://localhost:8000/) in your browser.
+9. Make edits to files in `/docs` as you see fit. Any changes you make should be reflected in the version of the website running on your browser.
+
+See the next section for more information on contributing the repository and opening it in VSCode.
+<!-- 9. Make edits to pages in `docs/`. After saving, any changes you make should automatically show up on the website running in localhost on your browser. -->
+
+<!-- ### Install Prerequisites
 Make sure to download the correct versions for the OS that you have (Windows, Mac, or Linux).
 
 Windows installers will almost always need to be the 64-bit version if there is a distinction.
@@ -43,7 +57,7 @@ Windows installers will almost always need to be the 64-bit version if there is 
         - If it doesn't take you to the authorization page after signing up, go back to the GitHub Desktop application, press "Cancel", the select "Sign in to GitHub.com" again
     - Allow your browser to open GitHub Desktop
     - Click "Finish"
-    
+     -->
 
 ### Steps to Start Writing Contributions
 
@@ -88,14 +102,14 @@ Windows installers will almost always need to be the 64-bit version if there is 
 To recap the contribution steps, do the combination of creating and publishing a branch, making changes and commits, updating from main, pushing commits, and creating a pull request.
 
 
-### How to Get The Local Preview of the Website Running
+<!-- ### How to Get The Local Preview of the Website Running
 You can get a local hosted version of the website to have a live preview of the site while editing.
 
 1. Open the repository in VS Code (doesn't matter which branch)
 2. Toggle the bottom panel on if there isn't one with the shortcut ```Ctrl + J```
 3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
 4. Run the command ```py -m venv venv``` to create a virtual environment (FIRST TIME)
-5. Run the command ```./installdependencies.sh to install all needed python packages (FIRST TIME)
+5. Run the command ```./installdependencies.sh``` to install all needed python packages (FIRST TIME)
 6. Run the command ```./runlocal.sh``` to start the server
 7. If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
 
@@ -103,4 +117,4 @@ Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to 
 
 Tip: After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
 
-Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems
+Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems -->

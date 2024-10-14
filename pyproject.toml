@@ -1,0 +1,14 @@
+[project]
+name = "frc-design"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "mkdocs-material[imaging]",
+    "mkdocs-glightbox",
+    "mkdocs-git-revision-date-localized-plugin",
+    "pymdown-extensions",
+    "pyyaml",
+    "mkdocs-git-committers-plugin-2"
+]
