@@ -76,7 +76,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
     ```
     ---
     title: Drivebase Examples
-    image: docs/img/mechanism-examples/drivebase/2910drivebase.webp
+    image: docs/img/mechanism-examples/drivebase/2910_2023_dt.webp
     ---
     
     
@@ -85,7 +85,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
     
     <div class="grid cards" markdown>
     
-    -   <center>[![](../../img/mechanism-examples/drivebase/2910drivebase.webp)](2910.md)</center>
+    -   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910.md)</center>
     
         ---
     
@@ -128,7 +128,7 @@ Copy and paste the following code into the div and replace all template informat
 The following is the code for the drivebase examples grid card:
 
 ``` md
--   <center>[![](../img/mechanism-examples/drivebase/2910drivebase.webp)](drivebase/index.md)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/2910_2023_dt.webp)](drivebase/index.md)</center>
 
     ---
 
@@ -172,13 +172,13 @@ The following is an example of the 2910 Charged Up Drivebase page without conten
 
 ```
 ---
-image: docs\img\mechanism-examples\drivebase\2910drivebase.webp
+image: docs\img\mechanism-examples\drivebase\2910_2023_dt.webp
 ---
 
 # 2910 Charged Up Drivebase
 
 <figure markdown="span">
-[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/2910drivebase.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
+[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/2910_2023_dt.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
 <figcaption>Swerve drivetrain featuring MK4I swerve modules, a pocketed bellypan, and a billet brass frame-rail for weight distribution.</figcaption>
 </figure>
 

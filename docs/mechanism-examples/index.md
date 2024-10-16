@@ -16,7 +16,7 @@ title: Mechanism Examples
 
 <div class="grid cards" markdown>
 
--   <center>[![](../img/mechanism-examples/drivebase/2910drivebase.webp)](drivebase/index.md)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/2910_2023_dt.webp)](drivebase/index.md)</center>
 
     ---
 
