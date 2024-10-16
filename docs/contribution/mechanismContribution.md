@@ -93,7 +93,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
         
         [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910.md)
     
-    -   <center>[![](../../img/mechanism-examples/drivebase/972dt.webp)](brainpan.md)</center>
+    -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](brainpan.md)</center>
     
         ---
     
