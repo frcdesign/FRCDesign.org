@@ -1,6 +1,6 @@
 ---
 title: Drivebase Examples
-image: docs/img/mechanism-examples/drivebase/2910drivebase.webp
+image: docs/img/mechanism-examples/drivebase/2910_2023_dt.webp
 ---
 
 
@@ -9,7 +9,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/mechanism-examples/drivebase/2910drivebase.webp)](2910.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910.md)</center>
 
     ---
 
