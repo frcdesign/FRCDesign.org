@@ -17,7 +17,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/972dt.webp)](brainpan.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](brainpan.md)</center>
 
     ---
 
