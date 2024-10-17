@@ -32,7 +32,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Shooters](shooter/index.md)
 
--   <center>[![](../img/mechanism-examples/intake/4bar/example.webp)](intake/4bar/index.md)</center>
+-   <center>[![](../img/mechanism-examples/intake/4bar/1678_2022_intake.webp)](intake/4bar/index.md)</center>
 
     ---
 
