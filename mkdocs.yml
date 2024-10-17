@@ -271,7 +271,7 @@ nav:
       - mechanism-examples/index.md
       - Drivebases:
         - mechanism-examples/drivebase/index.md
-        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910.md
+        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910_2023_dt.md
         - 972's Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
       - Shooters:
         - mechanism-examples/shooter/index.md
