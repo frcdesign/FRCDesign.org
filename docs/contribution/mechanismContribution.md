@@ -226,7 +226,7 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
         - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
       - 4 Bar Intakes:
         - mechanism-examples/intake/4bar/index.md
-        - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678.md
+        - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678_2022_intake.md
         - Andrew's Four-Bar Intake: mechanism-examples/intake/4bar/clean.md
         - Vaughn's Four-Bar Intake: mechanism-examples/intake/4bar/vaughn4bar.md
 ```
