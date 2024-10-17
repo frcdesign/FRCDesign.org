@@ -41,6 +41,14 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 6328 Crescendo Drivebase](6328_2024_dt.md)
 
+-   <center>[![](../../img/mechanism-examples/drivebase/581_2024_dt.webp)](581_2024_dt.md)</center>
+
+    ---
+
+    Swerve drivetrain with a pocketed bellypan and clean electronics mounting. Also includes support for under the bumper intake.
+    
+    [:octicons-arrow-right-24: 581 Crescendo Drivebase](581_2024_dt.md)
+
 -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
