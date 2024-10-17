@@ -294,6 +294,7 @@ nav:
       - 4 Bar Intakes:
         - mechanism-examples/intake/4bar/index.md
         - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678_2022_intake.md
+        - 6800's Rapid React Intake: mechanism-examples/intake/4bar/6800_2022_intake.md
         - 4089's Rapid React Intake: mechanism-examples/intake/4bar/4089_2022_intake.md
       - Continuous Elevators:
         - mechanism-examples/elevator/continuous/index.md
