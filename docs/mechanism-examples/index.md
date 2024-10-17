@@ -40,7 +40,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Four-bar Intakes](intake/4bar/index.md)
 
--   <center>[![](../img/mechanism-examples/intake/slapdown/6423crescendo.webp)](intake/slapdown/index.md)</center>
+-   <center>[![](../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp)](intake/slapdown/index.md)</center>
 
     ---
 

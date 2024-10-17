@@ -223,7 +223,7 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
         - 4414-Style Intake: mechanism-examples/intake/slapdown/4414style.md
         - Washed Beavertail Intake: mechanism-examples/intake/slapdown/washed.md
         - Low Pivot Slapdown Intake: mechanism-examples/intake/slapdown/low.md
-        - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423otb.md
+        - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
       - 4 Bar Intakes:
         - mechanism-examples/intake/4bar/index.md
         - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678.md
