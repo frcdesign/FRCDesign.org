@@ -35,6 +35,14 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: 6423's Crescendo Flip Intake](6423_2024_intake.md)
 
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/3847_2022_intake.webp){width=100%}](3847_2022_intake.md)</center>
+
+    ---
+
+    Uses polycarb rollers intake the ball into the feeder. The intake is pitched up and down by a single brushless motor. There is a spring attached to the intake pivot to help the motor bring the intake back up. 
+    
+    [:octicons-arrow-right-24: 3847's Rapid React Springed Intake](3847_2022_intake.md)
+
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/2910_2021_intake.webp){width=100%}](2910_2021_intake.md)</center>
 
     ---
