@@ -93,13 +93,13 @@ If you need to add a mechanism category, you must add a landing page for the mec
         
         [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
     
-    -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](brainpan.md)</center>
+    -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
     
         ---
     
         A central 2x2 cross member, a brainpan, and citrus bumper mounting plates.
         
-        [:octicons-arrow-right-24: 972 Brainpan Drivebase](brainpan.md)
+        [:octicons-arrow-right-24: 972 Brainpan Drivebase](972_2024_dt.md)
     
     </div>
     
@@ -213,7 +213,7 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
       - Drivebases:
         - mechanism-examples/drivebase/index.md
         - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910_2023_dt.md
-        - 972's Brainpan Drivebase: mechanism-examples/drivebase/brainpan.md
+        - 972's Brainpan Drivebase: mechanism-examples/drivebase/972_2024_dt.md
       - Shooters:
         - mechanism-examples/shooter/index.md
         - Andrew's Hyperhive Shooter: mechanism-examples/shooter/small.md
