@@ -25,6 +25,14 @@ For all your piece launching needs. Shooter designs vary slightly with different
     
     [:octicons-arrow-right-24: 6328's Crescendo Shooter](6328_2024_shooter.md)
 
+-   <center>[![](../../img/mechanism-examples/shooter/2910_2022_shooter.webp)](2910_2022_shooter.md)</center>
+
+    ---
+
+    Made for for shooting Rapid React balls, while staying rigid. Includes flywheels, a limelight mount as well as a hood that is also designed to be climbed on.
+    
+    [:octicons-arrow-right-24: 2910's Rapid React Shooter](2910_2022_shooter.md)
+
 -   <center>[![](../../img/mechanism-examples/shooter/6800_2022_shooter.webp)](6800_2022_shooter.md)</center>
 
     ---
@@ -32,4 +40,12 @@ For all your piece launching needs. Shooter designs vary slightly with different
     Made for for shooting Rapid React balls, using a hood to aim to balls vertically, and a turret to aim horizontally.
     
     [:octicons-arrow-right-24: 6800's Rapid React Shooter](6800_2022_shooter.md)
+
+-   <center>[![](../../img/mechanism-examples/shooter/2910_2021_shooter.webp)](2910_2021_shooter.md)</center>
+
+    ---
+
+    Made for for shooting 7" foam balls, with a hood and flywheel design.
+    
+    [:octicons-arrow-right-24: 2910's IR @ Home / 2021 Offseason Shooter](2910_2021_shooter.md)
 </div>
