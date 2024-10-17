@@ -9,13 +9,13 @@ The drivebase is the single most important part of your robot, providing a bed f
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910_2023_dt.md)</center>
 
     ---
 
     A custom plate to keep the radio and breaker accessible, holes with grommets to allow wires to pass through the cross members
     
-    [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910.md)
+    [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
 -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](brainpan.md)</center>
 
