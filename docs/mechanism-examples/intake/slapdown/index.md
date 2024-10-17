@@ -17,6 +17,14 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: 1678's Crescendo Slapdown Intake](1678_2024_intake.md)
 
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/1778_2024_intake.webp){width=100%}](1778_2024_intake.md)</center>
+
+    ---
+
+    A crescendo intake, deployed using a single pivot. The intake has 2 front rollers to initially grab the foam rings, and 2 back rollers to feed the ring into the robot. The intake uses polycarbonate to help improve durability against impacts.
+    
+    [:octicons-arrow-right-24: 1778's Crescendo Slapdown Intake](1778_2024_intake.md)
+
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp){width=100%}](6423_2024_intake.md)</center>
 
     ---
