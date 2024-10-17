@@ -33,6 +33,14 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     Uses rollers to center a piece against bent polycarb, then flips it back for a passthrough. Examples of how to mount cameras and sensors to allow more automation
     
-    [:octicons-arrow-right-24: 6423's 2024 Flip Intake](6423_2024_intake.md)
+    [:octicons-arrow-right-24: 6423's Crescendo Flip Intake](6423_2024_intake.md)
+
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/2910_2021_intake.webp){width=100%}](2910_2021_intake.md)</center>
+
+    ---
+
+    This intake was built for Infinite Recharge, to intake foam balls. It uses a pneumatic cylinder to deploy the intake, on a single pivot. On the end of the intake, there is a roller with 3D printed vector intake wheels to help center the ball into the intake.
+    
+    [:octicons-arrow-right-24: 2910's IR @ Home / 2021 Offseason Pnuematic Intake](2910_2021_intake.md)
 
 </div>
