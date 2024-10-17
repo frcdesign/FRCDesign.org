@@ -24,7 +24,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/index.md)
 
--   <center>[![](../img/mechanism-examples/shooter/small.webp)](shooter/index.md)</center>
+-   <center>[![](../img/mechanism-examples/shooter/1678_2022_shooter.webp)](shooter/index.md)</center>
 
     ---
 
