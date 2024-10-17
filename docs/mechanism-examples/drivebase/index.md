@@ -17,6 +17,14 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
+-   <center>[![](../../img/mechanism-examples/drivebase/1678_2024_dt.webp)](1678_2024_dt.md)</center>
+
+    ---
+
+    Designed using 2x1 WCP punched tubing for the perimeter, and 1x1 WCP punched tubing for the cross members, with a custom bellypan with a battery cage and the mounting for the electronics.
+    
+    [:octicons-arrow-right-24: 1678 Crescendo Drivebase](1678_2024_dt.md)
+
 -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
