@@ -33,6 +33,14 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 3005 Charged Up Drivebase](3005_2023_dt.md)
 
+-   <center>[![](../../img/mechanism-examples/drivebase/6328_2024_dt.webp)](6328_2024_dt.md)</center>
+
+    ---
+
+    A drivebase using MK4i swerve modules. Punched tubing used for the whole frame, various electronics mounted to the bellypan and other parts of the drivebase.
+    
+    [:octicons-arrow-right-24: 6328 Crescendo Drivebase](6328_2024_dt.md)
+
 -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
