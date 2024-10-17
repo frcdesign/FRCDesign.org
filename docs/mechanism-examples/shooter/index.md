@@ -1,6 +1,6 @@
 ---
 title: Shooter Examples
-image: docs/img/mechanism-examples/shooter/citrus-shooter.webp
+image: docs/img/mechanism-examples/shooter/1678_2022_shooter.webp
 ---
 
 # Shooters
@@ -10,14 +10,6 @@ For all your piece launching needs. Shooter designs vary slightly with different
 <div class="grid cards" markdown>
 
 -   <center>[![](../../img/mechanism-examples/shooter/1678_2022_shooter.webp)](1678_2022_shooter.md)</center>
-
-    ---
-
-    For very small balls, clever packaging and design for a hooded shooter
-    
-    [:octicons-arrow-right-24: Andrew's Hyperhive Shooter](small.md)
-
--   <center>[![](../../img/mechanism-examples/shooter/citrus-shooter.webp)](citrus.md)</center>
 
     ---
 
