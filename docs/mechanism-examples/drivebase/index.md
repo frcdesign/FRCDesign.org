@@ -25,6 +25,14 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 1678 Crescendo Drivebase](1678_2024_dt.md)
 
+-   <center>[![](../../img/mechanism-examples/drivebase/3005_2023_dt.webp)](3005_2023_dt.md)</center>
+
+    ---
+
+    A drivebase using REV swerve modules and NEO motors, as well as mounting for electronics, such as motor controllers and the RoboRIO on a bellypan.
+    
+    [:octicons-arrow-right-24: 3005 Charged Up Drivebase](3005_2023_dt.md)
+
 -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
