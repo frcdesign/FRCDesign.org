@@ -17,22 +17,6 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     
     [:octicons-arrow-right-24: 4414-Style Intake](4414style.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/washed/overview.webp){width=80%}](washed.md)</center>
-
-    ---
-
-    Very different from most modern intakes, it helps center heavy gamepieces through a gap in the bumpers, driven by chain with a deadaxle pivot
-    
-    [:octicons-arrow-right-24: Washed's Beavertail Intake](washed.md)
-
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/low.webp){width=80%}](low.md)</center>
-
-    ---
-
-    Some rollers are decoupled so the pivot for the intake can be lowered below the ball path
-    
-    [:octicons-arrow-right-24: Low Pivot Slapdown Intake](low.md)
-
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423crescendo.webp){width=100%}](6423otb.md)</center>
 
     ---
@@ -42,5 +26,3 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
     [:octicons-arrow-right-24: 6423's 2024 Flip Intake](6423otb.md)
 
 </div>
-
-<br>
