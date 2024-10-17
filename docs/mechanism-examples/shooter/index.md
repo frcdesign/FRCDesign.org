@@ -24,4 +24,12 @@ For all your piece launching needs. Shooter designs vary slightly with different
     Made to launch 14" diameter foam rings. Different sides are driven seperately to add spin to the ring.
     
     [:octicons-arrow-right-24: 6328's Crescendo Shooter](6328_2024_shooter.md)
+
+-   <center>[![](../../img/mechanism-examples/shooter/6800_2022_shooter.webp)](6800_2022_shooter.md)</center>
+
+    ---
+
+    Made for for shooting Rapid React balls, using a hood to aim to balls vertically, and a turret to aim horizontally.
+    
+    [:octicons-arrow-right-24: 6800's Rapid React Shooter](6800_2022_shooter.md)
 </div>
