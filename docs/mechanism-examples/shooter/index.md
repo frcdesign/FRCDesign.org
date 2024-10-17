@@ -17,6 +17,11 @@ For all your piece launching needs. Shooter designs vary slightly with different
     
     [:octicons-arrow-right-24: 1678's Rapid React Shooter](1678_2022_shooter.md)
 
-</div>
+-   <center>[![](../../img/mechanism-examples/shooter/6328_2024_shooter.webp)](6328_2024_shooter.md)</center>
 
-<br>
+    ---
+
+    Made to launch 14" diameter foam rings. Different sides are driven seperately to add spin to the ring.
+    
+    [:octicons-arrow-right-24: 6328's Crescendo Shooter](6328_2024_shooter.md)
+</div>
