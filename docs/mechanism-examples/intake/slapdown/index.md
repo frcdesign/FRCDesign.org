@@ -7,6 +7,8 @@ image: docs/img/mechanism-examples/intake/slapdown/6423_2024_intake.webp
 
 The slapdown style of "Over the Bumper" intakes is very common in situations where your packaging is constrained horizontally, but not vertically.
 
+## Featured
+
 <div class="grid cards" markdown>
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/1678_2024_intake.webp){width=100%}](1678_2024_intake.md)</center>
