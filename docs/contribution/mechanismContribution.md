@@ -217,7 +217,7 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
       - Shooters:
         - mechanism-examples/shooter/index.md
         - Andrew's Hyperhive Shooter: mechanism-examples/shooter/small.md
-        - 1678's Rapid React Shooter: mechanism-examples/shooter/citrus.md
+        - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
       - Slapdown Intakes:
         - mechanism-examples/intake/slapdown/index.md
         - 4414-Style Intake: mechanism-examples/intake/slapdown/4414style.md
