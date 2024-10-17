@@ -17,13 +17,13 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](brainpan.md)</center>
+-   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
 
     A central 2x2 cross member, a brainpan, and citrus bumper mounting plates.
     
-    [:octicons-arrow-right-24: 972 Brainpan Drivebase](brainpan.md)
+    [:octicons-arrow-right-24: 972 Brainpan Drivebase](972_2024_dt.md)
 
 </div>
 
