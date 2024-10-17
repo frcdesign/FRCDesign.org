@@ -9,13 +9,13 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/4414style.webp){width=100%}](4414style.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/1678_2024_intake.webp){width=100%}](1678_2024_intake.md)</center>
 
     ---
 
-    Pivot driven by chain and a torque transfer bar, separate stationary wheel axles, bent polycarb funnel, mounted with nutstrips
+    A slapdown intake that uses a motor attached to custom gearing to rotate the intake in and out of frame perimeter. With polycarb tubing used as rollers to intake the notes. Designed to intake Crescendo foam rings.
     
-    [:octicons-arrow-right-24: 4414-Style Intake](4414style.md)
+    [:octicons-arrow-right-24: 1678's Crescendo Slapdown Intake](1678_2024_intake.md)
 
 -   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423crescendo.webp){width=100%}](6423otb.md)</center>
 
