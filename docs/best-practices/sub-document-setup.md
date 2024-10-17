@@ -9,7 +9,7 @@ Each subsystem document should have at least one part studio and one assembly as
 
 The Stage 2A Basic Shooter is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.
 
-<center>[Stage 2A - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702D92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Stage 2A Basic Shooter Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
+<center>[Stage 2A - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Stage 2A Basic Shooter Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 
 <center><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></center>
 
