@@ -280,6 +280,8 @@ nav:
       - Shooters:
         - mechanism-examples/shooter/index.md
         - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
+        - 6328's Crescendo Shooter: mechanism-examples/shooter/6328_2024_shooter.md
+        - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
       - Slapdown Intakes:
         - mechanism-examples/intake/slapdown/index.md
         - 4414-Style Intake: mechanism-examples/intake/slapdown/4414style.md
