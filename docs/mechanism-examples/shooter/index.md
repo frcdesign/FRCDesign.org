@@ -78,6 +78,8 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
 - [111 Rapid React Shooter](https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046){target = "_blank"}
 
+- [118 Rapid React Shooter](https://grabcad.com/library/robonauts-118-2022-robot-horizon-1){target = "_blank"}
+
 - [2337 Rapid React Shooter](https://cad.onshape.com/documents/3ad3451c2339f674d0ab2b60/w/123a29c5b91a36bfb6787a41/e/41b65f0937c35c003465d507){target = "_blank"}
 
 - [2337 Rapid React Shooter](https://cad.onshape.com/documents/3ad3451c2339f674d0ab2b60/w/123a29c5b91a36bfb6787a41/e/41b65f0937c35c003465d507){target = "_blank"}
