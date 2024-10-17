@@ -31,7 +31,7 @@ The most common way to launch game pieces is with flywheel shooters. Other metho
 
 <div class="grid cards" markdown>
 
--   <center><img src="/img/mechanism-examples/shooter/citrus-shooter.webp" width="100%" style="border-radius: 2%"></center>
+-   <center><img src="/img/mechanism-examples/shooter/1678_2022_shooter.webp" width="100%" style="border-radius: 2%"></center>
 
 -   <center><img src="/img/learning-course/stage2-shooter/1678-2024-shooter.webp" width="100%" style="border-radius: 2%"></center>
 

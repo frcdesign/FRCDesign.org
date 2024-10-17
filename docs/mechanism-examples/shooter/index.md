@@ -9,7 +9,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/mechanism-examples/shooter/small.webp){width=80%}](small.md)</center>
+-   <center>[![](../../img/mechanism-examples/shooter/1678_2022_shooter.webp)](1678_2022_shooter.md)</center>
 
     ---
 
@@ -23,7 +23,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     For 9.5" balls, with a rack hood and a limelight mount
     
-    [:octicons-arrow-right-24: 1678's Rapid React Shooter](citrus.md)
+    [:octicons-arrow-right-24: 1678's Rapid React Shooter](1678_2022_shooter.md)
 
 </div>
 
