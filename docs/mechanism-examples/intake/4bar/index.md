@@ -1,6 +1,6 @@
 ---
 title: Four-Bar Intake Examples
-image: docs/img/mechanism-examples/intake/4bar/vaughn4bar.webp
+image: docs/img/mechanism-examples/intake/4bar/1678_2022_intake.webp
 ---
 
 # Four-Bar Intakes

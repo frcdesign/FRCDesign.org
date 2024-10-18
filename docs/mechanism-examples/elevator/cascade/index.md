@@ -1,6 +1,6 @@
 ---
 title: Cascade Elevator Examples
-image: docs/img/mechanism-examples/elevator/cascade/3stage.webp
+image: docs/img/mechanism-examples/elevator/cascade/3_stage_elevator.webp
 ---
 
 # Cascade Elevators
