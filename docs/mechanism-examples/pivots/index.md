@@ -33,6 +33,11 @@ Rotating arms are a key mechanism in FRC® robotics. They are often essential in
     
     [:octicons-arrow-right-24: 1690 Lantern Gear Pivot](1690_2024_pivot.md)
 
+-   <center>[![](../../img/mechanism-examples/pivots/5460_2023_pivot.webp){width=100%}](5460_2023_pivot.md)</center>
+
+    ---
+
+    A high torque pivot using belt instead of chain or gear. This pivot was designed to minimize the amount of backlash as belt tends to come with less backlash than chain, but makes the design significantly more complex.
+    
+    [:octicons-arrow-right-24: 5460 Charged Up Belt Pivot](5460_2023_pivot.md)
 </div>
-  
-<br>
