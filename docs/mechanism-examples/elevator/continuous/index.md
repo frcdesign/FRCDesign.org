@@ -7,21 +7,21 @@ Continuous elevators are great when you need a lot of extension distance, high s
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/elevator/continuous/cable.webp){width=61%}](cable.md)</center>
+-   <center>[![](../../../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](1678_2023_elevator.md)</center>
 
     ---
 
-    Similar to 1678's 2023 Elevator, 3-stage, driven by a spool and line, with unique power transmission 
+    Continous elevator driven by string. The spool is driven by 2 motors.
     
-    [:octicons-arrow-right-24: External Cable Driven Elevator](cable.md)
+    [:octicons-arrow-right-24: 1678's Charged Up Elevator](1678_2023_elevator.md)
 
--   <center>[![](../../../img/mechanism-examples/elevator/continuous/belt.webp){width=90%}](belt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/elevator/continuous/3847_2023_elevator.webp)](3847_2023_elevator.md)</center>
 
     ---
 
-    A 3-stage belt-driven continuous elevator with a tube carriage, belts tensioned by cams, and WCP bearing blocks
+    A belt driven continous elevator with constant force springs to help the motor.
     
-    [:octicons-arrow-right-24: Internal Belt Driven Elevator](belt.md)
+    [:octicons-arrow-right-24: 3847's Charged Up Elevator](3847_2023_elevator.md)
 
 </div>
 

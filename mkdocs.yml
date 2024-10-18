@@ -298,8 +298,8 @@ nav:
         - 4089's Rapid React Intake: mechanism-examples/intake/4bar/4089_2022_intake.md
       - Continuous Elevators:
         - mechanism-examples/elevator/continuous/index.md
-        - External Cable Driven Elevator: mechanism-examples/elevator/continuous/cable.md
-        - Internal Belt Driven Elevator: mechanism-examples/elevator/continuous/belt.md
+        - 1678's Charged Up Elevator: mechanism-examples/elevator/continuous/cable.md
+        - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/belt.md
       - Cascade Elevators:
         - mechanism-examples/elevator/cascade/index.md
         - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2stage.md
