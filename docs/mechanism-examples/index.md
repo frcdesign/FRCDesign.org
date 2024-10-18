@@ -24,13 +24,13 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
 
--   <center>[![](../img/mechanism-examples/drivebase/tank/2471_2018_dt.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/tank/2471_2018_dt.webp)]()</center>
 
     ---
 
     Tank drivebases are not used as commonly anymore with the proliferation of swerve, but they are still a good option in certain situations.
     
-    [:octicons-arrow-right-24: Tank Drivebases (Coming Soon)](./)
+    [:octicons-arrow-right-24: Tank Drivebases (Coming Soon)]()
 
 -   <center>[![](../img/mechanism-examples/shooter/1678_2022_shooter.webp)](shooter/index.md)</center>
 
@@ -40,13 +40,13 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Shooters](shooter/index.md)
 
--   <center>[![](../img/mechanism-examples/turret/6036_2024_turret.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/turret/6036_2024_turret.webp)]()</center>
 
     ---
 
     Turrets are designed to rotate other mechanisms
     
-    [:octicons-arrow-right-24: Turrets (Coming Soon)](./)
+    [:octicons-arrow-right-24: Turrets (Coming Soon)]()
 
 -   <center>[![](../img/mechanism-examples/intake/4bar/1678_2022_intake.webp)](intake/4bar/index.md)</center>
 
@@ -64,21 +64,21 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
--   <center>[![](../img/mechanism-examples/intake/utb/3005_2024_intake.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/intake/utb/3005_2024_intake.webp)]()</center>
 
     ---
 
     Intakes that grab gamepieces by intaking them under the bumper
     
-    [:octicons-arrow-right-24: Under The Bumper Intakes (Coming Soon)](./)
+    [:octicons-arrow-right-24: Under The Bumper Intakes (Coming Soon)]()
 
--   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)]()</center>
 
     ---
 
     Indexers are designed to move the game pieces from on part of the robot to another. They can also perform other functions such as sorting or aligning the game pieces.
     
-    [:octicons-arrow-right-24: Indexers (Coming Soon)](./)
+    [:octicons-arrow-right-24: Indexers (Coming Soon)]()
 
 
 -   <center>[![](../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](elevator/continuous/index.md)</center>
@@ -106,21 +106,21 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Pivots](pivots/index.md)
 
--   <center>[![](../img/mechanism-examples/telescope/2910_2023_telescope.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/telescope/2910_2023_telescope.webp)]()</center>
 
     ---
 
     Extending arms to reach out and grab gamepieces, sometimes attached to a pivot or having a pivot attached.
     
-    [:octicons-arrow-right-24: Telescoping Arms (Coming Soon)](./)
+    [:octicons-arrow-right-24: Telescoping Arms (Coming Soon)]()
 
--   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)](./)</center>
+-   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)]()</center>
 
     ---
 
     End effectors are the mechanisms that interact with the game pieces, such as intakes, shooters, and other manipulators, usually attached to another mechanism.
     
-    [:octicons-arrow-right-24: End Effectors (Coming Soon)](./)
+    [:octicons-arrow-right-24: End Effectors (Coming Soon)]()
 
 </div>
 
