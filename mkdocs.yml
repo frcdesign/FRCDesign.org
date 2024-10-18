@@ -310,6 +310,7 @@ nav:
         - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
         - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
         - 1690 Lantern Gear Pivot: mechanism-examples/pivots/1690_2024_pivot.md
+        - 5460 Charged Up Belt Pivot: mechanism-examples/pivots/5460_2023_pivot.md
 
   - CAD Best Practices:
       - best-practices/index.md
