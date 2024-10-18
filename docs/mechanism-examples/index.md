@@ -16,13 +16,21 @@ title: Mechanism Examples
 
 <div class="grid cards" markdown>
 
--   <center>[![](../img/mechanism-examples/drivebase/2910_2023_dt.webp)](drivebase/index.md)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](drivebase/swerve/index.md)</center>
 
     ---
 
     Swerve drivebases with examples of electronics layout
     
-    [:octicons-arrow-right-24: Swerve Drivebases](drivebase/index.md)
+    [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
+
+-   <center>[![](../img/mechanism-examples/drivebase/wcd/2471_2018_dt.webp)](..)</center>
+
+    ---
+
+    West Coast Drivebases are not used as commonly anymore with the proliferation of swerve, but they are still a good option if you are resource contrainted or need to handle terrain.
+    
+    [:octicons-arrow-right-24: West Coast Drivebases (Coming Soon)](./)
 
 -   <center>[![](../img/mechanism-examples/shooter/1678_2022_shooter.webp)](shooter/index.md)</center>
 
@@ -74,6 +82,13 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Pivots](pivots/index.md)
 
+-   <center>[![](../img/mechanism-examples/telescope/2910_2023_telescope.webp)](./)</center>
+
+    ---
+
+    Extending arms to reach out and grab gamepieces, sometimes attached to a pivot or having a pivot attached.
+    
+    [:octicons-arrow-right-24: Telescoping Arms (Coming Soon)](./)
 
 </div>
 

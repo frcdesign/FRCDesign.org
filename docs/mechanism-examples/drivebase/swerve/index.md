@@ -1,6 +1,6 @@
 ---
 title: Drivebase Examples
-image: docs/img/mechanism-examples/drivebase/2910_2023_dt.webp
+image: docs/img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp
 ---
 
 
@@ -11,7 +11,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910_2023_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](2910_2023_dt.md)</center>
 
     ---
 
@@ -19,7 +19,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/1678_2024_dt.webp)](1678_2024_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/1678_2024_dt.webp)](1678_2024_dt.md)</center>
 
     ---
 
@@ -27,7 +27,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 1678 Crescendo Drivebase](1678_2024_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/3005_2023_dt.webp)](3005_2023_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/3005_2023_dt.webp)](3005_2023_dt.md)</center>
 
     ---
 
@@ -35,7 +35,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 3005 Charged Up Drivebase](3005_2023_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/6328_2024_dt.webp)](6328_2024_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/6328_2024_dt.webp)](6328_2024_dt.md)</center>
 
     ---
 
@@ -43,7 +43,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 6328 Crescendo Drivebase](6328_2024_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/5460_2023_dt.webp)](5460_2023_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/5460_2023_dt.webp)](5460_2023_dt.md)</center>
 
     ---
 
@@ -51,7 +51,7 @@ The drivebase is the single most important part of your robot, providing a bed f
     
     [:octicons-arrow-right-24: 5460 Charged Up Drivebase](5460_2023_dt.md)
 
--   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
+-   <center>[![](../../../img/mechanism-examples/drivebase/swerve/972_2024_dt.webp)](972_2024_dt.md)</center>
 
     ---
 
