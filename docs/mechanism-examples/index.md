@@ -56,6 +56,14 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
+-   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)](./)</center>
+
+    ---
+
+    Indexers are designed to move the game pieces from on part of the robot to another. They can also perform other functions such as sorting or aligning the game pieces.
+    
+    [:octicons-arrow-right-24: Indexers (Coming Soon)](./)
+
 
 -   <center>[![](../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](elevator/continuous/index.md)</center>
 
