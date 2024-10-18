@@ -1,38 +1,38 @@
 ---
 title: Four-Bar Intake Examples
-image: docs/img/mechanism-examples/intake/4bar/vaughn4bar.webp
+image: docs/img/mechanism-examples/intake/4bar/1678_2022_intake.webp
 ---
 
 # Four-Bar Intakes
 
 The four-bar style of over-the-bumper intakes is very common in situations where your packaging is constrained vertically but not horizontally.
 
+## Featured
+
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/intake/4bar/1678.webp){width=100%}](1678.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/4bar/1678_2022_intake.webp){width=100%}](1678_2022_intake.md)</center>
 
     ---
 
     Extremely simple four-bar intake with compliance wheels, motor driven with chain
     
-    [:octicons-arrow-right-24: 1678's Rapid React Intake](1678.md)
+    [:octicons-arrow-right-24: 1678's Rapid React Intake](1678_2022_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/4bar/clean.webp){width=94%}](clean.md)</center>
-
-    ---
-
-    Simple four-bar intake with deadaxle rollers for a more rigid design
-    
-    [:octicons-arrow-right-24: Andrew's Clean Four-Bar Intake](clean.md)
-
--   <center>[![](../../../img/mechanism-examples/intake/4bar/vaughn4bar.webp){width=100%}](vaughn4bar.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/4bar/6800_2022_intake.webp){width=100%}](6800_2022_intake.md)</center>
 
     ---
 
-    Another example of a four-bar intake with deadaxle rollers but with a different power transmission setup
+    A 4-bar intake driven by a motor, through a custom gearbox. The intake then uses rolers to intake the balls.
     
-    [:octicons-arrow-right-24: Vaughn's Four-bar Intake](vaughn4bar.md)
+    [:octicons-arrow-right-24: 6800's Rapid React Intake](6800_2022_intake.md)
+
+-   <center>[![](../../../img/mechanism-examples/intake/4bar/4089_2022_intake.webp){width=100%}](4089_2022_intake.md)</center>
+
+    ---
+
+    A classic 4-bar intake that's driven pnuematicaly. The 4-bar linkage struts are made out of polycarb to help take impacts better.
+    
+    [:octicons-arrow-right-24: 4089's Rapid React Intake](4089_2022_intake.md)
 
 </div>
-
-<br>
