@@ -114,6 +114,14 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Telescoping Arms (Coming Soon)](./)
 
+-   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)](./)</center>
+
+    ---
+
+    End effectors are the mechanisms that interact with the game pieces, such as intakes, shooters, and other manipulators, usually attached to another mechanism.
+    
+    [:octicons-arrow-right-24: End Effectors (Coming Soon)](./)
+
 </div>
 
 <br>
