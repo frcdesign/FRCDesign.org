@@ -24,7 +24,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
 
--   <center>[![](../img/mechanism-examples/drivebase/wcd/2471_2018_dt.webp)](..)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/wcd/2471_2018_dt.webp)](./)</center>
 
     ---
 
