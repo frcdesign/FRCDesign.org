@@ -269,14 +269,14 @@ nav:
 
   - Mechanism Examples:
       - mechanism-examples/index.md
-      - Drivebases:
-        - mechanism-examples/drivebase/index.md
-        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910_2023_dt.md
-        - 1678's Crescendo Drivebase: mechanism-examples/drivebase/1678_2024_dt.md
-        - 3005's Charged Up Drivebase: mechanism-examples/drivebase/3005_2023_dt.md
-        - 6328's Crescendo Drivebase: mechanism-examples/drivebase/6328_2024_dt.md
-        - 581's Crescendo Drivebase: mechanism-examples/drivebase/581_2024_dt.md
-        - 972's Crescendo Drivebase: mechanism-examples/drivebase/972_2024_dt.md
+      - Swerve Drivebases:
+        - mechanism-examples/drivebase/swerve/index.md
+        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
+        - 1678's Crescendo Drivebase: mechanism-examples/drivebase/swerve/1678_2024_dt.md
+        - 3005's Charged Up Drivebase: mechanism-examples/drivebase/swerve/3005_2023_dt.md
+        - 6328's Crescendo Drivebase: mechanism-examples/drivebase/swerve/6328_2024_dt.md
+        - 581's Crescendo Drivebase: mechanism-examples/drivebase/swerve/581_2024_dt.md
+        - 972's Crescendo Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
       - Shooters:
         - mechanism-examples/shooter/index.md
         - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md

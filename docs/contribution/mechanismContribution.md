@@ -76,7 +76,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
     ```
     ---
     title: Drivebase Examples
-    image: docs/img/mechanism-examples/drivebase/2910_2023_dt.webp
+    image: docs/img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp
     ---
     
     
@@ -85,7 +85,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
     
     <div class="grid cards" markdown>
     
-    -   <center>[![](../../img/mechanism-examples/drivebase/2910_2023_dt.webp)](2910_2023_dt.md)</center>
+    -   <center>[![](../../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](2910_2023_dt.md)</center>
     
         ---
     
@@ -93,7 +93,7 @@ If you need to add a mechanism category, you must add a landing page for the mec
         
         [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
     
-    -   <center>[![](../../img/mechanism-examples/drivebase/972_2024_dt.webp)](972_2024_dt.md)</center>
+    -   <center>[![](../../img/mechanism-examples/drivebase/swerve/972_2024_dt.webp)](972_2024_dt.md)</center>
     
         ---
     
@@ -128,13 +128,13 @@ Copy and paste the following code into the div and replace all template informat
 The following is the code for the drivebase examples grid card:
 
 ``` md
--   <center>[![](../img/mechanism-examples/drivebase/2910_2023_dt.webp)](drivebase/index.md)</center>
+-   <center>[![](../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](drivebase/swerve/index.md)</center>
 
     ---
 
     Swerve drivebases with examples of electronics layout
     
-    [:octicons-arrow-right-24: Swerve Drivebases](drivebase/index.md)
+    [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
 ```
 
 ## Adding a Mechanism Example Page
@@ -178,7 +178,7 @@ image: docs\img\mechanism-examples\drivebase\2910_2023_dt.webp
 # 2910 Charged Up Drivebase
 
 <figure markdown="span">
-[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/2910_2023_dt.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
+[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
 <figcaption>Swerve drivetrain featuring MK4I swerve modules, a pocketed bellypan, and a billet brass frame-rail for weight distribution.</figcaption>
 </figure>
 
@@ -211,9 +211,9 @@ Follow the standard formatting presented in the `mkdocs.yml file` to add more pa
  - Mechanism Examples:
       - mechanism-examples/index.md
       - Drivebases:
-        - mechanism-examples/drivebase/index.md
-        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/2910_2023_dt.md
-        - 972's Brainpan Drivebase: mechanism-examples/drivebase/972_2024_dt.md
+        - mechanism-examples/drivebase/swerve/index.md
+        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
+        - 972's Brainpan Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
       - Shooters:
         - mechanism-examples/shooter/index.md
         - Andrew's Hyperhive Shooter: mechanism-examples/shooter/small.md
