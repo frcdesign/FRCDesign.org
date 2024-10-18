@@ -49,7 +49,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/continuous/nautilus.webp)](elevator/continuous/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](elevator/continuous/index.md)</center>
 
     ---
 
