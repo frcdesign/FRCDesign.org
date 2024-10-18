@@ -303,6 +303,8 @@ nav:
       - Cascade Elevators:
         - mechanism-examples/elevator/cascade/index.md
         - WCP's Greyt Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
+        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2_stage_elevator.md
+        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
       - Pivots:
         - mechanism-examples/pivots/index.md
         - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
