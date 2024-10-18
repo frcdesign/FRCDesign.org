@@ -5,6 +5,8 @@ image: docs/img/mechanism-examples/elevator/continuous/nautilus.webp
 # Continuous Elevators
 Continuous elevators are great when you need a lot of extension distance, high stage overlap, or elevator passthrough.
 
+## Featured
+
 <div class="grid cards" markdown>
 
 -   <center>[![](../../../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](1678_2023_elevator.md)</center>

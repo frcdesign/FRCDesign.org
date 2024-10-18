@@ -7,6 +7,8 @@ image: docs/img/mechanism-examples/pivots/2910/2910_2023_pivot.webp
 
 Rotating arms are a key mechanism in FRC® robotics. They are often essential in the deployment and manipulation of mechanisms.
 
+## Featured
+
 <div class="grid cards" markdown>
 
 -   <center>[![](../../img/mechanism-examples/pivots/6328/6328_2023_pivot.webp){width=100%}](6328_2023_pivot.md)</center>
