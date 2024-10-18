@@ -58,7 +58,7 @@ title: Mechanism Examples
     [:octicons-arrow-right-24: Continuous Elevators](elevator/continuous/index.md)
 
 
--   <center>[![](../img/mechanism-examples/elevator/cascade/3stage.webp)](elevator/cascade/index.md)</center>
+-   <center>[![](../img/mechanism-examples/elevator/cascade/wcp_greyt_elevator.webp)](elevator/cascade/index.md)</center>
 
     ---
 

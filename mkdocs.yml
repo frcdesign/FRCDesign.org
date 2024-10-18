@@ -302,8 +302,7 @@ nav:
         - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/belt.md
       - Cascade Elevators:
         - mechanism-examples/elevator/cascade/index.md
-        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2stage.md
-        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3stage.md
+        - WCP's Greyt Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
       - Pivots:
         - mechanism-examples/pivots/index.md
         - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
