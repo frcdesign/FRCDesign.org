@@ -66,7 +66,7 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Cascade Elevators](elevator/cascade/index.md)
     
--   <center>[![](../img/mechanism-examples/pivots/2910/2910pivot.webp)](pivots/index.md)</center>
+-   <center>[![](../img/mechanism-examples/pivots/2910/2910_2023_pivot.webp)](pivots/index.md)</center>
 
     ---
 

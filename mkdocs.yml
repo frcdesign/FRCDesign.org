@@ -307,8 +307,8 @@ nav:
         - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
       - Pivots:
         - mechanism-examples/pivots/index.md
-        - 6328 A-Frame Pivot: mechanism-examples/pivots/6328pivot.md
-        - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910pivot.md
+        - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
+        - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
 
   - CAD Best Practices:
       - best-practices/index.md
