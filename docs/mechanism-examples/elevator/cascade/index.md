@@ -8,21 +8,13 @@ Cascade elevators help move other mechanisms vertically. The first stage is driv
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/elevator/cascade/2stage.webp){width=63%}](2stage.md)</center>
+-   <center>[![](../../../img/mechanism-examples/elevator/cascade/wcp_greyt_elevator.webp){width=63%}](wcp_greyt_elevator.md)</center>
 
     ---
 
-    Clean 2-stage cascade elevator with a plate carriage
+    A very commonly used cascade elevator design using the WCP GreyT elevator kit. Driven by chain and string.
     
-    [:octicons-arrow-right-24: 2-Stage Cascade Elevator](2stage.md)
-
--   <center>[![](../../../img/mechanism-examples/elevator/cascade/3stage.webp){width=80%}](3stage.md)</center>
-
-    ---
-
-    Clean 3-stage cascade elevator with a plate carriage
-    
-    [:octicons-arrow-right-24: 3-Stage Cascade Elevator](3stage.md)
+    [:octicons-arrow-right-24: WCP's GreyT Cascade Elevator](wcp_greyt_elevator.md)
 
 </div>
 
