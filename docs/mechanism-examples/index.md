@@ -28,7 +28,7 @@ title: Mechanism Examples
 
     ---
 
-    West Coast Drivebases are not used as commonly anymore with the proliferation of swerve, but they are still a good option if you are resource contrainted or need to handle terrain.
+    West Coast Drivebases are not used as commonly anymore with the proliferation of swerve, but they are still a good option in certain situations.
     
     [:octicons-arrow-right-24: West Coast Drivebases (Coming Soon)](./)
 
@@ -55,6 +55,14 @@ title: Mechanism Examples
     Over-the-bumper intakes deployed with a single pivot
     
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
+
+-   <center>[![](../img/mechanism-examples/intake/utb/3005_2024_intake.webp)](./)</center>
+
+    ---
+
+    Intakes that grab gamepieces by intaking them under the bumper
+    
+    [:octicons-arrow-right-24: Under The Bumper Intakes (Coming Soon)](./)
 
 -   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)](./)</center>
 
