@@ -25,6 +25,14 @@ Rotating arms are a key mechanism in FRC® robotics. They are often essential in
     
     [:octicons-arrow-right-24: 2910 Dead Axle Pivot](2910_2023_pivot.md)
 
+-   <center>[![](../../img/mechanism-examples/pivots/1690_2024_pivot.webp){width=100%}](1690_2024_pivot.md)</center>
+
+    ---
+
+    A pivot designed to pitch a shooter up and down using a sector gear and a lantern gear.
+    
+    [:octicons-arrow-right-24: 1690 Lantern Gear Pivot](1690_2024_pivot.md)
+
 </div>
   
 <br>
