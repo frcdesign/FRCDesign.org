@@ -377,7 +377,7 @@ plugins:
   - group: 
       enabled: !ENV INSIDERS
       plugins:
-        #- meta
+        - meta
         - social:
             cards_layout_dir: layouts
             cards_layout: default_page
