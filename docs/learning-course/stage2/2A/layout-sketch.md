@@ -39,7 +39,7 @@ The following outlines the steps you should take to design your ball shooter. Th
 11. Now decide how the shooter is being fed. This depends on the amount of space in the rest of the indexing system, but here we're using an S-shape feeder because the balls are being fed from the front and shot from the back. Sketch two concentric circles for the feeder wheels (green compliant wheels), 3" and 2" to account for the compression of the wheels, making the 2" circle concentric to the large ball path circle. Add a final large ball path circle concentric with your feeder wheels and make it tangent to the original 3" compression circle of the flywheels.
 12. Sketch 7" circles representing the power cells to further demonstrate the ball path.
 
-Now make sure all the geometry in the master sketch is fully constrained (black). Constrain any unconstrained geometry arbitrarily if you need to.
+Now make sure all the geometry in the main layout sketch is fully constrained (black). Constrain any unconstrained geometry arbitrarily if you need to.
 
 <figure>
     <img src="/img/learning-course/stage2-shooter/Finished Master Sketch.webp" width="70%">    

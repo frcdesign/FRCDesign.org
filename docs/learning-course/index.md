@@ -70,7 +70,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <div dir="rtl">
 <h3 id="-stage-3-stage3-3a-multidoc-ms-md-"><a href="stage3\3A\introduction" title="Stage 3 Page">Stage 3</a> <strong>(Under Construction)</strong> </h3>
 <ul>
-<li>Practice full robot master sketches</li>
+<li>Practice full robot main layout sketches</li>
 <li>Replicate simple robots</li>
 <li>Practicing top-down workflow and integration</li>
 </ul>

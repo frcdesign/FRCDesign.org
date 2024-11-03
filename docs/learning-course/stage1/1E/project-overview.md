@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-So far, you’ve done the master sketch and modeled the frame and bare bellypan. 
+So far, you’ve done the main layout sketches and modeled the frame and bare bellypan. 
 
 <figure>
 <img src="\img\learning-course\stage1d\SwerveBase\DriveAssy.webp" style="width:60%"></center>

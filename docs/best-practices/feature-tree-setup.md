@@ -18,7 +18,7 @@ Also **avoid duplicating identical parts and over-using intensive featurescripts
 
 ### Feature Tree Organization
 
-Every part studio feature tree should start with a derive command, pulling down the relevant master sketches. This is what you will build on. 
+Every part studio feature tree should start with a derive command, pulling down the relevant main layout sketches. This is what you will build on. 
 
 **Sort and name the features, parts, and tabs and use folders** to make your CAD more understandable for other people working on the robot. One of the biggest benefits of Onshape is its collaborative capability, but unnamed and unsorted documents eliminate that point entirely. Sorting and naming in real time can also make it easier to go back and change things (which you will inevitably need to do). Some teams even use a part naming system to assist with organizing manufacturing and assembly.
 
@@ -32,7 +32,7 @@ See an example of a well-organized part studio here:
 ### The Importance of Intelligent Origins
 As with many good practices in CAD, smart origins are another good practice to make future you's life easier. Intelligent origins allow designers to leverage default geometry (Front/Right/Top Planes, Origin Point) for robust axes of symmetry and references in their models. 
 
-For FRC CAD, the purpose of using the same origin as the master sketch across all studios and assemblies is twofold:
+For FRC CAD, the purpose of using the same origin as the main layout sketch across all studios and assemblies is twofold:
 
 1. The origin will always be a consistent central point you can reference. This helps keep things parametric too.
 2. To unify the robot CAD and robot software origin point. By having the same origin in CAD and code, the robot can be seamlessly exported to [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope "AdvantageScope Repository"){:target="_blank"} and camera transformations more easily measured. 

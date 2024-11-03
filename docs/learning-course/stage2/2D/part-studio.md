@@ -1,7 +1,7 @@
 # 2D: Cascade Elevator
 
 ## Part Studio
-1. Add the `Origin Cube` feature and derive the master sketches if you made them in a separate part studio.
+1. Add the `Origin Cube` feature and derive the main layout sketches if you made them in a separate part studio.
 2. Use extrude individual to create the tubes (without creating only duplicates; this means only the bottoms of stages on one side).
 3. Convert the extrusions into tubes.
 

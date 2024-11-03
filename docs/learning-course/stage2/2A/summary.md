@@ -8,7 +8,7 @@ You've completed Stage 2A, and your first full mechanism! To summarize what you'
 - All the factors that go into designing a flywheel shooter
 - Tips to reduce friction and inefficiences in power transmissions
 - Using a reference drivetrain to build a mechanism off of to reduce integration complexity
-- How to create a master sketch for a flywheel shooter for balls
+- How to create a main layout sketch for a flywheel shooter for balls
 - Direction-changes in power transmissions
 - Customizing a 3D-printed pulley
 - Designing a custom limelight mount for a shooter
