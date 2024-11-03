@@ -29,7 +29,7 @@ This week we will be designing a custom gearbox. Custom gearboxes can be used fo
         * No electronics will be required, other than motors. 
         * Drivetrain details will not be looked at. 
         * No COTS gearboxes
-        * Proper master sketch. 
+        * Proper main layout sketch. 
 
     <center>[Advanced Template Document](https://cad.onshape.com/documents/3a922c18a861a358bab68348/w/ee43ec67ce25ef3ea6c8fc47/e/c6ede479085a56bd159f8031?renderMode=0&uiState=664c2414bdf7ee59183251be "Advanced Template Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
 

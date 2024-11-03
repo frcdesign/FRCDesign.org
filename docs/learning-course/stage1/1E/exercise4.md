@@ -25,13 +25,13 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s1.webp" style="width:100%">
-            <figcaption>1. Create a new sketch in the Master Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
+            <figcaption>1. Create a new sketch in the Main Layout Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s2.webp" style="width:100%">
-            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Master Sketch.</figcaption>
+            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Main Layout Sketch.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">

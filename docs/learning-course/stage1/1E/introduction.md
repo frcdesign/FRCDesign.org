@@ -11,7 +11,7 @@ The typical workflow when modeling a subsystem involves the following:
 
 1. Create the layout sketches in your layout sketch part studio
 2. Derive the layout sketch into the part studio
-3. Create the basic structure of your mechanism based on the master sketch (plates, tubes, etc.)
+3. Create the basic structure of your mechanism based on the layout sketch (plates, tubes, etc.)
 4. Insert the basic structure into the assembly, group, fasten to the origin, and finish creating the structure
 5. Insert the assembly into the top-level robot assembly
 6. Go back and add different components to finish detailing the subsystem.

@@ -2,7 +2,7 @@
 
 ## Part Studio
 
-1. Create a mate connector on the pivot point of the master sketch, owned by the origin cube. This will be used in the top level assembly to define motion between the subassemblies.
+1. Create a mate connector on the pivot point of the main layout sketch, owned by the origin cube. This will be used in the top level assembly to define motion between the subassemblies.
 2. Create the cross bar tubes
 3. Create the pivot support plates
 4. Create the chain and hex axle using featurescripts

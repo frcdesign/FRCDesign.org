@@ -7,7 +7,7 @@ This week we’re moving onto a different challenge: ball shooters! These mechan
     - Requirements:
         * The shooter should be able to score power cells into the high goal from a fixed distance of your choosing.
         * Make sure to include fasteners and proper power transmission.
-        * We highly encourage you to use a master sketch with the field elements for practice, even though you don’t need to cad the rest of the robot.
+        * We highly encourage you to use a main layout sketch with the field elements for practice, even though you don’t need to cad the rest of the robot.
 
         You can find information regarding the game pieces and field elements [here](https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf).
 

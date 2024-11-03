@@ -3,10 +3,10 @@ The year is 2050. The internet was completely wiped 5 years ago, and all traces 
 
 === "Beginner"
 
-    You’ve decided to create a manipulator for the game piece. Assume that you have some sort of way to move said manipulator from the scoring position to the loading position. A master sketch is *recommended* but not required.
+    You’ve decided to create a manipulator for the game piece. Assume that you have some sort of way to move said manipulator from the scoring position to the loading position. A main layout sketch is *recommended* but not required.
 
 === "Advanced"
-    Your goal is to create a master sketch for a full robot that can complete all aspects of the game. Additionally, pick one of those subsystems that *directly interacts with the game piece* and cad it.
+    Your goal is to create a main layout sketch for a full robot that can complete all aspects of the game. Additionally, pick one of those subsystems that *directly interacts with the game piece* and cad it.
 
 [Game Manual](https://docs.google.com/document/d/1ynYfuKPXyR3cytz_HU-oRXMlP_4aaSq4HhAE19bZBNE/edit#heading=h.x9wc4itn09tl "Game Manual Link"){:target="_blank"}
 
