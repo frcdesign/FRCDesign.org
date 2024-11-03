@@ -7,7 +7,7 @@ Top-down design offers a holistic approach, allowing for better system integrati
 
 ### Main Layout Sketch
 
-To achieve this, a ***Main layout sketch*** is utilized. Sometimes these are also referred to as "master" sketches. The main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on layout sketches can be found on the [Layout Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Layout Sketch Best Practices Page"){:target="_blank"} page.
+To achieve this, a ***main layout sketch*** is utilized. Sometimes these are also referred to as "master" sketches. The main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. More information on layout sketches can be found on the [Layout Sketch Best Practices](../../../best-practices/mastersketch-setup.md "Layout Sketch Best Practices Page"){:target="_blank"} page.
 
 ???+ Example "Example Main Layout Sketch"
     <center><img src="\img\learning-course\stage1d\exampleMasterSketch.webp" style="width:60%"></center>
