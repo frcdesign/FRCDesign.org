@@ -22,7 +22,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts1.webp" style="width:100%">
-      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Master Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
+      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Main Layout Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
     </figure>
   </div>
 
@@ -67,7 +67,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
     </figure>
   </div>
 
-  <div class="mySlides fade">
+  <!-- <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts7.webp" style="width:100%">
       <figcaption>7. Add the seed instances of the holes for the bellypan.</figcaption>
@@ -102,12 +102,12 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
       </video>
       <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
     </figure>
-  </div>
+  </div> -->
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts11.webp" style="width:100%">
-      <figcaption>11. Clean up the sketch by moving the dimensions so that they are all visible. A clean sketch is important for readability of the CAD so that it is easily editable in the future.</figcaption>
+      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
     </figure>
   </div>
 
@@ -117,14 +117,14 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts12.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>12. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
+      <figcaption>8. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>13. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+      <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
   </div>
 
@@ -137,7 +137,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   </div>
 </div>
 
-### Derive Feature
+### Derived Feature
 
 In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
 

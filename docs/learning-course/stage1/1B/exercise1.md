@@ -19,6 +19,12 @@ In this exercise, you will be CADing and assembling a simple single stage gearbo
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
 
+### Layout Sketches
+
+A layout sketch is a sketch that captures the geometry of a design without specifying the exact details. 
+They are like the framing of a house—it defines the overall structure and relationships between key components, but doesn't include the finishing details like walls or paint. 
+Keeping the key dimensions in a layout sketch makes it easy to adjust when needed. We will utilize layout sketches for almost all designs moving forward.
+
 ### Part Studio Instructions
 **Navigate to the "Exercise #1 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio.
 
