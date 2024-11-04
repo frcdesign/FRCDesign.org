@@ -362,12 +362,16 @@ plugins:
       width: 90%
       shadow: true
   - search
+
+  # These plugins will only be included when deploying the website
   - group:
       enabled: !ENV CI
       plugins:
         - git-revision-date-localized:
             enable_creation_date: true
         - optimize
+
+  # These plugins will only be included when running insiders. 
   - group:
       enabled: !ENV INSIDERS
       plugins:

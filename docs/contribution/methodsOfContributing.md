@@ -1,14 +1,9 @@
----
-title: Methods of Contributing
-description: A guide to publically contributing to the website, including setting up an IDE and local preview for editing.
----
-
 # Methods of Contributing
 
 ## Public Contribution
 Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors.
 
-In [the discord server](https://discord.gg/jHXTdNjYCg "FRC Design Discord Server"){:target="_blank"}, go to the ["website-discussion" channel](https://discord.com/channels/1120162219502608426/1233961750639018104 "#website-discussion Discord Channel"){:target="_blank"} and ask if you can contribute the thing you want to by filling out this template:
+In [the discord server](https://discord.gg/jHXTdNjYCg), go to the ["website-feedback" channel](https://discord.com/channels/1120162219502608426/1233961750639018104) and ask if you can contribute the thing you want to by filling out this template:
 
     Issue/content:
     Solution or Notes about the execution of the content:
@@ -17,7 +12,7 @@ In [the discord server](https://discord.gg/jHXTdNjYCg "FRC Design Discord Server
 
 This is to make sure you don't waste your time if it's not something that won't get put on the website or something that someone has already started working on.
 
-If you're given approval to start working on it, an internal contributor will make a new post in the ["public-website-contribution" forum channel](https://discord.com/channels/1120162219502608426/1233993910817259663 "#public-website-contribution Discord Forum Channel"){:target="_blank"} or direct you an existing post to work with and supplement another contributor if the content or issue has already started to be addressed.
+If you're given approval to start working on it, an internal contributor will make a new post in the ["public-website-contribution" forum channel](https://discord.com/channels/1120162219502608426/1233993910817259663) or direct you an existing post to work with and supplement another contributor if the content or issue has already started to be addressed.
 
 When you start on your work, you may choose to either:
 
@@ -25,48 +20,98 @@ When you start on your work, you may choose to either:
 2. Work on an alternate platform such as Google Docs or Notion and let an internal contributor port it over to the website when you're done
 
 ## Setting up Github and VS Code For Contributing
-### Install Prerequisites
-Make sure to download the correct versions for the OS that you have (Windows, Mac, or Linux).
 
-Windows installers will almost always need to be the 64-bit version if there is a distinction.
+1. Install [Visual Studio Code](https://code.visualstudio.com/).
 
-- The latest version of [Git Bash](https://git-scm.com/downloads "Git Bash Download"){:target="_blank"}
-    - Follow instructions for your OS
-    - Use all default options for installation
-- [Python 3.10.6](https://www.python.org/downloads/release/python-3106/ "Python 3.10.6 Download"){:target="_blank"}
-    - When the installer opens, make sure to select "Add Python 3.10 to PATH" at the bottom and click "Install Now"
-    - For Windows users, you have the option of disabling the PATH length limit at the end; this can be helpful for other projects but is not required for contributing to the website
-- [VSCode](https://code.visualstudio.com/ "VSCode"){:target="_blank"}
+    - This should not be confused with Visual Studio, which has a Purple logo and is a different Microsoft product.
     - Download the stable build for your OS
     - Use all default options for installation, except creating a desktop icon if you want
-- [GitHub Desktop](https://desktop.github.com/ "Github Desktop"){:target="_blank"} (Optional - you can also use git interface in VSCode)
-    - After installing, select "Sign in to GitHub.com"
-    - Sign in or sign up for a new GitHub account, then click "Authorize Desktop"
-        - If you choose to sign up, you must verify your account with a captcha at the end of the registration and an emailed code
-        - If the captcha fails, try disabling a privacy extension that might be interfering
-        - Set up the rest of your account (you may choose to sign up for GitHub education but that isn't required, the free version is fine)
-        - If it doesn't take you to the authorization page after signing up, go back to the GitHub Desktop application, press "Cancel", the select "Sign in to GitHub.com" again
-    - Allow your browser to open GitHub Desktop
-    - Click "Finish"
-    
 
-### Steps to Start Writing Contributions
+2. Contributing involves managing and saving to an online copy of the website files saved on GitHub called a **repository**. Decide how you want to interact with your repository:
 
-**For Public Contributors:**
+    - **GitHub Desktop** uses a graphical menu with nice buttons to achieve all the different needed functions to interact with your repository. This requires a separate download but can be more intuitive for people newer to programming to access. Viewing commit (save) history and managing conflicts can also be made easier through this program. There is a tutorial for using GitHub Desktop lower on this page.
 
-1. Go to [the repository website](https://github.com/davidsdesignserver/FRCDesign.org "FRC Design Github Repository"){:target="_blank"}
-2. Click "Fork" near the top right, then click "Create Fork" on the next screen
-3. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
-4. Under "GitHub.com", select your forked ```[username]/FRCDesign.org``` repository  and click "Clone"
-5. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
+    - Instead of GitHub Desktop, you can choose to just use **VS Code**'s native git functions instead. This can lead to a faster workflow once you get it down, but can be less intuitive as it's all command- and text-based.
 
-**For Internal Contributors (added to the main repository):**
+3. Start by creating a GitHub account if you don't already have one.
+    - If you choose to sign up, you must verify your account with a captcha at the end of the registration and an emailed code
+    - If the captcha fails, try disabling a privacy extension that might be interfering
+    - Set up the rest of your account (you may choose to sign up for GitHub education but that isn't required, the free version is fine)
 
-1. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left
-2. Under "GitHub.com", select the ```davidsdesignserver/FRCDesign.org``` repository and click "Clone"
-3. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue"
+4. Create a 'fork' of the original repository. *Disregard if you are an internal contributor and have edit access to the original repository*
+    - Go to [the repository website](https://github.com/frcdesign/FRCDesign.org)
+    - Click "Fork" near the top right, then click "Create Fork" on the next screen
+    - Forking a repository means create a branch of the original website repository owned by you. You make your changes here, submit your changes to be reviewed, then they get merged into the original website repository.
 
-**How to Write and Pull Request Contributions**
+5. Now 'clone' the repository to your computer.
+    - Cloning a repository just means creating a copy of the repository's files on your computer for you to edit or run
+
+=== "GitHub Desktop"
+
+    **Set Up GitHub Desktop**
+
+    1. Install [GitHub Desktop](https://desktop.github.com/)
+    2. After installing, select "Sign in to GitHub.com"
+    3. Sign in with your GitHub account
+    4. Allow your browser to open GitHub Desktop
+    5. Click "Finish"
+
+    **Clone the Repository**
+
+    1. Open GitHub Desktop and select "Clone a repository from the Internet..." or go to ```file -> Clone repository...``` in the very top left.
+    2. Under "GitHub.com", select the repository (your forked ```[username]/FRCDesign.org``` repository) and click "Clone".
+    3. After it clones the repository (downloads a copy of it to your computer), it will ask how you plan to use the fork. Select "To contribute to the parent project" and click "Continue".
+    4. Click "Open in Visual Studio Code" on the homepage or under the `Repository` menu at the top.
+
+=== "VS Code"
+
+    1. Sign in to GitHub in VS Code by clicking the profile icon in the bottom left corner
+        - Follow the prompts in your browser to sign in
+    2. Open the Command Palette in VS Code (`Ctrl + Shift + P` or `F1` in some cases)
+    3. Search for and select "Git: Clone"
+    4. Type or paste the url to the repository you made by forking.
+    5. Select where you want to clone the repository with the file explorer
+    6. Open the folder you just cloned onto your computer using either the pop-up that shows up after it's finished cloning or `File > Open Folder`
+
+### Setting Up a Local Preview With Docker
+
+1. Install the "Dev Containers", and "Docker" extensions in VS Code. This can be done by clicking on the extensions icon on the left side of the screen, searching for the extension, and clicking install.
+
+2. Install Docker Desktop, either from [the website](https://www.docker.com/) or by searching for `Dev Containers: Install Docker` in the Command Palette (`Ctrl + Shift + P` or `F1` in some cases).
+    - The installation process will require you to restart your computer
+
+    - When opening Docker for the first time, you will be asked to "Sign in." You don't need to create an account; you can hit the skip button instead and it will still work.
+
+3. Open Docker Desktop and VS Code.
+
+4. In VS Code, open the Command Palette and search for and select `Dev Containers: Reopen in Container`.
+    - If you open VS Code after opening Docker, a pop-up may show up in the bottom right asking if you want to reopen VS Code in a container. This also works.
+    - VSCode should re-open inside a dev container. Note this may take a few minutes the first time you do it, but will be much faster on subsequent loads.
+
+5. Launch a local version of the website by pressing `Ctrl + Shift + B` (this runs the 'development' VS Code Task), then opening [localhost:8000](http://localhost:8000/) in your browser. 
+
+6. Make edits to `.md` files in `/docs` to contribute. Any changes you make should be reflected in the version of the website running on your browser.
+
+7. Use `Ctrl + C` to force the locally hosted website to stop when you're done.
+
+TIP: After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
+
+### Review/Summary of Steps to Repeat After Setup is Complete
+
+1. Open Docker Desktop
+2. Open VS Code (through either GitHub Desktop or just normally)
+3. Make sure the folder/workspace is open and it connects to the dev container.
+    - Sometimes it will automatically open the previous workspace it was last in and try to connect to the dev container. This will fail if Docker Desktop is not open.
+    - If the repository folder does not automatically open in VS Code, open it manually and run the `Dev Containers: Reopen in Container` command.
+    - GitHub Desktop will open VS Code in the current repository and branch selected
+    - The welcome page that opens in VS Code when a folder is not opened can be helpful for navigating to the previous workspace.
+4. Use the `Ctrl + Shift + B` keyboard shortcut to run the local preview.
+5. Open the local preview in your browser.
+6. Start editing.
+
+NOTE: When you switch branches using GitHub Desktop or VS Code, the your files and local preview will follow without any problems.
+
+## How to Write and Pull Request Contributions
 
 1. Create a new branch by going to the "Current branch" dropdown at the top of GitHub Desktop, pressing "New branch", naming it and clicking "Create branch".
     - Typically you want to make changes in branches (not main), then do what's called a "pull request" to get those changes "pulled" and merged over to the original main branch
@@ -78,28 +123,22 @@ Windows installers will almost always need to be the 64-bit version if there is 
     - The "Code Spell Checker" extension is suggested
     - Enable autosave in the ```file``` menu by toggling it on
 5. Make a set of changes.
-
-    !!! tip
-        All the website files and folders are contained in the ```docs``` folder, except the ```mkdocs.yml``` file which contains the directory for the sidebar of the website
+    - All the website files and folders are contained in the ```docs``` folder, except the ```mkdocs.yml``` file which contains the directory for the sidebar of the website
 
 6. Whenever you reach a good point to stop where you want to save your changes to the cloud, you want to make what's called a "commit", which is where the changes are saved to the branch. You then have to "push" any commits to get them uploaded to the cloud, otherwise they will remain local. You can do this through VS Code or GitHub Desktop, but we'll go through GitHub Desktop to keep all version control actions centralized there.
 7. Open Github Desktop and make sure "Changes" on the sidebar is selected. All changes selected in the sidebar will be added to the commit (the changes are "staged" for the commit). Type a summary of the commit (description optional) and press "Commit to [branch]".
 8. Click the button to push the commit(s) you've made to the cloud (either up above or in the middle of the screen).
-
-    !!! tip
-        Clicking the "Fetch origin" button will fetch any commits to the current branch that anyone else has made and pushed to the cloud
+    - Clicking the "Fetch origin" button will fetch any commits to the current branch that anyone else has made and pushed to the cloud
 
 9. To keep your code up to date with the original repository's main branch, open the "branch" menu at the top of the screen and click "Update from main". If some commits get pulled to your branch from main, you can push to update your branch in the cloud again.
-
-    !!! tip
-        Make sure to update your branch from main frequently! If you don't, you may have to resolve big conflicts between your changes and changes someone else made to main. If you encounter conflicts, just follow the prompts in GitHub Desktop to open the conflicts in VS Code and solve them there. Once all conflicts are resolved, switch back to GitHub Desktop to complete the merge.
+    - Make sure to update your branch from main frequently! If you don't, you may have to resolve big conflicts between your changes and changes someone else made to main. If you encounter conflicts, just follow the prompts in GitHub Desktop to open the conflicts in VS Code and solve them there. Once all conflicts are resolved, switch back to GitHub Desktop to complete the merge.
 
 10. Once you're satisfied enough with your set of changes to request to add them to the main website, and have committed all changes, checked for updates, and pushed all commits, create a pull request through the menu in the middle of GitHub Desktop. This will bring you to the website where you can describe the changes you made and want to pull to the website and assign an issue that it will fix. One of the internal contributors will review your pull request after you submit it and will either approve it and merge it with the main branch or make comments about things that need fixed before it can get merged.
 
 To recap the contribution steps, do the combination of creating and publishing a branch, making changes and commits, updating from main, pushing commits, and creating a pull request.
 
 
-### How to Get The Local Preview of the Website Running
+<!-- ### How to Get The Local Preview of the Website Running
 You can get a local hosted version of the website to have a live preview of the site while editing.
 
 1. Open the repository in VS Code (doesn't matter which branch)
@@ -112,9 +151,8 @@ You can get a local hosted version of the website to have a live preview of the 
 
 Make sure to run ```./runlocal.sh``` in Git Bash every time you open VS Code to edit.
 
-!!! Tip
-    After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
+Tip: After clicking on the terminal in the bottom panel, you can use Ctrl + C to terminate the local website hosting.
 
-!!! Note
-    When you switch branches using GitHub Desktop, the local preview will follow without any problems
+Note: When you switch branches using GitHub Desktop, the local preview will follow without any problems -->
 
+<br>
