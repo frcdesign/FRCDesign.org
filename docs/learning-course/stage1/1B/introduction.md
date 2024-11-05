@@ -20,31 +20,31 @@ Take a look below at some examples of different types of power transmissions fou
       <div id="slide1" class="mySlides fade">
           <figure>
               <img src="/img/learning-course/stage1b/examples/intakeRollers.webp" style="width:80%">
-              <figcaption> Belt and gear power transmission to spin intake rollers. </figcaption>
+              <figcaption> Belt and gear power transmission to spin intake rollers. (Photo Credit: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="/img/learning-course/stage1b/examples/intakePivot.webp" style="width:80%">
-              <figcaption> Gear and chain power transmission to pivot the intake. </figcaption>
+              <figcaption> Gear and chain power transmission to pivot the intake. (Photo Credit: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="/img/learning-course/stage1b/examples/shooter.webp" style="width:80%">
-              <figcaption> Belt and gear power transmission to spin shooter wheels.</figcaption>
+              <figcaption> Belt and gear power transmission to spin shooter wheels. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="/img/learning-course/stage1b/examples/ampArm.webp" style="width:60%">
-              <figcaption> Gear and chain power transmission to rotate a small arm. </figcaption>
+              <figcaption> Gear and chain power transmission to rotate a small arm. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
               <img src="/img/learning-course/stage1b/examples/armGearbox.webp" style="width:75%">
-              <figcaption> Gear and chain power transmission to rotate a large arm.</figcaption>
+              <figcaption> Gear and chain power transmission to rotate a large arm. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
       <!-- Next and previous buttons -->

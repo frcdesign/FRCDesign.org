@@ -12,8 +12,10 @@ In FRC, the three most common types of power transmissions are gears, chain and 
 
 Gears are mechanical devices with teeth that mesh with each other to transmit motion or power between rotating shafts. They're like wheels with teeth that fit together, allowing them to transfer torque, change speed, and change direction of rotation. 
 
-<center><img src="\img\learning-course\stage1b\gears\simpleGears.gif" style="width:40%"></center>
-<center>*A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.*</center>
+<figure>
+    <img src="\img\learning-course\stage1b\gears\simpleGears.gif" style="width:40%">
+    <figcaption>A simple animation of two gears meshing. Notice that meshed gears will spin in opposite directions.</figcaption>
+</figure>
 
 In order to change the torque and speed from the input to output, different sized gears must be used. Remember that the ratio is related to the number of teeth of the gears. Teeth will always mesh together one by one, but the number of teeth per revolution is different for different sized gears, causing a difference in angular speed even if the surface speed of the gear is the same. Click through the following slides to see a visualization of different gear ratios.
 
@@ -64,8 +66,10 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 Where DP stands for **diametral pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Handbook pages.
 
-<center><img src="\img\learning-course\stage1b\gears\gearDiagram.webp" style="width:70%"></center>
-<center>*Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).*</center>
+<figure>
+    <img src="\img\learning-course\stage1b\gears\gearDiagram.webp" style="width:70%">
+    <figcaption>Illustration of a gear's pitch diameter and outer diameter. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/gears">WCP</a>).</figcaption>
+</figure>
 
 ### Modeling Gear Transmissions
 

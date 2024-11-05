@@ -6,8 +6,10 @@
 
 Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
 
-<center><img src="\img\learning-course\stage1b\chain\chainAnimation.gif" style="width:40%"></center>
-<center>*A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.*</center>
+<figure>
+    <img src="\img\learning-course\stage1b\chain\chainAnimation.gif" style="width:40%">
+    <figpcation>A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.</figcaption>
+</figure>
 
 In order to change the torque and speed from the input to the output, different sized sprockets must be used. The mechanical advantage for chain transmissions, similar to gears and pulleys, is based on the ratio between the number of teeth of the output sprocket to the number of teeth of the input sprocket. Similar to pulleys, the sprockets will spin in the same direction.
 
@@ -25,8 +27,10 @@ Additionally, the **chain clearance diameter** describes the diameter of the spr
 
 Below is an illustration of the pitch, pitch diameter, outside diameter, and chain clearance diameter of a sprocket.
 
-<center><img src="\img\learning-course\stage1b\chain\chainDiagram.webp" style="width:70%"></center>
-<center>*Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)*</center>
+<figure>
+    <img src="\img\learning-course\stage1b\chain\chainDiagram.webp" style="width:70%">
+    <figcaption>Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)</figcaption>
+</figure>
 
 In FRC, #25 chain is most commonly used as it is strong yet relatively lightweight. #35 is sometimes used on very high torque transmissions, but it is heavy and bulky. 
 
@@ -52,7 +56,9 @@ One difficulty when designing with chain is that it will physically stretch as i
 In Stage 2, different chain tensioning methods are introduced in the context of different types of robot mechanisms. The [Design Handbook page](/design-handbook/ "Design Handbook Page"){:target="_blank"} also dives deeper into this topic.
 
 !!! Example "Example of Chain Tensioning"
-    <center><img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%"></center>
-    <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+    <figure>
+        <img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%">
+        <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+    </figure>
 
 <br>
