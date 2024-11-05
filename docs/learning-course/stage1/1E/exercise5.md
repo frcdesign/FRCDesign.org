@@ -7,8 +7,10 @@ Similar to battery mounting, good bumper mounting is often overlooked. While a r
 In the reference design, the threaded stud bumper mounting system is implemented. 
 
 !!! Example "Threaded Stud Bumper Mounting System"
-    <center><img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%"></center>
-    <center><figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption></center>
+    <figure>
+        <img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%">
+        <figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption>
+    </figure>
 
 
 ### Instructions

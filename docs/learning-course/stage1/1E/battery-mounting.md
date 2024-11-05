@@ -12,7 +12,9 @@ Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the b
 A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories "WCP Battery Accessories Product Page"){:target="_blank"} including battery holders and straps.
 
 !!! Example
-    <center><img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%"></center>
-    <center><figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption></center>
+    <figure>
+        <img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%">
+        <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
+    </figure>
 
 <br>
