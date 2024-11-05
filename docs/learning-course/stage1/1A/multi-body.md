@@ -13,9 +13,11 @@ Onshape is a software focused on a *top-down design* workflow using multi-part p
 Check out [this page](../../../best-practices/sub-document-setup.md "Sub-Document Best Practices Page"){:target="_blank"} to learn more about best practices for sub-documents. The following practice exercises will reinforce these concepts.
 
 !!! Example "Multi-Part Part Studio Example"
-    Notice how there's one instance of each unique part within this part studio. The part studio also resembles the completed product, as the parts are modeled relative to each other.
-    <center><img src="\img\learning-course\stage1a\1a-PartStudio.webp" width="55%"></center>
-    <center> *Example of a part studio* </center>
+    Notice how there's only one instance of each unique part within this part studio. The part studio resembles the completed product, as the parts are modeled relative to each other.
+    <figure>
+        <img src="\img\learning-course\stage1a\1a-PartStudio.webp" width="55%">
+        <figcaption> Example of a part studio</figcaption>
+    </figure>
 
 !!! Warning "<span style="font-size: 0.8rem !important;">**DO NOT MOVE PAST THIS POINT UNTIL YOU HAVE COMPLETED THE LEARNING COURSE ABOVE**</span>"
 
