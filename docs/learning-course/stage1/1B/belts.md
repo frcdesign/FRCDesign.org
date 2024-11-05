@@ -5,8 +5,10 @@
 Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another.
 
 
-<center><img src="\img\learning-course\stage1b\belt\beltAndPulley.webp" style="width:50%"></center>
-<center>*A belt and pulley transmission. (Image Source: [ReCalc](https://www.reca.lc/belts){:target="_blank"})*</center>
+<figure>
+  <img src="\img\learning-course\stage1b\belt\beltAndPulley.webp" style="width:50%">
+  <figpcation>A belt and pulley transmission. (Image Source: <a href="https://www.reca.lc/belts" target="_blank">ReCalc</a>)</figcaption>
+</figure>
 
 In order to change the torque and speed from the input to the output, different sized pulleys must be used. The mechanical advantage for belt transmissions, similar to gears, is based on the ratio between the number of teeth of the output pulley to the number of teeth of the input pulley. Note that unlike gears, pulleys will spin in the same direction.
 
