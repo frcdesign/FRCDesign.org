@@ -59,8 +59,10 @@ Every robot is also required to have a Robot Signal Light (RSL). An easy locatio
 
 **Add mounting for an RSL to your Stage 1D drivetrain.** You can take inspiration from the following image. 
 
-<center><img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%"></center>
-<center><figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption></center>
+<figure>
+    <img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%">
+    <figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption>
+</figure>
 
 ### Radio
 

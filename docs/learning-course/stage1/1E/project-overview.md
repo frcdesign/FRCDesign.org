@@ -25,7 +25,7 @@ So far, you’ve done the main layout sketches and modeled the frame and bare be
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 1E is provided.
 
 <figure>
-    <center><img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%"></center>
+    <img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%">
     <figcaption>Example of a fully detailed Stage 1E drivetrain.</figcaption>
 </figure>
 

@@ -5,8 +5,10 @@
 To make wiring the robot and later inspecting the wiring easier, enough space should be left around each electrical component. You should work with your electrical teammates to determine the best location for the various control system parts. Teams typically try to mount their electronics on the bellypan, permitted there is space. 
 
 !!! Example
-    <center><img src="\img\learning-course\stage2-drivebase\elec\elecPic.png" style="width:80%"></center>
-    <center><figcaption>Example layout of various different electronic components on a bellypan.</figcaption></center>
+    <figure>
+        <img src="\img\learning-course\stage2-drivebase\elec\elecPic.png" style="width:80%">
+        <figcaption>Example layout of various different electronic components on a bellypan. (Photo Credit: FRC 3647)</figcaption>
+    </figure>
 
 ### Electronic Components
 
