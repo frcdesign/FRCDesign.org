@@ -10,8 +10,8 @@ Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a
 
 !!! Example "Gusset Example"
     <figure>
-    <center><img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%"> </center>
-    <figcaption> A gusset connecting two tubes on a robot. </ficaption>
+      <img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%">
+      <figcaption> A gusset connecting two tubes on a robot. </ficaption>
     </figure>
 
 <br>
