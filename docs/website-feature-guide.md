@@ -38,7 +38,7 @@ There are several features across the website that, if missed, will make it hard
 ### Buttons
 Important Onshape documents for the page will be shown as a button like the one below:
 
-<center>[1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e?renderMode=0&uiState=663d81b7afce5246f0309e28 "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}</center>
+<center>[1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/v/5e27dcdfaa6b137b3ec9a15d/e/58894354f0152cd6485fe45e?renderMode=0&uiState=672c372521cf3443a4aab9ab "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}</center>
 
 ### Slideshows
 

@@ -31,7 +31,7 @@ While the exact implementation for each of these details will vary based on the 
 
 You can access the reference CAD model with the button below. It is based off of the Stage 1D drivebase.
 
-<center>[1E Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+<center>[1E Full Detail Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/v/c9bb5e13bb72fc02b89dc44a/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
 
 !!! Tip
     As you should have a good grasp of part modeling by now, feel free to use your own team's preferences to add details to your drivebase. This can be very open ended.
