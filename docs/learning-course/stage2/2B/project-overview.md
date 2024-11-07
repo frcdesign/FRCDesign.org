@@ -17,7 +17,7 @@ The project requirements are as follows:
 
 To design the arm, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
 
-<center>[**Dead Axle Reference Document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/w/168c72076cea4a10ae424f16/e/b3ca833c47e02e056cc1609f?renderMode=0&uiState=66c67dcad558b60d99f98938){:target="_blank" .md-button .md-button--primary } </center>
+<center>[**Dead Axle Reference Document**](https://cad.onshape.com/documents/f781e567eaf7542338c1c0fe/v/1815a4f82d6944c1bde30562/e/b3ca833c47e02e056cc1609f){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 
