@@ -1,8 +1,48 @@
 {
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.eol": "\n",
     "cSpell.words": [
+        "autohide",
+        "Beavertail",
         "bellypan",
         "Bellypans",
+        "configurables",
+        "Configurables",
         "Drivebase",
-        "leaderboards"
-    ]
+        "Drivebases",
+        "drivetrains",
+        "Drivetrains",
+        "Fabworks",
+        "featurescripts",
+        "Featurescripts",
+        "fontawesome",
+        "footerlink",
+        "frcdesign",
+        "glightbox",
+        "Hyperhive",
+        "krayon",
+        "Krayon",
+        "leaderboards",
+        "mastersketch",
+        "MNPJ",
+        "Onshape",
+        "Prequisites",
+        "pymdownx",
+        "slapdown",
+        "Slapdown",
+        "styleguide",
+        "superfences",
+        "twemoji",
+        "Uncreate",
+        "writeups"
+    ],
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
 }
