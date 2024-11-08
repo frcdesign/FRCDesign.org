@@ -1,35 +1,62 @@
 # The Stages
+Stage 0: Introduction to CAD
+- Introduces CAD and its importance in FRC
+- Teaches how to set up Onshape accounts and install essential Featurescripts and MKCad
+- Covers basic CAD theory and concepts like sketches and features
+- Explains Onshape interface navigation and Documents Page
 
-## Stage 0
-Setup (Estimated time: 30 minutes)
+Stage 1A: Onshape Fundamentals
+- Teaches basic sketching and part modeling through FRC-relevant exercises
+- Introduces mechanisms like tubes, gussets, and basic structural components
+- Covers assembly basics and mate types
+- Focuses on proper organization and naming conventions
 
-The objectives of Stage 0 are to set up an Onshape account, install necessary Featurescripts and MKCad, and familiarize students with basic Onshape navigation. Verification for this stage involves ensuring students have completed setup and can access their Onshape account.
+Stage 1B: Power Transmissions  
+- Introduces the origin cube
+- Introduces motors, shafts, bearings and power transmission components
+- Covers gear ratios, belt/chain drives, and mechanical advantage concepts
+- Provides exercises modeling simple gearboxes and power transmission assemblies, using origin cube functions 
 
-## Stage 1 Fundamentals (Estimated time: 8-16 hours)
-Stage 1 has several prerequisites from the Onshape Learning Center, including courses on Introduction to Sketching, Part Design Using Part Studios, Multi-Part Part Studios, and Onshape Assemblies. These prerequisites typically take 3-7 hours to complete, but are essential if a student is starting from 0 Onshape Experience.
+Stage 1C: Practice Mechanisms
+- Provides increasingly complex mechanism exercises with decreasing guidance
+- Includes mechanisms like shooters, intakes, and indexers
+- Introduces more COTS components and assembly techniques
+- Focuses on practical application of previously learned concepts
 
-The stage itself is divided into five modules:
+Stage 1D: Design Methodology - Simple Swerve Drivebase
+- Introduces top-down design methodology using layout sketches
+- Teaches proper origin placement and use of the Origin Cube
+- Walks through designing a basic swerve drive chassis
+- Covers organization of top-level robot assemblies
 
-- 1A focuses on basic FRC part modeling
+Stage 1E: Subsystem Workflow - Detailing the Drivebase
+- Covers the process of fully detailing a drivebase subsystem
+- Includes battery mounting, electronics placement, and bumper design
+- Teaches proper cable routing and component organization
+- Focuses on making assemblies manufacturable and maintainable
 
-- 1B covers power transmissions
+Stage 2A: Basic Shooter
+- Covers design of a flywheel shooter mechanism
+- Teaches concepts of compression, wrap, and exit velocity
+- Includes friction reduction and efficiency optimization
+- Provides practical shooter design workflow
 
-- 1C helps practice cad skills through a series of 8 exercises while introducing several new COTS parts
+Stage 2B: Dead Axle Pivot
+- Teaches design of robust pivot mechanisms
+- Covers concepts of friction, strength, and backlash
+- Includes proper bearing/bushing selection
+- Shows organization of moving assemblies
 
-- 1D introduces top-down design within the context of a robot and walks through starting a subsystem for a robot, creating a swerve drivetrain from main layout sketch to assembly. 
+Stage 2C: Slapdown Intake
+- Covers design of an over-the-bumper intake mechanism
+- Teaches intake design best practices and "golden rules"
+- Introduces concepts like zombie axles
+- Shows organization of complex moving assemblies
 
-- 1E teaches the general subsystem CAD workflow through adding onto the drivebase started in the prior module.
+Stage 2D: Cascade Elevator
+- Teaches design of cascade vs continuous elevators
+- Covers proper rigging, cable management, and tensioning
+- Includes elevator block selection and implementation
+- Shows organization of multi-stage linear motion assemblies
 
-Verification for Stage 1 involves checking project completion in the classroom, and making sure assemblies look right.
-Following Stage 1, there is a transition period to Stage 2 consisting of 10 practice projects designed to reinforce CAD skills.
-
-## Stage 2 Mechanism Design (Estimated time: 25-40 hours)
-Stage 2 consists of four main projects: a Shooter based on the 2020 game, a Dead Axle Pivot, a Slap Down Intake for the 2022 game, and a Cascade Elevator. Verification is based on project completion and iteration. It's important to encourage students to seek feedback and make improvements to their designs.
-
-## Stage 3: Full Robot Design
-Stage 3 is currently under construction. This page will be updated when it is complete. Stage 3 is focused on mechanism integration, and the process of modeling entire cohesive robots.
-
-## Stage 4: Advanced Design
-Stage 4 is currently under construction. THis page will be updated when it is complte. Stage 4 represents ongoing learning and specialization based on student interests and team needs. There is no set curriculum for this stage, as it's meant to be flexible and adaptable.
-
-<br>
+The course progressively builds complexity while reinforcing core concepts of CAD organization, mechanism design, and engineering best practices. It starts with basic CAD skills and culminates in complete complex mechanism designs.
