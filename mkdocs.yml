@@ -401,7 +401,7 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - meta
+  #- meta
     
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
