@@ -5,6 +5,7 @@ Stage 1A introduces students to fundamental CAD skills through a combination of 
 
 ## Learning Objectives
 Students will learn to:
+
 - Create and constrain basic sketches
 - Model simple parts using features like extrude and fillet
 - Work with multiple parts in a single part studio
@@ -16,6 +17,7 @@ Students will learn to:
 
 ### 1. Onshape Learning Courses
 Have students complete these courses in order:
+
 - Introduction to Sketching
 - Part Design Using Part Studios
 - Multi-Part Part Studios
@@ -25,6 +27,7 @@ Expected completion time: 2-4 hours per course
 
 ### 2. Practice Exercises
 Four guided exercises that apply course concepts to FRC components:
+
 1. Simple Box Tube: Basic sketching and feature creation
 2. Box Tube and Gusset Joint: Multiple parts in one studio
 3. Box Tube Frame: Using Featurescripts for FRC 
@@ -60,6 +63,7 @@ Expected completion time: 30-45 minutes per exercise
 
 ## Assessment
 Student work should demonstrate:
+
 - Fully constrained sketches
 - Proper feature and part organization
 - Correct use of Featurescripts
