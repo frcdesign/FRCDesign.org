@@ -43,7 +43,7 @@ The final section teaches the top-down design approach used in FRC robot design.
 
 ## Teaching Tips
 - Encourage use of the exercise solution documents for self-checking work
-- Use the Discord server as a resource for answering student questions if you dont know the answer
+- Ask us questions your students have that you are unable to answer in the discord server.
 - Emphasize organization and best practices throughout to build good habits
 - Dont be afraid to have students complete the excersises multiple times through to build proficiency
 
