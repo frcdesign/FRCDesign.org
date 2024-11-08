@@ -20,8 +20,6 @@ Have students complete these courses in order:
 
 - Introduction to Sketching
 - Part Design Using Part Studios
-- Multi-Part Part Studios
-- Onshape Assemblies
 
 Expected completion time: 2-4 hours per course
 

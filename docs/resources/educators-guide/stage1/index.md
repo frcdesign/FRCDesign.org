@@ -42,7 +42,6 @@ The final section teaches the top-down design approach used in FRC robot design.
 - Modeling a complete swerve drivebase
 
 ## Teaching Tips
-- Have students complete the Onshape learning courses before starting the FRC exercises
 - Encourage use of the exercise solution documents for self-checking work
 - Use the Discord server as a resource for answering student questions if you dont know the answer
 - Emphasize organization and best practices throughout to build good habits
