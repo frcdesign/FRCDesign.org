@@ -136,7 +136,7 @@ You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](
 </div>
 
 !!! success "Verification"
-    If all is done correctly your parts should weigh a combined 0.27lbs
+    Make sure to have you or a more experienced member/mentor of your team [review your CAD](focusing-on-improvement.md)! Your parts should weigh a combined 0.27 lbs.
 
 In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
 

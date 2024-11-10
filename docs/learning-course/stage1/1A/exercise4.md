@@ -116,7 +116,7 @@ You will utilize the [`Spacer` Featurescript](https://cad.onshape.com/documents/
 </div>
 
 !!! success "Verification"
-    If all is done correctly your assembly should have 5 Instances, and weigh approximately 0.56lbs.
+    Make sure to have you or a more experienced member/mentor of your team [review your CAD](focusing-on-improvement.md)! Your assembly should have 5 instances and weigh approximately 0.56 lbs.
 
 In this exercise, you practiced more advanced sketching and were introduced to the `Spacer` Featurescript. 
 
