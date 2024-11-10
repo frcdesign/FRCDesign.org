@@ -60,12 +60,12 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
 </div>
 
 !!! success "Verification"
-    Your tab manager should now looks like this:
+    Your tab manager should now look like this:
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtTabManager2.webp" style="width:100%">
     </figure>
 
-And that's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.
+That's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="_blank"}.
 
 
 <br>

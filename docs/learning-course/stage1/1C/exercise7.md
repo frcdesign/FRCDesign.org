@@ -181,8 +181,8 @@ If you have a 3D printer, this can be a good option.
   </div>
 </div>
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 37 Instances.
+!!! Success "Verification"
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 37 instances.
 
 
 <br>

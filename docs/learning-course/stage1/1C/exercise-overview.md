@@ -37,7 +37,7 @@ Focus on refining your CAD techniques and following best practices such as fully
 
 **Following the self-review guidelines outlined in [this page](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}** while going through these exercises will help you target the specific skills and practices you need to improve on.
 
-If you find that you still struggle without guidance on the later exercises, feel free to try and model more small mechanisms of your choice, making sure to get feedback on them from [the Discord Server](https://discord.gg/jHXTdNjYCg "David's Design Server Invite"){:target="_blank"} or your team.
+If you find that you still struggle without guidance on the later exercises, feel free to try and model more small mechanisms of your choice, making sure to get feedback on them from more experienced members/mentors of your team or [the Discord Server](https://discord.gg/jHXTdNjYCg "David's Design Server Invite"){:target="_blank"}.
 
 
 

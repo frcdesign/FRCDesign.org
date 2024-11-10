@@ -233,8 +233,8 @@ This helps ensure your time is spent where it makes the most impact, rather than
   </div>
 </div>
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 27 Instances.
+!!! Success "Verification"
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 27 instances.
 
 ### Section Views
 

@@ -11,7 +11,7 @@ Motors spin! They transform electrical energy supplied by the robot battery into
 
 ### CIM Class Motors
 
-In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, Vexpro Falcon 500, WCP Kraken x60, Rev NEO, and Rev Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
+In FRC, a number of different motor options are available, all with different advantages and use cases. The most common type of motor found in modern FRC is the "CIM class" motor. This includes the CIM, Mini-CIM, VEXpro Falcon 500, WCP Kraken x60, REV NEO, and REV NEO Vortex. While each of the CIM class motors have different speeds and power, they have two traits in common for modeling:
 
 * The motors' outer diameters can be represented with a 2.5" diameter circle (some are slightly smaller at 60mm/2.362").
 * The motors have anywhere from 2 to 11 holes for mounting, but all are on a 2" diameter bolt circle (See below image). The holes are #10-32 threaded, as #10-32 is the hardware standard for FRC COTS parts.

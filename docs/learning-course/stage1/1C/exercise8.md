@@ -205,7 +205,7 @@ In this exercise, you will use a [configurable 3D printed crush block](https://c
   </div>
 </div>
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 63 Instances.
+!!! Success "Verification"
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 63 instances.
 
 <br>
