@@ -115,7 +115,7 @@ You will utilize the [`Extrude Individual`, `Tube Converter`, and `Gusset` Featu
 </div>
 
 !!! success "Verification"
-    If all is done correctly your assembly should have 12 Instances, and weigh approximately 1.95lbs.
+    Make sure to have you or a more experienced member/mentor of your team [review your CAD](focusing-on-improvement.md)! Your assembly should have 12 instances and weigh approximately 1.95 lbs.
 
 In this exercise, you were introduced to yet another highly useful Featurescript for creating gussets. Additionally, notice that we only model 1 of each type of gusset in the part studio. For the tubes, we choose to model all of the tubes even though the two vertical tubes are the same - this is to make assembly more parametric since the tube would otherwise be difficult to mate.
 
