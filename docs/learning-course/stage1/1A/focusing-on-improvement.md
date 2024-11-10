@@ -45,6 +45,11 @@ After doing your exercise and taking the 5-minute break, **use the following ins
 
 5.  Examine the best practices presented in the reference. Ask yourself what you need to improve on to improve the readability and parametricity of your CAD. This may include naming things, using folders, and using general recommended CAD practices [outlined here](../../../../best-practices/).
 
+    ??? Note "**Why Follow Best Practices?**"
+        If making your CAD parametric and naming things adds time to your CAD, why do it? There are several reasons, but it can be boiled down to making it easier and faster to go back and make changes, for both you and anyone else. In reality, most time spent doing CAD, especially for a robot, will be making changes or redoing things. 
+        
+        You spend 5 minutes now to save hours in the future, so make it a habit!
+
 6. Final reflections:
     - How did you feel about your workflow and your time spent? Were there any parts of your CAD process that felt particularly slow? Anything you struggled on?
     - What caused you to struggle on those particular processes? Is there a certain lack of experience or knowledge that caused you to have difficulty there?

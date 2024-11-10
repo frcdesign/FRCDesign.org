@@ -1,6 +1,6 @@
 ## Summary
 
-Congratulations on completing Stage 1B! Keep up the good work! Remember that practice is key - the only way to get better is to model more.
+Congratulations on completing Stage 1B! Keep up the good work! Remember that practice and review are key - the only way to get better is to model more.
 
 Here is a quick summary of what you have achieved in stage 1B:
 

@@ -367,8 +367,8 @@ Make sure to add this to your Featurescripts if you have not already.
   </div>
 </div>
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 32 Instances.
+!!! Success "Verification"
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 32 instances.
 
 ### Parametric Modeling
 

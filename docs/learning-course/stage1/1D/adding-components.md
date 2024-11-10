@@ -75,7 +75,9 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 Make sure you sort the instances in your assembly into folders (i.e. frame, swerve modules) and name any patterns and replicates used. This will help you locate components in the assembly later down the line.
 
 !!! success "Verification"
-    If all is done correctly your assembly should weigh approximately 37.2lbs.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) 
+    
+    Your assembly should weigh approximately 37.2lbs.
 
     Your tab manager should have the following tabs and folder:
     <figure>

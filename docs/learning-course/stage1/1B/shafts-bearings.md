@@ -9,7 +9,7 @@ Bearings allow shafts to spin independently of plates and/or things to spin inde
 
 <figure>
     <img src="\img\learning-course\stage1b\bearingAndShaft.webp" style="width:75%">
-    <figcaption>A rounded 1/2" hex bearing (Left) and 1/2" rounded hex shaft (Right) (Image Source: WCP)</figcaption>
+    <figcaption>A 1/2" rounded hex bearing (Left) and 1/2" rounded hex shaft (Right) (Image Source: WCP)</figcaption>
 </figure>
 ### Example
 
@@ -29,7 +29,7 @@ Bushings are a cheap and low friction alternative to bearings and are used with 
 
 
 ### Modeling
-The easiest way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
+The easiest and most parametric way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
 
 For bearings, insert your desired bearing from the MKCad app.
 

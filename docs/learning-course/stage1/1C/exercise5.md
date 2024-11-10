@@ -142,8 +142,8 @@ This style of gearbox can be desired in some situations to meet packaging constr
   </div>
 </div>
 
-!!! note "Verification"
-    If all is done correctly your assembly should have 30 Instances.
+!!! Success "Verification"
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 30 instances.
 
 ### Interference Detection
 

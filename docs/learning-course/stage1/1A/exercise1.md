@@ -124,7 +124,7 @@ In FRC, robot structures are typically constructed out of aluminum box tubing, s
     Some sketches and features have been renamed (i.e. "Tube Profile"). You can rename sketches and features by hovering over the name in the dialogue box and clicking the pencil icon, or right clicking a sketch or feature in the feature list and clicking "rename". 
 
 !!! Success "Verification"
-    Make sure to have you or a more experienced member/mentor of your team review your CAD [following the instructions on the previous page](focusing-on-improvement.md)! Your box tube should weigh about 0.35 lbs. 
+    Make sure to have you and/or a more experienced member/mentor of your team review your CAD [following the instructions on the previous page](focusing-on-improvement.md)! Your box tube should weigh about 0.35 lbs. 
 
 
 
