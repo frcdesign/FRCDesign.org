@@ -239,7 +239,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 19 Instances and weigh approximately 2.3 lbs.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 19 Instances and weigh approximately 2.3 lbs.
 
 
 ### Configurable Parts

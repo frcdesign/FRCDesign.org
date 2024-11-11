@@ -2,7 +2,7 @@
 
 ## Review
 
-Make sure to review all the CAD you've done.
+Make sure to review all the CAD you've done using [the review instruction page](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}. If you copied the reference through the instruction slides, you can check against the solution document; otherwise, just exclude that step from the review.
 
 ## Summary
 
