@@ -197,7 +197,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md) Your assembly should have 27 instances.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 27 instances.
 
 In this exercise, you practiced more complex gearbox modeling and mating together larger assemblies. 
 
