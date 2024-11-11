@@ -8,7 +8,9 @@ For this exercise, you will create a simple frame and two gussets in the part st
 
 You will utilize the [`Extrude Individual`, `Tube Converter`, and `Gusset` Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise.
 
-- The `Gusset` Featurescript is an easy way to create gussets by selecting the locations of the holes the gusset should attach to.
+- The `Gusset` Featurescript is an easy way to create simple gussets by selecting the locations of the holes the gusset should attach to. 
+    - Usually you will want to manually sketch a gusset because you want more control over the shape of it, a more complex shape, or to make it more parametric.
+    - Using the holes of tubes created by tube converter can cause sketches and features to break when the length of the tube changes
 
 ### Instructions
 
