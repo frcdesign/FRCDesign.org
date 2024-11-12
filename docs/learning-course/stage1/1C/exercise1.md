@@ -205,7 +205,7 @@ Make sure to add this to your Featurescripts if you have not already.
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s23.webp" style="width:100%">
-      <figcaption>23. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offet by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
+      <figcaption>23. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offset by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
     </figure>
   </div>
 
