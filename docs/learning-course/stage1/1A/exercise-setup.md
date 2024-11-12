@@ -4,8 +4,8 @@
 **Make a copy of the Stage 1A Exercises Document** through the button below. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1A Exercise Solutions Document to check your work afterwards. You **do not** need to make a copy of the solutions document.
 
 <center>
-[1A Exercises Document](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/v/5e27dcdfaa6b137b3ec9a15d/e/58894354f0152cd6485fe45e?renderMode=0&uiState=672c372521cf3443a4aab9ab "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
-[1A Exercise Solutions Document](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/v/0d0add13ffa0613d114c93cc/e/fd6796321fb9611305e5ff7d "1A Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
+[1A Exercises Document (COPY THIS)](https://cad.onshape.com/documents/812b2974ed32b9c89e8f1e25/w/747e47444b6c685bd0bee334/e/58894354f0152cd6485fe45e "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
+[1A Exercise Solutions Document](https://cad.onshape.com/documents/1bdaed8e23446ffe70a851a4/w/37cd1a4984497b01d74e4c41/e/fd6796321fb9611305e5ff7d "1A Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
 </center>
 
 ### Copying a Document
