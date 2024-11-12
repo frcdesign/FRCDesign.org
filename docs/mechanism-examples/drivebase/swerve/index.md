@@ -15,7 +15,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A custom plate to keep the radio and breaker accessible, holes with grommets to allow wires to pass through the cross members
+    A drivebase with two cross tubes featuring holes with grommets to allow wires to pass through
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
@@ -23,7 +23,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    Designed using 2x1 WCP punched tubing for the perimeter, and 1x1 WCP punched tubing for the cross members, with a custom bellypan with a battery cage and the mounting for the electronics.
+    A drivebase featuring a "dropped frame" frame found on many robots in 2024
     
     [:octicons-arrow-right-24: 1678 Crescendo Drivebase](1678_2024_dt.md)
 
@@ -31,7 +31,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A drivebase using REV swerve modules and NEO motors, as well as mounting for electronics, such as motor controllers and the RoboRIO on a bellypan.
+    A drivebase featuring REV swerve modules and NEO motors
     
     [:octicons-arrow-right-24: 3005 Charged Up Drivebase](3005_2023_dt.md)
 
@@ -39,7 +39,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A drivebase using MK4i swerve modules. Punched tubing used for the whole frame, various electronics mounted to the bellypan and other parts of the drivebase.
+    A drivebase featuring a unique frame cutout for an UTB intake
     
     [:octicons-arrow-right-24: 6328 Crescendo Drivebase](6328_2024_dt.md)
 
@@ -47,7 +47,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A clean drivebase, with a pocketed bellypan, raised battery plate, electronic mounting and more. This drivebase and robot made it all all the way to Einstein finals in 2023.
+    A standard swerve drivebase with SDS MK4i modules and pocketed tubing
     
     [:octicons-arrow-right-24: 5460 Charged Up Drivebase](5460_2023_dt.md)
 
@@ -55,7 +55,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A central 2x2 cross member, a brainpan, and citrus bumper mounting plates.
+    A drivebase featuring an inverted bellypan, or "brainpan" for electronics mounting
     
     [:octicons-arrow-right-24: 972 Crescendo Drivebase](972_2024_dt.md)
 
