@@ -5,7 +5,9 @@ image: docs/img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp
 
 
 # Swerve Drivebases
-The drivebase is the single most important part of your robot, providing a bed for every other subsystem to build off. Examples of different drivebases can provide inspiration for electronics layout, bellypan shapes, and structural cross members for mounting, all of which can be a hard but crucial part of designing a robot, as accessibility and maintainability need to be preserved even as subsystems get placed on top of the robot.
+The drivebase is the single most important part of your robot, if you can't move, you can't score or play defense.
+All other mechanisms will also build on top of the drivebase.
+These examples can provide useful inspiration for electronics layout, bellypan design, and structural supports.
 
 ## Featured
 
@@ -15,7 +17,7 @@ The drivebase is the single most important part of your robot, providing a bed f
 
     ---
 
-    A drivebase with two cross tubes featuring holes with grommets to allow wires to pass through
+    A drivebase with two cross tubes featuring wire grommets
     
     [:octicons-arrow-right-24: 2910 Charged Up Drivebase](2910_2023_dt.md)
 
@@ -86,3 +88,5 @@ The drivebase is the single most important part of your robot, providing a bed f
 ### 2021 (Infinite Recharge @ Home)
 
 - [111's IR @ Home Drivebase](https://cad.onshape.com/documents/e82ea426e855038e49d02864/w/718b2c5ff33cd33e39664376/e/0b83d5f80ed251fa566e4b51){target = "_blank"}
+
+<br>
