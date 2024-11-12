@@ -269,48 +269,65 @@ nav:
 
   - Mechanism Examples:
       - mechanism-examples/index.md
-      - Swerve Drivebases:
-        - mechanism-examples/drivebase/swerve/index.md
-        - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
-        - 1678's Crescendo Drivebase: mechanism-examples/drivebase/swerve/1678_2024_dt.md
-        - 3005's Charged Up Drivebase: mechanism-examples/drivebase/swerve/3005_2023_dt.md
-        - 6328's Crescendo Drivebase: mechanism-examples/drivebase/swerve/6328_2024_dt.md
-        - 581's Crescendo Drivebase: mechanism-examples/drivebase/swerve/581_2024_dt.md
-        - 972's Crescendo Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
-      - Shooters:
-        - mechanism-examples/shooter/index.md
-        - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
-        - 6328's Crescendo Shooter: mechanism-examples/shooter/6328_2024_shooter.md
-        - 2910's Rapid React Shooter: mechanism-examples/shooter/2910_2022_shooter.md
-        - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
-        - 2910's IR @ Home / 2021 Offseason: mechanism-examples/shooter/2910_2021_shooter.md
-      - Slapdown Intakes:
-        - mechanism-examples/intake/slapdown/index.md
-        - 1678's Crescendo Flip Intake: mechanism-examples/intake/slapdown/1678_2024_intake.md
-        - 1778's Crescendo Flip Intake: mechanism-examples/intake/slapdown/1778_2024_intake.md
-        - 6423's Crescendo Slapdown Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
-        - 3847's Rapid React Springed Intake: mechanism-examples/intake/slapdown/3847_2022_intake.md
-        - 2910's IR @ Home / 2021 Offseason Slapdown Intake: mechanism-examples/intake/slapdown/2910_2021_intake.md
-      - 4 Bar Intakes:
-        - mechanism-examples/intake/4bar/index.md
-        - 1678's Rapid React Intake: mechanism-examples/intake/4bar/1678_2022_intake.md
-        - 6800's Rapid React Intake: mechanism-examples/intake/4bar/6800_2022_intake.md
-        - 4089's Rapid React Intake: mechanism-examples/intake/4bar/4089_2022_intake.md
-      - Continuous Elevators:
-        - mechanism-examples/elevator/continuous/index.md
-        - 1678's Charged Up Elevator: mechanism-examples/elevator/continuous/cable.md
-        - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/belt.md
-      - Cascade Elevators:
-        - mechanism-examples/elevator/cascade/index.md
-        - WCP's Greyt Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
-        - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2_stage_elevator.md
-        - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
-      - Pivots:
-        - mechanism-examples/pivots/index.md
-        - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
-        - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
-        - 1690 Lantern Gear Pivot: mechanism-examples/pivots/1690_2024_pivot.md
-        - 5460 Charged Up Belt Pivot: mechanism-examples/pivots/5460_2023_pivot.md
+      - Drivebases:
+        - Swerve:
+          - mechanism-examples/drivebase/swerve/index.md
+          - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
+          - 1678's Crescendo Drivebase: mechanism-examples/drivebase/swerve/1678_2024_dt.md
+          - 3005's Charged Up Drivebase: mechanism-examples/drivebase/swerve/3005_2023_dt.md
+          - 6328's Crescendo Drivebase: mechanism-examples/drivebase/swerve/6328_2024_dt.md
+          - 5460's Crescendo Drivebase: mechanism-examples/drivebase/swerve/5460_2023_dt.md
+          - 972's Crescendo Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
+        - Tank:
+          - mechanism-examples/drivebase/tank/index.md
+      - Intakes:
+        - Pivoting Intakes:
+          - mechanism-examples/intake/slapdown/index.md
+          - 1678's Crescendo Intake: mechanism-examples/intake/slapdown/1678_2024_intake.md
+          - 1778's Crescendo Intake: mechanism-examples/intake/slapdown/1778_2024_intake.md
+          - 6423's Crescendo Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
+          - 3847's Rapid React Intake: mechanism-examples/intake/slapdown/3847_2022_intake.md
+          - 2910's IR @ Home Intake: mechanism-examples/intake/slapdown/2910_2021_intake.md
+        - Linkage Intakes:
+          - mechanism-examples/intake/linkage/index.md
+          - 1678's Rapid React Intake: mechanism-examples/intake/linkage/1678_2022_intake.md
+          - 6800's Rapid React Intake: mechanism-examples/intake/linkage/6800_2022_intake.md
+          - 4089's Rapid React Intake: mechanism-examples/intake/linkage/4089_2022_intake.md
+        - UTB Intakes:
+          - mechanism-examples/intake/utb/index.md
+      - Game Piece Manipulation:
+        - Shooters:
+          - mechanism-examples/shooter/index.md
+          - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
+          - 6328's Crescendo Shooter: mechanism-examples/shooter/6328_2024_shooter.md
+          - 2910's Rapid React Shooter: mechanism-examples/shooter/2910_2022_shooter.md
+          - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
+          - 2910's IR @ Home Shooter: mechanism-examples/shooter/2910_2021_shooter.md
+        - Indexers:
+          - mechanism-examples/indexer/index.md
+        - End Effectors:
+          - mechanism-examples/end-effector/index.md
+      - Linear Extensions:
+        - Continuous Elevators:
+          - mechanism-examples/elevator/continuous/index.md
+          - 1678's Charged Up Elevator: mechanism-examples/elevator/continuous/1678_2023_elevator.md
+          - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/3847_2023_elevator.md
+        - Cascade Elevators:
+          - mechanism-examples/elevator/cascade/index.md
+          - WCP Greyt COTS Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
+          - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2_stage_elevator.md
+          - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
+        - Telescopes:
+          - mechanism-examples/telescope/index.md
+      - Rotating Mechanisms:
+        - Pivots:
+          - mechanism-examples/pivots/index.md
+          - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
+          - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
+          - 1690 Lantern Gear Pivot: mechanism-examples/pivots/1690_2024_pivot.md
+          - 5460 Dead Axle Pivot: mechanism-examples/pivots/5460_2023_pivot.md
+        - Turrets:
+          - mechanism-examples/turret/index.md
 
   - CAD Best Practices:
       - best-practices/index.md

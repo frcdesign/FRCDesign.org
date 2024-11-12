@@ -1,17 +1,17 @@
 ---
-title: Four-Bar Intake Examples
-image: docs/img/mechanism-examples/intake/4bar/1678_2022_intake.webp
+title: Linkage Intake Examples
+image: docs/img/mechanism-examples/intake/linkage/1678_2022_intake.webp
 ---
 
-# Four-Bar Intakes
+# Linkage Intakes
 
-The four-bar style of over-the-bumper intakes is very common in situations where your packaging is constrained vertically but not horizontally.
+The linkage deployed over-the-bumper intakes offer creative packaging and added compliance.
 
 ## Featured
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/intake/4bar/1678_2022_intake.webp){width=100%}](1678_2022_intake.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/linkage/1678_2022_intake.webp){width=100%}](1678_2022_intake.md)</center>
 
     ---
 
@@ -19,7 +19,7 @@ The four-bar style of over-the-bumper intakes is very common in situations where
     
     [:octicons-arrow-right-24: 1678's Rapid React Intake](1678_2022_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/4bar/6800_2022_intake.webp){width=100%}](6800_2022_intake.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/linkage/6800_2022_intake.webp){width=100%}](6800_2022_intake.md)</center>
 
     ---
 
@@ -27,7 +27,7 @@ The four-bar style of over-the-bumper intakes is very common in situations where
     
     [:octicons-arrow-right-24: 6800's Rapid React Intake](6800_2022_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/4bar/4089_2022_intake.webp){width=100%}](4089_2022_intake.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/linkage/4089_2022_intake.webp){width=100%}](4089_2022_intake.md)</center>
 
     ---
 

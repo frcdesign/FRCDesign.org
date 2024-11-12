@@ -4,7 +4,7 @@ title: Mechanism Examples
 
 # Mechanism Examples
 
-"Steal from the best, invent the rest" - Mike Corsetto, Head Coach of Team 1678. There's nothing that hasn't already been done; don't ever be afraid of taking inspiration from designs of other robots, especially when designing in a build season. Both for design reference and for learning about different executions of different mechanisms, a library of a wide variety of mechanisms is being compiled here.
+"Steal from the best, invent the rest" - Mike Corsetto, Head Coach of Team 1678. Don't ever be afraid of taking inspiration from designs of other robots. This page acts as a design reference and learning page for a wide variety of mechanisms.
 
 !!! Note
 
@@ -12,15 +12,17 @@ title: Mechanism Examples
 
 !!! Abstract "Contribution"
 
-    This library of mechanism examples could always be expanded. Follow the [methods of contributing page](../contribution/methodsOfContributing.md "Methods of Contributing Page") to add your own examples or help write "Behind the Design"s for existing examples.
+    This library of mechanism examples always needs expansion. Follow the [contribution guidelines](../contribution/methodsOfContributing.md "Methods of Contributing Page") to add your own examples or help write Behind the Design pages for existing examples.
 
+
+## Drivebases
 <div class="grid cards" markdown>
 
 -   <center>[![](../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp)](drivebase/swerve/index.md)</center>
 
     ---
 
-    Swerve drivebases with examples of electronics layout
+    Swerve drivebases, primarily COTS swerve modules
     
     [:octicons-arrow-right-24: Swerve Drivebases](drivebase/swerve/index.md)
 
@@ -28,39 +30,28 @@ title: Mechanism Examples
 
     ---
 
-    Tank drivebases are not used as commonly anymore with the proliferation of swerve, but they are still a good option in certain situations.
+    Tank drivebases, not commonly found on robots anymore
     
-    [:octicons-arrow-right-24: Tank Drivebases (Coming Soon)]()
+    [:octicons-arrow-right-24: Tank Drivebases (Coming Soon)](drivebase/tank/index.md)
 
--   <center>[![](../img/mechanism-examples/shooter/1678_2022_shooter.webp)](shooter/index.md)</center>
+</div>
+
+## Intakes
+<div class="grid cards" markdown>
+
+-   <center>[![](../img/mechanism-examples/intake/linkage/1678_2022_intake.webp)](intake/linkage/index.md)</center>
 
     ---
 
-    Mechanisms designed to shoot gamepieces
+    Over-the-bumper intakes deployed with a linkage, includes four-bar linkages
     
-    [:octicons-arrow-right-24: Shooters](shooter/index.md)
-
--   <center>[![](../img/mechanism-examples/turret/6036_2024_turret.webp)]()</center>
-
-    ---
-
-    Turrets are designed to rotate other mechanisms
-    
-    [:octicons-arrow-right-24: Turrets (Coming Soon)]()
-
--   <center>[![](../img/mechanism-examples/intake/4bar/1678_2022_intake.webp)](intake/4bar/index.md)</center>
-
-    ---
-
-    Over-the-bumper intakes deployed with a four-bar linkage
-    
-    [:octicons-arrow-right-24: Four-bar Intakes](intake/4bar/index.md)
+    [:octicons-arrow-right-24: Linkage Intakes](intake/linkage/index.md)
 
 -   <center>[![](../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp)](intake/slapdown/index.md)</center>
 
     ---
 
-    Over-the-bumper intakes deployed with a single pivot
+    Over-the-bumper intakes deployed on a single pivot
     
     [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
@@ -68,24 +59,49 @@ title: Mechanism Examples
 
     ---
 
-    Intakes that grab gamepieces by intaking them under the bumper
+    Intakes that acquire game pieces underneath the bumpers
     
-    [:octicons-arrow-right-24: Under The Bumper Intakes (Coming Soon)]()
+    [:octicons-arrow-right-24: Under-the-bumper Intakes (Coming Soon)](intake/utb/index.md)
+
+</div>
+
+## Game Piece Manipulation
+<div class="grid cards" markdown>
+
+-   <center>[![](../img/mechanism-examples/shooter/1678_2022_shooter.webp)](shooter/index.md)</center>
+
+    ---
+
+    Mechanisms designed to shoot game pieces
+    
+    [:octicons-arrow-right-24: Shooters](shooter/index.md)
 
 -   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)]()</center>
 
     ---
 
-    Indexers are designed to move the game pieces from on part of the robot to another. They can also perform other functions such as sorting or aligning the game pieces.
+    Mechanisms for transporting game pieces from one part of a robot to another
     
-    [:octicons-arrow-right-24: Indexers (Coming Soon)]()
+    [:octicons-arrow-right-24: Indexers (Coming Soon)](indexer/index.md)
+
+-   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)]()</center>
+
+    ---
+
+    Unique mechanisms for game piece scoring, sometimes combined with intaking
+    
+    [:octicons-arrow-right-24: End Effectors (Coming Soon)](end-effector/index.md)
+</div>
 
 
+
+## Linear Extensions
+<div class="grid cards" markdown>
 -   <center>[![](../img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp)](elevator/continuous/index.md)</center>
 
     ---
 
-    Elevators rigged continuously with belt or string
+    Elevators with continuous rigging
     
     [:octicons-arrow-right-24: Continuous Elevators](elevator/continuous/index.md)
 
@@ -94,34 +110,39 @@ title: Mechanism Examples
 
     ---
 
-    Elevators rigged in a cascading fashion, with each stage linked to the last
+    Elevators with cascade rigging
     
     [:octicons-arrow-right-24: Cascade Elevators](elevator/cascade/index.md)
+
+-   <center>[![](../img/mechanism-examples/telescope/2910_2023_telescope.webp)](telescope/index.md)</center>
+
+    ---
+
+    Telescoping extension mechanisms
     
+    [:octicons-arrow-right-24: Telescoping Extensions (Coming Soon)]()
+    
+</div>
+
+## Rotating Mechanisms
+<div class="grid cards" markdown>
 -   <center>[![](../img/mechanism-examples/pivots/2910/2910_2023_pivot.webp)](pivots/index.md)</center>
 
     ---
 
-    Different pivot designs, usually for arms
+    Mechanisms designed to rotate other mechanisms vertically
     
     [:octicons-arrow-right-24: Pivots](pivots/index.md)
 
--   <center>[![](../img/mechanism-examples/telescope/2910_2023_telescope.webp)]()</center>
+-   <center>[![](../img/mechanism-examples/turret/6036_2024_turret.webp)]()</center>
 
     ---
 
-    Extending arms to reach out and grab gamepieces, sometimes attached to a pivot or having a pivot attached.
+    Mechanisms designed to rotate other mechanisms horizontally
     
-    [:octicons-arrow-right-24: Telescoping Arms (Coming Soon)]()
-
--   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)]()</center>
-
-    ---
-
-    End effectors are the mechanisms that interact with the game pieces, such as intakes, shooters, and other manipulators, usually attached to another mechanism.
-    
-    [:octicons-arrow-right-24: End Effectors (Coming Soon)]()
+    [:octicons-arrow-right-24: Turrets (Coming Soon)](turret/index.md)
 
 </div>
+
 
 <br>
