@@ -22,8 +22,13 @@ They can be used to connect plates to the open face of tubes or to connect tubes
       <figcaption>Tube plugs can be used to create gusset-less tube to tube (left) and tube to plate (right) connections. (Photo Credits: FRC 4414, FRC 9442)</figcaption>
     </figure>
 
-This exercise also introduces you to the use of the the [Assembly Mirror Featurescript](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"} which is a useful tool to  help make your assembly more parametric.
-Make sure to add this to your Featurescripts if you have not already.
+This exercise also introduces you to the use of the the [`Assembly Mirror Featurescript`](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"}. Make sure to add this to your Featurescripts if you have not already. 
+
+- This featurescript generates allows you to mirror the position of a duplicate part in the assembly. 
+- This is often useful so you can avoid creating a duplicate part in the part studio (to preserve the Bill of Materials) and keep the assembly parametric.
+- The featurescript takes a part and a mirror plane and generates a pair of mate connectors to simulate an mirror in the assembly.
+- In the assembly, you simply have to copy the part and mate it to the mate connector on the other side. Show mate connnectors by pressing the `k` key.
+
 
 ### Part Studio Instructions
 
@@ -166,46 +171,46 @@ Make sure to add this to your Featurescripts if you have not already.
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/s18.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>18. In the assembly, we would like the location of the two plates to be fully parametric. Since Onshape does not support assembly mirroring, we can instead use the <code>Assembly Mirror</code> Featurescript which provides a workaround to assembly mirroring by generating a pair of mate connectors to simulate an assembly mirror. The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
+      <img src="/img/learning-course/stage1c/flat-intake/s18.webp" style="width:100%">
+      <figcaption>18. Using the tube sketch we created earlier in the part studio, we can now extrude the upper tube profile up to the mirrored plate's inside face. This ensures that the upper tube is parametric to changes in intake width.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s19.webp" style="width:100%">
-      <figcaption>19. Using the tube sketch we created earlier in the part studio, we can now extrude the upper tube profile up to the mirrored plate's inside face. This ensures that the upper tube is parametric to changes in intake width.</figcaption>
+      <figcaption>19. Convert the solid into a 2x1 thin-wall tube with 0.5" hole pattern spacing. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s20.webp" style="width:100%">
-      <figcaption>20. Convert the solid into a 2x1 thin-wall tube with 0.5" hole pattern spacing. </figcaption>
+      <figcaption>20. Create the bottom polycarbonate plate on the top face of the bottom tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s21.webp" style="width:100%">
-      <figcaption>21. Create the bottom polycarbonate plate on the top face of the bottom tube.</figcaption>
+      <figcaption>21. Model the roller shaft with the <code>Shaft</code> Featurescript. You can estimate the length first and then adjust it once you create the assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s22.webp" style="width:100%">
-      <figcaption>22. Model the roller shaft with the <code>Shaft</code> Featurescript. You can estimate the length first and then adjust it once you create the assembly.</figcaption>
+      <figcaption>22. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offet by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s23.webp" style="width:100%">
-      <figcaption>23. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offset by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
+      <video width="1920" controls>
+        <source src="/img/learning-course/stage1c/flat-intake/s23.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>23. Use the Assembly Mirror Featurescript (you can add this using the link above the slides). The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
     </figure>
   </div>
 
@@ -244,7 +249,7 @@ Make sure to add this to your Featurescripts if you have not already.
         <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates and tubes with the origin cube. Fasten the cube to the origin.</figcaption>
+      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the ONLY plates and tubes with the origin cube. Fasten the cube to the origin.</figcaption>
     </figure>
   </div>
 
