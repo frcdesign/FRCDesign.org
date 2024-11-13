@@ -1,3 +1,3 @@
-# Telescopes
+# Telescope Extensions
 
 **Coming Soon**

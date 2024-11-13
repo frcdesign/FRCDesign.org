@@ -107,7 +107,6 @@ title: Mechanism Examples
 
 
 -   <center>[![](../img/mechanism-examples/elevator/cascade/wcp_greyt_elevator.webp)](elevator/cascade/index.md)</center>
--   <center>[![](../img/mechanism-examples/elevator/cascade/wcp_greyt_elevator.webp)](elevator/cascade/index.md)</center>
 
     ---
 

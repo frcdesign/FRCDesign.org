@@ -3,7 +3,7 @@ image: docs/img/mechanism-examples/elevator/continuous/1678_2023_elevator.webp
 ---
 
 # Continuous Elevators
-Continuous elevators are great when you need a lot of extension distance, high stage overlap, or elevator passthrough.
+Continuous elevators are characterized by the *continuous* loop of cable or belt that drives the final stage. The intermediary stages are not directly driven.
 
 ## Featured
 
@@ -13,7 +13,7 @@ Continuous elevators are great when you need a lot of extension distance, high s
 
     ---
 
-    Continous elevator driven by string. The spool is driven by 2 motors.
+    External cable driven 2-stage elevator using COTS bearing blocks with a unique open-top carriage
     
     [:octicons-arrow-right-24: 1678's Charged Up Elevator](1678_2023_elevator.md)
 
@@ -21,10 +21,16 @@ Continuous elevators are great when you need a lot of extension distance, high s
 
     ---
 
-    A belt driven continous elevator with constant force springs to help the motor.
+    External timing belt driven 2-stage continuous elevator with constant force springs and COTS bearing blocks
     
     [:octicons-arrow-right-24: 3847's Charged Up Elevator](3847_2023_elevator.md)
 
 </div>
+
+<br>
+
+## More Examples
+
+**Coming Soon**
 
 <br>
