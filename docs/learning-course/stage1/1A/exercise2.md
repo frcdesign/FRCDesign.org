@@ -87,7 +87,7 @@ You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1a/exercises/e2/e2s6.webp" style="width:100%; data-description="6. Use the `Offset Entities` tool to offset the construction geometry 0.25 inches. This will be the outline of the gusset."">
-      <figcaption>6. Use the <code>Offset Entities</code> tool to offset the construction geometry 0.25". This will be the outline of the gusset. </figcaption>
+      <figcaption>6. Use the <code>Offset</code> tool to offset the construction geometry 0.25". This will be the outline of the gusset. </figcaption>
     </figure>
   </div>
 

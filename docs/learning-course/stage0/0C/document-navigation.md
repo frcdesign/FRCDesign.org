@@ -13,7 +13,7 @@ An Onshape document is not a CAD file, but a container that holds data related t
     - **Tab bar:** Organizes different tabs in the document. Can be sorted into folders. Add new folders and tabs to the document by clicking the plus on the bottom left.
     - **Left Side (Feature/Part/Instance/Mate List)**: Breaks down how parts/assembly was made.
 
-    <center> <img src="/img/learning-course/stage0/navigation/documentNavigationLabeled.webp" style="width:90%; border:5px solid #ADADAD"></center>
+    <center> <img src="/img/learning-course/stage0/navigation/document-navigation-labeled.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
     The space in the middle is called the graphics area. You can interact with the model by selecting entities or rotating the view. 
 

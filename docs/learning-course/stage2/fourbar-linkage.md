@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # 2x: Four-bar Linkage
 
 Work In Progress
