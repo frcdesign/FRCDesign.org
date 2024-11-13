@@ -11,10 +11,10 @@ Time to practice! Start by **make a copy of the Stage 1B Exercises Document** th
 
 ## Exercise 1: Simple Gearbox 
 
-In this exercise, you will be CADing and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../../stage0/0B/MKCad/ "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
+In this exercise, you will be CADing and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
 
 !!! Warning
-    As this is the first exercise where MKCAD is being used, please be sure you have it added by following [the tutorial in Stage 0!](../../../stage0/0B/MKCad/ "Adding MKCAD Tutorial Page"){:target="_blank"} MKCAD is a parts library for FRC used for inserting COTS components into assemblies.
+    As this is the first exercise where MKCAD is being used, please be sure you have it added by following [the tutorial in Stage 0!](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} MKCAD is a parts library for FRC used for inserting COTS components into assemblies.
 
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
