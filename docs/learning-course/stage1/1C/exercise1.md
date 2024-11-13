@@ -276,7 +276,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a4.webp" style="width:100%">
-      <figcaption>4. Insert the motor and roller pulleys. Fasten them into place and then fasten the roller shaft. </figcaption>
+      <figcaption>4. Insert the motor and roller pulleys and fasten them into place. </figcaption>
     </figure>
   </div>
 
