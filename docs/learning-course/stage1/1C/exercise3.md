@@ -25,7 +25,8 @@ Take a look below at some examples of 3D-printed pulleys with different types of
     </figure>
 
 !!! Warning
-    If you try to use 3D-printed pulleys for anything with load on it, the bore can very easily strip out. In situations where you want to use 3D-printed pulleys for something with load, use press-fit metal inserts or pinion gears.
+    Since 3D-printed pulley bores are easily worn out, you should try to always use a metal insert or a pinion gear insert.
+    A cheap alternative to buying COTS inserts is to order them from a laser cutting service like [Fabworks](fabworks.com "Fabworks Sheet Metal Cutting"){:target="_blank"}. In large quantities (~20 pieces), they only cost around $1 each.
 
 ### Nut Strips
 Nut strips are a very versatile structural component often used to connect perpendicular plates or a plate to a tube.
