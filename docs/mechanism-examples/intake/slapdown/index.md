@@ -1,11 +1,11 @@
 ---
-title: Slapdown Intake Examples
+title: Pivoting Intake Examples
 image: docs/img/mechanism-examples/intake/slapdown/6423_2024_intake.webp
 ---
 
-# Slapdown Intakes
+# Pivoting Intakes
 
-The slapdown style of "Over the Bumper" intakes is very common in situations where your packaging is constrained horizontally, but not vertically.
+Pivoting, or "slapdown", intakes offer fast deployment and fine control of intake positioning.
 
 ## Featured
 
@@ -15,7 +15,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     ---
 
-    A slapdown intake that uses a motor attached to custom gearing to rotate the intake in and out of frame perimeter. With polycarb tubing used as rollers to intake the notes. Designed to intake Crescendo foam rings.
+    A motor powered slapdown intake with polycarbonate rollers for intaking notes
     
     [:octicons-arrow-right-24: 1678's Crescendo Slapdown Intake](1678_2024_intake.md)
 
@@ -23,7 +23,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     ---
 
-    A crescendo intake, deployed using a single pivot. The intake has 2 front rollers to initially grab the foam rings, and 2 back rollers to feed the ring into the robot. The intake uses polycarbonate to help improve durability against impacts.
+    A motor powered slapdown intake with a zombie axle pivot for intaking notes
     
     [:octicons-arrow-right-24: 1778's Crescendo Slapdown Intake](1778_2024_intake.md)
 
@@ -31,7 +31,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     ---
 
-    Uses rollers to center a piece against bent polycarb, then flips it back for a passthrough. Examples of how to mount cameras and sensors to allow more automation
+    A motor powered pivoting intake that flips up for a handoff
     
     [:octicons-arrow-right-24: 6423's Crescendo Flip Intake](6423_2024_intake.md)
 
@@ -39,7 +39,7 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     ---
 
-    Uses polycarb rollers intake the ball into the feeder. The intake is pitched up and down by a single brushless motor. There is a spring attached to the intake pivot to help the motor bring the intake back up. 
+    A spring powered pivoting intake that allows for the pivot motor to be the same as the roller motor
     
     [:octicons-arrow-right-24: 3847's Rapid React Springed Intake](3847_2022_intake.md)
 
@@ -47,8 +47,10 @@ The slapdown style of "Over the Bumper" intakes is very common in situations whe
 
     ---
 
-    This intake was built for Infinite Recharge, to intake foam balls. It uses a pneumatic cylinder to deploy the intake, on a single pivot. On the end of the intake, there is a roller with 3D printed vector intake wheels to help center the ball into the intake.
+    A pneumatically actuated intake with vectoring wheels for centering Infinite Recharge balls
     
-    [:octicons-arrow-right-24: 2910's IR @ Home / 2021 Offseason Pnuematic Intake](2910_2021_intake.md)
+    [:octicons-arrow-right-24: 2910's IR @ Home Pneumatic Intake](2910_2021_intake.md)
 
 </div>
+
+<br>

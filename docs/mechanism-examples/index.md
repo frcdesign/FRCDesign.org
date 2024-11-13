@@ -39,6 +39,14 @@ title: Mechanism Examples
 ## Intakes
 <div class="grid cards" markdown>
 
+-   <center>[![](../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp)](intake/slapdown/index.md)</center>
+
+    ---
+
+    Over-the-bumper intakes deployed on a single pivot
+    
+    [:octicons-arrow-right-24: Pivoting Intakes](intake/slapdown/index.md)
+
 -   <center>[![](../img/mechanism-examples/intake/linkage/1678_2022_intake.webp)](intake/linkage/index.md)</center>
 
     ---
@@ -46,14 +54,6 @@ title: Mechanism Examples
     Over-the-bumper intakes deployed with a linkage, includes four-bar linkages
     
     [:octicons-arrow-right-24: Linkage Intakes](intake/linkage/index.md)
-
--   <center>[![](../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp)](intake/slapdown/index.md)</center>
-
-    ---
-
-    Over-the-bumper intakes deployed on a single pivot
-    
-    [:octicons-arrow-right-24: Slapdown Intakes](intake/slapdown/index.md)
 
 -   <center>[![](../img/mechanism-examples/intake/utb/3005_2024_intake.webp)]()</center>
 
