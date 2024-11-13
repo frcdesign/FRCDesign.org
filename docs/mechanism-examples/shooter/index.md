@@ -15,7 +15,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     ---
 
-    For 9.5" balls, with a rack hood and a limelight mount
+    A ball shooter featuring a rack gear actuated hood and hood rollers
     
     [:octicons-arrow-right-24: 1678's Rapid React Shooter](1678_2022_shooter.md)
 
@@ -23,7 +23,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     ---
 
-    Made to launch 14" diameter foam rings. Different sides are driven seperately to add spin to the ring.
+    A ring shooter with independently driven halves to increase spin
     
     [:octicons-arrow-right-24: 6328's Crescendo Shooter](6328_2024_shooter.md)
 
@@ -31,7 +31,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     ---
 
-    Made for for shooting Rapid React balls, while staying rigid. Includes flywheels, a limelight mount as well as a hood that is also designed to be climbed on.
+    A ball shooter with a multipurpose hood for aiming and climbing
     
     [:octicons-arrow-right-24: 2910's Rapid React Shooter](2910_2022_shooter.md)
 
@@ -39,7 +39,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     ---
 
-    Made for for shooting Rapid React balls, using a hood to aim to balls vertically, and a turret to aim horizontally.
+    A ball shooter with an adjustable hood and turret
     
     [:octicons-arrow-right-24: 6800's Rapid React Shooter](6800_2022_shooter.md)
 
@@ -47,7 +47,7 @@ For all your piece launching needs. Shooter designs vary slightly with different
 
     ---
 
-    Made for for shooting 7" foam balls, with a hood and flywheel design.
+    A compact ball shooter with back rollers and a heavy flywheel
     
     [:octicons-arrow-right-24: 2910's IR @ Home / 2021 Offseason Shooter](2910_2021_shooter.md)
 </div>

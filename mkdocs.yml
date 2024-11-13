@@ -303,10 +303,10 @@ nav:
           - 2910's Rapid React Shooter: mechanism-examples/shooter/2910_2022_shooter.md
           - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
           - 2910's IR @ Home Shooter: mechanism-examples/shooter/2910_2021_shooter.md
-        - Indexers:
-          - mechanism-examples/indexer/index.md
         - End Effectors:
           - mechanism-examples/end-effector/index.md
+        - Indexers:
+          - mechanism-examples/indexer/index.md
       - Linear Extensions:
         - Continuous Elevators:
           - mechanism-examples/elevator/continuous/index.md

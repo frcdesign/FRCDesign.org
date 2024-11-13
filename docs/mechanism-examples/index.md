@@ -76,14 +76,6 @@ title: Mechanism Examples
     
     [:octicons-arrow-right-24: Shooters](shooter/index.md)
 
--   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)]()</center>
-
-    ---
-
-    Mechanisms for transporting game pieces from one part of a robot to another
-    
-    [:octicons-arrow-right-24: Indexers (Coming Soon)](indexer/index.md)
-
 -   <center>[![](../img/mechanism-examples/end-effector/3005_2023_ee.webp)]()</center>
 
     ---
@@ -91,6 +83,14 @@ title: Mechanism Examples
     Unique mechanisms for game piece scoring, sometimes combined with intaking
     
     [:octicons-arrow-right-24: End Effectors (Coming Soon)](end-effector/index.md)
+    
+-   <center>[![](../img/mechanism-examples/indexer/2910_2024_indexer.webp)]()</center>
+
+    ---
+
+    Mechanisms for transporting game pieces from one part of a robot to another
+    
+    [:octicons-arrow-right-24: Indexers (Coming Soon)](indexer/index.md)
 </div>
 
 
