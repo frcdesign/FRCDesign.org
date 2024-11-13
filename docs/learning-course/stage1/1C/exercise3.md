@@ -80,7 +80,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/shooter/s4.webp" style="width:100%">
-      <figcaption>4. Mirror the plate across the Right plane. We use a mirror since the opposite side plate is the same except for an extra cutout for the motors.</figcaption>
+      <figcaption>4. Extrude the plate as 1/4", then mirror it across the Right plane. We use a mirror because the opposite side plate is the same except for an extra cutout for the motors.</figcaption>
     </figure>
   </div>
 
@@ -94,7 +94,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/shooter/s6.webp" style="width:100%">
-      <figcaption>6. Model the shooter wheel and feeder wheel shaft. You can estimate the length first and then set the final length after assembling the assembly.</figcaption>
+      <figcaption>6. Model the shooter wheel and feeder wheel shaft. You can estimate the length or offsets first and then correct it after completing the assembly.</figcaption>
     </figure>
   </div>
 
