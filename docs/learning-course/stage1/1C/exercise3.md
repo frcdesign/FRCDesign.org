@@ -7,23 +7,26 @@ For exact feature details, you should refer to the exercise solutions document.
 This is to prepare you for later exercises that are gradually less guided.
 
 In this exercise, you will be modeling a very simple 2.5" ball shooter. 
-This mechanism features 3D printed pulleys, a 3D printed ramp, and nut strips. Be sure to pay attention to layout sketches when modeling. 
+This mechanism features 3D-printed pulleys, a 3D-printed ramp, and nut strips. Be sure to pay attention to layout sketches when modeling. 
 
-### 3D Printed Pulleys
+### 3D-printed Pulleys
 Thus far, you've only utilized COTS pulleys in your assemblies. 
-However, 3D printed pulleys are a fantastic alternative since they are cheaper, readily available (assuming you have a 3D printer), and highly customizable.
-<!-- Most applications that utilize pulleys (rollers, shooter wheels, etc) are low torque so 3D printed pulleys provide more than adequate strength. -->
+However, 3D-printed pulleys are a fantastic alternative since they are cheaper, readily available (assuming you have a 3D printer), and highly customizable.
+<!-- Most applications that utilize pulleys (rollers, shooter wheels, etc) are low torque so 3D-printed pulleys provide more than adequate strength. -->
 
-3D printed pulleys can easily be generated using pulley generators, such as the one included in MKCad.
-Close attention must be paid to the shaft interface however. 3D printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapater Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
-Take a look below at some examples of 3D printed pulleys with different types of inserts. 
+3D-printed pulleys can easily be generated using pulley generators, such as the one included in MKCad.
+Close attention must be paid to the shaft interface however. 3D-printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapater Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
+Take a look below at some examples of 3D-printed pulleys with different types of inserts. 
 
-???+ example "3D Printed Pulley Inserts"
+???+ example "3D-printed Pulley Inserts"
     <figure>
       <img src="/img/learning-course/stage1c/shooter/3dp-pulleys.webp" style="width:80%">
-      <figcaption>3D printed pulleys with hex insert for hex shaft (left), SplineXS insert for Kraken motors (center), and pinion gear insert for NEO/CIM motors (right). </figcaption>
+      <figcaption>3D-printed pulleys with hex insert for hex shaft (left), SplineXS insert for Kraken motors (center), and pinion gear insert for NEO/CIM motors (right). </figcaption>
     </figure>
 
+!!! Warning
+    Since 3D-printed pulley bores are easily worn out, you should try to always use a metal insert or a pinion gear insert.
+    A cheap alternative to buying COTS inserts is to order them from a laser cutting service like [Fabworks](fabworks.com "Fabworks Sheet Metal Cutting"){:target="_blank"}. In large quantities (~20 pieces), they only cost around $1 each.
 
 ### Nut Strips
 Nut strips are a very versatile structural component often used to connect perpendicular plates or a plate to a tube.
@@ -108,7 +111,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
         <source src="/img/learning-course/stage1c/shooter/s8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Use the <code>Fillet All Edges</code> Featurescript to add a 3/16" radius fillet to all of the 3D printed part edges. To select the face of the part, you can utilize the <code>Isolate</code> tool, which will make all other components that are not currently selected transparent or hidden.</figcaption>
+      <figcaption>8. Use the <code>Fillet All Edges</code> Featurescript to add a 3/16" radius fillet to all of the 3D-printed part edges. To select the face of the part, you can utilize the <code>Isolate</code> tool, which will make all other components that are not currently selected transparent or hidden.</figcaption>
     </figure>
   </div>
 

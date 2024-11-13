@@ -18,24 +18,24 @@
 5. Model any unique crushblocks
 
     !!! Info 
-        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../../design-handbook\structure\structure.md "Structure Handbook Page"){:target="_blank"}.
+        Crushblocks and tube plugs are commonly used for most superstructures and elevators nowadays. Find out what they are and why they're useful on [the design handbook page about structure](../../../design-handbook/structure/structure.md "Structure Handbook Page"){:target="_blank"}.
 
-<figure markdown="span">
-    <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
-    <figcaption> Finished elevator tubes </figcaption>
-</figure>
+    <figure markdown="span">
+        <img src="/img/learning-course/stage2-elevator/tubesAndCrushblocks.webp" style="width:75%">
+        <figcaption> Finished elevator tubes </figcaption>
+    </figure>
 
-6. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
-7. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit "TTB Chain Comb Product Page"){:target="_blank"} into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
-8. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
-9. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
-10. Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit "TTB Cable Clamp Product Page"){:target="_blank"} into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
-11. Add holes for the tube plugs on the crossmember.
-12. Create the chain transmission, including the chain, any custom spacers, and axles
-13. Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable
-14. Add plates at the bottom of the elevator to support the MAXplanetary shafts.
-15. Optionally, derive nut strips and a ratchet plate for the carriage and create the shaft for the rigging to be tied to.
-16. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
+1. Decide where you want your rigging (rope) and model it with a path, profile, and sweep.
+2. Derive the [TTB chain comb](https://www.thethriftybot.com/products/elevator-25h-chain-drive-kit "TTB Chain Comb Product Page"){:target="_blank"} into place on a first stage tube. This is for knowing how much to space the chain off from the tubes.
+3. Sketch the chain transmission and crossmember, including the bearing holes for the sprockets.
+4. Create the plates and tube for the crossmember. The clamp for the rigging will be mounted to the crossmember, but it's also for the rigidity of the base stage.
+5.  Derive the [TTB cable clamp](https://www.thethriftybot.com/products/elevator-dyneema-pulley-kit "TTB Cable Clamp Product Page"){:target="_blank"} into place on the crossmember and create mounting holes for it, and a crushblock if bolting all the way through the tube.
+6.  Add holes for the tube plugs on the crossmember.
+7.  Create the chain transmission, including the chain, any custom spacers, and axles
+8.  Derive some maxplanetary parts to build the gearbox around. Create spacers and mounting for both maxplanetaries. Make sure to leave them easily accessible and replaceable
+9.  Add plates at the bottom of the elevator to support the MAXplanetary shafts.
+10. Optionally, derive nut strips and a ratchet plate for the carriage and create the shaft for the rigging to be tied to.
+11. Create a reference mate in the middle of the base tube, owned by the origin cube, to later mate the subassemblies together with.
 
 <figure markdown="span">
     <img src="/img/learning-course/stage2-elevator/elevatorPartStudio.webp" style="width:75%">

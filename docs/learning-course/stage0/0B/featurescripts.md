@@ -15,7 +15,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
 
 3. Add the `Belt & Chain Gen` Featurescript from the [Belt & Chain Gen Document](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
 
-4. Add the `Part Lighten` Featurescript from [2471's Featurescript Document](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"}
+4. Add the `Part Lighten` Featurescript from [2471's Featurescript Document](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} (click the "Lightening Gen" folder when after clicking "add custom features")
 
 !!! Video "Video Tutorial"
     <video width="1920" controls="true" allowfullscreen="true">
@@ -23,7 +23,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
       Your browser does not support the video tag.
     </video>
 
-    <center>*Repeat this process for all the other Featurescript documents.*</center>
+    <center>***Repeat this process for all the other Featurescript documents.***</center>
 
 Once you have set up your account and added MKCad and necessary featurescripts, you are ready for the next stage!
 

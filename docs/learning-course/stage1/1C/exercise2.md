@@ -192,7 +192,7 @@ This exercise introduces you to the use of the [Configurable Rollers Document](h
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Insert the Configurable Roller assembly from the link at the top of this page. 
-                  Follow the settings exactly as described to generate a 20" wide, 2" OD roller with 24T HTD 5mm pulleys on each end. 
+                  Follow the settings exactly as described to generate a 24" wide, 2" OD roller with 24T HTD 5mm pulleys on each end. 
                   The length specified is the <i>effective length</i> meaning the distance between the plates, not the length of the roller itself.</figcaption>
     </figure>
   </div>
