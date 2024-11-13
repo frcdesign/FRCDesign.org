@@ -1,45 +1,55 @@
 ---
-title: Slapdown Intake Examples
-image: docs/img/mechanism-examples/intake/slapdown/6423crescendo.webp
+title: Pivoting Intake Examples
+image: docs/img/mechanism-examples/intake/slapdown/6423_2024_intake.webp
 ---
 
-# Slapdown Intakes
+# Pivoting Intakes
 
-The slapdown style of "Over the Bumper" intakes is very common in situations where your packaging is constrained horizontally, but not vertically.
+Pivoting, or "slapdown", intakes offer fast deployment and fine control of intake positioning.
+
+## Featured
 
 <div class="grid cards" markdown>
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/4414style.webp){width=100%}](4414style.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/1678_2024_intake.webp){width=100%}](1678_2024_intake.md)</center>
 
     ---
 
-    Pivot driven by chain and a torque transfer bar, separate stationary wheel axles, bent polycarb funnel, mounted with nutstrips
+    A motor powered slapdown intake with polycarbonate rollers for intaking notes
     
-    [:octicons-arrow-right-24: 4414-Style Intake](4414style.md)
+    [:octicons-arrow-right-24: 1678's Crescendo Slapdown Intake](1678_2024_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/washed/overview.webp){width=80%}](washed.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/1778_2024_intake.webp){width=100%}](1778_2024_intake.md)</center>
 
     ---
 
-    Very different from most modern intakes, it helps center heavy gamepieces through a gap in the bumpers, driven by chain with a deadaxle pivot
+    A motor powered slapdown intake with a zombie axle pivot for intaking notes
     
-    [:octicons-arrow-right-24: Washed's Beavertail Intake](washed.md)
+    [:octicons-arrow-right-24: 1778's Crescendo Slapdown Intake](1778_2024_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/low.webp){width=80%}](low.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423_2024_intake.webp){width=100%}](6423_2024_intake.md)</center>
 
     ---
 
-    Some rollers are decoupled so the pivot for the intake can be lowered below the ball path
+    A motor powered pivoting intake that flips up for a handoff
     
-    [:octicons-arrow-right-24: Low Pivot Slapdown Intake](low.md)
+    [:octicons-arrow-right-24: 6423's Crescendo Flip Intake](6423_2024_intake.md)
 
--   <center>[![](../../../img/mechanism-examples/intake/slapdown/6423crescendo.webp){width=100%}](6423otb.md)</center>
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/3847_2022_intake.webp){width=100%}](3847_2022_intake.md)</center>
 
     ---
 
-    Uses rollers to center a piece against bent polycarb, then flips it back for a passthrough. Examples of how to mount cameras and sensors to allow more automation
+    A spring powered pivoting intake that allows for the pivot motor to be the same as the roller motor
     
-    [:octicons-arrow-right-24: 6423's 2024 Flip Intake](6423otb.md)
+    [:octicons-arrow-right-24: 3847's Rapid React Springed Intake](3847_2022_intake.md)
+
+-   <center>[![](../../../img/mechanism-examples/intake/slapdown/2910_2021_intake.webp){width=100%}](2910_2021_intake.md)</center>
+
+    ---
+
+    A pneumatically actuated intake with vectoring wheels for centering Infinite Recharge balls
+    
+    [:octicons-arrow-right-24: 2910's IR @ Home Pneumatic Intake](2910_2021_intake.md)
 
 </div>
 

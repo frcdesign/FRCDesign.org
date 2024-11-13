@@ -9,7 +9,7 @@ Now, you’ve built a shooter, a gearbox for a pivot, and a drivetrain. For your
 === "Advanced Challenge"
     I can’t believe you all designed a shooter without the intake 🤦. Anyway, your job will be to design a 4-bar intake to intake these game pieces effectively. Preferably, you design this around your shooter that you made last week, so think about how to package with the space you left, along with the ideal ball path for your design. (Hint: Do a main layout sketch)
 
-    <center>[4-Bar Example Mechanisms](../../mechanism-examples/intake/4bar/index.md "4-Bar Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
+    <center>[4-Bar Example Mechanisms](../../mechanism-examples/intake/linkage/index.md "4-Bar Intake Example Mechanisms"){:target="_blank" .md-button .md-button--primary}</center>
 
 For both challenges: You may pivot using motors or pneumatics. 
 

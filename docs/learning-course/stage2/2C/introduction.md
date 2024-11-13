@@ -14,6 +14,6 @@ The two types of OTB intakes are "slapdown" which consists of a single set of ar
 
 [Match footage of Team 1323's 2022 intake](https://www.youtube.com/watch?v=pSQX5c7G8yg "Team 1323 Match Footage"){:target="_blank"} is an example of a well executed slapdown intake.
 
-Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} and [4-bar intakes page](../../../mechanism-examples/intake/4bar/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
+Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} and [4-bar intakes page](../../../mechanism-examples/intake/linkage/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 <br>
