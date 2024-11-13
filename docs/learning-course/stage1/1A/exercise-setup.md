@@ -31,3 +31,5 @@ You can navigate between the document tabs by accessing the tab manager or from 
     </video>
     <figcaption>Accessing the Tab Manager.</figcaption>
 </figure>
+
+<br>
