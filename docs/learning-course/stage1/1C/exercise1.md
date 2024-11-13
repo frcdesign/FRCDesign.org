@@ -186,7 +186,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s20.webp" style="width:100%">
-      <figcaption>20. Create the bottom polycarbonate plate on the top face of the bottom tube.</figcaption>
+      <figcaption>20. Sketch and extrude the 0.125" thick polycarbonate plate on the top face of the bottom tube. It will have a mounting hole in each corner and be spaced away from the edges of the 1x1 tube by 0.125".</figcaption>
     </figure>
   </div>
 
@@ -249,7 +249,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
         <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the ONLY plates and tubes with the origin cube. Fasten the cube to the origin.</figcaption>
+      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates, tubes, and shaft with the origin cube. Fasten the cube to the origin.</figcaption>
     </figure>
   </div>
 
