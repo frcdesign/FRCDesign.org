@@ -401,7 +401,7 @@ plugins:
       plugins:
       - git-revision-date-localized:
           enable_creation_date: true
-      - optimize
+      #- optimize
     
   - group: 
       enabled: !ENV INSIDERS
