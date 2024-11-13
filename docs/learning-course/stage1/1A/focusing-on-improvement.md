@@ -34,7 +34,7 @@ After doing your exercise and taking the 5-minute break, **use the following ins
     - What can you do to make sure the error doesn't happen again?
 
     ??? Note "OPTIONAL: Note Stuff Down"
-    Get out a document or a sheet of paper or even use a discord message to write stuff down.
+        Get out a document or a sheet of paper or even use a discord message to write stuff down.
 
 3. Repeat step 2 and fix any errors/mistakes you find until you feel that the model is perfect to the best of your ability. 
     - You may not be able to find any mistakes; this is common when starting out, but as you gain more experience you'll be able to find more of your own mistakes.
