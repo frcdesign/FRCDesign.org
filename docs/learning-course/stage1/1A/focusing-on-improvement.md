@@ -43,7 +43,7 @@ After doing your exercise and taking the 5-minute break, **use the following ins
     - Repeat steps 2 and 3, using the solution document as the reference.
     - Add to the notes for each new error you find: why did you miss this mistake in your first self-review?
 
-5.  Examine the best practices presented in the reference. Ask yourself what you need to improve on to improve the readability and parametricity of your CAD. This may include naming things, using folders, and using general recommended CAD practices [outlined here](../../../../best-practices/).
+5.  Examine the best practices presented in the reference. Ask yourself what you need to improve on to improve the readability and parametricity of your CAD. This may include naming things, using folders, and using general recommended CAD practices [outlined here](../../../best-practices/index.md "Best Practices Landing Page"){:target="_blank"}.
 
     ??? Note "**Why Follow Best Practices?**"
         If making your CAD parametric and naming things adds time to your CAD, why do it? There are several reasons, but it can be boiled down to making it easier and faster to go back and make changes, for both you and anyone else. In reality, most time spent doing CAD, especially for a robot, will be making changes or redoing things. 
