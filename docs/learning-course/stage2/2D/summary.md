@@ -14,8 +14,8 @@ There's a lot of freedom for attaching mechanisms to this kind of elevator. If y
 
 Once you practice more main layout sketch integration in the next stage, you will be able to replicate a robot with an angled elevator in the later part of Stage 3.
 
-Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2D so we can collect data and get a better idea of how to improve the website!
 
-Fill out [this feedback form](https://forms.gle/2qrg6EBsge6V1WYf8) as well to give feedback for all of Stage 2.
+Fill out [**this feedback form**](https://forms.gle/2qrg6EBsge6V1WYf8) as well to give feedback **for all of Stage 2**.
 
 <br>

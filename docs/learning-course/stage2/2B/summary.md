@@ -17,6 +17,6 @@ Each pivot has some things in common though: try to minimize backlash, use a dea
 
 In the next stage, you'll apply very similar concepts to an intake with a pivot and several rollers.
 
-Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2B so we can collect data and get a better idea of how to improve the website!
 
 <br>
