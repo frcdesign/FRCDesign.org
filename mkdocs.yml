@@ -357,11 +357,18 @@ nav:
       - KrayonCAD: resources/krayonCAD.md 
     
     - Educator's Guide:
-        - Overview: resources/educators-guide/introduction/overview.md
+        - Overview: resources/educators-guide/introduction/introduction.md
         - The Stages: resources/educators-guide/introduction/thestages.md
         - Preparing Yourself: resources/educators-guide/introduction/preparation.md
+        - Stage 0:
+          - "Overview": resources/educators-guide/stage0/index.md
         - Stage 1:
           - "Overview": resources/educators-guide/stage1/index.md
+          - "Stage 1A": resources/educators-guide/stage1/stage1a.md
+          - "Stage 1B": resources/educators-guide/stage1/stage1b.md
+          - "Stage 1C": resources/educators-guide/stage1/stage1c.md
+          - "Stage 1D": resources/educators-guide/stage1/stage1d.md
+          - "Stage 1E": resources/educators-guide/stage1/stage1e.md
 
   - Contribution:
     - Methods of Contributing: contribution/methodsOfContributing.md
