@@ -69,3 +69,5 @@ Students are ready to move on when they can:
 - Troubleshoot common issues independently
 
 The key is maintaining a balance between structured guidance and independent practice while ensuring students develop good CAD habits. It might be a good idea to have students run through these twice as extra practice. They should be able to easily recreate these assemblies with high quality.
+
+<br>

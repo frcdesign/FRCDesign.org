@@ -48,3 +48,5 @@ The final section teaches the top-down design approach used in FRC robot design.
 - Dont be afraid to have students complete the excersises multiple times through to build proficiency
 
 The stage is designed to provide approximately 20-30 hours of instruction and practice, though timing may vary based on student experience and aptitude.
+
+<br>
