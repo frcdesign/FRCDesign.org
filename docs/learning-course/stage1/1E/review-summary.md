@@ -20,4 +20,8 @@ Here is a quick summary of what you have achieved in 1E:
 
 In Stage 2, you will begin to model robot mechanisms using all the skills you have learned and practiced in Stage 0 and Stage 1. This will teach mechanism design, the purpose and correct usage of some COTS parts, and many important engineering concepts.
 
+Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+
+Fill out [this feedback form](https://forms.gle/2qrg6EBsge6V1WYf8) as well to give feedback for all of Stage 1.
+
 <br>

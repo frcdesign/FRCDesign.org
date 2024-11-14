@@ -16,4 +16,6 @@ Intakes like this one can be applied during a lot of years, but even if the mech
 
 In the next stage, you'll learn about a completely new mechanism with linear motion instead of rotation that can be used to extend part of your robot in a specific direction.
 
+Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+
 <br>
