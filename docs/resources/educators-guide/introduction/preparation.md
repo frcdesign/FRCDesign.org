@@ -9,3 +9,5 @@ Students can learn at very different paces. Structure your teaching in a way tha
 
 ## Recomended Classroom Setup
 *coming soon*
+
+<br>

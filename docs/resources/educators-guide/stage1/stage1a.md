@@ -69,3 +69,5 @@ Student work should demonstrate:
 - Basic assembly competence
 
 Expected time to complete Stage 1A: 3-5 hours depending on student experience and aptitude.
+
+<br>

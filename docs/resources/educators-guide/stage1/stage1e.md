@@ -94,3 +94,5 @@ Students demonstrate competency when they:
 - Justify design decisions
 
 This framework helps students understand the practical aspects of robot design while maintaining focus on creating competition-ready solutions. Regular design reviews and practical considerations help ensure designs are both functional and compliant.
+
+<br>
