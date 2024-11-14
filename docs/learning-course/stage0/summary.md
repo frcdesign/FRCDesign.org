@@ -18,6 +18,6 @@ Remember: One “part studio” can have multiple different parts. We won’t fo
 
 Now it's time to move on to Stage 1 where you'll start learning the software and doing exercises, practicing skills relevant to an FRC context. Good luck!
 
-Fill out [this feedback form](https://forms.gle/2qrg6EBsge6V1WYf8) to give feedback for Stage 0.
+Fill out [**this feedback form**](https://forms.gle/2qrg6EBsge6V1WYf8) to **give feedback** for Stage 0 so we can collect data and get a better idea of how to improve the website!
 
 <br>

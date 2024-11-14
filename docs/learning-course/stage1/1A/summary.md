@@ -14,7 +14,7 @@ Here is a quick summary of what you have achieved in 1A:
 
 In stage 1B, you will be introduced to power transmissions, which enable your robot to move and score. 
 
-Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1A so we can collect data and get a better idea of how to improve the website!
 
 <!-- 
 ## Check for Comprehension Questions for 1A
