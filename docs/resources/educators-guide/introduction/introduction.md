@@ -21,7 +21,7 @@ The progression of the course moves from learning how to use the software (while
 
 Students will be able to focus on what they need to improve on through a mix of self-review and external review (from educators and/or other students).
 
-!!! Tip "Extra Practice"
+???+ Tip "Extra Practice"
     Students may choose to do their own custom mechanisms or projects to practice specific skills or learn how to design a specific mechanism; this should be encouraged and supported. External review and resources are more important for these because they don't have a specific reference for knowledge inside of the course.
 
 The purpose of robot design (and the specific design style the course uses) is to allow the team to effectively manufacture, build, program and drive the robot. The design style focuses on utilizing 2-D plates and patterned box tube. This is, as far as we know, the lowest resource design style with the highest ceiling, as you can get plates cut using a service such as Fabworks and cut the tubes and shafts using just a hacksaw. It makes it as easy as possible to have a tight schedule and prioritize making the robot work well and drive well. There are also countless example robots and resources using this design style to take inspiration from.
