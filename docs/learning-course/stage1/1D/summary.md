@@ -13,4 +13,6 @@ Here is a quick summary of what you have achieved in 1D:
 
 In Stage 1E, you will continue to detail the swerve drivebase you just created and practice the workflow for adding components to a subsystem.
 
+Make sure to fill out our simple [feedback form](https://forms.gle/qykF1UoxiymAEGWc8) for this section so we can collect data and get a better idea of how to improve the website!
+
 <br>
