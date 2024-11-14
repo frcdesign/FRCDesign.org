@@ -1,13 +1,21 @@
 # Preparation
-The best thing you can do to prepare to use FRCDesign.org's Learning Course to teach your students is to go through the course yourself atleast through the end of Stage 2. This will help get you familiar with the material, and get you up to date on the latest Onshape FRC workflows. It is also reccomended to refresh yourself every so often with the material incase information has been modified since the last time you taught the course.
+Before using FRCDesign.org's Learning Course to teach your students, make sure you have an adequate understanding of the concepts covered. The best way to do this is to go through the course yourself; however, the level of involvement with which you do so is dependent on your previous knowledge. If you're new to Onshape, we recommend going pretty deep through the course as much as you can, at least so you're ahead of the students you're helping guide. If you're pretty experienced with Onshape and FRC Design, you might just skim through the Educator's Guide and go through the Best Practices category to get caught up to date with practices.
+
+!!! Tip
+    Check ChiefDelphi for any updates on the website's content and refresh yourself on the material every so often so you're up to date with information about the workflow and tools.
 
 ## Onshape Classroom
-Setting up an Onshape Classroom is a great way to track student progress. Setting up assingments for the various exercises also makes it easy to review the work studentsh have done, if you need to treat exersises as graded assignments.
 
-## Advice
-Students can learn at very different paces. Structure your teaching in a way that lets students work at their own speed. It is perfectly ok for students to be at wildly different sections of the course. Your goal is to become a walking encyclopedia of the learning course stages, even if its just the section most of your students are currently on, and encourage asking you for help. There are alot of new concepts to learn here, and most will not understand these concepts on the first pass. Being able to clear up confusion quickly is key to success.
+Setting up an [Onshape Classroom](https://www.onshape.com/en/blog/educator-plan-first-robotics-teams "Onshape Classrooms for FRC"){:target="_blank"} is a great way to track student progress. Creating assignments for the various exercises also makes it easy to review the work students have done; this also useful in case you need to treat exercises as graded assignments.
 
-## Recomended Classroom Setup
-*coming soon*
+## Recommended Onshape Classroom Setup
+
+***Coming Soon***
+
+## Final Advice
+
+1. Remember that it is ok for students to be at wildly different sections of the course. 
+2. Even if a student just gets through 1A, they would have enough knowledge to be somewhat helpful and easy to guide during build season. The more sections they complete, the more autonomous they should be as a designer, making them easier to lead to complete a task.
+3. When helping students, make sure to not handhold them too much. If you're in a situation where you can get the student to solve a problem by asking some guiding questions, do that.
 
 <br>

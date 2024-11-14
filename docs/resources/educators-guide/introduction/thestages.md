@@ -1,4 +1,8 @@
 # The Stages
+The course progressively builds complexity while reinforcing core concepts of CAD organization, mechanism design, and engineering best practices. It starts with basic CAD skills and culminates in complete complex mechanism designs. 
+
+## Stage Section Overview
+
 Stage 0: Introduction to CAD
 
 - Introduces CAD and its importance in FRC
@@ -10,12 +14,13 @@ Stage 1A: Onshape Fundamentals
 
 - Teaches basic sketching and part modeling through FRC-relevant exercises
 - Introduces mechanisms like tubes, gussets, and basic structural components
+- Introduces the idea of multi-part modeling
 - Covers assembly basics and mate types
 - Focuses on proper organization and naming conventions
 
 Stage 1B: Power Transmissions  
 
-- Introduces the origin cube
+- Introduces the origin cube and MKCAD
 - Introduces motors, shafts, bearings and power transmission components
 - Covers gear ratios, belt/chain drives, and mechanical advantage concepts
 - Provides exercises modeling simple gearboxes and power transmission assemblies, using origin cube functions 
@@ -29,7 +34,7 @@ Stage 1C: Practice Mechanisms
 
 Stage 1D: Design Methodology - Simple Swerve Drivebase
 
-- Introduces top-down design methodology using layout sketches
+- Formally introduces top-down design methodology using layout sketches
 - Teaches proper origin placement and use of the Origin Cube
 - Walks through designing a basic swerve drive chassis
 - Covers organization of top-level robot assemblies
@@ -69,6 +74,6 @@ Stage 2D: Cascade Elevator
 - Includes elevator block selection and implementation
 - Shows organization of multi-stage linear motion assemblies
 
-The course progressively builds complexity while reinforcing core concepts of CAD organization, mechanism design, and engineering best practices. It starts with basic CAD skills and culminates in complete complex mechanism designs.
+
 
 <br>
