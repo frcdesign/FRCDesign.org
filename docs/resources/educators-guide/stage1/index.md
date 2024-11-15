@@ -20,7 +20,7 @@ Students begin with Onshape's learning center courses covering basic sketching, 
 - Assembly basics and mate types
 
 !!! warning
-    The Onshape learning course material is essential for ensuring students understand the fundamental tools of Onshape and should not be skipped! If students are already familliar with the basic Onshape they tools they can skip this section, however if they are stumbling with basic tasks it might be a good idea to run them through the Onshape learning center for a refresher.
+    The Onshape learning course material is essential for ensuring students understand the fundamental tools of Onshape and should not be skipped! If students are already familiar with the basic Onshape they tools they can skip this section, however if they are stumbling with basic tasks it might be a good idea to run them through the Onshape learning center for a refresher.
 
 ### Stage 1B: Power Transmission Basics
 This section introduces mechanical concepts through straightforward power transmission exercises. Students learn about:
@@ -45,7 +45,7 @@ The final section teaches the top-down design approach used in FRC robot design.
 - Encourage use of the exercise solution documents for self-checking work
 - Ask us questions your students have that you are unable to answer in the discord server.
 - Emphasize organization and best practices throughout to build good habits
-- Dont be afraid to have students complete the excersises multiple times through to build proficiency
+- Don't be afraid to have students complete the exercises multiple times through to build proficiency
 
 The stage is designed to provide approximately 20-30 hours of instruction and practice, though timing may vary based on student experience and aptitude.
 

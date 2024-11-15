@@ -58,6 +58,6 @@ Exercise 3: Belt and Gear Transmission
 - Share common pitfalls and solutions
 - Make connections to future mechanism designs
 
-The goal is to build strong fundamentals that will enable students to design more complex mechanisms in later stages. Focus on good practices and understanding rather than speed. As always feel free to have students repeat excersises to build proficiency.
+The goal is to build strong fundamentals that will enable students to design more complex mechanisms in later stages. Focus on good practices and understanding rather than speed for now.
 
 <br>
