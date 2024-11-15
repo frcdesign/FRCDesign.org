@@ -1,6 +1,6 @@
 # Stage 1E - Subsystem Workflow
 
-Stage 1E teaches students how to fully detail a drivetrain assembly by adding necessary components like battery mounting, electronics, and bumpers. This stage bridges the gap between basic modeling and creating manufacture-ready designs.
+Stage 1E teaches students how to fully detail a drivetrain assembly by adding necessary components like battery mounting, electronics, and bumpers. This stage bridges the gap between basic modeling and creating manufacture-ready designs. This allows students to learn and practice the typical workflow of detailing a subsystem.
 
 ## Learning Objectives
 
