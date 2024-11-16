@@ -231,6 +231,19 @@ nav:
 
     - Stage 3: learning-course/stage3/3A/introduction.md
     - Stage 4: learning-course/stage4.md
+    
+  - Educator's Guide: 
+    - educators-guide/introduction/index.md
+    - The Stages: educators-guide/introduction/the-stages.md
+    - Preparing Yourself: educators-guide/introduction/preparation.md
+    - Stage 0: educators-guide/stage0/overview.md
+    - Stage 1:
+      - "Overview": educators-guide/stage1/index.md
+      - "Stage 1A": educators-guide/stage1/stage1a.md
+      - "Stage 1B": educators-guide/stage1/stage1b.md
+      - "Stage 1C": educators-guide/stage1/stage1c.md
+      - "Stage 1D": educators-guide/stage1/stage1d.md
+      - "Stage 1E": educators-guide/stage1/stage1e.md
 
   - Design Handbook:
     - design-handbook/index.md
@@ -336,37 +349,24 @@ nav:
       - Layout Sketch Best Practices: best-practices/mastersketch-setup.md
       - Part Studio Best Practices: best-practices/feature-tree-setup.md
       - Assembly Best Practices: best-practices/assembly-setup.md
-    
-  - Design Challenges:
-    - design-challenge/index.md
-    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
-    - Week 2 | Gearboxes: design-challenge/challenges/week2.md
-    - Week 3 | Ball Shooter: design-challenge/challenges/week3.md
-    - Week 4 | Intake: design-challenge/challenges/week4.md
-    - Week 5 | Tilt Shift: design-challenge/challenges/week5.md
 
   - Other Resources:
     - resources/index.md
     - Glossary: resources/glossary.md
-
+    - Design Challenges:
+      - Overview: resources/design-challenges/overview.md
+      - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
+      - Week 2 | Gearboxes: resources/design-challenges/week2.md
+      - Week 3 | Ball Shooter: resources/design-challenges/week3.md
+      - Week 4 | Intake: resources/design-challenges/week4.md
+      - Week 5 | Tilt Shift: resources/design-challenges/week5.md
     - CAD Resources:
       - Featurescripts : resources/featurescripts.md
       - Simplified Models: resources/simplified.md
       - Configurables: resources/configurables.md
       - KrayonCAD: resources/krayonCAD.md 
     
-    - Educator's Guide:
-        - Overview: resources/educators-guide/introduction/introduction.md
-        - The Stages: resources/educators-guide/introduction/thestages.md
-        - Preparing Yourself: resources/educators-guide/introduction/preparation.md
-        - Stage 0: resources/educators-guide/stage0/overview.md
-        - Stage 1:
-          - "Overview": resources/educators-guide/stage1/index.md
-          - "Stage 1A": resources/educators-guide/stage1/stage1a.md
-          - "Stage 1B": resources/educators-guide/stage1/stage1b.md
-          - "Stage 1C": resources/educators-guide/stage1/stage1c.md
-          - "Stage 1D": resources/educators-guide/stage1/stage1d.md
-          - "Stage 1E": resources/educators-guide/stage1/stage1e.md
+
 
   - Contribution:
     - Methods of Contributing: contribution/methodsOfContributing.md

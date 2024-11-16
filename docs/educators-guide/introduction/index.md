@@ -1,4 +1,4 @@
-# Overview
+# Educator's Guide Overview
 
 The FRCDesign.org Learning Course is a self-paced, comprehensive program that teaches FRC robot design and CAD skills. This guide is intended to help educators effectively implement the course while supporting their students throughout the learning process. Designed for accessibility, the course requires minimal prior knowledge of physics or math, making it suitable for students from various backgrounds. The emphasis is on building knowledge through consistent practice and review.
 
