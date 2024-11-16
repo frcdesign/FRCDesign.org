@@ -29,6 +29,6 @@ Feel free to check out drivebase examples [here](https://www.frcdesign.org/mecha
 Good luck with your first challenge! 
 
 <figure markdown="span">
-[![2910 Charged up Drivebase](../../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
+[![2910 Charged up Drivebase](../../../img/mechanism-examples/drivebase/swerve/2910_2023_dt.webp){height=80% width=80%}](https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/d78c591638c349b708e238e6){target = "_blank"}
 <figcaption>One example of a drivebase! There are many different ways to make one, so don't let this one example drive your design! Be creative and let your mind go wild.</figcaption>
 </figure>
