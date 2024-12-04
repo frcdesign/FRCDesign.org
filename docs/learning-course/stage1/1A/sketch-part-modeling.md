@@ -9,7 +9,7 @@ Sketches and features are the building blocks you will use to create every 3D mo
 
 1. The [**Introduction to Sketching**](https://learn.onshape.com/courses/fundamentals-sketching "Introduction to Sketching Onshape Learning Course"){:target="_blank"} course runs you through different sketch tools, constraints, and a good sketch workflow.
 
-2. The [**Part Design Using Part Studios**](https://learn.onshape.com/courses/fundamentals-part-design-using-part-studios "Part Design Using Part Studios Onshape Learning Course"){:target="_blank"} course runs you through creating different parts with a variety of features.
+2. The [**Introduction to Part Studios**](https://learn.onshape.com/courses/introduction-to-part-studios "Introduction to Part Studios Onshape Learning Course"){:target="_blank"} course runs you through creating different parts with a variety of features.
 
 With a good understanding of both of these, you can create almost any part you want to. The following sections are all about integrating design intent into the process and learning how to design a whole project with multiple pieces.
 
