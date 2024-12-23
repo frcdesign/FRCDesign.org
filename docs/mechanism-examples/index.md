@@ -120,7 +120,7 @@ title: Mechanism Examples
 
     Telescoping extension mechanisms
     
-    [:octicons-arrow-right-24: Telescoping Extensions (Coming Soon)]()
+    [:octicons-arrow-right-24: Telescoping Extensions (Coming Soon)](telescope/index.md)
     
 </div>
 
