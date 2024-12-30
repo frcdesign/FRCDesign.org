@@ -5,7 +5,7 @@
 When designing power transmissions, there are two interlinked quantities that we are trying to modify: torque and speed. Torque refers to the rotational force applied to an object, while speed denotes how quickly that object rotates. In FRC, the unit used for speed is typically Rotations Per Minute (RPM). The units used for torque is typically Newton-Meters (Nm).
 
 !!! Note "Torque and Speed"
-    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy (ignoring losses like friction), so if speed is reduced through mechanical means, torque must increase.
+    Speed and torque are inversely related in mechanical systems. This means that as one increases, the other decreases, and vice versa. For example, if speed is decreased by 4x, torque is increased by 4x. This is because of the principle of conservation of energy: the output energy is the same as the input energy (friction is also part of the output energy), so if speed is reduced through mechanical means, torque must increase.
 
 ### Mechanical Advantage
 
