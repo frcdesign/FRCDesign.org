@@ -17,7 +17,7 @@ To reduce load time and simplify geometry, simplified models are used in FRC. El
 
 ## Gearboxes
 
-[MAXPlanetary](https://cad.onshape.com/documents/3ec5bb0fce397a5378545dc8/w/c805881b4e1ba08008280752/e/91d2d39b60739a181582e232 "MAXPlanetary Simplified Onshape Document"){:target="_blank"}
+[MAXPlanetary](https://cad.onshape.com/documents/5661b13bbebaf6fd4bef03aa/w/63e86c35a9677d8021ccbc9c/e/8cff3f98b55cf5a01ff67a7d "MAXPlanetary Simplified Onshape Document"){:target="_blank"}
 
 [VersaPlanetary](https://cad.onshape.com/documents/de380eda472fcc67134faa25/w/a27fc07daf3a623cc8cd93e1/e/873f9512c310afd60e607ed5 "VersaPlanetary Simplified Onshape Document"){:target="_blank"}
 
