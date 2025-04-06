@@ -96,6 +96,7 @@ nav:
 
       - "B: Onshape Setup":
         - "Account Setup": learning-course/stage0/0B/account-setup.md
+        - "Performance Tuning": learning-course/stage0/0B/performance-tuning.md
         - "MKCad": learning-course/stage0/0B/MKCad.md
         - "Featurescripts": learning-course/stage0/0B/featurescripts.md
 
