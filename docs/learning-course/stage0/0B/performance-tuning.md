@@ -17,7 +17,7 @@ If you are using Chrome, You can try modifying the following settings to improve
 
   <center><img src="/img/learning-course/stage0/setup/chrome/graphicsacceleration.webp" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
-- go to `chrome://flags/` and enable "Override Software Rendering List":
+- Go to `chrome://flags/` and enable "Override Software Rendering List":
 
   <center><img src="/img/learning-course/stage0b/override-rendering-list.png" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
@@ -82,3 +82,5 @@ Repeat these steps for each backend and use whichever is the most performant. He
 </div>
 
 In the above example, Direct3D 11 narrowly beats out OpenGL, but that won't always be the case.
+
+<br>
