@@ -50,22 +50,7 @@ Onshape will proceed to check your information (which may take some time), then 
 
 ### Account Setup
 
-The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name). Finally, Onshape will run a browser check, to ensure compatibility. 
-
-!!! Note
-
-    If the browser check fails, you may want to try a different browser. Currently, chromium browsers like Chrome, Edge, Opera, and Arc are the best supported browsers for Onshape, but Firefox usually works with no issues as well. Safari is not well supported.
-
-!!! Warning "Chrome Browser Setup"
-    If you are using Chrome, an additional setup step may be required.
-
-    First, type `chrome://settings/` in your searchbar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
-
-    <center><img src="/img/learning-course/stage0/setup/chrome/graphicsacceleration.webp" style="border:5px solid #ADADAD; border-radius: 2%"></center>
-
-    Next, go to `chrome://flags/` and enable these:
-
-    <center><img src="/img/learning-course/stage0/setup/chrome/flags.webp" style="border:5px solid #ADADAD; border-radius: 2%"></center>
+The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name).
 
 If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
 <br>
