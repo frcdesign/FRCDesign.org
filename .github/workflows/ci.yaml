@@ -22,15 +22,11 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - name: Configure Git
-        run: |
-          git config --global credential.helper store
-          echo "https://${{ secrets.MKDOCS_PAT }}:x-oauth-basic@github.com" > ~/.git-credentials
       - name: Install dependencies
         env: 
           MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
         run: |
-          pip install git+https://${MKDOCS_PAT}@github.com/frcdesign/mkdocs-material-insiders
+          pip install git+https://${MKDOCS_PAT}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
