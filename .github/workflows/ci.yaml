@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         env: 
-          INSIDERS: ${{ secrets.MKDOCS_PAT }}
+          MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
         run: |
           pip install git+https://${MKDOCS_PAT}@github.com/davidsdesignserver/mkdocs-material-insiders.git
           pip install mkdocs-glightbox
