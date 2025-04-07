@@ -12,32 +12,31 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-
       - uses: actions/cache@v4
         with:
           key: ${{ github.ref }}
           path: .cache
-
+      - name: Configure Git
+        run: |
+          git config --global credential.helper store
+          echo "https://${{ secrets.MKDOCS_PAT }}:x-oauth-basic@github.com" > ~/.git-credentials
       - name: Install dependencies
         env: 
           MKDOCS_PAT: ${{ secrets.MKDOCS_PAT }}
         run: |
-          pip install git+https://${MKDOCS_PAT}@github.com/davidsdesignserver/mkdocs-material-insiders.git
+          pip install "git+https://${MKDOCS_PAT}@github.com/davidsdesignserver/mkdocs-material-insiders.git"
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
           pip install pymdown-extensions pyyaml
           pip install "mkdocs-material[imaging]"
-          pip install mkdocs-git-committers-plugin-2
           sudo apt-get install pngquant
-
       - name: Build and Deploy MkDocs
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_PAT }}
