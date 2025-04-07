@@ -24,9 +24,9 @@ jobs:
           path: .cache
       - name: Install dependencies
         env: 
-          MKDOCS_PAT: ${{ secrets.INSIDERS }}
+          INSIDERS: ${{ secrets.INSIDERS }}
         run: |
-          pip install git+https://${MKDOCS_PAT}@github.com/frcdesign/mkdocs-material-insiders
+          pip install git+https://${INSIDERS}@github.com/frcdesign/mkdocs-material-insiders
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
