@@ -1278,44 +1278,19 @@
 
 <h1 id="layout-sketch-best-practices">Layout Sketch Best Practices</h1>
 <p>A main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. This enables much easier integration with a top-down design approach.</p>
-<p><center></p>
-<table>
-<thead>
-<tr>
-<th><strong>Always Include</strong></th>
-<th><strong>Sometimes Include</strong></th>
-<th><strong>Never Include</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Drivebase dimensions</td>
-<td>Gears</td>
-<td>Specific details like the shape of plates</td>
-</tr>
-<tr>
-<td>End-effector wheel locations based off of prototyping</td>
-<td>Belts</td>
-<td>Gussets</td>
-</tr>
-<tr>
-<td>Field elements and extension limits</td>
-<td>Chain</td>
-<td>Mounting holes</td>
-</tr>
-<tr>
-<td>Mechanism motion paths</td>
-<td>Motor locations</td>
-<td></td>
-</tr>
-<tr>
-<td>Gamepiece path</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p></center></p>
+<center>
+
+| **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
+|-----------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
+| Drivebase dimensions                                                         | Gears                                               | Specific details like the shape of plates                  |
+| End-effector wheel locations based off of prototyping                        | Belts                                               | Gussets                                                     |
+| Field elements and extension limits                                          | Chain                                               | Mounting holes                                              |
+| Mechanism motion paths                                                        | Motor locations                                    |                                                             |
+| Gamepiece path                                                                |                                                     |                                                             |
+
+
+</center>
+
 <p>This isn't an extensive list, and things can vary from team to team and from architecture to architecture. Detail can easily be added or removed later if necessary.</p>
 <p>All important measurements that drive the geometry of the robot exist in the layout sketches part studio. They can all be easily viewed and changed together, as opposed to if you had to go through each subsystem to make changes to the geometry to try to make things fit in the top-level robot assembly.</p>
 <figure>
