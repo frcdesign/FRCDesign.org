@@ -10,12 +10,12 @@ A main layout sketch is a series of sketches that capture the major dimensions o
 <center>
 
 | **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
-|-----------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
-| Drivebase dimensions                                                         | Gears                                               | Specific details like the shape of plates                  |
-| End-effector wheel locations based off of prototyping                        | Belts                                               | Gussets                                                     |
-| Field elements and extension limits                                          | Chain                                               | Mounting holes                                              |
-| Mechanism motion paths                                                        | Motor locations                                    |                                                             |
-| Gamepiece path                                                                |                                                     |                                                             |
+|:----------------------------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------------|
+| Drivebase dimensions                                                        | Gears                                               | Specific details like the shape of plates                   |
+| End-effector wheel locations based off of prototyping                       | Belts                                               | Gussets                                                     |
+| Field elements and extension limits                                         | Chain                                               | Mounting holes                                              |
+| Mechanism motion paths                                                      | Motor locations                                     | &nbsp;                                                      |
+| Gamepiece path                                                              | &nbsp;                                              | &nbsp;                                                      |
 
 
 </center>
