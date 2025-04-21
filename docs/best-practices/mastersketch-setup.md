@@ -7,8 +7,6 @@ description: The best practices to follow when creating main layout sketches.
 
 A main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. This enables much easier integration with a top-down design approach.
 
-<center>
-
 | **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
 |:----------------------------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------------|
 | Drivebase dimensions                                                        | Gears                                               | Specific details like the shape of plates                   |
@@ -16,9 +14,6 @@ A main layout sketch is a series of sketches that capture the major dimensions o
 | Field elements and extension limits                                         | Chain                                               | Mounting holes                                              |
 | Mechanism motion paths                                                      | Motor locations                                     | &nbsp;                                                      |
 | Gamepiece path                                                              | &nbsp;                                              | &nbsp;                                                      |
-
-
-</center>
 
 This isn't an extensive list, and things can vary from team to team and from architecture to architecture. Detail can easily be added or removed later if necessary.
 
