@@ -1278,19 +1278,42 @@
 
 <h1 id="layout-sketch-best-practices">Layout Sketch Best Practices</h1>
 <p>A main layout sketch is a series of sketches that capture the major dimensions of each mechanism, field element interactions, and robot size constraints. Then, the main layout sketch(es) are inserted into each mechanism's part studio and the individual components are then modeled around the imported layout sketch. This enables much easier integration with a top-down design approach.</p>
-<center>
-
-| **Always Include**                                                          | **Sometimes Include**                               | **Never Include**                                           |
-|:----------------------------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------------|
-| Drivebase dimensions                                                        | Gears                                               | Specific details like the shape of plates                   |
-| End-effector wheel locations based off of prototyping                       | Belts                                               | Gussets                                                     |
-| Field elements and extension limits                                         | Chain                                               | Mounting holes                                              |
-| Mechanism motion paths                                                      | Motor locations                                     | &nbsp;                                                      |
-| Gamepiece path                                                              | &nbsp;                                              | &nbsp;                                                      |
-
-
-</center>
-
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Always Include</strong></th>
+<th style="text-align: left;"><strong>Sometimes Include</strong></th>
+<th style="text-align: left;"><strong>Never Include</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Drivebase dimensions</td>
+<td style="text-align: left;">Gears</td>
+<td style="text-align: left;">Specific details like the shape of plates</td>
+</tr>
+<tr>
+<td style="text-align: left;">End-effector wheel locations based off of prototyping</td>
+<td style="text-align: left;">Belts</td>
+<td style="text-align: left;">Gussets</td>
+</tr>
+<tr>
+<td style="text-align: left;">Field elements and extension limits</td>
+<td style="text-align: left;">Chain</td>
+<td style="text-align: left;">Mounting holes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mechanism motion paths</td>
+<td style="text-align: left;">Motor locations</td>
+<td style="text-align: left;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gamepiece path</td>
+<td style="text-align: left;">&nbsp;</td>
+<td style="text-align: left;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
 <p>This isn't an extensive list, and things can vary from team to team and from architecture to architecture. Detail can easily be added or removed later if necessary.</p>
 <p>All important measurements that drive the geometry of the robot exist in the layout sketches part studio. They can all be easily viewed and changed together, as opposed to if you had to go through each subsystem to make changes to the geometry to try to make things fit in the top-level robot assembly.</p>
 <figure>
@@ -1349,7 +1372,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 15:15:50">April 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2025 02:53:50">April 21, 2025</span>
   </span>
 
     
