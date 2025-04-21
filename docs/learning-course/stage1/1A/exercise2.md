@@ -6,35 +6,33 @@ For this exercise, you will design two box tubes attached together with a gusset
 
 ### Gussets
 
-Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a flat plate that, when attached to both tubes, helps create rigidity in the structure. 
+Aluminum box tubes are commonly connected together with 'gussets'. A gusset is a flat plate that, when attached to both tubes, helps create rigidity in the structure.
 
 !!! Example "Gusset Example"
-    <figure>
-      <img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%">
-      <figcaption> A gusset connecting two tubes on a robot. </ficaption>
-    </figure>
+<figure>
+<img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%">
+<figcaption> A gusset connecting two tubes on a robot. </ficaption>
+</figure>
 
 <br>
 
 ### Featurescripts
 
 !!! Warning
-    If you haven't already, please add [MKCAD](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} and the [required featurescripts](../../stage0/0B/featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
+If you haven't already, please add [MKCAD](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="\_blank"} and the [required featurescripts](../../stage0/0B/featurescripts.md "Stage 0 Featurescripts Page"){:target="\_blank"} for the learning course.
 
-You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"} for this exercise. **Do not use the `Gusset` Featurescript for this exercise.**
-
+You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="\_blank"} for this exercise. **Do not use the `Gusset` Featurescript for this exercise.**
 
 - The `Extrude individual` Featurescript enables you to extrude sketch regions without merging them. In this exercise, if you were to extrude the sketch of the tubes with the standard <code>Extrude</code> tool, only a single part would generate.
 
-- The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. 
-
+- The `Tube Converter` Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes.
 
 ### Instructions
 
 ???+ Warning "Creating New Parts"
-    When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
-    <center><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
-    <center> *The different options for extruding* </center>
+When extruding a sketch in a part studio, you can decide whether to `Add` to existing geometry, or to create `New` geometry. `New` creates a new body, whereas `Add` will merge the feature with existing parts. Make sure that when you extrude your gusset, you tell Onshape to create a new part.
+<center markdown><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></center>
+<center> _The different options for extruding_ </center>
 
 **Navigate to the "Exercise #2 Gusset" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
@@ -127,8 +125,10 @@ You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](
   </div>
 
   <!-- Next and previous buttons -->
-  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
-  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
+
+<button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
+
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -136,9 +136,8 @@ You will utilize the [`Extrude Individual` and `Tube Converter` Featurescripts](
 </div>
 
 !!! success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your parts should weigh a combined 0.27 lbs.
+Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"} Your parts should weigh a combined 0.27 lbs.
 
-In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. 
-
+In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature.
 
 <br>

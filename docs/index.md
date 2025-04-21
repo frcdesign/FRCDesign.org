@@ -79,10 +79,6 @@ FRCDesign.org is the culmination of hundreds of hours of work between a group of
 [Contributors List](contribution/contributors.md "Contributor List"){.md-button .md-button--primary}
 </center>
 
-<!-- <div style="display: flex; justify-content: center; margin: 1em 0;">
-<a href="contribution/contributors.md" title="Contributor List" class="md-button md-button--primary">Contributors List</a>
-</div> -->
-
 ## Discord
 
 The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events.

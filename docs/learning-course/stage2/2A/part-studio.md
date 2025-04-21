@@ -1,6 +1,6 @@
 # 2A: Basic Shooter
 
-<center>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/ad76a30633d5b293d92d8217 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
+<center markdown>[Shooter Reference Document](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/ad76a30633d5b293d92d8217 "Shooter Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
 ## Part Studio
 

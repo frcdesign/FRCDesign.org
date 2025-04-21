@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-So far, you’ve done the main layout sketches and modeled the frame and bare bellypan. 
+So far, you’ve done the main layout sketches and modeled the frame and bare bellypan.
 
 <figure>
 <img src="\img\learning-course\stage1d\SwerveBase\DriveAssy.webp" style="width:60%"></center>
@@ -20,7 +20,7 @@ So far, you’ve done the main layout sketches and modeled the frame and bare be
 4. **Bumpers and Bumper Mounting:** While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
 
 !!! Note
-    Even though the first three details won't directly reference the layout sketch, they will reference parts that reference the layout sketch (the frame) and will update accordingly if changes are made.
+Even though the first three details won't directly reference the layout sketch, they will reference parts that reference the layout sketch (the frame) and will update accordingly if changes are made.
 
 While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 1E is provided.
 
@@ -31,9 +31,9 @@ While the exact implementation for each of these details will vary based on the 
 
 You can access the reference CAD model with the button below. It is based off of the Stage 1D drivebase.
 
-<center>[1E Full Detail Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+<center markdown>[1E Full Detail Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
 
 !!! Tip
-    As you should have a good grasp of part modeling by now, feel free to use your own team's preferences to add details to your drivebase. This can be very open ended.
+As you should have a good grasp of part modeling by now, feel free to use your own team's preferences to add details to your drivebase. This can be very open ended.
 
 <br>

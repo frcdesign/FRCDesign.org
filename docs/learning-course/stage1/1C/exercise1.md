@@ -12,9 +12,9 @@ They can be used to connect plates to the open face of tubes or to connect tubes
 ???+ Example "Tube Plugs"
     <div class="grid cards" markdown>
 
-    -   <center><img src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
+    -   <center markdown><img src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
 
-    -   <center><img src="/img/learning-course/stage1c/flat-intake/miso-tube-plug.webp" width="100%"></center>
+    -   <center markdown><img src="/img/learning-course/stage1c/flat-intake/miso-tube-plug.webp" width="100%"></center>
 
     </div>
 

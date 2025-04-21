@@ -6,7 +6,7 @@
 ## Practice Exercises
 Time to practice! Start by **make a copy of the Stage 1B Exercises Document** through the button below, just like you did with the Stage 1A Exercises Document. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1B Exercise Solutions Document to check your work afterwards.
 
-<center>[1B Exercises Document (COPY THIS)](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/755940e52d82bddfdf7be61e "1B Exercises Onshape Document"){:target="_blank" .md-button .md-button--primary }
+<center markdown>[1B Exercises Document (COPY THIS)](https://cad.onshape.com/documents/ce41613fac38db8c00e65020/w/a65651477167d5e36fe871c0/e/755940e52d82bddfdf7be61e "1B Exercises Onshape Document"){:target="_blank" .md-button .md-button--primary }
 [1B Exercise Solutions](https://cad.onshape.com/documents/c6a8ec29479a2578841fb9f2/w/85094b3baa15a05c873920c9/e/47efe87a05a8318bffd60957 "1B Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary } </center>
 
 ## Exercise 1: Simple Gearbox 
