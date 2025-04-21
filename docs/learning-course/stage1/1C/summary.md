@@ -16,7 +16,7 @@ Here is a quick summary of what you have learned and achieved in 1C:
 
 Using keyboard shortcuts can significantly accelerate your CAD workflow. Be attentive to best practices to avoid developing any bad habits.
 
-Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. As mentioned in the introduction of 1C, if you feel you need more practice, try and model more small mechanisms of your choice, making sure to get feedback on them from more experienced members/mentors of your team or [the Discord Server](https://discord.gg/jHXTdNjYCg "David's Design Server Invite"){:target="_blank"}.
+Remember, practice is essential – the more CAD models you create, the more proficient and efficient you'll become. As mentioned in the introduction of 1C, if you feel you need more practice, try and model more small mechanisms of your choice, making sure to get feedback on them from more experienced members/mentors of your team or [the Discord Server](https://discord.gg/qdx7pdZKx4 "David's Design Server Invite"){:target="_blank"}.
 
 In stage 1D, you will begin to learn the workflow for top-down robot modeling and begin modeling a drivetrain for your last project in Stage 1.
 

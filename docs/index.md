@@ -88,7 +88,7 @@ FRCDesign.org is the culmination of hundreds of hours of work between a group of
 The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events.
 
 <center markdown>
-[![](/img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)
+[![](/img/discord-link.webp){width=20%}](https://discord.gg/qdx7pdZKx4)
 </center>
 
 <br>

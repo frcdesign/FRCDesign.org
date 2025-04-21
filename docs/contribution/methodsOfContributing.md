@@ -8,7 +8,7 @@ description: A guide to publically contributing to the website, including settin
 ## Public Contribution
 Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors.
 
-In [the discord server](https://discord.gg/jHXTdNjYCg "FRC Design Discord Server"){:target="_blank"}, go to the ["website-discussion" channel](https://discord.com/channels/1120162219502608426/1233961750639018104 "#website-discussion Discord Channel"){:target="_blank"} and ask if you can contribute the thing you want to by filling out this template:
+In [the discord server](https://discord.gg/qdx7pdZKx4 "FRC Design Discord Server"){:target="_blank"}, go to the ["website-discussion" channel](https://discord.com/channels/1120162219502608426/1233961750639018104 "#website-discussion Discord Channel"){:target="_blank"} and ask if you can contribute the thing you want to by filling out this template:
 
     Issue/content:
     Solution or Notes about the execution of the content:

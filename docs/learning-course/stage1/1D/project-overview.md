@@ -12,7 +12,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
     <figcaption>Stage 1D swerve drivebase project.</figcaption>
 </figure>
 
-As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/jHXTdNjYCg "DDS Discord Invite"){:target="_blank"}!
+As with previous exercises, the finished project is available for reference. If you need help, please feel free to ask on [the Discord](https://discord.gg/qdx7pdZKx4 "DDS Discord Invite"){:target="_blank"}!
 
 <center markdown>[1D Drivebase Reference](https://cad.onshape.com/documents/6c6044229091a87cf359270b/w/ed9648f0c04c639a2561615a/e/67a7ed0c6038787281325a51 "1D Drivebase Reference Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
