@@ -75,13 +75,13 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
 FRCDesign.org is the culmination of hundreds of hours of work between a group of FIRST students, alumni, and mentors from teams all over the world.
 
-<!-- <center>
+<center markdown>
 [Contributors List](contribution/contributors.md "Contributor List"){.md-button .md-button--primary}
-</center> -->
+</center>
 
-<div style="display: flex; justify-content: center; margin: 1em 0;">
+<!-- <div style="display: flex; justify-content: center; margin: 1em 0;">
 <a href="contribution/contributors.md" title="Contributor List" class="md-button md-button--primary">Contributors List</a>
-</div>
+</div> -->
 
 ## Discord
 
