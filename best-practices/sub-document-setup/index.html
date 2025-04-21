@@ -1343,27 +1343,30 @@
 
 
 <h1 id="sub-document-setup">Sub-Document Setup</h1>
-<p>Each subsystem document should have at least one part studio and one assembly associated with it. </p>
+<p>Each subsystem document should have at least one part studio and one assembly associated with it.</p>
 <p>The Stage 2A Basic Shooter is a simple subsystem with no moving parts. This contains only a part studio and a rigid assembly.</p>
-<center>[Stage 2A - Basic Shooter](https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410 "Stage 2A Basic Shooter Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
-
+<center>
+<p><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/8f093edaad44b5702e92ddd9/w/fefbb7a7af099fc237c1513a/e/84d7075719d34c35b3be9410" target="_blank" title="Stage 2A Basic Shooter Onshape Document">Stage 2A - Basic Shooter</a></p>
+</center>
 <center><a class="glightbox" href="/img/best-practices/shooterAssembly.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/shooterAssembly.webp" style="border:5px solid #ADADAD"></a></center>
 
 <h3 id="subsystems-with-multiple-degrees-of-freedom">Subsystems with Multiple Degrees of Freedom</h3>
-<p>You may want to split subsystems with multiple degrees of freedom into multiple rigid assemblies. Each separate moving part of the subsystem should have a 'rigid' assembly (no degrees of freedom allowed for any part), while the top-level subsystem assembly only defines the motion between them. </p>
+<p>You may want to split subsystems with multiple degrees of freedom into multiple rigid assemblies. Each separate moving part of the subsystem should have a 'rigid' assembly (no degrees of freedom allowed for any part), while the top-level subsystem assembly only defines the motion between them.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>A rigid assembly, when inserted, is treated as a solid body with no mates calculated. It decreases load time in top-level assemblies greatly. You will learn how to integrate the origin cube into this system for easy <abbr title="Designed in a way that uses relationships between steps to maintain design intent">parametric</abbr> mates in <a href="../assembly-setup/">assembly best practices</a>.</p>
 </div>
+<p>A rigid assembly, when inserted, is treated as a solid body with no mates calculated. It decreases load time in top-level assemblies greatly. You will learn how to integrate the origin cube into this system for easy <abbr title="Designed in a way that uses relationships between steps to maintain design intent">parametric</abbr> mates in <a href="../assembly-setup/">assembly best practices</a>.</p>
 <p>For example, you could split an elevator document into one part studio and corresponding rigid assembly for each stage. The top-level elevator assembly would thus include each of the stage subassemblies within it and the slider mates.</p>
 <p>The Stage 2C Slapdown Intake is a subsystem with a static portion and a pivoting portion. Functionally, this contains a part studio, a static assembly for the gearboxes and pivot, a rigid assembly for the arms and rollers, and a top-level assembly combining the two subassemblies.</p>
-<center>[Stage 2C - Slapdown Intake](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2 "Stage 2C Slapdown Intake Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
-
+<center>
+<p><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2" target="_blank" title="Stage 2C Slapdown Intake Onshape Document">Stage 2C - Slapdown Intake</a></p>
+</center>
 <center><a class="glightbox" href="/img/best-practices/subassembly.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/subassembly.webp" style="border:5px solid #ADADAD"></a></center>
 
 <p>The Stage 2D Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.</p>
-<center>[Stage 2D Cascade Elevator](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1 "Stage 2D Cascade Elevator Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
-
+<center>
+<p><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1" target="_blank" title="Stage 2D Cascade Elevator Onshape Document">Stage 2D Cascade Elevator</a></p>
+</center>
 <center><a class="glightbox" href="/img/best-practices/elevatorAssembly.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></a></center>
 
 <p><br></p>
@@ -1389,7 +1392,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 11, 2024 16:40:21">October 11, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2025 03:40:46">April 21, 2025</span>
   </span>
 
     

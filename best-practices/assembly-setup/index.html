@@ -1412,8 +1412,9 @@
 <p>Assuming you have already named your parts and organized your work within the rest of the document, creating a well-organized assembly is very straightforward. </p>
 <h3 id="the-origin-cube">The Origin Cube</h3>
 <p>The <code>Origin Cube</code> Featurescript inserts a 2" transparent cube at the origin of the part studio. The cube has a mate connector at the origin. Because this part will never change and always stays at the origin of the part studio, using it to group and fasten parts to the origin will always be more <strong>robust and <abbr title="Designed in a way that uses relationships between steps to maintain design intent">parametric</abbr></strong> than fixing or using a mate connector attached to another part, in case that part changes or is deleted.</p>
-<center>[Origin Cube Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Onshape Document"){:target="_blank" .md-button .md-button--primary}</center>
-
+<center>
+<p><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&amp;uiState=6637caa6ccbcaa36badca03a" target="_blank" title="Origin Cube Featurescript Onshape Document">Origin Cube Featurescript</a></p>
+</center>
 <p><br></p>
 <figure>
 <a class="glightbox" href="\img\best-practices\originCubeFeature.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="\img\best-practices\originCubeFeature.webp" width="60%"></a>
@@ -1445,7 +1446,7 @@
 <details class="example">
 <summary>Stage 2C - Slapdown Intake</summary>
 <p>The Stage 2C Slapdown Intake is a subsystem with a static portion and a pivoting portion. An extra mate connector is added for the pivot on the main layout sketch, owned by the origin cube</p>
-<p><center><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2" target="_blank" title="Stage 2C Slapdown Intake Onshape Document">Stage 2C - Slapdown Intake</a></center></p>
+<p><center markdown><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2" target="_blank" title="Stage 2C Slapdown Intake Onshape Document">Stage 2C - Slapdown Intake</a></center></p>
 <p><center><a class="glightbox" href="/img/best-practices/slapdown-intake-example/slapdown-intake-mate-connector.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-mate-connector.webp" style="border:5px solid #ADADAD"></a></center></p>
 <p>This mate connector exists in both subassemblies.
 <center><a class="glightbox" href="/img/best-practices/slapdown-intake-example/slapdown-intake-static-connectors.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/slapdown-intake-example/slapdown-intake-static-connectors.webp" style="border:5px solid #ADADAD"></a></center></p>
@@ -1456,7 +1457,7 @@
 <details class="example">
 <summary>Stage 2D - Cascade Elevator</summary>
 <p>The Stage 2D Cascade Elevator is a subsystem with a static portion and two subassemblies that slide linearly. This contains a part studio, a static frame/gearbox assembly, assemblies for the first stage and carriage, and a top-level assembly combining the 3 subassemblies with slider mates.</p>
-<p><center><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1" target="_blank" title="Stage 2D - Cascade Elevator Onshape Document">Stage 2D - Cascade Elevator</a></center></p>
+<p><center markdown><a class="md-button md-button--primary" href="https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/f8fd8133abcb12800eacb5d1" target="_blank" title="Stage 2D - Cascade Elevator Onshape Document">Stage 2D - Cascade Elevator</a></center></p>
 <p><center><a class="glightbox" href="/img/best-practices/elevatorAssembly.webp" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="/img/best-practices/elevatorAssembly.webp" style="border:5px solid #ADADAD"></a></center></p>
 </details>
 <details class="example">
@@ -1509,7 +1510,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 3, 2024 14:58:23">November 3, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2025 03:40:46">April 21, 2025</span>
   </span>
 
     

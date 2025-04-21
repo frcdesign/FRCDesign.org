@@ -2793,36 +2793,40 @@
 <h2 id="exercise-2-box-tube-and-gusset-joint">Exercise #2: Box Tube and <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">Gusset</abbr> Joint</h2>
 <p>For this exercise, you will design two box tubes attached together with a <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr>. This <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr> will be created in the same part studio as the tubes that it is connecting!</p>
 <h3 id="gussets">Gussets</h3>
-<p>Aluminum box tubes are commonly connected together with 'gussets'. A <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr> is a flat plate that, when attached to both tubes, helps create rigidity in the structure. </p>
+<p>Aluminum box tubes are commonly connected together with 'gussets'. A <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr> is a flat plate that, when attached to both tubes, helps create rigidity in the structure.</p>
 <div class="admonition example">
 <p class="admonition-title"><abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">Gusset</abbr> Example</p>
-<p><figure>
-  <a class="glightbox" href="\img\learning-course\stage1a\8033-000-2024C_8.png" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%"></a>
-  <figcaption> A <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr> connecting two tubes on a robot. </ficaption>
-</figure></p>
 </div>
+<figure>
+<a class="glightbox" href="\img\learning-course\stage1a\8033-000-2024C_8.png" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="\img\learning-course\stage1a\8033-000-2024C_8.png" width="70%"></a>
+<figcaption> A gusset connecting two tubes on a robot. </ficaption>
+</figure>
+
 <p><br></p>
 <h3 id="featurescripts">Featurescripts</h3>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>If you haven't already, please add <a href="../../../stage0/0B/MKCad/" target="_blank" title="Adding MKCAD Tutorial Page">MKCAD</a> and the <a href="../../../stage0/0B/featurescripts/" target="_blank" title="Stage 0 Featurescripts Page">required featurescripts</a> for the learning course.</p>
 </div>
+<p>If you haven't already, please add <a href="../../../stage0/0B/MKCad/" target="_blank" title="Adding MKCAD Tutorial Page">MKCAD</a> and the <a href="../../../stage0/0B/featurescripts/" target="_blank" title="Stage 0 Featurescripts Page">required featurescripts</a> for the learning course.</p>
 <p>You will utilize the <a href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8" target="_blank" title="Julia's Featurescripts Onshape Document"><code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts</a> for this exercise. <strong>Do not use the <code>Gusset</code> Featurescript for this exercise.</strong></p>
 <ul>
 <li>
 <p>The <code>Extrude individual</code> Featurescript enables you to extrude sketch regions without merging them. In this exercise, if you were to extrude the sketch of the tubes with the standard <code>Extrude</code> tool, only a single part would generate.</p>
 </li>
 <li>
-<p>The <code>Tube Converter</code> Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes. </p>
+<p>The <code>Tube Converter</code> Featurescript condenses the steps of shelling, sketching and dimensioning holes, and extruding holes into a single, customizable feature to easily model tubes.</p>
 </li>
 </ul>
 <h3 id="instructions">Instructions</h3>
 <details class="warning" open="open">
 <summary>Creating New Parts</summary>
-<p>When extruding a sketch in a part studio, you can decide whether to <code>Add</code> to existing geometry, or to create <code>New</code> geometry. <code>New</code> creates a new body, whereas <code>Add</code> will merge the feature with existing parts. Make sure that when you extrude your <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr>, you tell Onshape to create a new part.
-<center><a class="glightbox" href="\img\learning-course\stage1a\1a-merge.png" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></a></center>
-<center> <em>The different options for extruding</em> </center></p>
 </details>
+<p>When extruding a sketch in a part studio, you can decide whether to <code>Add</code> to existing geometry, or to create <code>New</code> geometry. <code>New</code> creates a new body, whereas <code>Add</code> will merge the feature with existing parts. Make sure that when you extrude your <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">gusset</abbr>, you tell Onshape to create a new part.</p>
+<center>
+<p><a class="glightbox" href="\img\learning-course\stage1a\1a-merge.png" data-type="image" data-width="90%" data-height="auto" data-desc-position="bottom"><img src="\img\learning-course\stage1a\1a-merge.png" width="20%"></a></p>
+</center>
+<center> _The different options for extruding_ </center>
+
 <p><strong>Navigate to the "Exercise #2 <abbr title="Reinforcement plate, usually made of aluminum, used to strengthen connections between two tubes.">Gusset</abbr>" tab</strong> in your copied document and <strong>follow the instructions in the slides</strong> to complete the exercise.</p>
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -2913,8 +2917,10 @@
   </div>
 
   <!-- Next and previous buttons -->
-  <button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
-  <button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
+
+<button class="prev" onclick="plusSlides(-1,0)" style="background-color: #000; color: #fff;">&#10094;</button>
+<button class="next" onclick="plusSlides(1,0)" style="background-color: #000; color: #fff;">&#10095;</button>
+
   <!-- The dots/circles -->
   <div class="dotsContainer" style="text-align:center">
     <!-- Dots will be generated here -->
@@ -2923,9 +2929,9 @@
 
 <div class="admonition success">
 <p class="admonition-title">Verification</p>
-<p>Make sure to have you and/or a more experienced member/mentor of your team <a href="../focusing-on-improvement/" target="_blank" title="Focusing on Improvement Page"><strong>review your CAD!</strong></a> Your parts should weigh a combined 0.27 lbs.</p>
 </div>
-<p>In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature. </p>
+<p>Make sure to have you and/or a more experienced member/mentor of your team <a href="../focusing-on-improvement/" target="_blank" title="Focusing on Improvement Page"><strong>review your CAD!</strong></a> Your parts should weigh a combined 0.27 lbs.</p>
+<p>In this exercise, you can begin to see the power of Featurescripts. What would have been a number of sketches, extrudes, and shells to create the tubes is packaged into a single, easy to use custom feature.</p>
 <p><br></p>
 
 
@@ -2949,7 +2955,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 11, 2024 17:40:06">November 11, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2025 03:40:46">April 21, 2025</span>
   </span>
 
     
