@@ -13,57 +13,57 @@ FRCDesign.org is a comprehensive learning guide and technical reference for FRC 
 
 !!! warning "Markdown Issues"
 
-    We are currently investigating an issue that causes markdown to render differently on the site than it previously did. (see broken cards below) If you see any issues, please let us know in a [GitHub Issue](https://github.com/frcdesign/FRCDesign.org/issues). We are working to fix this as soon as possible.
+    We are currently investigating an issue that causes markdown to render differently on the site than it previously did. If you see any issues, please let us know in a [GitHub Issue](https://github.com/frcdesign/FRCDesign.org/issues). We are working to fix this as soon as possible.
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-flask-vial:{ .lg .middle } **Website Feature Guide**
+-   :fontawesome-solid-flask-vial:{ .lg .middle } **Website Feature Guide**
+  
+    ---
+    
+    Explains the main features of the website. Recommended to go through before the learning course.
+    
+    [:octicons-arrow-right-24: Website Feature Guide](website-feature-guide.md)
 
-  ***
+- :material-book-open-variant:{ .lg .middle .card} **Learning Course**
 
-  Explains the main features of the website. Recommended to go through before the learning course.
+    ---
 
-  [:octicons-arrow-right-24: Website Feature Guide](website-feature-guide.md)
+    A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
 
-- :material-book-open-variant:{ .lg .middle } **Learning Course**
+    [:octicons-arrow-right-24: Learning Course](learning-course/index.md)
 
-  ***
+- :material-bookshelf:{ .lg .middle .card} **Design Handbook**
 
-  A guided curriculum through learning Onshape applied to robot design fundamentals. Looking to learn FRC robot design and CAD skills? Start here.
+    ---
 
-  [:octicons-arrow-right-24: Learning Course](learning-course/index.md)
+    Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki.
 
-- :material-bookshelf:{ .lg .middle } **Design Handbook**
+    [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md)
 
-  ***
+- :material-robot:{ .lg .middle .card} **Mechanism Examples**
 
-  Dives into the concepts necessary in order to design a competitive robot. Unlike the learning course, this is primarily a reference wiki.
+    ---
 
-  [:octicons-arrow-right-24: Design Handbook](design-handbook/index.md)
+    Unlike other mechanism example collections, these are hand picked for specific concepts with detailed breakdowns behind each design.
 
-- :material-robot:{ .lg .middle } **Mechanism Examples**
+    [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md)
 
-  ***
+- :material-file-cad-box:{ .lg .middle .card} **CAD Best Practices**
 
-  Unlike other mechanism example collections, these are hand picked for specific concepts with detailed breakdowns behind each design.
+    ---
 
-  [:octicons-arrow-right-24: Mechanism Examples](mechanism-examples/index.md)
+    A reference for best practices to follow when you're modeling a robot in Onshape.
 
-- :material-file-cad-box:{ .lg .middle } **CAD Best Practices**
+    [:octicons-arrow-right-24: CAD Best Practices](best-practices/index.md)
 
-  ***
+- :material-book:{ .lg .middle .card} **Other Resources**
 
-  A reference for best practices to follow when you're modeling a robot in Onshape.
+    ---
 
-  [:octicons-arrow-right-24: CAD Best Practices](best-practices/index.md)
+    Besides the other content on the website, we have a nice collection of resources (e.g. featurescripts and models).
 
-- :material-book:{ .lg .middle } **Other Resources**
-
-  ***
-
-  Besides the other content on the website, we have a nice collection of resources (e.g. featurescripts and models).
-
-  [:octicons-arrow-right-24: Other Resources](resources/index.md)
+    [:octicons-arrow-right-24: Other Resources](resources/index.md)
 
 </div>
 
@@ -87,6 +87,8 @@ FRCDesign.org is the culmination of hundreds of hours of work between a group of
 
 The most effective tool for learning design is getting feedback and learning from others. Join the Discord for design reviews, design challenges, and events.
 
+<center markdown>
 [![](/img/discord-link.webp){width=20%}](https://discord.gg/jHXTdNjYCg)
+</center>
 
 <br>
