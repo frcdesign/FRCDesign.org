@@ -4,7 +4,7 @@
 
 **Make a copy of the Stage 1C Exercises Document** through the button below. Each exercise has a folder, a "reference" tab (a preview of what the final model should look like), and a tab or two for doing your exercise in. Solutions are also provided in the 1C Exercise Solutions Document to check your work afterwards. You **do not** need to make a copy of the solutions document.
 
-<center>
+<center markdown>
 [1C Exercises Document (COPY THIS)](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c5babadecc47dfbe0d8ab454 "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
 [1C Exercise Solutions Document](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/52d6f1268d1392beb2834209 "1C Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
 </center>
