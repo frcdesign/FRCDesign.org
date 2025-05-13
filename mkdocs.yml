@@ -402,23 +402,21 @@ watch:
   - includes
 
 plugins:
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: default_page
+      debug: false
   - glightbox:
       background: none
       width: 90%
       shadow: true
   - search
-  #- meta
-  - social:
-    cards_layout_dir: layouts
-    cards_layout: default_page
-    debug: false
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
       - git-revision-date-localized:
           enable_creation_date: true
       #- optimize
-    
   - group: 
       enabled: !ENV INSIDERS
       plugins:
