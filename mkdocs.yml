@@ -408,7 +408,10 @@ plugins:
       shadow: true
   - search
   #- meta
-    
+  - social:
+    cards_layout_dir: layouts
+    cards_layout: default_page
+    debug: false
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
