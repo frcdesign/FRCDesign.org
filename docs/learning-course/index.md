@@ -25,7 +25,7 @@ The purpose of the course is to take you from zero to being able to model a full
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course! 
     
 
-<img src="/img/learning-course/stage0/setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+<img src="../img/learning-course/stage0/setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
 ### [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
 
