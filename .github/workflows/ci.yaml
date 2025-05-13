@@ -39,5 +39,5 @@ jobs:
           CI: true
           INSIDERS: true
         run: |
-          mkdocs build
+          mkdocs build -v
           mkdocs gh-deploy --force
