@@ -1,24 +1,10 @@
 # Section 1 Sketch Practice
 
-Time to pull everything together.
 
-At this point, you should be comfortable sketching rectangles, dimensioning parts, mirroring, extruding individual tubes, and converting them to hollow box tubes.
-
-This practice set will help you sharpen those skills.
-
----
 
 ## How to Practice
 
-For each frame:
-
-- Sketch the layout.
-- Mirror wherever you can to minimize the number of dimensions needed.
-- Fully constrain the sketch (no blue lines).
-- Extrude each part separately (use Extrude Individual).
-- Tube everything using the Tube Converter.
-
-Stick your sketches to the Origin and Center Cube where it makes sense.
+For each image, just try to copy it and see how it goes 
 
 ---
 

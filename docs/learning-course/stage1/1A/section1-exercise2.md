@@ -15,7 +15,7 @@ Check out the video below to see a drivetrain in action. Spot where box tube is 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>
 
 <figure>
-  <img src="/img/learning-course/stage1a/drivetrain-top.webp" style="width:100%">
+  <img src="/img/learning-course/stage1a/dt-top.webp" style="width:100%">
   <figcaption>Top view of a drivetrain setup.</figcaption>
 </figure>
 

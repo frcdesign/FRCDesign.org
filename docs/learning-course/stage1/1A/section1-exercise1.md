@@ -1,4 +1,4 @@
-  # Exercise 1: Making Your First Tube
+### Exercise 1: Making Your First Tube
 
 It’s time to create your first box tubes.
 
