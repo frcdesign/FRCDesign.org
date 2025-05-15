@@ -1,48 +1,27 @@
 # Exercise 2: Plates Gussets
 
-In the last exercise, we just made a simple plate to get used to some of the tools we’ll be using. 
-In section 1, we’ve been making drivetrains, but we need to connect them!
+In the last exercise, we made a single plate in isolation. Now lets use some of the tools we learned previously in combination with these new ones. In the past we made the tube layouts for drivetrains, now lets connect some of those tubes together.
 
-Let’s make a gusset for our drivetrain tube. This will allow us to connect tubes with fasteners in the future.
+Let’s make a gusset for our drivetrain tubes. By making use of the "Use" tool you can easily copy holes from the drivetrain tubes to start your plate sketch. Heres a video showing how to use the "Use" tool:
 
+<center markdown>
 <iframe src="https://www.youtube.com/embed/tcNEiHUlQE8" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+</center>
 
-
----
 
 ## Your Task
 
-- Open the Plates Exercise 2 tab.
-- Sketch the gusset shown below and extrude
-- Mirror and make the same gusset for the other 3 corners of the DT
+Your task is to make use of the "Use" tool to draw a simple gusset for the provided drive frame. To get started find the "Excersise 2: Gussets" part studio in the "Section 2" folder of the template document. Simply repeat the steps you should have memorized in the previous document but with the holes of this new gusset. Your final gusset should look like this:
 
 <figure>
-  <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:100%">
-  <figcaption>Gusset example</figcaption>
+  <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:75%">
 </figure>
-
-
-<figure>
-  <img src="/img/learning-course/stage1a/plate-gusset-example-sketch.webp" style="width:100%">
-  <figcaption>Gusset example</figcaption>
-</figure>
----
 
 ## Key Things to Watch For
 
 !!! tip "Remember..."
-
-    - Center your sketch on the origin.
-    - Mirror across centerlines to avoid over-dimensioning.
-    - Keep all sketches fully constrained (no blue lines).
-    - Extrude plates to a consistent thickness.
-    - Double-check that plates match across both sides of the frame.
-
-Clean sketches will make later assembly much easier.
-
----
-
-
+    - The keybind for "Use" is the "U" key.
+    - Arcs should only go on the corners of the gusset not on every hole.
 
 
 ## When You're Ready
