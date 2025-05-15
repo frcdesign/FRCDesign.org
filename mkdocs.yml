@@ -1,11 +1,11 @@
 site_name: FRCDesign.org
 site_description: A comprehensive learning guide and technical reference for FRC design using Onshape.
-site_url: https://www.FRCDesign.org
+site_url: https://frcdesign.github.io/FRCDesign.org-DavidDev/
 
 # Repository
 repo_name: frcdesign/FRCDesign.org
 repo_url: https://github.com/frcdesign/FRCDesign.org
-edit_uri: edit/main/docs/
+edit_uri: edit/main/FRCDesign.org-DavidDev/docs/
 
 copyright: "<a href='https://wcproducts.com/' target='_blank'><img src='/img/footer/WCP.webp' width=15% height=15% style='float:right'></a> <br> Need custom laser cut parts for your robot? Check out our sponsor <a href='https://go.fabworks.com/frcdesign' class='footerlink'/>Fabworks.</a>"
 # Configuration
@@ -109,17 +109,29 @@ nav:
 
     - Stage 1:
       - "A: Onshape Fundamentals":
-        - "Introduction": learning-course/stage1/1A/introduction.md
-        - "Sketching and Part Modeling": learning-course/stage1/1A/sketch-part-modeling.md
-        - "Exercise Prequisites": learning-course/stage1/1A/exercise-setup.md
-        - "Focusing on Improvement": learning-course/stage1/1A/focusing-on-improvement.md
-        - "Exercise 1: Simple Box Tube": learning-course/stage1/1A/exercise1.md
-        - "Multi-Body Modeling": learning-course/stage1/1A/multi-body.md
-        - "Exercise 2: Gusset Joint": learning-course/stage1/1A/exercise2.md
-        - "Assembly Modeling": learning-course/stage1/1A/assembly.md
-        - "Exercise 3: Box Tube Frame": learning-course/stage1/1A/exercise3.md
-        - "Exercise 4: Climber Hook": learning-course/stage1/1A/exercise4.md
-        - "Summary": learning-course/stage1/1A/summary.md
+        - "Section 1: Part Studio Fundamentals":
+          - "Setup": learning-course/stage1/1A/section1-setup.md
+          - "Exercise 0": learning-course/stage1/1A/section1-exercise0.md
+          - "Exercise 1": learning-course/stage1/1A/section1-exercise1.md
+          - "Exercise 2": learning-course/stage1/1A/section1-exercise2.md
+          - "Exercise 3": learning-course/stage1/1A/section1-exercise3.md
+          - "Exercise 4": learning-course/stage1/1A/section1-exercise4.md
+          - "Exercise 5": learning-course/stage1/1A/section1-exercise5.md
+          - "Exercise 6": learning-course/stage1/1A/section1-exercise6.md
+          - "Additional Practice": learning-course/stage1/1A/section1-additional-practice.md
+        - "Section 2: Plates":
+          - "Exercise 1": learning-course/stage1/1A/section2-exercise1.md
+          - "Exercise 2": learning-course/stage1/1A/section2-exercise2.md
+          - "Exercise 3": learning-course/stage1/1A/section2-exercise3.md
+          - "Exercise 4": learning-course/stage1/1A/section2-exercise4.md
+          - "Additional Practice": learning-course/stage1/1A/section2-additional-practice.md
+        - "Section 3: Assemblies":
+          - "Exercise 1": learning-course/stage1/1A/section3-exercise1.md
+          - "Exercise 2": learning-course/stage1/1A/section3-exercise2.md
+          - "Exercise 3": learning-course/stage1/1A/section3-exercise3.md
+          - "Exercise 4": learning-course/stage1/1A/section3-exercise4.md
+          - "Exercise 5": learning-course/stage1/1A/section3-exercise5.md
+          - "Additional Practice": learning-course/stage1/1A/section3-additional-practice.md
 
       - "B: Power Transmissions":
         - "Introduction": learning-course/stage1/1B/introduction.md

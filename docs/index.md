@@ -7,7 +7,7 @@ hide:
   - toc
 ---
 
-# Welcome to FRCDesign.org David 2
+# Welcome to FRCDesign.org
 
 FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape.
 
