@@ -11,7 +11,9 @@ Let’s make a gusset for our drivetrain tubes. By making use of the "Use" tool 
 
 ## Your Task
 
-Your task is to make use of the "Use" tool to draw a simple gusset for the provided drive frame. To get started find the "Exercise 2: Gussets" part studio in the "Section 2" folder of the template document. Simply repeat the steps you should have memorized in the previous exercise but with the holes of this new gusset. Your final gusset should look like this:
+Your task is to make use of the "Use" tool to draw a simple gusset for the provided drive frame. To get started find the "Exercise 2: Gussets" part studio in the "Section 2" folder of the template document. 
+
+Simply repeat the steps you should have memorized in the previous exercise but with the holes of this new gusset. Your final gusset should look like this:
 
 <figure>
   <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:75%">
@@ -23,6 +25,8 @@ Your task is to make use of the "Use" tool to draw a simple gusset for the provi
     - The keybind for "Use" is the "U" key.
     - Arcs should only go on the corners of the gusset not on every hole.
 
+### Complete?
+Try and remake ths gusset for a different section of the frame!
 
 ## When You're Ready
 

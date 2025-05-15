@@ -1,4 +1,7 @@
-# Exercise 4: Motor Mounting Plates
+# Exercise 4: Motor Mounting Plates 
+
+In this exercise s
+
 <figure>
   <img src="/img/learning-course/stage1a/motor-mount.webp" style="width:100%">
   
