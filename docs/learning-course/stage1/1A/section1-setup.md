@@ -1,4 +1,9 @@
-# Setup: Rectangles and Tubes
+# Introduction and Setup
+
+Welcome to stage 1A! You'll be learning the basics of CAD using a bit more an an interactive setup.
+
+
+## Advice
 
 The **superstructure** is an important part of FRC robots. It acts as the skeleton that other mechanisms attach to.
 
