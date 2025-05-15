@@ -35,11 +35,7 @@ For each image, just try to copy it and see how it goes
 
 !!! tip "Remember..."
 
-    - Mirror lines save a lot of dimensions.
-    - Think about construction lines when building symmetry.
-    - Check that your frame matches the real-world shape before tubing.
-    - Tubes should never overlap unless you have a reason.
-    - Stay clean and organized — it’ll pay off later.
+    drink water
 
 ---
 

@@ -1,6 +1,6 @@
-### Exercise 1: Making Your First Tube
+## Exercise 1: Making Your First Tube
 
-It’s time to create your first box tubes.
+Let's start creating our first box tubes in Onshape. We'll be using the "extrude" tool in order to do this. 
 
 ---
 
@@ -13,24 +13,26 @@ Follow along with the video to extrude your first box tubes:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l4902vYWxbE" frameborder="0" allowfullscreen></iframe>
 
 
-As you work through the exercise, notice how:
+!!! info "As you work through the exercise, notice how:"
 
-- Changing the extruded length affects the box tube.
-- The dimensions of the sketch translate directly into the dimensions of the tube.
+    - Changing the extruded length affects the box tube.
+    - The dimensions of the sketch translate directly into the dimensions of the tube.
 
 ---
 
-## Example Images
+## Reference images
 
-<figure>
-  <img src="/img/learning-course/stage1a/extrude-setup.webp" style="width:100%">
-  <figcaption>Extrude your rectangles to create box tubes.</figcaption>
-</figure>
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <figure style="flex: 1;">
+    <img src="/img/learning-course/stage1a/extrude-setup.webp" style="width:100%">
+    <figcaption>Extrude your rectangles to create box tubes.</figcaption>
+  </figure>
 
-<figure>
-  <img src="/img/learning-course/stage1a/tube-result.webp" style="width:100%">
-  <figcaption>Completed box tube geometry.</figcaption>
-</figure>
+  <figure style="flex: 1;">
+    <img src="/img/learning-course/stage1a/tube-result.webp" style="width:100%">
+    <figcaption>Completed box tube geometry.</figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -51,6 +53,10 @@ If you forget the name of a tool, you can press **Alt+C** to search for it.
 
 ---
 
-## When You're Ready
+## Done following along? 
 
-Continue to [Exercise 2](section1-exercise2.md).
+Mess around with the tubes a bit more, try extruding different lengths, using different extrude offsets and settings, and play to see how they relate to your final box tube.
+
+After 5 minutes or so, move on. 
+
+[Continue to Exercise 2](section1-exercise2.md){ .md-button .md-button--primary }

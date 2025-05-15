@@ -1,9 +1,9 @@
-# Exercise 4: Building the Drivetrain Frame
+# Exercise 4: Sketching the Drivetrain Frame
 
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:100%">
-  <figcaption>Drivetrain Final.</figcaption>
+  <figcaption>Final Frame.</figcaption>
 </figure>
 
 
@@ -25,21 +25,6 @@ Make sure to **mirror your sketches** using construction lines — don't manuall
   <img src="/img/learning-course/stage1a/exercise4-drivetrain-sketch.webp" style="width:100%">
   <figcaption>Drivetrain sketch</figcaption>
 </figure>
-
----
-
-## Frame Dimensions
-
-The frame should match these specifications:
-
-- 22 inches between the left and right modules
-- 22 inches between the front and back modules
-- 1 inch wide box tubes
-- 1 inch spacing from the modules to the edges
-
-(You should only need a few dimensions if you mirror properly.)
-
----
 
 ## Important Notes
 
@@ -74,4 +59,4 @@ Once your sketch is complete, extrude and tube convert into your drivetrain, lik
 
 ## When You're Ready
 
-Continue to [Exercise 5](section1-exercise5.md).
+[Continue to Exercise 5](section1-exercise5.md){ .md-button .md-button--primary }
