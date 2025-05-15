@@ -1,68 +1,64 @@
 # Exercise 1: Plates
 
+## Introduction
+
+At this point you should be an expert at making tubing frames of varous shapes and sizes. These frames will not stay together without something to attach to. Thats where plates come in.
+
+In FRC, plates are used everywhere and are made out of many different materials. A plate used solely to connect two pieces together is also sometimes referred to as a gusset. This section will be primarily focused around how to model plates for various purposes.
+
 ## What Are Plates?
 
-We’ve been making a lot of box tubes that float in the air. How do we attach them? 
+FRC Plates have two main functions. Plates allow you to connect structural pieces together, but they also allow you to mount external components like motors or mechanisms to the frame. Below are two examples of plates being used in frc
 
-We can do this through plates.
-Plates have two functions:
+???+ Example "Plate Examples"
 
-1. Connect tubes precisely the way you want. 
-2. Precisely place other objects of the robot in the exact spot you want them.
+    <div class="grid cards" markdown>
 
-<figure>
-  <img src="/img/learning-course/stage1a/9442-plate.webp" style="width:100%">
-  <figcaption>9442's Robot Plate.</figcaption>
-</figure>
+    -   <center markdown><img src="/img/learning-course/stage1a/9442-plate.webp" width="100%"></center>
 
-<figure>
-  <img src="/img/learning-course/stage1a/other-plate.webp" style="width:100%">
-  <figcaption>Another Plate.</figcaption>
-</figure>
+    -   <center markdown><img src="/img/learning-course/stage1a/604-plate.webp" width="100%"></center>
 
----
+    </div>
+
+    <figure>
+      <figcaption>Gussets being used to mount mechanisms and hold frames together (Photo Credits: FRC 604, FRC 9442)</figcaption>
+    </figure>
+
 ### Background
 
-Since your tubes are always in 0.5-inch increments, your plates allow you to connect uneven distances. 
+Since your tubes are always in 0.5-inch increments, your plates allow you to bridge the gap between uneven distances. This is possible because plates are CNC manufactured allowing for completely arbitrary hole spacings.
 
-What is a plate? A plate material around a hole or a set of holes. That is it. For example, we can make a plate with one hole by making a sketch of our hole, defining the hole size, then defining the material around it with another sketch.
+Its this arbitrary hole spacing that is key to think about when desigining plates, the purpose of a plate is to place mounting holes where you want them, the material that makes up the plate only exists to position mounting holes.
 
-Plates are composed of circles, arcs, and lines. Watch this video to get a primer on how a plate outline is made. (Do not follow along, just watch and absorb whatever you can)
+A plate sketch is composed of circles for the holes, arcs for corner fillets, and lines to complete the shape. When making the shape of a plate think about the shape that would be made by tying a string around all of the mounting holes on a given plate. Here is a video demonstrating this concept for a very basic plate. No need to follow along here, just watch.
 
+This video also shows off the tangent constraint! this is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/0a5A_xZJ3sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-The tangent constraint allows us to create a tangent line or object to an arc or circle. Watch this video for a demonstration. This is important to “smooth” out our plate. We don’t want sharp edges!
-
 ## Your Task
+  
+Your task is to make a very simple plate with two bearing holes. Bearings come up everywhere in frc to help reduct frction on moving components. This is the same type of plate as shown in the prior video.
 
-We’ll make a plate that can hold two bearing holes. Bearings help reduce friction in shafts, but for now, just think of it as a big hole. (insert gif with rotating shaft in bearing pt 2) 
+Make 2 holes sized 1.125" in diameter and space them 3" apart. Make sure one of the circles is centered on the origin to keep things from moving around. 
 
-The holes in the sketch are already made for you, so we just need to outline. Watch this video to learn how to use the center point arc, line, and tangent constraint.
+???+ Question "Plate Workflow"
+
+    1. Draw an arc around each bearing hole, dimension one of the arcs to be 0.25" away from the hole 
+    2. Set the two arcs to be equal in radius by using the equal constraint.
+    3. Draw lines connecting the arcs
+    4. Set the lines tangent to the arcs to align everything.
 
 !!! info "Tip"
 
-    Tip: holding shift turns off auto constraining, you may accidentally make one part of your arc horizontally or vertically constrained.
-    You can also delete constraints by hovering over parts. 
+    Holding shift turns off auto constraining, you may accidentally make one part of your arc horizontally or vertically constrained.
+    You can also delete constraints by hovering over parts.
+    If you get stuck you can refer back to the video for guidance.
 
 ### Complete?
 
-After Finishing, delete your plate outline, and repeat these steps 2-3 times or until it feels boring and you can do it easily from memory. 
+After Finishing, delete your plate outline, and repeat these steps 2-3 times or until the process feels natural and you do not need to reference the steps. You can close the step dropdown if it helps you stop looking at them. Try adding third bearing hole into the plate!. You will end up making dozens of plates over even just a single FRC season, so getting comfortable with these steps is a must.
 
-Try not to reference the video. It helps you remember! 
-
-Open the workflow below once you have messed around to see if you are going about the same route:
-
-??? Question "Workflow"
-    After attempting, here's an example workflow:
-
-    1. Identify the holes in the sketch.
-    2. Create center point arcs based on each edge hole to define the material.
-    3. Dimension the distance between the hole and the arc.
-    4. Connect each point of the arc with lines, and repeat till the region is filled.
-    5. Use the tangent constraint to smooth out the arcs
-    
----
 
 ## When You're Ready
 

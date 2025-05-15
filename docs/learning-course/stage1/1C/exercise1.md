@@ -10,6 +10,7 @@ Many vendors including [WCP](https://wcproducts.com/products/tube-plugs "WCP Tub
 They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
 
 ???+ Example "Tube Plugs"
+
     <div class="grid cards" markdown>
 
     -   <center markdown><img src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
