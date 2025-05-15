@@ -45,5 +45,8 @@
         "Uncreate",
         "writeups"
     ],
-    "python.defaultInterpreterPath": "/usr/local/bin/python"
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "cSpell.enabledFileTypes": {
+        "markdown": true
+    }
 }
