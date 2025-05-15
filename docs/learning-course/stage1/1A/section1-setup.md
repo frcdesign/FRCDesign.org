@@ -1,16 +1,20 @@
 # Introduction and Setup
 
-Welcome to stage 1A! You'll be learning the basics of CAD using a bit more an an interactive setup.
+## Welcome
+
+Welcome to Stage 1A! You'll be learning the basics of CAD throughout this stage. 
 
 
-## Advice
+!!! info "Advice"
+    This course is structured a bit differently from what you might be used to, and we hope you enjoy the process.
 
-The **superstructure** is an important part of FRC robots. It acts as the skeleton that other mechanisms attach to.
+    In these exercises, we encourage you to experiment and figure out how a feature "works," You can usually move on once you are able to complete the exercises. Do note that the exercises build up on each other, so you are expected to do the content of the previous exercise in futher exercises. 
 
-Superstructures are mainly built with:
+## Box Tube Intro
 
-- **Box Tubes**: Aluminum tubes with pre-punched hole patterns. These are cut down in **0.5-inch increments** to create modular pieces that can be easily assembled into strong structures.
-- **Plates**: Flat sheets that connect box tubes and other mechanisms using the hole pattern, allowing for precise mounting.
+The Box tubes are important since they provide the primary structure of your robot.
+
+These are made out of aluminum, and typically are cut in 0.5 inch increments. You can think of them like legos. 
 
 ---
 
@@ -21,6 +25,7 @@ Superstructures are mainly built with:
   <figcaption>Example of a box tube with a pre-punched hole pattern</figcaption>
 </figure>
 
+## How are they used in real life?
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
@@ -46,11 +51,12 @@ The most common dimensions are:
   <figcaption>Box tube cross sections (1x1 and 2x1)</figcaption>
 </figure>
 
+
+We'll be working with these increments throughout the stages, keep them in mind!
+
 ---
 
-## Before You Start
-
-Make sure you have an Onshape account and have copied the starter document.
+## Follow along Copy the Starter Document
 
 <figure>
   <iframe width="560" height="315" 
@@ -58,20 +64,14 @@ Make sure you have an Onshape account and have copied the starter document.
     frameborder="0" 
     allowfullscreen>
   </iframe>
-  <figcaption>Video Tutorial: Copy the Onshape Document</figcaption>
+  <figcaption>Copying A document</figcaption>
 </figure>
 
-- [Onshape Starter Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd)
+[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){ .md-button .md-button--primary }
 
----
 
-## Checklist
-
-- Copy the starter document
-- Take a look around
-
----
+<!-- idk how to center -->
 
 ## When You're Ready
 
-Continue to [Exercise 0](section1-exercise0.md).
+[Continue to Exercise 0](section1-exercise0.md){ .md-button .md-button--primary }

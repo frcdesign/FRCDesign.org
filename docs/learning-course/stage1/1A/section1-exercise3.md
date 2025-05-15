@@ -1,4 +1,4 @@
-# Exercise 3: Extruding Smarter
+# Exercise 3: More Extrudes
 
 ## Extrude the Rectangles
 
@@ -14,7 +14,7 @@ Don't forget: use the Tube Converter after extruding.
 
 ---
 
-## Problem?
+## Looks a bit weird?
 
 ??? question "Click here after you try it"
 
@@ -45,7 +45,7 @@ Don't forget: use the Tube Converter after extruding.
     Also, if you click the "Bind" option inside Extrude Individual, you can force symmetry.
 
     <figure>
-      <img src="/img/learning-course/stage1a/extrude-individual-bind.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:100%">
       <figcaption>Using "Bind" inside Extrude Individual.</figcaption>
     </figure>
 
@@ -134,4 +134,4 @@ The only numbers you should see:
 
 ## When You're Ready
 
-Continue to [Exercise 4](section1-exercise4.md).
+[Continue to Exercise 4](section1-exercise4.md){ .md-button .md-button--primary }
