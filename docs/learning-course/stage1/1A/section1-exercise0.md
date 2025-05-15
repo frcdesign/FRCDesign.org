@@ -15,19 +15,7 @@ Before starting the exercises, let's figure out how to navigate onshape.
 
 Honestly, just mess around for 5 minutes till you figure it out.
 
-<figure>
-  <img src="/img/learning-course/stage1a/split-screen.webp" style="width:100%">
-  <figcaption>Example of split screen while working through exercises.</figcaption>
-</figure>
-
-
 Here's a video introing navigating onshape, don't worry too much if it doesn't make sesne yet, we'll figure it out over time.
-
----
-
-## Notes
-
-- **Split screen** helps you work faster and check instructions without switching tabs constantly.
 
 ---
 

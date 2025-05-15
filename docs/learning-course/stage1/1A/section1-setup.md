@@ -16,6 +16,19 @@ Superstructures are mainly built with:
   <figcaption>Example of a box tube with a pre-punched hole pattern</figcaption>
 </figure>
 
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  <figure>
+    <img src="/img/learning-course/stage1a/ht-superstructure.webp" style="width:100%">
+    <figcaption>4414's 2022 box tube superstructure in CAD</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/img/learning-course/stage1a/hightide-real.webp" style="width:80%">
+    <figcaption>4414's 2022 robot</figcaption>
+  </figure>
+</div>
+
 From the side, a box tube can be represented as a simple rectangle.  
 The most common dimensions are:
 
@@ -50,7 +63,7 @@ Make sure you have an Onshape account and have copied the starter document.
 ## Checklist
 
 - Copy the starter document
-- look around
+- Take a look around
 
 ---
 
