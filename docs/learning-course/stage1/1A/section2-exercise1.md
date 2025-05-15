@@ -40,7 +40,7 @@ This video also shows off the tangent constraint! this is one of the most freque
   
 Your task is to make a very simple plate with two bearing holes. Bearings come up everywhere in frc to help reduct frction on moving components. This is the same type of plate as shown in the prior video.
 
-Make 2 holes sized 1.125" in diameter and space them 3" apart. Make sure one of the circles is centered on the origin to keep things from moving around. 
+To get started find the "Excersise 1: Plates" part studio in the "Section 2" folder of the template document you copied earlier.
 
 ???+ Question "Plate Workflow"
 
