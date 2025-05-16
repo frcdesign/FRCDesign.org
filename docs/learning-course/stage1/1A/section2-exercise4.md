@@ -1,31 +1,21 @@
 # Exercise 4: Motor Mounting Plates 
 
-In this exercise s
+In this exercise you will be making a simple motor mounting plate. This should not be too difficult since it will be similar to the gussets you have made in the previous exercise.
 
-<figure>
-  <img src="/img/learning-course/stage1a/motor-mount.webp" style="width:100%">
-  
-  <figcaption>Motor mounting plate sketch.</figcaption>
-</figure>
-
-
-
-In this exercise we’ll be using the circular pattern tool to make a motor mount. 
----
 
 ## Your Task
 
-- Copy the sketch using the circular pattern tool, then extrude
+To get started find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder of the template document. 
 
-You’re aiming to match the setup shown below.
+Sketch out the motor mounting plate using the reference image below. Make sure to use the "Circular Pattern" tool to make the holes for the motor.
 
 <figure>
-  <img src="/img/learning-course/stage1a/motor-mount-sketch.webp" style="width:100%">
-  <figcaption>Motor mounting plate sketch.</figcaption>
+  <img src="/img/learning-course/stage1a/motor-mount.webp" style="width:50%">
 </figure>
 
----
+### Complete?
+Go back to your exercise 3 part studio and try and add a motor mount to the to somewhere on the superstructure.
 
 ## When You're Ready
 
-Move on to [Section 2 Sketch Practice](section2-sketch-practice.md).
+Move on to [Section 2 Additional Practice](section2-additional-practice.md).
