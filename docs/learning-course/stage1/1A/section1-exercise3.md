@@ -25,7 +25,7 @@ Don't forget: use the Tube Converter after extruding.
 
     If you need to restart, here's a quick video showing how to delete your bad tubes:
 
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/WIwax3SHSQU" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/2Jzb1Xr6NBE" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -62,7 +62,7 @@ When we sketch, we use rectangles to represent box tubes in 2D, and use **dimens
 
 📺 Follow along with the video:
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/xFm_EC-hl8o" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -126,7 +126,7 @@ The only numbers you should see:
 
     Here's an optimized way to sketch it:
 
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/-H2Lds8F34Q" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U" frameborder="0" allowfullscreen></iframe>
 
     Compare your approach to the video.  
     What did you do differently?  
