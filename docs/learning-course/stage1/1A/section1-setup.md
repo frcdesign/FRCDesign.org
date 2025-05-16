@@ -1,7 +1,4 @@
 # Introduction and Setup
-
-## Welcome
-
 Welcome to Stage 1A! You'll be learning the basics of CAD throughout this stage. 
 
 

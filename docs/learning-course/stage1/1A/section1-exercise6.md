@@ -41,5 +41,5 @@ We can do this through the angled rectangle sketch tool. (Use alt+C or look in y
 
 ## Complete?
 
-[Additional Practice](section1-additional-practice.md){ .md-button .md-button--primary }
+[Section 2](section2-exercise1.md){ .md-button .md-button--primary }
 

@@ -75,7 +75,12 @@ Once you finish, take a 5-minute break and try to improve or correct your mistak
 
 Let’s also rename our features. Heres a tutorial on how to set this up. Moving forward, we want to always name our features.
 
-(plz insert tutorial)
+
+### Renaming Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ELdwPyFnm4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
 
 ### Solution: 
 [Solution](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){ .md-button .md-button--primary }
