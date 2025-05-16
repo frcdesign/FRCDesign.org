@@ -36,7 +36,9 @@ Don't forget: use the Tube Converter after extruding.
     Doing four separate extrudes manually is way too much work.
 
     Here's the faster way:
+    
     - Delete your old extrudes.
+
     - Use the **Extrude Individual** feature script you installed in Stage 0.
     - (Hit **Alt+C** and type `"extrude individual"` if you can't find it.)
 

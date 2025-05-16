@@ -60,8 +60,6 @@ Once your two tubes are set, let's change the appearance so it looks better. Fol
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kXxcmQg3pzE" frameborder="0" allowfullscreen></iframe>
 
-Pretty robots in cad are always nice!
-
 ---
 
 ## When You're Ready
