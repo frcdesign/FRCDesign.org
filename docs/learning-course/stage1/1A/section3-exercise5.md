@@ -13,6 +13,7 @@ Good luck!
 
 ---
 
+
 ## When You're Ready
 
-Move on to [Stage 1B](../stage1b/start-here.md).
+Move on to [Final Additional Practice](../stage1a/section3-additional-practice.md).
