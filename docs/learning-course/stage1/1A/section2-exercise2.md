@@ -5,7 +5,7 @@ In the last exercise, we made a single plate in isolation. Now lets use some of 
 Let’s make a gusset for our drivetrain tubes. By making use of the "Use" tool you can easily copy holes from the drivetrain tubes to start your plate sketch. Heres a video showing how to use the "Use" tool:
 
 <center markdown>
-<iframe src="https://www.youtube.com/embed/tcNEiHUlQE8" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9UZ3GaXC-w8" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </center>
 
 

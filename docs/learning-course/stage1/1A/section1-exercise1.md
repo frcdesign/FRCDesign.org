@@ -10,7 +10,7 @@ Follow along with the video to extrude your first box tubes:
 
 ### Exercise 1 Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l4902vYWxbE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdD1BTQndEo" frameborder="0" allowfullscreen></iframe>
 
 
 !!! info "As you work through the exercise, notice how:"

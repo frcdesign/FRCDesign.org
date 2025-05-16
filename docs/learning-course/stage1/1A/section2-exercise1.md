@@ -34,7 +34,7 @@ A plate sketch is composed of circles for the holes, arcs for corner fillets, an
 
 This video also shows off the tangent constraint! this is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/0a5A_xZJ3sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/mXzX9wmipV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Your Task
   
