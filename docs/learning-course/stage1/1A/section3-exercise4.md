@@ -8,7 +8,7 @@
 ## Your Task
 
 - Create a new Assembly.
-- Insert your Section 3 Exercise 3 Part Studio (your full chassis frame).
+- Insert your Section 3 Exercise 3 Part Studio (your frame with that single gusset).
 - Group all the frame parts together.
 - Insert the swerve modules (MK4i N A and B variants) if you haven't already.
 - Fasten the swerve modules onto the corners of the frame.
@@ -16,11 +16,6 @@
 - Measure the distance between faces to figure out bolt size 
 - Fasten the bolts properly.
 - Use the **Replicate Tool** (set to "match edges on a plane") to duplicate bolts across the modules.
-
-<figure>
-  <img src="/img/learning-course/stage1a/full-frame-assembly1.webp" style="width:100%">
-  <figcaption>Full chassis assembly with modules and bolts installed.</figcaption>
-</figure>
 
 ---
 

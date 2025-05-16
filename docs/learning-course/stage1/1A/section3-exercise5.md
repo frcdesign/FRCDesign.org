@@ -1,6 +1,13 @@
 # Exercise 5: Adding Fasteners and Gussets to a Full Frame
 
-Insert the Section 2 full frame with plates and gussets, and assemble it together with all fasteners.
+In section 2, your last exercise involved a full superstructure with a bunch of plates and gussets. Insert that part studio, assemble it, and measure and add all of the fasteners that you feel like you need.
+
+The goal here is just to get practice and put everything you learned together.
+
+!!! tip
+
+    - A good rule of thumb is to have 1 bolt and have the rest of the holes be rivets
+    - CTR + C and CTR + V is your friend
 
 Good luck!
 
