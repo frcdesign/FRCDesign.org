@@ -18,4 +18,4 @@ Go back to your exercise 3 part studio and try and add a motor mount to the to s
 
 ## When You're Ready
 
-Move on to [Section 2 Additional Practice](section2-additional-practice.md).
+Move on to [Section 3](section3-exercise1.md).
