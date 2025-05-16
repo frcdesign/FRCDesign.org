@@ -20,9 +20,9 @@ To learn how to use these features watch this video:
 
 (David pls make video thx)
 
-Your plate should:
-- Copy at most 1 hole per tube from the "Use" tool
-- Use the mirror tool to make the right or left side of mounting holes, instead of making a third linear pattern.
+!!! tip "Remember..."
+    - Copy at most 1 hole per tube from the "Use" tool
+    - Use the mirror tool to make the right or left side of     mounting holes, instead of making a third linear pattern.
 
 ## When You're Ready
 
