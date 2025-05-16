@@ -1,14 +1,33 @@
-# Section 1 Sketch Practice
+# Section 1 Practice
 
 
 
 ## How to Practice
+Copy the images of the sketch/box tube frames. Look up things you don't know, and ask for feedback for each frame after you complete them. 
 
-For each image, just try to copy it and see how it goes 
+## Sketching
+
+<figure>
+  <img src="/img/learning-course/stage1a/practice1-frame.webp" style="width:100%">
+  <figcaption>Practice Frame 1</figcaption>
+</figure>
 
 ---
 
-## Practice Frames
+<figure>
+  <img src="/img/learning-course/stage1a/practice2-frame.webp" style="width:100%">
+  <figcaption>Practice Frame 2</figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="/img/learning-course/stage1a/practice3-frame.webp" style="width:100%">
+  <figcaption>Practice Frame 3</figcaption>
+</figure>
+
+
+## Box Tube Frames
 
 <figure>
   <img src="/img/learning-course/stage1a/practice1-frame.webp" style="width:100%">

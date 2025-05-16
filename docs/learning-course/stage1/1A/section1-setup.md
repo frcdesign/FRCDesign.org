@@ -56,7 +56,7 @@ We'll be working with these increments throughout the stages, keep them in mind!
 
 ---
 
-## Follow along Copy the Starter Document
+# Important: Copy the Setup document! 
 
 <figure>
   <iframe width="560" height="315" 
@@ -64,7 +64,7 @@ We'll be working with these increments throughout the stages, keep them in mind!
     frameborder="0" 
     allowfullscreen>
   </iframe>
-  <figcaption>Copying A document</figcaption>
+  <figcaption>Copying a document</figcaption>
 </figure>
 
 [Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){ .md-button .md-button--primary }
