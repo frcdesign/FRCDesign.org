@@ -1,6 +1,6 @@
 # 0C: Navigating Onshape
 
-## Navigating Documents
+## Navigating Documents (Skim through this, refer to it later)
 
 An Onshape document is not a CAD file, but a container that holds data related to a project, including any number of part studios, assemblies, drawings, and other media/files. It can be versioned and linked to from other documents. There are two main types of environments in a document: ***part studios*** and ***assemblies***.
 

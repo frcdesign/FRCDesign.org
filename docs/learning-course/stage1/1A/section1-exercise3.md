@@ -77,9 +77,7 @@ When we sketch, we use rectangles to represent box tubes in 2D, and use **dimens
     - **Blue is bad** — a blue sketch means it's not fully defined yet. Everything should turn black.
     - **Less is better** — use the fewest dimensions necessary to fully lock down your design.
 
-After watching the video, open Exercise 3 in Onshape.  
-Create a flat sketch, extrude the shapes, and turn them into tubes.
-
+## Todo:
 ---
 
 ## What You Learned

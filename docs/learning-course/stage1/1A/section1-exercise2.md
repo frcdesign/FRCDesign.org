@@ -15,6 +15,9 @@ Check out the video below to see a drivetrain in action. Spot where box tube is 
 
 ## Your Task
 
+1. We'll be using the extrude tool and tube converter to create cross rails for our drivetrain. This will help support it. 
+2. Once its complete, we'll change the appearance of all the tubes to a color of your choosing. 
+
 Let's add some cross rails to support the drivetrain better. Use what you learned in the previous exercise to try to figure it out. Good luck!
 
 <div style="display: flex; gap: 5px; align-items: flex-start;">
@@ -54,7 +57,7 @@ Always check that your CAD makes sense physically.
 
 ## Make It Look Nicer
 
-Once your two tubes are set, let's change the appearance so it looks better. Follow the video below.
+Once your two tubes are set, let's change the appearance of your drivetrain so it looks better. Watch the video, then change all of the tubes to a color of your choosing. 
 
 ### Video: How to Change Part Colors
 
