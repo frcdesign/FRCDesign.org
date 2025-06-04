@@ -2,6 +2,12 @@
 
 Let's start creating our first box tubes in Onshape. We'll be using the "extrude" tool in order to do this. 
 
+You'll be:
+
+1. Following along with the video to learn how we can make box tubes in onshape
+2. Playing with the tools you learned to explore how the concepts work
+3. Understanding how these parts interact in 3D Space
+
 ---
 
 ## Watch the Walkthrough
@@ -35,6 +41,22 @@ Follow along with the video to extrude your first box tubes:
 </div>
 
 ---
+
+
+## What do I need to keep in mind about the extrude tool?
+
+!!! info "New vs Add"
+    
+    If if you extrude a tube next to another tube, you might notice that they merge together. Make sure to use the "new" option in your extrude menu, since sometimes onshape will default to "add" (add gif here)
+
+!!! info "Symmetric vs Blind
+    
+    Depending on what you want to do 
+
+!!! info "Up to Face"
+ 
+    Up to face
+
 
 ## Tube Converter Settings
 

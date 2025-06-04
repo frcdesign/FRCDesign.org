@@ -90,10 +90,6 @@ nav:
   - Learning Course:
       - learning-course/index.md
       - Stage 0:
-          - "A: Introduction to CAD":
-              - "What and Why": learning-course/stage0/0A/what-and-why-CAD.md
-              - "CAD Software": learning-course/stage0/0A/cad-software.md
-
           - "B: Onshape Setup":
               - "Account Setup": learning-course/stage0/0B/account-setup.md
               - "Performance Tuning": learning-course/stage0/0B/performance-tuning.md
@@ -103,9 +99,6 @@ nav:
           - "C: Navigating Onshape":
               - "Documents Page": learning-course/stage0/0C/documents.md
               - "Document Navigation": learning-course/stage0/0C/document-navigation.md
-              - "Other Notes": learning-course/stage0/0C/other-notes.md
-          - "D: CAD Theory": learning-course/stage0/0D/theory.md
-          - "Summary": learning-course/stage0/summary.md
 
       - Stage 1:
           - "A: Onshape Fundamentals":
