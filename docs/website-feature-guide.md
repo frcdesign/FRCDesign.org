@@ -14,22 +14,23 @@ There are several features across the website that, if missed, will make it hard
 - Clicking on an image enlarges it and shows a caption, if applicable. Press the `Esc` key to minimize it again.
 - The website has a [glossary](resources/glossary.md "Glossary Page"){:target="\_blank"} of terms related to the content. Whenever a word in that glossary is mentioned in the website, it will be underlined. You can hover over these underlined words to get a quick definition (e.g. COTS, OTB).
 - Some information is hidden in dropdowns. Try to check most of them!
-  ??? Example
-  Information is hidden here to clean up pages.
+  
+??? Example
+    Information is hidden here to clean up pages.
 
 ### Admonitions (Call-Outs)
 
 !!! Tip
-Quick tips are shown in a "Tip" box like this one.
+    Quick tips are shown in a "Tip" box like this one.
 
 !!! Note
-Any extra notes about things are shown in a "Note" box like this one.
+    Any extra notes about things are shown in a "Note" box like this one.
 
 !!! Warning
-Pay attention to anything in a "Warning" box like this one.
+    Pay attention to anything in a "Warning" box like this one.
 
 !!! Example
-Examples for different concepts are shown in an "Example" box like this one.
+    Examples for different concepts are shown in an "Example" box like this one.
 
 ## Learning Course
 
@@ -82,10 +83,10 @@ Important Onshape documents for the page will be shown as a button like the one 
 </div>
 
 !!! Warning
-You may have to disable your adblocker to get some videos to load (we do not host any ads on the site).
+    You may have to disable your adblocker to get some videos to load (we do not host any ads on the site).
 
 !!! Tip
-If a slideshow has issues loading, reload the webpage and it should be fixed.
+    If a slideshow has issues loading, reload the webpage and it should be fixed.
 
 <br>
 
