@@ -1,9 +1,9 @@
-# 0B: Onshape Setup
+# New to Onshape
 
 !!! Tip
     Remember to take a look at the [website feature guide](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
 
-## Registering for Onshape
+## Registering an Account
 
 Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
 
@@ -17,21 +17,21 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage0/setup/signup.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
+          <img src="/img/learning-course/course-setup/account-setup/signup.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
           <figcaption> Fill out the details in the sign up form. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage0/setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
+          <img src="/img/learning-course/course-setup/account-setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
           <figcaption> On the next screen, select that you are a student and that you are in grade school.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage0/setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
+          <img src="/img/learning-course/course-setup/account-setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
           <figcaption> Finally, fill the form with your school information. You may enter "Robotics" as the reason for using Onshape. </figcaption>
       </figure>
   </div>
@@ -53,7 +53,8 @@ Onshape will proceed to check your information (which may take some time), then 
 The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name).
 
 If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
-<br>
+
+<center><img src="/img/learning-course/course-setup/account-setup/units.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%"></center>
 
 ## OPTIONAL: Onshape Educator Plan 
 Besides individual setup, if your team uses Onshape or are switching to it, one of your mentors or design leads should get the Educator plan and add all members to a "classroom". The Educator plan is free for FIRST teams and will make document management easier. It also provides a suite of features for all students added to the "classroom", such as simulation, release management, and classes/assignments. 

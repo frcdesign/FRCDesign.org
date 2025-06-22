@@ -89,16 +89,20 @@ nav:
   - Website Feature Guide: website-feature-guide.md
   - Learning Course:
       - learning-course/index.md
-      - Stage 0:
-          - "B: Onshape Setup":
-              - "Account Setup": learning-course/stage0/0B/account-setup.md
-              - "Performance Tuning": learning-course/stage0/0B/performance-tuning.md
-              - "MKCad": learning-course/stage0/0B/MKCad.md
-              - "Featurescripts": learning-course/stage0/0B/featurescripts.md
 
-          - "C: Navigating Onshape":
-              - "Documents Page": learning-course/stage0/0C/documents.md
-              - "Document Navigation": learning-course/stage0/0C/document-navigation.md
+      - Course Setup:
+        - New to CAD: learning-course/course-setup/new-to-cad.md
+        - New to Onshape:
+            - "Account Setup": learning-course/course-setup/new-to-onshape/account-setup.md
+            - "Performance Tuning": learning-course/course-setup/new-to-onshape/performance-tuning.md
+            - "Documents Page": learning-course/course-setup/new-to-onshape/documents-page.md
+            
+        - Required Course Tools:
+            - "Part Library": learning-course/course-setup/required-course-tools/part-library.md
+            - "Custom Features": learning-course/course-setup/required-course-tools/featurescripts.md
+            
+
+
 
       - Stage 1:
           - "A: Onshape Fundamentals":
