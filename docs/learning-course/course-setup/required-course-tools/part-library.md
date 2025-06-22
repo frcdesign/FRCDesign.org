@@ -1,4 +1,4 @@
-# 0B: Onshape Setup
+# Required Course Tools
 
 ## Setting up MKCad
 
@@ -12,8 +12,8 @@ Press "Subscribe", then "Get for Free". This will automatically add MKCad to you
     After subscribing, the MKCAD inserter won't show up in already open documents until you reload. This is a first-time thing though.
 
 !!! Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/stage0/setup/subscribe.webp">
-      <source src="/img/learning-course/stage0/setup/MKCADsetup.webm" type="video/webm">
+    <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/course-setup/required-course-tools/subscribe.webp">
+      <source src="/img/learning-course/course-setup/required-course-tools/MKCADsetup.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
 

@@ -1,4 +1,4 @@
-# 0B: Onshape Setup
+# Required Course Tools
 
 ## Featurescripts
 Featurescripts are custom features coded by members of the community, and are often handy tools that assist with the FRC design process. For now, follow the instructions below to install just the featurescripts you'll use in stage 1A. More thorough instructions for installing featurescripts, a list of all recommended featurescripts, and some troubleshooting tips are found on the [featurescripts page](../../../resources/featurescripts.md "Featurescript Page"){:target="_blank"}.
@@ -19,7 +19,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
 
 !!! Video "Video Tutorial"
     <video width="1920" controls="true" allowfullscreen="true">
-      <source src="../../../../img/learning-course/stage0/setup/addingJulia'sFeaturescripts.webm" type="video/webm">
+      <source src="../../../../img/learning-course/course-setup/required-course-tools/addingJulia'sFeaturescripts.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
 
