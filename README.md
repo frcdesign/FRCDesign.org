@@ -1,7 +1,7 @@
 # Methods of Contributing
 
 ## Public Contribution
-Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors.
+Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors
 
 In [the discord server](https://discord.gg/qdx7pdZKx4), go to the ["website-feedback" channel](https://discord.com/channels/1120162219502608426/1233961750639018104) and ask if you can contribute the thing you want to by filling out this template:
 
