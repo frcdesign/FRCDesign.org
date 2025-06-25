@@ -132,7 +132,7 @@ In this exercise, you will use a [configurable 3D printed crush block](https://c
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a2.webp" style="width:100%">
       <figcaption>2. Insert, fasten, and replicate the 2" long, 3/8" OD plate spacers. 
-                Insert, fasten, and replicate the 1.5" long, 3/8" OD motor spacers.
+                Insert, fasten, and replicate the 1.25" long, 3/8" OD motor spacers.
                 Copy and fasten the bottom gear plate to the 2" spacer.
                 Insert, fasten, and replicate the 1/2" rounded hex shaft bearings.</figcaption>
     </figure>
