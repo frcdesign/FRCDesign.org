@@ -49,7 +49,7 @@ Follow along with the video to extrude your first box tubes:
     
     If if you extrude a tube next to another tube, you might notice that they merge together. Make sure to use the "new" option in your extrude menu, since sometimes onshape will default to "add" (add gif here)
 
-!!! info "Symmetric vs Blind
+!!! info "Symmetric vs Blind"
     
     Depending on what you want to do 
 
