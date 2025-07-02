@@ -19,7 +19,7 @@ The purpose of the course is to take you from zero to being able to model a full
     Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A/what-and-why-CAD.md "Stage 0A"){:target="_blank"} if you're switching from another CAD software or new to CAD and [Stage 1A](stage1/1A/introduction.md "Stage 1A"){:target="_blank"} if you already have some experience using Onshape. **You will struggle with later stages** if you don't have a solid grasp on the fundamentals of Onshape.
 
 !!! Warning
-    If you choose to skip to Stage 0, make sure to add [MKCAD](stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} and the [required featurescripts](stage0/0B/featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
+    If you choose to skip Stage 0, make sure to add [MKCAD](stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} and the [required featurescripts](stage0/0B/featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
 
 !!! Warning
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course! 
