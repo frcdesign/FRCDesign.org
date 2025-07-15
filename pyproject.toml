@@ -1,0 +1,50 @@
+[project]
+name = "FRCDesign.org"
+version = "0.1.0"
+description = "FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape."
+dependencies = [
+    "mkdocs-glightbox>=0.4.0",
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
+    "pymdown-extensions>=10.16",
+    "pyyaml>=6.0.2",
+    "mkdocs-git-committers-plugin-2>=2.5.0",
+    "mkdocs-material[imaging]>=9.6.15",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[tool.pdm]
+distribution = false
+
+[dependency-groups]
+insiders = [
+    "git+https://${INSIDERS}@github.com/frcdesign/mkdocs-material-insiders.git",
+]
+
+[tool.pdm.scripts]
+# Development servers
+serve = "mkdocs serve"
+serve-insiders = { env = { INSIDERS = "true" }, cmd = "mkdocs serve" }
+dev = "mkdocs serve --dev-addr=127.0.0.1:8000"
+dev-insiders = { env = { INSIDERS = "true" }, cmd = "mkdocs serve --dev-addr=127.0.0.1:8000" }
+
+# Build commands
+build = "mkdocs build"
+build-insiders = { env = { INSIDERS = "true" }, cmd = "mkdocs build" }
+build-strict = "mkdocs build --strict"
+build-clean = "mkdocs build --clean"
+
+# Deployment
+deploy = "mkdocs gh-deploy"
+deploy-insiders = { env = { INSIDERS = "true" }, cmd = "mkdocs gh-deploy" }
+
+# Maintenance
+clean = "rm -rf site/"
+validate = "mkdocs build --strict --verbose"
+validate-insiders = { env = { INSIDERS = "true" }, cmd = "mkdocs build --strict --verbose" }
+
+# Quick access aliases
+start = "mkdocs serve"
+preview = "mkdocs serve"
