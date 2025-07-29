@@ -1,4 +1,5 @@
-# Exercise 6: Triangle Frame
+# 1A: Onshape Fundamentals
+## Exercise 6: Triangle Frame
 
 All of our box tubes have been perpendicular to each other. Sometimes, you’ll have frames that are angled.
 
