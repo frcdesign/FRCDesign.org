@@ -403,10 +403,6 @@ watch:
   - includes
 
 plugins:
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: default_page
-      debug: false
   - glightbox:
       background: none
       width: 90%
