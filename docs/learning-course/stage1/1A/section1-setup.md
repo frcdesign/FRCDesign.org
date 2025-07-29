@@ -2,12 +2,13 @@
 
 ## Introduction and Setup
 
-Welcome to Stage 1A! You'll be learning the basics of CAD throughout this stage. 
+Welcome to Stage 1A! You'll be learning and practicing the basics of CAD throughout this stage. 
 
+This course is structured a bit differently from what you might be used to, and we hope you enjoy the process.
+In these exercises, **you are encouraged to experiment and figure out how a feature "works."** You can usually move on once you are able to complete the exercises. 
+Exercises build on each other and always expect you to have done the previous exercises, so **don't skip any.** 
 
-## Introduction to the Course
-  This course is structured a bit differently from what you might be used to, and we hope you enjoy the process.
-  In these exercises, we encourage you to experiment and figure out how a feature "works," You can usually move on once you are able to complete the exercises. Do note that the exercises build up on each other, so you are expected to do the content of the previous exercise in futher exercises. 
+**No matter your experience level, you should start here.** The time 1A takes to complete depends on your experience, because it relies on "figuring things out" to create connections and guide learning. It could take 30 minutes to an hour for an expert or multiple hours for complete beginners. The details you end up spending more time on are always going to be the stuff you need to learn or work on.
 
 
 !!! warning

@@ -11,7 +11,7 @@ In this exercise you'll be:
 
 ### Video Tutorial
 
-Let's create our first box tubes in Onshape. We'll be using the 'extrude' tool in order to do this. 
+Inside of the document you copied and navigated through previously, follow along with this video to create your box tubes and finish the exercise. The `extrude` tool will be introduced through this.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/FdD1BTQndEo" frameborder="0" allowfullscreen></iframe></center>
 

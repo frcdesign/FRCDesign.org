@@ -102,19 +102,17 @@ nav:
             - "Custom Features": learning-course/course-setup/required-course-tools/featurescripts.md
             
 
-
-
       - Stage 1:
           - "A: Onshape Fundamentals":
               - "Section 1: Part Studio Fundamentals":
-                  - "Setup": learning-course/stage1/1A/section1-setup.md
-                  - "Exercise 0": learning-course/stage1/1A/section1-exercise0.md
-                  - "Exercise 1": learning-course/stage1/1A/section1-exercise1.md
-                  - "Exercise 2": learning-course/stage1/1A/section1-exercise2.md
-                  - "Exercise 3": learning-course/stage1/1A/section1-exercise3.md
-                  - "Exercise 4": learning-course/stage1/1A/section1-exercise4.md
-                  - "Exercise 5": learning-course/stage1/1A/section1-exercise5.md
-                  - "Exercise 6": learning-course/stage1/1A/section1-exercise6.md
+                  - "Intro & Setup": learning-course/stage1/1A/section1-setup.md
+                  - "Exercise 0: Navigation": learning-course/stage1/1A/section1-exercise0.md
+                  - "Exercise 1: First Tubes": learning-course/stage1/1A/section1-exercise1.md
+                  - "Exercise 2: More Tubes": learning-course/stage1/1A/section1-exercise2.md
+                  - "Exercise 3: Sketch Basics": learning-course/stage1/1A/section1-exercise3.md
+                  - "Exercise 4: Drivetrain Frame": learning-course/stage1/1A/section1-exercise4.md
+                  - "Exercise 5: Box Frame": learning-course/stage1/1A/section1-exercise5.md
+                  - "Exercise 6: Triangle Frame": learning-course/stage1/1A/section1-exercise6.md
               - "Section 2: Plates":
                   - "Exercise 1": learning-course/stage1/1A/section2-exercise1.md
                   - "Exercise 2": learning-course/stage1/1A/section2-exercise2.md
