@@ -21,7 +21,7 @@ We will start off with Box Tubes, since they provide the primary structure of yo
 They are strong, lightweight, and easy to work with. You will have to make countless box tubes throughout your FRC career, so it's important to get comfortable with them.
 
 <figure>
-  <img src="/img/learning-course/stage1a/box-tube-example.webp" style="width:100%">
+  <img src="/img/learning-course/stage1a/box-tube-example.webp" style="width:80%">
   <figcaption>Example of a box tube with a pre-punched hole pattern</figcaption>
 </figure>
 
