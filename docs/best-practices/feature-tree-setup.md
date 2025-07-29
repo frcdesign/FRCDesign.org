@@ -13,7 +13,7 @@ The part studio should contain **all parts that need to be manufactured by your 
 Also **avoid duplicating identical parts and over-using intensive featurescripts**, such as tube converter. These practices can make your part studio loading times high and navigation and changes very laggy. Creating only one of each part in the part studio means you can simply duplicate it when assembling while your part studio performance will be greatly improved.
 
 !!! Tip 
-    Instead of deriving COTS parts for reference, usually you can add simple measurements in your sketches (like a pitch circle instead of a derived gear), which faster both in the moment and overall with load times. You can derive parts from your other subsystems (such as the frame and simplified modules from your drivetrain part studio into your intake part studio) and make them closed composites for easy reference, but keep it to a minimum.
+    Instead of deriving COTS parts for reference, usually you can add simple measurements in your sketches (like a pitch circle instead of a derived gear); this is faster both in the moment and overall with load times. You can derive parts from your other subsystems (such as the frame and simplified modules from your drivetrain part studio into your intake part studio) and make them closed composites for easy reference, but keep it to a minimum.
 
 
 ### Feature Tree Organization
