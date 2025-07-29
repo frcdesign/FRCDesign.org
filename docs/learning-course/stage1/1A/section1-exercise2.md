@@ -1,25 +1,25 @@
 # 1A: Onshape Fundamentals
-## Exercise 2: Adding Cross Rails
 
-## Intro
+## Drivetrains
 
 Drivetrains are pretty important — they let the robot move. 
 They're usually built out of box tube and have to be strong enough to survive to not explode when running into things. 
 
 Check out the video below to see a drivetrain in action. Spot where box tube is used.
 
-## Watch: Example Drivetrain in Action
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ---
 
-## Your Task
+## Exercise 2: Adding Cross Rails
 
-1. We'll be using the extrude tool and tube converter to create cross rails for our drivetrain. This will help support it. 
-2. Once its complete, we'll change the appearance of all the tubes to a color of your choosing. 
+In the document you copied previously, navigate to the part studio for Exercise 2.
 
-Let's add some cross rails to support the drivetrain better. Use what you learned in the previous exercise to try to figure it out. Good luck!
+You will be adding extra cross rails to the drivetrain in the part studio. This will create extra structure for subsystems to attach to.
+
+**Use the `extrude` tool and `tube converter` to create cross rails for the drivetrain**. Use what you learned in the previous exercise to try to figure it out. Good luck!
 
 <div style="display: flex; gap: 5px; align-items: flex-start;">
   <figure style="flex: 1;">
@@ -34,33 +34,29 @@ Let's add some cross rails to support the drivetrain better. Use what you learne
 </div>
 
 
-Think about this while you work:  
-**Which extrude setting makes sure the cross rails end up in the right spot?**
+!!! Tip "Think About This While You Work"
+    Which extrude setting makes sure the cross rails end up in the right spot?
 
-After you get the cross beams:
+After the extrude is complete, turn the blocks into tubes using `Tube Converter`.
 
-- Turn the blocks into tubes using the Tube Converter.
+!!! Tip
+    Use the same settings for `Tube Converter` as you did for the previous exercise.
 
----
-
-## Quick Part Studio Check
-
-<figure>
-  <img src="/img/learning-course/stage1a/noclipping.webp" style="width:100%">
-  <figcaption>Make sure your parts don't overlap!</figcaption>
-</figure>
+### Quick Part Studio Check
 
 Your Part Studio should match what you'd build in real life. If it overlaps like this, how do you fix it? 
+
+<figure>
+  <img src="/img/learning-course/stage1a/noclipping.webp" style="width:70%">
+  <figcaption>Make sure your parts don't overlap!</figcaption>
+</figure>
 
 Always check that your CAD makes sense physically.
 
 ---
 
-## Make It Look Nicer
-
-Once your two tubes are set, let's change the appearance of your drivetrain so it looks better. Watch the video, then change all of the tubes to a color of your choosing. 
-
-### Video: How to Change Part Colors
+### Make It Look Nicer
+Once the two tubes are created, the appearance of the drivetrain tubes can be changed so it looks nicer. Watch the video, then change all of the tubes to a color of your choosing. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wr5-n--PbuI" frameborder="0" allowfullscreen></iframe>
 
