@@ -58,10 +58,12 @@ Always check that your CAD makes sense physically.
 ### Make It Look Nicer
 Once the two tubes are created, the appearance of the drivetrain tubes can be changed so it looks nicer. Watch the video, then change all of the tubes to a color of your choosing. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wr5-n--PbuI" frameborder="0" allowfullscreen></iframe>
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wr5-n--PbuI" frameborder="0" allowfullscreen></iframe>
+</figure>
 
----
+<br>
 
-## When You're Ready
+When you're done changing the appearance of the tubes, move on to the next exercise.
 
-[Continue to Exercise 3](section1-exercise3.md){ .md-button .md-button--primary }
+<br>
