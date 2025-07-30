@@ -39,10 +39,10 @@ If your sketch is fully constrained (everything turns black), you’re doing it 
 
 ### Finishing Up
 
-- **Add cross rails** as you did in the last exercise **to complete the drivetrain tubes.**
-- **Double-check** that no parts are fused together incorrectly.
-- Use the cube and dot (origin and ground) to verify alignment.
-- Make sure tubes line up properly with the module placements.
+1. **Add cross rails** as you did in the last exercise **to complete the drivetrain tubes.**
+2. **Double-check** that no parts are fused together incorrectly.
+3. Use the dot and top plane (origin and ground) to verify alignment.
+4. Make sure tubes line up properly with the module placements.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:90%">
