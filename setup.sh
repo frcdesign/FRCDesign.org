@@ -1,3 +1,3 @@
 python -m venv ./venv/
-source ./venv/bin/activate
+source ./venv/scripts/activate
 pip install -r requirements.txt
