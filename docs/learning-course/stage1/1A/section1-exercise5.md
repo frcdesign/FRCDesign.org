@@ -1,50 +1,52 @@
 # 1A: Onshape Fundamentals
-## Exercise 5: Building a Box Superstructure
+##Introduction
 
-Although we have drivetrain frames, we can make frames on top of the robot using box tube to hold other parts of a robot.
-
+Now that we have a drivetrain frame made, a frame made out of box tube can added to the top of the drivetrain for extra mounting for more parts of subsystems, like a shooter or an arm.
 
 <figure style="margin-bottom: 2rem;">
-  <img src="/img/learning-course/stage1a/exercise-5-973-example.webp" style="width:80%">
+  <img src="/img/learning-course/stage1a/exercise-5-973-example.webp" style="width:60%; border:5px solid #ADADAD">
   <figcaption>973’s superstructure</figcaption>
-</figure>
-
-<figure>
-  <img src="/img/learning-course/stage1a/exercise5-frame.webp" style="width:80%">
-  <figcaption>Box superstructure CAD example.</figcaption>
 </figure>
 
 ---
 
-### Instructions:
-
-1. To properly plan this out, we must create a side layout sketch (The one you used before). 
-Start by inserting the **origin cube feature script** that you added in stage 0. Remember you can look things up using alt + c! 
-2. Make a new sketch, and select the “right” plane and copy this sketch. Figure out the constraints you need yourself to replicate it perfectly.
-
+## Exercise 5: Building a Box Superstructure
 
 <figure>
-  <img src="/img/learning-course/stage1a/exercise5-frame-sketch.webp" style="width:100%">
-  <figcaption>Box superstructure sketch</figcaption>
+  <img src="/img/learning-course/stage1a/exercise5-frame.webp" style="width:80%">
 </figure>
 
-!!! info 
+### Layout Sketch and Drivetrain
 
-    The wheels are the 1.75-inch blocks on the corners of the tube. If that's the case, where is the origin placed in the side layout sketch? Why do you think it's placed there? 
-    Imagine if you looked at the robot in real life to the side.
-
-Once you finish, create the swerve drivetrain frame in your part studio according to what you remember from the last exercise. (Remember to select the mate connector!) (If you struggle, refer to the previous video after trying) 
-
-Let’s make this drivetrain a square. How would you approach your top sketch to avoid using any unnecessary dimensions? You should only need to define your swerve gap, the distance between your cross tubes (8 inches), and your tube offset.
+1. To properly plan this out, we must create a side layout sketch (the used previously in Exercise 5). 
+2. Start by inserting the **origin cube feature script** that you added in [required course tools](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}. Remember you can look things up using `Alt + C`! 
+3. Make a new sketch, select the `right plane`, and start copying this sketch. Figure out the constraints you need yourself to replicate it perfectly.
 
 
-??? hint
+    <figure>
+      <img src="/img/learning-course/stage1a/exercise5-frame-sketch.webp" style="width:100%">
+      <figcaption>Box superstructure sketch</figcaption>
+    </figure>
 
-    What length is already defined/constrained? Can you use the equal constraint? 
+    !!! Info "Origin Placement"
+        The wheels are the 1.75-inch blocks on the corners of the tube. If that's the case, where is the origin placed in the side layout sketch? Why do you think it's placed there? Imagine if you looked at the robot in real life to the side.
+
+4. After the side layout sketch is done, create the swerve drivetrain frame in your part studio according to what you remember from the last exercise. (Remember to select the mate connector!) 
+
+    !!! Tip
+        If you struggle, refer to the previous video after trying
+
+    !!! Info "Design Intent"
+        Let’s make this drivetrain a square. How would you approach your top sketch to avoid using any unnecessary dimensions? You should only need to define your swerve gap, the distance between your cross tubes (8 inches), and your tube offset.
+
+    ??? Hint
+        What length is already defined/constrained? Can you use the equal constraint? 
 
 
 
-### Making the Box Frame:
+### Modeling the Frame
+So far, sketches have been created on default planes and mate connectors. In order to model the box tube for the frame on top of the cross tubes, the sketch to create the tubes should be created on the face of the cross tube, because that helps preserve design intent
+
 We need to find a way to model the box frame in the part studio. Since our box tubes get created on the sketch, we need to move our sketch to model the box structure on the robot.
 
 We’ve been creating new sketches using a sketch's planes and mate connectors. 
