@@ -1,63 +1,56 @@
 # 1A: Onshape Fundamentals
 ## Exercise 4: Sketching the Drivetrain Frame
 
+Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:100%">
-  <figcaption>Final Frame.</figcaption>
+  <figcaption>Final Frame</figcaption>
 </figure>
 
+In the document you copied previously, navigate to the part studio for Exercise 4.
 
+Watch the video below and follow along to create your drivetrain sketch while learning and practicing several part creation techniques.
+<br>
 
-### Video: [Watch on YouTube](https://youtu.be/lDW9H3a70aM)
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lDW9H3a70aM" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lDW9H3a70aM" frameborder="0" allowfullscreen></iframe>
+Your goal is to sketch and extrude the rectangles shown below, then convert them into tubes them using `Tube Converter`.
 
-
-## Building the Frame
-
-Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
-
-Your goal is to sketch and extrude the rectangles shown below, then tube them using the Tube Converter.
-
-Make sure to **mirror your sketches** using construction lines — don't manually draw both sides.
+!!! Tip
+    Make sure to **mirror or pattern your sketches** using construction lines — don't manually draw both sides.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-drivetrain-sketch.webp" style="width:100%">
-  <figcaption>Drivetrain sketch</figcaption>
+  <figcaption>Drivetrain Sketch</figcaption>
 </figure>
 
-## Important Notes
-
-!!! warning "Common mistakes to avoid"
+!!! warning "Important Notes for the Sketches"
 
     - Make sure to mirror across both X and Y axes.
     - Avoid overdimensioning your sketches — use symmetry whenever possible.
     - Make sure the cross beams are also mirrored properly.
     - Use the origin as the center reference point for everything.
 
-If your sketch is fully constrained (everything turns black), you’re doing it right!
-
----
-
-## Extruding the Frame
-
-Once your sketch is complete, extrude and tube convert into your drivetrain, like usual.
+If your sketch is fully constrained (everything turns black), you’re doing it right! You can **now use `extrude` and `tube converter` to turn the sketch into your drivetrain box tubes.**
 
 
-## After
+### Finishing Up
 
-- Add your cross rails from the last exercise, then it is complete.
-
-
-## Checking Your Frame
-
-- Double-check that no parts are fused together incorrectly.
+- **Add cross rails** as you did in the last exercise **to complete the drivetrain tubes.**
+- **Double-check** that no parts are fused together incorrectly.
 - Use the cube and dot (origin and ground) to verify alignment.
 - Make sure tubes line up properly with the module placements.
 
+<figure>
+  <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:90%">
+  <figcaption>Final Frame</figcaption>
+</figure>
+
 ---
 
-## When You're Ready
+Once you're done with the above tasks and checks, move on to the next exercise.
 
-[Continue to Exercise 5](section1-exercise5.md){ .md-button .md-button--primary }
+<br>
