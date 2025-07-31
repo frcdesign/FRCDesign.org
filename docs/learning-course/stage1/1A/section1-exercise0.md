@@ -4,6 +4,10 @@
 
 Follow along with the video, and mess around with the controls till you feel comfortable with it, then move on. 
 
+!!! warning
+
+    Make sure you made a copy of the 1A Exercises Document before starting this exercise. You can find the link to the document in the [1A Setup](/learning-course/stage1/1A/section1-setup/) section.
+
 The folders in the bottom will store the exercises, start with section 1. 
 
 ---
@@ -20,8 +24,4 @@ The folders in the bottom will store the exercises, start with section 1.
 
 !!! info "Keep in mind"
 
-    You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need. 
-
-## When You're Ready
-
-[Continue to Exercise 1: Simple Box Tube](section1-exercise1.md){ .md-button .md-button--primary }
+    You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need.

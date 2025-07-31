@@ -19,10 +19,10 @@ Don't forget: use the Tube Converter after extruding.
 
 ??? question "Click here after you try it"
 
-    If you did the extrude like the instructions said, all the boxes probably merged into one giant piece.  
+    If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.
     In real life, you don't want parts fused together like this unless you meant to.
 
-    > Can you find a way to use multiple extrudes to keep them separate?
+    > Can you figure out how to extrude them **individually** to keep them separate?
 
     If you need to restart, here's a quick video showing how to delete your bad tubes:
 
@@ -32,24 +32,22 @@ Don't forget: use the Tube Converter after extruding.
 
 ## Example Solution
 
-??? success "Click here after fixing your tube in the above activity"
+??? success "Click here if you fixed your extrude"
 
-    Doing four separate extrudes manually is way too much work.
+    manually doing four extrudes is tedious. There's a better way!
 
-    Here's the faster way:
-    
     - Delete your old extrudes.
 
-    - Use the **Extrude Individual** feature script you installed in Stage 0.
-    - (Hit **Alt+C** and type `"extrude individual"` if you can't find it.)
+    - Use the **Extrude Individual** Featurescript from Stage 0.
+    - (Hit **Alt+C** and search `"extrude individual"` if needed.)
 
-    Using Extrude Individual lets you extrude multiple shapes individually in one step!
+    This tool lets you extrude multiple sketch regions separately, all in one step.
 
-    Also, if you click the "Bind" option inside Extrude Individual, you can force symmetry.
+    Also, if you click the "Symmetric" option inside Extrude Individual, you can force symmetry.
 
     <figure>
       <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:100%">
-      <figcaption>Using "Bind" inside Extrude Individual.</figcaption>
+      <figcaption>Using "Symmetric" inside Extrude Individual.</figcaption>
     </figure>
 
 ---
@@ -57,11 +55,11 @@ Don't forget: use the Tube Converter after extruding.
 # Exercise 3.1: Sketching Basics
 
 In the last exercise, you extruded an existing sketch.  
-Now, you're going to **make the sketch yourself**.
+Now its your turn to **create the sketch yourself**.
 
 When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
 
-📺 Follow along with the video:
+Follow along with the video:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
 
@@ -105,7 +103,7 @@ Open the drivetrain sketch and **add two cross tubes** that are **8 inches apart
 Double-click the sketch in the feature tree to edit it.
 
 Draw the new rails yourself.  
-Try to only use **one new dimension** total.
+Only use **one new dimension** total.
 
 The only numbers you should see:
 - 4.25 (gap between modules)
