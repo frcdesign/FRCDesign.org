@@ -1,13 +1,11 @@
 # 1A: Onshape Fundamentals
 ## Exercise 3: More Extrudes
 
-## Extrude the Rectangles
-
 In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.  
 Use just one extrude feature. What happens?
 
 <figure>
-  <img src="/img/learning-course/stage1a/exercise3-rectangles.webp" style="width:100%">
+  <img src="/img/learning-course/stage1a/exercise3-rectangles.webp" style="width:70%">
   <figcaption>Starting setup with four rectangles.</figcaption>
 </figure>
 
@@ -15,9 +13,7 @@ Don't forget: use the Tube Converter after extruding.
 
 ---
 
-## Looks a bit weird?
-
-??? question "Click here after you try it"
+??? question "Looks a bit weird? Click here after trying it."
 
     If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.
     In real life, you don't want parts fused together like this unless you meant to.
@@ -30,44 +26,43 @@ Don't forget: use the Tube Converter after extruding.
 
 ---
 
-## Example Solution
+??? success "Click Here if you fixed your extrude."
 
-??? success "Click here if you fixed your extrude"
-
-    manually doing four extrudes is tedious. There's a better way!
+    Manually doing four extrudes is tedious. There's a better way!
 
     - Delete your old extrudes.
 
-    - Use the **Extrude Individual** Featurescript from Stage 0.
-    - (Hit **Alt+C** and search `"extrude individual"` if needed.)
+    - Use the `Extrude Individual` Featurescript you added in [required course tools](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}.
+    - (Hit `Alt+C` and search "extrude individual" if needed.)
 
     This tool lets you extrude multiple sketch regions separately, all in one step.
 
     Also, if you click the "Symmetric" option inside Extrude Individual, you can force symmetry.
 
     <figure>
-      <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:90%">
       <figcaption>Using "Symmetric" inside Extrude Individual.</figcaption>
     </figure>
 
 ---
 
-# Exercise 3.1: Sketching Basics
+## Exercise 3.1: Sketching Basics
 
-In the last exercise, you extruded an existing sketch.  
-Now its your turn to **create the sketch yourself**.
+In the last exercise, you extruded an existing sketch. Now it's your turn to **create the sketch yourself**.
 
 When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
 
-Follow along with the video:
+Follow along with the video below to practice sketching fundamentals in Onshape.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
+<br>
 
----
+<figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-## Key Sketching Points
+<br>
 
-!!! tip "Sketching Fundamentals"
+!!! tip "Key Sketching Points"
 
     - **Dimensions** control distances (like making a rectangle exactly 5 inches wide).
     - **Constraints** define relationships (like locking a rectangle edge to another).
@@ -76,10 +71,9 @@ Follow along with the video:
     - **Blue is bad** — a blue sketch means it's not fully defined yet. Everything should turn black.
     - **Less is better** — use the fewest dimensions necessary to fully lock down your design.
 
-## Todo:
 ---
 
-## What You Learned
+### What You Learned
 
 - How to extrude multiple tubes separately
 - How to create and constrain a sketch
@@ -89,7 +83,7 @@ Follow along with the video:
 
 ---
 
-# Exercise 3.2: Adding Rails
+## Exercise 3.2: Adding Rails
 
 <figure>
   <img src="/img/learning-course/stage1a/3-2-sketch.webp" style="width:100%">
@@ -99,25 +93,27 @@ Follow along with the video:
 
 Now let's apply this to the robot.
 
-Open the drivetrain sketch and **add two cross tubes** that are **8 inches apart**.  
-Double-click the sketch in the feature tree to edit it.
+Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **8 inches apart**.  
 
-Draw the new rails yourself.  
-Only use **one new dimension** total.
+!!! Tip
+    Double-click the sketch in the feature tree to edit it.
+
+Draw the new rails yourself. Only use **one new dimension** total.
 
 The only numbers you should see:
-- 4.25 (gap between modules)
-- 1 (tube width)
-- 8 (distance between cross rails)
+
+- 4.25" (gap between modules)
+- 1" (tube width)
+- 8" (distance between cross rails)
 
 <figure>
-  <img src="/img/learning-course/stage1a/drivetrain-crossrail-sketch2.webp" style="width:100%">
+  <img src="/img/learning-course/stage1a/drivetrain-crossrail-sketch2.webp" style="width:90%">
   <figcaption>Final cross rail sketch setup.</figcaption>
 </figure>
 
 ---
 
-## Check Your Work
+### Check Your Work
 
 ??? info "Click here after you finish your sketch"
 
@@ -129,8 +125,8 @@ The only numbers you should see:
     What did you do differently?  
     How would you avoid mistakes like that next time?
 
----
+<br>
 
-## When You're Ready
+After you're done checking your work and reviewing your approach, move on to the next exercise.
 
-[Continue to Exercise 4](section1-exercise4.md){ .md-button .md-button--primary }
+<br>
