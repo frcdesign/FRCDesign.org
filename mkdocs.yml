@@ -414,7 +414,7 @@ plugins:
       #- optimize
 
   - group:
-      enabled: !ENV INSIDERS
+      enabled: !ENV DEP
       plugins:
         - meta
         - social:
