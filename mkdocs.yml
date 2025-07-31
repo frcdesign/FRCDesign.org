@@ -406,13 +406,6 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - group: # These plugins only run when the site is deployed
-      enabled: !ENV CI
-      plugins:
-        - git-revision-date-localized:
-            enable_creation_date: true
-      #- optimize
-
   - group:
       enabled: !ENV DEP
       plugins:
@@ -421,6 +414,8 @@ plugins:
             cards_layout_dir: layouts
             cards_layout: default_page
             debug: false
+        - git-revision-date-localized:
+            enable_creation_date: true
   
 extra_javascript:
   - javascripts/extra.js
