@@ -57,7 +57,7 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 <br>
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <br>
