@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 
 ## Exercise 1: Making Your First Tube
 

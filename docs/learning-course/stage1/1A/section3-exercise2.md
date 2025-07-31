@@ -1,4 +1,5 @@
-# Exercise 2: Swerve Drive Assembly
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 2: Swerve Drive Assembly
 
 Now that you've played with basic rivets, let's mess around and toss them on our drivetrain.
 

@@ -1,4 +1,5 @@
-# Exercise 3: Bolts + Nuts
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 3: Bolts + Nuts
 
 Let's set up for the next exercise, this exercise is pretty short. 
 
