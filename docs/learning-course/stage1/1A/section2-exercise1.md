@@ -1,15 +1,15 @@
 # 1A: Onshape Fundamentals - Section 2
-## Exercise 1: Plates
-
 ## Introduction
 
-At this point you should be an expert at making tubing frames of varous shapes and sizes. These frames will not stay together without something to attach to. Thats where plates come in.
+At this point you should be an expert at making tubing frames of various shapes and sizes. These frames will not stay together without something to attach to. That's where plates come in. This section will be primarily focused around how to model plates for various purposes.
 
-In FRC, plates are used everywhere and are made out of many different materials. A plate used solely to connect two pieces together is also sometimes referred to as a gusset. This section will be primarily focused around how to model plates for various purposes.
+### What Are Plates?
 
-## What Are Plates?
+In FRC, plates are used everywhere and are made out of a couple different materials.
 
-FRC Plates have two main functions. Plates allow you to connect structural pieces together, but they also allow you to mount external components like motors or mechanisms to the frame. Below are two examples of plates being used in frc
+Plates have two main functions in FRC: they allow you to **connect structural pieces together** and **mount transmission components like motors, axles, or mechanisms to the frame**. A plate used solely to connect two pieces together is also sometimes referred to as a gusset or bracket. 
+
+Below are two examples of plates being used in FRC.
 
 ???+ Example "Plate Examples"
 
@@ -25,23 +25,27 @@ FRC Plates have two main functions. Plates allow you to connect structural piece
       <figcaption>Gussets being used to mount mechanisms and hold frames together (Photo Credits: FRC 604, FRC 9442)</figcaption>
     </figure>
 
+
+
 ### Background
 
 Since your tubes are always in 0.5-inch increments, your plates allow you to bridge the gap between uneven distances. This is possible because plates are CNC manufactured allowing for completely arbitrary hole spacings.
 
-Its this arbitrary hole spacing that is key to think about when desigining plates, the purpose of a plate is to place mounting holes where you want them, the material that makes up the plate only exists to position mounting holes.
+It's this arbitrary hole spacing that is key to think about when designing plates. The purpose of a plate is to place mounting holes where you want them; the material that makes up the plate only exists to position mounting holes and create support lines, like when using a triangle gusset.
 
-A plate sketch is composed of circles for the holes, arcs for corner fillets, and lines to complete the shape. When making the shape of a plate think about the shape that would be made by tying a string around all of the mounting holes on a given plate. Here is a video demonstrating this concept for a very basic plate. No need to follow along here, just watch.
+A plate sketch is composed of circles for the holes, arcs for larger corner fillets, and lines to complete the shape. When making the shape of a plate think about the shape that would be made by tying a string around all of the mounting holes on a given plate. Here is a video demonstrating this concept for a very basic plate. No need to follow along here, just watch.
 
-This video also shows off the tangent constraint! this is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!
+<figure>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/mXzX9wmipV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/mXzX9wmipV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+This video also shows off the `tangent` constraint! This is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!
 
-## Your Task
-  
-Your task is to make a very simple plate with two bearing holes. Bearings come up everywhere in frc to help reduct frction on moving components. This is the same type of plate as shown in the prior video.
+## Exercise 1: Plates
 
-To get started find the "Excersise 1: Plates" part studio in the "Section 2" folder of the template document you copied earlier.
+Your task is to make a very simple plate with two bearing holes. Bearings come up everywhere in FRC to help reduce friction on moving components. This is the same type of plate as shown in the prior video.
+
+To get started, find the "Exercise 1: Plates" part studio in the "Section 2" folder of the template document you copied earlier.
 
 ???+ Question "Plate Workflow"
 

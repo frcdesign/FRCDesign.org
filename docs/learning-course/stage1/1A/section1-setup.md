@@ -68,7 +68,7 @@ Copy this document to use for all of the exercises in 1A. A tutorial is provided
 <br>
 
 <figure>
-  <iframe width="560" height="315" 
+  <iframe width="768" height="432" 
     src="https://www.youtube.com/embed/ej9xgN7059w" 
     frameborder="0" 
     allowfullscreen>
