@@ -1,4 +1,5 @@
-# Exercise 2: Plates Gussets
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 2: Plates Gussets
 
 In the last exercise, we made a single plate in isolation. Now lets use some of the tools we learned previously in combination with these new ones. In the past we made the tube layouts for drivetrains, now lets connect some of those tubes together.
 

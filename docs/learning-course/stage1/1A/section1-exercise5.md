@@ -1,20 +1,23 @@
-# 1A: Onshape Fundamentals
-##Introduction
+# 1A: Onshape Fundamentals - Section 1
+## Exercise 5: Building a Box Superstructure
+### Introduction
 
-Now that we have a drivetrain frame made, a frame made out of box tube can added to the top of the drivetrain for extra mounting for more parts of subsystems, like a shooter or an arm.
+Frames made out of box tube can added to the top of a drivetrain for extra mounting for more parts of subsystems, like a shooter or an arm.
 
 <figure style="margin-bottom: 2rem;">
   <img src="/img/learning-course/stage1a/exercise-5-973-example.webp" style="width:60%; border:5px solid #ADADAD">
-  <figcaption>973’s superstructure</figcaption>
+  <figcaption>973’s 2022 Superstructure</figcaption>
 </figure>
 
----
 
-## Exercise 5: Building a Box Superstructure
+In this exercise we'll be adding a simple box tube frame to the drivetrain you made previously.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise5-frame.webp" style="width:80%">
+  <figcaption>Final Box Tube Frame</figcaption>
 </figure>
+
+---
 
 ### Layout Sketch and Drivetrain
 

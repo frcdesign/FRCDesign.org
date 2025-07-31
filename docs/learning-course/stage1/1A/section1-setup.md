@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 
 ## Introduction and Setup
 
@@ -61,8 +61,8 @@ We'll be working with these increments throughout the stages, keep them in mind!
 
 Copy this document to use for all of the exercises in 1A. A tutorial is provided below to show how to copy a document.
 
-<center>
-[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){ .md-button .md-button--primary }
+<center markdown>
+[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){:target="_blank" .md-button .md-button--primary }
 </center>
 
 <br>
