@@ -376,6 +376,9 @@ nav:
       - Style Guide: contribution/styleguide.md
       - Contributors: contribution/contributors.md
 
+  - Shop:
+    - shop/index.md
+
 markdown_extensions:
   - abbr
   - attr_list
