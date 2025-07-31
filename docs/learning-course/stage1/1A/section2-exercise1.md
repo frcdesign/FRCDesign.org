@@ -1,4 +1,5 @@
-# Exercise 1: Plates
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 1: Plates
 
 ## Introduction
 

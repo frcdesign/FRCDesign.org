@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 ## Exercise 3: More Extrudes
 
 In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.  

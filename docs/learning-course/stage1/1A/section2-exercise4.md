@@ -1,4 +1,5 @@
-# Exercise 4: Motor Mounting Plates 
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 4: Motor Mounting Plates 
 
 In this exercise you will be making a simple motor mounting plate. This should not be too difficult since it will be similar to the gussets you have made in the previous exercise.
 

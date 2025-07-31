@@ -1,4 +1,5 @@
-# Exercise 5: Adding Fasteners and Gussets to a Full Frame
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 5: Adding Fasteners and Gussets to a Full Frame
 
 In section 2, your last exercise involved a full superstructure with a bunch of plates and gussets. Insert that part studio, assemble it, and measure and add all of the fasteners that you feel like you need.
 

@@ -1,4 +1,5 @@
-# Exercise 3: Superstructure Gussets
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 3: Superstructure Gussets
 
 In this exercise you will be using all of the skills you have learned so far, and also learning how to use the "Linear Pattern" and "Mirror" features to save time when modeling repeat geometry.
 

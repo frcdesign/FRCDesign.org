@@ -1,4 +1,5 @@
-# Exercise 1: Rivets
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 1: Rivets
 
 Obviously we can't do everything in our part studios, modeling everything individually would take a lot of time. This is where assemblies come into play. 
 

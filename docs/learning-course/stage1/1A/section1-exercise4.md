@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 ## Exercise 4: Sketching the Drivetrain Frame
 
 Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
