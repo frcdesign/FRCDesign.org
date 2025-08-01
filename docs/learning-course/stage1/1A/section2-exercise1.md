@@ -43,9 +43,9 @@ This video also shows off the `tangent` constraint! This is one of the most freq
 
 ---
 
-## Exercise 1: Plates
+## Exercise 1: Plate Workflow
 
-Your task is to make a very simple plate with two bearing holes. Bearings come up everywhere in FRC to help reduce friction on moving components. This is the same type of plate as shown in the prior video.
+**Your task is to make a very simple plate with two bearing holes.** Bearings come up everywhere in FRC to help reduce friction on moving components. This is the same type of plate as shown in the prior video.
 
 To get started, find the "Exercise 1: Plates" part studio in the "Section 2" folder of the template document you copied earlier and follow the plate workflow below to practice making a couple plate shapes.
 
