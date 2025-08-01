@@ -13,7 +13,7 @@ Exercises build on each other and always expect you to have done the previous ex
 
 !!! warning
 
-    Make sure the [required course tools](../../course-setup/required-course-tools/part-library.md) (the part library and featurescripts) are added to your Onshape account before starting this stage.
+    Make sure the [required course tools](../../course-setup/required-course-tools/part-library.md){:target="_blank"} (the part library and featurescripts) are added to your Onshape account before starting this stage.
 
 
 ## Box Tube Intro

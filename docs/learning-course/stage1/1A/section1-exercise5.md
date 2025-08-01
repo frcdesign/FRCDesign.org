@@ -81,7 +81,7 @@ Once you finish, **take a 5-minute break**.
 After you come back, **try to improve or correct any mistakes you find**. Once you finish, compare your workflow with the solution. **What thought process led you to do something different?**
 
 
-<center markdown>[Solution Document](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){ .md-button .md-button--primary }</center>
+<center markdown>[Solution Document](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){.md-button .md-button--primary target="_blank"}</center>
 
 Follow the short video below to learn how to rename your features, then rename the sketches and features in your part studio. Moving forward, we want to **always name our sketches and features**.
 
