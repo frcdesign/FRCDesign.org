@@ -1,22 +1,23 @@
 # 1A: Onshape Fundamentals - Section 2
-## Exercise 4: Motor Mounting Plates 
+## Exercise 4: Motor Mounting Plate 
 
-In this exercise you will be making a simple motor mounting plate. This should not be too difficult since it will be similar to the gussets you have made in the previous exercise.
+In this exercise, you will be making a simple motor mounting plate. It shouldn't be too difficult, since it is similar to the gussets and plates made in the previous exercises.
 
+To get started, find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder of the template document. 
 
-## Your Task
-
-To get started find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder of the template document. 
-
-Sketch out the motor mounting plate using the reference image below. Make sure to use the "Circular Pattern" tool to make the holes for the motor.
+Sketch out and extrude the motor mounting plate using the reference image below. 
 
 <figure>
   <img src="/img/learning-course/stage1a/motor-mount.webp" style="width:50%">
 </figure>
 
+Try to use the `Circular Pattern` tool to make the holes for the motor in a 2" diameter circle, with a 0.75" diameter circle cut out for the middle of the motor. The size of the holes should be 0.196" diameter (the clearance fit for #10-32, the standard bolt size for most FRC components).
+
 ### Complete?
 Go back to your exercise 3 part studio and try and add a motor mount to the to somewhere on the superstructure.
 
-## When You're Ready
+<br>
 
-Move on to [Section 3](section3-exercise1.md).
+Move on to the next exercise in Section 3 when you're done with the motor mounting plate.
+
+<br>
