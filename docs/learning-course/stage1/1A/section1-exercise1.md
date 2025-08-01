@@ -23,7 +23,7 @@ Inside of the document you copied and navigated through previously, follow along
 
 ---
 
-### Reference images
+### Reference Images
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="flex: 1;">
