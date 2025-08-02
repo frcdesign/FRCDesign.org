@@ -1,7 +1,7 @@
 # 1A: Onshape Fundamentals - Section 3
 ## Exercise 1: Rivets
 
-Obviously we can't do everything in our part studios, modeling everything individually would take a lot of time. This is where assemblies come into play. 
+Modeling every detail in a part studio can be time-consuming. This is where assemblies come in.
 
 ---
 
@@ -14,18 +14,14 @@ Obviously we can't do everything in our part studios, modeling everything indivi
 ## Your Task
 
 - Open the "Assemblies - Exercise 1 Rivets" tab.
-- Follow along with the video to insert a rivet into your assembly
-- Repeat for all of the holes
-- Copy paste the gusset then repeat for the back
+- Follow the video to insert a rivet into your assembly.
+- Repeat for all of the holes.
+- Copy and paste the gusset, then repeat the process for the back.
 
 ---
 
 !!! tip
 
-    - Holding **Shift** while selecting can help you pick flat faces cleanly.
+    - Holding **Shift** while selecting can help you pick flat faces.
 
 ---
-
-## When You're Ready
-
-Continue to [Exercise 2: Swerve Drive Assembly](section3-exercise2.md).
