@@ -41,11 +41,15 @@ They are strong, lightweight, and easy to work with. You will have to make count
 </div>
 
 From the side, a box tube can be represented as a simple rectangle.  
-The most common dimensions are:
+Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the learning course, we will use this notation when referring to box tube.
 
 - **1 inch × 1 inch**
 
 - **2 inch × 1 inch**
+
+- **2 inch x 2 inch**
+
+
 
 <figure>
   <img src="/img/learning-course/stage1a/toob.webp" style="width:100%">
