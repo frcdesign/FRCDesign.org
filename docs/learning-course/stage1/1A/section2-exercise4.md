@@ -3,7 +3,7 @@
 
 In this exercise, you will be making a simple motor mounting plate. It shouldn't be too difficult, since it is similar to the gussets and plates made in the previous exercises.
 
-To get started, find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder of the template document. 
+To get started, find the "Exercise 4: Motor Mounting" part studio in the "Section 2" folder in your copy of the template document. 
 
 Sketch out and extrude the motor mounting plate using the reference image below. 
 
