@@ -1,7 +1,7 @@
 # 1A: Onshape Fundamentals - Section 3
 ## Exercise 3: Bolts + Nuts
 
-Let's set up for the next exercise, this exercise is pretty short. 
+This is a quick setup for the next activity.
 
 ---
 
@@ -22,7 +22,3 @@ Let's set up for the next exercise, this exercise is pretty short.
 
 
 ---
-
-## When you've made the (single) gusset
-
-Continue to [Exercise 4: Rivets + Bolts Practice](section3-exercise4.md).

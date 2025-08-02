@@ -1,7 +1,7 @@
 # 1A: Onshape Fundamentals - Section 3
 ## Exercise 2: Swerve Drive Assembly
 
-Now that you've played with basic rivets, let's mess around and toss them on our drivetrain.
+Now that you've learned to use basic rivets, let's install them on a drivetrain.
 
 ---
 ## Watch the Walkthrough
@@ -11,13 +11,9 @@ Now that you've played with basic rivets, let's mess around and toss them on our
 ## Your Task
 
 - Open the "Assemblies - Exercise 2 Swerve Drive" tab.
-- Add the other gussets to the assembly by copy pasting them.
-- Insert rivets from MKCAD and fasten them to the gussets using the new replicate tool.
-- Insert **MK4i N** drive modules (both **A** and **B** variants).
-- Attach modules
+- Copy and paste the remaining gussets into the assembly.
+- Insert rivets from MKCAD and fasten them using the **Replicate** tool.
+- Insert **MK4N** drive modules (both **A** and **B** variants).
+- Attach the modules to the frame.
 
 ---
-
-## When You're Ready
-
-Continue to [Exercise 3: Bolts + Nuts](section3-exercise3.md).
