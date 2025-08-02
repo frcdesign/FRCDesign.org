@@ -57,7 +57,7 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 <br>
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <br>
@@ -122,8 +122,8 @@ The only numbers you should see:
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U" frameborder="0" allowfullscreen></iframe>
 
     Compare your approach to the video.  
-    What did you do differently?  
-    How would you avoid mistakes like that next time?
+    > What did you do differently?  
+    > How would you avoid mistakes like that next time?
 
 <br>
 
