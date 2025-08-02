@@ -1,21 +1,25 @@
 # 1A: Onshape Fundamentals - Section 3
 ## Exercise 4: Full Frame Assembly
 
-## Watch the Walkthrough
+To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in your copy of the template document.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/A4ngLwseboU" frameborder="0" allowfullscreen></iframe>
+**Follow the video below** to complete the exercise.
 
+<figure>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/A4ngLwseboU" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-## Your Task
-
-- Create a new Assembly.
-- Insert your Section 3 Exercise 3 Part Studio (with the single gusset).
-- Group all frame components.
-- Insert the MK4N (A and B variants) if you haven't already.
-- Fasten the modules to the corners of the frame.
-- Insert bolts using the Standard Content Library (Socket Head Cap Screws).
-- Measure the distance between faces to determine the bolt length, rounding up to the nearest size. 
-- Fasten the bolts properly.
-- Use the **Replicate Tool** (set to "match edges on a plane") to duplicate bolts across the modules.
+1. Insert your Section 3 Exercise 3 Part Studio (with the single gusset).
+2. Group all frame components.
+3. Insert the MK4N (A and B variants) if you haven't already.
+4. Fasten the modules to the corners of the frame.
+5. Insert bolts using the Standard Content Library (Socket Head Cap Screws).
+6. Measure the distance between faces to determine the bolt length, rounding up to the nearest size. 
+7. Fasten the bolts properly.
+8. Use the `Replicate` tool (set to `match edges on a plane`) to duplicate bolts across the modules.
 
 ---
+
+When you're done with the drivetrain frame, move on to the final next exercise in 1A, where you'll be putting everything you've learned so far together.
+
+<br>

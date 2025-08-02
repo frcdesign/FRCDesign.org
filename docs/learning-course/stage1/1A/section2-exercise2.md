@@ -3,7 +3,7 @@
 
 In the last exercise, we made a single plate in isolation. In this exercise, you will create a plate that connects two box tubes together by combining tools learned previously with one new tool.
 
-To get started, find the "Exercise 2: Gussets" part studio in the "Section 2" folder of the template document. 
+To get started, find the "Exercise 2: Gussets" part studio in the "Section 2" folder in your copy of the template document. 
 
 Your task is **create a simple gusset for the provided drivetrain frame** by **repeating the workflow** you should have memorized in the previous exercise. The holes for this gusset will be copied into the sketch from the tubes of the frame with the `Use` tool: 
 
