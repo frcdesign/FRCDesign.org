@@ -11,10 +11,10 @@ Time to practice! Start by **make a copy of the Stage 1B Exercises Document** th
 
 ## Exercise 1: Simple Gearbox 
 
-In this exercise, you will be CADing and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
+In this exercise, you will be modeling and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../course-setup/required-course-tools/part-library.md "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
 
 !!! Warning
-    As this is the first exercise where MKCAD is being used, please be sure you have it added by following [the tutorial in Stage 0!](../../stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} MKCAD is a parts library for FRC used for inserting COTS components into assemblies.
+    As this is the first exercise where MKCAD is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding MKCAD Tutorial Page"){:target="_blank"} MKCAD is a parts library for FRC used for inserting COTS components into assemblies.
 
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
@@ -100,7 +100,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s9.webp" style="width:100%">
-      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to copy the geometry and holes of the motor plate, but add a round cutout at the top.</figcaption>
+      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to project the holes and edges of the motor plate, but add a round cutout at the top using one of the <code>arc</code> tools. Note that the sketch can be mostly defined by using constraints such as <code>tangent</code>, <code>equal</code>, and <code>vertical</code>.</figcaption>
     </figure>
   </div>
 

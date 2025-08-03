@@ -16,24 +16,20 @@ Welcome to the design learning course, the main purpose and content of the websi
 The purpose of the course is to take you from zero to being able to model a full robot. The content focuses on FRC-relevant features and tools, using engaging projects that not only introduce new CAD skills and practice old ones but also introduce engineering concepts. These projects gradually get less guided as you progress.
 
 !!! Tip
-    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. Start at [Stage 0A](stage0/0A/what-and-why-CAD.md "Stage 0A"){:target="_blank"} if you're switching from another CAD software or new to CAD and [Stage 1A](stage1/1A/introduction.md "Stage 1A"){:target="_blank"} if you already have some experience using Onshape. **You will struggle with later stages** if you don't have a solid grasp on the fundamentals of Onshape.
-
-!!! Warning
-    If you choose to skip Stage 0, make sure to add [MKCAD](stage0/0B/MKCad.md "Adding MKCAD Tutorial Page"){:target="_blank"} and the [required featurescripts](stage0/0B/featurescripts.md "Stage 0 Featurescripts Page"){:target="_blank"} for the learning course.
+    Despite how it looks, Onshape is quite different in its fundamentals from other CAD software. When starting the course, go to the relevant course setup page and continue through the course from there. **You will struggle with later stages** if you skip sections or exercises. If you consider yourself somewhat experienced, you will be able to do the early work very fast and probably still learn something; there's no reason to skip.
 
 !!! Warning
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course! 
     
 
-<img src="/img/learning-course/stage0/setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+<img src="/img/learning-course/course-setup/account-setup/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
-### [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
+### [Course Setup](\learning-course\course-setup\new-to-cad "New to CAD Page")
 
-- For people that haven't used CAD or Onshape before
-- Introduction to CAD to read or skim
-- Walkthrough to set up Onshape account and add necessary tools
-- Guide on navigating Onshape
-- Basic theory that helps develop a good mindset
+- Three different starting points depending on your background
+- The [New to CAD](\learning-course\course-setup\new-to-cad "New to CAD Page") page briefly introduces CAD software
+- The [New to Onshape](\learning-course\course-setup\new-to-onshape\account-setup "New to CAD Page") section helps get you set up with Onshape
+- The [Required Course Tools](\learning-course\course-setup\required-course-tools\part-library "New to CAD Page") section is required for everyone and helps you add the required tools for the course
 
 <br>
 <hr>
@@ -41,7 +37,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <img src="/img/learning-course/stage1b/Exercise 2 Assembly.webp" align="left" style="width:35%">
 
 <div dir="rtl">
-<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A\introduction" title="Stage 1 Page">Stage 1</a></h3>
+<h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A\section1-setup" title="Stage 1 Page">Stage 1</a></h3>
 <ul>
 <li>Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises</li>
 <li>Learn about power transmission and modeling gearboxes</li>

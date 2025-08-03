@@ -1,11 +1,11 @@
 site_name: FRCDesign.org
 site_description: A comprehensive learning guide and technical reference for FRC design using Onshape.
-site_url: https://www.FRCDesign.org
+site_url: https://www.frcdesign.org/
 
 # Repository
 repo_name: frcdesign/FRCDesign.org
 repo_url: https://github.com/frcdesign/FRCDesign.org
-edit_uri: edit/main/docs/
+edit_uri: edit/main/FRCDesign.org-DavidDev/docs/
 
 copyright: "<a href='https://wcproducts.com/' target='_blank'><img src='/img/footer/WCP.webp' width=15% height=15% style='float:right'></a> <br> Need custom laser cut parts for your robot? Check out our sponsor <a href='https://go.fabworks.com/frcdesign' class='footerlink'/>Fabworks.</a>"
 # Configuration
@@ -46,7 +46,7 @@ theme:
         name: Switch to Light Mode
       primary: green
       accent: white
-    
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: default
@@ -55,7 +55,7 @@ theme:
         name: Switch to Dark Mode
       primary: green
       accent: black
-      
+
   icon:
     logo: fontawesome/solid/book-open
     admonition:
@@ -71,7 +71,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-  
+
   favicon: img/favicon.png
 
 # Additional Configuration
@@ -88,260 +88,263 @@ nav:
   - Home: index.md
   - Website Feature Guide: website-feature-guide.md
   - Learning Course:
-    - learning-course/index.md
-    - Stage 0: 
-      - "A: Introduction to CAD":
-        - "What and Why": learning-course/stage0/0A/what-and-why-CAD.md
-        - "CAD Software": learning-course/stage0/0A/cad-software.md
+      - learning-course/index.md
 
-      - "B: Onshape Setup":
-        - "Account Setup": learning-course/stage0/0B/account-setup.md
-        - "Performance Tuning": learning-course/stage0/0B/performance-tuning.md
-        - "MKCad": learning-course/stage0/0B/MKCad.md
-        - "Featurescripts": learning-course/stage0/0B/featurescripts.md
+      - Course Setup:
+        - New to CAD: learning-course/course-setup/new-to-cad.md
+        - New to Onshape:
+            - "Account Setup": learning-course/course-setup/new-to-onshape/account-setup.md
+            - "Performance Tuning": learning-course/course-setup/new-to-onshape/performance-tuning.md
+            - "Documents Page": learning-course/course-setup/new-to-onshape/documents-page.md
+            
+        - Required Course Tools:
+            - "Part Library": learning-course/course-setup/required-course-tools/part-library.md
+            - "Custom Features": learning-course/course-setup/required-course-tools/featurescripts.md
+            
 
-      - "C: Navigating Onshape":
-        - "Documents Page": learning-course/stage0/0C/documents.md
-        - "Document Navigation": learning-course/stage0/0C/document-navigation.md
-        - "Other Notes": learning-course/stage0/0C/other-notes.md
-      - "D: CAD Theory": learning-course/stage0/0D/theory.md
-      - "Summary": learning-course/stage0/summary.md
+      - Stage 1:
+          - "A: Onshape Fundamentals":
+              - "Section 1: Part Studio Fundamentals":
+                  - "Intro & Setup": learning-course/stage1/1A/section1-setup.md
+                  - "Exercise 0: Navigation": learning-course/stage1/1A/section1-exercise0.md
+                  - "Exercise 1: First Tubes": learning-course/stage1/1A/section1-exercise1.md
+                  - "Exercise 2: More Tubes": learning-course/stage1/1A/section1-exercise2.md
+                  - "Exercise 3: Sketch Basics": learning-course/stage1/1A/section1-exercise3.md
+                  - "Exercise 4: Drivetrain Frame": learning-course/stage1/1A/section1-exercise4.md
+                  - "Exercise 5: Box Frame": learning-course/stage1/1A/section1-exercise5.md
+                  - "Exercise 6: Triangle Frame": learning-course/stage1/1A/section1-exercise6.md
+              - "Section 2: Plates":
+                  - "Exercise 1: Plate Workflow": learning-course/stage1/1A/section2-exercise1.md
+                  - "Exercise 2: Gusset": learning-course/stage1/1A/section2-exercise2.md
+                  - "Exercise 3: Superstructure Gussets": learning-course/stage1/1A/section2-exercise3.md
+                  - "Exercise 4: Motor Mounting": learning-course/stage1/1A/section2-exercise4.md
+              - "Section 3: Assemblies":
+                  - "Exercise 1: Rivets": learning-course/stage1/1A/section3-exercise1.md
+                  - "Exercise 2: Swerve Drive": learning-course/stage1/1A/section3-exercise2.md
+                  - "Exercise 3: Gusset Setup": learning-course/stage1/1A/section3-exercise3.md
+                  - "Exercise 4: Full Frame": learning-course/stage1/1A/section3-exercise4.md
+                  - "Exercise 5: Finishing the Frame": learning-course/stage1/1A/section3-exercise5.md
 
-    - Stage 1:
-      - "A: Onshape Fundamentals":
-        - "Introduction": learning-course/stage1/1A/introduction.md
-        - "Sketching and Part Modeling": learning-course/stage1/1A/sketch-part-modeling.md
-        - "Exercise Prequisites": learning-course/stage1/1A/exercise-setup.md
-        - "Focusing on Improvement": learning-course/stage1/1A/focusing-on-improvement.md
-        - "Exercise 1: Simple Box Tube": learning-course/stage1/1A/exercise1.md
-        - "Multi-Body Modeling": learning-course/stage1/1A/multi-body.md
-        - "Exercise 2: Gusset Joint": learning-course/stage1/1A/exercise2.md
-        - "Assembly Modeling": learning-course/stage1/1A/assembly.md
-        - "Exercise 3: Box Tube Frame": learning-course/stage1/1A/exercise3.md
-        - "Exercise 4: Climber Hook": learning-course/stage1/1A/exercise4.md
-        - "Summary": learning-course/stage1/1A/summary.md
+          - "B: Power Transmissions":
+              - "Introduction": learning-course/stage1/1B/introduction.md
+              - "Motors": learning-course/stage1/1B/motors.md
+              - "Shafts and Bearings": learning-course/stage1/1B/shafts-bearings.md
+              - "Torque and Speed": learning-course/stage1/1B/torque-speed.md
+              - "Gear Basics": learning-course/stage1/1B/gears.md
+              - "Exercise 1: Simple Gearbox": learning-course/stage1/1B/exercise1.md
+              - "Exercise 2: Two Stage Gearbox": learning-course/stage1/1B/exercise2.md
+              - "Belt and Pulley Basics": learning-course/stage1/1B/belts.md
+              - "Chain and Sprocket Basics": learning-course/stage1/1B/chain.md
+              - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B/exercise3.md
+              - "Summary": learning-course/stage1/1B/summary.md
 
-      - "B: Power Transmissions":
-        - "Introduction": learning-course/stage1/1B/introduction.md
-        - "Motors": learning-course/stage1/1B/motors.md
-        - "Shafts and Bearings": learning-course/stage1/1B/shafts-bearings.md
-        - "Torque and Speed": learning-course/stage1/1B/torque-speed.md
-        - "Gear Basics": learning-course/stage1/1B/gears.md
-        - "Exercise 1: Simple Gearbox": learning-course/stage1/1B/exercise1.md
-        - "Exercise 2: Two Stage Gearbox": learning-course/stage1/1B/exercise2.md
-        - "Belt and Pulley Basics": learning-course/stage1/1B/belts.md
-        - "Chain and Sprocket Basics": learning-course/stage1/1B/chain.md
-        - "Exercise 3: Gear and Belt Gearbox": learning-course/stage1/1B/exercise3.md
-        - "Summary": learning-course/stage1/1B/summary.md
+          - "C: Practice Mechanisms":
+              - "Introduction": learning-course/stage1/1C/introduction.md
+              - "Exercise Overview": learning-course/stage1/1C/exercise-overview.md
+              - "Exercise 1: Flat Intake": learning-course/stage1/1C/exercise1.md
+              - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1C/exercise2.md
+              - "Exercise 3: Shooter": learning-course/stage1/1C/exercise3.md
+              - "Exercise 4: Telescoping Hook": learning-course/stage1/1C/exercise4.md
+              - "Exercise 5: Flipped Gearbox": learning-course/stage1/1C/exercise5.md
+              - "Exercise 6: Direction Swap": learning-course/stage1/1C/exercise6.md
+              - "Exercise 7: Vertical Rollers": learning-course/stage1/1C/exercise7.md
+              - "Exercise 8: Indexer Centering": learning-course/stage1/1C/exercise8.md
+              - "Summary": learning-course/stage1/1C/summary.md
 
-      - "C: Practice Mechanisms": 
-        - "Introduction": learning-course/stage1/1C/introduction.md
-        - "Exercise Overview": learning-course/stage1/1C/exercise-overview.md
-        - "Exercise 1: Flat Intake": learning-course/stage1/1C/exercise1.md
-        - "Exercise 2: Dead Axle Rollers": learning-course/stage1/1C/exercise2.md
-        - "Exercise 3: Shooter": learning-course/stage1/1C/exercise3.md
-        - "Exercise 4: Telescoping Hook": learning-course/stage1/1C/exercise4.md
-        - "Exercise 5: Flipped Gearbox": learning-course/stage1/1C/exercise5.md
-        - "Exercise 6: Direction Swap": learning-course/stage1/1C/exercise6.md
-        - "Exercise 7: Vertical Rollers": learning-course/stage1/1C/exercise7.md
-        - "Exercise 8: Indexer Centering": learning-course/stage1/1C/exercise8.md
-        - "Summary": learning-course/stage1/1C/summary.md
+          - "D: Design Methodology":
+              - "Introduction": learning-course/stage1/1D/introduction.md
+              - "Top Down Design": learning-course/stage1/1D/top-down-design.md
+              - "Project Overview": learning-course/stage1/1D/project-overview.md
+              - "Layout Sketch": learning-course/stage1/1D/layout-sketch.md
+              - "Part Studio": learning-course/stage1/1D/part-modeling.md
+              - "Assembly": learning-course/stage1/1D/assembly-modeling.md
+              - "Adding More Components": learning-course/stage1/1D/adding-components.md
+              - "Top Level Assembly": learning-course/stage1/1D/top-level-assembly.md
+              - "Summary": learning-course/stage1/1D/summary.md
 
-      - "D: Design Methodology":
-        - "Introduction": learning-course/stage1/1D/introduction.md
-        - "Top Down Design": learning-course/stage1/1D/top-down-design.md
-        - "Project Overview": learning-course/stage1/1D/project-overview.md
-        - "Layout Sketch": learning-course/stage1/1D/layout-sketch.md
-        - "Part Studio": learning-course/stage1/1D/part-modeling.md
-        - "Assembly": learning-course/stage1/1D/assembly-modeling.md
-        - "Adding More Components": learning-course/stage1/1D/adding-components.md
-        - "Top Level Assembly": learning-course/stage1/1D/top-level-assembly.md
-        - "Summary": learning-course/stage1/1D/summary.md
+          - "E: Subsystem Workflow":
+              - "Introduction": learning-course/stage1/1E/introduction.md
+              - "Project Overview": learning-course/stage1/1E/project-overview.md
+              - "Battery Mounting": learning-course/stage1/1E/battery-mounting.md
+              - "Exercise: Battery Holder": learning-course/stage1/1E/exercise1.md
+              - "Electronics": learning-course/stage1/1E/electronics.md
+              - "Exercise: Mounting Electronics": learning-course/stage1/1E/exercise2.md
+              - "Exercise: Bellypan Pocketing": learning-course/stage1/1E/exercise3.md
+              - "Exercise: Bumpers": learning-course/stage1/1E/exercise4.md
+              - "Exercise: Bumper Mounting": learning-course/stage1/1E/exercise5.md
+              - "Review & Summary": learning-course/stage1/1E/review-summary.md
 
-      - "E: Subsystem Workflow":
-        - "Introduction": learning-course/stage1/1E/introduction.md
-        - "Project Overview": learning-course/stage1/1E/project-overview.md
-        - "Battery Mounting": learning-course/stage1/1E/battery-mounting.md
-        - "Exercise: Battery Holder": learning-course/stage1/1E/exercise1.md
-        - "Electronics": learning-course/stage1/1E/electronics.md
-        - "Exercise: Mounting Electronics": learning-course/stage1/1E/exercise2.md
-        - "Exercise: Bellypan Pocketing": learning-course/stage1/1E/exercise3.md
-        - "Exercise: Bumpers": learning-course/stage1/1E/exercise4.md
-        - "Exercise: Bumper Mounting": learning-course/stage1/1E/exercise5.md
-        - "Review & Summary": learning-course/stage1/1E/review-summary.md
-      
-    - Stage 2:
+      - Stage 2:
+          - "A: Basic Shooter":
+              - "Introduction": learning-course/stage2/2A/introduction.md
+              - "Project Overview": learning-course/stage2/2A/project-overview.md
+              - "Engineering Concepts":
+                  - "Structure Rigidity": learning-course/stage2/2A/structure-rigidity.md
+                  - "Ball Trajectory": learning-course/stage2/2A/ball-trajectory.md
+                  - "Exit Velocity": learning-course/stage2/2A/exit-velocity.md
+                  - "Compression & Wrap": learning-course/stage2/2A/compression-wrap.md
+                  - "Spin Control": learning-course/stage2/2A/spin-control.md
+                  - "Friction & Efficiency": learning-course/stage2/2A/friction-efficiency.md
+              - "Layout Sketch": learning-course/stage2/2A/layout-sketch.md
+              - "Part Studio": learning-course/stage2/2A/part-studio.md
+              - "Assembly": learning-course/stage2/2A/assembly.md
+              - "Summary": learning-course/stage2/2A/summary.md
 
-      - "A: Basic Shooter":
-        - "Introduction": learning-course/stage2/2A/introduction.md
-        - "Project Overview": learning-course/stage2/2A/project-overview.md
-        - "Engineering Concepts":
-          - "Structure Rigidity": learning-course/stage2/2A/structure-rigidity.md
-          - "Ball Trajectory": learning-course/stage2/2A/ball-trajectory.md
-          - "Exit Velocity": learning-course/stage2/2A/exit-velocity.md
-          - "Compression & Wrap": learning-course/stage2/2A/compression-wrap.md
-          - "Spin Control": learning-course/stage2/2A/spin-control.md
-          - "Friction & Efficiency": learning-course/stage2/2A/friction-efficiency.md
-        - "Layout Sketch": learning-course/stage2/2A/layout-sketch.md
-        - "Part Studio": learning-course/stage2/2A/part-studio.md
-        - "Assembly": learning-course/stage2/2A/assembly.md
-        - "Summary": learning-course/stage2/2A/summary.md
+          - "B: Dead Axle Pivot":
+              - "Introduction": learning-course/stage2/2B/introduction.md
+              - "Project Overview": learning-course/stage2/2B/project-overview.md
+              - "Engineering Concepts":
+                  - "Strength": learning-course/stage2/2B/strength.md
+                  - "Friction": learning-course/stage2/2B/friction.md
+                  - "Power Transmission": learning-course/stage2/2B/power-transmission.md
+                  - "Tensioning": learning-course/stage2/2B/tensioning.md
+                  - "Backlash": learning-course/stage2/2B/backlash.md
+              - "Layout Sketch": learning-course/stage2/2B/layout-sketch.md
+              - "Part Studio": learning-course/stage2/2B/part-studio.md
+              - "Assembly": learning-course/stage2/2B/assembly.md
+              - "Summary": learning-course/stage2/2B/summary.md
 
-      - "B: Dead Axle Pivot":
-        - "Introduction": learning-course/stage2/2B/introduction.md
-        - "Project Overview": learning-course/stage2/2B/project-overview.md
-        - "Engineering Concepts":
-          - "Strength": learning-course/stage2/2B/strength.md
-          - "Friction": learning-course/stage2/2B/friction.md
-          - "Power Transmission": learning-course/stage2/2B/power-transmission.md
-          - "Tensioning": learning-course/stage2/2B/tensioning.md
-          - "Backlash": learning-course/stage2/2B/backlash.md
-        - "Layout Sketch": learning-course/stage2/2B/layout-sketch.md
-        - "Part Studio": learning-course/stage2/2B/part-studio.md
-        - "Assembly": learning-course/stage2/2B/assembly.md
-        - "Summary": learning-course/stage2/2B/summary.md
+          - "C: Slapdown Intake":
+              - "Introduction": learning-course/stage2/2C/introduction.md
+              - "Project Overview": learning-course/stage2/2C/project-overview.md
+              - "Engineering Concepts":
+                  - "Intake Golden Rules": learning-course/stage2/2C/intake-golden-rules.md
+                  - "Robustness": learning-course/stage2/2C/robustness.md
+                  - "Pivot": learning-course/stage2/2C/pivot.md
+                  - "Rollers": learning-course/stage2/2C/rollers.md
+                  - "Zombie Axles": learning-course/stage2/2C/zombie-axles.md
+              - "Layout Sketch": learning-course/stage2/2C/layout-sketch.md
+              - "Part Studio": learning-course/stage2/2C/part-studio.md
+              - "Assembly": learning-course/stage2/2C/assembly.md
+              - "Summary": learning-course/stage2/2C/summary.md
 
-      - "C: Slapdown Intake":
-        - "Introduction": learning-course/stage2/2C/introduction.md
-        - "Project Overview": learning-course/stage2/2C/project-overview.md
-        - "Engineering Concepts":
-          - "Intake Golden Rules": learning-course/stage2/2C/intake-golden-rules.md
-          - "Robustness": learning-course/stage2/2C/robustness.md
-          - "Pivot": learning-course/stage2/2C/pivot.md
-          - "Rollers": learning-course/stage2/2C/rollers.md
-          - "Zombie Axles": learning-course/stage2/2C/zombie-axles.md
-        - "Layout Sketch": learning-course/stage2/2C/layout-sketch.md
-        - "Part Studio": learning-course/stage2/2C/part-studio.md
-        - "Assembly": learning-course/stage2/2C/assembly.md
-        - "Summary": learning-course/stage2/2C/summary.md
+          - "D: Cascade Elevator":
+              - "Introduction": learning-course/stage2/2D/introduction.md
+              - "Project Overview": learning-course/stage2/2D/project-overview.md
+              - "Engineering Concepts":
+                  - "Elevator Blocks": learning-course/stage2/2D/elevator-blocks.md
+                  - "Chain Attachment": learning-course/stage2/2D/chain-attachment.md
+                  - "Rigging": learning-course/stage2/2D/rigging.md
+                  - "Cable Clamp": learning-course/stage2/2D/cable-clamp.md
+                  - "Cable Ends": learning-course/stage2/2D/cable-ends.md
+                  - "Gearbox": learning-course/stage2/2D/drive-system.md
+              - "Layout Sketch": learning-course/stage2/2D/layout-sketch.md
+              - "Part Studio": learning-course/stage2/2D/part-studio.md
+              - "Assembly": learning-course/stage2/2D/assembly.md
+              - "Summary": learning-course/stage2/2D/summary.md
 
-      - "D: Cascade Elevator":
-        - "Introduction": learning-course/stage2/2D/introduction.md
-        - "Project Overview": learning-course/stage2/2D/project-overview.md
-        - "Engineering Concepts":
-          - "Elevator Blocks": learning-course/stage2/2D/elevator-blocks.md
-          - "Chain Attachment": learning-course/stage2/2D/chain-attachment.md
-          - "Rigging": learning-course/stage2/2D/rigging.md
-          - "Cable Clamp": learning-course/stage2/2D/cable-clamp.md
-          - "Cable Ends": learning-course/stage2/2D/cable-ends.md
-          - "Gearbox": learning-course/stage2/2D/drive-system.md
-        - "Layout Sketch": learning-course/stage2/2D/layout-sketch.md
-        - "Part Studio": learning-course/stage2/2D/part-studio.md
-        - "Assembly": learning-course/stage2/2D/assembly.md
-        - "Summary": learning-course/stage2/2D/summary.md
+      - Stage 3: learning-course/stage3/3A/introduction.md
+      - Stage 4: learning-course/stage4.md
 
-    - Stage 3: learning-course/stage3/3A/introduction.md
-    - Stage 4: learning-course/stage4.md
-    
-  - Educator's Guide: 
-    - educators-guide/introduction/index.md
-    - The Stages: educators-guide/introduction/the-stages.md
-    - Preparing Yourself: educators-guide/introduction/preparation.md
-    - Stage 0: educators-guide/stage0/overview.md
-    - Stage 1:
-      - "Overview": educators-guide/stage1/index.md
-      - "Stage 1A": educators-guide/stage1/stage1a.md
-      - "Stage 1B": educators-guide/stage1/stage1b.md
-      - "Stage 1C": educators-guide/stage1/stage1c.md
-      - "Stage 1D": educators-guide/stage1/stage1d.md
-      - "Stage 1E": educators-guide/stage1/stage1e.md
+  - Educator's Guide:
+      - educators-guide/introduction/index.md
+      - The Stages: educators-guide/introduction/the-stages.md
+      - Preparing Yourself: educators-guide/introduction/preparation.md
+      - Stage 0: educators-guide/stage0/overview.md
+      - Stage 1:
+          - "Overview": educators-guide/stage1/index.md
+          - "Stage 1A": educators-guide/stage1/stage1a.md
+          - "Stage 1B": educators-guide/stage1/stage1b.md
+          - "Stage 1C": educators-guide/stage1/stage1c.md
+          - "Stage 1D": educators-guide/stage1/stage1d.md
+          - "Stage 1E": educators-guide/stage1/stage1e.md
 
   - Design Handbook:
-    - design-handbook/index.md
-    - Strategic Design: design-handbook/strategic-design.md
-    - Handbook:
-      - Hardware:
-        - Materials: design-handbook/structure/materials.md
-        - Structure: design-handbook/structure/structure.md
-        - Fasteners: design-handbook/structure/fasteners.md
-        - Sheet Metal: design-handbook/structure/sheet-metal.md
-        - 3D Printing: design-handbook/structure/3d-printing.md
-        - Tolerances: design-handbook/structure/tolerances.md
-        - Weight Saving: design-handbook/structure/weight-savings.md
-      - Power Transmission:
-        - Motion Components: design-handbook/power-transmission/motion-components.md
-        - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
-        - Linear Extension: design-handbook/power-transmission/linear-extension.md
-        - Motors: design-handbook/power-transmission/motors.md
-        - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
-        - Pneumatics: design-handbook/power-transmission/pneumatics.md
-        - Electronics and Sensors: design-handbook/power-transmission/electronics-sensors.md
-      - Mechanisms:
-        - Drivetrains: design-handbook/mechanisms/drivetrains.md
-        - Elevators: design-handbook/mechanisms/elevators.md
-        - Arms: design-handbook/mechanisms/arms.md
-        - Linkages: design-handbook/mechanisms/linkages.md
-        - Intakes: design-handbook/mechanisms/intakes.md
-        - Shooters: design-handbook/mechanisms/shooters.md
-        - Turrets: design-handbook/mechanisms/turrets.md
-        - Bumpers: design-handbook/mechanisms/bumpers.md
-      - Design Write-ups:
-        - Designing for Controllability: design-handbook/design-writeups/DFC.md
-        - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
-        - Bumper Mounting Solutions: design-handbook/design-writeups/bumperMounting.md
-        - Springs and Shocks: design-handbook/design-writeups/springs-shocks.md
+      - design-handbook/index.md
+      - Strategic Design: design-handbook/strategic-design.md
+      - Handbook:
+          - Hardware:
+              - Materials: design-handbook/structure/materials.md
+              - Structure: design-handbook/structure/structure.md
+              - Fasteners: design-handbook/structure/fasteners.md
+              - Sheet Metal: design-handbook/structure/sheet-metal.md
+              - 3D Printing: design-handbook/structure/3d-printing.md
+              - Tolerances: design-handbook/structure/tolerances.md
+              - Weight Saving: design-handbook/structure/weight-savings.md
+          - Power Transmission:
+              - Motion Components: design-handbook/power-transmission/motion-components.md
+              - Transfer of Rotational Motion: design-handbook/power-transmission/rotation.md
+              - Linear Extension: design-handbook/power-transmission/linear-extension.md
+              - Motors: design-handbook/power-transmission/motors.md
+              - Wheels and Rollers: design-handbook/power-transmission/wheels-rollers.md
+              - Pneumatics: design-handbook/power-transmission/pneumatics.md
+              - Electronics and Sensors: design-handbook/power-transmission/electronics-sensors.md
+          - Mechanisms:
+              - Drivetrains: design-handbook/mechanisms/drivetrains.md
+              - Elevators: design-handbook/mechanisms/elevators.md
+              - Arms: design-handbook/mechanisms/arms.md
+              - Linkages: design-handbook/mechanisms/linkages.md
+              - Intakes: design-handbook/mechanisms/intakes.md
+              - Shooters: design-handbook/mechanisms/shooters.md
+              - Turrets: design-handbook/mechanisms/turrets.md
+              - Bumpers: design-handbook/mechanisms/bumpers.md
+          - Design Write-ups:
+              - Designing for Controllability: design-handbook/design-writeups/DFC.md
+              - Chain Tensioning Solutions: design-handbook/design-writeups/chainTensioning.md
+              - Bumper Mounting Solutions: design-handbook/design-writeups/bumperMounting.md
+              - Springs and Shocks: design-handbook/design-writeups/springs-shocks.md
 
   - Mechanism Examples:
       - mechanism-examples/index.md
       - Drivebases:
-        - Swerve:
-          - mechanism-examples/drivebase/swerve/index.md
-          - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
-          - 1678's Crescendo Drivebase: mechanism-examples/drivebase/swerve/1678_2024_dt.md
-          - 3005's Charged Up Drivebase: mechanism-examples/drivebase/swerve/3005_2023_dt.md
-          - 6328's Crescendo Drivebase: mechanism-examples/drivebase/swerve/6328_2024_dt.md
-          - 5460's Crescendo Drivebase: mechanism-examples/drivebase/swerve/5460_2023_dt.md
-          - 972's Crescendo Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
-        - Tank:
-          - mechanism-examples/drivebase/tank/index.md
+          - Swerve:
+              - mechanism-examples/drivebase/swerve/index.md
+              - 2910's Charged Up Drivebase: mechanism-examples/drivebase/swerve/2910_2023_dt.md
+              - 1678's Crescendo Drivebase: mechanism-examples/drivebase/swerve/1678_2024_dt.md
+              - 3005's Charged Up Drivebase: mechanism-examples/drivebase/swerve/3005_2023_dt.md
+              - 6328's Crescendo Drivebase: mechanism-examples/drivebase/swerve/6328_2024_dt.md
+              - 5460's Crescendo Drivebase: mechanism-examples/drivebase/swerve/5460_2023_dt.md
+              - 972's Crescendo Drivebase: mechanism-examples/drivebase/swerve/972_2024_dt.md
+          - Tank:
+              - mechanism-examples/drivebase/tank/index.md
       - Intakes:
-        - Pivoting Intakes:
-          - mechanism-examples/intake/slapdown/index.md
-          - 1678's Crescendo Intake: mechanism-examples/intake/slapdown/1678_2024_intake.md
-          - 1778's Crescendo Intake: mechanism-examples/intake/slapdown/1778_2024_intake.md
-          - 6423's Crescendo Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
-          - 3847's Rapid React Intake: mechanism-examples/intake/slapdown/3847_2022_intake.md
-          - 2910's IR @ Home Intake: mechanism-examples/intake/slapdown/2910_2021_intake.md
-        - Linkage Intakes:
-          - mechanism-examples/intake/linkage/index.md
-          - 1678's Rapid React Intake: mechanism-examples/intake/linkage/1678_2022_intake.md
-          - 6800's Rapid React Intake: mechanism-examples/intake/linkage/6800_2022_intake.md
-          - 4089's Rapid React Intake: mechanism-examples/intake/linkage/4089_2022_intake.md
-        - UTB Intakes:
-          - mechanism-examples/intake/utb/index.md
+          - Pivoting Intakes:
+              - mechanism-examples/intake/slapdown/index.md
+              - 1678's Crescendo Intake: mechanism-examples/intake/slapdown/1678_2024_intake.md
+              - 1778's Crescendo Intake: mechanism-examples/intake/slapdown/1778_2024_intake.md
+              - 6423's Crescendo Intake: mechanism-examples/intake/slapdown/6423_2024_intake.md
+              - 3847's Rapid React Intake: mechanism-examples/intake/slapdown/3847_2022_intake.md
+              - 2910's IR @ Home Intake: mechanism-examples/intake/slapdown/2910_2021_intake.md
+          - Linkage Intakes:
+              - mechanism-examples/intake/linkage/index.md
+              - 1678's Rapid React Intake: mechanism-examples/intake/linkage/1678_2022_intake.md
+              - 6800's Rapid React Intake: mechanism-examples/intake/linkage/6800_2022_intake.md
+              - 4089's Rapid React Intake: mechanism-examples/intake/linkage/4089_2022_intake.md
+          - UTB Intakes:
+              - mechanism-examples/intake/utb/index.md
       - Game Piece Manipulation:
-        - Shooters:
-          - mechanism-examples/shooter/index.md
-          - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
-          - 6328's Crescendo Shooter: mechanism-examples/shooter/6328_2024_shooter.md
-          - 2910's Rapid React Shooter: mechanism-examples/shooter/2910_2022_shooter.md
-          - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
-          - 2910's IR @ Home Shooter: mechanism-examples/shooter/2910_2021_shooter.md
-        - End Effectors:
-          - mechanism-examples/end-effector/index.md
-        - Indexers:
-          - mechanism-examples/indexer/index.md
+          - Shooters:
+              - mechanism-examples/shooter/index.md
+              - 1678's Rapid React Shooter: mechanism-examples/shooter/1678_2022_shooter.md
+              - 6328's Crescendo Shooter: mechanism-examples/shooter/6328_2024_shooter.md
+              - 2910's Rapid React Shooter: mechanism-examples/shooter/2910_2022_shooter.md
+              - 6800's Rapid React Shooter: mechanism-examples/shooter/6800_2022_shooter.md
+              - 2910's IR @ Home Shooter: mechanism-examples/shooter/2910_2021_shooter.md
+          - End Effectors:
+              - mechanism-examples/end-effector/index.md
+          - Indexers:
+              - mechanism-examples/indexer/index.md
       - Linear Extensions:
-        - Continuous Elevators:
-          - mechanism-examples/elevator/continuous/index.md
-          - 1678's Charged Up Elevator: mechanism-examples/elevator/continuous/1678_2023_elevator.md
-          - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/3847_2023_elevator.md
-        - Cascade Elevators:
-          - mechanism-examples/elevator/cascade/index.md
-          - WCP Greyt COTS Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
-          - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2_stage_elevator.md
-          - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
-        - Telescopes:
-          - mechanism-examples/telescope/index.md
+          - Continuous Elevators:
+              - mechanism-examples/elevator/continuous/index.md
+              - 1678's Charged Up Elevator: mechanism-examples/elevator/continuous/1678_2023_elevator.md
+              - 3847's Charged Up Elevator: mechanism-examples/elevator/continuous/3847_2023_elevator.md
+          - Cascade Elevators:
+              - mechanism-examples/elevator/cascade/index.md
+              - WCP Greyt COTS Elevator: mechanism-examples/elevator/cascade/wcp_greyt_elevator.md
+              - 2 Stage Cascade Elevator: mechanism-examples/elevator/cascade/2_stage_elevator.md
+              - 3 Stage Cascade Elevator: mechanism-examples/elevator/cascade/3_stage_elevator.md
+          - Telescopes:
+              - mechanism-examples/telescope/index.md
       - Rotating Mechanisms:
-        - Pivots:
-          - mechanism-examples/pivots/index.md
-          - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
-          - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
-          - 1690 Lantern Gear Pivot: mechanism-examples/pivots/1690_2024_pivot.md
-          - 5460 Dead Axle Pivot: mechanism-examples/pivots/5460_2023_pivot.md
-        - Turrets:
-          - mechanism-examples/turret/index.md
+          - Pivots:
+              - mechanism-examples/pivots/index.md
+              - 6328 A-Frame Pivot: mechanism-examples/pivots/6328_2023_pivot.md
+              - 2910 Dead Axle Pivot: mechanism-examples/pivots/2910_2023_pivot.md
+              - 1690 Lantern Gear Pivot: mechanism-examples/pivots/1690_2024_pivot.md
+              - 5460 Dead Axle Pivot: mechanism-examples/pivots/5460_2023_pivot.md
+          - Turrets:
+              - mechanism-examples/turret/index.md
 
   - CAD Best Practices:
       - best-practices/index.md
@@ -352,29 +355,26 @@ nav:
       - Assembly Best Practices: best-practices/assembly-setup.md
 
   - Other Resources:
-    - resources/index.md
-    - Glossary: resources/glossary.md
-    - Design Challenges:
-      - Overview: resources/design-challenges/overview.md
-      - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
-      - Week 2 | Gearboxes: resources/design-challenges/week2.md
-      - Week 3 | Ball Shooter: resources/design-challenges/week3.md
-      - Week 4 | Intake: resources/design-challenges/week4.md
-      - Week 5 | Tilt Shift: resources/design-challenges/week5.md
-    - CAD Resources:
-      - Featurescripts : resources/featurescripts.md
-      - Simplified Models: resources/simplified.md
-      - Configurables: resources/configurables.md
-      - KrayonCAD: resources/krayonCAD.md 
-    
-
+      - resources/index.md
+      - Glossary: resources/glossary.md
+      - Design Challenges:
+          - Overview: resources/design-challenges/overview.md
+          - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
+          - Week 2 | Gearboxes: resources/design-challenges/week2.md
+          - Week 3 | Ball Shooter: resources/design-challenges/week3.md
+          - Week 4 | Intake: resources/design-challenges/week4.md
+          - Week 5 | Tilt Shift: resources/design-challenges/week5.md
+      - CAD Resources:
+          - Featurescripts: resources/featurescripts.md
+          - Simplified Models: resources/simplified.md
+          - Configurables: resources/configurables.md
+          - KrayonCAD: resources/krayonCAD.md
 
   - Contribution:
-    - Methods of Contributing: contribution/methodsOfContributing.md
-    - Contributing to Mech. Examples: contribution/mechanismContribution.md
-    - Style Guide: contribution/styleguide.md
-    - Contributors: contribution/contributors.md
-  
+      - Methods of Contributing: contribution/methodsOfContributing.md
+      - Contributing to Mech. Examples: contribution/mechanismContribution.md
+      - Style Guide: contribution/styleguide.md
+      - Contributors: contribution/contributors.md
 
 markdown_extensions:
   - abbr
@@ -395,37 +395,27 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-
 extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
 
 plugins:
-  - social:
-      cards_layout_dir: layouts
-      cards_layout: default_page
-      debug: false
   - glightbox:
       background: none
       width: 90%
       shadow: true
   - search
-  - group: # These plugins only run when the site is deployed
-      enabled: !ENV CI
-      plugins:
-      - git-revision-date-localized:
-          enable_creation_date: true
-      #- optimize
-  - group: 
-      enabled: !ENV INSIDERS
+  - group:
+      enabled: !ENV DEP
       plugins:
         - meta
         - social:
             cards_layout_dir: layouts
             cards_layout: default_page
             debug: false
-
-
+        - git-revision-date-localized:
+            enable_creation_date: true
+  
 extra_javascript:
   - javascripts/extra.js
