@@ -11,7 +11,7 @@ FRCDesign.org would not happen without the wonderful work of these people!
 - David
 - Kelly - FRC 1778AM
 - Andrew Card - FRC 6657AM
-- Jonathan Mi - FRC 3647/9442M
+- Jonathan Mi - FRC 4414M
 
 ## Other Contributors
 - Brendan - FRC 1153/1119
