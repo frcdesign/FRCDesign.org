@@ -5,21 +5,25 @@ description: A list of contributors to FRCDesign.org
 
 # Website Contributors
 
+!!! note
+
+    Team affiliations and status' may be out of date. These lists are not sorted in any particular way. If you are missing from this list or need something modified please reach out to a primary contributor or make a PR with the   changes.
+
 FRCDesign.org would not happen without the wonderful work of these people!
 
 ## Primary Contributors
 - David
 - Kelly - FRC 1778AM
 - Andrew Card - FRC 6657AM
-- Jonathan Mi - FRC 3647/9442M
+- Jonathan Mi - FRC 4414M
 
 ## Other Contributors
-- Brendan - FRC 1153/1119
+- Brendan - FRC 1153/1119A
 - Astro - FRC 6423A
 - Neel - FRC 5026A
 - Eeshwar - FTC 7244A
-- Vaughn - FRC 8033
-- Eliot D - FRC 111
+- Vaughn - FRC 8033A
+- Eliot D - FRC 111A
 - Ben - FRC 8738
 - Sid - FRC 4089 AM
 - George T - FRC 840
