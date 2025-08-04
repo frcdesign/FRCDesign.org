@@ -73,7 +73,7 @@ Copy this document to use for all of the exercises in 1A. A tutorial is provided
 
 <figure>
   <iframe width="768" height="432" 
-    src="https://www.youtube.com/embed/ej9xgN7059w" 
+    src="https://www.youtube.com/embed/Jrq30Tgtm2I" 
     frameborder="0" 
     allowfullscreen>
   </iframe>
