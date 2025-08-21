@@ -4,6 +4,9 @@ Before using FRCDesign.org's Learning Course to teach your students, make sure y
 !!! Tip
     Check ChiefDelphi for any updates on the website's content and refresh yourself on the material every so often so you're up to date with information about the workflow and tools.
 
+!!! Tip
+    Sometimes school wifi can block the embeded youtube videos on the site. If this is the case all of the videos are available for download [here](https://drive.google.com/drive/folders/1GUVB6ZssmJgS3k0waTas5IWN6-LMcRHH?usp=sharing){:target="_blank"}.
+
 ## Onshape Classroom
 
 Setting up an [Onshape Classroom](https://www.onshape.com/en/blog/educator-plan-first-robotics-teams "Onshape Classrooms for FRC"){:target="_blank"} is a great way to track student progress. Creating assignments for the various exercises also makes it easy to review the work students have done; this also useful in case you need to treat exercises as graded assignments.
