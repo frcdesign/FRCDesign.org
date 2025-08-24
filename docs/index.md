@@ -11,10 +11,6 @@ hide:
 
 FRCDesign.org is a comprehensive learning guide and technical reference for FRC design using Onshape.
 
-!!! warning "Markdown Issues"
-
-    We are currently investigating an issue that causes markdown to render differently on the site than it previously did. If you see any issues, please let us know in a [GitHub Issue](https://github.com/frcdesign/FRCDesign.org/issues). We are working to fix this as soon as possible.
-
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-flask-vial:{ .lg .middle } **Website Feature Guide**
