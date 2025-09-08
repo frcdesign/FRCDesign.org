@@ -258,7 +258,8 @@ nav:
               - Structure: design-handbook/structure/structure.md
               - Fasteners: design-handbook/structure/fasteners.md
               - Sheet Metal: design-handbook/structure/sheet-metal.md
-              - 3D Printing: design-handbook/structure/3d-printing.md
+              - Intro to 3D Printing: design-handbook/structure/intro-to-3d-printing.md
+              - Design for 3D Printing: design-handbook/structure/design-for-3d-printing.md
               - Tolerances: design-handbook/structure/tolerances.md
               - Weight Saving: design-handbook/structure/weight-savings.md
           - Power Transmission:
