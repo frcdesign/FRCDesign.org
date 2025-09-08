@@ -269,7 +269,7 @@ Ensure openings for wire routing, ventilation, and access to ports or LEDs. Secu
 ### Tips for Tools and Jigs
 
 In the part above metal drill guides are used to prolong the life of the jig. If the jig was only plastic then it would quickly get damaged from repeatedly drilling into the holes.
-Other jigs that can be useful are jigs for drilling in the center of a hole, aligning a tap so it's perfectly straight, or marking a precise distance for cutting tubes and shafts.
+Other jigs that can be useful are jigs for drilling in the center of a tube, aligning a tap so it's perfectly straight, or marking a precise distance for cutting tubes and shafts.
 
 ## Final Notes
 
@@ -282,7 +282,7 @@ Other jigs that can be useful are jigs for drilling in the center of a hole, ali
     <figcaption>Example of designing to account for overhangs </figcaption>
   </figure>
 
-   The part on the left with an overhang held up by support material (green) on the left uses **23% more** filament to print than the part with extra geometry added on the right. Additionally the part on the right will be stronger because the overhanging feature is better supported.
+   The part on the left with an overhang held up by support material (green) uses **23% more** filament to print than the part with extra geometry added on the right. Additionally the part on the right will be stronger because the overhanging feature is better supported.
 
 **Fillets vs Chamfers**
 Fillets are a great way to make your parts smooth and in some instances more precise. A typical FDM 3D printer involves a toolhead moving at high speed, and rapid changes in direction (for example a 90 degree corner) will not be perfectly sharp leading to slight deviations in the size of the corners. This can be problematic for parts that need to fit together, but can be easily solved by adding a fillet to smooth out the sharp edge.
