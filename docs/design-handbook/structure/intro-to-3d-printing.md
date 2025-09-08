@@ -91,12 +91,4 @@ The type of filament significantly affects your 3D printed part's properties. Se
 3. **Material Storage and Handling** Filaments absorb moisture from the air (hygroscopic). This can cause print issues like stringing, bubbling, and even weaker parts. Store filaments dry, in sealed containers, ideally with desiccant. Read the filament vendor’s instructions on drying filament.  
    
 
-**Resources**
-
-1. What to buy:
-      1. One of the more popular printer brands among FRC teams is Bambu Lab <a href="http://Bambulab.com" target="_blank">(Bambulab.com) </a>. Their printers are very well tuned from the factory and several of their printers are capable of printing with advanced filaments like carbon fiber reinforced nylon, polycarbonate, TPU, etc.
-      2. Other brands of printers are Prusa, Markforged, Creality, Elegoo, Snapmaker, Anycubic, Ultimaker, Stratasys, Lulzbot and others. It can be somewhat daunting to pick a good 3D printer, but 3D printing has an extensive online community with many guides and review videos to help you make a good decision.
-2. <a href="https://all3dp.com/2/3d-printing-for-beginners-all-you-need-to-know-to-get-started/" target="_blank">ALL3DP Guide to Beginning 3D Printing </a> []()  
-3. <a href="https://bambulab.com/en-us/support/academy/3" target="_blank">Bambu Studio Guide </a>
-
 
