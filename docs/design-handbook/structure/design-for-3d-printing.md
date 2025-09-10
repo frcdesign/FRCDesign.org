@@ -38,7 +38,6 @@ The first step to using 3D printing in FRC is understanding when is best to use 
 6. **Enclosures for Electronics:** Design custom housings to protect sensitive electronics (e.g., Orange Pi, Arduino) from dust, debris, and impact.  
 7. **Tools and Jigs:** Create custom tools, jigs, and fixtures to help with robot assembly, calibration, or maintenance.
 
-## Spacers
 One of the most straightforward use cases for 3D printing in FRC is to make custom spacers for hex shafts. Using MKCAD you can quickly make a different types of spacers and customize the length. These are very easy to print at very low cost. You may notice in the dialogue box an option for additional tolerance (Tolerance Adder). 3D printers generally can produce very precise parts, but factors like thermal expansion, filament inconsistencies, poor calibration, and other error sources can lead to part dimensions that are either larger or smaller than intended. To address this we can add tolerance (gap between two parts) so that parts will fit together well. You likely will need to find the best tolerance your specific printer can achieve, but a reasonable starting tolerance will typically be about 0.004"-0.020" (0.1mm-0.5mm) depending on the type of fit desired (interference, close, clearance). Many online 3D print sites offer test prints to find the minimum tolerance of a given printer/filament combination.
 
 <figure>
@@ -50,7 +49,6 @@ One of the most straightforward use cases for 3D printing in FRC is to make cust
 ## Crush Blocks
 
 When adding bolts through box tubes, especially 1/16” tube, the force of the bolt can crush the tube. Crush blocks help to spread out the force from tightening the bolt and prevent the tube from crushing. MKCAD has a configurable tube plug generator to quickly make crush blocks with settings for a variety of tube types and thicknesses.
-
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
@@ -136,7 +134,9 @@ Both of the above principles were used by 2910 in this example of their 2022 sho
     <img src="/img/design-handbook/design-for-3d-printing/3dp-2910-rack.png" style="width:60%">
     <figcaption>2910 shooter in 2022 using a 10 DP 3D printed rack and pinion with a large face width</figcaption>
   </figure>
+
 3D printed gears must be used with caution in high torque applications like motor pinions or drive gears, using 3D prints in these applications can lead to the gears becoming worn out quickly.
+
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-pinion.png" style="width:60%">
     <figcaption>604 showing a 3D printed pinion gear with worn teeth </figcaption>
@@ -150,6 +150,7 @@ Many of the same principles from above also apply to sprockets. Care must be exe
 ## Custom Brackets and Structure
 
 3D printing is an exceptionally good solution when oddly shaped geometry is required. For example, 5460s arm in 2023 was built with geometry that would be very challenging or expensive to make with conventional machining methods.
+
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-5460-arm.png" style="width:60%">
@@ -173,6 +174,7 @@ When designing custom brackets it's critical to think about how the part will be
 
 This example above is a perfect use case for 3D printing because it allows for a very precise arm resting angle to be set. This is beneficial for programming to ensure the arm starts in the same position every match. The split design of the part is very beneficial as it can more securely clamp the tubes, with the added benefit of being easier to replace. By splitting the part each piece will have a flat surface that can be oriented down when printing reducing the amount of supports required.
 
+
 Sometimes 3D prints might not be strong enough on their own to withstand high force applications. One option is to surround a print with metal plates for bolts to clamp on to. This distributes the load of the bolts and keeps the print compressed together, reducing the chance of it breaking.
 
   <figure>
@@ -182,12 +184,14 @@ Sometimes 3D prints might not be strong enough on their own to withstand high fo
 
 **Unique Fastening Methods:** Sometimes parts can retain fasteners to make the part easier to mount. This is especially useful if you want a surface free from bolts/nuts such as a game piece centering feature.
 
+
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-6328-centering.png" style="width:50%">
     <figcaption>6328 Mechanical Advantage 2024 - Game piece centering </figcaption>
   </figure>
 
 The above 3D print was designed for centering a game piece, it's mounted with square nuts placed into rectangular channels, and bolts are run from the outside to hold it to the mounting plate. This is advantageous because there are no bolts or nuts on the centering surface that the game piece could get caught on.
+
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-citrus-hood.png" style="width:60%">
@@ -205,7 +209,6 @@ This arc feature from 1678 helps guide the game piece through their adjustable s
     </figcaption>
   </figure>
 This picture shows a solid part on the left vs an FDM printed part. The left part is “Isotropic” meaning it has consistent material strength throughout, while the part on the right is "anisotropic" meaning it has different characteristics depending on the direction. The layer to layer bonding is the weakest area of the print and failed in this test.
-
 
 **Material Choice:** Material choice can lead to a massive difference in the performance and reliability of your part. For example within the lineup of filaments from Bambu Lab (a 3D printer company), PETG offers significant improvement in impact strength and tensile strength over the more common 3D printing filament PLA. Polycarbonate has nearly **double** the tensile strength and bending strength of PLA (when properly annealed to filament specs) and it has nearly **50% higher** impact strength (although it is much more difficult to print). Carbon fiber infused filaments offer similar performance improvements, and high end CF filaments can achieve specs closer to aluminum than PLA. Additionally For some applications that are prone to shock loads or impacts, TPU can be very viable. High stiffness TPU isn’t particularly strong in tension, but has nearly **6x** the impact strength of PLA.
 
@@ -233,6 +236,7 @@ One of the other areas that 3D printing excels at is for adding strain relief to
 
 ### Tips for Sensors and Strain Relief
 
+
 For sensor mounts that may get hit by game pieces or other robots consider more durable materials, specifically materials that have high impact strength. Impact strength is a measure of how well a material can resist breaking or shattering when subjected to a sudden force or shock like a hit, drop, or collision. In FRC you may see significant usage of polycarbonate for both the construction of the field and high impact robot parts. This is due to polycarbonate's ability to withstand high impact force and return to it's original shape. PC is possible to print on some 3D printers, but generally can be difficult to work with. TPU (Thermoplastic Polyurethane) is a rubber-like material that can be a great choice for a very high impact resistance material. An example of this is in usage is 6328 Mechanical Advantage printing their 2024 camera mounts out of TPU to make them more impact resistant. The slight flexibility of the material means the camera mounts are able to withstand impacts and spring back to their original position, ultimately preventing catastrophic part failures that could occur with weaker materials.
 
 ## Enclosures for Electronics
@@ -250,6 +254,7 @@ Electronic enclosures are a great use case for 3D printing as they often rely on
 Ensure there are sufficient openings for wire routing, ventilation, and access to ports or LEDs. Secure components with secure mounting features, and plan for easy removal or maintenance during pit repairs. 
 
 **Threading Into Parts:** It may be desirable to have an enclosure or other parts that can be bolted together with threads in the part. However, after a few cycles of threading and removing a bolt the soft plastic threads will likely wear out. One alternative is to use a heat stake insert. These inserts are placed in a hole in the print and melted into the plastic using a soldering iron or specialized heater. Once the plastic cools it retains the insert and prevents it from rotating when tightening a bolt.
+
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-heat-stake.png" style="width:60%">
@@ -269,7 +274,9 @@ Ensure there are sufficient openings for wire routing, ventilation, and access t
 ### Tips for Tools and Jigs
 
 In the part above metal drill guides are used to prolong the life of the jig. If the jig was only plastic then it would quickly get damaged from repeatedly drilling into the holes.
+
 Other jigs that can be useful are jigs for drilling in the center of a tube, aligning a tap so it's perfectly straight, or marking a precise distance for cutting tubes and shafts.
+
 
 ## Final Notes
 
@@ -283,6 +290,7 @@ Other jigs that can be useful are jigs for drilling in the center of a tube, ali
   </figure>
 
    The part on the left with an overhang held up by support material (green) uses **23% more** filament to print than the part with extra geometry added on the right. Additionally the part on the right will be stronger because the overhanging feature is better supported.
+
 
 **Fillets vs Chamfers**
 Fillets are a great way to make your parts smooth and in some instances more precise. A typical FDM 3D printer involves a toolhead moving at high speed, and rapid changes in direction (for example a 90 degree corner) will not be perfectly sharp leading to slight deviations in the size of the corners. This can be problematic for parts that need to fit together, but can be easily solved by adding a fillet to smooth out the sharp edge.
