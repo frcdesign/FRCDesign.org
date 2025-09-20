@@ -41,19 +41,18 @@ They are strong, lightweight, and easy to work with. You will have to make count
 </div>
 
 From the side, a box tube can be represented as a simple rectangle.  
-Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the learning course, we will use this notation when referring to box tube.
+Box tubing is typically referred to by its size, eg: 50x25, 25x25, and 50x50 (Spoken as "fifty-by-twentyfive", "twentyfive-by-twentyfive", and "fifty-by-fifty"). For the rest of the learning course, we will use this notation when referring to box tube. 
 
-- **1 inch × 1 inch**
+- **25 mm × 25 mm**
 
-- **2 inch × 1 inch**
+- **50mm × 25 mm**
 
-- **2 inch x 2 inch**
-
+- **50mm x 50 mm** 
 
 
 <figure>
-  <img src="/img/learning-course/stage1a/toob.webp" style="width:100%">
-  <figcaption>Box tube cross sections (1x1 and 2x1)</figcaption>
+  <img src="/img/learning-course/stage1a/toob.png" style="width:100%">
+  <figcaption>Box tube cross sections (25x25 and 50x25 and 50x50)</figcaption>
 </figure>
 
 

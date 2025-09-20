@@ -52,7 +52,7 @@ Inside of the document you copied and navigated through previously, follow along
 When using the Tube Converter (as shown in the video), make sure your settings match:
 
 <figure>
-  <img src="/img/learning-course/stage1a/tube-converter-settings.webp" style="width:90%">
+  <img src="/img/learning-course/stage1a/tube-converter-settings.png" style="width:90%">
   <figcaption>Tube Converter settings example</figcaption>
 </figure>
 

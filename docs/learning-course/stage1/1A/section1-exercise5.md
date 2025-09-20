@@ -67,7 +67,7 @@ Now that you’ve seen a demonstration, **try to complete the box tube structure
 
 ### Requirements
 - The box frame should be made using 0 new dimensions total, both in the sketch and the extrude
-- Edit tube converter to use 1/16" thick walls and change “centered on tube” to “auto offset” 
+- Edit tube converter to use 1.6mm thick walls and change “centered on tube” to “auto offset” 
 
 !!! Warning "Tube Offsets"
     The distance between the edge of your tube and your hole differs for drivetrains and typical use. If you use "centered on tube" for your regular box tubes your hole spacing wont be correct. Only use “Centered on tube” for your drivetrain rails!

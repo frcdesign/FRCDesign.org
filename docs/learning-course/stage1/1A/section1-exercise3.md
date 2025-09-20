@@ -102,9 +102,9 @@ Draw the new rails yourself. Only use **one new dimension** total.
 
 The only numbers you should see:
 
-- 4.25" (gap between modules)
-- 1" (tube width)
-- 8" (distance between cross rails)
+- 108mm (gap between modules)
+- 25mm (tube width)
+- 400mm (distance between cross rails)
 
 <figure>
   <img src="/img/learning-course/stage1a/drivetrain-crossrail-sketch2.webp" style="width:90%">
