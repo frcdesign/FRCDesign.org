@@ -370,7 +370,9 @@ nav:
           - Simplified Models: resources/simplified.md
           - Configurables: resources/configurables.md
           - KrayonCAD: resources/krayonCAD.md
-
+  - Changelog:
+      - Site Updates: resources/site-changelog.md
+      - Reference Guide: resources/changelog.md
   - Contribution:
       - Methods of Contributing: contribution/methodsOfContributing.md
       - Contributing to Mech. Examples: contribution/mechanismContribution.md
