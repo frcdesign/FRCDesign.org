@@ -167,21 +167,21 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
         <source src="/img/learning-course/stage1b/exercises/e3/e3s22.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>21. Use the <code>Belt & Chain Gen</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Offset the reference plane by 0.5" so that the belt does not collide with the plate. Optionally turn on teeth modeling - note that this option will significantly increase rebuild time. Notice that the <code>Belt & Chain</code> Featurescript also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
+      <figcaption>21. Use the <code>Robot Belt</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Offset the reference plane by 0.5" so that the belt does not collide with the plate. Optionally turn on teeth modeling - note that this option will significantly increase rebuild time. Notice that the <code>Robot Belt</code> Featurescript also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s23.webp" style="width:100%">
-      <figcaption>22. Use the <code>Shaft Generator</code> Featurescript to create the 1st stage shaft. Note that this length is simply an estimate. While you could calculate the length of the shaft based on the components that will go on it, it is often easier to create the assembly then measure what the shaft length should be and update accordingly.</figcaption>
+      <figcaption>22. Use the <code>Robot Shaft</code> Featurescript to create the 1st stage shaft. Note that this length is simply an estimate. While you could calculate the length of the shaft based on the components that will go on it, it is often easier to create the assembly then measure what the shaft length should be and update accordingly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s24.webp" style="width:100%">
-      <figcaption>23. Use the <code>Shaft Generator</code> Featurescript to create the output shaft.</figcaption>
+      <figcaption>23. Use the <code>Robot Shaft</code> Featurescript to create the output shaft.</figcaption>
     </figure>
   </div>
 
@@ -260,7 +260,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Assemble the bearings and shafts using parts from the MKCad App. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
+      <figcaption>2. Assemble the bearings and shafts using parts from FRCDesignLib. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
     </figure>
   </div>
 
@@ -270,7 +270,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from the MKCad App. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
+      <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from FRCDesignLib. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
     </figure>
   </div>
 
@@ -280,7 +280,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Assemble the shaft spacers and gears using parts from the MKCad App. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
+      <figcaption>4. Assemble the shaft spacers and gears using parts from FRCDesignLib. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
     </figure>
   </div>
 
@@ -300,7 +300,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a6.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>6. Assemble the shaft retention bolts using MKCad app parts.</figcaption>
+      <figcaption>6. Assemble the shaft retention bolts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
 
@@ -310,7 +310,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>7. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts</figcaption>
+      <figcaption>7. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts</figcaption>
     </figure>
   </div>
 
@@ -320,7 +320,7 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
         <source src="/img/learning-course/stage1b/exercises/e3/e3a8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Assemble the gusset rivets using the MKCad app parts.</figcaption>
+      <figcaption>8. Assemble the gusset rivets using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
 

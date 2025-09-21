@@ -29,8 +29,8 @@ Bushings are a cheap and low friction alternative to bearings and are used with 
 
 
 ### Modeling
-The easiest and most parametric way to model shafts is to use the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/8db1f48368bdac821997185f "Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
+The easiest and most parametric way to model shafts is to use the [`Robot Shaft` Featurescript](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Shaft Featurescript Onshape Document"){:target="_blank"}, which you learn how to use in the following exercises. 
 
-For bearings, insert your desired bearing from the MKCad app.
+For bearings, insert your desired bearing from FRCDesignLib. 
 
 <br>

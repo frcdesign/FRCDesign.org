@@ -4,6 +4,8 @@
 
 *[TTB]: The Thrifty Bot
 
+*[Redux]: Redux Robotics
+
 *[OTB]: "Over the Bumper" typically used to refer to a style of intake where you lift the piece over the bumper
 
 *[UTB]: "Under the Bumper" typically used to refer to a style of intake where you move the piece under the bumper
