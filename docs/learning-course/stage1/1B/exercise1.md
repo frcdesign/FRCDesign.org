@@ -14,7 +14,7 @@ Time to practice! Start by **make a copy of the Stage 1B Exercises Document** th
 In this exercise, you will be modeling and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../course-setup/required-course-tools/part-library.md "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
 
 !!! Warning
-    As this is the first exercise where MKCAD is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding MKCAD Tutorial Page"){:target="_blank"} MKCAD is a parts library for FRC used for inserting COTS components into assemblies.
+    As this is the first exercise where FRCDesignLib is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} FRCDesignLib is a parts library for FRC used for inserting COTS components into assemblies.
 
 !!! Note
     Exercise 1 adds hardware (bolts and nuts) to the CAD models. You can read more about hardware standards on the [Design Handbook](/design-handbook/structure/fasteners/ "Design Handbook Fasteners Page"){:target="_blank"} page.
@@ -93,7 +93,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s8.webp" style="width:100%">
-      <figcaption> 8. Use the <code>Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
+      <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
     </figure>
   </div>
 
@@ -117,14 +117,14 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
         <source src="/img/learning-course/stage1b/exercises/e1/e1s11.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>11. Use the <code>Shaft</code> Featurescript to model the output shaft. Follow the settings used. You can learn more about the shaft retention property on the Design Handbook page. </figcaption>
+      <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s12.webp" style="width:100%">
-      <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Shaft</code> Featurescript.</figcaption>
+      <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -179,7 +179,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s14.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 2. Assemble the bearings and shaft using parts from the MKCad App.</figcaption>
+      <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
     </figure>
   </div>
 
@@ -189,7 +189,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 3. Assemble the motor and motor pinion gear using parts from the MKCad App. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
+      <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
 
@@ -199,7 +199,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s16.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 4. Assemble the shaft spacer and gear using parts from the MKCad App. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
+      <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
     </figure>
   </div>
 
@@ -209,7 +209,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s17.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 5. Assemble the shaft retention bolts using the MKCad app parts. </figcaption>
+      <figcaption> 5. Assemble the shaft retention bolts using FRCDesignLib parts. </figcaption>
     </figure>
   </div>
 
@@ -219,7 +219,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s18.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. When inserting Onshape Standard Content, you can use the snap mode to automatically add the mates when inserting or insert the component and then manually mate it. </figcaption>
+      <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
 
@@ -244,7 +244,7 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
 
 ### Configurable Parts
 
-In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from MKCad were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
+In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from FRCDesignLib were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
 
 <br>
 

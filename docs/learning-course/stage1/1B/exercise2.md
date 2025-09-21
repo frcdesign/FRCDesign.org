@@ -57,7 +57,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e2/e2s4.webp" style="width:100%">
-      <figcaption>4. Use the <code>Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
+      <figcaption>4. Use the <code>Robot Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
     </figure>
   </div>
 
@@ -67,14 +67,14 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Use the <code>Shaft</code> Featurescript to create the first stage shaft. </figcaption>
+      <figcaption>5. Use the <code>Robot Shaft</code> Featurescript to create the first stage shaft. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e2/e2s6.webp" style="width:100%">
-      <figcaption>6. Use the <code>Shaft</code> Featurescript to create the output shaft.</figcaption>
+      <figcaption>6. Use the <code>Robot Shaft</code> Featurescript to create the output shaft.</figcaption>
     </figure>
   </div>
 
@@ -146,7 +146,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s12.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Assemble the bearings and shafts using parts from the MKCad App. </figcaption>
+      <figcaption>3. Assemble the bearings and shafts using parts from FRCDesignLib. </figcaption>
     </li>
   </div>
 
@@ -156,7 +156,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s13.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Assemble the motor and motor pinion gear using parts from the MKCad App. </figcaption>
+      <figcaption>4. Assemble the motor and motor pinion gear using parts from FRCDesignLib. </figcaption>
     </li>
   </div>
 
@@ -166,7 +166,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s14.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Assemble the shaft spacers and gears using parts from the MKCad App. </figcaption>
+      <figcaption>5. Assemble the shaft spacers and gears using parts from FRCDesignLib.</figcaption>
     </li>
   </div>
 
@@ -176,7 +176,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>6. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using the Onshape Standard Content and MKCad app parts. </figcaption>
+      <figcaption>6. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using FRCDesignLib parts. </figcaption>
     </li>
   </div>
 
