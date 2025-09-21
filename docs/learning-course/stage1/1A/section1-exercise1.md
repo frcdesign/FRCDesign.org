@@ -4,7 +4,7 @@
 
 In this exercise you'll be:
 
-1. Following along with the video to learn how we can make box tubes in onshape
+1. Following along with the video to learn how we can make punched tubes in onshape
 2. Playing with the tools you learned to explore how the concepts work
 3. Understanding how these parts interact in 3D Space
 
@@ -68,7 +68,5 @@ If you forget the name of a tool, you can press `Alt+C` to search for it.
 ## Done following along? 
 
 Mess around with the tubes a bit more, try extruding different lengths, using different extrude offsets and settings, and play to see how they relate to your final box tube.
-
-After 5 minutes or so, move on to the next exercise.
 
 <br>

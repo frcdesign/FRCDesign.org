@@ -16,14 +16,15 @@ Exercises build on each other and always expect you to have done the previous ex
     Make sure the [required course tools](../../course-setup/required-course-tools/part-library.md){:target="_blank"} (the part library and featurescripts) are added to your Onshape account before starting this stage.
 
 
-## Box Tube Intro
+## RHS (Rectangular Hollow Section) Intro
 
-We will start off with Box Tubes, since they provide the primary structure of your robot. Box tubes are used in many places, from the drivetrain to the superstructure.
-They are strong, lightweight, and easy to work with. You will have to make countless box tubes throughout your FRC career, so it's important to get comfortable with them.
+We will start off with RHS Tubes (also known as Box Tube), since that can provide the primary structure of a robot. RHS is used in many places, from the drivetrain to the superstructure.
+It is strong, lightweight, and easy to work with. You will have to make RHS parts throughout your FRC career, so it's important to get comfortable with them.
+You will find that we use both "punched" and regular RHS, these examples will use punched for simplicity, but in your real robots you can CAD specific holes.
 
 <figure>
   <img src="/img/learning-course/stage1a/box-tube-example.webp" style="width:80%">
-  <figcaption>Example of a box tube with a pre-punched hole pattern</figcaption>
+  <figcaption>Example of a RHS with a pre-punched hole pattern</figcaption>
 </figure>
 
 ### Example Usage
@@ -31,7 +32,7 @@ They are strong, lightweight, and easy to work with. You will have to make count
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
   <figure>
     <img src="/img/learning-course/stage1a/ht-superstructure.webp" style="width:100%">
-    <figcaption>4414's 2022 box tube superstructure in CAD</figcaption>
+    <figcaption>4414's 2022 RHS superstructure in CAD</figcaption>
   </figure>
 
   <figure>
@@ -40,8 +41,8 @@ They are strong, lightweight, and easy to work with. You will have to make count
   </figure>
 </div>
 
-From the side, a box tube can be represented as a simple rectangle.  
-Box tubing is typically referred to by its size, eg: 50x25, 25x25, and 50x50 (Spoken as "fifty-by-twentyfive", "twentyfive-by-twentyfive", and "fifty-by-fifty"). For the rest of the learning course, we will use this notation when referring to box tube. 
+From the side, a RHS tube can be represented as a simple rectangle.  
+RHS is typically referred to by its size, eg: 50x25, 25x25, and 50x50 (Spoken as "fifty-by-twentyfive", "twentyfive-by-twentyfive", and "fifty-by-fifty"). For the rest of the learning course, we will use this notation when referring to RHS. 
 
 - **25 mm × 25 mm**
 
@@ -65,7 +66,7 @@ We'll be working with these increments throughout the stages, keep them in mind!
 Copy this document to use for all of the exercises in 1A. A tutorial is provided below to show how to copy a document.
 
 <center markdown>
-[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){:target="_blank" .md-button .md-button--primary }
+[Stage 1A Document Link](https://cad.onshape.com/documents/b410b9be039ff2a81eb93ec9/w/2c8d8855a860f717056571c2/e/e3427c9267626a92a5652411?renderMode=0&uiState=68cec6afecca017b8054971f){:target="_blank" .md-button .md-button--primary }
 </center>
 
 <br>

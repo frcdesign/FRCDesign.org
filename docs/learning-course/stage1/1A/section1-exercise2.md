@@ -3,9 +3,9 @@
 ## Drivetrains
 
 Drivetrains are pretty important — they let the robot move. 
-They're usually built out of box tube and have to be strong enough to survive to not explode when running into things. 
+They're can be built out of RHS tube and if so would have to be strong enough to survive when running into things. 
 
-Check out the video below to see a drivetrain in action. Spot where box tube is used.
+Check out the video below to see a drivetrain in action. Spot where tube is used.
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>

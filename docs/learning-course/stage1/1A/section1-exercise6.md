@@ -37,7 +37,7 @@ An angled rectangle can be created by using the `aligned rectangle` sketch tool 
   <figcaption>Triangle frame example (angled box tubes).</figcaption>
 </figure>
 <figure>
-  <img src="/img/learning-course/stage1a/exercise6-triangle-frame-sketch2.webp" style="width:100%">
+  <img src="/img/learning-course/stage1a/exercise6-triangle-frame-sketch2.png" style="width:100%">
   <figcaption>Triangle frame sketch.</figcaption>
 </figure>
 

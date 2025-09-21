@@ -1,7 +1,7 @@
 # 1A: Onshape Fundamentals - Section 1
 ## Exercise 3: More Extrudes
 
-In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.  
+In this exercise, you'll extrude four rectangles by 50mm symmetrically — and turn them into tubes.  
 Use just one extrude feature. What happens?
 
 <figure>
@@ -52,6 +52,7 @@ In the last exercise, you extruded an existing sketch. Now it's your turn to **c
 
 When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
 
+
 Follow along with the video below to practice sketching fundamentals in Onshape.
 
 <br>
@@ -93,7 +94,7 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 
 Now let's apply this to the robot.
 
-Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **8 inches apart**.  
+Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **200mm part**.  
 
 !!! Tip
     Double-click the sketch in the feature tree to edit it.

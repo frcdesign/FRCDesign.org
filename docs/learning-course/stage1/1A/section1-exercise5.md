@@ -27,12 +27,12 @@ In this exercise we'll be adding a simple box tube frame to the drivetrain you m
 
 
     <figure>
-      <img src="/img/learning-course/stage1a/exercise5-frame-sketch.webp" style="width:100%">
+      <img src="/img/learning-course/stage1a/exercise5-frame-sketch.png" style="width:100%">
       <figcaption>Box superstructure sketch</figcaption>
     </figure>
 
     !!! Info "Origin Placement"
-        The wheels are the 1.75-inch blocks on the corners of the tube. If that's the case, where is the origin placed in the side layout sketch? Why do you think it's placed there? Imagine if you looked at the robot in real life to the side.
+        The wheels are the 43.75mm blocks on the corners of the tube. If that's the case, where is the origin placed in the side layout sketch? Why do you think it's placed there? Imagine if you looked at the robot in real life to the side.
 
 4. After the side layout sketch is done, create the swerve drivetrain frame in your part studio according to what you remember from the last exercise. (Remember to select the mate connector!) 
 
@@ -40,7 +40,7 @@ In this exercise we'll be adding a simple box tube frame to the drivetrain you m
         If you struggle, refer to the previous video after trying
 
     !!! Info "Design Intent"
-        Let’s make this drivetrain a square. How would you approach your top sketch to avoid using any unnecessary dimensions? You should only need to define your swerve gap, the distance between your cross tubes (8 inches), and your tube offset.
+        Let’s make this drivetrain a square. How would you approach your top sketch to avoid using any unnecessary dimensions? You should only need to define your swerve gap, the distance between your cross tubes (200 mm), and your tube offset.
 
     ??? Hint
         What length is already defined/constrained? Can you use the equal constraint? 
@@ -52,11 +52,6 @@ So far, sketches have been created on default planes and mate connectors. In ord
 
 !!! Tip "Design Intent"
     This is called modeling with "design intent." There are many different ways to model something, but you can choose specific ways based on what your intent for a part or the overall design is. This can also help you avoid creative blocks and keep your CAD from creating errors when the design changes.
-
-<figure>
-  <img src="/img/learning-course/stage1a/side profile.webp" style="width:80%">
-  <figcaption>Box superstructure sketch</figcaption>
-</figure>
 
 Watch a demonstration of this sketching technique below.
 <figure>
@@ -81,7 +76,7 @@ Once you finish, **take a 5-minute break**.
 After you come back, **try to improve or correct any mistakes you find**. Once you finish, compare your workflow with the solution. **What thought process led you to do something different?**
 
 
-<center markdown>[Solution Document](https://cad.onshape.com/documents/5f1057b0e7579ff9dd5811fe/w/4c6a1a1d9747b8ea76b238a3/e/b89eed09a1d075135ee83667){.md-button .md-button--primary target="_blank"}</center>
+<center markdown>[Solution Document](https://cad.onshape.com/documents/b410b9be039ff2a81eb93ec9/w/2c8d8855a860f717056571c2/e/4c8034976f126998e2cb4273?renderMode=0&uiState=68ced063ecca017b805497eb){.md-button .md-button--primary target="_blank"}</center>
 
 Follow the short video below to learn how to rename your features, then rename the sketches and features in your part studio. Moving forward, we want to **always name our sketches and features**.
 

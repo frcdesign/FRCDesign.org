@@ -29,7 +29,7 @@ Below are two examples of plates being used in FRC.
 
 ### Background
 
-Since your tubes are always in 0.5-inch increments, your plates allow you to bridge the gap between uneven distances. This is possible because plates are CNC manufactured allowing for completely arbitrary hole spacings.
+Since your tubes are always in 25mm increments, your plates allow you to bridge the gap between uneven distances. This is possible because plates are CNC manufactured allowing for completely arbitrary hole spacings.
 
 It's this arbitrary hole spacing that is key to think about when designing plates. The purpose of a plate is to place mounting holes where you want them; the material that makes up the plate only exists to position mounting holes and create lines of support, like when using a triangle gusset.
 
@@ -51,7 +51,7 @@ To get started, find the "Exercise 1: Plates" part studio in the "Section 2" fol
 
 ???+ Question "Plate Workflow"
 
-    1. Draw an arc around each bearing hole, dimension one of the arcs to be 0.25" away from the hole 
+    1. Draw an arc around each bearing hole, dimension one of the arcs to be 6.5mm away from the hole 
     2. Set the two arcs to be equal in radius by using the equal constraint.
     3. Draw lines connecting the arcs
     4. Set the lines tangent to the arcs to align everything.
