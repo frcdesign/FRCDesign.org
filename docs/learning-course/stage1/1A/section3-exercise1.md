@@ -6,13 +6,15 @@ So far in 1A, you've been modeling custom parts in part studios. An assembly (a 
 
 While the part studio is used to plan and design individual components next to each other, the assembly is used to **create a 3D blueprint of all the parts involved and how they go together**.
 
+!!! Warning
+    As this is the first exercise where FRCDesignLib is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} FRCDesignLib is a parts library for FRC used for inserting COTS components into assemblies.
 ---
 
 ## Exercise 1: Rivets
 
 To get started, find the "S3 Exercise 1" assembly in the "Section 3" folder in your copy of the template document. 
 
-1. Follow the video below to learn how to **insert a rivet** into your assembly **from MKCAD** and **fasten** it to the gusset.
+1. Follow the video below to learn how to **insert a rivet** into your assembly **from FRCDesignLib** and **fasten** it to the gusset.
 
     <figure>
         <iframe width="768" height="432" src="https://www.youtube.com/embed/QcmTGa7JZ6E" frameborder="0" allowfullscreen></iframe>
