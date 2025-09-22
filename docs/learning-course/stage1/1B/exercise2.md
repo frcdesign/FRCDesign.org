@@ -15,48 +15,48 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e2/e2s9.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1a.webp" style="width:100%">
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s1a.png" style="width:100%">
       <figcaption>1a. Create the layout sketch for the gearbox. Start by drawing the 2nd stage, which is a 20T gear to a 50T gear.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1b.webp" style="width:100%">
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s1b.png" style="width:100%">
       <figcaption>1b. Draw the first stage, which is a 12T motor pinion gear to a 50T gear.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1c.webp" style="width:100%">
-      <figcaption>1c. Draw the outline of the motors as a 2.5" diameter circle. This is the finished layout sketch for the gearbox.</figcaption>
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s1c.png" style="width:100%">
+      <figcaption>1c. Draw the outline of the motors as a 64mm diameter circle. This is the finished layout sketch for the gearbox.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s2.webp" style="width:100%">
-      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 0.8". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s2.png" style="width:100%">
+      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 22mm. Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s3.webp" style="width:100%">
-      <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s3.png" style="width:100%">
+      <figcaption>3. Extrude the plate to be 5mm thick.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s4.webp" style="width:100%">
+      <img src="/img/learning-course/stage1b/exercises/e2/e2s4.png" style="width:100%">
       <figcaption>4. Use the <code>Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
     </figure>
   </div>
@@ -91,7 +91,7 @@ In this exercise, you will be CADing and assembling a two stage gearbox. The goa
         <source src="/img/learning-course/stage1b/exercises/e2/e2s8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Use the <code>Part Lighten</code> Featurescript to pocket the plate by selecting the ribs created by the previous sketch. </figcaption>
+      <figcaption>8. Use the <code>Part Lighten</code> Featurescript to pocket the plate by selecting the ribs created by the previous sketch. Set thickness of walls and ribs to be 4mm. Tool diameter refers to the size of the cnc router cutting bit.</figcaption>
     </figure>
   </div>
 

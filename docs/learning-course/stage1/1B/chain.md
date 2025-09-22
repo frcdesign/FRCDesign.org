@@ -8,7 +8,7 @@ Roller chain and sprocket drives are very similar to belt and pulley transmissio
 
 <figure>
     <img src="\img\learning-course\stage1b\chain\chainAnimation.gif" style="width:40%">
-    <figpcation>A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.</figcaption>
+    <figpcation>A simple animation of chain and sprocket.</figcaption>
 </figure>
 
 In order to change the torque and speed from the input to the output, different sized sprockets must be used. The mechanical advantage for chain transmissions, similar to gears and pulleys, is based on the ratio between the number of teeth of the output sprocket to the number of teeth of the input sprocket. Similar to pulleys, the sprockets will spin in the same direction.

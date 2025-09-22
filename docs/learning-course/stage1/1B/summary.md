@@ -13,10 +13,8 @@ Here is a quick summary of what you have achieved in stage 1B:
 * Learned how to use the `Replicate` tool
 * Learned how to insert models into assemblies using the MKCad parts library
 
-Again, it should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
+It should be noted that Stage 1B is a very basic introduction to modeling power transmissions and some details were glossed over. Stage 2 will introduce how to *design* power transmissions - selecting motors and calculating optimal ratios. 
 
 In stage 1C, you will be practicing the skills you've learned so far by modeling a number of different mechanisms. These mechanisms will focus on introducing some COTS parts, refining CAD skills, and introducing more useful Onshape tools to use when modeling. 
-
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1B so we can collect data and get a better idea of how to improve the website!
 
 <br>

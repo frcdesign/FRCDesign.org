@@ -2,7 +2,7 @@
 
 ## Belts and Pulley Basics
 
-Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts using flexible belts and pulleys. The system consists of two main components: the belt, which is a flexible loop made of a material like rubber, and the pulleys, which are wheels with grooves that the belt wraps around. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another.
+Timing belt and pulley drives are mechanical systems used to transmit motion and power between rotating shafts. The system consists of two main components: the belt, which is a flexible loop made of a rubber like material, and the pulleys, which are wheels with grooves (teeth) that the belt wraps around and engages with. As one pulley rotates, it drives the belt, which in turn drives the other pulley, transferring motion and power from one shaft to another.
 
 
 <figure>
@@ -14,13 +14,15 @@ In order to change the torque and speed from the input to the output, different 
 
 ### Types of Belt
 
-Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. In FRC, this is typically 5 mm. The *pitch length* of the belt is then the pitch (5 mm) multiplied by the number of teeth. Belts will always have an integer number of teeth so the pitch length will be a multiple of 5mm.
+Like gears, belts also have a pitch. The pitch is defined as the distance between each tooth on the belt. We typically use a 5 mm pitch. The *pitch length* of the belt is then the pitch (5 mm) multiplied by the number of teeth. Belts will always have an integer number of teeth so the pitch length will be a multiple of 5mm.
 
 For example, an 80T belt will have a length of 400 mm.
-<!-- To calculate the pitch diameter of a pulley, the following equation can be used:
-<center>**`PD = Pitch * (# of Teeth) / 3.14`**</center> -->
 
 Belts also come in various widths. In FRC, you will typically use either 9 mm or 15 mm wide belts.
+
+!!! Pitch-Calculation
+    To calculate the pitch diameter of a pulley, the following equation can be used:
+    <center>**`PD = Pitch * (# of Teeth) / 3.14`**</center>
 
 ### Modeling Belt Transmissions
 

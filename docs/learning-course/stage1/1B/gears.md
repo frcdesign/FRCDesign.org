@@ -64,7 +64,7 @@ Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Di
 
 <center>**`PD = (# of teeth) / DP`**</center>
 
-Where DP stands for **diametral pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Handbook pages.
+Where DP stands for **diametral pitch**. For now, you can assume it to always be 20, as this is the DP used in FRC standard gears. If you're curious, ask a mentor for more information!
 
 <figure>
     <img src="\img\learning-course\stage1b\gears\gearDiagram.webp" style="width:70%">
@@ -80,7 +80,10 @@ When modeling, an easy way to set the center-to-center distance between two gear
 <figcaption>Modeling gear C-C distance by constraining two pitch diameter construction circles tangent. The diameters of the circle are calculated by dividing the tooth count by DP, which is 20 in this case.</figcaption>
 </figure>
 
-It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see what the circle represents (a gear, sprocket, or pulley) and how many teeth it has. 
+!!! Tip
+    With 20 DP gears that are standard in FRC, a lot of the pitch diameters and centre distances will be a nice number of inches, but an ugly number of millimetres. At times like this, it is especially convenient to make use of Onshape's automatic unit conversion and equation interpretation. For 20 tooth, 20 DP gear, you can dimension the pitch diameter as `(20/20) in` and Onshape will work it out for you.
+
+It's recommended to input the pitch diameter fraction (Eg: `(60/20)"`) rather than the calculated pitch diameter (Eg: Only inputting `3"` as the dimension) so that you can easily see what the circle represents (a gear, sprocket, or pulley) and how many teeth it has.
 
 !!! Tip
     You can show the expression that a dimension was evaluated from by checking the <code>Show Expression</code> checkbox on the sketch menu. The result will look like the previous image, which allowed you to easily see that the two gears were a 20T and 60T gear, both 20 DP.
