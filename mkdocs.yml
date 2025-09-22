@@ -367,7 +367,6 @@ nav:
           - Week 5 | Tilt Shift: resources/design-challenges/week5.md
       - CAD Resources:
           - Featurescripts: resources/featurescripts.md
-          - Simplified Models: resources/simplified.md
           - Configurables: resources/configurables.md
           - KrayonCAD: resources/krayonCAD.md
   - Changelog:
