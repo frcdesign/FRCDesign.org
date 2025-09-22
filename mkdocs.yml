@@ -1,5 +1,5 @@
 site_name: FRCDesign.org
-site_description: A comprehensive learning guide and technical reference for FRC design using Onshape.
+site_description: A comprehensive learning guide and technical reference for FRC Design using Onshape.
 site_url: https://www.frcdesign.org/
 
 # Repository
@@ -258,7 +258,8 @@ nav:
               - Structure: design-handbook/structure/structure.md
               - Fasteners: design-handbook/structure/fasteners.md
               - Sheet Metal: design-handbook/structure/sheet-metal.md
-              - 3D Printing: design-handbook/structure/3d-printing.md
+              - Intro to 3D Printing: design-handbook/structure/intro-to-3d-printing.md
+              - Design for 3D Printing: design-handbook/structure/design-for-3d-printing.md
               - Tolerances: design-handbook/structure/tolerances.md
               - Weight Saving: design-handbook/structure/weight-savings.md
           - Power Transmission:
@@ -366,10 +367,10 @@ nav:
           - Week 5 | Tilt Shift: resources/design-challenges/week5.md
       - CAD Resources:
           - Featurescripts: resources/featurescripts.md
-          - Simplified Models: resources/simplified.md
-          - Configurables: resources/configurables.md
           - KrayonCAD: resources/krayonCAD.md
-
+  - Changelog:
+      - Site Updates: resources/site-changelog.md
+      - Reference Guide: resources/changelog.md
   - Contribution:
       - Methods of Contributing: contribution/methodsOfContributing.md
       - Contributing to Mech. Examples: contribution/mechanismContribution.md

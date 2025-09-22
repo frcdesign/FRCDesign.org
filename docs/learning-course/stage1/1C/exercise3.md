@@ -14,8 +14,8 @@ Thus far, you've only utilized COTS pulleys in your assemblies.
 However, 3D-printed pulleys are a fantastic alternative since they are cheaper, readily available (assuming you have a 3D printer), and highly customizable.
 <!-- Most applications that utilize pulleys (rollers, shooter wheels, etc) are low torque so 3D-printed pulleys provide more than adequate strength. -->
 
-3D-printed pulleys can easily be generated using pulley generators, such as the one included in MKCad.
-Close attention must be paid to the shaft interface however. 3D-printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapater Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
+3D-printed pulleys can easily be generated using pulley generators, such as the ones included in FRCDesignLib and the Robot Pulley Featurescript.
+However, close attention must be paid to the shaft interface. 3D-printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapater Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
 Take a look below at some examples of 3D-printed pulleys with different types of inserts. 
 
 ???+ example "3D-printed Pulley Inserts"
