@@ -11,9 +11,9 @@ To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in y
 
 1. Insert your Section 3 Exercise 3 Part Studio (with the single gusset).
 2. Group all frame components.
-3. Insert the MK4N (A and B variants) if you haven't already.
+3. Insert the MK4i if you haven't already.
 4. Fasten the modules to the corners of the frame.
-5. Insert bolts using the Standard Content Library (Socket Head Cap Screws).
+5. Insert bolts using FRCDesignLib (10-32x2.5" Socket Head Cap Screws).
 6. Measure the distance between faces to determine the bolt length, rounding up to the nearest size. 
 7. Fasten the bolts properly.
 8. Use the `Replicate` tool (set to `match edges on a plane`) to duplicate bolts across the modules.

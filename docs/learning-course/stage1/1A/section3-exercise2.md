@@ -12,12 +12,12 @@ To get started, find the "S3 Exercise 2" part studio in the "Section 3" folder i
 </figure>
 
 1. Copy, paste, and fasten the remaining gussets onto the drivetrain frame.
-2. Insert rivets from MKCAD and fasten them to the gussets using the **Replicate** tool.
-3. Insert **MK4N** drive modules (both **A** and **B** variants).
-4. Attach the modules to the frame.
+2. Insert rivets from FRCDesignLib and fasten them to the gussets using the **Replicate** tool.
+3. Insert **MK4i** drive modules (Don't worry about the configuration, just leave it as the default).
+4. Fasten the modules to the frame.
 
 !!! Tip
-    Try to make sure the modules are symmetrical across the right plane.
+    Try and use the assembly circular pattern tool to copy one module around the whole drivebase.
 
 <br>
 
