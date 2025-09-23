@@ -2,7 +2,10 @@
 
 ## Setting up FRCDesignApp
 
-FRCDesignApp is a plugin for Onshape that allows you to use a large library of parts (FRCDesignLib) that are sold for and often useful in FRC.
+FRCDesignApp is a plugin for Onshape that allows you to use a large library of parts that are useful when designing for FRC.
+
+!!! Tip
+    FRCDesignApp is the plugin/app that helps you insert components into your documents, while FRCDesignLib is the actual collection of components. FRCDesignApp may get upgraded to include more functionality in the future.
 
 To install it, go to the [FRCDesignApp page](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description "FRCDesignApp Store Page"){:target="_blank"} in the Onshape Appstore.
 
