@@ -94,14 +94,12 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s8.webp" style="width:100%">
       <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
-      <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s9.webp" style="width:100%">
-      <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to project the holes and edges of the motor plate, but add a round cutout at the top using one of the <code>arc</code> tools. Note that the sketch can be mostly defined by using constraints such as <code>tangent</code>, <code>equal</code>, and <code>vertical</code>.</figcaption>
       <figcaption> 9. Create the outer plate sketch on the face of the spacer. Use the <code>Use</code> sketch tool to project the holes and edges of the motor plate, but add a round cutout at the top using one of the <code>arc</code> tools. Note that the sketch can be mostly defined by using constraints such as <code>tangent</code>, <code>equal</code>, and <code>vertical</code>.</figcaption>
     </figure>
   </div>
@@ -115,11 +113,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e1/e1s11.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
+      <iframe src="https://www.youtube.com/embed/2W4xbylmxW8?si=Vj9_rQ2B-FsPZ9EM" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
     </figure>
   </div>
@@ -127,7 +121,6 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s12.webp" style="width:100%">
-      <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
       <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
     </figure>
   </div>
@@ -184,7 +177,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         Your browser does not support the video tag.
       </video>
       <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
-      <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
     </figure>
   </div>
 
@@ -194,7 +186,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s15.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
       <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
@@ -206,7 +197,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         Your browser does not support the video tag.
       </video>
       <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
-      <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
     </figure>
   </div>
 
@@ -217,7 +207,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         Your browser does not support the video tag.
       </video>
       <figcaption> 5. Assemble the shaft retention bolts using FRCDesignLib parts. </figcaption>
-      <figcaption> 5. Assemble the shaft retention bolts using FRCDesignLib parts. </figcaption>
     </figure>
   </div>
 
@@ -227,7 +216,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
         <source src="/img/learning-course/stage1b/exercises/e1/e1s18.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
       <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
@@ -253,7 +241,6 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
 
 ### Configurable Parts
 
-In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from FRCDesignLib were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
 In this exercise you made your first gearbox. In doing so, you also used part configurations - a powerful tool that allows for variations of the same part. The gears that you inserted from FRCDesignLib were configurable - you were able to easily change the tooth count of the gear without needing to inserting a new component. Try and use configurable parts when they are available to make your models more parametric.
 
 <br>
