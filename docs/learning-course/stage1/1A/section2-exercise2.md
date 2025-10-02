@@ -8,7 +8,7 @@ To get started, find the "Exercise 2: Gussets" part studio in the "Section 2" fo
 Your task is **create a simple gusset for the provided drivetrain frame** by **repeating the workflow** you should have memorized in the previous exercise. The holes for this gusset will be copied into the sketch from the tubes of the frame with the `Use` tool: 
 
 <center markdown>
-<iframe src="https://www.youtube.com/embed/9UZ3GaXC-w8" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/p4Eooa2n5Z8" width="768" height="432" frameborder="0" allowfullscreen></iframe>
 </center>
 
 Your final gusset should look like this:
