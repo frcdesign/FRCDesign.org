@@ -11,8 +11,7 @@ Time to practice! Start by **make a copy of the Stage 1B Exercises Document** th
 
 ## Exercise 1: Simple Gearbox 
 
-In this exercise, you will be modeling and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Shaft` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Julia's Featurescripts Onshape Document"){:target="_blank"}, `Replicate` tool, [MKCad parts library](../../course-setup/required-course-tools/part-library.md "Adding MKCAD Tutorial Page"){:target="_blank"}, and part configurations.
-
+In this exercise, you will be modeling and assembling a simple single stage gearbox. The goal of this exercise is to introduce how to model a very simple gear transmission. Additionally, you will learn how to use the the [`Robot Shaft` and `Robot Spacer` Featurescripts](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/0d2ae9a0b843b03bdb63724f/e/99672d1e329b38e647d90146 "Alex's Featurescripts Onshape Document"){:target="_blank"} and the `Replicate` tool. You will also use the [FRCDesignLib part library](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} for components other than fasteners, such as gears and motors.
 !!! Warning
     As this is the first exercise where FRCDesignLib is being used, please be sure you have it added by following [the tutorial in course setup!](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} FRCDesignLib is a parts library for FRC used for inserting COTS components into assemblies.
 
