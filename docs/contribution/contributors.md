@@ -76,6 +76,6 @@ FRCDesign.org would not happen without the wonderful work of these people!
 ## Other Contributors
 - Brendan - FRC 1153/1119
 - Soren
-- Jonathan Mi - FRC 3647/9442M
+- Jonathan Mi - FRC 4414M
 
 <br>
