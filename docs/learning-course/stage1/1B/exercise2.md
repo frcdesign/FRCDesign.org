@@ -18,7 +18,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e2/e2s9.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
@@ -66,10 +66,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s5.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/hgIBEwiXtEc" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>5. Use the <code>Robot Shaft</code> Featurescript to create the first stage shaft. </figcaption>
     </figure>
   </div>
@@ -90,10 +87,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s8.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/P3Snm7U0M_g" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>8. Use the <code>Part Lighten</code> Featurescript to pocket the plate by selecting the ribs created by the previous sketch. </figcaption>
     </figure>
   </div>
@@ -128,10 +122,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s10.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/iz8vTGKxy7M" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>1. Insert the part studio into the assembly and fix only the gearbox plate. Mate the spacer to the plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
@@ -144,43 +135,31 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   </div>
 
   <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s12.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <figure>
+      <iframe src="https://www.youtube.com/embed/q-Ca99yyEDY" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>3. Assemble the bearings and shafts using parts from FRCDesignLib. </figcaption>
-    </li>
+    </figure>
   </div>
 
   <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s13.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <figure>
+      <iframe src="https://www.youtube.com/embed/pEOxmxGMHPk" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Assemble the motor and motor pinion gear using parts from FRCDesignLib. </figcaption>
-    </li>
+    </figure>
   </div>
 
   <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s14.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <figure>
+      <iframe src="https://www.youtube.com/embed/fMX8k8QicGQ" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>5. Assemble the shaft spacers and gears using parts from FRCDesignLib.</figcaption>
-    </li>
+    </figure>
   </div>
 
   <div class="mySlides fade">
-    <li class="slideVideo">
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1b/exercises/e2/e2s15.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <figure>
+      <iframe src="https://www.youtube.com/embed/VJy8NSFISa0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
       <figcaption>6. Assemble the shaft retention bolts, motor bolts, gearbox bolts, and nuts using FRCDesignLib parts. </figcaption>
-    </li>
+    </figure>
   </div>
 
   <div class="mySlides fade">
