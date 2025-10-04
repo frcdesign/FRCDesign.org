@@ -22,6 +22,9 @@ A layout sketch is a sketch that captures the geometry of a design without speci
 They are like the framing of a house—it defines the overall structure and relationships between key components, but doesn't include the finishing details like walls or paint. 
 Keeping the key dimensions in a layout sketch makes it easy to adjust when needed. We will utilize layout sketches for almost all designs moving forward.
 
+!!! Tip "Motor"
+    The motor used in this exercise is a CIM-class motor called a Falcon 500. While discontinued for purchase, many teams still own some and they use the same 2" mounting hole pattern that most other FRC motors use, as discussed on the [Motors page](motors.md).
+
 ### Part Studio Instructions
 **Navigate to the "Exercise #1 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio.
 
@@ -55,21 +58,21 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s3.webp" style="width:100%">
-      <figcaption> 3. Create a new sketch for the motor plate. Using the layout as the reference, draw a 1.125" hole for the bearing and a 0.8" hole for the motor boss (the nub that sticks out from the motor). Note that depending on your manufacturing processes and tolerances, you may need to draw your bearing holes slightly larger or smaller than nominal (1.125"). </figcaption>
+      <figcaption> 3. Create a new sketch for the motor plate. Using the layout as the reference, draw a 1.125" hole for the bearing and a 1.25" hole for the motor boss (the nub that sticks out from the motor). Note that depending on your manufacturing processes and tolerances, you may need to draw your bearing holes slightly larger or smaller than nominal (1.125"). </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s4.webp" style="width:100%">
-      <figcaption> 4. Add two mounting holes for the motor. A good practice to constrain the holes is to draw and dimension a <it>bolt circle</it>, then draw the holes for the bolts on the bolt circle. This constrains the distance of the holes from the center of the motor with a single dimension. The bolt circle for the motor we are using is 2". </figcaption>
+      <figcaption> 4. Add two mounting holes for the motor on a 2" bolt circle. When using only two mounting holes, an alternative to using a circular pattern is to draw and dimension a 2" <it>construction circle</it>, then draw the holes for the bolts on the circle. Make sure to constrain the angle of the holes as well; we used a horizontal constraint.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s5.webp" style="width:100%">
-      <figcaption>  5. Add the four bolt holes for connecting the two plates. Use a center rectangle to create the construction geometry so that only two dimensions are required to constrain the holes.    </figcaption>
+      <figcaption>  5. Add the four bolt holes for connecting the two plates. Use a center rectangle to create the construction geometry so that only two dimensions are required to constrain the holes.</figcaption>
     </figure>
   </div>
 
@@ -110,7 +113,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/RDXcECn8uSI" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/RDXcECn8uSI" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
     </figure>
   </div>
@@ -132,14 +135,15 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
 
 ### Assembly Instructions
 
-When putting together the assembly, you may need to use the "Lock Mate Inferences" functionality to properly mate the motor pinon. Watch the following video to learn how:
+When putting together the assembly, **you may have some difficulty mating the motor pinion gear** to the motor shaft. 
 
-???+ Tip "Locking Mate Inferences when Mating Assemblies"
-    To lock mate inferences when you see the one you want to select, hold the `Shift` key when mousing. This is particularly useful for mating the motor pinion gear.
-    <center>
-      <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-    </center>
-    <center>*Using Shift key to lock mate inferences while mating.*</center>
+When hovering over faces, you can **lock the visible mate connectors on a face by holding the `Shift Key` before going to press on a mate connector** that isn't physically on the face. Watch the video below for a tutorial.
+
+<figure>
+  <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Using the Shift key to lock mate inferences while mating</figcaption>
+</figure>
+
 
 **Navigate to the "Exercise #1 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
@@ -156,42 +160,42 @@ When putting together the assembly, you may need to use the "Lock Mate Inference
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/kChIFuuLahU" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kChIFuuLahU" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 1. Insert the part studio into the assembly and fix the gearbox plate. Group mate the two plates together and then mate the spacer to the motor plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/gKP-n5eKmjE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/gKP-n5eKmjE" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/YhZ0ZaTEXxw" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YhZ0ZaTEXxw" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/mMP-kkl6AuY" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/mMP-kkl6AuY" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/SytVbO_-BrM" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/SytVbO_-BrM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 5. Assemble the shaft retention bolts using FRCDesignLib parts. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-       <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+       <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
