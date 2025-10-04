@@ -113,7 +113,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/RDXcECn8uSI" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/RDXcECn8uSI?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption>11. Use the <code>Robot Shaft</code> Featurescript to model the output shaft. Follow the settings used.</figcaption>
     </figure>
   </div>
@@ -121,7 +121,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s12.webp" style="width:100%">
-      <figcaption> 12. Finished part studio. Name the key sketches and features. Set the name, material (6061 Aluminum), and appearance of the plates and spacer. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
+      <figcaption> 12. Finished part studio. Name the key sketches and features. Set the name, material (6061 Aluminum), and appearance of the plates and spacer by right clicking the parts in the part list. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -140,7 +140,7 @@ When putting together the assembly, **you may have some difficulty mating the mo
 You can **lock the visible mate connectors on a face by holding the `Shift` key before going to press on a mate connector** that isn't physically on the face. Watch the video below for a tutorial.
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
   <figcaption>Using the Shift key to lock mate inferences while mating</figcaption>
 </figure>
 
@@ -160,42 +160,42 @@ You can **lock the visible mate connectors on a face by holding the `Shift` key 
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/kChIFuuLahU" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/kChIFuuLahU?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 1. Insert the part studio into the assembly and fix the gearbox plate. Group mate the two plates together and then mate the spacer to the motor plate. Then, use the <code>Replicate</code> tool to replicate the spacer and its associated mate onto the other spacer locations. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/gKP-n5eKmjE" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/gKP-n5eKmjE?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 2. Assemble the bearings and shaft using parts from FRCDesignLib.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/YhZ0ZaTEXxw" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YhZ0ZaTEXxw?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/mMP-kkl6AuY" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/mMP-kkl6AuY?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 4. Assemble the shaft spacer and gear using parts from FRCDesignLib. Configurable parts will have a blue grid icon in the instance list. Notice how you were able to change the tooth count of the gear from 40T to 60T after mating it. Using configurable components like this makes your models more parametric since you can change the component without needing to re-insert and mate. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/SytVbO_-BrM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/SytVbO_-BrM?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 5. Insert the shaft retention bolts from FRCDesignLib. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-       <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+       <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 6. Add the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
