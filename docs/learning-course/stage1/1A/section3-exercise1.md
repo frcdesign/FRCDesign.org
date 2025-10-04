@@ -17,7 +17,7 @@ To get started, find the "S3 Exercise 1" assembly in the "Section 3" folder in y
 1. Follow the video below to learn how to **insert a rivet** into your assembly **from FRCDesignLib** and **fasten** it to the gusset.
 
     <figure>
-        <iframe width="768" height="432" src="https://www.youtube.com/embed/QcmTGa7JZ6E" frameborder="0" allowfullscreen></iframe>
+        <iframe width="768" height="432" src="https://www.youtube.com/embed/kkZGQZb0buc" frameborder="0" allowfullscreen></iframe>
     </figure>
 
 2. Repeat the process of fastening rivets until there is a rivet in all gusset holes.
