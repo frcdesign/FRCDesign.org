@@ -18,13 +18,13 @@ Using the document you copied on the previous page, follow along with the video.
     - The middle mouse button pans the view.
     - The mouse scroll wheel zooms the view.
     - Holding `Ctrl + Right Click` allows you to pan
-    - Holding `Ctrl + Right click` allows you to Rotate flat
+    - Holding `Alt + Right Click` allows you to Rotate flat
 
 !!! info "Keep in mind"
 
     You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need.
 
-The folders in the bottom store the exercises. **Open the 'part studio' tab for Section 1, Exercise 1 and move on to the next page.**
+The folders in the bottom store the exercises. **Open the "part studio" tab for Section 1, Exercise 1 and move on to the next page.**
 
 !!! Info "Tab Types"
     Part studios, assemblies, and drawings are all different tabs within a document. You design custom parts referencing each other within part studios, then put it all together with buyable components and fasteners in the assemblies.
