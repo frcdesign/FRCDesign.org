@@ -121,7 +121,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s12.webp" style="width:100%">
-      <figcaption> 12. Finished part studio. Name the key sketches and parts. Set the material of the plate and spacers to 6061 Aluminum. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
+      <figcaption> 12. Finished part studio. Name the key sketches and features. Set the name, material (6061 Aluminum), and appearance of the plates and spacer. The shaft has its material automatically determined from the <code>Robot Shaft</code> Featurescript.</figcaption>
     </figure>
   </div>
   <!-- Next and previous buttons -->
@@ -137,7 +137,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
 
 When putting together the assembly, **you may have some difficulty mating the motor pinion gear** to the motor shaft. 
 
-When hovering over faces, you can **lock the visible mate connectors on a face by holding the `Shift Key` before going to press on a mate connector** that isn't physically on the face. Watch the video below for a tutorial.
+You can **lock the visible mate connectors on a face by holding the `Shift` key before going to press on a mate connector** that isn't physically on the face. Watch the video below for a tutorial.
 
 <figure>
   <iframe src="https://www.youtube.com/embed/zI8wBHeTfdc" width="768" height="432" frameborder="0" allowfullscreen></iframe>
@@ -145,7 +145,7 @@ When hovering over faces, you can **lock the visible mate connectors on a face b
 </figure>
 
 
-**Navigate to the "Exercise #1 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
+**Now navigate to the "Exercise #1 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete the exercise.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -189,14 +189,14 @@ When hovering over faces, you can **lock the visible mate connectors on a face b
   <div class="mySlides fade">
     <figure>
       <iframe src="https://www.youtube.com/embed/SytVbO_-BrM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 5. Assemble the shaft retention bolts using FRCDesignLib parts. </figcaption>
+      <figcaption> 5. Insert the shaft retention bolts from FRCDesignLib. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
        <iframe src="https://www.youtube.com/embed/D4OWWMYYwWM" width="768" height="432" frameborder="0" allowfullscreen></iframe>
-      <figcaption> 6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
+      <figcaption> 6. Add the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts.</figcaption>
     </figure>
   </div>
 
