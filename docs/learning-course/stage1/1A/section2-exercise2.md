@@ -11,7 +11,7 @@ Your task is **create a simple gusset for the provided drivetrain frame** by **r
     **Do not use the gusset featurescript tool!** This exercise is meant to help you practice the plate workflow and learn how to create a gusset. The gusset featurescript can easily break if the tubes are changed and the gusset shape is inflexible, so it is not recommended.
 
 <center markdown>
-<iframe src="https://www.youtube.com/embed/p4Eooa2n5Z8" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aS1xknADBaE" width="768" height="432" frameborder="0" allowfullscreen></iframe>
 </center>
 
 Your final gusset should look like this:
