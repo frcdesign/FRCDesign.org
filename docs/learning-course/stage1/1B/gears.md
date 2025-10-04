@@ -58,11 +58,13 @@ In order to change the torque and speed from the input to output, different size
 
 To calculate how far apart to space the gears, you can use the following formula to calculate the center-to-center distance:
 
-<center>**`CC = 0.5*PD1 + 0.5*PD2`**</center>
+
+<center><code><b>C2C = 0.5 * PD1 + 0.5 * PD2</b></code></center>
+
 
 Where `PD1` and `PD2` are the *Pitch Diameters* of the two gears. The **Pitch Diameter (PD)**  is the size of the imaginary circle that passes through the center of the gear teeth. The pitch diameters of two gears should be tangent in order for the gears to properly mesh. The equation for PD is as follows:
 
-<center>**`PD = (# of teeth) / DP`**</center>
+<center><code><b>PD = (# of teeth) / DP</b></code></center>
 
 Where DP stands for **diametral pitch**. For now, you can assume it to always be 20. If you're curious, you can learn more about this in the Design Handbook pages.
 
