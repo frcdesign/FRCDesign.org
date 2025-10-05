@@ -11,9 +11,9 @@
 
 <div class="grid cards" markdown>
 
-- <center markdown>![](../../../img/learning-course/stage1c/Exercise 1 Assembly.webp)</center>
+- <center markdown>![](../../../img/learning-course/stage1c/exercise1Assembly.webp)</center>
 
-- <center markdown>![](../../../img/learning-course/stage1c/Exercise 3 Assembly.webp)</center>
+- <center markdown>![](../../../img/learning-course/stage1c/exercise3Assembly.webp)</center>
 
 </div>
 <figure>
