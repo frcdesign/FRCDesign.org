@@ -56,7 +56,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S2.webp" style="width:100%">
-      <figcaption>2. Draw a rectangle ontop of the tube to represent the floor of this intake</figcaption>
+      <figcaption>2. Draw a rectangle on top of the tube to represent the floor of this intake</figcaption>
     </figure>
   </div>
 
@@ -161,7 +161,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S17.webp" style="width:100%">
-      <figcaption>17. Make a sketch ontop of the 1x1 tube, again making sure to disable imprinting. Sketch the plate as shown.</figcaption>
+      <figcaption>17. Make a sketch on top of the 1x1 tube, again making sure to disable imprinting. Sketch the plate as shown.</figcaption>
     </figure>
   </div>
 
@@ -175,7 +175,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S19.webp" style="width:100%">
-      <figcaption>19. Create the wheel shaft using the Robot Shaft featurescript. The start mate connector should be placed in the middle of the belt and run up to the left face of the reference plate. The shaft should be offset from the end by 1/16" to account for the bearing flange. The shaft should also have a starting offset of 9/32" to put it through the wheel pulley.</figcaption>
+      <figcaption>19. Create the wheel shaft using the Robot Shaft Featurescript. The start mate connector should be placed in the middle of the belt and run up to the left face of the reference plate. The shaft should be offset from the end by 1/16" to account for the bearing flange. The shaft should also have a starting offset of 9/32" to put it through the wheel pulley.</figcaption>
     </figure>
   </div>
 
