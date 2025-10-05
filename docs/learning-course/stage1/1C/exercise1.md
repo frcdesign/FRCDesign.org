@@ -63,7 +63,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S3.webp" style="width:100%">
-      <figcaption>3. Create a circle to represent the wheels, and a circle to represent the motor. Use the origin cube belt ctc function to position them correctly.</figcaption>
+      <figcaption>3. Create a circle to represent the wheels, and a circle to represent the motor. Use the origin cube belt ctc function to position them correctly, this is similar to the layout sketch in 1B Exercise 3</figcaption>
     </figure>
   </div>
 
@@ -77,7 +77,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S5.webp" style="width:100%">
-      <figcaption>5. Draw a rectangle to represent a 2x1 tube, this should be dimensioned above from the wheels and aligned with the edge of the bottom tube.</figcaption>
+      <figcaption>5. Draw a rectangle to represent a 2x1 tube. This should be dimensioned above from the wheels and aligned with the edge of the bottom tube.</figcaption>
     </figure>
   </div>
 
