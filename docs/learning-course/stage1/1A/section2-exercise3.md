@@ -8,7 +8,7 @@ To get started, find the "Exercise 3: Gusset Practice" part studio in the "Secti
 **Using the reference image** below, create the **three frame gussets** and the **large polycarbonate side plate**. 
 
 !!! Note
-    No dimensions are provided; try to be deliberate about what you dimension to and from. Think about if you had rollers or wheels or motors, where would you want to add the dimensions to make sure they had clearance?
+    No dimensions are provided; try to be deliberate about what you dimension to and from while you fully define your sketches. Think about if you had rollers or wheels or motors, where would you want to add the dimensions to make sure they had clearance?
 
 
 <figure>
