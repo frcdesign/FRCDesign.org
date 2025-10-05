@@ -174,7 +174,7 @@ You can **lock the visible mate connectors on a face by holding the `Shift` key 
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/YhZ0ZaTEXxw?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/ZJCs0ms3I8A?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption> 3. Assemble the motor and motor pinion gear using parts from FRCDesignLib. You will need to use mate inference locking to fasten the motor to the motor pinion: See the above drop down to learn how. </figcaption>
     </figure>
   </div>
