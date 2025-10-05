@@ -112,7 +112,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S10.webp" style="width:100%">
-      <figcaption>10. Create the bolt circle pattern by drawing a circle on the CTC line, then use the pattern tool to duplicate it around the motor center point. This pattern should have 8 holes, and have a diameter of 2" to match the standard 2" motor bolt circle. Make sure the hole is dimensioned to the correct #10-32 Close Fit size.</figcaption>
+      <figcaption>10. Create the bolt circle pattern by drawing a circle on the CTC line, then use the pattern tool to duplicate it around the motor center point. This pattern should have 8 holes, and have a diameter of 2" to match the standard 2" motor bolt circle. We only need 3 of the 8 holes on this pattern so make the rest construction holes.</figcaption>
     </figure>
   </div>
 
@@ -140,7 +140,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S14.webp" style="width:100%">
-      <figcaption>14. Mirror this plate across the Right plane to create a reference plate. You should color this plate an abnormal color so it is easily distinguishable from the main plate. Name this reference plate "zREF Plate" this will make it appear at the bottom of the insert menu, making it harder to accidentally use in the assembly.</figcaption>
+      <figcaption>14. Mirror this plate across the Right plane to create a reference plate. You should color this plate an abnormal color so it is easily distinguishable from the main plate. Name this reference plate "zREF Plate". This will make it appear at the bottom of the insert menu, making it harder to accidentally use in the assembly.</figcaption>
     </figure>
   </div>
 
@@ -154,7 +154,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S16.webp" style="width:100%">
-      <figcaption>16. Tube Convert this new tube.</figcaption>
+      <figcaption>16. Use Tube Converter on this new tube.</figcaption>
     </figure>
   </div>
 
@@ -188,7 +188,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/PS-S20.webp" style="width:100%">
+      <img src="/img/learning-course/stage1c/flat-intake/PS-S21.webp" style="width:100%">
       <figcaption>21. Use the Part Lighten Featurescript to pocket the plate. Select the face of the plate, and the entire rib line sketch as shown.</figcaption>
     </figure>
   </div>
