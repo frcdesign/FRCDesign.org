@@ -9,7 +9,7 @@ Using the document you copied on the previous page, follow along with the video.
 
 
 <figure>
-    <iframe src="https://www.youtube.com/embed/45Vkal4VDkE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/45Vkal4VDkE?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 !!! tip "Basic Controls"
@@ -24,7 +24,7 @@ Using the document you copied on the previous page, follow along with the video.
 
     You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need.
 
-The folders in the bottom store the exercises. **Open the "part studio" tab for Section 1, Exercise 1 and move on to the next page.**
+The folders in the bottom store the exercises. **Open the part studio named "Exercise 1" in Section 1, Exercise 1 and move on to the next page.**
 
 !!! Info "Tab Types"
     Part studios, assemblies, and drawings are all different tabs within a document. You design custom parts referencing each other within part studios, then put it all together with buyable components and fasteners in the assemblies.

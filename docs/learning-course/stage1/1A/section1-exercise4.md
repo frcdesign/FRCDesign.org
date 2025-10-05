@@ -14,7 +14,7 @@ Watch the video below and follow along to create your drivetrain sketch while le
 <br>
 
 <figure>
-  <iframe width="768" height="432" src="https://www.youtube.com/embed/lDW9H3a70aM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/lDW9H3a70aM?rel=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 Your goal is to sketch and extrude the rectangles shown below, then convert them into tubes them using `Tube Converter`.
