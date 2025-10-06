@@ -23,13 +23,14 @@ They can be used to connect plates to the open face of tubes or to connect tubes
       <figcaption>Tube plugs can be used to create gusset-less tube to tube (left) and tube to plate (right) connections. (Photo Credits: FRC 4414, FRC 9442)</figcaption>
     </figure>
 
-This exercise also introduces you to the use of the the [`Assembly Mirror Featurescript`](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"}. Make sure to add this to your Featurescripts if you have not already. 
+### Bolt and Rivet Usage
+Throughout the exercises in 1C you'll pick up several usage techniques for bolts and rivets for different kinds of structures and materials in order to build a strong intuition. 
 
-- This featurescript generates allows you to mirror the position of a duplicate part in the assembly. 
-- This is often useful so you can avoid creating a duplicate part in the part studio (to preserve the Bill of Materials) and keep the assembly parametric.
-- The featurescript takes a part and a mirror plane and generates a pair of mate connectors to simulate an mirror in the assembly.
-- In the assembly, you simply have to copy the part and mate it to the mate connector on the other side. Show mate connnectors by pressing the `k` key.
+Bolts are strong, and people often use more bolts and rivets than are necessary. When using only bolts, usually you can use 3-4 to fasten corners of a part and be fine, but you may prefer to use rivets to minimize weight or because they don't go all the way through a tube. In these cases, you can a number of rivets easily spaced out as long as you have at least **one bolt/nut pair per attachment to prevent the rivets from loosening over time**. This is done for both this exercise and exercise 8.
 
+<figure>
+  <img src="../images/bolt-and-rivet.webp" style="width:90%; border:5px solid #ADADAD">
+</figure>
 
 ### Part Studio Instructions
 
@@ -267,7 +268,7 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div class="mySlides fade">
       <figure>
         <iframe src="https://www.youtube.com/embed/quIf3misSe4?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
-        <figcaption>8. Use nuts, bolts and rivets to fasten the structure pieces together. When attaching plates it is good practice to at least use 1 bolt per attachment pair. This helps prevent the rivets from loosening over time. You can make use of assembly mirror to speed up the process since the fasteners are mostly symmetrical.</figcaption>
+        <figcaption>8. Use nuts, bolts and rivets to fasten the structure pieces together. You can make use of assembly mirror to speed up the process since the fasteners are mostly symmetrical.</figcaption>
       </figure>
     </div>
   <div class="mySlides fade">
