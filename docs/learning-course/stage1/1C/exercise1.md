@@ -99,7 +99,7 @@ Bolts are strong, and people often use more bolts and rivets than are necessary.
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/PS-S8.webp" style="width:100%">
-      <figcaption>8. Extrude the bottom tube by 1" and apply Tube Converter to it</figcaption>
+      <figcaption>8. Extrude the bottom tube by 1" towards the origin and apply Tube Converter to it</figcaption>
     </figure>
   </div>
 
