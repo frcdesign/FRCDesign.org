@@ -26,7 +26,7 @@ They can be used to connect plates to the open face of tubes or to connect tubes
 ### Bolt and Rivet Usage
 Throughout the exercises in 1C you'll pick up several usage techniques for bolts and rivets for different kinds of structures and materials in order to build a strong intuition. 
 
-Bolts are strong, and people often use more bolts and rivets than are necessary. When using only bolts, usually you can use 3-4 to fasten corners of a part and be fine, but you may prefer to use rivets to minimize weight or because they don't go all the way through a tube. In these cases, you can a number of rivets easily spaced out as long as you have at least **one bolt/nut pair per attachment to prevent the rivets from loosening over time**. This is done for both this exercise and exercise 8.
+Bolts are strong, and people often use more bolts and rivets than are necessary. When using only bolts, usually you can use 3-4 to fasten corners of a part and be fine, but you may prefer to use rivets to minimize weight or because they don't go all the way through a tube. In these cases, you can use a number of rivets easily spaced out as long as you have at least **one bolt/nut pair per attachment to prevent the rivets from loosening over time**. This is done for both this exercise and exercise 8.
 
 <figure>
   <img src="../images/bolt-and-rivet.webp" style="width:90%; border:5px solid #ADADAD">
