@@ -27,19 +27,36 @@ After doing your exercise and taking the 5-minute break, **use the following ins
 
 1. Check your model **without using the reference solution** first to see if you missed anything or made any mistakes along the way (an offset is wrong, a wrong mate connector was used, you missed a part). 
 
-2. Repeat step 2 and fix any errors/mistakes you find until you feel that the model is perfect to the best of your ability. 
+2. If you catch an error, ask these questions:
+
+    - What caused you to make the error? 
+    - Was this error made previously or multiple times? Are there any tendencies in your workflow that cause this error to happen?
+    - What can you do to make sure the error doesn't happen again?
+
+    ??? Note "OPTIONAL: Note Stuff Down"
+        Get out a document or a sheet of paper or even use a discord message to write stuff down.
+
+3. Repeat step 2 and fix any errors/mistakes you find until you feel that the model is perfect to the best of your ability. 
     - You may not be able to find any mistakes; this is common when starting out, but as you gain more experience you'll be able to find more of your own mistakes.
 
-3. Now compare your model and feature tree with the **reference in the provided Solutions Document** for the section. 
-    - You can spend 5 minutes now on good practices to save hours in the future!
+4. Now compare your model and feature tree with the **reference in the provided Solutions Document** for the section. 
+    - Repeat steps 2 and 3, using the solution document as the reference.
+    - Add to the notes for each new error you find: why did you miss this mistake in your first self-review?
 
-4. Final reflections:
+5.  Examine the best practices presented in the reference. Ask yourself what you need to improve on to improve the readability and parametricity of your CAD. This may include naming things, using folders, and using general recommended CAD practices [outlined here](../../../best-practices/index.md "Best Practices Landing Page"){:target="_blank"}.
+
+    ??? Note "**Why Follow Best Practices?**"
+        If making your CAD parametric and naming things adds time to your CAD, why do it? There are several reasons, but it can be boiled down to making it easier and faster to go back and make changes, for both you and anyone else. In reality, most time spent doing CAD, especially for a robot, will be making changes or redoing things. 
+        
+        You spend 5 minutes now to save hours in the future, so make it a habit!
+
+6. Final reflections:
     - How did you feel about your workflow and your time spent? Were there any parts of your CAD process that felt particularly slow? Anything you struggled on?
     - What caused you to struggle on those particular processes? Is there a certain lack of experience or knowledge that caused you to have difficulty there?
     - What do you need to learn or practice to get better in those areas?
 
-5. During future exercises and projects, use this review to intentionally focus on the parts of your practices and workflow that need improvement.
+7. During future exercises and projects, use this review to intentionally focus on the parts of your practices and workflow that need improvement.
 
-6. If available, have someone else review your CAD. This can make you aware of gaps in your knowledge and help you fill them.
+8. If available, have someone else review your CAD. This can make you aware of gaps in your knowledge and help you fill them.
 
 <br>
