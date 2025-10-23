@@ -103,6 +103,8 @@ nav:
             
 
       - Stage 1:
+          - "Course Introduction": learning-course/stage1/introduction.md
+          - "Focusing on Improvement": learning-course/stage1/1A/focusing-on-improvement.md
           - "A: Onshape Fundamentals":
               - "Section 1: Part Studio Fundamentals":
                   - "Intro & Setup": learning-course/stage1/1A/section1-setup.md
