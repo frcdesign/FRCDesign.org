@@ -19,7 +19,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
+      <img src="../images/top-level/top-level-0.webp" style="width:100%">
       <figcaption>0. Finished top level robot assembly.</figcaption>
     </figure>
   </div>
@@ -27,7 +27,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/TopLevel/topL1.webm" type="video/mp4">
+        <source src="../images/top-level/top-level-1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
@@ -37,7 +37,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/TopLevel/topL2.webm" type="video/mp4">
+        <source src="../images/top-level/top-level-2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the <code>Insert</code> menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
@@ -46,7 +46,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
+      <img src="../images/top-level/top-level-0.webp" style="width:100%">
       <figcaption>3. Finished top level assembly. </figcaption>
     </figure>
   </div>
@@ -63,10 +63,10 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
 </div>
 
 !!! success "Verification"
-Your tab manager should now look like this:
-<figure>
-<img src="/img/learning-course/stage1d/SwerveBase/dtTabManager2.webp" style="width:100%">
-</figure>
+    Your tab manager should now look like this:
+    <figure>
+    <img src="../images/tab-manager-2.webp" style="width:100%">
+    </figure>
 
 That's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="\_blank"}.
 

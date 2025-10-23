@@ -14,28 +14,28 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts0.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-0.webp" style="width:100%">
       <figcaption>0. The part studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts1.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-1.webp" style="width:100%">
       <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Main Layout Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts2.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-2.webp" style="width:100%">
       <figcaption>2. Use the <code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts to model the tubes. The 2"x1" tubes should be 1/8" wall for strength, while the 2"x2" tube can be 1/16" wall.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts3.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-3.webp" style="width:100%">
       <figcaption>3. Start with one corner of the bellypan. The corner is cut out to create room for the swerve module. </figcaption>
     </figure>
   </div>
@@ -43,7 +43,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts4.mp4" type="video/mp4">
+        <source src="../images/drivetrain/parts-4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
@@ -53,7 +53,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts5.mp4" type="video/mp4">
+        <source src="../images/drivetrain/parts-5.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
@@ -62,51 +62,14 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts6.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-6.webp" style="width:100%">
       <figcaption>6. Use the <code> Fillet All Edges</code> Featurescript to add a 0.25" radius fillet to the remaining edges on the bellypan by selecting the bottom face of the bellypan.</figcaption>
     </figure>
   </div>
 
-  <!-- <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts7.webp" style="width:100%">
-      <figcaption>7. Add the seed instances of the holes for the bellypan.</figcaption>
-    </figure>
-  </div>
-
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts8.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>8. Next, use the <code>Linear Pattern</code> sketch tool to pattern the holes along the edge.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts9.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>9. Use the <code>Circular Pattern</code> sketch tool to pattern the holes about the origin onto all four edges.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts10.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
-    </figure>
-  </div> -->
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts11.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-7.webp" style="width:100%">
       <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
     </figure>
   </div>
@@ -114,7 +77,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtParts12.webm" type="video/mp4">
+        <source src="../images/drivetrain/parts-8.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>8. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
@@ -123,7 +86,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtParts0.webp" style="width:100%">
+      <img src="../images/drivetrain/parts-0.webp" style="width:100%">
       <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
     </figure>
   </div>

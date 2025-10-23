@@ -44,7 +44,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtTopLayout2.mp4" type="video/mp4">
+        <source src="../images/layout-sketches/top-layout-2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>3. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
@@ -53,7 +53,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtTopLayout3.webp" style="width:100%">
+      <img src="../images/layout-sketches/top-layout-3.webp" style="width:100%">
       <figcaption>4. To sketch the tubes, draw a square 1" smaller than the previous square. 
                   This will represent the four 2"x1" tubes that make up the outer frame. 
                   Then, draw the top profile of the 2"x2" tube.
@@ -62,17 +62,10 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
     </figure>
   </div>
 
-  <!-- <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtTopLayout4.webp" style="width:100%">
-      <figcaption>5. Next, we need to make the cutouts on the drivetube for the swerve modules. Start by drawing two lines, each offset by 4.25" from the edge. This is the required offset for MK4i modules. Other modules will differ.</figcaption>
-    </figure>
-  </div> -->
-
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtTopLayout5.mp4" type="video/mp4">
+        <source src="../images/layout-sketches/top-layout-4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>5. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. 
@@ -82,7 +75,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <img src="../images/layout-sketches/final-layout.webp" style="width:100%">
       <figcaption>6. Finally, name your sketches and organize them into folders in the feature tree. Your sketches should all be fully defined.</figcaption>
     </figure>
   </div>

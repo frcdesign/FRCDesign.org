@@ -17,14 +17,14 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd0.webp" style="width:100%">
+      <img src="../images/drivetrain/add-0.webp" style="width:100%">
       <figcaption>0. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd1.webp" style="width:100%">
+      <img src="../images/drivetrain/add-1.webp" style="width:100%">
       <figcaption>1. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
     </figure>
   </div>
@@ -32,7 +32,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtAdd2.mp4" type="video/mp4">
+        <source src="../images/drivetrain/add-2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
@@ -41,7 +41,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd3.webp" style="width:100%">
+      <img src="../images/drivetrain/add-3.webp" style="width:100%">
       <figcaption>3. Copy the gusset and mate it to the other side. </figcaption>
     </figure>
   </div>
@@ -49,7 +49,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtAdd4.mp4" type="video/mp4">
+        <source src="../images/drivetrain/add-4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption>4. Edit the replicate feature to add rivets to the gusset. </figcaption>
@@ -58,7 +58,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd0.webp" style="width:100%">
+      <img src="../images/drivetrain/add-0.webp" style="width:100%">
       <figcaption>4. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
@@ -81,7 +81,7 @@ Make sure you sort the instances in your assembly into folders (i.e. frame, swer
 
     Your tab manager should have the following tabs and folder:
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtTabManager.webp" style="width:100%">
+      <img src="../images/tab-manager.webp" style="width:100%">
     </figure>
 
 ### Level of Detail
