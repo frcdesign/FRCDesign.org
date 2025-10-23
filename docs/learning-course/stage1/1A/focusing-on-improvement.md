@@ -16,30 +16,25 @@ When **doing an exercise**, follow these steps:
 
 ### Review Instructions
 
-The review at the end is to catch the mistakes you didn't catch during your design process. As you build awareness, knowledge, and intuition, you will learn to focus on not making those mistakes again or finding them and fixing them while modeling.
-
-!!! Tip "OPTIONAL: Have a Mentor Help Review"
-    Your student design lead or mentor, if available, can help review your exercise by asking the questions in the following instructions, alongside giving their own feedback. This is best done after your own self-review, though.
+The review at the end is to **catch the mistakes you didn't catch during your design process**. As you build awareness, knowledge, and intuition, you will learn to focus on not making those mistakes again or finding them and fixing them while modeling.
 
 It's important to start this early and be consistent to stop bad habits from forming!
 
 After doing your exercise and taking the 5-minute break, **use the following instructions/template to self-review effectively:**
 
-1. Check your model **without using the reference solution** first to see if you missed anything or made any mistakes along the way (an offset is wrong, a wrong mate connector was used, you missed a part). 
+1. Check your model **without using the reference solution** first to see if you missed anything or made any mistakes along the way (an offset is wrong, a wrong mate connector was used, you missed a part), then try to fix those mistakes.
 
-2. Repeat step 2 and fix any errors/mistakes you find until you feel that the model is perfect to the best of your ability. 
-    - You may not be able to find any mistakes; this is common when starting out, but as you gain more experience you'll be able to find more of your own mistakes.
-
-3. Now compare your model and feature tree with the **reference in the provided Solutions Document** for the section. 
+2. Now compare your model and feature tree with the **reference in the provided Solutions Document** for the section and fix any mistakes you find.
     - You can spend 5 minutes now on good practices to save hours in the future!
 
-4. Final reflections:
+3. Final reflections:
     - How did you feel about your workflow and your time spent? Were there any parts of your CAD process that felt particularly slow? Anything you struggled on?
     - What caused you to struggle on those particular processes? Is there a certain lack of experience or knowledge that caused you to have difficulty there?
     - What do you need to learn or practice to get better in those areas?
 
-5. During future exercises and projects, use this review to intentionally focus on the parts of your practices and workflow that need improvement.
+During future exercises and projects, use this review to intentionally focus on the parts of your practices and workflow that need improvement.
 
-6. If available, have someone else review your CAD. This can make you aware of gaps in your knowledge and help you fill them.
+!!! Tip "OPTIONAL: Have a Mentor Help Review"
+    Your student design lead or mentor, if available, can help review your exercise by asking the questions in the following instructions, alongside giving their own feedback. This is best done after your own self-review, though.
 
 <br>

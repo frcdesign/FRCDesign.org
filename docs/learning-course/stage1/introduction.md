@@ -12,9 +12,7 @@ That being said, **the feedback cycle** is a crucial part of this journey. This 
 
 ### Copying and Improving In-Season
 
-During the season, copying and referencing past designs is completely fine - even encouraged. You'll learn a ton by studying how other solved problems and adapting those ideas to your own designs.
-
-However, your ability to effectively use those references depends on the skills you build *before* the season starts. 
+During the season, copying and referencing past designs is encouraged; you'll learn a ton by studying how other solved problems and adapting those ideas to your own designs. However, your ability to effectively use those references depends on the skills you build *before* the season starts. 
 
 The next page goes over a review structure to focus on improvement when going through the learning course.
 
