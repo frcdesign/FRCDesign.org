@@ -46,7 +46,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e2/e2s2.webp" style="width:100%">
-      <figcaption>2. Create a new sketch to draw the profile of the plate. Add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 1.25". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
+      <figcaption>2. Create a new sketch to draw the profile of the plate. While referencing the layout sketch, add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 1.25". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
     </figure>
   </div>
 

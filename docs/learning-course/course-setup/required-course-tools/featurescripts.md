@@ -17,7 +17,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
     !!! Tip
         Once you've selected the featurescripts, you can just close the tab.
 
-2. Open the document [Alex's Featurescripts]( "Alex's Featurescripts Onshape Document"){:target="_blank"}
+2. Open the document [Alex's Featurescripts](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/0d2ae9a0b843b03bdb63724f/e/99672d1e329b38e647d90146 "Alex's Featurescripts Onshape Document"){:target="_blank"}
 
     a. Click "Custom Features" at the top of the page
 
