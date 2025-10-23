@@ -1,7 +1,7 @@
 # 1D: Design Methodology - Simple Swerve Drivebase
 
 ## Drivetrain Layout Sketches
-To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26"x26".
+To begin, you will be creating a layout sketch of the drivetrain. This will dictate the size and position of the drive tubes. The layout will be drawn from the side and top view of the drivetrain. For your swerve drivebase, you will make it 26" x 26".
 
 ### Instructions
 
@@ -15,28 +15,16 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtFinalLayout.webp" style="width:100%">
+      <img src="../images/layout-sketches/final-layout.webp" style="width:100%">
       <figcaption>0. The final layout sketch.</figcaption>
     </figure>
   </div>
 
-  <!-- <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/originCube.webp" style="width:100%">
-      <figcaption>1. Start by inserting the origin cube.</figcaption>
-    </figure>
-  </div> -->
 
-  <!-- <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtSideLayout1.webp" style="width:100%">
-      <figcaption>2. </figcaption>
-    </figure>
-  </div> -->
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtSideLayout2.webp" style="width:100%">
+      <img src="../images/layout-sketches/side-layout.webp" style="width:100%">
       <figcaption>1. Draw the side profile of the drivetrain on the Right Plane. We place the tube 1.75" from the ground, which is the offset from the ground to the bottom of the tube for the MK4i modules. 
                   Then, draw the wheel clearance box, which represents the area that the wheel takes up. 
                   For the MK4i modules, the box is 4.625" wide.</figcaption>
@@ -46,7 +34,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
   <div class="mySlides fade">
     <figure>
       <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtTopLayout1.mp4" type="video/mp4">
+        <source src="../images/layout-sketches/top-layout-1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>2. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the “Top” button on the view cube to get a top view.</figcaption>

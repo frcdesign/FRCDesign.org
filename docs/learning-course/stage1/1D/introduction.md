@@ -11,7 +11,7 @@ So far, you've worked on CAD fundamentals through courses and FRC-relevant exerc
 Even if you've already modeled a drivetrain the past, this guide serves as an excellent introduction to the **top-down** layout sketch design methodology.
 
 <figure>
-    <img src="\img\learning-course\stage1d\FullAssy.webp" style="width:100%">
+    <img src="../images/full-assembly.webp" style="width:100%">
     <figcaption>The swerve drivebase that you will be modeling with a pre-modeled scoring mechanism.</figcaption>
 </figure>
 
