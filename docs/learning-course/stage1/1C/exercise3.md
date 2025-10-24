@@ -41,6 +41,15 @@ In the exercise you just completed, the nut strips would allow you to easily mou
       <figcaption>Nut strips can be used to connect a plate to a tube or a plate to a perpendicular plate. (Photo Credits: FRC 4414)</figcaption>
     </figure>
 
+### Block Motors
+When creating mechanisms, sometimes you need to reference specific COTS components when creating custom parts. While most of the time construction geometry in sketches will suffice (think motor outlines), sometimes you need to make more complex references. Instead of deriving a full detail component into the part studio (which can significantly slow down load times), you can create or derive "block" geometry, like the "block motor" from FRCDesignLib used in this exercise. 
+
+<figure>
+  <img src="./images/exercise-3/block-motor-example.webp" style="width:90%; border:5px solid #ADADAD">
+</figure>
+
+When inserting a block motor from FRCDesignLib, it is important to use the "Differentiation Variable" because of how Onshape handles derived parts. Assigning a unique value to each block motor prevents these errors in your part studio.
+
 ### Part Studio Instructions
 
 **Navigate to the "Exercise #3 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
@@ -51,21 +60,21 @@ In the exercise you just completed, the nut strips would allow you to easily mou
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s0.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-0_14.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s1.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-1.webp" style="width:100%">
       <figcaption>1. Create the layout sketch on the Right plane. Begin by sketching the 4" shooter wheel, 2" feeder wheel, and the ball path. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s2.webp" style="width:100%">
+      <img src="./images/exercise-3/parts-2.webp" style="width:100%">
       <figcaption>2. On the right plane, create a new sketch with the belts, pulleys, and motors. The bottom most construction line defines the bottom of our shooter.</figcaption>
     </figure>
   </div>
