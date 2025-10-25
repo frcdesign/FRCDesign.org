@@ -60,7 +60,7 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="../images/exercise-3/parts-0_14.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
@@ -88,70 +88,71 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s4.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-4.webp" style="width:100%">
       <figcaption>4. Extrude the plate as 1/4", then mirror it across the Right plane. We use a mirror because the opposite side plate is the same except for an extra cutout for the motors.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s5.webp" style="width:100%">
-      <figcaption>5. On the mirrored plate, create a sketch to provide clearance for the motors. Sketch a 2.5" diameter slot connecting the two motor centers to use as the clearance cutout.</figcaption>
+      <img src="../images/exercise-3/parts-5.webp" style="width:100%">
+      <figcaption>5. Sketch a cutoff boundary to remove the motor mounting from the mirrored plate. Make sure imprinting is enabled. You don't need to sketch the whole region, since the plate outline itself will be used in the extrude.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s6.webp" style="width:100%">
-      <figcaption>6. Model the shooter wheel and feeder wheel shaft. You can estimate the length or offsets first and then correct it after completing the assembly.</figcaption>
+      <img src="../images/exercise-3/parts-6.webp" style="width:100%">
+      <figcaption>6. Extrude the motor mounting region on the mirrored part to remove the geometry from the part.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s7.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-7.webp" style="width:100%">
       <figcaption>7. Model the large 3D print that goes in between the plates. There should only be three dimensions you need to sketch, all other entities should be defined by the layout or plate geometry. Use an "Up to face" extrude to ensure that the width is parametric.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/s8.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/rGf0Vt8ahOQ?si=5FDcsAFnDDLgelkz" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption>8. Use the <code>Fillet All Edges</code> Featurescript to add a 3/16" radius fillet to all of the 3D-printed part edges. To select the face of the part, you can utilize the <code>Isolate</code> tool, which will make all other components that are not currently selected transparent or hidden.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s9.webp" style="width:100%">
-      <figcaption>9. Add the HTD 5mm pitch belts. Double check that the pitch length is a multiple of 5 mm to ensure that the belt has an integer number of teeth.</figcaption>
+        <iframe src="https://www.youtube.com/embed/DUJ8MbPS4Zg?si=sLsoXcp6KuWWdfuR" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>9. Insert a block motor from FRCDesignLib. Use the <code>Transform</code> feature to transform the block motor to the motor bore.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/s10.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>10. Add a mate connector on the layout sketch for fastening the feeder wheel. Set the owner of the mate connector to the feeder shaft. This mate connector marks the center point between the two plates and will help with assembly.</figcaption>
+      <img src="../images/exercise-3/parts-10.webp" style="width:100%">
+      <figcaption>10. Add the HTD 5mm pitch belts. Double check that the pitch length is a multiple of 5 mm to ensure that the belt has an integer number of teeth.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s11.webp" style="width:100%">
-      <figcaption>11. Repeat the same steps as before to add a mate connector to the shooter wheel shaft. Make sure you select the shooter wheel shaft as the mate connector owner.</figcaption>
+        <iframe src="https://www.youtube.com/embed/wFNDLm2Tisc?si=mHrq_mNuC8MXJafI" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>11. Add a mate connector on the layout sketch for fastening the feeder wheel. Set the owner of the mate connector to the feeder shaft. This mate connector marks the center point between the two plates and will help with assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s0.webp" style="width:100%">
-      <figcaption>12. Finish the part studio by naming your features and organizing them into folders. </figcaption>
+      <img src="../images/exercise-3/parts-13.webp" style="width:100%">
+      <figcaption>13. Repeat the same steps as before to add a mate connector to the shooter wheel shaft. Make sure you select the shooter wheel shaft as the mate connector owner.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="../images/exercise-3/parts-0.webp" style="width:100%">
+      <figcaption>14. Finish the part studio by naming your features and organizing them into folders. </figcaption>
     </figure>
   </div>
 
