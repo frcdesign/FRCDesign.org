@@ -45,7 +45,7 @@ In the exercise you just completed, the nut strips would allow you to easily mou
 When creating mechanisms, sometimes you need to reference specific COTS components when creating custom parts. While most of the time construction geometry in sketches will suffice (think motor outlines), sometimes you need to make more complex references. Instead of deriving a full detail component into the part studio (which can significantly slow down load times), you can create or derive "block" geometry, like the "block motor" from FRCDesignLib used in this exercise. 
 
 <figure>
-  <img src="./images/exercise-3/block-motor-example.webp" style="width:90%; border:5px solid #ADADAD">
+  <img src="../images/exercise-3/block-motor-example.webp" style="width:90%; border:5px solid #ADADAD">
 </figure>
 
 When inserting a block motor from FRCDesignLib, it is important to use the "Differentiation Variable" because of how Onshape handles derived parts. Assigning a unique value to each block motor prevents these errors in your part studio.
@@ -74,14 +74,14 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
 
   <div class="mySlides fade">
     <figure>
-      <img src="./images/exercise-3/parts-2.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-2.webp" style="width:100%">
       <figcaption>2. On the right plane, create a new sketch with the belts, pulleys, and motors. The bottom most construction line defines the bottom of our shooter.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/s3.webp" style="width:100%">
+      <img src="../images/exercise-3/parts-3.webp" style="width:100%">
       <figcaption>3. Using a mate connector offset 1.375" from the layout sketch plane as the sketch plane, sketch the side plate. Use a circular pattern to sketch the #10-32 clearance holes around the shooter hood. </figcaption>
     </figure>
   </div>
