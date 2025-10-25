@@ -137,10 +137,17 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
 
   <div class="mySlides fade">
     <figure>
-        <iframe src="https://www.youtube.com/embed/wFNDLm2Tisc?si=mHrq_mNuC8MXJafI" width="768" height="432" frameborder="0" allowfullscreen></iframe>
-      <figcaption>11. Add a mate connector on the layout sketch for fastening the feeder wheel. Set the owner of the mate connector to the feeder shaft. This mate connector marks the center point between the two plates and will help with assembly.</figcaption>
+        <iframe src="https://www.youtube.com/embed/wFNDLm2Tisc?si=IDRokT62-V330Awh" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>11. Model the shooter wheel and feeder wheel shaft using the <code>Robot Shaft</code> featurescript.</figcaption>
     </figure>
-  </div>
+  </div> 
+
+  <div class="mySlides fade">
+    <figure>
+        <iframe src="https://www.youtube.com/embed/L8HWApw3luM?si=p6KEZF1owz2MqMD3" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>12. Add a mate connector on the layout sketch for fastening the feeder wheel. Set the owner of the mate connector to the feeder shaft. This mate connector marks the center point between the two plates and will help with assembly.</figcaption>
+    </figure>
+  </div> 
 
   <div class="mySlides fade">
     <figure>
@@ -173,119 +180,89 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a0.webp" style="width:100%">
+      <img src="../images/exercise-3/assy-0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a1.webp" style="width:100%">
+      <img src="../images/exercise-3/assy-1.webp" style="width:100%">
       <figcaption>1. Insert all the part studio components. Group all the components except for the shafts and belts. Fasten the Origin Cube to the origin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/a2.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>2. Insert and fasten 4.5" long nut strips from the MKCad app. Pay close attention to which side is fastened to the plate—the nut strip holes on adjacent sides are staggered.</figcaption>
+        <iframe src="https://www.youtube.com/embed/7Zplj3xG83s?si=AJfLODE8KtOT2PCc" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>2. Insert and fasten 4.5" long nut strips from the FRCDesignLib app. Pay close attention to which side is fastened to the plate—the nut strip holes on adjacent sides are staggered.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a3.webp" style="width:100%">
+      <img src="../images/exercise-3/assy-3.webp" style="width:100%">
       <figcaption>3. Insert and fasten the two NEO motors. Insert, fasten, and replicate the bearings. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/a4.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>4. Insert and configure the feeder pulley to be 24T with 1/2" Hex w/WCP insert. 
-                  Using a 1/16" spacer, fasten it to the feeder bearing. 
-                  Then, fasten the belt to the pulley and the motor pulley to the belt. 
+      <iframe src="https://www.youtube.com/embed/RsCl6xD8tMs?si=_urVOe5uRayJJMCc" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>4. Insert and configure the shooter pulley to be 24T with 1/2" Hex w/ TTB insert. 
+                  Copy and paste the pulley and TTB insert to create the motor pulley.
+                  Using a 3/16" spacer, fasten the shooter pulley to the shooter bearing. 
+                  Then, fasten the motor pulley to the belt. 
                   Finally, use the <code>Isolate</code> tool to fasten the 8mm NEO shaft to 1/2" hex adapter.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/a5.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>5. Insert and configure the shooter pulley to be 36T with a WCP 1/2" hex insert. 
-                  configure the motor pulley to be 18T with a 12T 20DP gear insert. 
-                  Using a 1/16" spacer, fasten the shooter pulley to the shooter bearing. 
-                  Then, fasten the belt to the pulley and the motor pulley to the belt. 
+      <iframe src="https://www.youtube.com/embed/vEuopW1B9r4?si=ZSKo9ywlPG_gwWsj" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <figcaption>5. Insert and configure the feeder pulley to be 36T with a TTB 1/2" hex insert. 
+                  Configure the motor pulley to be 18T with a 12T 20DP gear insert. 
+                  Using a 1/16" spacer, fasten the feeder pulley to the feeder bearing. 
+                  Then, fasten the motor pulley to the belt. 
                   Finally, use the <code>Isolate</code> tool to fasten the 12T motor pinion.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a6.webp" style="width:100%">
+      <img src="../images/exercise-3/assy-6.webp" style="width:100%">
       <figcaption>6. Fasten the shafts to the pulleys. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/a7.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/GuyhDXkKwho?si=0zYPMbq9xaxIE9MS" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption>7. Insert and fasten the shooter and feeder wheels to the shaft centering mate connectors. 
-                    Fastening the wheels to these mate connectors ensures that the wheels are centered on the mechanism.</figcaption>
+                  Then, Use the <code>Measure</code> tool to measure the gaps between the bearings and the wheels.
+                  Create spacers to fill the gaps on the sides of the wheels.
+                  Finally, use the <code>Assembly Mirror</code> tool to mirror the spacers and the shooter wheel across the feeder wheel's mate connector.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a8.webp" style="width:100%">
+      <img src="../images/exercise-3/assy-8.webp" style="width:100%">
       <figcaption>8. Insert and fasten the 4" SDS Flywheel to the other side of the shooter. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/a9.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>9. Use the Measure tool to measure the gaps between the bearings and the wheels. 
-                  Then, use the Configurable Spacer Stack to fill the gaps on the sides of the wheels with spacers. 
-                  The Configurable Spacer Stack will automatically calculate the number of COTS spacers required to fill the specified length.</figcaption>
+      <img src="../images/exercise-3/assy-9.webp" style="width:100%">
+      <figcaption>9. Insert, fasten, and replicate all of the required fasteners and remaining hardware.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/shooter/a10.webp" style="width:100%">
-      <figcaption>10. Repeat the previous steps to fill the shafts. 
-                  You can choose to uncheck the spacer boxes of spacers that are not used in the calculated spacer stack to clear the red error that appears on the Spacer Stack assembly. 
-                  Make sure to mate the spacer stack using the generated mate connectors so that if you update the desired length the mates will not break. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/shooter/a11.webp" style="width:100%">
-      <figcaption>11. Insert, fasten, and replicate all of the required fasteners.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/shooter/a0.webp" style="width:100%">
-      <figcaption>12. Finish your assembly by organizing the parts into folders and naming your replicates. You can also insert and position the ball to visualize it. </figcaption>
+      <img src="../images/exercise-3/assy-0.webp" style="width:100%">
+      <figcaption>10. Finish your assembly by organizing the parts into folders and naming your replicates. You can also insert and position the ball to visualize it. </figcaption>
     </figure>
   </div>
 
@@ -299,7 +276,7 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 44 instances.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 54 instances.
 
 ### Isolate, Hide, and Make Transparent
 
@@ -308,6 +285,7 @@ The Hide tool removes the selected parts from view, while Make transparent allow
 
 Rather than deleting or moving parts, you should use these tools to access the parts you need for your task. If you hide parts, don't forget to un-hide them for the next person!
 
+<!-- TODO: Update to new video -->
 !!! Tip "Isolate, Hide, and Make Transparent"
     <figure>
       <video width="1920" controls>
