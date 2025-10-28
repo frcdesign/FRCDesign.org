@@ -57,7 +57,7 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 <br>
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
 </figure>
 
 <br>
@@ -119,7 +119,7 @@ The only numbers you should see:
 
     Here's an optimized way to sketch it:
 
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
 
     Compare your approach to the video.  
     > What did you do differently?  

@@ -225,49 +225,49 @@ Bolts are strong, and people often use more bolts and rivets than are necessary.
 
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>1. Insert the part studio and delete the reference plate. Group all of these components together, and fasten the origin cube to the assembly origin</figcaption>
     </figure>
   </div>
   <div class="mySlides fade">
     <figure>
-      <iframe src="https://www.youtube.com/embed/_CIzPllEGyU?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/_CIzPllEGyU?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>2. Use the Assembly Mirror tool to copy the bottom tube and plate over to the other side. You can use a mate connector in the middle of the origin cube's edge as a mirror plane</figcaption>
     </figure>
   </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/pz9FJVzkWjg?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/pz9FJVzkWjg?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>3. Insert 2x1 Tube plugs with a the 1/16" Sleeve to fit the top tube. Mate these tube plugs to the ends of the top tube.</figcaption>
       </figure>
     </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/L6tZLEFjzUc?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/L6tZLEFjzUc?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>4. Insert the motor, pulley and shaft spacers. Assemble the motor shaft parts together and mate it to the side plate on the Right side.</figcaption>
       </figure>
     </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/iQ3y-yqWeA4?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/iQ3y-yqWeA4?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>5. Insert two hex bearings for the wheel shaft and mate them to the plates.</figcaption>
       </figure>
     </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/RMAst7Xcz4Y?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/RMAst7Xcz4Y?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>6. Insert a 1" Hex Spacer and a 2" Compliant wheel. Mate them together, and then to the right bearing. Use a Linear Pattern to copy the wheel and spacer across the shaft. Put a final 1/2" Spacer at the end of the wheels to fully constrain them.</figcaption>
       </figure>
     </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/xrIZ7Ph1DAo?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/xrIZ7Ph1DAo?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>7. Insert shaft end screws and mate one to each side of the wheel shaft.</figcaption>
       </figure>
     </div>  
   <div class="mySlides fade">
       <figure>
-        <iframe src="https://www.youtube.com/embed/quIf3misSe4?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/quIf3misSe4?rel=0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
         <figcaption>8. Use nuts, bolts and rivets to fasten the structure pieces together. You can make use of assembly mirror to speed up the process since the fasteners are mostly symmetrical.</figcaption>
       </figure>
     </div>

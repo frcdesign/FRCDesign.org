@@ -33,20 +33,14 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="../images/layout-sketches/top-layout-1.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/fE7Zhv1DYt0" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>2. Create the top layout sketch by using the bottom mate connector on the vertical line of the side layout. Utilizing auto-generated mate connectors for sketch planes is a very useful tool to have. Press the “Top” button on the view cube to get a top view.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="../images/layout-sketches/top-layout-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/HfoS699wNPc" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>3. Sketch the top outline of the drive base. Make the rectangle a square and set the side length equal to the length of the side layout tube. This ensures that the size of the top layout always matches the side layout, which makes the design parametric. Notice that the sketch is fully defined despite having no sketch dimensions.</figcaption>
     </figure>
   </div>
@@ -64,10 +58,7 @@ Start by **creating a new Onshape Document called `Stage 1D Robot`** and within 
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="../images/layout-sketches/top-layout-4.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/5st3BiDfGdY" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>5. To apply the cutout for all four tubes, we use the <code>Circular Pattern</code> sketch tool to copy the lines to all four corners. 
                   For a  <code>Circular Pattern</code> we first define the number of instances and then the axis of rotation.</figcaption>
     </figure>

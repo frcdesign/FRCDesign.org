@@ -75,7 +75,7 @@ Copy this document to use for all of the exercises in 1A. A tutorial is provided
   <iframe width="768" height="432" 
     src="https://www.youtube.com/embed/Jrq30Tgtm2I?rel=0" 
     frameborder="0" 
-    allowfullscreen>
+    allowfullscreen vq="hd1080">
   </iframe>
 </figure>
 
