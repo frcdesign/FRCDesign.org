@@ -48,7 +48,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/assy-4.webp" style="width:100%">
-      <figcaption>4. Insert, fasten, and replicate the 3/16" Aluminum Blind Rivet (WCP) (.125" - .250" Grip Length) from FRCDesignLib onto the bellypan holes. Make sure to leave the three holes shown in the image empty for bolts to be added on the next page.</figcaption>
+      <figcaption>4. Insert, fasten, and replicate the 3/16" Aluminum Blind Rivet (WCP) (.125" - .250" Grip Length) from FRCDesignLib onto the bellypan holes. Make sure to leave the three holes shown in the image empty on each side for bolts to be added when the gusset is modeled and added.</figcaption>
     </figure>
   </div>
 
