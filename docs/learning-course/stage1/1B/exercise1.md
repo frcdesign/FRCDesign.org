@@ -93,7 +93,7 @@ Keeping the key dimensions in a layout sketch makes it easy to adjust when neede
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e1/e1s8.webp" style="width:100%">
-      <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add a round 3/8" diameter, 5/8" long spacer. </figcaption>
+      <figcaption> 8. Use the <code>Robot Spacer</code> Featurescript to add #10 free fit, 3/8" OD (automatic), 3/4" long spacer. </figcaption>
     </figure>
   </div>
 
