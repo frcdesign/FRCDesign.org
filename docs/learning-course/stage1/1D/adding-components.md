@@ -14,7 +14,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
     When you project the holes off of the tube or use the gusset featurescript, those references can break easily if the tube converter or length of the tube gets changed. Try to dimension manually defined holes from the edge of the tube or only project one hole and use a linear pattern to minimize the amount of things you need to fix if something changes.
 
     <figure>
-      <img src="../images/define-holes.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%">
+      <img src="../images/define-holes.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
     </figure>
 
 <!-- <center>**Adding a Gusset**</center> -->
@@ -37,10 +37,10 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
@@ -51,17 +51,17 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/CC017qPw2Mk" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/CC017qPw2Mk?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>4. Edit the replicate feature to add rivets to the gusset.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI" width="768" height="432" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>5. Mirror the gusset, bolts, and rivets to the other side of the drivetrain using a mate connector on the origin cube.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
