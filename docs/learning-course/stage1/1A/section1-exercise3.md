@@ -12,7 +12,7 @@ Use just one extrude feature. What happens?
 Don't forget: use the Tube Converter after extruding.
 
 ---
-
+***Click the boxes below to expand them!*** (Check out the [website feature guide](../../../website-feature-guide.md))
 ??? question "Looks a bit weird? Click here after trying it."
 
     If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.

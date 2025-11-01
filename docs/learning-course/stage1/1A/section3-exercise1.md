@@ -27,7 +27,7 @@ To get started, find the "S3 Exercise 1" assembly in the "Section 3" folder in y
 ---
 
 !!! tip
-    Holding **Shift** while selecting can help you pick flat faces.
+    Holding **Shift** while selecting mate connectors can help you pick ones not on directly on the face.
 
 <br>
 
