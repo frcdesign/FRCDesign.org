@@ -421,6 +421,8 @@ plugins:
             debug: false
         - git-revision-date-localized:
             enable_creation_date: true
+        - minify:
+            minify_html: true
   
 extra_javascript:
   - javascripts/extra.js
