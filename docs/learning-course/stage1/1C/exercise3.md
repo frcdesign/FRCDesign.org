@@ -110,7 +110,7 @@ When inserting a block motor from FRCDesignLib, it is important to use the "Diff
   <div class="mySlides fade">
     <figure>
       <img src="../images/exercise-3/parts-7.webp" style="width:100%">
-      <figcaption>7. Model the large 3D print that goes in between the plates. There should only be three dimensions you need to sketch, all other entities should be defined by the layout or plate geometry. Use an "Up to face" extrude to ensure that the width is parametric.</figcaption>
+      <figcaption>7. Model the large 3D print that goes in between the plates. Try to minimize the amount of dimensions you need by using the layout or part geometry. Use an "Up to face" extrude to ensure that the width is parametric.</figcaption>
     </figure>
   </div>
 
