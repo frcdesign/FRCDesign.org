@@ -16,29 +16,26 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
+            <img src="/img/learning-course/stage2-drivebase/elec/elec-0.webp" style="width:100%">
             <figcaption>0. Finished mounted electronics.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec1s1.webp" style="width:100%">
-            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker. (The `Electronic Mounting` Featurescript does not support mounting holes for the main breaker at this time unforunately).</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/elec/elec-1.webp" style="width:100%">
+            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker and whatever IMU your team uses (Pigeon 2.0, Canandygro, etc.) You can find these dimensions in pdf files on the vendor's websites or by measuring the CAD models from FRCDesignLib.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
-        <figure>
-            <video width="1920" controls>
-              <source src="/img/learning-course/stage2-drivebase/elec/elec1s2.webm" type="video/webm">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
-        </figure>
+        <div class="slide-content">
+            <iframe src="https://www.youtube.com/embed/_Yyt5wFeIDk?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+            <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 0.159" diameter, which (if tapped IRL) will allow the mounting bolt to screw directly into the bellypan.</figcaption>
+        </div>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
-            <figcaption>3. Insert the electronics from the MKCad parts library and fasten them. The Pigeon IMU can be fastened to the RoboRIO.</figcaption>
+            <img src="/img/learning-course/stage2-drivebase/elec/elec-0.webp" style="width:100%">
+            <figcaption>3. Insert the electronics from FRCDesignLib and add all of the necessary fasteners. The PDH uses #10-32 screws, the RoboRIO uses #4-40 screws, the Breaker uses 1/4-20 screws, the Pigeon 2.0 uses #6 screws, and the Canandgyro uses #8-32 screws.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -60,14 +57,16 @@ Every robot is also required to have a Robot Signal Light (RSL). An easy locatio
 **Add mounting for an RSL to your Stage 1D drivetrain.** You can take inspiration from the following image. 
 
 <figure>
-    <img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%">
-    <figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption>
+    <img src="../images/elec/elec-rsl.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%>
+    <figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the classic RSL is 1” in diameter. Both the classic and new RSL models can be found in FRCDesignLib.</figcaption>
 </figure>
 
 ### Radio
 
 Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
 
-
+<figure>
+    <img src="../images/elec/elec-radio.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%>
+</figure>
 
 <br>
