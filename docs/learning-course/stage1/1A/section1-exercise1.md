@@ -13,7 +13,7 @@ In this exercise you'll be:
 
 Inside of the document you copied and navigated through previously, follow along with this video to create your box tubes and finish the exercise. The `extrude` tool will be introduced through this.
 
-<center><iframe width="768" height="432" src="https://www.youtube.com/embed/FdD1BTQndEo?rel=0" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe width="768" height="432" src="https://www.youtube.com/embed/FdD1BTQndEo?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe></center>
 
 
 !!! info "As you work through the exercise, notice how:"

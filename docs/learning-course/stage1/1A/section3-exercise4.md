@@ -6,7 +6,7 @@ To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in y
 **Follow the video below** to complete the exercise.
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/1HXdMi8PiXw?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/1HXdMi8PiXw?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
 </figure>
 
 1. Insert your Section 3 Exercise 3 Part Studio (with the single gusset).

@@ -32,29 +32,23 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/drivetrain/assy-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>2. Insert the MK4i module from the MKCad app into the assembly and mate it into place. </figcaption>
-    </figure>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/vPjp-Xay10s?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <figcaption>2. Insert the simplified MK4i module from FRCDesignLib into the assembly and mate it into place. </figcaption>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/drivetrain/assy-3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/PA8D-PvsyF0?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/assy-4.webp" style="width:100%">
-      <figcaption>4. Insert, fasten, and replicate the 3/16" rivet from FRCDesignLib onto the bellypan holes. For the replicate feature, you can use "Select edges on face" rather than "Select individual edges" since we want all of the holes to have a rivet.</figcaption>
+      <figcaption>4. Insert, fasten, and replicate the 3/16" Aluminum Blind Rivet (WCP) (.125" - .250" Grip Length) from FRCDesignLib onto the bellypan holes. Make sure to leave the three holes shown in the image empty on each side for bolts to be added when the gusset is modeled and added.</figcaption>
     </figure>
   </div>
 
@@ -74,16 +68,12 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   </div>
 </div>
 
-### Replicate Tool
+### Rivet Grip Length
 
-The `Replicate` tool is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. 
+As was mentioned in 1A, When selecting rivets to insert from the part library, you'll notice they have a configuration for **grip length**. The grip length of a rivet is the total thickness of material it can fasten together. Make sure you choose the appropriate grip length or they can either come out easily or not fasten the material together.
 
-In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
-
-!!! Video "Match Individual Edges for Replicate"
-    <video width="1920" controls>
-      <source src="../images/replicate-example.webm" type="video/webm">
-    </video>
-
-
+<figure>
+    <img src="../images/pop-rivet-steps.webp" width="100%" style="border:5px solid #ADADAD; border-radius: 2%">
+    <figcaption>Image Credit: https://animalia-life.club/qa/pictures/types-of-pop-rivets</figcaption>
+</figure>
 <br>
