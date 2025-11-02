@@ -15,7 +15,7 @@ However, 3D-printed pulleys are a fantastic alternative since they are cheaper, 
 <!-- Most applications that utilize pulleys (rollers, shooter wheels, etc) are low torque so 3D-printed pulleys provide more than adequate strength. -->
 
 3D-printed pulleys can easily be generated using pulley generators, such as the ones included in FRCDesignLib and the Robot Pulley Featurescript.
-However, close attention must be paid to the shaft interface. 3D-printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapater Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
+However, close attention must be paid to the shaft interface. 3D-printed hex profiles can easily strip out, so a metal insert (Available from vendors like [WCP](https://wcproducts.com/products/adapters "WCP Adapter Product Page"){:target="_blank"} or [Thrifty Bot](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts "Thrifty Bot 3D Print Adapter Product Page"){:target="_blank"}) should be used to better transfer torque.
 Take a look below at some examples of 3D-printed pulleys with different types of inserts. 
 
 ???+ example "3D-printed Pulley Inserts"
@@ -285,18 +285,14 @@ The Hide tool removes the selected parts from view, while Make transparent allow
 
 Rather than deleting or moving parts, you should use these tools to access the parts you need for your task. If you hide parts, don't forget to un-hide them for the next person!
 
-<!-- TODO: Update to new video -->
 !!! Tip "Isolate, Hide, and Make Transparent"
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/shooter/isolate-hide-transparent.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://www.youtube.com/embed/I1nFphxKVXc?si=NV57UWtENw8AuaY9" width="768" height="432" frameborder="0" allowfullscreen></iframe>
       <figcaption>Isolate parts, hide parts, or make parts transparent to help with assembly. </figcaption>
     </figure>
 
 !!! Tip "Keyboard Shortcuts"
-    Just like most other tools and constraints in Onshape, hide/show has a nice keyboard shorctut combination. Hover over a part with your cursor or select it and press `y` to hide it. Hover over the same space and press `shift+y` to unhide the part.
+    Just like most other tools and constraints in Onshape, hide/show has a nice keyboard shortcut combination. Hover over a part with your cursor or select it and press `y` to hide it. Hover over the same space and press `shift+y` to unhide the part.
 
 
 <br>
