@@ -33,14 +33,14 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/vPjp-Xay10s?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <iframe src="https://www.youtube.com/embed/vPjp-Xay10s?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>2. Insert the simplified MK4i module from FRCDesignLib into the assembly and mate it into place. </figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/PA8D-PvsyF0?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <iframe src="https://www.youtube.com/embed/PA8D-PvsyF0?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
     </div>
   </div>

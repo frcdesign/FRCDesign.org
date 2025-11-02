@@ -65,7 +65,7 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>Insert the part studio into the assembly with the green checkmark. Group all static parts together with the Origin Cube part, then fasten the mate connector on the Origin Cube to the origin of the assembly.</figcaption>
     </div>
   </div>

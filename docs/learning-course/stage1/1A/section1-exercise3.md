@@ -22,7 +22,7 @@ Don't forget: use the Tube Converter after extruding.
 
     If you need to restart, here's a quick video showing how to delete your bad tubes:
 
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/2Jzb1Xr6NBE?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/2Jzb1Xr6NBE?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -57,7 +57,7 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 <br>
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/ftbpbvuZklc?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <br>
@@ -119,7 +119,7 @@ The only numbers you should see:
 
     Here's an optimized way to sketch it:
 
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 
     Compare your approach to the video.  
     > What did you do differently?  
