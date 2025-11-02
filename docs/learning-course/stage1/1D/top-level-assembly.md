@@ -25,23 +25,17 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/top-level/top-level-1.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/Vk3D0JNBKhI?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/top-level/top-level-2.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/KVQqbvh1NOE?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the <code>Insert</code> menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
