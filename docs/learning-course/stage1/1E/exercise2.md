@@ -35,7 +35,7 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     <div class="mySlides fade">
         <figure>
             <img src="../images/elec/elec-0.webp" style="width:100%">
-            <figcaption>3. Insert the electronics from FRCDesignLib and add all of the necessary fasteners. The PDH uses #10-32 screws, the RoboRIO uses #4-40 screws, the Breaker uses 1/4-20 screws, the Pigeon 2.0 uses #6 screws, and the Canandgyro uses #8-32 screws.</figcaption>
+            <figcaption>3. Insert the electronics from FRCDesignLib and add all of the necessary fasteners. The PDH uses #10-32 screws, the RoboRIO uses #4-40 screws, the Breaker uses 1/4-20 screws, the Pigeon 2.0 uses #6-32 screws, and the Canandgyro uses #8-32 screws.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -57,7 +57,7 @@ Every robot is also required to have a Robot Signal Light (RSL). An easy locatio
 **Add mounting for an RSL to your Stage 1D drivetrain.** You can take inspiration from the following image. 
 
 <figure>
-    <img src="../images/elec/elec-rsl.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%>
+    <img src="../images/elec/elec-rsl.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%">
     <figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the classic RSL is 1” in diameter. Both the classic and new RSL models can be found in FRCDesignLib.</figcaption>
 </figure>
 
