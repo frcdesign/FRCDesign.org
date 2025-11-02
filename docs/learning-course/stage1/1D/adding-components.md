@@ -38,7 +38,7 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
     </div>
   </div>
@@ -52,14 +52,14 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/CC017qPw2Mk?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <iframe src="https://www.youtube.com/embed/CC017qPw2Mk?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Edit the replicate feature to add rivets to the gusset.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+      <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>5. Mirror the gusset, bolts, and rivets to the other side of the drivetrain using a mate connector on the origin cube.</figcaption>
     </div>
   </div>

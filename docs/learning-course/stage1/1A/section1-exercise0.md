@@ -9,7 +9,7 @@
 Using the document you copied on the previous page, follow along with the video. Mess around with the controls till you feel comfortable with it before moving on.
 
 <figure>
-    <iframe src="https://www.youtube.com/embed/45Vkal4VDkE?rel=0" width="560" height="315" frameborder="0" allowfullscreen vq="hd1080"></iframe>
+    <iframe src="https://www.youtube.com/embed/45Vkal4VDkE?controls=1&rel=0&showinfo=0&vq=hd1080" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 !!! tip "Basic Controls"

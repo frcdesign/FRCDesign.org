@@ -132,54 +132,61 @@ For live axle, the shaft spins on fixed bearings, while for dead axle, the beari
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
-    <div class="slide-content">
+    <figure>
       <img src="/img/learning-course/stage1c/dead-axle-rollers/A-S0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/fDDM02mGCvg?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>1. Start the assembly by inserting the part studio and grouping the origin cube and plate together. Then fasten the cube to the origin.</figcaption>
     </div>
   </div>
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/fDDM02mGCvg?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>1. Start the assembly by inserting the part studio and grouping the origin cube and plate together. Then fasten the cube to the origin.</figcaption>
-    </div>
-  </div>
-  <div class="mySlides fade">
-    <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/0k2pSyg_nA0?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/0k2pSyg_nA0?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>2. Use Assembly Mirror to copy the plate to the other side.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/J_dtYxcaCL8?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/J_dtYxcaCL8?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>3. Insert a roller from FRCDesignLib. Make sure the length is set to 24", and has bolt endcaps set to the HTD option. You can mate the first roller to one of the holes in the side plate. You can replicate the single roller to the other two holes. Make sure you select the whole assembly for the replicate as shown.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/DqiNcoXHYNE?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/DqiNcoXHYNE?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Mate the belts to the rollers using the center mate point for the belts, and the roller pulleys.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/BnFXhMRt_us?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/BnFXhMRt_us?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>5. Insert the Motor, Pulley, Shaft Spacers, and Shaft Bolt. Assemble the motor components together and mate the pulley to the center of the belt.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/WUW7gB-it7I?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/WUW7gB-it7I?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>6. Measure the distance between the plate and motor by clicking the face of each component. Copy this distance to your clipboard. Open the FRCDesignLib Inserter and insert a custom round ID spacer with the length you copied. There is no need to change other configurations. Attach this spacer to the plate and use replicate to add it to the other three plate holes.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/FkXr6tEHoSc?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/FkXr6tEHoSc?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>7. Add fasteners to your assembly. Note the use of washers on each bolts When bolting to polycarbonate plates it is best practice to use washers. This helps prevent the plates from cracking. The Rollers should be attached with 1/2" #10-32 bolts, and the motor with 1.75" #10-32 bolts.</figcaption>
     </div>
   </div>
+
   <div class="mySlides fade">
     <figure>
      <img src="/img/learning-course/stage1c/dead-axle-rollers/A-S0.webp" style="width:100%">
