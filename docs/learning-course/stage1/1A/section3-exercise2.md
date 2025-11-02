@@ -8,7 +8,7 @@ To get started, find the "S3 Exercise 2" part studio in the "Section 3" folder i
 **Follow the video below** to complete the exercise.
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/UZHMD1GFG44?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/UZHMD1GFG44?rel=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
 </figure>
 
 1. Copy, paste, and fasten the remaining gussets onto the drivetrain frame.

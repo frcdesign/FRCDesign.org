@@ -41,23 +41,17 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/drivetrain/parts-4.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/gk03kkl98NU?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/drivetrain/parts-5.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/ivUXyr0Lacs?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
@@ -70,18 +64,15 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div class="mySlides fade">
     <figure>
       <img src="../images/drivetrain/parts-7.webp" style="width:100%">
-      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
+      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet and bolt holes. As was learned in 1C Exercise 1, bolts can be used to stop rivets from loosening over time.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="../images/drivetrain/parts-8.webm" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/mUVoTxoniCY?controls=1&rel=0&showinfo=0" frameborder="0" allowfullscreen vq="hd1080"></iframe>
       <figcaption>8. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">

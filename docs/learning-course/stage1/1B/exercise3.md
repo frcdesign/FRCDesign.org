@@ -169,10 +169,10 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   </div>
 
   <div class="mySlides fade">
-    <figure>
-       <iframe src="https://www.youtube.com/embed/mzpNgg3OW4w?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+       <iframe src="https://www.youtube.com/embed/mzpNgg3OW4w?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>22. Use the <code>Robot Belt</code> Featurescript to create a model of the belt. The pitch of the belt is 5mm and the width is 9mm. Offset the reference plane by 0.5" so that the belt does not collide with the plate. Optionally turn on teeth modeling - note that this option will significantly increase rebuild time. Notice that the <code>Robot Belt</code> Featurescript also calculates the pitch length of the belt which allows us to verify that we calculated the correct C-C in step 7 and 8. </figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
@@ -249,51 +249,51 @@ Now that you've completed the part studio, **navigate to the "Exercise #3 Assemb
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/DdvX_09Hd20?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/DdvX_09Hd20?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>1. Insert the part studio into the assembly and fix only the bottom tube. Use the group mate on the tubes, plates, and gusset. Copy the gusset and mate it to the other side of the tube. Next, mate the spacer to the plate and use the <code>Replicate</code> tool to replicate the spacer. </figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/Rait0iVbiD0?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/Rait0iVbiD0?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>2. Assemble the bearings and shafts using parts from FRCDesignLib. Use the <code>Replicate</code> tool to replicate the bearing.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/3rhXrBgWlng?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/3rhXrBgWlng?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>3. Assemble the 36T pulley, belt, motor, and motor pinion pulley using parts from FRCDesignLib. Notice that the motor pinion is offset 1/16" from the bottom of the shaft to better align with the belt. Additionally, notice that the belt requires only a single fasten mate since its orientation was determined by how it was modeled in the part studio.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-       <iframe src="https://www.youtube.com/embed/j-Tofk8_Nfs?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+       <iframe src="https://www.youtube.com/embed/j-Tofk8_Nfs?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Assemble the shaft spacers and gears using parts from FRCDesignLib. Notice that this time we used a pocketed gear for the 60T gear. Pocketed gears are the same as normal gears except they have some material removed to save weight. </figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <iframe src="https://www.youtube.com/embed/0yfIqvglCHw?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/0yfIqvglCHw?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>5. Assemble the shaft retention bolts using FRCDesignLib parts.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-       <iframe src="https://www.youtube.com/embed/h7ABxpXyMbY?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+       <iframe src="https://www.youtube.com/embed/h7ABxpXyMbY?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>6. Assemble the motor bolts, gearbox bolts, and nuts using FRCDesignLib parts</figcaption>
-    </figure>
+    </div>
   </div>
   <div class="mySlides fade">
-    <figure>
-       <iframe src="https://www.youtube.com/embed/fd56NxBZHd8?rel=0" width="768" height="432" frameborder="0" allowfullscreen></iframe>
+    <div class="slide-content">
+       <iframe src="https://www.youtube.com/embed/fd56NxBZHd8?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>7. Assemble the gusset rivets using FRCDesignLib parts.</figcaption>
-    </figure>
+    </div>
   </div>
   <div class="mySlides fade">
     <figure>

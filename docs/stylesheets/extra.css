@@ -46,6 +46,21 @@
   --md-primary-fg-color: #54AC58;
   --md-accent-fg-color: #54AC58; 
 }
+.slide-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-content iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+figcaption {
+  text-align: center;
+}
+
 .md-typeset .admonition.video,
 .md-typeset details.video {
   border-color: rgb(32, 148, 243);

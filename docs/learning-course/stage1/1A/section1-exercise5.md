@@ -60,7 +60,7 @@ So far, sketches have been created on default planes and mate connectors. In ord
 
 Watch a demonstration of this sketching technique below.
 <figure>
-  <iframe width="768" height="432" src="https://www.youtube.com/embed/_b2Gf8IiEEA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/_b2Gf8IiEEA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen vq="hd1080"></iframe>
 </figure>
 
 Now that you’ve seen a demonstration, **try to complete the box tube structure** by creating a sketch on the face of the cross tube and projecting lines from the layout sketch into the new sketch with the `use` tool.
