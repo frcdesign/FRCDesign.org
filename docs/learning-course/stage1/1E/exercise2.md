@@ -16,13 +16,13 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec-0.webp" style="width:100%">
+            <img src="../images/elec/elec-0.webp" style="width:100%">
             <figcaption>0. Finished mounted electronics.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec-1.webp" style="width:100%">
+            <img src="../images/elec/elec-1.webp" style="width:100%">
             <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker and whatever IMU your team uses (Pigeon 2.0, Canandygro, etc.) You can find these dimensions in pdf files on the vendor's websites or by measuring the CAD models from FRCDesignLib.</figcaption>
         </figure>
     </div>
@@ -34,7 +34,7 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/elec/elec-0.webp" style="width:100%">
+            <img src="../images/elec/elec-0.webp" style="width:100%">
             <figcaption>3. Insert the electronics from FRCDesignLib and add all of the necessary fasteners. The PDH uses #10-32 screws, the RoboRIO uses #4-40 screws, the Breaker uses 1/4-20 screws, the Pigeon 2.0 uses #6 screws, and the Canandgyro uses #8-32 screws.</figcaption>
         </figure>
     </div>
@@ -66,7 +66,7 @@ Every robot is also required to have a Robot Signal Light (RSL). An easy locatio
 Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
 
 <figure>
-    <img src="../images/elec/elec-radio.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%>
+    <img src="../images/elec/elec-radio.webp" style="width:80%; border:5px solid #ADADAD; border-radius: 2%">
 </figure>
 
 <br>
