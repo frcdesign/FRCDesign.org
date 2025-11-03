@@ -18,7 +18,7 @@ Using the document you copied on the previous page, follow along with the video.
     - The middle mouse button pans the view.
     - The mouse scroll wheel zooms the view.
     - Holding `Ctrl + Right Click` allows you to pan
-    - Holding `Ctrl + Right click` allows you to Rotate flat
+    - Holding `Alt + Right Click` allows you to rotate flat
 
 !!! info "Keep in mind"
 
