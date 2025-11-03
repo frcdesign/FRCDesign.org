@@ -8,7 +8,7 @@ In the reference design, the threaded stud bumper mounting system is implemented
 
 !!! Example "Threaded Stud Bumper Mounting System"
     <figure>
-        <img src="../images/bumper-mount/stud-mount.webp" style="width:50%">
+        <img src="../images/bumper-mount/stud-mount.webp" style="width:70%">
         <figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption>
     </figure>
 
@@ -25,37 +25,37 @@ You can learn more about bumpers and different bumper mounting options in the [D
     <!-- Full-width images with number and caption text -->
     <div id="slide1" class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s0.webp" style="width:100%">
+            <img src="../images/bumper-mount/bumper-mount-0.webp" style="width:100%">
             <figcaption>0. Finished bumper mounts. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s1.webp" style="width:100%">
+            <img src="../images/bumper-mount/bumper-mount-1.webp" style="width:100%">
             <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s2.webp" style="width:100%">
+            <img src="../images/bumper-mount/bumper-mount-2.webp" style="width:100%">
             <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s3.webp" style="width:100%">
-            <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
+            <img src="../images/bumper-mount/bumper-mount-3.webp" style="width:100%">
+            <figcaption>3. Fillet and optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s4.webp" style="width:100%">
+            <img src="../images/bumper-mount/bumper-mount-4.webp" style="width:100%">
             <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
-            <img src="/img/learning-course/stage2-drivebase/bumper/bumper2s0.webp" style="width:100%">
+            <img src="../images/bumper-mount/bumper-mount-0.webp" style="width:100%">
             <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
         </figure>
     </div>
