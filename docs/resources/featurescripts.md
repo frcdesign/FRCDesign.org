@@ -5,7 +5,7 @@ Onshape has its own scripting language to create custom features to automate asp
 ### How To Install Featurescripts
 
 1. Open any Onshape document and go inside of a part studio
-2. Click the rightmost button on the toolbar <img align="center" src="../../../../img/resources/featurescripts/addCustomFeatures.webp">
+2. Click the rightmost button on the toolbar <img align="center" src="../images/featurescripts/addCustomFeatures.webp">
     - **Note:** If you have previously added any Featurescripts one of those may show up as the right most icon. In that case click the dropdown to show the add button.
 3. Paste the link of the document with the featurescript(s) in it into the search bar
     - **Note:** Some of the below featurescripts exist in the same document, so you can add multiple from the same link.
@@ -13,8 +13,8 @@ Onshape has its own scripting language to create custom features to automate asp
 4. Select the featurescript(s) you want to add to your profile, then exit the box. They will be accessible in all documents from then on in the same drop-down in the toolbar where you added the feature.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/addingFeaturescriptsTutorial.webp">
-      <source src="../../../../img/resources/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/addingFeaturescriptsTutorial.webp">
+      <source src="../images/featurescripts/addingFeaturescriptsTutorial.webm" type="video/webm">
     </video>
 
 !!! Note "Adding Featurescripts while in a Featurescript Document"
@@ -28,8 +28,8 @@ If a featurescript is not working as expected, the current version might be brok
 2. The second, and slightly more permanent way (until the maintainer of the custom feature creates a new version), is by right clicking any of the featurescript icons in your toolbar or in the custom features dropdown and clicking "Update..." or "Update all..." From there, you can see the current versions of the custom features you have added to your profile and update selected ones to use the current latest version when you use a featurescript.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/updatingFeaturescriptDocuments.webp">
-      <source src="../../../../img/resources/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/updatingFeaturescriptDocuments.webp">
+      <source src="../images/featurescripts/updatingFeaturescriptDocuments.webm" type="video/webm">
     </video>
 
 ## List of Featurescripts
@@ -49,7 +49,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Example"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/resources/featurescripts/origincube.webm" type="video/webm">
+      <source src="../images/featurescripts/origincube.webm" type="video/webm">
     </video>
     <figcaption><center>Origin Cube's FRC Functions enables belt and chain calculations directly inside of sketches and fully captures design intent by capturing tooth counts.</center></figcaption>
 
@@ -64,7 +64,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Example"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/resources/featurescripts/beltchaingen.webm" type="video/webm">
+      <source src="../images/featurescripts/beltchaingen.webm" type="video/webm">
     </video>
 
 [**Extrude Individual**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Extrude Individual Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -73,8 +73,8 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 - Commonly used with tube converter to make punched aluminum tubes from a top view sketch
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/EI.webp">
-      <source src="../../../../img/resources/featurescripts/extrudeIndividual.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/EI.webp">
+      <source src="../images/featurescripts/extrudeIndividual.mp4" type="video/mp4">
     </video>
 
 [**Tube Converter**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Tube Converter Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -82,8 +82,8 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 - Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/TC.webp">
-      <source src="../../../../img/resources/featurescripts/tubeConverter.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/TC.webp">
+      <source src="../images/featurescripts/tubeConverter.mp4" type="video/mp4">
     </video>
 
 [**Shaft Generator**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Shaft Generator Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -93,8 +93,8 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 - Can be generated in-place and with offsets
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/SG.webp">
-      <source src="../../../../img/resources/featurescripts/shaftGenerator.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/SG.webp">
+      <source src="../images/featurescripts/shaftGenerator.mp4" type="video/mp4">
     </video>
 
 [**Spacer Generator**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Spacer Generator Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -102,8 +102,8 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 - Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/S.webp">
-      <source src="../../../../img/resources/featurescripts/spacer.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/S.webp">
+      <source src="../images/featurescripts/spacer.mp4" type="video/mp4">
     </video>
 
 [**Part Lighten**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} *(2471 Featurescripts)*
@@ -114,7 +114,7 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="../../../../img/resources/featurescripts/part-lighten.webm" type="video/mp4">
+      <source src="../images/featurescripts/part-lighten.webm" type="video/mp4">
     </video>
 
 [**FilletXpert (Fillet All Edges)**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Fillet All Edges Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -122,8 +122,8 @@ These featurescripts are must haves to enhance your Onshape workflow. Many of th
 - After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/FAE.webp">
-      <source src="../../../../img/resources/featurescripts/filletEdges.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/FAE.webp">
+      <source src="../images/featurescripts/filletEdges.mp4" type="video/mp4">
     </video>
 
 
@@ -150,8 +150,8 @@ The below links contain several featurescripts each that you can add all at once
 - Commonly used with tube converter to make punched aluminum tubes from a top view sketch
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/EI.webp">
-      <source src="../../../../img/resources/featurescripts/extrudeIndividual.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/EI.webp">
+      <source src="../images/featurescripts/extrudeIndividual.mp4" type="video/mp4">
     </video>
 
 [**Tube Converter**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Tube Converter Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -159,8 +159,8 @@ The below links contain several featurescripts each that you can add all at once
 - Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/TC.webp">
-      <source src="../../../../img/resources/featurescripts/tubeConverter.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/TC.webp">
+      <source src="../images/featurescripts/tubeConverter.mp4" type="video/mp4">
     </video>
 
 
@@ -177,8 +177,8 @@ The below links contain several featurescripts each that you can add all at once
 - Can be generated in-place and with offsets
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/SG.webp">
-      <source src="../../../../img/resources/featurescripts/shaftGenerator.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/SG.webp">
+      <source src="../images/featurescripts/shaftGenerator.mp4" type="video/mp4">
     </video>
 
 
@@ -187,8 +187,8 @@ The below links contain several featurescripts each that you can add all at once
 - Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/S.webp">
-      <source src="../../../../img/resources/featurescripts/spacer.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/S.webp">
+      <source src="../images/featurescripts/spacer.mp4" type="video/mp4">
     </video>
   
 [**FilletXpert (Fillet All Edges)**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/b92d638809ae48771ecc7ad8 "Fillet All Edges Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
@@ -196,8 +196,8 @@ The below links contain several featurescripts each that you can add all at once
 - After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/FAE.webp">
-      <source src="../../../../img/resources/featurescripts/filletEdges.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/FAE.webp">
+      <source src="../images/featurescripts/filletEdges.mp4" type="video/mp4">
     </video>
 
 
@@ -232,7 +232,7 @@ The below links contain several featurescripts each that you can add all at once
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="../../../../img/resources/featurescripts/beltGen.mp4" type="video/mp4">
+      <source src="../images/featurescripts/beltGen.mp4" type="video/mp4">
     </video> -->
 
 <!-- [**Chain Gen**](https://cad.onshape.com/documents/b273b67c06b86b78b01b6f3a/w/f8670c98f827edfb8e96e7e9/e/9076725852f28d52fd6e796f "Chain Gen Featurescript Onshape Document"){:target="_blank"}
@@ -244,7 +244,7 @@ The below links contain several featurescripts each that you can add all at once
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="../../../../img/resources/featurescripts/chainGen.mp4" type="video/mp4">
+      <source src="../images/featurescripts/chainGen.mp4" type="video/mp4">
     </video> -->
 
 [**Belt & Chain Gen**](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
@@ -258,7 +258,7 @@ The below links contain several featurescripts each that you can add all at once
 
 ??? Video "Video Example"
     <video controls="true" allowfullscreen="true">
-      <source src="/img/resources/featurescripts/beltchaingen.webm" type="video/webm">
+      <source src="../images/featurescripts/beltchaingen.webm" type="video/webm">
     </video>
 
 [**Belt & Pulley Generation**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Belt and Pulley Generation Featurescript Onshape Document"){:target="_blank"} *(2471 Featurescripts)*
@@ -304,7 +304,7 @@ The below links contain several featurescripts each that you can add all at once
 
 ??? Video "Video Tutorial"
     <video controls="true" allowfullscreen="true">
-      <source src="../../../../img/resources/featurescripts/part-lighten.webm" type="video/mp4">
+      <source src="../images/featurescripts/part-lighten.webm" type="video/mp4">
     </video>
 
 [**Vent**](https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4 "Vent Featurescript Onshape Document"){:target="_blank"}
@@ -313,8 +313,8 @@ The below links contain several featurescripts each that you can add all at once
 - Uses sketch regions to determine pocket and rib placement
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/V.webp">
-      <source src="../../../../img/resources/featurescripts/vent.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/V.webp">
+      <source src="../images/featurescripts/vent.mp4" type="video/mp4">
     </video>
 
 [**Lighten**](https://cad.onshape.com/documents/573f7d70e4b0fddafb52148c/v/0edea0fa2707e715d040e74f/e/5eccf6d369b0312a728d77d3 "Lighten Featurescript Onshape Document"){:target="_blank"}
@@ -404,8 +404,8 @@ The below links contain several featurescripts each that you can add all at once
 - Modifies 3D-printed parts to have accurate mass with given material, infill, and wall thickness
 
 ??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../../../../img/resources/featurescripts/3DP.webp">
-      <source src="../../../../img/resources/featurescripts/3DPMass.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/3DP.webp">
+      <source src="../images/featurescripts/3DPMass.mp4" type="video/mp4">
     </video>
 
 [**Advanced Variables**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Advanced Variables Featurescript Onshape Document"){:target="_blank"} *(2471 Featurescripts)*
