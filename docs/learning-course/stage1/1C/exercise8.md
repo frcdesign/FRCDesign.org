@@ -4,22 +4,6 @@
 
 In this exercise, you will be modeling a centering indexer for 9.5" diameter balls, similar to [1678's 2022 indexer](https://www.youtube.com/watch?v=RiUaItTKomUhttps://www.youtube.com/watch?v=RiUaItTKomU "1678 2022 Robot Reveal Video"){:target="\_blank"}. This mechanism features belts, chain, gear, and tube crush blocks. Be sure to pay attention to the plate sketches when modeling.
 
-### Crush Blocks
-
-3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate.
-Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force.
-Crush blocks distribute the load, allowing for full clamping force while maintaining the tube’s structural integrity.
-
-Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
-
-In this exercise, you will use a [configurable 3D printed crush block](https://cad.onshape.com/documents/e9e11d824a8fd8257028a1dc/v/0c7982f1d3823153c353cbdb/e/b6f099050d1db039691ace49 "Configurable Crush Block Onshape Document"){:target="\_blank"}.
-
-???+ example "Crush Blocks and Crush Plates"
-    <figure>
-    <img src="../images/indexer-centering/crush-block-plate.webp" width="65%">
-    <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
-    </figure>
-
 ### Part Studio Instructions
 
 **Navigate to the "Exercise #8 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
@@ -197,6 +181,6 @@ In this exercise, you will use a [configurable 3D printed crush block](https://c
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD.!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"}.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD.!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"}. If everything is present, modeled, and assembled correctly, you should have about 80 instances in your assembly.
 
 <br>

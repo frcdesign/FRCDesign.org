@@ -23,6 +23,20 @@ This helps ensure your time is spent where it makes the most impact, rather than
                   The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)</figcaption>
     </figure>
 
+### Crush Blocks
+
+3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate.
+Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force.
+Crush blocks distribute the load, allowing for full clamping force while maintaining the tube’s structural integrity.
+
+Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
+
+???+ example "Crush Blocks and Crush Plates"
+    <figure>
+    <img src="../images/indexer-centering/crush-block-plate.webp" width="65%">
+    <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
+    </figure>
+
 ### Part Studio Instructions
 
 **Navigate to the "Exercise #4 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
