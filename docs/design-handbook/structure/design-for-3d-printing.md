@@ -108,7 +108,7 @@ Pulleys can be a great option for 3D printing. 3D printing allows you to make an
   </figure>
 </div>
 
-**Hex Shaft Inserts:** Compared to metal, plastic is relatively soft and can be worn down over time. High amounts of torque from a hex shaft (especially Thunderhex with rounded edges) can turn the hexagonal hole of a 3D printed pulley into a round hole, eventually eliminating power transmission between the shaft and pulley. One way to fix this is by using metal inserts that help to distribute the forces of the hex shaft into the printed part away from the hex bore.
+**Hex Shaft Inserts:** Compared to metal, plastic is relatively soft and can be worn down over time. High amounts of torque from a hex shaft (especially Thunderhex, which has rounded edges) can turn the hexagonal hole of a 3D printed pulley into a round hole, eventually eliminating power transmission between the shaft and pulley. One way to fix this is by using metal inserts that help to distribute the forces of the hex shaft into the printed part away from the hex bore.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-pulley-insert.png" style="width:50%">
@@ -117,7 +117,7 @@ Pulleys can be a great option for 3D printing. 3D printing allows you to make an
 
 ### Gears
 
-Gears can be 3D printed depending on their use case. In general applications with high torque requirements are not well suited for 3D printed gears. However things like claws or secondary mechanisms can benefit from the weight savings and flexibility of 3D printing. In the example below 3005 Robochargers made great use of 3D printed gears in 2023 on their end effector. 
+Gears can be 3D printed depending on their use case. In general applications with high torque requirements are not well suited for 3D printed gears. However things like claws or secondary mechanisms can benefit from the weight savings and flexibility of 3D printing. In the example below, 3005 Robochargers made great use of 3D printed gears in 2023 on their end effector. 
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-3005.png" style="width:60%">
@@ -145,11 +145,11 @@ Both of the above principles were used by 2910 in this example of their 2022 sho
 
 ### Sprockets
 
-Many of the same principles from above also apply to sprockets. Care must be exercised to ensure the loading of the sprocket doesn’t exceed the strength of the printed material. Because there isn't any torque transmission 3D printed sprockets can sometimes be useful as idler sprockets for chain tensioners, again depending on the load requirements and strength of filament.
+Many of the same principles from above also apply to sprockets. Care must be exercised to ensure the loading of the sprocket doesn’t exceed the strength of the printed material. Because there isn't any torque transmission, 3D printed sprockets can sometimes be useful as idler sprockets for chain tensioners, again depending on the load requirements and strength of filament.
 
 ## Custom Brackets and Structure
 
-3D printing is an exceptionally good solution when oddly shaped geometry is required. For example, 5460s arm in 2023 was built with geometry that would be very challenging or expensive to make with conventional machining methods.
+3D printing is an exceptionally good solution when oddly shaped geometry is required. For example, 5460's arm in 2023 was built with geometry that would be very challenging or expensive to make with conventional machining methods.
 
 
   <figure>
@@ -157,7 +157,7 @@ Many of the same principles from above also apply to sprockets. Care must be exe
     <figcaption>5460 Strike Zone 2023 - Extensive use of 3d printing for complex arm parts </figcaption>
   </figure>
 
-Caution needs to be exercised for most structural parts however. Parts that are prone to shock loads will be at risk of breaking or shattering.
+Caution needs to be exercised for most structural parts, however. Parts that are prone to shock loads will be at risk of breaking or shattering.
 
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-block-failure.png" style="width:60%">
@@ -166,13 +166,13 @@ Caution needs to be exercised for most structural parts however. Parts that are 
 
 
 ### Tips for Custom Brackets
-When designing custom brackets it's critical to think about how the part will be assembled on the robot. Making parts easily serviceable will make your robot more reliable during competition.
+When designing custom brackets, it's critical to think about how the part will be assembled on the robot. Making parts easily serviceable will make your robot more reliable during competition.
   <figure>
     <img src="/img/design-handbook/design-for-3d-printing/3dp-2337-arm-rest.png" style="width:60%">
     <figcaption>2337 Enginerds 2023 - Arm rest bracket </figcaption>
   </figure>
 
-This example above is a perfect use case for 3D printing because it allows for a very precise arm resting angle to be set. This is beneficial for programming to ensure the arm starts in the same position every match. The split design of the part is very beneficial as it can more securely clamp the tubes, with the added benefit of being easier to replace. By splitting the part each piece will have a flat surface that can be oriented down when printing reducing the amount of supports required.
+This example above is a perfect use case for 3D printing because it allows for a very precise arm resting angle to be set. This is beneficial for programming to ensure the arm starts in the same position every match. The split design of the part is very beneficial as it can more securely clamp the tubes, with the added benefit of being easier to replace. By splitting the part, each piece will have a flat surface that can be oriented down when printing reducing the amount of supports required.
 
 
 Sometimes 3D prints might not be strong enough on their own to withstand high force applications. One option is to surround a print with metal plates for bolts to clamp on to. This distributes the load of the bolts and keeps the print compressed together, reducing the chance of it breaking.
@@ -190,7 +190,7 @@ Sometimes 3D prints might not be strong enough on their own to withstand high fo
     <figcaption>6328 Mechanical Advantage 2024 - Game piece centering </figcaption>
   </figure>
 
-The above 3D print was designed for centering a game piece, it's mounted with square nuts placed into rectangular channels, and bolts are run from the outside to hold it to the mounting plate. This is advantageous because there are no bolts or nuts on the centering surface that the game piece could get caught on.
+The above 3D print was designed for centering a game piece. It's mounted with square nuts placed into rectangular channels, and bolts are run from the outside to hold it to the mounting plate. This is advantageous because there are no bolts or nuts on the centering surface that the game piece could get caught on.
 
 
   <figure>
@@ -208,7 +208,7 @@ This arc feature from 1678 helps guide the game piece through their adjustable s
       <a href="https://formlabs.com" target="_blank">https://formlabs.com</a>
     </figcaption>
   </figure>
-This picture shows a solid part on the left vs an FDM printed part. The left part is “Isotropic” meaning it has consistent material strength throughout, while the part on the right is "anisotropic" meaning it has different characteristics depending on the direction. The layer to layer bonding is the weakest area of the print and failed in this test.
+This picture shows a solid part on the left vs an FDM printed part. The left part is “isotropic” meaning it has consistent material strength throughout, while the part on the right is "anisotropic" meaning it has different characteristics depending on the direction. The layer to layer bonding is the weakest area of the print and failed in this test.
 
 **Material Choice:** Material choice can lead to a massive difference in the performance and reliability of your part. For example within the lineup of filaments from Bambu Lab (a 3D printer company), PETG offers significant improvement in impact strength and tensile strength over the more common 3D printing filament PLA. Polycarbonate has nearly **double** the tensile strength and bending strength of PLA (when properly annealed to filament specs) and it has nearly **50% higher** impact strength (although it is much more difficult to print). Carbon fiber infused filaments offer similar performance improvements, and high end CF filaments can achieve specs closer to aluminum than PLA. Additionally For some applications that are prone to shock loads or impacts, TPU can be very viable. High stiffness TPU isn’t particularly strong in tension, but has nearly **6x** the impact strength of PLA.
 
@@ -237,7 +237,7 @@ One of the other areas that 3D printing excels at is for adding strain relief to
 ### Tips for Sensors and Strain Relief
 
 
-For sensor mounts that may get hit by game pieces or other robots consider more durable materials, specifically materials that have high impact strength. Impact strength is a measure of how well a material can resist breaking or shattering when subjected to a sudden force or shock like a hit, drop, or collision. In FRC you may see significant usage of polycarbonate for both the construction of the field and high impact robot parts. This is due to polycarbonate's ability to withstand high impact force and return to it's original shape. PC is possible to print on some 3D printers, but generally can be difficult to work with. TPU (Thermoplastic Polyurethane) is a rubber-like material that can be a great choice for a very high impact resistance material. An example of this is in usage is 6328 Mechanical Advantage printing their 2024 camera mounts out of TPU to make them more impact resistant. The slight flexibility of the material means the camera mounts are able to withstand impacts and spring back to their original position, ultimately preventing catastrophic part failures that could occur with weaker materials.
+For sensor mounts that may get hit by game pieces or other robots, consider more durable materials, specifically materials that have high impact strength. Impact strength is a measure of how well a material can resist breaking or shattering when subjected to a sudden force or shock such as a hit, drop, or collision. In FRC you may see significant usage of polycarbonate for both the construction of the field and high impact robot parts. This is due to polycarbonate's ability to withstand high impact force and return to its original shape. PC is possible to print on some 3D printers, but generally can be difficult to work with. TPU (Thermoplastic Polyurethane) is a rubber-like material that can be a great choice for a very high impact resistance material. An example of this is in usage is 6328 Mechanical Advantage printing their 2024 camera mounts out of TPU to make them more impact resistant. The slight flexibility of the material means the camera mounts are able to withstand impacts and spring back to their original position, ultimately preventing catastrophic part failures that could occur with weaker materials.
 
 ## Enclosures for Electronics
 Electronic enclosures are a great use case for 3D printing as they often rely on complex part designs and customizations for things like fans, power boards, mounting holes etc.
@@ -280,7 +280,7 @@ Other jigs that can be useful are jigs for drilling in the center of a tube, ali
 
 ## Final Notes
 
-**Holes and Tolerances:** Holes designed to exact CAD dimensions often print smaller due to material expansion/cooling. You can make test prints with varying hole tolerances to find optimal tolerances for your specific printer and material. (ex for a nominal hole size of .2” you could print a test part with holes of .18”, .19”, .20”, .21” , .22” etc). Finding the closest hole size to your target will tell you what you should use in CAD for the hole size..
+**Holes and Tolerances:** Holes designed to exact CAD dimensions often print smaller due to material expansion/cooling. You can make test prints with varying hole tolerances to find optimal tolerances for your specific printer and material. (ex. for a nominal hole size of .2” you could print a test part with holes of .18”, .19”, .20”, .21” , .22” etc). Finding the closest hole size to your target will tell you what you should use in CAD for the hole size.
 
 **Optimize for Overhangs and Supports:** An overhang is anywhere on a part that isn't supported from below. Some printers can handle angles as low as 30 degrees from the print bed plane without support material (extra material used to hold up the part during printing). Reducing overhangs will reduce filament wasted on support, improve the surface quality and accuracy of the part, and can reduce print time.
 
@@ -293,8 +293,8 @@ Other jigs that can be useful are jigs for drilling in the center of a tube, ali
 
 
 **Fillets vs Chamfers**
-Fillets are a great way to make your parts smooth and in some instances more precise. A typical FDM 3D printer involves a toolhead moving at high speed, and rapid changes in direction (for example a 90 degree corner) will not be perfectly sharp leading to slight deviations in the size of the corners. This can be problematic for parts that need to fit together, but can be easily solved by adding a fillet to smooth out the sharp edge.
-However fillets on the part surface touching the print bed can lead to part warping due to the same overhang issue discussed above. Replacing the fillet with a chamfer at the angle your printer can print without supports can fix this problem.
+Fillets are a great way to make your parts smooth and, in some instances, more precise. A typical FDM 3D printer involves a toolhead moving at high speed, and rapid changes in direction (for example a 90 degree corner) will not be perfectly sharp leading to slight deviations in the size of the corners. This can be problematic for parts that need to fit together, but can be easily solved by adding a fillet to smooth out the sharp edge.
+However, fillets on the part surface touching the print bed can lead to part warping due to the same overhang issue discussed above. Replacing the fillet with a chamfer at an angle your printer can print without supports can fix this problem.
 
 ## Additional Resources
 
