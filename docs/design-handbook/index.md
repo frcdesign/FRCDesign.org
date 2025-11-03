@@ -25,7 +25,9 @@ These pages are all about robustness and designing with fabrication in mind. Thi
 
 (WIP) [**Sheet Metal**](structure/sheet-metal.md "Sheet Metal Page"): A guide on designing for sheet metal. 
 
-(WIP) [**3D Printing**](structure/3d-printing.md "3D Printing Page"): A guide on designing for 3D printing.
+[**Intro to 3D Printing**](structure/intro-to-3d-printing.md "Intro to 3D Printing Page"): An intro to 3D printing.
+
+[**Design for 3D Printing**](structure/design-for-3d-printing.md "Design for 3D Printing Page"): A guide on designing for 3D printing.
 
 (WIP) [**Tolerances**](structure/tolerances.md "Tolerances Page"): A guide on tolerances to account for when manufacturing real parts.
 
