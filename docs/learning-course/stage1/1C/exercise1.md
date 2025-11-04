@@ -243,7 +243,7 @@ Bolts are strong, and people often use more bolts and rivets than are necessary.
   </div>  
   <div class="mySlides fade">
       <div class="slide-content">
-        <iframe src="https://www.youtube.com/embed/L6tZLEFjzUc?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/aNM9l2OV1fY?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Insert the motor, pulley and shaft spacers. Assemble the motor shaft parts together and mate it to the side plate on the Right side.</figcaption>
       </div>
     </div>  
