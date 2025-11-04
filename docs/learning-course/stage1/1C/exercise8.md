@@ -181,6 +181,6 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD.!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"}. If everything is present, modeled, and assembled correctly, you should have about 80 instances in your assembly.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="\_blank"} If everything is present, modeled, and assembled correctly, you should have about 80 instances in your assembly.
 
 <br>
