@@ -4,6 +4,9 @@
 
 In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling. 
 
+!!! warning
+    From this point on the specific lengths of shafts and offsets of belts may not be provided, you should consider what components are going on the shafts when setting distances. It is always ok to go back and change these lengths later if needed. When you get to making your own mechanisms there wont be a step by step guide for it! These exercises try and gradually pull back the guard rails as your progress to get you ready for build season. If you get stuck feel free to refer to the ![solution doc](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/8843ec3a6b3828f461343955), or ask a mentor for help!
+
 ### Leveraging COTS Components
 Using COTS components is crucial in a time-constrained build season. 
 Even if you have the capability to fabricate every part, relying on COTS parts allows you to spend your time on more important tasks—like refining designs or testing. 
