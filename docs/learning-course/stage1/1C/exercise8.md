@@ -46,7 +46,7 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-4.webp" style="width:100%">
-      <figcaption>4. Model a basic crush block that extends into the tube far enough for the first row of holes. Make sure to add the side holes for the bolts to pass through. Chamfer the edges to make it easier to install during irl assembly.</figcaption>
+      <figcaption>4. Model a basic crush block that extends into the tube far enough for the first row of holes. Make sure to add the side holes for the bolts to pass through. Chamfer the edges to make it easier to install during IRL assembly.</figcaption>
     </figure>
   </div>
   
