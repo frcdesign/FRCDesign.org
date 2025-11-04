@@ -349,7 +349,7 @@ nav:
           - Turrets:
               - mechanism-examples/turret/index.md
 
-  - CAD Best Practices:
+  - Best Practices:
       - best-practices/index.md
       - Document Setup: best-practices/document-setup.md
       - Sub-Document Setup: best-practices/sub-document-setup.md
@@ -360,6 +360,11 @@ nav:
   - Other Resources:
       - resources/index.md
       - Glossary: resources/glossary.md
+      - CAD Resources:
+          - Featurescript List: resources/featurescripts.md
+          - Featurescript Help: resources/featurescript-help.md
+          - KrayonCAD: resources/krayonCAD.md
+
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md
           - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
@@ -367,10 +372,7 @@ nav:
           - Week 3 | Ball Shooter: resources/design-challenges/week3.md
           - Week 4 | Intake: resources/design-challenges/week4.md
           - Week 5 | Tilt Shift: resources/design-challenges/week5.md
-      - CAD Resources:
-          - Featurescript List: resources/featurescripts.md
-          - Featurescript Help: resources/featurescript-help.md
-          - KrayonCAD: resources/krayonCAD.md
+
   - Changelog:
       - Site Updates: resources/site-changelog.md
       - Reference Guide: resources/changelog.md
