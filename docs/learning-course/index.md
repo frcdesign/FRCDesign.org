@@ -34,7 +34,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <br>
 <hr>
 
-<img src="/img/learning-course/stage1b/Exercise 2 Assembly.webp" align="left" style="width:35%">
+<img src="/img/learning-course/stage1b/exercise2-assy.webp" align="left" style="width:35%">
 
 <div dir="rtl">
 <h3 id="-stage-1-stage1-1a-onshapefundamentals-md-"><a href="stage1\1A\section1-setup" title="Stage 1 Page">Stage 1</a></h3>
