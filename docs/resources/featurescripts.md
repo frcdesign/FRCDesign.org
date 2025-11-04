@@ -1,116 +1,156 @@
+---
+hide:
+  - toc
+---
+
 # List of Featurescripts
 
 Onshape has its own scripting language to create custom features to automate aspects of design called [Featurescript](https://www.onshape.com/features/custom-features "Onshape Featurescript Page"){:target="_blank"}. There are a lot of featurescripts (what we call the custom features) that make designing for FRC much easier.
 
 !!! tip
-    The title of each featurescript or group of featurescripts links to its respective document. Right click the title and click "copy link address" for installing it to your profile using the above process.
+    The title of each featurescript or group of featurescripts links to its respective document. Right click the title and click "copy link address" for installing it to your profile using process described on [the featurescript help page](featurescript-help.md).
 
-### **Highly Recommended**
+## Highly Recommended
 These featurescripts are must haves to enhance your Onshape workflow. Many of these are developed by members of the FRC community and well maintained.
 
-[**Origin Cube Featurescript**](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/c66db2b954da7f29d438195a "Origin Cube Featurescript Onshape Document"){:target="_blank"}
+<div class="grid cards" markdown>
 
-- Used to create an origin reference for assembly mating
-- Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
-- Optionally import functions for calculating gear OD, pulley/sprocket pitch & outer diameters, and calculate belt/chain c-c distances
-- See [Assembly Best Practices](../best-practices/assembly-setup.md#the-origin-cube) for more information on usage
+- [**Origin Cube Featurescript**](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/c66db2b954da7f29d438195a "Origin Cube Featurescript Onshape Document"){:target="_blank"}
+    
+    ***
 
-??? Video "Video Example"
-    <video controls="true" allowfullscreen="true">
-      <source src="../images/featurescripts/origincube.webm" type="video/webm">
-    </video>
-    <figcaption><center>Origin Cube's FRC Functions enables belt and chain calculations directly inside of sketches and fully captures design intent by capturing tooth counts.</center></figcaption>
+    <center markdown>![](../images/featurescripts/origin-cube.webp)</center>
 
-[**Belt & Chain Gen**](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
+    - Used to create an origin reference for assembly mating
+    - Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
+    - Optionally import functions for calculating gear OD, pulley/sprocket pitch & outer diameters, and calculate belt/chain c-c distances
+    - See [Assembly Best Practices](../best-practices/assembly-setup.md#the-origin-cube) for more information on usage
 
-- Used in conjunction with Origin Cube FRC Functions to create highly customizable belts and chains
-- Highly parametric - pulley/sprocket tooth count is automatically calculated from sketch pitch diameter.
-- Create multi pulley, double sided belt, and multi sprocket transmissions with options for both toothed and round idlers
-- Calculates belt and chain pitch; when used in conjunction with `Final` can allow for easy adjustment of path lengths
-- Block model and high detail belt and chain model options available
-- Allows for arbitrary placement of belts with a mate connector reference
+    ??? Video "Video Example"
+        <video controls="true" allowfullscreen="true">
+          <source src="../images/featurescripts/origincube.webm" type="video/webm">
+        </video>
+        <figcaption><center>Origin Cube's FRC Functions enables belt and chain calculations directly inside of sketches and fully captures design intent by capturing tooth counts.</center></figcaption>
 
-??? Video "Video Example"
-    <video controls="true" allowfullscreen="true">
-      <source src="../images/featurescripts/beltchaingen.webm" type="video/webm">
-    </video>
+- [**Belt & Chain Gen**](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
 
-[**Extrude Individual**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Extrude Individual Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+    ***
 
-- Can extrude multiple regions as different parts with one feature, even if regions are adjacent
-- Commonly used with tube converter to make punched aluminum tubes from a top view sketch
+    <center markdown>![](../images/featurescripts/belt-chain-gen.webp)</center>
 
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/EI.webp">
-      <source src="../images/featurescripts/extrudeIndividual.mp4" type="video/mp4">
-    </video>
+    - Used in conjunction with Origin Cube FRC Functions to create highly customizable belts and chains
+    - Highly parametric - pulley/sprocket tooth count is automatically calculated from sketch pitch diameter.
+    - Create multi pulley, double sided belt, and multi sprocket transmissions with options for both toothed and round idlers
 
-[**Tube Converter**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Tube Converter Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+    ??? Video "Video Example"
+        <video controls="true" allowfullscreen="true">
+          <source src="../images/featurescripts/beltchaingen.webm" type="video/webm">
+        </video>
 
-- Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
+- [**Robot Shaft**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Shaft Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
 
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/TC.webp">
-      <source src="../images/featurescripts/tubeConverter.mp4" type="video/mp4">
-    </video>
+    ***
 
-[**Robot Shaft**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Shaft Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
+    <center markdown>![](../images/featurescripts/robot-shaft.webp)</center>
 
-- Generates a shaft, with options for hex, rounded hex (13.75mm OD), MAXSpline, etc.
-- Options for retention type on both ends
-- Can be generated in-place and with offsets
+    - Generates a shaft, with options for hex, rounded hex (13.75mm OD), MAXSpline, etc.
+    - Options for retention type on both ends
+    - Can be generated in-place and with offsets
 
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/SG.webp">
-      <source src="../images/featurescripts/shaftGenerator.mp4" type="video/mp4">
-    </video>
+- [**Robot Spacer**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Spacer Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
+    
+    ***
 
-[**Robot Spacer**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Robot Spacer Featurescript Onshape Document"){:target="_blank"} *(Alex's Featurescripts)*
+    <center markdown>![](../images/featurescripts/robot-spacer.webp)</center>
 
-- Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
-
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/S.webp">
-      <source src="../images/featurescripts/spacer.mp4" type="video/mp4">
-    </video>
-
-[**Part Lighten**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} *(2471 Featurescripts)*
-
-  - Better than "Lighten" and more complex than "Vent"
-  - Better control over ribs, cut depth, fillets, etc.
-  - Gives a nice estimate of how much weight is being saved
-
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true">
-      <source src="../images/featurescripts/part-lighten.webm" type="video/mp4">
-    </video>
-
-[**FilletXpert (Fillet All Edges)**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Fillet All Edges Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
-
-- After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
-
-??? Video "Video Tutorial"
-    <video controls="true" allowfullscreen="true" poster="../images/featurescripts/FAE.webp">
-      <source src="../images/featurescripts/filletEdges.mp4" type="video/mp4">
-    </video>
+    - Generates a spacer, with options for round, 3/8" hex, 1/2" hex, MAXSpline, etc.
+    - Can be generated in-place and with offsets
 
 
-### Bundles
+- [**Extrude Individual**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Extrude Individual Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+
+    ***
+
+    - Can extrude multiple regions as different parts with one feature, even if regions are adjacent
+    - Commonly used with tube converter to make punched aluminum tubes from a top view sketch
+
+    ??? Video "Video Tutorial"
+        <video controls="true" allowfullscreen="true" poster="../images/featurescripts/EI.webp">
+            <source src="../images/featurescripts/extrudeIndividual.mp4" type="video/mp4">
+        </video>
+
+- [**Tube Converter**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Tube Converter Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+
+    ***
+
+    - Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
+    - Can be slow - try moving to the end of the part studio
+
+    ??? Video "Video Tutorial"
+        <video controls="true" allowfullscreen="true" poster="../images/featurescripts/TC.webp">
+            <source src="../images/featurescripts/tubeConverter.mp4" type="video/mp4">
+        </video>
+
+
+
+- [**Part Lighten**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "Part Lighten Featurescript Onshape Document"){:target="_blank"} *(2471 Featurescripts)*
+
+    ***
+
+    - Better control over ribs, cut depth, fillets, etc.
+    - Gives a nice estimate of how much weight is being saved
+
+    ??? Video "Video Tutorial"
+        <video controls="true" allowfullscreen="true">
+        <source src="../images/featurescripts/part-lighten.webm" type="video/mp4">
+        </video>
+
+- [**FilletXpert (Fillet All Edges)**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Fillet All Edges Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+    
+    ***
+    
+    - After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
+
+    ??? Video "Video Tutorial"
+        <video controls="true" allowfullscreen="true" poster="../images/featurescripts/FAE.webp">
+            <source src="../images/featurescripts/filletEdges.mp4" type="video/mp4">
+        </video>
+
+- [**Spur Gear**](https://cad.onshape.com/documents/5742c8cde4b06c68b362d748/w/b493e0cb681bbf9497d9f4b3/e/01a666571e625f8b819fd75b "Spur Gear Featurescript Onshape Document"){:target="_blank"}
+    
+    ***
+
+    - Generates a spur gear with with many different options
+    - Can be useful for 3D-printed parts and custom sector gears
+
+- [**3D Printed Mass**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "3D Printed Mass Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
+
+    ***
+
+    - Changes the material of a part to one approximately matching the density of a 3D-printed part with the given settings
+
+</div>
+
+## Bundles
 The below links contain several featurescripts each that you can add all at once. The more useful featurescripts from each bundle are demonstrated further below.
 
-[**Julia's Featurescripts**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Julia's Featurescripts Onshape Document"){:target="_blank"}
+<div class="grid cards" markdown>
 
-[**Alex's Featurescripts**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Alex's Featurescripts Onshape Document"){:target="_blank"}
+- [**Julia's Featurescripts**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Julia's Featurescripts Onshape Document"){:target="_blank"}
 
-[**Abhi's Features & Configs**](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true "Abhi's Features & Configs Onshape Document"){:target="_blank"}
+- [**Alex's Featurescripts**](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933 "Alex's Featurescripts Onshape Document"){:target="_blank"}
 
-[**2471 Featurescripts**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "2471 Featurescripts Onshape Document"){:target="_blank"}
+- [**Abhi's Features & Configs**](https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/v/042060f84c30390d82d806f8/e/d7f04278e0325b6d4426ca34?jumpToIndex=2635&showReturnToWorkspaceLink=true "Abhi's Features & Configs Onshape Document"){:target="_blank"}
 
-[**TLamp's Featurescripts**](https://cad.onshape.com/documents/f46510f08cc311a34733cac2/v/f7f3a1c996c58466f6b88a37/e/8e9fbf1ac2f0980e4bc34951 "TLamp's Featurescripts Onshape Document"){:target="_blank"}
+- [**2471 Featurescripts**](https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/v/821c8b51ed0953526b51926e/e/a8b9e45297aac9f5688c871d "2471 Featurescripts Onshape Document"){:target="_blank"}
 
-[**CADSHARP's Featurescripts**](https://www.cadsharp.com/featurescripts/ "CADSHARP's Featurescripts"){:target="_blank"}
+- [**TLamp's Featurescripts**](https://cad.onshape.com/documents/f46510f08cc311a34733cac2/v/f7f3a1c996c58466f6b88a37/e/8e9fbf1ac2f0980e4bc34951 "TLamp's Featurescripts Onshape Document"){:target="_blank"}
 
-### Structure
+- [**CADSHARP's Featurescripts**](https://www.cadsharp.com/featurescripts/ "CADSHARP's Featurescripts"){:target="_blank"}
+
+</div>
+
+## Structure
 
 [**Extrude Individual**](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320 "Extrude Individual Featurescript Onshape Document"){:target="_blank"} *(Julia's Featurescripts)*
 
@@ -270,7 +310,7 @@ The below links contain several featurescripts each that you can add all at once
 [**Spur Gear**](https://cad.onshape.com/documents/5742c8cde4b06c68b362d748/w/b493e0cb681bbf9497d9f4b3/e/01a666571e625f8b819fd75b "Spur Gear Featurescript Onshape Document"){:target="_blank"}
 
   - Generates a spur gear with with many different options
-  - Can be useful for 3D-printed parts.
+  - Can be useful for 3D-printed parts and custom sector gears
 
 [**Thrifty Insert**](https://cad.onshape.com/documents/c54b1ff25af8ec89778cac4f/v/5a909b5ad938a3116448922f/e/c4fc9251685f8516e9022bc6 "Thrify Insert Featurescript Onshape Document"){:target="_blank"}
 
