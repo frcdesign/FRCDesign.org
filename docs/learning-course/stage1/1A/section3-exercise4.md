@@ -18,6 +18,9 @@ To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in y
 7. Fasten the bolts properly.
 8. Use the `Replicate` tool (set to `match edges on a plane`) to duplicate bolts across the modules.
 
+!!! Tip "Threaded Holes"
+    The holes on the top mounting plate of the swerve module are "tapped" or "threaded". This means that nuts are not needed for the bolts because the threads are in the aluminum plate itself.
+
 ---
 
 When you're done with the drivetrain frame, move on to the final next exercise in 1A, where you'll be putting everything you've learned so far together.

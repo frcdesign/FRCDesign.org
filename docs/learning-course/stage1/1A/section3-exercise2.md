@@ -11,10 +11,13 @@ To get started, find the "S3 Exercise 2" part studio in the "Section 3" folder i
     <iframe width="768" height="432" src="https://www.youtube.com/embed/UZHMD1GFG44?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
+!!! Tip
+    The `replicate` tool is introduced in this exercise. You can use it to easily copy components into similar geometry such as rivets, bolts, or bearings into equal size holes.
+
 1. Copy, paste, and fasten the remaining gussets onto the drivetrain frame.
 2. Insert rivets from FRCDesignLib and fasten them to the gussets using the **Replicate** tool.
 3. Insert **MK4i** drive modules (Don't worry about the configuration, just leave it as the default).
-4. Fasten the modules to the frame. Don't worry about adding bolts.
+4. Fasten the modules to the frame. **Don't worry about adding bolts yet**.
 
 !!! Tip
     Try and use the assembly circular pattern tool to copy one module around the whole drivebase.
