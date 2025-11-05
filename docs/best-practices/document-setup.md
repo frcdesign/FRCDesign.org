@@ -5,13 +5,13 @@ description: The best practices for document setup for an FRC robot.
 
 # Document Setup
 
-In general, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times, and likely poor organization. 
+In general, an FRC robot is too complicated and has too many parts to be created entirely within a single document. Doing so is possible, but will result in bad loading times and, likely, poor organization. 
 
 To alleviate these challenges, we generally split FRC robots into several documents, each with an individual version number:
 
-- "Concept" document: contains the main layout sketch, which determines the overall architecture and geometry for the robot, alongside the Crayon CAD (a simplistic model of your robot archetype)
-- Several "Subsystem" documents, which contain the part studios, subassemblies and top-level assembly for each subsystem, such as an Intake
-- "Main Robot" document, which contains the top-level full robot assembly. This assembly is comprised of the top-level assembly from each of the subsystem documents.
+- A "Concept" document, which contains the main layout sketch. This, alongside the Crayon CAD (a simplistic model of your robot archetype), determines the overall architecture and geometry for the robot.
+- Several "Subsystem" documents, which contain the part studios, subassemblies and top-level assembly for each subsystem, such as an Intake.
+- A "Main Robot" document, which contains the top-level full robot assembly. This assembly is comprised of the top-level assembly from each of the subsystem documents.
 
 To connect these documents to each other, we make use of a few key Onshape features:
 
