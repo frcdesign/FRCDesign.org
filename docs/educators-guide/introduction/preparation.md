@@ -5,7 +5,7 @@ Before using FRCDesign.org's Learning Course to teach your students, make sure y
     Check ChiefDelphi for any updates on the website's content and refresh yourself on the material every so often so you're up to date with information about the workflow and tools.
 
 !!! Tip
-    Sometimes school wifi can block the embeded youtube videos on the site. If this is the case all of the videos are available for download [here](https://drive.google.com/drive/folders/1GUVB6ZssmJgS3k0waTas5IWN6-LMcRHH?usp=sharing){:target="_blank"}.
+    Sometimes, school wifi can block the embedded youtube videos on the site. If this is the case all of the videos are available for download [here](https://drive.google.com/drive/folders/1GUVB6ZssmJgS3k0waTas5IWN6-LMcRHH?usp=sharing){:target="_blank"}.
 
 ## Onshape Classroom
 

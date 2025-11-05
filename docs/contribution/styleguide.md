@@ -7,7 +7,7 @@ description: The style guide for contribution according to the goals of the webs
 
 ## Futureproofing and Usefulness
 
-To make the content you write useful for teams of all resource levels, while maintaining validity in the future, the goal isn’t to go broad and shallow, but to go extra deep to equip students with the understanding of the underlying fundamentals behind concepts to apply to their own unique situations. Pros and cons are context dependent while fundamentals are universal.
+To make the content you write useful for teams of all resource levels, while maintaining validity in the future, the goal isn’t to go broad and shallow, but rather to go extra deep so you can equip students with the understanding of the underlying fundamentals behind concepts which they can then apply to their own unique situations. Pros and cons are context dependent while fundamentals are universal.
 
 At the same time, things that aren’t easily accessible and/or commonly used by teams, like billet chassis and ball drive, shouldn’t be included to prevent confusion.
 
