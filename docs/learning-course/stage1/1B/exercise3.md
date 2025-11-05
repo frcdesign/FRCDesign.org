@@ -4,7 +4,10 @@
 
 ## Exercise 3: Belt and Gear Transmission
 
-In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. The goal of this exercise is to continue to ramp up your modeling skills. Always make sure to fully define your sketches and keep your feature and instance trees organized.
+In this exercise, you will be modeling a two stage gearbox that uses gears and belts. This gearbox will also include elements like frame and gussets, which you previously learned in Stage 1A. The goal of this exercise is to continue to ramp up your modeling skills. 
+
+!!! Warning "Remember!"
+    Always make sure to fully **define** your sketches, **rename** your features, and keep your feature and instance trees organized with **folders**.
 
 ### Part Studio Instructions
 
@@ -24,7 +27,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s1.webp" style="width:100%">
-      <figcaption>1. Draw the tube profiles for the frame. There is a an 1/8" gap between the slanted tube and the vertical tube to allow for assembly tolerances. </figcaption>
+      <figcaption>1. Begin by using the Origin Cube feature (so the belt functions can be used later). Then draw the tube profiles for the frame. There is a an 1/8" gap between the slanted tube and the vertical tube to allow for assembly tolerances. </figcaption>
     </figure>
   </div>
 
@@ -66,7 +69,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s6.webp" style="width:100%">
-      <figcaption>7. Next, draw the 5mm pitch 12T and 36T pulleys. Use a line to connect the two pulleys. Use the <code>#PulleyPD_5mm()</code> function to calculate the pitch diameters of the pulleys. Also space the 36T pulley to be 0.25" from the vertical tube. This step fully constrains the location of the gears.</figcaption>
+      <figcaption>7. Next, draw the 5mm pitch 12T and 36T pulleys. Use a line to connect the two pulleys. Use the <code>#PulleyPD_5mm()</code> function from the Origin Cube featurescript you inserted at the beginning to calculate the pitch diameters of the pulleys. Also space the 36T pulley to be 0.25" from the vertical tube. This step fully constrains the location of the gears.</figcaption>
     </figure>
   </div>
 
@@ -94,7 +97,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s11.webp" style="width:100%">
-      <figcaption>11. Create the plate sketch on the outer face of the bottom tube. Begin by drawing the two 1.125" diameter bearing holes. Add a 1.5" for the bearing boss so that the 12T pulley on the motor can fit through the hole to assist with real life assembly. This will become more clear when you create the gearbox assembly.</figcaption>
+      <figcaption>11. Create the plate sketch on the outer face of the bottom tube. Begin by drawing the two 1.125" diameter bearing holes. Add a 1.5" hole for the motor boss so that the 12T pulley on the motor can fit through the hole to assist with real life assembly. This will become more clear when you create the gearbox assembly.</figcaption>
     </figure>
   </div>
 
