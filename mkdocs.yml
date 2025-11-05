@@ -361,9 +361,10 @@ nav:
       - resources/index.md
       - Glossary: resources/glossary.md
       - CAD Resources:
+          - FRCDesignLib: resources/frcdesignlib.md
+          - KrayonCAD: resources/krayonCAD.md
           - Featurescript List: resources/featurescripts.md
           - Featurescript Help: resources/featurescript-help.md
-          - KrayonCAD: resources/krayonCAD.md
 
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md

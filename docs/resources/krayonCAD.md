@@ -1,6 +1,11 @@
+---
+hide:
+- toc
+---
+
 # KrayonCAD
 
-<center><img src="../images/krayonCAD/KrayonCAD.webp"></center>
+<center><img src="../images/krayonCAD/krayoncad.webp"></center>
 
 ## What is KrayonCAD?
 
@@ -21,17 +26,17 @@ KrayonCAD is fast! You can go from an idea in your head or a sketch to a 3D mode
 ## How do I use KrayonCAD?
 KrayonCAD is a simple as 1, 2, 3:
 
-1. Insert: From any Onshape assembly, use the MKCAD app to insert a KrayonCAD Assembly. You can configure the Assembly before inserting.
+1. Insert: From any Onshape assembly, use the FRCDesignApp to insert a KrayonCAD Assembly. You can configure the Assembly before inserting.
 
-    <center><img src="../images/krayonCAD/krayoncadInsert.gif"></center>
+    <center><img src="../images/krayonCAD/krayoncad-insert.gif"></center>
 
 2. Configure: Right click a KrayonCAD Assembly in the parts list > Configure > change dimensions, check or uncheck boxes, and choose options from drop down lists to configure the assembly to your liking.
 
-    <center><img src="../images/krayonCAD/krayoncadConfigure.gif"></center>
+    <center><img src="../images/krayonCAD/krayoncad-configure.gif"></center>
 
 3. Mate: KrayonCAD Assemblies have mate connectors placed in strategic places to allow for easy mating using the Fasten and Revolute mate types.
 
-    <center><img src="../images/krayonCAD/krayoncadMate.gif"></center>
+    <center><img src="../images/krayonCAD/krayoncad-mate.gif"></center>
 
 ## Credit
 [ChiefDelphi release post and contributors](https://www.chiefdelphi.com/t/announcing-krayoncad-a-robot-planning-library-for-onshape/444484 "KrayonCAD Release Page"){:target="_blank"}
