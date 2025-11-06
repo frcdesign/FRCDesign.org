@@ -28,6 +28,17 @@ tags:
   
 size: { width: 1200, height: 630}
 layers:
+  - background:
+      image: layouts/16-9-frcdesignlib-banner.png
+
+size: { width: 1200, height: 630}
+layers:
   # Background color
   - background:
+      color: '#54AC58'
+
+  # Image
+  - size: { width: 1200, height: 630}
+    offset: { x: 0, y: 0}
+    background:
       image: layouts/16-9-frcdesignlib-banner.png

@@ -2,7 +2,9 @@
 hide:
 - toc
 social:
+  cards_layout_dir: layouts
   cards_layout: frcdesignlib
+description: FRCDesignLib is a library of FRC COTS components and assemblies maintained by the community.
 ---
 
 # FRCDesignLib
