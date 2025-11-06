@@ -3,6 +3,10 @@ definitions:
   - &page_description >-
     {{ page.meta.get("description", config.site_description) or "" }}
 
+
+  - &background_image >-
+    {{ layout.background_image | x }}
+    
 tags:
 
   og:type: website
@@ -25,4 +29,4 @@ size: { width: 1200, height: 630}
 layers:
   # Background color
   - background:
-      color: '#54AC58'
+      image: *background_image
