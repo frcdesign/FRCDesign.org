@@ -17,49 +17,49 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s9.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1a.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-1a.webp" style="width:100%">
       <figcaption>1a. Create the layout sketch for the gearbox. Start by drawing the 2nd stage, which is a 20T gear to a 50T gear.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1b.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-1b.webp" style="width:100%">
       <figcaption>1b. Draw the first stage, which is a 12T motor pinion gear to a 50T gear.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s1c.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-1c.webp" style="width:100%">
       <figcaption>1c. Draw the outline of the motors as a 2.5" diameter circle. This is the finished layout sketch for the gearbox.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s2.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-2.webp" style="width:100%">
       <figcaption>2. Create a new sketch to draw the profile of the plate. While referencing the layout sketch, add the bearing holes, which are 1.125" diameter holes, as well as the motor boss holes, which are 1.25". Also add the motor mounting holes. You can utilize the <code>Mirror</code> sketch tool to mirror the geometry from the left side to the right side. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s3.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-3.webp" style="width:100%">
       <figcaption>3. Extrude the plate to be 1/4" thick.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s4.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-4.webp" style="width:100%">
       <figcaption>4. Use the <code>Robot Spacer</code> Featurescript to create the gearbox spacer. </figcaption>
     </figure>
   </div>
@@ -73,14 +73,14 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s6.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-6.webp" style="width:100%">
       <figcaption>6. Use the <code>Robot Shaft</code> Featurescript to create the output shaft.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s7.webp?rel=0" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-7.webp?rel=0" style="width:100%">
       <figcaption>7. Create a sketch on the face of the plate and draw the lines for the pocketing ribs. </figcaption>
     </figure>
   </div>
@@ -94,7 +94,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s9.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/parts-0.webp" style="width:100%">
       <figcaption>9. Finished part studio. Name the sketches, features and parts. Set the name, material (6061 Aluminum), and appearance of the plates and spacer. </figcaption>
     </figure>
   </div>
@@ -115,7 +115,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s0.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/assy-0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
@@ -129,7 +129,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s11.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/assy-2.webp" style="width:100%">
       <figcaption>2. Copy the gearbox plate and mate it into place. </figcaption>
     </figure>
   </div>
@@ -164,7 +164,7 @@ In this exercise, you will be modeling and assembling a two stage gearbox. The g
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1b/exercises/e2/e2s0.webp" style="width:100%">
+      <img src="../images/exercises/exercise2/assy-0.webp" style="width:100%">
       <figcaption>7. Finished assembly. Make sure to sort your parts into folders and name your replicate features. </figcaption>
     </figure>
   </div>

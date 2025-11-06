@@ -5,6 +5,7 @@ hide:
 
 # FRCDesignLib
 
+<center><img src="../images/frcdesignlib-banner.webp"></center>
 
 FRCDesignLib is a library of FRC COTS components and assemblies maintained by the community. The typical way to use it is through the FRCDesignApp, which allows you to insert or derive those components into your documents easily.
 
@@ -37,5 +38,8 @@ To maintain the high quality of library components, the contribution process req
 [![](/img/discord-link.webp){width=20%}](https://discord.gg/7bp7mvTU9k)
 </center>
 
+---
+
+*Credit to the banner image goes to Diego from FRC 4999*
 
 <br>

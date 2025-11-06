@@ -17,14 +17,14 @@ Make sure to use a layout sketch for each mechanism, like the ones introduced in
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
-          <img src="../images/exercise-1-layout.webp" style="width:80%">
+          <img src="../images/exercise1-layout.webp" style="width:80%">
       <figcaptions>Exercise 1 layout sketch. Notice that only key geometry details are included in the layout sketch.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="../images/exercise-1-layout-final.webp" style="width:80%">
+          <img src="../images/exercise1-layout-final.webp" style="width:80%">
           <figcaptions>Exercise 1 side view. Notice how the layout sketch drives the geometry of the mechanism.</figcaption>
       </figure>
   </div>
