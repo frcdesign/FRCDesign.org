@@ -4,6 +4,9 @@
 
 In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope "GreyT Telescope Product Page"){:target="_blank"} and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/ "Rev MAXPlanetary System Product Page"){:target="_blank"} mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling. 
 
+!!! warning
+    From this point on the specific lengths of shafts and offsets of belts may not be provided, you should consider what components are going on the shafts when setting distances. It is always ok to go back and change these lengths later if needed. When you get to making your own mechanisms there wont be a step by step guide for it! These exercises try and gradually pull back the guard rails as your progress to get you ready for build season. If you get stuck feel free to refer to the ![solution doc](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/8843ec3a6b3828f461343955), or ask a mentor for help!
+
 ### Leveraging COTS Components
 Using COTS components is crucial in a time-constrained build season. 
 Even if you have the capability to fabricate every part, relying on COTS parts allows you to spend your time on more important tasks—like refining designs or testing. 
@@ -21,6 +24,20 @@ This helps ensure your time is spent where it makes the most impact, rather than
     <figure>
       <figcaption>The telescoping bearing blocks have complex geometry that would be difficult and time consuming to manufacture for most teams.
                   The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)</figcaption>
+    </figure>
+
+### Crush Blocks
+
+3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate.
+Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force.
+Crush blocks distribute the load, allowing for full clamping force while maintaining the tube’s structural integrity.
+
+Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
+
+???+ example "Crush Blocks and Crush Plates"
+    <figure>
+    <img src="../images/indexer-centering/crush-block-plate.webp" width="65%">
+    <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
     </figure>
 
 ### Part Studio Instructions

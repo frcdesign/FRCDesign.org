@@ -41,6 +41,9 @@ An angled rectangle can be created by using the `aligned rectangle` sketch tool 
   <figcaption>Triangle frame sketch.</figcaption>
 </figure>
 
+!!! Tip
+    The top corner of the diagonal tube is **horizontal** to the top of the right vertical tube.
+
 ---
 
 ### Finishing Up

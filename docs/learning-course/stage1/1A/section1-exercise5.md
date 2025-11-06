@@ -60,7 +60,7 @@ So far, sketches have been created on default planes and mate connectors. In ord
 
 Watch a demonstration of this sketching technique below.
 <figure>
-  <iframe width="768" height="432" src="https://www.youtube.com/embed/_b2Gf8IiEEA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen vq="hd1080"></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/_b2Gf8IiEEA?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
 Now that you’ve seen a demonstration, **try to complete the box tube structure** by creating a sketch on the face of the cross tube and projecting lines from the layout sketch into the new sketch with the `use` tool.
@@ -86,7 +86,7 @@ After you come back, **try to improve or correct any mistakes you find**. Once y
 Follow the short video below to learn how to rename your features, then rename the sketches and features in your part studio. Moving forward, we want to **always name our sketches and features**.
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/ELdwPyFnm4Y?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/ELdwPyFnm4Y?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
 <br>

@@ -23,6 +23,7 @@
         "Fabworks",
         "featurescripts",
         "Featurescripts",
+        "figcaption",
         "fontawesome",
         "footerlink",
         "frcdesign",
@@ -42,6 +43,7 @@
         "superfences",
         "twemoji",
         "Uncreate",
+        "webp",
         "writeups"
     ],
     "python.defaultInterpreterPath": "/usr/local/bin/python",

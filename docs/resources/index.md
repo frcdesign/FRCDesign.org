@@ -9,8 +9,12 @@ The glossary is a compiled list of words (including acronyms and abbreviations) 
 ### CAD Resources
 A collection of resources to support your workflow in Onshape, relevant to FRC.
 
-[**Featurescripts**](featurescripts.md "Featurescripts Page"): A list of FRC-relevant featurescripts and how to add them (includes some short tutorial videos).
+[**FRCDesignLib**](frcdesignlib.md "FRCDesignLib Page"): A list of FRC-relevant featurescripts.
 
 [**KrayonCAD**](krayonCAD.md "KrayonCAD Page"): A resource now integrated with MKCAD that allows people to quickly model out robot architectures.
+
+[**Featurescript List**](featurescripts.md "Featurescript List Page"): A list of FRC-relevant featurescripts.
+
+[**Featurescript Help**](featurescript-help.md "Featurescript Help Page"): Some tutorials on how to add and update featurescripts.
 
 <br>
