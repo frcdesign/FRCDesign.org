@@ -421,7 +421,9 @@ plugins:
         - social:
             cards_layout_dir: layouts
             cards_layout: default_page
-            debug: false
+            debug: true
+            cards_layout_options:
+              background_image: layouts/transparentImage.png
         - git-revision-date-localized:
             enable_creation_date: true
         - minify:
