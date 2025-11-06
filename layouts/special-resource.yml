@@ -21,3 +21,8 @@ tags:
   
 
 size: { width: 1200, height: 630}
+
+layers:
+  # Background color
+  - background:
+      color: '#54AC58'
