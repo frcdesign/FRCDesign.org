@@ -26,10 +26,6 @@ tags:
   twitter:description: *page_description
   twitter:image: "{{ image.url }}"
   
-size: { width: 1200, height: 630}
-layers:
-  - background:
-      image: layouts/16-9-frcdesignlib-banner.png
 
 size: { width: 1200, height: 630}
 layers:
