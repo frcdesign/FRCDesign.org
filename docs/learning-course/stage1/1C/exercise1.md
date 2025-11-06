@@ -169,7 +169,7 @@ Bolts are strong, and people often use more bolts and rivets than are necessary.
   <div class="mySlides fade">
     <figure>
       <img src="../images/flat-intake/parts-18.webp" style="width:100%">
-      <figcaption>18. Use the Robot Belt Featurescript to make a belt between the motor and wheel holes. Pay close attention to the starting offset and teeth values.</figcaption>
+      <figcaption>18. Use the `Belt & Chain Gen` Featurescript to make a belt between the motor and wheel holes. Pay close attention to the starting offset and teeth values.</figcaption>
     </figure>
   </div>
 

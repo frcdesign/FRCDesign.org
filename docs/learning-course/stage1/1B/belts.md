@@ -24,7 +24,7 @@ Belts also come in various widths. In FRC, you will typically use either 9 mm or
 
 ### Modeling Belt Transmissions
 
-To model belts, you will need two featurescripts, the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} and the [`Robot Belt` Featurescript](https://cad.onshape.com/documents/9cffa92db8b62219498f89af/v/0d2ae9a0b843b03bdb63724f/e/99672d1e329b38e647d90146 "Robot Belt Featurescript Onshape Document"){:target="_blank"}. In order for the 'Robot Belt' Featurescript to create the belt, it needs the pitch diameter of at least two pulleys or sprockets and a correct center to center distance, both of which will use the functions from the `Origin Cube` featurescript.
+To model belts, you will need two featurescripts, the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} and the [`Belt & Chain Gen` Featurescript](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}. In order for the `Belt & Chain Gen` Featurescript to create the belt, it needs the pitch diameter of at least two pulleys or sprockets and a correct center to center distance, both of which will use the functions from the `Origin Cube` featurescript.
 
 !!! Note 
     The Origin Cube also has additional functionality for robot and mechanism assemblies that will be discussed in later stages. You can also check out these practices on the [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"). The Origin Cube feature must be **the first feature in all part studios** from here on out in order for the functions to be available.
@@ -87,7 +87,7 @@ To model belts, you will need two featurescripts, the [`Origin Cube` Featurescri
           <figcaption>Design intent is captured in the top sketch but not the bottom.</figcaption>
         </figure>
 
-7. The <code>Robot Belt</code> feature automatically updates and we can see that the belt tooth count is correct (80T) and the pitch length is a multiple of 5 mm, meaning that the belt tooth count is exact and not being rounded.
+7. The <code>Belt & Chain Gen</code> feature automatically updates and we can see that the belt tooth count is correct (80T) and the pitch length is a multiple of 5 mm, meaning that the belt tooth count is exact and not being rounded.
   <figure>
     <img src="/img/learning-course/stage1b/belt/beltCad5.webp" style="width:100%">
   </figure>
