@@ -53,7 +53,7 @@ In this exercise, you will be modeling a centering indexer for 9.5" diameter bal
   <div class="mySlides fade">
     <figure>
       <img src="../images/indexer-centering/parts-5.webp" style="width:100%">
-      <figcaption>5. Model the belts using the <code>Robot Belt</code> Featurescript.</figcaption>
+      <figcaption>5. Model the belts using the <code>Belt & Chain Gen</code> Featurescript.</figcaption>
     </figure>
   </div>
 

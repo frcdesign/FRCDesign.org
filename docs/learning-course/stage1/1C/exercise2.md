@@ -93,20 +93,20 @@ For live axle, the shaft spins on fixed bearings, while for dead axle, the beari
   </div>
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/dead-axle-rollers/PS-S11.webp" style="width:100%">
-      <figcaption>11. Use Robot Belt to make the motor belt.</figcaption>
+      <img src="/img/learning-course/stage1c/dead-axle-rollers/parts-11.webp" style="width:100%">
+      <figcaption>11. Use Belt & Chain Gen to make the motor belt. The offsets don't matter here since you will be mating the belts to the pulleys.</figcaption>
     </figure>
   </div>
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/dead-axle-rollers/PS-S12.webp" style="width:100%">
-      <figcaption>12. Use Robot Belt to make the first roller belt.</figcaption>
+      <img src="/img/learning-course/stage1c/dead-axle-rollers/parts-12.webp" style="width:100%">
+      <figcaption>12. Use Belt & Chain Gen to make the first roller belt.</figcaption>
     </figure>
   </div>
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/dead-axle-rollers/PS-S13.webp" style="width:100%">
-      <figcaption>13. Use Robot Belt to make the second roller belt.</figcaption>
+      <img src="/img/learning-course/stage1c/dead-axle-rollers/parts-13.webp" style="width:100%">
+      <figcaption>13. Use Belt & Chain Gen to make the second roller belt.</figcaption>
     </figure>
   </div>
   <div class="mySlides fade">
