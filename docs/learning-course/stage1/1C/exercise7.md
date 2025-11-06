@@ -11,7 +11,7 @@ If you have a 3D printer, this can be a good option.
 
 ???+ example "3D Printed Spacer Block"
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/3dp-spacer.webp" width="65%">
+      <img src="../images/vertical-rollers/3dp-spacer.webp" width="65%">
       <figcaption>Multiple spacers can be combined into single 3D printed block to reduce part count. </figcaption>
     </figure>
 

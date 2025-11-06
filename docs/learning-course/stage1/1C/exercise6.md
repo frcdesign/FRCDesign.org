@@ -16,7 +16,7 @@ However, they can be pricy and only come in certain lengths, though you can easi
 
 ???+ Example "Spacer Stock"
     <figure>
-      <img src="/img/learning-course/stage1c/dir-swap/spacers.webp" width="100%">
+      <img src="../images/direction-swap/spacers.webp" width="100%">
       <figcaption>Spacers can be 3D printed (left), purchased as COTS pre-cut spacers (center), or fabricated in-house from spacer stock (right). (Image Source: WCP)</figcaption>
     </figure>
 
@@ -192,7 +192,7 @@ To toggle between them, right-click the dimension and select "Driving/Driven" fr
 !!! tip "Switching Between Driving and Driven Dimensions"
     <figure>
       <video width="100%" controls>
-        <source src="/img/learning-course/stage1c/dir-swap/driven-dims.webm" type="video/webm">
+        <source src="../images/direction-swap/driven-dims.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
       <figcaption>Switch a dimension from driving to driven and vice versa by right-clicking the dimension. Notice that the driven dimension will update based on other features.</figcaption>
