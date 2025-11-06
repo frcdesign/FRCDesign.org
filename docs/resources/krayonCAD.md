@@ -2,6 +2,7 @@
 hide:
 - toc
 social:  
+  cards_layout: special-resource
   cards_layout_options:
     background_image: docs/resources/images/krayonCAD/krayoncad.webp
 ---

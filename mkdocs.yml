@@ -406,6 +406,7 @@ extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
+  - layouts
 
 plugins:
   - glightbox:

@@ -2,6 +2,7 @@
 hide:
 - toc
 social:  
+  cards_layout: special-resource
   cards_layout_options:
     background_image: layouts/16-9-frcdesignlib-banner.png
 
