@@ -1,6 +1,8 @@
 ---
 hide:
 - toc
+social:
+  cards_layout: frcdesignlib
 ---
 
 # FRCDesignLib
