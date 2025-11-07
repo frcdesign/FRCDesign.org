@@ -6,8 +6,7 @@ Focus on capturing design intent and maintaining best practices in your part stu
 
 ## Exercise 5: Flipped Gearbox
 
-In this exercise, you will be modeling a two motor, two-stage flipped gearbox. These types of gearboxes are referred to as "flipped" because the output shaft points in the opposite direction as the input motors. 
-This style of gearbox can be desired in some situations to meet packaging constraints.
+In this exercise, you will be modeling a two motor, two-stage flipped gearbox. These types of gearboxes are referred to as "flipped" because the output shaft points in the opposite direction as the input motors. This style of gearbox can be desired in some situations to meet packaging constraints. This gearbox also features a chain tensioning mechanism that allows the gearbox to slide along the mounting tube to adjust chain tension. Having an easily tensioned chain is important to prevent backlash while still being serviceable.
 
 ### Part Studio Instructions
 
