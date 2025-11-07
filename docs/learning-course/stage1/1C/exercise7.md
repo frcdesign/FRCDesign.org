@@ -33,7 +33,7 @@ If you have a 3D printer, this can be a good option.
     <figure>
       <img src="../images/vertical-rollers/parts-1.webp" style="width:100%">
       <figcaption>1. Begin by creating the layout sketch on an offset mate connector 3" above the origin. 
-                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series.</figcaption>
+                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series. This increases efficiency at the cost of backlash, which doesn't matter for this mechanism</figcaption>
     </figure>
   </div>
 
@@ -71,7 +71,7 @@ If you have a 3D printer, this can be a good option.
   <div class="mySlides fade">
     <figure>
       <img src="../images/vertical-rollers/parts-6.webp" style="width:100%">
-      <figcaption>6. Model the belts. The calculated pitch length is slightly under a multiple of 5 mm since we subtracted 0.015" from each c-c.</figcaption>
+      <figcaption>6. Model the belts.</figcaption>
     </figure>
   </div>
 
