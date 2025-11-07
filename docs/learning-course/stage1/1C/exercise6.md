@@ -151,7 +151,7 @@ This helps make it clear which parts are custom and which are COTS.
   <div class="mySlides fade">
     <figure>
       <img src="../images/direction-swap/assy-5.webp" style="width:100%">
-      <figcaption>5. Insert a configurable spacer stack from FRCDesignLib. The length should be the distance between the pulley and flex wheel. The spacer stack will display an error most likely. This error is cosmetic but can be cleared by deselecting the spacer lengths not present in the stack. Alternatively you can make your own stack of COTS spacers, or use a single long custom spacer.</figcaption>
+      <figcaption>5. Insert a configurable spacer stack from FRCDesignLib. The length should be the distance between the pulley and flex wheel. The spacer stack will display an error most likely. This error can be cleared by deselecting the spacer lengths not present in the stack. Alternatively you can make your own stack of COTS spacers, or use a single long custom spacer.</figcaption>
     </figure>
   </div>
 
