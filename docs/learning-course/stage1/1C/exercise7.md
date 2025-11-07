@@ -2,7 +2,7 @@
 
 ## Exercise 7: Vertical Rollers
 
-In this exercise, you will be modeling some vertical rollers. This mechanism features the [Configurable Rollers](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
+In this exercise, you will be modeling some vertical rollers. This mechanism features the Configurable Tube Roller System assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
 
 ### 3D Printing to Reduce Part Count
 3D printing can be used to create spacer blocks. 
