@@ -6,7 +6,8 @@ In this exercise, you will be modeling some vertical rollers. This mechanism fea
 
 ### 3D Printing to Reduce Part Count
 3D printing can be used to create spacer blocks. 
-Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, which can help reduce part count and make assembly easier.
+Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, this reduces part count and makes assembly easier. This concept was also used in Exercise 4 on the climb hook to reduce the amount of spacers.
+
 If you have a 3D printer, this can be a good option.
 
 ???+ example "3D Printed Spacer Block"
