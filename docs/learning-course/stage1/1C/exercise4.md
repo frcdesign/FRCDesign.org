@@ -209,7 +209,7 @@ Alternatively, a "crush plate" can also be utilized to distribute the fastener f
 
   <div class="mySlides fade">
     <div class="slide-content">
-      <iframe src="https://www.youtube.com/embed/Oz_Ta0b86_w?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/i4Kcsdnsk8A?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>4. Use two <code>Slider</code> mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not need to explicitly specify a travel length. </figcaption>
     </div>
   </div>
