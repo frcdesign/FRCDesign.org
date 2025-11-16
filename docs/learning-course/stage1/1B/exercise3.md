@@ -24,7 +24,7 @@ In this exercise, you will be modeling a two stage gearbox that uses gears and b
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1b/exercises/e3/e3s1.webp" style="width:100%">
-      <figcaption>1. Draw the tube profiles for the frame. There is a an 1/8" gap between the slanted tube and the vertical tube to allow for assembly tolerances. </figcaption>
+      <figcaption>1. Add an Orgin Cube. Draw the tube profiles for the frame. There is a an 1/8" gap between the slanted tube and the vertical tube to allow for assembly tolerances. </figcaption>
     </figure>
   </div>
 
