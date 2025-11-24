@@ -142,7 +142,7 @@ This helps make it clear which parts are custom and which are COTS.
   <div class="mySlides fade">
     <figure>
       <img src="../images/direction-swap/assy-4.webp" style="width:100%">
-      <figcaption>4. Insert and fasten the pulleys pulleys and spacers. 
+      <figcaption>4. Insert and fasten the pulleys and spacers. 
                   For the pulleys, you can utilize 3D printed HTD pulleys from the FRCDesignLib with 1/2" hex inserts.
                   Also fasten the belts into place. </figcaption>
     </figure>
