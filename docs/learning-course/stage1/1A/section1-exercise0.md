@@ -8,6 +8,9 @@
 ### Navigating in a Part Studio
 Using the document you copied on the previous page, follow along with the video. Mess around with the controls till you feel comfortable with it before moving on.
 
+!!! Warning
+    **Don't watch the video and immediately skip to the next page! Please make sure to go through all of the content.**
+
 <figure>
     <iframe src="https://www.youtube.com/embed/45Vkal4VDkE?controls=1&rel=0&showinfo=0&vq=hd1080" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </figure>
