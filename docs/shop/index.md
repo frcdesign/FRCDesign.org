@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-<center>
+<center markdown>
 # FRCDesign.org Merch Shop
 </center>
 <html>
