@@ -6,7 +6,7 @@ The course progressively builds complexity while reinforcing core concepts of CA
 Stage 0: Introduction to CAD
 
 - Introduces CAD and its importance in FRC
-- Teaches how to set up Onshape accounts and install essential Featurescripts and MKCad
+- Teaches how to set up Onshape accounts and install essential Featurescripts and FRCDesignLib
 - Covers basic CAD theory and concepts like sketches and features
 - Explains Onshape interface navigation and Documents Page
 
@@ -20,7 +20,7 @@ Stage 1A: Onshape Fundamentals
 
 Stage 1B: Power Transmissions  
 
-- Introduces the origin cube and MKCAD
+- Introduces the origin cube
 - Introduces motors, shafts, bearings and power transmission components
 - Covers gear ratios, belt/chain drives, and mechanical advantage concepts
 - Provides exercises modeling simple gearboxes and power transmission assemblies, using origin cube functions 

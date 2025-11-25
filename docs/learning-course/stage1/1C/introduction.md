@@ -17,15 +17,15 @@ Make sure to use a layout sketch for each mechanism, like the ones introduced in
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage1c/exercise_1_layout.webp" style="width:80%">
-      <figcaptions>Exercise 1 side view. Notice how the layout sketch drives the geometry of the mechanism.</figcaption>
+          <img src="../images/exercise1-layout.webp" style="width:80%">
+      <figcaptions>Exercise 1 layout sketch. Notice that only key geometry details are included in the layout sketch.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage1c/exercise_1_layout_final.webp" style="width:80%">
-          <figcaptions>Exercise 1 layout sketch. Notice that only key geometry details are included in the layout sketch.</figcaption>
+          <img src="../images/exercise1-layout-final.webp" style="width:80%">
+          <figcaptions>Exercise 1 side view. Notice how the layout sketch drives the geometry of the mechanism.</figcaption>
       </figure>
   </div>
 
@@ -51,26 +51,23 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/origin-cube-tutorial/origin-cube-tutorial-1.webp" style="width:90%">
+      <img src="../images/origin-cube-tutorial/origin-cube-tutorial-1.webp" style="width:90%">
       <figcaption>Place the Origin Cube featurescript as the first feature in the part studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/origin-cube-tutorial/origin-cube-tutorial-2.webp" style="width:90%">
+      <img src="../images/origin-cube-tutorial/origin-cube-tutorial-2.webp" style="width:90%">
       <figcaption>Model your mechanism.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video controls style="width:80%">
-        <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>Insert the part studio into the assembly with the green checkmark. Group all static parts together with the Origin Cube part, then fasten the mate connector on the Origin Cube to the origin of the assembly.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <!-- Next and previous buttons -->
