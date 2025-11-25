@@ -21,7 +21,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
 
     a. Click "Custom Features" at the top of the page
 
-    b. Add the `Robot Shaft`, `Robot Spacer`, `Robot Spline Profile`, and `Robot Belt` featurescripts
+    b. Add the `Robot Shaft`, `Robot Spacer`, and `Robot Spline Profile` featurescripts
 
 3. Add the `Belt & Chain Gen` Featurescript from the [Belt & Chain Gen Document](https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041 "Belt & Chain Gen Featurescript Onshape Document"){:target="_blank"}
 
