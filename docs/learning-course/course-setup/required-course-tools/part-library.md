@@ -11,13 +11,13 @@ To install it, go to the [FRCDesignApp page](https://appstore.onshape.com/apps/M
 
 Press "Subscribe", then "Get for Free". This will automatically add the FRCDesignApp to your Onshape account.
 
-!!! Note
-    After subscribing, the FRCDesignLib inserter won't show up in already open documents until you reload. This is a first-time thing though.
+!!! Note "Notes"
+    - After subscribing, the FRCDesignLib inserter won't show up in already open documents until you reload. This is a first-time thing though.
+    - You may have to clear your site data (cache/cookies) and authorize the app when you first open it
 
 !!! Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/course-setup/required-course-tools/subscribe.webp">
-      <source src="/img/learning-course/course-setup/required-course-tools/MKCADsetup.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
+    <div class="slide-content">
+        <iframe src="https://www.youtube.com/embed/sgEnAByelWs?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+    </div>
 
 <br>

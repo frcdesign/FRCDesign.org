@@ -31,10 +31,9 @@ Press "Subscribe", then "Get for Free". This will automatically add the FRCDesig
     After subscribing, the FRCDesignLib inserter won't show up in already open documents until you reload. This is a first-time thing though.
 
 !!! Video "Video Tutorial"
-    <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/course-setup/required-course-tools/subscribe.webp">
-      <source src="/img/learning-course/course-setup/required-course-tools/MKCADsetup.webm" type="video/webm">
-      Your browser does not support the video tag.
-    </video>
+    <div class="slide-content">
+        <iframe src="https://www.youtube.com/embed/sgEnAByelWs?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+    </div>
 
 
 ## Contributing to the Library
