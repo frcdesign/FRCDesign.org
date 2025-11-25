@@ -1,43 +1,19 @@
-# 2C: Dead Axle Pivot
+# 2C: Slapdown Intake
 
-## Rotary Mechanisms
-Rotary mechanisms enable the pivoting of mechanisms through rotational movement. These mechanisms come in many shapes and sizes but there are a couple good practices that should be followed when designing powered pivots.
+## Over-the-Bumper Intakes
+A common style of intake for gamepieces in FRC (depending on extension rules) is an "over-the-bumper" intake (OTB for short). These bring the gamepiece from the floor against and then over the bumper into another subsystem. They were used commonly in 2019, 2020, 2022, 2023, and 2024, and other past games. 
 
-<figure><img align="left"  src="/img/learning-course/stage2-pivot/6036pivot.gif" width="46%" style="border:5px solid #ADADAD"><img align="right"  src="\img\learning-course\stage2-pivot\2910video.gif" width="48%" style="border:5px solid #ADADAD"></figure>
-<center><figcaption>6036's 2023 Arm and 2910's 2023 Arm</figcaption></center>
+### Slapdown Intake
 
-Take a look at [Team 2910's 2023 robot reveal video](https://youtu.be/R5r28-MQqzg?si=wgrmD0YIbUkkHDyv&t=65 "2910 2023 Reveal Video"){:target="_blank"} to see their pivoting arm in action. 
+The two types of OTB intakes are "slapdown" which consists of a single set of arms with rollers which slap down and back up again, and four-bar linkages, which allow the intake to stow more horizontally instead of vertically. The intake designed in this stage will be a slapdown intake for 2022 (inspired by 4414 HighTide’s slapdown intake from 2023).
 
+<br>
+<figure><img align="left"  src="\img\learning-course\stage2-slapdown\1323intake.gif" width="44%" style="border:5px solid #ADADAD"><img align="right" src="\img\learning-course\stage2-slapdown\1678intake.gif" width="50%" style="border:5px solid #ADADAD"></figure>
+<center><figcaption>1323's 2022 Slapdown Intake and 1678's 2022 Four-bar Intake in action</figcaption></center>
+<br>
 
-### Pivot Drive Systems
+[Match footage of Team 1323's 2022 intake](https://www.youtube.com/watch?v=pSQX5c7G8yg "Team 1323 Match Footage"){:target="_blank"} is an example of a well executed slapdown intake.
 
-Two types of pivot drive systems exist: Dead Axles and Live Axles. The following table compares the pros and cons of the two types.
-
-
-| **Axle Type** | **Description**  | **Pros**   | **Cons**  | **Picture** | 
-|---------------|------------------------------------------------------------|--------------------------|-----------------------------------|------|
-| **Dead Axle** | The axle remains stationary, and the mechanism pivots around it.   | Stronger, larger axle, no risk of axle twisting.| Requires a separate method to transfer power. May run into packaging issues  | ![dead axle](\img\learning-course\stage2-pivot\dead-axle-side.webp){width=70%}
-| **Live Axle** | The axle rotates with the mechanism. Commonly used with hex axles and hubs.| Simple setup. Direct power transfer.  | Risk of twisting the axle. Commonly done with 1/2 hex which may be too weak for the application| ![live axle](\img\learning-course\stage2-pivot\liveAxlePivot.webp){width=70%}
-
-Out of these, dead axles (and coaxial designs as a result) are the best choice for pivots, especially ones that need to handle a significant amount of load.
-
-Some key points when designing pivoting mechanisms are: 
-
-1. Keep the center of mass of the pivoting "arm" as close to the pivot as possible.
-2. Ensure the axle is fully supported, using either box tube or nested plates.
-3. Maintain a rigid support structure.
-4. If the structure is wide, power both sides for additional rigidity.
-
-### Applications & Examples
-
-| **Mechanism Type**       | **Description**                                                                 | **Axle Type**                                                        | **Friction Management**                                             | **Images**                                                                                                     |
-|--------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Wrist**                | Short, light rotary mechanisms. These are commonly seen to allow for ground pickup or pitch adjustments. | You'll find coaxial, live, and dead axles for wrists.                 | Both bearings and bushings are common.                           | <center><img src="\img\learning-course\stage2-pivot\973-wrist.webp" width="50%"></center>                           |
-| **Large Pivots**         | Include pink arms, pivoting elevators, and large arms.                           | Dead axle is preferred; consider using 35 chain for heavy loads.     | Bushings are more common, though thin x contact bearings are used occasionally. | <center><img src="\img\learning-course\stage2-pivot\2910-pivot.webp" width="50%"></center>                           |
-| **High Load Short Pivot**| Pivots full mechanisms such as a shooter to adjust shot angle.                   | Same as for large pivots.                                            | Both bearings and bushings are used.                             | <center><img src="\img\learning-course\stage2-pivot\citrus-pivot.webp" width="50%"></center>                           |
-
-
-Other mechanism examples and deep dives for pivots can be found on the [pivots page](/mechanism-examples/pivots/index.md "Pivot Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
-
+Other mechanism examples and deep dives for OTB intakes can be found on the [slapdown intakes page](../../../mechanism-examples/intake/slapdown/index.md "Slapdown Intake Mechanism Examples Page"){:target="_blank"} and [4-bar intakes page](../../../mechanism-examples/intake/linkage/index.md "4-bar Intake Mechanism Examples Page"){:target="_blank"}. The mechanism fundamentals page is yet to be made but will also be a helpful resource.
 
 <br>

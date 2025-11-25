@@ -1,3 +1,8 @@
+---
+hide:
+- toc
+---
+
 # Welcome to the Glossary
 
 ## Why this exists.

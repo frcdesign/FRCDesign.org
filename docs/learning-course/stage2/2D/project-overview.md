@@ -1,20 +1,20 @@
-# 2D: Slapdown Intake
+# 2D: Cascade Elevator
 
-## Project
+## Project Overview
 
-You will be designing a slapdown intake applicable to both the 2022 and 2023 games, both of which had a 9.5" diameter game piece.
+Because elevators are just mechanisms to move other mechanisms around, this project is similar to the dead axle pivot and will be designed without much context to learn the design process and components. You will get practice with designing elevators in the context of a robot in Stage 3.
 
-<figure>
-    <img src="/img/learning-course/stage2-slapdown/intakeTopLevel.webp" width="70%">
-    <figcaption>Finished Intake Assembly</figcaption>
+<figure markdown="span">
+    <img src="/img/learning-course/stage2-elevator/elevatorTopLevel.webp" style="width:85%">
+    <figcaption>Reference Elevator Assembly</figcaption>
 </figure>
 
-To design the intake, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
+To design the elevator, this document will be used as reference. After the engineering concepts section, you will follow a rough guide to model a copy of it.
 
-<center>[**Slapdown Intake Reference Document**](https://cad.onshape.com/documents/17302d787e092ce11015f7ee/w/f7cf5c02c7655f0328a3a74a/e/f1456325e0175c4c081008c2?renderMode=0&uiState=6652c72b09aa2845d67f627f "Slap Down Intake Reference Document"){:target="_blank" .md-button .md-button--primary } </center>
+<center markdown>[**Cascade Elevator Reference Document**](https://cad.onshape.com/documents/da5aef9e6bf6e869f4a51a45/w/5a0f4a3426876db0ba214277/e/e04be5ee3006a81febc293b6){:target="_blank" .md-button .md-button--primary } </center>
 
 ### Engineering Concepts & Decisions
 
-The engineering concepts and decisions made to design the reference intake are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
+The engineering concepts and decisions made to design the reference elevator are covered in the following sections. We cover these concepts lightly so you can understand the principles enough to design one yourself. The design handbook covers the "why" for these concepts if you would like to gain a deeper understanding.
 
 <br>

@@ -1,2 +1,2 @@
-source venv/scripts/activate 
+source venv/scripts/activate
 INSIDERS=true mkdocs serve

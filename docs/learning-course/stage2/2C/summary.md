@@ -1,20 +1,21 @@
-# 2C: Dead Axle Pivot
+# 2C: Slapdown Intake
+
 
 ## Summary
 
 You've completed Stage 2C! To summarize what you've learned in this stage:
 
-- Different types of axle usage
-- Principles of designing a good pivot
-- Applications of pivots (wrists, arms)
-- One way of tensioning chain
-- Different sources of backlash in a power transmission
-- How to model a subsystem with multiple moving parts using the origin cube
+- Concepts behind designing an effective and robust intake
+- Real application of a pivot
+- Driving dead axle rollers
+- "Zombie" Axles
+- Intake main layout sketches and ball paths
+- More practice with a mechanism with moving parts and the origin cube
 
-This mechanism being completed leads to many more mechanisms that have multiple moving parts. Most robots have at least one pivot, though each one can be designed differently depending on the use case and packaging. 
+Intakes like this one can be applied during a lot of years, but even if the mechanism type itself isn't used, many concepts, such as the pivot, zombie axle, and dead axle rollers can be reused for basically any mechanism moving or manipulating game pieces. 
 
-Each pivot has some things in common though: try to minimize backlash, use a dead axle (usually with chain), and it will obviously need a power transmission included. 
+In the next stage, you'll learn about a completely new mechanism with linear motion instead of rotation that can be used to extend part of your robot in a specific direction.
 
-In the next stage, you'll apply very similar concepts to an intake with a pivot and several rollers.
+Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2C section so we can collect data and get a better idea of how to improve the website!
 
 <br>

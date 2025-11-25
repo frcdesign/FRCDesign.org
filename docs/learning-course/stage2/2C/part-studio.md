@@ -1,24 +1,20 @@
-# 2C: Dead Axle Pivot
+# 2C: Slapdown Intake
 
 ## Part Studio
 
-1. Create a mate connector on the pivot point of the master sketch, owned by the origin cube. This will be used in the top level assembly to define motion between the subassemblies.
-2. Create the cross bar tubes
-3. Create the pivot support plates
-4. Create the chain and hex axle using featurescripts
-5. Create the dead axle tube, spacer, and washer.
-6. Create the tubes for the arm, including access holes for bolts.
-7. Create the plate to space the sprocket off from the arm.
-8. Name and give materials and appearances to all your parts
+1. CAD the front of your reference drivetrain or derive the tubes and modules from the another swerve drivebase you designed (e.g. from 2A). Make these a composite part. This is only for referencing.
+3. CAD the superstructure tube (mirror and add the mirror to the drivetrain composite for referencing). Use the assembly mirror featurescript to add mate connectors to the tube for easy assembly.
+4. Derive and transform the nut strips for referencing
+5. Design the plates based off of your main layout sketch
+6. Create the shafts using the shaft featurescript
+7. Create the intake arm and spacer to attach a sprocket to it
+8. Create a mate connector on the pivot point in the main layout sketch, owned by the origin cube. This is for creating motion in the top level assembly.
+9. Use your chosen belt/chain generator featurescripts to create the belts and chain
+10. Name and give materials and appearances to all your parts
 
-<center>
 <figure>
-    <img src="/img/learning-course/stage2-pivot/PivotPartStudio.webp" width="70%">
-    <figcaption>Finished part studio.</figcaption>
+    <img src="/img/learning-course/stage2-slapdown/intakePartStudio.webp" width="70%">
+    <figcaption> Finished Part Studio </figcaption>
 </figure>
-</center>
-
-!!! Note
-    Try to create folders for related features while modeling the mechanism! It's easier doing it throughout the modeling process than saving all the clean-up for the end.
 
 <br>

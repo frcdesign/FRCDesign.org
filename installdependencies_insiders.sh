@@ -43,7 +43,7 @@ venv/scripts/pip install mkdocs-material
 #Installing the Insiders Edition of mkdocs-material
 echo
 echo "Installing the Insiders Edition of mkdocs-material; it may take a while"
-venv/scripts/pip install git+https://${INSIDERS}@github.com/davidsdesignserver/mkdocs-material-insiders.git
+venv/scripts/pip install git+https://${INSIDERS}@github.com/frcdesign/mkdocs-material-insiders.git
 
 #Installing the rest of the plugin stuff
 echo

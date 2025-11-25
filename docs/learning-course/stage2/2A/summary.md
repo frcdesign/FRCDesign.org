@@ -1,16 +1,23 @@
+# 2A: Basic Shooter
+
 ## Summary
 
-Congratulations on completing Stage 2A! With the Stage 2A tasks completed, your drivetrain model is well on its way to being fully functional. 
+You've completed Stage 2A, and your first full mechanism! To summarize what you've learned in this stage:
 
-Here is a quick summary of what you have achieved in 2A:
+- One way to make 2 parallel plates rigid
+- All the factors that go into designing a flywheel shooter
+- Tips to reduce friction and inefficiences in power transmissions
+- Using a reference drivetrain to build a mechanism off of to reduce integration complexity
+- How to create a main layout sketch for a flywheel shooter for balls
+- Direction-changes in power transmissions
+- Customizing a 3D-printed pulley
+- Designing a custom limelight mount for a shooter
+- How to model a whole mechanism!
 
-* Learned about battery mounting and the importance of a secure battery holder
-* Learned about core FRC electronics and how and where to mount them
-* Learned how to use the `Electronic Mounting` Featurescript
-* Optionally learned how to pocket a bellypan
-* Learned about bumpers, how to model them, and the importance of having a secure mounting system
-* Practiced more complex sketching and layout
+While you've now modeled your first full mechanism, it is fully static in the context of the robot, with no moving parts. 
 
-As you progress, the projects will become more and more open ended and less step-by-step tutorial style as they have been up until now. Be sure to use the Discord to solicit feedback on your designs to learn and improve!
+In the next stage, you'll learn the different concepts that go into designing a robust pivot and how to model one in Onshape, making sure to optimize load times.
+
+Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 2A so we can collect data and get a better idea of how to improve the website!
 
 <br>
