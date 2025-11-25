@@ -10,6 +10,13 @@ Let's add a gusset to connect the 2"x2" tube to the 2"x1" tube.
 
 Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` folder. **Follow the instructions in the slides** to add the gusset.
 
+???+ Tip "Manually Define Mounting Holes"
+    When you project the holes off of the tube or use the gusset featurescript, those references can break easily if the tube converter or length of the tube gets changed. Try to dimension manually defined holes from the edge of the tube or only project one hole and use a linear pattern to minimize the amount of things you need to fix if something changes.
+
+    <figure>
+      <img src="../images/define-holes.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
+    </figure>
+
 <!-- <center>**Adding a Gusset**</center> -->
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -17,49 +24,50 @@ Start by **navigating to the `Drivetrain` Part Studio** in the `Drivetrain` fold
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd0.webp" style="width:100%">
+      <img src="../images/drivetrain/add-0.webp" style="width:100%">
       <figcaption>0. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd1.webp" style="width:100%">
-      <figcaption>1. Add the gusset for the crosstube with the <code>Gusset</code> Featurescript.</figcaption>
+      <img src="../images/drivetrain/add-1.webp" style="width:100%">
+      <figcaption>1. Sketch and extrude a 1/8" thick gusset to connect the crosstube to the top of the frame using the holes shown.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtAdd2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/n8lWSdOV-Ks?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
       <figcaption>2. Insert the gusset into the assembly and add it to the <code>Group</code>.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd3.webp" style="width:100%">
-      <figcaption>3. Copy the gusset and mate it to the other side. </figcaption>
+      <img src="../images/drivetrain/add-3.webp" style="width:100%">
+      <figcaption>3. Add 2-1/2" #10-32 bolts to the three holes in the bellypan on each side so they go through the gusset holes on the other side. Add nylock nuts to the holes on the gusset. As you learned in 1C, this is to help prevent rivets from loosening and falling out over time.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1d/SwerveBase/dtAdd4.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>4. Edit the replicate feature to add rivets to the gusset. </figcaption>
-    </figure>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/CC017qPw2Mk?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>4. Edit the replicate feature to add rivets to the gusset.</figcaption>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/0O1ojhHTgMI?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>5. Mirror the gusset, bolts, and rivets to the other side of the drivetrain using a mate connector on the origin cube.</figcaption>
+    </div>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtAdd0.webp" style="width:100%">
-      <figcaption>4. Finished drivetrain assembly.</figcaption>
+      <img src="../images/drivetrain/add-0.webp" style="width:100%">
+      <figcaption>6. Finished drivetrain assembly.</figcaption>
     </figure>
   </div>
 
@@ -81,7 +89,7 @@ Make sure you sort the instances in your assembly into folders (i.e. frame, swer
 
     Your tab manager should have the following tabs and folder:
     <figure>
-      <img src="/img/learning-course/stage1d/SwerveBase/dtTabManager.webp" style="width:100%">
+      <img src="../images/tab-manager.webp" style="width:100%">
     </figure>
 
 ### Level of Detail

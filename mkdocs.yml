@@ -1,5 +1,5 @@
 site_name: FRCDesign.org
-site_description: A comprehensive learning guide and technical reference for FRC design using Onshape.
+site_description: A comprehensive learning guide and technical reference for FRC Design using Onshape.
 site_url: https://www.frcdesign.org/
 
 # Repository
@@ -103,6 +103,8 @@ nav:
             
 
       - Stage 1:
+          - "Course Introduction": learning-course/stage1/introduction.md
+          - "Focusing on Improvement": learning-course/stage1/1A/focusing-on-improvement.md
           - "A: Onshape Fundamentals":
               - "Section 1: Part Studio Fundamentals":
                   - "Intro & Setup": learning-course/stage1/1A/section1-setup.md
@@ -114,16 +116,16 @@ nav:
                   - "Exercise 5: Box Frame": learning-course/stage1/1A/section1-exercise5.md
                   - "Exercise 6: Triangle Frame": learning-course/stage1/1A/section1-exercise6.md
               - "Section 2: Plates":
-                  - "Exercise 1": learning-course/stage1/1A/section2-exercise1.md
-                  - "Exercise 2": learning-course/stage1/1A/section2-exercise2.md
-                  - "Exercise 3": learning-course/stage1/1A/section2-exercise3.md
-                  - "Exercise 4": learning-course/stage1/1A/section2-exercise4.md
+                  - "Exercise 1: Plate Workflow": learning-course/stage1/1A/section2-exercise1.md
+                  - "Exercise 2: Gusset": learning-course/stage1/1A/section2-exercise2.md
+                  - "Exercise 3: Superstructure Gussets & Plate": learning-course/stage1/1A/section2-exercise3.md
+                  - "Exercise 4: Motor Mounting": learning-course/stage1/1A/section2-exercise4.md
               - "Section 3: Assemblies":
-                  - "Exercise 1": learning-course/stage1/1A/section3-exercise1.md
-                  - "Exercise 2": learning-course/stage1/1A/section3-exercise2.md
-                  - "Exercise 3": learning-course/stage1/1A/section3-exercise3.md
-                  - "Exercise 4": learning-course/stage1/1A/section3-exercise4.md
-                  - "Exercise 5": learning-course/stage1/1A/section3-exercise5.md
+                  - "Exercise 1: Rivets": learning-course/stage1/1A/section3-exercise1.md
+                  - "Exercise 2: Swerve Drive": learning-course/stage1/1A/section3-exercise2.md
+                  - "Exercise 3: Gusset Setup": learning-course/stage1/1A/section3-exercise3.md
+                  - "Exercise 4: Full Frame": learning-course/stage1/1A/section3-exercise4.md
+                  - "Exercise 5: Finishing the Frame": learning-course/stage1/1A/section3-exercise5.md
 
           - "B: Power Transmissions":
               - "Introduction": learning-course/stage1/1B/introduction.md
@@ -258,7 +260,8 @@ nav:
               - Structure: design-handbook/structure/structure.md
               - Fasteners: design-handbook/structure/fasteners.md
               - Sheet Metal: design-handbook/structure/sheet-metal.md
-              - 3D Printing: design-handbook/structure/3d-printing.md
+              - Intro to 3D Printing: design-handbook/structure/intro-to-3d-printing.md
+              - Design for 3D Printing: design-handbook/structure/design-for-3d-printing.md
               - Tolerances: design-handbook/structure/tolerances.md
               - Weight Saving: design-handbook/structure/weight-savings.md
           - Power Transmission:
@@ -346,7 +349,7 @@ nav:
           - Turrets:
               - mechanism-examples/turret/index.md
 
-  - CAD Best Practices:
+  - Best Practices:
       - best-practices/index.md
       - Document Setup: best-practices/document-setup.md
       - Sub-Document Setup: best-practices/sub-document-setup.md
@@ -357,6 +360,12 @@ nav:
   - Other Resources:
       - resources/index.md
       - Glossary: resources/glossary.md
+      - CAD Resources:
+          - FRCDesignLib: resources/frcdesignlib.md
+          - KrayonCAD: resources/krayonCAD.md
+          - Featurescript List: resources/featurescripts.md
+          - Featurescript Help: resources/featurescript-help.md
+
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md
           - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
@@ -364,12 +373,10 @@ nav:
           - Week 3 | Ball Shooter: resources/design-challenges/week3.md
           - Week 4 | Intake: resources/design-challenges/week4.md
           - Week 5 | Tilt Shift: resources/design-challenges/week5.md
-      - CAD Resources:
-          - Featurescripts: resources/featurescripts.md
-          - Simplified Models: resources/simplified.md
-          - Configurables: resources/configurables.md
-          - KrayonCAD: resources/krayonCAD.md
 
+  - Changelog:
+      - Site Updates: resources/site-changelog.md
+      - Reference Guide: resources/changelog.md
   - Contribution:
       - Methods of Contributing: contribution/methodsOfContributing.md
       - Contributing to Mech. Examples: contribution/mechanismContribution.md
@@ -402,6 +409,7 @@ extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
+  - layouts
 
 plugins:
   - glightbox:
@@ -409,21 +417,20 @@ plugins:
       width: 90%
       shadow: true
   - search
-  - group: # These plugins only run when the site is deployed
-      enabled: !ENV CI
-      plugins:
-        - git-revision-date-localized:
-            enable_creation_date: true
-      #- optimize
-
   - group:
-      enabled: !ENV INSIDERS
+      enabled: !ENV DEP
       plugins:
         - meta
         - social:
             cards_layout_dir: layouts
             cards_layout: default_page
-            debug: false
+            debug: true
+            cards_layout_options:
+              background_image: layouts/transparentImage.png
+        - git-revision-date-localized:
+            enable_creation_date: true
+        - minify:
+            minify_html: true
   
 extra_javascript:
   - javascripts/extra.js

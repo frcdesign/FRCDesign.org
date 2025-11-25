@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 
 ## Drivetrains
 
@@ -8,7 +8,7 @@ They're usually built out of box tube and have to be strong enough to survive to
 Check out the video below to see a drivetrain in action. Spot where box tube is used.
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/iDWhp80-axc?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ---
@@ -59,7 +59,7 @@ Always check that your CAD makes sense physically.
 Once the two tubes are created, the appearance of the drivetrain tubes can be changed so it looks nicer. Watch the video, then change all of the tubes to a color of your choosing. 
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wr5-n--PbuI" frameborder="0" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/Wr5-n--PbuI?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <br>

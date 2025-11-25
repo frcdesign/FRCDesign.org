@@ -1,29 +1,35 @@
-# Exercise 3: Superstructure Gussets
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 3: Superstructure Gussets & Plate
 
-In this exercise you will be using all of the skills you have learned so far, and also learning how to use the "Linear Pattern" and "Mirror" features to save time when modeling repeat geometry.
+In this exercise you will be using all of the skills you have learned so far and learn how to use the `Linear Pattern` and `Mirror` features to save time when modeling repeat geometry.
 
-## Your Task
+To get started, find the "Exercise 3: Gusset Practice" part studio in the "Section 2" folder in your copy of the template document. 
 
-To get started find the "Exercise 3: Gusset Practice" part studio in the "Section 2" folder of the template document. 
+**Using the reference image** below, create the **three frame gussets** and the **large polycarbonate side plate**. 
 
-The first thing you want to do is create the frame gussets that will be holding this structure together. You can use the reference image below to get an idea of what these should look like. 
+!!! Note
+    No dimensions are provided; try to be deliberate about what you dimension to and from while you fully define your sketches. Think about if you had rollers or wheels or motors, where would you want to add the dimensions to make sure they had clearance?
 
 
 <figure>
   <img src="/img/learning-course/stage1a/superstructure-gusset-example.webp" style="width:75%">
-  <figcaption>Superstructure gusset example layout.</figcaption>
+  <figcaption>Superstructure gusset example layout</figcaption>
 </figure>
 
-After you have all of the gussets modeled you can move on to the main side plate. You should make use of a "Linear Pattern" and "Mirror" features to make the repeating holes around the top and sides of the side plate.
 
-To learn how to use these features watch this video:
-
-(David pls make video thx)
+<center markdown> **Video Coming Soon** </center>
 
 !!! tip "Remember..."
-    - Copy at most 1 hole per tube from the "Use" tool
-    - Use the mirror tool to make the right or left side of     mounting holes, instead of making a third linear pattern.
+    - For the gussets and plate, copy at most 1 hole per tube from with the `Use` tool - use `linear pattern` for the rest.
+    - Use the `mirror` tool to make the right or left side of the mounting holes instead of making a third `linear pattern`.
 
-## When You're Ready
+!!! Tip "Materials"
+    The two main types of stock materials we use in FRC are **aluminum and polycarbonate** (a type of plastic). The reason we use aluminum instead of steel is because aluminum provides more strength for its weight than steel. Polycarbonate ("polycarb") is much lighter, more flexible, and impact-resistant.
 
-Continue to [Exercise 4: Motor Mount Plates](section2-exercise4.md).
+<br>
+
+
+
+When you're done with the **gussets and large side plate**, move on to the next exercise.
+
+<br>

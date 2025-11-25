@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 
 ## Introduction and Setup
 
@@ -13,7 +13,7 @@ Exercises build on each other and always expect you to have done the previous ex
 
 !!! warning
 
-    Make sure the [required course tools](../../course-setup/required-course-tools/part-library.md) (the part library and featurescripts) are added to your Onshape account before starting this stage.
+    Make sure the [required course tools](../../course-setup/required-course-tools/part-library.md){:target="_blank"} (the part library and featurescripts) are added to your Onshape account before starting this stage.
 
 
 ## Box Tube Intro
@@ -41,11 +41,15 @@ They are strong, lightweight, and easy to work with. You will have to make count
 </div>
 
 From the side, a box tube can be represented as a simple rectangle.  
-The most common dimensions are:
+Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken as "two-by-one", "one-by-one", and "two-by-two"). For the rest of the learning course, we will use this notation when referring to box tube.
 
 - **1 inch × 1 inch**
 
 - **2 inch × 1 inch**
+
+- **2 inch x 2 inch**
+
+
 
 <figure>
   <img src="/img/learning-course/stage1a/toob.webp" style="width:100%">
@@ -61,15 +65,15 @@ We'll be working with these increments throughout the stages, keep them in mind!
 
 Copy this document to use for all of the exercises in 1A. A tutorial is provided below to show how to copy a document.
 
-<center>
-[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){ .md-button .md-button--primary }
+<center markdown>
+[Stage 1A Document Link](https://cad.onshape.com/documents/1992f75680b0b5ae817636b8/w/7cd54748186a27d162af0a87/e/2cb2d376790249e2cb89e8c9?renderMode=0&uiState=66f5f1d68472407043c9e0fd){:target="_blank" .md-button .md-button--primary }
 </center>
 
 <br>
 
 <figure>
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/ej9xgN7059w" 
+  <iframe width="768" height="432" 
+    src="https://www.youtube.com/embed/Jrq30Tgtm2I?controls=1&rel=0&showinfo=0&vq=hd1080" 
     frameborder="0" 
     allowfullscreen>
   </iframe>

@@ -1,24 +1,28 @@
-# Exercise 4: Full Frame Assembly
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 4: Full Frame Assembly
 
-## Watch the Walkthrough
+To get started, find the "S3 Exercise 4" assembly in the "Section 3" folder in your copy of the template document.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/A4ngLwseboU" frameborder="0" allowfullscreen></iframe>
+**Follow the video below** to complete the exercise.
 
+<figure>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/1HXdMi8PiXw?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-## Your Task
+1. Insert your Section 3 Exercise 3 Part Studio (with the single gusset).
+2. Group all frame components.
+3. Insert the MK4i if you haven't already.
+4. Fasten the modules to the corners of the frame.
+5. Insert bolts using FRCDesignLib (10-32x2.5" Socket Head Cap Screws).
+6. Measure the distance between faces to determine the bolt length, rounding up to the nearest size. 
+7. Fasten the bolts properly.
+8. Use the `Replicate` tool (set to `match edges on a plane`) to duplicate bolts across the modules.
 
-- Create a new Assembly.
-- Insert your Section 3 Exercise 3 Part Studio (your frame with that single gusset).
-- Group all the frame parts together.
-- Insert the swerve modules (MK4i N A and B variants) if you haven't already.
-- Fasten the swerve modules onto the corners of the frame.
-- Insert bolts using the Standard Content Library (Socket Head Cap Screws).
-- Measure the distance between faces to figure out bolt size 
-- Fasten the bolts properly.
-- Use the **Replicate Tool** (set to "match edges on a plane") to duplicate bolts across the modules.
+!!! Tip "Threaded Holes"
+    The holes on the top mounting plate of the swerve module are "tapped" or "threaded". This means that nuts are not needed for the bolts because the threads are in the aluminum plate itself.
 
 ---
 
-## When You're Ready
+When you're done with the drivetrain frame, move on to the final next exercise in 1A, where you'll be putting everything you've learned so far together.
 
-Continue to [Exercise 5: Everything](section3-exercise5.md).
+<br>

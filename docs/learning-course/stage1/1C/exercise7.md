@@ -2,16 +2,17 @@
 
 ## Exercise 7: Vertical Rollers
 
-In this exercise, you will be modeling some vertical rollers. This mechanism features the [Configurable Rollers](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
+In this exercise, you will be modeling some vertical rollers. This mechanism features the Configurable Tube Roller System assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
 
 ### 3D Printing to Reduce Part Count
 3D printing can be used to create spacer blocks. 
-Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, which can help reduce part count and make assembly easier.
+Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, this reduces part count and makes assembly easier. This concept was also used in Exercise 4 on the climb hook to reduce the amount of spacers.
+
 If you have a 3D printer, this can be a good option.
 
 ???+ example "3D Printed Spacer Block"
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/3dp-spacer.webp" width="65%">
+      <img src="../images/vertical-rollers/3dp-spacer.webp" width="65%">
       <figcaption>Multiple spacers can be combined into single 3D printed block to reduce part count. </figcaption>
     </figure>
 
@@ -24,70 +25,61 @@ If you have a 3D printer, this can be a good option.
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s0.webp" style="width:100%">
+      <img src="../images/vertical-rollers/parts-0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s1.webp" style="width:100%">
+      <img src="../images/vertical-rollers/parts-1.webp" style="width:100%">
       <figcaption>1. Begin by creating the layout sketch on an offset mate connector 3" above the origin. 
-                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series.</figcaption>
+                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series. This increases efficiency at the cost of backlash, which doesn't matter for this mechanism</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/vertical-rollers/s2.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
+      <img src="../images/vertical-rollers/parts-2.webp" style="width:100%">
       <figcaption>2. Use the <code>Mirror</code> sketch tool to create a right hand reference for the rollers and tube location. Use the distance between the roller pairs to drive the roller locations. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s3.webp" style="width:100%">
-      <figcaption>3. Extrude the bottom plate. Then, create the top plate offset 5" from the bottom plate. 
+      <img src="../images/vertical-rollers/parts-3.webp" style="width:100%">
+      <figcaption>3. Create the bottom plate. Then, create the top plate offset 7" from the bottom plate. 
                     Pay close attention to the plate sketches in the solution document. 
-                    Note that the 1x1" tube plug requires a 4 holes spaced 3/8" apart from each other in a square pattern. </figcaption>
+                    Note that the 1x1" tube plug requires a 4 holes spaced 3/8" apart from each other in a square pattern.
+                    We dont need all 4 so we will only use 2 of them.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s4.webp" style="width:100%">
+      <img src="../images/vertical-rollers/parts-4.webp" style="width:100%">
       <figcaption>4. Sketch, extrude, then tube convert the thin-wall 1x1 tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s5.webp" style="width:100%">
+      <img src="../images/vertical-rollers/parts-5.webp" style="width:100%">
       <figcaption>5. Model the the 3D printed motor spacer block and extrude it to be 1" long.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s6.webp" style="width:100%">
-      <figcaption>6. Model the belts. The calculated pitch length is slightly under a multiple of 5 mm since we subtracted 0.015" from each c-c.</figcaption>
+      <img src="../images/vertical-rollers/parts-6.webp" style="width:100%">
+      <figcaption>6. Model the belts.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s7.webp" style="width:100%">
-      <figcaption>7. Use the <code>Assembly Mirror</code> Featurescript to create a reference mate connector for the 1x1 tube. This will be used in the assembly for mating.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/s0.webp" style="width:100%">
-      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <img src="../images/vertical-rollers/parts-0.webp" style="width:100%">
+      <figcaption>7. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
     </figure>
   </div>
 
@@ -108,67 +100,66 @@ If you have a 3D printer, this can be a good option.
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a0.webp" style="width:100%">
+      <img src="../images/vertical-rollers/assy-0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a1.webp" style="width:100%">
+      <img src="../images/vertical-rollers/assy-1.webp" style="width:100%">
       <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/vertical-rollers/a2.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>2. Copy the 1x1 tube and fasten the Assembly Mirror mate connectors together.</figcaption>
+      <img src="../images/vertical-rollers/assy-2.webp" style="width:100%">
+      <figcaption>2. Add 1x1 Tube Plugs to the vertical 1x1 tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a3.webp" style="width:100%">
-      <figcaption>3. Insert four 1x1 tube plugs and fasten them into place on the 1x1 tubes.
-                    Then, copy and fasten the rest of the frame pieces on the right hand side.</figcaption>
+      <img src="../images/vertical-rollers/assy-3.webp" style="width:100%">
+      <figcaption>3. Insert a Kraken X44 and 12t pulley into the assembly. Mate the pulley to the motor, and fasten the motor to the spacer.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a4.webp" style="width:100%">
-      <figcaption>4. Insert the Configurable Roller assembly from the link at the top of this page.
-                  Set the overall roller length to 5" and use 24T pulleys on each end. Duplicate and fasten the roller assembly into place.
-                  Then, insert and fasten the motor and motor pulleys. Also fasten the left hand side belts into place. </figcaption>
+      <img src="../images/vertical-rollers/assy-4.webp" style="width:100%">
+      <figcaption>4. Insert the "Tube Roller System" assembly from FRCDesignLib.
+                  Set the overall roller length to 7" and use 24T pulleys on each end. 
+                  Duplicate and fasten the other 2 rollers.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/vertical-rollers/a5.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>5. Copy and fasten the right hand side belts. 
-                  Note that you will need to flip the fasten mate in order for the belt to line up correctly.</figcaption>
+      <img src="../images/vertical-rollers/assy-5.webp" style="width:100%">
+      <figcaption>5. Fasten the belts to the roller pulleys.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a6.webp" style="width:100%">
+      <img src="../images/vertical-rollers/assy-6.webp" style="width:100%">
       <figcaption>6. Insert, fasten, and replicate all of the required fasteners. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/vertical-rollers/a0.webp" style="width:100%">
-      <figcaption>7. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <img src="../images/vertical-rollers/assy-7.webp" style="width:100%">
+      <figcaption>7. Use Assembly Mirror to copy the left side assembly to the right side. Make sure all items have the mirror strategy set to transform so you don't end up making new parts.</figcaption>
+    </figure>
+  </div>
+
+  <div class="mySlides fade">
+    <figure>
+      <img src="../images/vertical-rollers/assy-0.webp" style="width:100%">
+      <figcaption>8. Finish the assembly by organizing your instances into folders.</figcaption>
     </figure>
   </div>
 
@@ -182,7 +173,7 @@ If you have a 3D printer, this can be a good option.
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 37 instances.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have approximately 25 instances.
 
 
 <br>

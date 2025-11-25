@@ -13,9 +13,9 @@ They can be used to connect plates to the open face of tubes or to connect tubes
 
     <div class="grid cards" markdown>
 
-    -   <center markdown><img src="/img/learning-course/stage1c/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
+    -   <center markdown><img src="../images/flat-intake/high-tide-tube-plugs.webp" width="100%"></center>
 
-    -   <center markdown><img src="/img/learning-course/stage1c/flat-intake/miso-tube-plug.webp" width="100%"></center>
+    -   <center markdown><img src="../images/flat-intake/miso-tube-plug.webp" width="100%"></center>
 
     </div>
 
@@ -23,13 +23,14 @@ They can be used to connect plates to the open face of tubes or to connect tubes
       <figcaption>Tube plugs can be used to create gusset-less tube to tube (left) and tube to plate (right) connections. (Photo Credits: FRC 4414, FRC 9442)</figcaption>
     </figure>
 
-This exercise also introduces you to the use of the the [`Assembly Mirror Featurescript`](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"}. Make sure to add this to your Featurescripts if you have not already. 
+### Bolt and Rivet Usage
+Throughout the exercises in 1C you'll pick up several usage techniques for bolts and rivets for different kinds of structures and materials in order to build a strong intuition. 
 
-- This featurescript generates allows you to mirror the position of a duplicate part in the assembly. 
-- This is often useful so you can avoid creating a duplicate part in the part studio (to preserve the Bill of Materials) and keep the assembly parametric.
-- The featurescript takes a part and a mirror plane and generates a pair of mate connectors to simulate an mirror in the assembly.
-- In the assembly, you simply have to copy the part and mate it to the mate connector on the other side. Show mate connnectors by pressing the `k` key.
+Bolts are strong, and people often use more bolts and rivets than are necessary. When using only bolts, usually you can use 3-4 to fasten corners of a part and be fine, but you may prefer to use rivets to minimize weight or because they don't go all the way through a tube. In these cases, you can use a number of rivets easily spaced out as long as you have at least **one bolt/nut pair per attachment to prevent the rivets from loosening over time**. This is done for both this exercise and exercise 8.
 
+<figure>
+  <img src="../images/flat-intake/bolt-and-rivet.webp" style="width:90%; border:5px solid #ADADAD">
+</figure>
 
 ### Part Studio Instructions
 
@@ -41,184 +42,162 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s0.webp" style="width:100%">
+      <img src="../images/flat-intake/parts-0.webp" style="width:100%">
       <figcaption>0. Final Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s1.webp" style="width:100%">
-      <figcaption>1. Create the layout sketch on the Right plane. Begin by sketching the tube profiles. </figcaption>
+      <img src="../images/flat-intake/parts-1.webp" style="width:100%">
+      <figcaption>1. Start the layout sketch on the Right plane. Begin by sketching the shape of the bottom tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s2.webp" style="width:100%">
-      <figcaption>2. Using the Origin Cube functions you learned previously, sketch the pulleys and belt. This is a 5mm pitch 12T to 30T transmission with a 70T belt. </figcaption>
+      <img src="../images/flat-intake/parts-2.webp" style="width:100%">
+      <figcaption>2. Draw a rectangle on top of the tube to represent the floor of this intake</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s3.webp" style="width:100%">
-      <figcaption>3. Finish the layout sketch by sketching a 60 mm circle to represent the motor and a 2" circle for the intake wheel.</figcaption>
+      <img src="../images/flat-intake/parts-3.webp" style="width:100%">
+      <figcaption>3. Create a circle to represent the wheels, and a circle to represent the motor. Use the origin cube belt ctc function to position them correctly, this is similar to the layout sketch in 1B Exercise 3</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/s4.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>4. Create the tube sketch plane by using an offset mate connector reference.</figcaption>
+      <img src="../images/flat-intake/parts-4.webp" style="width:100%">
+      <figcaption>4. Draw the pitch circles for both pulleys and add connecting lines for them to represent the belt path. Use the origin cube PulleyPD function to define the pulley circles</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s5.webp" style="width:100%">
-      <figcaption>5. Sketch the tubes by tracing over the layout sketch. There should be no dimensions in this sketch.</figcaption>
+      <img src="../images/flat-intake/parts-5.webp" style="width:100%">
+      <figcaption>5. Draw a rectangle to represent a 2x1 tube. This should be dimensioned above from the wheels and aligned with the edge of the bottom tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s6.webp" style="width:100%">
-      <figcaption>6. Extrude the lower and use tube converter to turn it into a thin-wall 1x1 with a 0.5" hole spacing pattern. We will create the upper tube in a later step.  </figcaption>
+      <img src="../images/flat-intake/parts-6.webp" style="width:100%">
+      <figcaption>6. Create a new sketch using a mate connector offset from the origin. This sketch should be offset in the "Right" direction as shown.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s7.webp" style="width:100%">
-      <figcaption>7. Create the plate sketch on the outside face of the 1x1 tube. Begin by sketching the bearing hole and motor bore hole.</figcaption>
-    </figure>
-  </div>
-
-  <!-- switch  s8 to a video? -->
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s8.webp" style="width:100%">
-      <figcaption>8. Sketch the 2" bolt circle for mounting motor. You can utilize the Origin Cube variable for a #10-32 clearance hole by typing <code>#10_32</code> into the dimension and selecting the <code>#Clearance_Fit_10_32</code> variable. Use a <code>Circular pattern</code> to pattern the hole sketch. Although we pattern the hole 6 times, we set three of them to construction geometry as we only need 3. Set the left most hole to be coincident with the centerline between the pulleys. </figcaption>
+      <img src="../images/flat-intake/parts-7.webp" style="width:100%">
+      <figcaption>7. Transfer the rectangles for the tubes from the layout sketch using the "Use" tool. Make sure these are not construction lines as you will need to extrude them.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s9.webp" style="width:100%">
-      <figcaption>9. Sketch the mounting holes by using a linear pattern. The tube holes are 0.196" in diameter (A #10-32 "close fit") so we will use the same size for the plate.</figcaption>
+      <img src="../images/flat-intake/parts-8.webp" style="width:100%">
+      <figcaption>8. Extrude the bottom tube by 1" towards the origin and apply Tube Converter to it</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s10.webp" style="width:100%">
-      <figcaption>10. Finish the plate sketch by drawing the plate outline around the sketch features.</figcaption>
+      <img src="../images/flat-intake/parts-9.webp" style="width:100%">
+      <figcaption>9. Start a sketch on the Right side of the 1x1 tube. Make sure to disable imprinting. Add circles centered on the motor and wheel circles from the layout sketch. Also transfer the CTC line with the use tool.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s11.webp" style="width:100%">
-      <figcaption>11. Extrude the plate to be 1/4" thick.</figcaption>
+      <img src="../images/flat-intake/parts-10.webp" style="width:100%">
+      <figcaption>10. Create the bolt circle pattern by drawing a circle on the CTC line, then use the pattern tool to duplicate it around the motor center point. This pattern should have 8 holes, and have a diameter of 2" to match the standard 2" motor bolt circle. We only need 3 of the 8 holes on this pattern so make the rest construction holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s12.webp" style="width:100%">
-      <figcaption>12. Create the pocketing sketch on the outside face of the plate. Sketch ribs to connect the mounting points.</figcaption>
+      <img src="../images/flat-intake/parts-11.webp" style="width:100%">
+      <figcaption>11. Add mounting holes along the bottom tube, spaced 2" apart. Add two more hole centered on the top tube spaced 1" apart.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s13.webp" style="width:100%">
-      <figcaption>13. Use the <code>Part Lighten</code> Featurescript to pocket the plate. We use 3/16" rib and wall thickness, and 0.26" tool diameter.</figcaption>
+      <img src="../images/flat-intake/parts-12.webp" style="width:100%">
+      <figcaption>12. Draw the plate outline around the holes. Draw arcs around all of the edge holes and connect them with tangent lines.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s14.webp" style="width:70%">
-      <figcaption>14. You may have noticed in the previous step that the pocketing created some unsightly bumps along the outside contour as a result of the mounting holes. We will make these edges smooth with a simple trick in the next slide. </figcaption>
+      <img src="../images/flat-intake/parts-13.webp" style="width:100%">
+      <figcaption>13. Extrude to create the plate. If you properly disabled imprinting on slide 9 you should only have one face to select to extrude this plate.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s15.webp" style="width:100%">
-      <figcaption>15. Open the pocketing sketch and sketch two lines spaced exactly half the pocketing wall thickness away from the outer edge of the mounting hole (NOT the center of the circle). In our case, this would be half of 3/16". This "tricks" the Part Lighten Featurescript by creating an extra rib where the bumps would have been.</figcaption>
+      <img src="../images/flat-intake/parts-14.webp" style="width:100%">
+      <figcaption>14. Mirror this plate across the Right plane to create a reference plate. You should color this plate an abnormal color so it is easily distinguishable from the main plate. Name this reference plate "zREF Plate". This will make it appear at the bottom of the insert menu, making it harder to accidentally use in the assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s16.webp" style="width:100%">
-      <figcaption>16. Edit the <code>Part Lighten</code> feature to include the two new ribs. The pocketed part should no longer have the bumps. </figcaption>
+      <img src="../images/flat-intake/parts-15.webp" style="width:100%">
+      <figcaption>15. Extrude the top tube shape. Make sure to use the "Up to Face" setting to extrude the tube parametrically to the reference plate.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s17.webp" style="width:100%">
-      <figcaption>17. To create a reference for extruding the upper tube, we use the <code>Mirror</code> feature to mirror the plate across the Right plane. Since we do not want to actually use this component in the assembly, we can change the color of the part and add <code>zREF</code> to the part name so that it will appear at the very bottom of the part list when inserting parts in the assembly.</figcaption>
+      <img src="../images/flat-intake/parts-16.webp" style="width:100%">
+      <figcaption>16. Use Tube Converter on this new tube.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s18.webp" style="width:100%">
-      <figcaption>18. Using the tube sketch we created earlier in the part studio, we can now extrude the upper tube profile up to the mirrored plate's inside face. This ensures that the upper tube is parametric to changes in intake width.</figcaption>
+      <img src="../images/flat-intake/parts-17.webp" style="width:100%">
+      <figcaption>17. Make a sketch on top of the 1x1 tube, again making sure to disable imprinting. Sketch the plate as shown.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s19.webp" style="width:100%">
-      <figcaption>19. Convert the solid into a 2x1 thin-wall tube with 0.5" hole pattern spacing. </figcaption>
+      <img src="../images/flat-intake/parts-18.webp" style="width:100%">
+      <figcaption>18. Use the `Belt & Chain Gen` Featurescript to make a belt between the motor and wheel holes. Pay close attention to the starting offset and the construction circles you select.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s20.webp" style="width:100%">
-      <figcaption>20. Sketch and extrude the 0.125" thick polycarbonate plate on the top face of the bottom tube. It will have a mounting hole in each corner and be spaced away from the edges of the 1x1 tube by 0.125".</figcaption>
+      <img src="../images/flat-intake/parts-19.webp" style="width:100%">
+      <figcaption>19. Create the wheel shaft using the Robot Shaft Featurescript. The start mate connector should be placed in the middle of the belt and run up to the left face of the reference plate. The shaft should be offset from the end by 1/16" to account for the bearing flange. The shaft should also have a starting offset of 9/32" to put it through the wheel pulley.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s21.webp" style="width:100%">
-      <figcaption>21. Model the roller shaft with the <code>Shaft</code> Featurescript. You can estimate the length first and then adjust it once you create the assembly.</figcaption>
+      <img src="../images/flat-intake/parts-20.webp" style="width:100%">
+      <figcaption>20. Now that our parts are all done, we can pocket the side plate. Create a sketch on the Right side of the plate, and draw the rib lines. The top left line is dimensioned away from the top bolt holes.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s22.webp" style="width:100%">
-      <figcaption>22. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offet by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
+      <img src="../images/flat-intake/parts-21.webp" style="width:100%">
+      <figcaption>21. Use the Part Lighten Featurescript to pocket the plate. Select the face of the plate, and the entire rib line sketch as shown.</figcaption>
     </figure>
-  </div>
+  </div>  
 
-  <div class="mySlides fade">
+  <div id="slide1" class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/s23.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>23. Use the Assembly Mirror Featurescript (you can add this using the link above the slides). The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/s0.webp" style="width:100%">
-      <figcaption>24. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <img src="../images/flat-intake/parts-0.webp" style="width:100%">
+      <figcaption>22. Make sure to organize your part studio features into appropriate folders.</figcaption>
     </figure>
   </div>
 
@@ -238,128 +217,64 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a0.webp" style="width:100%">
+    <div class="slide-content">
+      <img src="../images/flat-intake/assy-0.webp" style="width:100%">
       <figcaption>0. Final assembly.</figcaption>
-    </figure>
+    </div>
   </div>
 
   <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates, tubes, and shaft with the origin cube. Fasten the cube to the origin.</figcaption>
-    </figure>
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/H6y1S_cHLKk?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>1. Insert the part studio and delete the reference plate. Group all of these components together, and fasten the origin cube to the assembly origin</figcaption>
+    </div>
   </div>
-
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/_CIzPllEGyU?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>2. Use the Assembly Mirror tool to copy the bottom tube and plate over to the other side. You can use a mate connector in the middle of the origin cube's edge as a mirror plane</figcaption>
+    </div>
+  </div>  
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/pz9FJVzkWjg?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>3. Insert 2x1 Tube plugs with a the 1/16" Sleeve to fit the top tube. Mate these tube plugs to the ends of the top tube.</figcaption>
+    </div>
+  </div>  
+  <div class="mySlides fade">
+      <div class="slide-content">
+        <iframe src="https://www.youtube.com/embed/aNM9l2OV1fY?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>4. Insert the motor, pulley and shaft spacers. Assemble the motor shaft parts together and mate it to the side plate on the Right side.</figcaption>
+      </div>
+    </div>  
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/iQ3y-yqWeA4?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>5. Insert two hex bearings for the wheel shaft and mate them to the plates.</figcaption>
+    </div>
+  </div>  
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/RMAst7Xcz4Y?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>6. Insert a 1" Hex Spacer and a 2" Compliant wheel. Mate them together, and then to the right bearing. Use a Linear Pattern to copy the wheel and spacer across the shaft. Put a final 1/2" Spacer at the end of the wheels to fully constrain them.</figcaption>
+    </div>
+  </div>  
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/xrIZ7Ph1DAo?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>7. Insert shaft end screws and mate one to each side of the wheel shaft.</figcaption>
+    </div>
+  </div>  
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/quIf3misSe4?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>8. Use nuts, bolts and rivets to fasten the structure pieces together. You can make use of assembly mirror to speed up the process since the fasteners are mostly symmetrical.</figcaption>
+    </div>
+  </div>
   <div class="mySlides fade">
     <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a2.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>2. Copy the side plate and use the mate connectors generated by the <code>Assembly Mirror</code> Featurescript to fasten the plate into place. The location of the "mirrored" plate is fully parametric as the mate connectors generated by the Featurescript will automatically update when changes to the plate occur. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a3.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>3. Insert the upper tube plugs and make a copy of the lower tube. Fasten all the components to their correct locations.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a4.webp" style="width:100%">
-      <figcaption>4. Insert the motor and roller pulleys and fasten them into place. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a5.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>5. Fasten the belt to the roller pulley. Double check that the motor pulley is properly lined up with the belt.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a6.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>6. Insert and fasten the Configurable Spacer Stack and flex wheel. The spacer stack is a configurable assembly that will automatically calculate the optimal stack of spacers to fill a gap. While this functionality is not used for this exercise, it will be very useful in later exercises. When fastening the Spacer Stack assembly, make sure to select the pre-generated mate connectors on each end and NOT the spacer body. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a7.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>7. Use the <code>Linear Pattern</code> feature to pattern the spacer and wheel.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <video width="1920" controls>
-        <source src="/img/learning-course/stage1c/flat-intake/a8.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>8. Copy the Spacer Stack and modify it to be 0.5" long, then fasten it into place to finish the roller.</figcaption>
-    </figure>
-  </div>
-  
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a9.webp" style="width:100%">
-      <figcaption>9. Insert, fasten, and replicate 3/16" rivets from MKCad to attach the plate to the lower tube.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a10.webp" style="width:100%">
-      <figcaption>10. Insert, fasten, and replicate 0.5" long #10-32 bolts from the Standard Content Library for attaching the the tube plug on the upper tube. </figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a11.webp" style="width:100%">
-      <figcaption>10. Insert, fasten, and replicate 1/2" long 10-32 boltwashers from MKCad for shaft retention.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a12.webp" style="width:100%">
-      <figcaption>11. Insert, fasten, and replicate 0.5" long #10-32 bolts from the Standard Content Library for attaching the motor.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a13.webp" style="width:100%">
-      <figcaption>12. Insert, fasten, and attach 1.5" long #10-32 bolts from the Standard Content Library for attaching the polycarb panel. Also add #10-32 thin jam nuts from MKCad Library.</figcaption>
-    </figure>
-  </div>
-
-  <div class="mySlides fade">
-    <figure>
-      <img src="/img/learning-course/stage1c/flat-intake/a0.webp" style="width:100%">
-      <figcaption>13. Finish your assembly by organizing the parts into folders and naming your replicates.</figcaption>
+      <img src="../images/flat-intake/assy-0.webp" style="width:100%">
+      <figcaption>9. Finish your assembly by organizing the parts into folders and naming your replicates.</figcaption>
     </figure>
   </div>
   
@@ -374,12 +289,12 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
 </div>
 
 !!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 32 instances.
+    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}
 
 ### Parametric Modeling
 
 Some of the steps we took to complete this exercise could have been simplified.
-For instance, we didn’t necessarily *need* to use the Assembly Mirror feature for the plate.
+For instance, we didn’t necessarily *need* to make the shaft properly positioned/aligned in the part studio.
 We didn’t *need* to use an “Up to face” extrude for the upper tube. 
 
 However, we practice these techniques because, while they may marginally increase modeling time upfront, they can save ***significant*** amounts of time when going back and editing.

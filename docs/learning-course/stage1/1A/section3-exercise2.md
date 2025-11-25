@@ -1,22 +1,29 @@
-# Exercise 2: Swerve Drive Assembly
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 2: Swerve Drive Assembly
 
-Now that you've played with basic rivets, let's mess around and toss them on our drivetrain.
+Now that you've learned to use basic rivets, let's install them on a drivetrain.
 
----
-## Watch the Walkthrough
+To get started, find the "S3 Exercise 2" part studio in the "Section 3" folder in your copy of the template document.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/_wJ5COpD7J0" frameborder="0" allowfullscreen></iframe>
+**Follow the video below** to complete the exercise.
 
-## Your Task
+<figure>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/UZHMD1GFG44?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+</figure>
 
-- Open the "Assemblies - Exercise 2 Swerve Drive" tab.
-- Add the other gussets to the assembly by copy pasting them.
-- Insert rivets from MKCAD and fasten them to the gussets using the new replicate tool.
-- Insert **MK4i N** drive modules (both **A** and **B** variants).
-- Attach modules
+!!! Tip
+    The `replicate` tool is introduced in this exercise. You can use it to easily copy components into similar geometry such as rivets, bolts, or bearings into equal size holes.
 
----
+1. Copy, paste, and fasten the remaining gussets onto the drivetrain frame.
+2. Insert rivets from FRCDesignLib and fasten them to the gussets using the **Replicate** tool.
+3. Insert **MK4i** drive modules (Don't worry about the configuration, just leave it as the default).
+4. Fasten the modules to the frame. **Don't worry about adding bolts yet**.
 
-## When You're Ready
+!!! Tip
+    Try and use the assembly circular pattern tool to copy one module around the whole drivebase.
 
-Continue to [Exercise 3: Bolts + Nuts](section3-exercise3.md).
+<br>
+
+Once the gussets, rivets, and swerve modules are inserted, move on to the next exercise.
+
+<br>

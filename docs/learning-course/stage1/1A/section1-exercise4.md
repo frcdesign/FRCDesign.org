@@ -1,4 +1,4 @@
-# 1A: Onshape Fundamentals
+# 1A: Onshape Fundamentals - Section 1
 ## Exercise 4: Sketching the Drivetrain Frame
 
 Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
@@ -14,7 +14,7 @@ Watch the video below and follow along to create your drivetrain sketch while le
 <br>
 
 <figure>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/lDW9H3a70aM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="768" height="432" src="https://www.youtube.com/embed/lDW9H3a70aM?controls=1&rel=0&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 Your goal is to sketch and extrude the rectangles shown below, then convert them into tubes them using `Tube Converter`.

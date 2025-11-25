@@ -1,19 +1,22 @@
-# Exercise 5: Adding Fasteners and Gussets to a Full Frame
+# 1A: Onshape Fundamentals - Section 3
+## Exercise 5: Adding Fasteners and Gussets to a Full Frame
 
-In section 2, your last exercise involved a full superstructure with a bunch of plates and gussets. Insert that part studio, assemble it, and measure and add all of the fasteners that you feel like you need.
+In the final exercise of 1A, you will assemble a full superstructure with various plates and gussets. 
 
-The goal here is just to get practice and put everything you learned together.
+Insert the part studio from Section 2: Exercise 3 and assemble all of the plates and gussets together. Add the rest of the gussets, the swerve modules, rivets, and bolts.
+
+<figure>
+  <img src="/img/learning-course/stage1a/superstructure-gusset-example.webp" style="width:75%">
+  <figcaption>Section 2: Exercise 3 Part Studio Example</figcaption>
+</figure>
+
+The goal here is to practice applying everything you've learned so far.
 
 !!! tip
-
-    - A good rule of thumb is to have 1 bolt and have the rest of the holes be rivets
-    - CTR + C and CTR + V is your friend
-
-Good luck!
+    CTRL + C and CTRL + V is your friend
 
 ---
 
+Once you're done assembling the drivebase and frame, move on to 1B to learn how to design and assemble gearboxes and belt drives!
 
-## When You're Ready
-
-Move on to [Stage 1B](../stage1/1B/introduction.md).
+<br>

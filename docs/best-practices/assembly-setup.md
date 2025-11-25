@@ -69,7 +69,7 @@ Now create a top-level subsystem assembly and insert each subassembly into it. F
 
 
 ??? Example "3647 Millennium Falcons 2024 Intake"
-    <center><img src="/img/best-practices/0200-A.webp"><figcaption>Top Level Assembly: 0200-A-Intake. Notice that there is only two mates. The revolute is between the two intake pivot mate connectors, which are attached to the repective origin cubes.</figcaption></center>
+    <center><img src="/img/best-practices/0200-A.webp"><figcaption>Top Level Assembly: 0200-A-Intake. Notice that there is only two mates. The revolute is between the two intake pivot mate connectors, which are attached to the respective origin cubes.</figcaption></center>
 
     <center><img src="/img/best-practices/0210-A.webp"><figcaption>Stationary Components Assembly: 0210-A-Intake Base. The components are group mated and the origin cube is fastened to the origin.</figcaption></center>
 
@@ -84,7 +84,7 @@ Now create a top-level subsystem assembly and insert each subassembly into it. F
 
 Make sure to minimize primitives in your assembly. Primitives are a measure of how complex the object is and how hard it is for Onshape to render. The more primitives there are, the more laggy your assembly will be.
 
-Use [simplified models](https://www.frcdesign.org/resources/simplified/ "Simplified Models Page") wherever possible to minimize primitives: electronics, swerve modules, motors, etc. Some of these are added to MKCAD as well.
+Use simplified modules from [FRCDesignLib](../../course-setup/required-course-tools/part-library.md "Adding FRCDesignApp Tutorial Page"){:target="_blank"} wherever possible to minimize primitives: electronics, swerve modules, motors, etc.
 
 ??? Video "Minimize Primitives"
     <video controls="true" allowfullscreen="true" poster="/img/best-practices/minimizePrimitives.webp">
@@ -93,7 +93,7 @@ Use [simplified models](https://www.frcdesign.org/resources/simplified/ "Simplif
 
 ### Other Small Things
 
-- Import COTS parts from MKCAD
+- Import COTS parts from FRCDesignLib
 - Use the **replicate tool** for adding hardware!
 - Minimize the number of mates you use; this lowers the solve time
 - Stay organized with folders

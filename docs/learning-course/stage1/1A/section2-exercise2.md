@@ -1,33 +1,32 @@
-# Exercise 2: Plates Gussets
+# 1A: Onshape Fundamentals - Section 2
+## Exercise 2: Gusset
 
-In the last exercise, we made a single plate in isolation. Now lets use some of the tools we learned previously in combination with these new ones. In the past we made the tube layouts for drivetrains, now lets connect some of those tubes together.
+In the last exercise, we made a single plate in isolation. In this exercise, you will create a plate that connects two box tubes together by combining tools learned previously with one new tool.
 
-Let’s make a gusset for our drivetrain tubes. By making use of the "Use" tool you can easily copy holes from the drivetrain tubes to start your plate sketch. Heres a video showing how to use the "Use" tool:
+To get started, find the "Exercise 2: Gussets" part studio in the "Section 2" folder in your copy of the template document. 
+
+Your task is **create a simple gusset for the provided drivetrain frame** by **repeating the workflow** you should have memorized in the previous exercise. The holes for this gusset will be copied into the sketch from the tubes of the frame with the `Use` tool: 
+
+!!! Warning
+    **Do not use the gusset featurescript tool!** This exercise is meant to help you practice the plate workflow and learn how to create a gusset. The gusset featurescript can easily break if the tubes are changed and the gusset shape is inflexible, so it is not recommended.
 
 <center markdown>
-<iframe src="https://www.youtube.com/embed/9UZ3GaXC-w8" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aS1xknADBaE?controls=1&rel=0&showinfo=0&vq=hd1080" width="768" height="432" frameborder="0" allowfullscreen></iframe>
 </center>
 
-
-## Your Task
-
-Your task is to make use of the "Use" tool to draw a simple gusset for the provided drive frame. To get started find the "Exercise 2: Gussets" part studio in the "Section 2" folder of the template document. 
-
-Simply repeat the steps you should have memorized in the previous exercise but with the holes of this new gusset. Your final gusset should look like this:
+Your final gusset should look like this:
 
 <figure>
-  <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:75%">
+  <img src="/img/learning-course/stage1a/plate-gusset-example.webp" style="width:50%">
 </figure>
 
-## Key Things to Watch For
-
 !!! tip "Remember..."
-    - The keybind for "Use" is the "U" key.
-    - Arcs should only go on the corners of the gusset not on every hole.
+    - The keybind for the `Use/Project` tool is the `U` key.
+    - Arcs should only go on the corners of the gusset, not on every hole.
 
 ### Complete?
-Try and remake ths gusset for a different section of the frame!
+Try and **remake this gusset** (or a gusset of a different shape, maybe a T) for a **different section of the frame**!
 
-## When You're Ready
+When you're done with the **two gussets**, move on to the next exercise
 
-Continue to [Exercise 3: Superstructure Gussets](section2-exercise3.md).
+<br>
