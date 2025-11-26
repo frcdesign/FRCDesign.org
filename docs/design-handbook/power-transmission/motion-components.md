@@ -65,7 +65,7 @@ This setup allows X-Contact bearings to withstand much more [thrust](link-url "h
 
 ## Bushings
 
-A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles rotate simply on a greased surface. Although bearings are the preferred solution in most cases, in low speed applications bushing can have the upper hand for being smaller and lighter than bearings. They usually have a flange but other types can be sourced from non-FRC vendors. 
+A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles simply rotate on a self-lubricating surface (i.e. brass). Although bearings are the preferred solution in most cases because they reduce friction and support load most effectively, in low speed applications bushing have the upper hand for being smaller and lighter than bearings. They usually have a flange but other types can be sourced from non-FRC vendors. 
 
 <figure>
       <img src="/design-handbook/power-transmission/images/citrus-bushing.png" style="width:50%">
@@ -163,7 +163,7 @@ Collars are regardeda as a quick and easy way to retain shafts. They hug the sha
       <figcaption>Shaft collar on 1/2" hex axle.</figcaption>
 </figure>
 
-Shaft collars can be useful in scenarios where there is a lot of space on an axle. Instead of spamming spacers, a lock collar can be attached to retain components on the shaft between bearings. If the bearing flanges are pointed towards each other, this is an effective way to retain an entire axle using only one lock collar. 
+Shaft collars can be useful in scenarios where there is a lot of space on an axle. Instead of spamming spacers, two lock collar can be attached on the inside between bearings to retain the shaft. If the bearing flanges are pointed towards each other, this is an effective way to retain an entire axle using just one lock collar (however this method still requires spacers, as seen in the example with 2910). 
 
 <figure>
       <img src="/design-handbook/power-transmission/images/2910-shaft-tech.webp" style="width:50%">
