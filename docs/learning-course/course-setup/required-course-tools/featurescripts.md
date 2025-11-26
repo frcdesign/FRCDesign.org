@@ -12,7 +12,7 @@ To get you started, lets install all the Featurescripts that you will utilize in
 
     a. Click "Custom Features" at the top of the page
 
-    b. Add the `Extrude Individual` and `Tube Converter` Featurescripts
+    b. Add the `Extrude Individual`, `Fillet All Edges`, and `Tube Converter` Featurescripts
 
     !!! Tip
         Once you've selected the featurescripts, you can just close the tab.
