@@ -1,12 +1,12 @@
 # Fastener Standards
 
-A guide on fasteners and fastener standards common in FRC. They come in all sorts of shapes and sizes for various different applications and use cases. At there core, they are used to attach 2 or more parts together in order to contruct your robot. 
+A guide on fasteners and fastener standards common in FRC. They come in all sorts of shapes and sizes for various different applications and use cases. At there core, they are used to attach 2 or more parts together in order to construct your robot. 
 
 ## Fasteners in CAD
 
 ### Why?
 
-Putting all of your fasteners in your CAD is **very important** for a few reasons. Putting hardware in your CAD lets you check clearences between parts, have an accurate BOM so you know exactly what you need to order, and it makes it easy for your team to assemble the robot. 
+Putting all of your fasteners in your CAD is **very important** for a few reasons. Putting hardware in your CAD lets you check clearances between parts, have an accurate BOM so you know exactly what you need to order, and it makes it easy for your team to assemble the robot. 
 
 ### Best Practices
 
@@ -23,10 +23,10 @@ Replicate Tool - You only need to import each unique size of fastener per assemb
 ### Bolts
 | Type of Bolt | Description | Image |
 |:--------------:|:-------:|:-------:|
-| Socket Head Cap Bolt (SHCS)| Standard bolt, hard to strip out due to the larger tool used with it | <![Alt text](image.png)> |
-| Button Head Bolt | Has a wider, rounded head that is thinner than the socket head bolt | ![Alt text](image-1.png) |
-| Flathead/Countersunk Bolt | Meant to be flush with the material, requires you to countersink the hole its going into | ![Alt text](image-2.png) |
-| Shoulder Bolt | Bolt with a smooth portion mean to act as a small shaft for a bearing or bushing | ![Alt text](image-3.png) |
+| Socket Head Cap Bolt (SHCS)| Standard bolt, hard to strip out due to the larger tool used with it | ![](images/bhcs.webp) |
+| Button Head Bolt | Has a wider, rounded head that is thinner than the socket head bolt | ![](images/bhcs.webp) |
+| Flathead/Countersunk Bolt | Meant to be flush with the material, requires you to countersink the hole its going into | ![](images/fhcs.webp) |
+| Shoulder Bolt | Bolt with a smooth portion mean to act as a small shaft for a bearing or bushing | ![](images/shoulder-bolt.webp) |
 
 ### Nuts
 | Types of Nuts | Description | Image |
