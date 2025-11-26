@@ -11,7 +11,7 @@ description: FRCDesignLib is a library of FRC COTS components and assemblies mai
 
 # FRCDesignLib
 
-<center><img src="../images/frcdesignlib-banner.webp"></center>
+<center><img style="border-radius: 10px" src="../images/frcdesignlib-banner.webp"></center>
 
 FRCDesignLib is a library of FRC COTS components and assemblies maintained by the community. The typical way to use it is through the FRCDesignApp, which allows you to insert or derive those components into your documents easily.
 
