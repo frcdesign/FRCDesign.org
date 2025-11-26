@@ -65,7 +65,7 @@ This setup allows X-Contact bearings to withstand much more [thrust](link-url "h
 
 ## Bushings
 
-A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles simply rotate on a self-lubricating surface (i.e. brass). Although bearings are the preferred solution in most cases because they reduce friction and support load most effectively, in low speed applications bushing have the upper hand for being smaller and lighter than bearings. They usually have a flange but other types can be sourced from non-FRC vendors. 
+A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles simply rotate on a self-lubricating surface (i.e. brass). Although bearings are the preferred solution in most cases because they reduce friction and support load most effectively, in low speed applications bushings have the upper hand for being smaller and lighter than bearings. They usually have a flange but other types can be sourced from non-FRC vendors. 
 
 <figure>
       <img src="/design-handbook/power-transmission/images/citrus-bushing.png" style="width:50%">
@@ -156,7 +156,7 @@ Tapping a shaft and screwing a bolt with a washer on is typically best practice.
 
 **Shaft Collars**
 
-Collars are regardeda as a quick and easy way to retain shafts. They hug the shaft by clamping in so the collar can't slide on the shaft. The benefit is that the length of the shaft does not have to be a defined length, unlike with bolt and washer, which makes it great for quick builds/prototypes. However, they are typically not best practice to use and should only be used if needed. In addition, they are almost exclusively used for hex and MAXSpline/SplineXL profiles.
+Collars are regarded as a quick and easy way to retain shafts. They hug the shaft by clamping in so the collar can't slide on the shaft. The benefit is that the length of the shaft does not have to be a defined length, unlike with bolt and washer, which makes it great for quick builds/prototypes. However, they are typically not best practice to use and should only be used if needed. In addition, they are almost exclusively used for hex and MAXSpline/SplineXL profiles.
 
 <figure>
       <img src="/design-handbook/power-transmission/images/lockcollarexample.png" style="width:50%">
