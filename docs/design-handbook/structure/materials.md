@@ -27,7 +27,7 @@ Aluminum sheets can come in many thicknesses. The following are common thickness
 !!! Tip
     For outer frame tubes on a drivetrain, it is best practice that they are 1/8" rather than 1/16" because of the large forces they'd experience from robot collisions.
 
-**1/4":** Best thickness for anything structural, where strength is needed (i.e. high laod pivots).
+**1/4":** Best thickness for anything structural, where strength is needed (i.e. high load pivots).
 
 ### Alloy
 
@@ -50,8 +50,8 @@ Billet parts are blocks of metal that are machined through milling to remove par
 Also known as Lexan, polycarbonate or "polycarb" is a very versatile and useful material used in applications where less strength is needed and where aluminum is overkill/not optimal. Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc. - it will almost never shatter, and looks great.
 
 <figure>
-    <img src="/img/design-handbook/materials/" style="width:50%">
-    <figcaption></figcaption>
+    <img src="/img/mechanism-examples/intake/linkage/1678_2022_intake.webp" style="width:50%">
+    <figcaption>Example of polycarbonate plates on 1678's 2022 intake.</figcaption>
 </figure>
 
 !!! Warning
@@ -64,15 +64,15 @@ Also known as Lexan, polycarbonate or "polycarb" is a very versatile and useful 
 **1/4":** Great for applications where more strength is needed. For maximum strength, switching to aluminum instead may be better. 
 
 !!! Tip
-    "Smoked" or "tinted" polycarbonate can provide a more aesthetic look than clear. While making smoked polycarbonate is difficult, making frosted is easy! 30 seconds of sanding with an orbital sander using 240 grit will give the material a nice, glassy finish.
+    "Smoked" or "tinted" polycarbonate can provide a more aesthetic look than clear. While making smoked polycarbonate is difficult, making frosted is easy! 30 seconds of sanding with an orbital sander using 240 grit will give the material a nice, glassy finish. In addition, stickers (i.e. sponsor stickers) on the plate will stand out much more on tinted polycarbonate.
 
 
-!!! Note
+!!! Warning
     Make sure to check your supplier's thickness and tolerance for each material. Sometimes, something marketed as in imperial measurements is actually manufactured to fit metric tolerances. For instance: 1/4" polycarbonate is actually sometimes manufactured as 6mm, which is 14 thousandths of an inch off of 1/4in. Account for these actual stock measurements when designing to make sure things end up fitting together!
 
 ## Steel
 
-Steel is a useful alternative to aluminum when maximum strength is needed or for ballast. Some teams may opt to have a steel bellypan instead of aluminum, for example, in order to lower their center of gravity. It is also used in some COTS items like steel hex axles or bolts. Custom machined steel is rare in FRC because of how difficult it is to machine with (steel saws and sanders are needed to work with steel). In almost all cases, teams will have to reach out to an outside manufacturer in order to make it. 
+Steel is a useful alternative to aluminum when maximum strength is needed or for ballast. Some teams may opt to have a steel bellypan instead of aluminum, for example, in order to lower their center of gravity. It is also used in some COTS items like steel hex axles or bolts. Custom machined steel plates or parts are rare in FRC because of how difficult it is to machine with (steel saws and sanders are needed to work with steel). In almost all cases, teams will have to reach out to an outside manufacturer in order to make it. 
 
 ## Self-Reinforced Polypropylene (SRPP)
 
@@ -94,6 +94,6 @@ The major drawback is its expense: it costs $250 a sheet compared to $80 for pol
 
 ## Wood
 
-
+Wood is a useful material for prototyping or testing ideas before creating it out of the intended (and more expensive) material. Due to its brittleness, it should almost never be on an FRC robot. It is easy to source, machine, and use, and can be an essential tool for prototyping whole mechanisms before they're put on the robot. 
 
 <br>
