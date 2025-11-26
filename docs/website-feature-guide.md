@@ -48,7 +48,7 @@ Important Onshape documents for the page will be shown as a button like the one 
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/learning-course/stage1/1B/images/exercises/exercise2/assy-0.webp" style="width:65%">
+        <img src="/learning-course/stage1/1B/images/exercises/exercise2/assy-0.webp" style="width:100%">
         <figcaption> Navigate the slideshows by pressing the arrows on the sides. </figcaption>
     </figure>
 </div>
