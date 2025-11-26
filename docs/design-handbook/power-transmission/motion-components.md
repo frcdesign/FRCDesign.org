@@ -2,9 +2,9 @@
 
 A guide on bearings, bushings, and axles, including the mechanics behind transmission of torque through axles. This page also contains tips on how to manufacture and assemble these parts. 
 
-## Bearings
+## Radial Bearings
 
-Bearings are the most important and common type of motion component, used by virtually every team. The most common use of bearings is for allowing axles to spin freely with a low friction connection. They are incredibly important for making sure an axle can smoothly rotate. Bearings are recommended in low torque applications, but can handle very high speeds.
+Radial bearings are the most important and common type of motion component, used by virtually every team. The most common use of bearings is for allowing axles to spin freely with a low friction connection. They are incredibly important for making sure an axle can smoothly rotate, and are much more effective at this than other options like bushings. Bearings are recommended in low torque applications, but can handle high speeds.
 
 There are other applications of bearings, such as in eleavtor bearing blocks where they slide along a surface to allow for less friction, however this section is dedicated specifically for bearings' use in rotational systems. 
 
@@ -12,7 +12,7 @@ There are other applications of bearings, such as in eleavtor bearing blocks whe
     An axle on bearings is not a structural or rigid component, which means that it cannot support a structure, unlike a spacer bolted rigidly. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/bearing-context.png" style="width:70%">
+      <img src="/design-handbook/power-transmission/images/bearing-context.png" style="width:70%">
       <figcaption>Flanged bearing used on rollers for 1678's 2024 robot.</figcaption>
 </figure>
 
@@ -24,64 +24,64 @@ They are the most common types of bearings. They have a flange which allows them
 
 ### Standard Bearings
 
-They are very similar to flanged bearings, but they do not have  a flange. They are usually used in spaces where a flange will not fit or is not necessary. They can be used in much of the same applications as flanged bearings, however extra care is needed to mount them.
+They are basically the same flanged bearings, but instead they do not have  a flange. They are usually used in spaces where a flange will not fit or is not necessary. They can be used in much of the same applications as flanged bearings, however extra care is needed to mount them.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/standard-bearing-context.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/standard-bearing-context.png" style="width:50%">
       <figcaption>Standard bearing in gearbox. The plate is half pocketed so that the bearing doesn't fall out, and is retained by a custom axle.</figcaption>
 </figure>
 
 ### Needle Bearings
 
-Needle bearings are a special type of bearing which is much thinner than flanged and standard bearings. They can be used in spaces where there is not enough space for a normal bearing and are almost always used for round axles. As a result, they are a very common option to use with [dead axle rollers](link-url "https://www.frcdesign.org/learning-course/stage1/1C/exercise2/"){:target="_blank"} as they can be press fit into the end caps. 
+Needle bearings are a special type of bearing which is much thinner than flanged and standard bearings. They can be used in spaces where there is not enough space for a normal bearing and are almost always used for round axles. As a result, they are a common option to use with [dead axle rollers](link-url "https://www.frcdesign.org/learning-course/stage1/1C/exercise2/"){:target="_blank"} as they can be press fit into the end caps. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/1540needlebearing.png" style="width:70%">
+      <img src="/design-handbook/power-transmission/images/1540needlebearing.png" style="width:70%">
       <figcaption>Needle bearing used in dead axle rollers for 1540's 2025 intake. Allows roller to spin around a rigid axle.</figcaption>
 </figure>
 
-### X-Contact
+## X-Contact
 
 X-Contact bearings operate with completely different use cases and applications than typical ball bearings. They typically have a much larger diameter than most bearings. As a result, they are commonly used in swerve drives or turrets to allow free rotation of these systems. X-Contact bearings are also assembled differently compared to typical bearings.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/x-contact-context.png" style="width:70%">
+      <img src="/design-handbook/power-transmission/images/x-contact-context.png" style="width:70%">
       <figcaption>X-Contact bearing in an MK4 swerve module. Allows wheel to rotate freely.</figcaption>
 </figure>
 
 <div style="display: flex; gap: 15px; align-items: flex-start;">
   <figure style="flex: 1;">
-    <img src="/img/design-handbook/motion-components/JGKWXv2OdJCRBAJ8O1yNFD2TTZEuUdvi.webp" style="width:90%">
+    <img src="/design-handbook/power-transmission/images/JGKWXv2OdJCRBAJ8O1yNFD2TTZEuUdvi.webp" style="width:90%">
     <figcaption>X-Contact bearing setup. The ball is contacted on 4 points instead of 2 in standard bearings.</figcaption>
   </figure>
 
   <figure style="flex: 1;">
-    <img src="/img/design-handbook/motion-components/TypeC.webp" style="width:90%">
+    <img src="/design-handbook/power-transmission/images/TypeC.webp" style="width:90%">
     <figcaption>Standard ball bearing setup. Ball is contacted on 2 points vertically.</figcaption>
   </figure>
 </div>
 
 This setup allows X-Contact bearings to withstand much more [thrust](link-url "https://en.wikipedia.org/wiki/Thrust_bearing"){:target="_blank"} force than typical bearings, meaning it can withstand loads laterally rather than rotationally. This is very useful for places where a lot of weight is against the bearing vertically, such as in swerve modules where the bearings must be able to hold the entire weight of the robot. 
 
-### Bushings
+## Bushings
 
-A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles rotate simply on a greased surface. They usually have a flange but other types can be sourced from non-FRC vendors. 
+A common type of bearing used in FRC are bushings.  Bushing are often used for high torque, low speed applications, such as [dead axle pivots](link-url "https://www.frcdesign.org/learning-course/stage2/2B/introduction/"){:target="_blank}. They are much simpler than ball bearings; instead of using balls to allow for smooth roational movement, axles rotate simply on a greased surface. Although bearings are the preferred solution in most cases, in low speed applications bushing can have the upper hand for being smaller and lighter than bearings. They usually have a flange but other types can be sourced from non-FRC vendors. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/citrus-bushing.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/citrus-bushing.png" style="width:50%">
       <figcaption>Bushing mounted to 1678 2024 shooter, which allows it to pivot freely around an axle.</figcaption>
 </figure>
 
-### Other Bearings
+## Other Bearings
 
-There are a wide variety of bearings with limited use in FRC, such as thrust bearings or linear bearings. These types of bearings usually have very specific use cases not relevant to FRC. More information about them can be found on [McMaster-Carr's website](link-url "https://www.mcmaster.com/products/bearings/"){:target="_blank"}, a common vendor in industry.
+There are a wide variety of bearings with limited use in FRC, such as thrust bearings or linear bearings. These types of bearings usually have specific use cases not relevant to FRC. More information about them can be found on [McMaster-Carr's website](link-url "https://www.mcmaster.com/products/bearings/"){:target="_blank"}, a common vendor in industry.
 
 ## Axles
 
 Axles, also known as shafts, are often used to transmit torque in power transmission and facilitate rotational motion. They are one of the most important components in FRC and allow the assembly of everything from rollers and wheels to pivots and arms. There are many types of axles from many vendors, however they can be classified by **material**, **diameter**, and **profile** (i.e. round vs hex). It is critical to consider these variables when designing mechanisms as they can affect the end product immensely. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/axleExample.png" style="width:70%">
+      <img src="/design-handbook/power-transmission/images/axleExample.png" style="width:70%">
       <figcaption>Typical 1/2" rounded hex axle on two bearings, retained with bolts.</figcaption>
 </figure>
 
@@ -89,20 +89,26 @@ Axles, also known as shafts, are often used to transmit torque in power transmis
 
 Nearly all shafts are made from aluminum (7075/6061) or steel. Aluminum is typically the preferred material in all cases for its ease of manufacturing. 7075 Aluminum shafts can be stronger, though harder to cut and work with. 7075 shafts are often used in solid shafts, whereas 6061 is used in hollow shafts. In all, aluminum shafts are used for many applications such as rollers, gearboxes, etc.
 
-Steel is useful when the shaft diameter must be smaller yet needs to transmit high torque, like in pivot systems and gearboxes. Steel also weighs significantly more than aluminum, which is necessary to take into account.
+Nearly all shafts are made of aluminum or steel. Aluminum is the preferred material in all cases for its ease of manufacturing, with two major alloys used in FRC: 6061 and 7075. 
+
+**7075** is used in most hex axles (often solid hex shafts). 7075 aluminum is useful for when a higher strength is desired, however it is harder to cut and work with. In addition, it weighs slightly more than 6061 aluminum.
+
+**6061** is used in churros and most large diameter/round shafts. Although slightly weaker than 7075 aluminum, it is still quite useful; on the plus side, it is easier to cut and machine. 
+
+Steel is useful when the shaft diameter must be smaller yet needs to transmit high torque, like in pivot systems and gearboxes, however it is generally best practice to avoid using it. Steel also weighs significantly more than aluminum, which is necessary to take into account.
 
 !!! Important
-      Steel axles often require different manufacturing tools than aluminum axles. For assembly, it can be more difficult to slide wheels and other components onto a steel shaft than aluminum. As useful as it may be, be cautious of using it everywhere; it is not the end all be all.
+      Steel axles often require different manufacturing tools than aluminum axles. For assembly, it can be more difficult to slide wheels and other components onto a steel shaft than aluminum. As useful as it may be, be cautious of using it everywhere. It is not recommended to design for steel axles, but rather use them as swap-in replacements for when aluminum proves to be not strong enough.
 
 ### Diameter
 
-The diameters of FRC shafts vary wildly. The majority vary from 3/8" diameter to 1" diameter, however it is possible to source even larger axles from vendors outside FRC.
+The diameters of FRC shafts vary wildly. The majority vary from 3/8" diameter to 1" diameter, however it is possible to source even larger axles from vendors outside FRC. Most of the strength of a shaft comes from its outer diameter, which means large hollow tubes can be strength-to-weight efficient. 
 
-The general rule of thumb is that the higher the torque and load, the larger the shaft should be. If too small of an axle is used, no matter the material, it may be susceptible to twisting under high loads. For large cantilevered arms, very wide 2"+ axles are helpful for stability and strength. On the other side, smaller axles can be useful in scenarios where strength isn't as much of an issue for weight savings. 
+The general rule of thumb is that the higher the torque and load, the larger the shaft should be. If too small of an axle is used, no matter the material, it may be susceptible to twisting under high loads. For large cantilevered arms, wider 2"+ axles are helpful for stability and strength. On the other side, smaller axles can be useful in scenarios where strength isn't as much of an issue for weight savings. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/hexpivotfun.png" style="width:50%">
-      <figcaption>Twisted steel hex axle, 1/2" diameter. Was used for pivoting a very large load.</figcaption>
+      <img src="/design-handbook/power-transmission/images/hexpivotfun.png" style="width:50%">
+      <figcaption>Twisted steel hex axle, 1/2" diameter. Was used for pivoting an extremely large load.</figcaption>
 </figure>
 
 ### Profile
@@ -113,12 +119,12 @@ This is in contrast to **round profiles**, where a notch/key is required in orde
 
 Other profiles include:
 
-**MAXSpline/SplineXL:** REV/WCP brand. Similar to hex but can be used both for live axle and dead axle systems. Capable of transmitting large amounts of torque due to its large diameter.
+**MAXSpline/SplineXL:** REV/WCP brand. Similar to hex but has a much larger outer diameter can be used both for live axle and dead axle systems. Capable of transmitting large amounts of torque due to its large diameter.
 
 **Churro/Hex-Lite:** AndyMark/WCP brand. Very similar to hex and works in a pinch but hex is the preferred option.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/typesofshaftprofiles.png" style="width:90%">
+      <img src="/design-handbook/power-transmission/images/typesofshaftprofiles.png" style="width:90%">
       <figcaption>Various types of profiles. Left to right: Churro, Hex (standard), MAXSpline, Round (1")</figcaption>
 </figure>
 
@@ -133,7 +139,7 @@ Most bearings can be press fit into metal parts, like flanged and needle. Other 
 For bearings on polycarbonate or similarly bendy material, it is good practice to include proper bearing retention using "hats" which are bolted to the material and hold the bearing in place. This is needed due to the flexibility of polycarbonate, which may allow bearings to pop out, and is especially important if there are no spacers to properly support the polycarbonate plate. These hats can be bought by a vendor or custom 3D printed.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/bearinghat1540.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/bearinghat1540.png" style="width:50%">
       <figcaption>3D printed bearing hat on 1540's 2025 end effector.</figcaption>
 </figure>
 
@@ -150,11 +156,18 @@ Tapping a shaft and screwing a bolt with a washer on is typically best practice.
 
 **Shaft Collars**
 
-Collars are a very quick and easy way to retain shafts. The benefit is that the length of the shaft does not have to be a defined length, unlike with bolt and washer, which makes it very useful for quick builds/prototypes. However, they are typically not best practice to use and should only be used if needed. In addition, they are almost exclusively used for hex and MAXSpline/SplineXL profiles.
+Collars are regardeda as a quick and easy way to retain shafts. They hug the shaft by clamping in so the collar can't slide on the shaft. The benefit is that the length of the shaft does not have to be a defined length, unlike with bolt and washer, which makes it great for quick builds/prototypes. However, they are typically not best practice to use and should only be used if needed. In addition, they are almost exclusively used for hex and MAXSpline/SplineXL profiles.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/lockcollarexample.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/lockcollarexample.png" style="width:50%">
       <figcaption>Shaft collar on 1/2" hex axle.</figcaption>
+</figure>
+
+Shaft collars can be useful in scenarios where there is a lot of space on an axle. Instead of spamming spacers, a lock collar can be attached to retain components on the shaft between bearings. If the bearing flanges are pointed towards each other, this is an effective way to retain an entire axle using only one lock collar. 
+
+<figure>
+      <img src="/design-handbook/power-transmission/images/2910-shaft-tech.webp" style="width:50%">
+      <figcaption>Shaft collar retaining a 1/2" hex axle on 2910's climb axles. Note that the flanges of the bearings are pointing towards each, with only one lock collar used.</figcaption>
 </figure>
 
 **Clips and Rings**
@@ -162,8 +175,8 @@ Collars are a very quick and easy way to retain shafts. The benefit is that the 
 Another way of retaining axles is using clips and rings. They are great practice to use, and may be more convenient than bolt; for round axles, they can be incredibly useful. However, they require certain machining capabilities like access to a lathe that not all teams possess. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/1540retainingring.png" style="width:50%">
-      <figcaption>Groove on 1540's 2025 round axle for arm for holding a retaining ring.</figcaption>
+      <img src="/design-handbook/power-transmission/images/1540retainingring.png" style="width:50%">
+      <figcaption>Machined groove on 1540's 2025 arm shaft, allows a retaining ring to be put on.</figcaption>
 </figure>
 
 **Turned Down Axles**
@@ -171,7 +184,7 @@ Another way of retaining axles is using clips and rings. They are great practice
 Another way of retaining shafts is by physically cutting into the axle partially. This turned down part of the shaft sits in the bearing while the rest keeps the original profile. This retains a shaft without using other tools like bolts or collars, however it does require the ability to manufacture these parts, usually with a lathe. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/6328hexthing.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/6328hexthing.png" style="width:50%">
       <figcaption>Custom hex axle on 6328's pivot gearbox, 2023. Note that the unaffected part of the hex axle holds the bearing in.</figcaption>
 </figure>
 
@@ -182,7 +195,7 @@ Another way of retaining shafts is by physically cutting into the axle partially
 
 Dead axles must be rigidly mounted to a part in order to be structural. For tapped shafts, they can just be bolted into a plate, but with other types of axles like round axles, it requires slightly more difficulty. Mounting can be done in many ways:
 
-**COTS Plugs, Blocks, or Shaft Collars:** For MAXSpline/SplineXL systems, the typical way of mounting is using blocks and retaining with shaft collars. These are very vendor specific, for example WCP's billet plugs. For more information, visit [WCP's documentation](link-url "https://docs.wcproducts.com/frc-build-system/spline-and-motionx-system/splinexl-accessories"){:target="_blank} or [REV's documentation](link-url "https://docs.revrobotics.com/ion-build/motion/tubes-bushings-axles#application-example"){:target="_blank}. 
+**COTS Plugs, Blocks, or Shaft Collars:** For MAXSpline/SplineXL systems, the typical way of mounting is using blocks and retaining with shaft collars. These are vendor specific, for example WCP's billet plugs. For more information, visit [WCP's documentation](link-url "https://docs.wcproducts.com/frc-build-system/spline-and-motionx-system/splinexl-accessories"){:target="_blank} or [REV's documentation](link-url "https://docs.revrobotics.com/ion-build/motion/tubes-bushings-axles#application-example"){:target="_blank}. 
 
 **Tube Nuts:** Hammered into round axles, tube nuts are optimal for low load applications like dead axle rollers. It allows shafts to be bolted directly to a part/plate. They are preferred because they can be easily bought COTS, however they are difficult to use because they must be hammered in precisely; any misalignment can cause inaccuracies and problems down the line. 
 
@@ -192,7 +205,7 @@ Dead axles must be rigidly mounted to a part in order to be structural. For tapp
 **Billet Parts:** Many teams create custom, billet parts for mounting dead axles or even replacing them. Although significantly stronger than tube nuts, they require much more manufacturing ability than most teams are capable of. 
 
 <figure>
-      <img src="/img/design-handbook/motion-components/billet2910tech.png" style="width:50%">
+      <img src="/design-handbook/power-transmission/images/billet2910tech.png" style="width:50%">
       <figcaption>Custom billet tube plug on 2910's 2025 robot pivot. Holds one end of 2.5" OD custom dead axle. </figcaption>
 </figure>
 
@@ -200,7 +213,7 @@ Dead axles must be rigidly mounted to a part in order to be structural. For tapp
       If you are interested in billet tube plugs and have a lathe, it is possible to make a lathed version using spacers. A typical spacer wider than the axle's OD can be machined down into a "plug" similar to 2056's plugs, with a flange for holding it in. This plug can be press fit into the tube and secured with a roll pin or screw. See [2056's discussion on Chief Delphi](link-url "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550/130"){:target="_blank"} for more information.
 
 <figure>
-      <img src="/img/design-handbook/motion-components/2056techplugs.webp" style="width:90%">
+      <img src="/design-handbook/power-transmission/images/2056techplugs.webp" style="width:90%">
       <figcaption>Billet plugs on either end of dead axle for arm of 2056's 2025 robot.</figcaption>
 </figure>
 
