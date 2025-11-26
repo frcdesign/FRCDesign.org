@@ -23,6 +23,7 @@
         "Fabworks",
         "featurescripts",
         "Featurescripts",
+        "figcaption",
         "fontawesome",
         "footerlink",
         "frcdesign",
@@ -32,7 +33,6 @@
         "Krayon",
         "leaderboards",
         "mastersketch",
-        "MKCAD",
         "MNPJ",
         "Onshape",
         "Prequisites",
@@ -43,6 +43,7 @@
         "superfences",
         "twemoji",
         "Uncreate",
+        "webp",
         "writeups"
     ],
     "python.defaultInterpreterPath": "/usr/local/bin/python",

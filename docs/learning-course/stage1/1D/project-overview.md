@@ -8,7 +8,7 @@ A swerve drivebase is composed of four *swerve modules*. Each module has two mot
 <!-- You can learn more about drivetrains on the [Design Handbook](/design-handbook/mechanisms/drivetrain/) page. -->
 
 <figure>
-    <img src="\img\learning-course\stage1d\SwerveBase\DriveAssy.webp" style="width:80%">
+    <img src="../images/drivetrain-assembly.webp" style="width:80%">
     <figcaption>Stage 1D swerve drivebase project.</figcaption>
 </figure>
 

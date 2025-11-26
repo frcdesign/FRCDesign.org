@@ -18,7 +18,7 @@ Wrap refers to the duration the game piece stays in contact with the flywheel. A
 
 ???+ Video "Good Contact Time and Compression"
     <figure>
-    <iframe width="320" height="560" src="https://www.youtube.com/embed/9DEJG6eoeaQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="320" height="560" src="https://www.youtube.com/embed/9DEJG6eoeaQ?rel=0" frameborder="0" allowfullscreen></iframe>
     </figure>
     <figcaption>This is what it looks like if you have good contact time and compression with the exact same robot. (Warning: Loud Audio)</figcaption>
 

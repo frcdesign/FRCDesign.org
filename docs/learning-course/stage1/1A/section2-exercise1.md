@@ -36,7 +36,7 @@ It's this arbitrary hole spacing that is key to think about when designing plate
 A plate sketch is composed of circles for the holes, arcs for larger corner fillets, and lines to complete the shape. When making the shape of a plate think about the shape that would be made by tying a string around all of the mounting holes on a given plate. Here is a video demonstrating this concept for a very basic plate. No need to follow along here, just watch.
 
 <figure>
-    <iframe width="768" height="432" src="https://www.youtube.com/embed/mXzX9wmipV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/mXzX9wmipV8?controls=1&rel=0&showinfo=0&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
 This video also shows off the `tangent` constraint! This is one of the most frequently used constraints when designing plates since each mounting hole will have an arc around it to form the perimeter of the plate. The tangent constraint allows us to create a tangent line for an arc or circle. This is important to “smooth” out our plate. We don’t want sharp edges!

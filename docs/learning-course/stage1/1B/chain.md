@@ -7,7 +7,7 @@
 Roller chain and sprocket drives are very similar to belt and pulley transmissions. They consist of two main components: a chain, which is a series of interconnected links, and sprockets, which are toothed wheels that mesh with the chain. As the sprockets rotate, they engage with the chain, causing it to move and transmit power from one shaft to another. Bikes are an everyday object that use chain to transmit power. Chains excel at transmitting high force over long distances.
 
 <figure>
-    <img src="\img\learning-course\stage1b\chain\chainAnimation.gif" style="width:40%">
+    <img src="../images/chain/chain-animation.gif" style="width:40%">
     <figpcation>A simple animation of chain and sprocket. Notice that the sprockets will spin in the same direction.</figcaption>
 </figure>
 
@@ -23,12 +23,12 @@ To calculate the pitch diameter, the following equation can be used:
 
 Additionally, the **chain clearance diameter** describes the diameter of the sprocket with the chain wrapped around it. The following equation can be used:
 
-<center>**`Clearance Diameter = PD + Pitch`**</center>
+<center markdown>**`Clearance Diameter = PD + Pitch`**</center>
 
 Below is an illustration of the pitch, pitch diameter, outside diameter, and chain clearance diameter of a sprocket.
 
 <figure>
-    <img src="\img\learning-course\stage1b\chain\chainDiagram.webp" style="width:70%">
+    <img src="../images/chain/chain-diagram.webp" style="width:70%">
     <figcaption>Illustration of chain sprocket diameter measures. (Image source: <a href="https://docs.wcproducts.com/frc-build-system/belts-chain-and-gears/sprockets-and-chain">WCP</a>)</figcaption>
 </figure>
 
@@ -57,8 +57,8 @@ In Stage 2, different chain tensioning methods are introduced in the context of 
 
 !!! Example "Example of Chain Tensioning"
     <figure>
-        <img src="\img\learning-course\stage1b\chain\turnbuckle.webp" style="width:60%">
-        <figcaption>A "turnbuckle" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
+        <img src="../images/chain/turnbuckle.webp" style="width:60%">
+        <figcaption>A "turnbuckle" or "inline" chain tensioner. The turnbuckle acts as a variable-length link in the chain that can be adjusted to keep the chain tight. (Photo Credit: FRC 1538)</figcaption>
     </figure>
 
 <br>

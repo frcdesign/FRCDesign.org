@@ -67,11 +67,11 @@ Slicing software connects your 3D model to your 3D printer. It translates your d
 4. **Previewing the Slice** Most slicers have a preview mode. This shows exactly how the printer builds your part, layer by layer. This is a vital tool to spot issues (like unsupported overhangs or thin walls) before printing, saving time and material.  
 5. **File Formats to Import (STL, STEP)**  
     1. **STL (Stereolithography):** Represents a 3D model as connected triangles, a “mesh” format. Good for very intricate models such as sculptures, characters, freeform designs, and works with nearly every slicer. However, it does **not** contain unit information, so you must be careful about exporting and importing that the units match. When exported at low quality there will be tessellation artifacts that can affect the accuracy of things like holes or critical dimensions.  
-    2. **STEP :** Another popular format that can store color and texture, less common for basic FDM printing than STL. Works by feature data instead of thousands of tiny triangles. Contains unit data so there is no conversion required in the slicer. 
+    2. **STEP:** Another popular format that can store color and texture, less common for basic FDM printing than STL. Works by feature data instead of thousands of tiny triangles. Contains unit data so there is no conversion required in the slicer. 
 
 ### Materials (Filaments for FDM)
 
-The type of filament significantly affects your 3D printed part's properties. See the appendix for a table of different filament properties. If you are new to 3D printing PLA will be the easiest to get started with and PETG is a great next step for a better balance of strength and durability as reasonable cost.
+The type of filament significantly affects your 3D printed part's properties. See the appendix for a table of different filament properties. If you are new to 3D printing, PLA will be the easiest to get started with, and PETG is a great next step for a better balance of strength and durability at reasonable cost.
 
 1. **Common Materials**   
     1. **PLA (Polylactic Acid):** Easy to print, good for prototyping, low heat resistance.   
@@ -86,7 +86,7 @@ The type of filament significantly affects your 3D printed part's properties. Se
         Chopped fiber filaments can be hazardous to sand, drill, or handle as it can release microscopic carbon rods into the air or skin.
 
     4. **Continuous Carbon Fiber:** Some 3D printers such as certain offerings from Markforged can print with embedded continuous carbon fiber strands. This can offer part strength that matches or even exceeds that of aluminum.  
-    5. **Polycarbonate (PC):** Extremely strong, impact-resistant, and high heat tolerance.  
+    5. **PC (Polycarbonate):** Extremely strong, impact-resistant, and high heat tolerance.  
     6. **More Niche Filaments:** PPS, PPA, ASA, Tullomer, PEEK, Ultem \- These filaments have some really unique properties that can be beneficial for different use cases.  
 3. **Material Storage and Handling** Filaments absorb moisture from the air (hygroscopic). This can cause print issues like stringing, bubbling, and even weaker parts. Store filaments dry, in sealed containers, ideally with desiccant. Read the filament vendor’s instructions on drying filament.  
    
