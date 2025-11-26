@@ -1,9 +1,9 @@
 # Methods of Contributing
 
 ## Public Contribution
-Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors.
+Anyone can create content for the website without markdown knowledge or github, though it is preferred you learn how to use both to lessen the workload of other contributors
 
-In [the discord server](https://discord.gg/jHXTdNjYCg), go to the ["website-feedback" channel](https://discord.com/channels/1120162219502608426/1233961750639018104) and ask if you can contribute the thing you want to by filling out this template:
+In [the discord server](https://discord.gg/qdx7pdZKx4), go to the ["website-feedback" channel](https://discord.com/channels/1120162219502608426/1233961750639018104) and ask if you can contribute the thing you want to by filling out this template:
 
     Issue/content:
     Solution or Notes about the execution of the content:
@@ -94,8 +94,8 @@ You can get a local hosted version of the website to have a live preview of the 
 1. Open the repository in VS Code (doesn't matter which branch)
 2. Toggle the bottom panel on if there isn't one with the shortcut ```Ctrl + J```
 3. Click the dropdown next to the + on the top righthand side of the bottom panel and click "Git Bash"
-4. Run the command ```py -m venv venv``` to create a virtual environment (FIRST TIME)
-5. Run the command ```./installdependencies.sh to install all needed python packages (FIRST TIME)
+4. Run the command ```python -m venv venv``` to create a virtual environment (FIRST TIME)
+5. Run the command ```./installdependencies.sh``` to install all needed python packages (FIRST TIME)
 6. Run the command ```./runlocal.sh``` to start the server
 7. If everything went smoothly it should say its "Serving on" something like ```http://127.0.0.1:8000```
 
