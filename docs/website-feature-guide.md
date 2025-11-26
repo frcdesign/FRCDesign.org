@@ -48,27 +48,23 @@ Important Onshape documents for the page will be shown as a button like the one 
 <!-- Full-width images with number and caption text -->
 <div id="slide1" class="mySlides fade">
     <figure>
-        <img src="/learning-course/stage1/1B/images/Exercise-2-Assembly.webp" style="width:65%">
+        <img src="/learning-course/stage1/1B/images/exercises/exercise2/assy-0.webp" style="width:100%">
         <figcaption> Navigate the slideshows by pressing the arrows on the sides. </figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
     <figure>
-        <img src="/img/learning-course/stage1b/Exercise 3 Assembly.webp" style="width:65%">
-        <figcaption> The dots below the slideshow indicate the slide you're on. They can also be clicked to navigate to slides. </figcaption>
+        <img src="/learning-course/stage1/1B/images/exercises/exercise3/assy-0.webp" style="width:100%">
+        <figcaption> The dots below the slideshow indicate the slide you're on. They can also be clicked to navigate to slides.</figcaption>
     </figure>
 </div>
 
 <div class="mySlides fade">
-    <figure>
-        <video width="1920" controls>
-            <source src="/img/learning-course/stage1b/shiftSelectEdited.webm" type="video/webm">
-            Your browser does not support the video tag.
-        </video>
-        <figcaption> Some slideshows contain videos.</figcaption>
-    </figure>
-    
+    <div class="slide-content">
+      <iframe src="https://www.youtube.com/embed/I1nFphxKVXc?rel=0&controls=1&showinfo=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+      <figcaption>Some slideshows contain videos.</figcaption>
+    </div>
 </div>
 
 <!-- Next and previous buttons -->
