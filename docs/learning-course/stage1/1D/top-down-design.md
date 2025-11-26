@@ -11,7 +11,7 @@ To achieve this, a ***main layout sketch*** is utilized. Sometimes these are als
 
 ???+ Example "Example Main Layout Sketch"
     <figure>
-    <img src="\img\learning-course\stage1d\exampleMasterSketch.webp" style="width:60%">
+    <img src="../images/example-master-sketch.webp" style="width:60%">
     <figcaption>Example of robot main layout sketches. Each mechanism has a number of layout sketches that capture the important details. (Photo Credit: FRC 3647)</figcaption>
     </figure>
 
@@ -25,7 +25,7 @@ To fully utilize layout sketch top-down design, we must choose a unified origin 
 !!! Note
     Although definitions may vary from team to team, the origin of an FRC robot is typically defined as ***the center of the drivebase, on floor level***.
 
-To achieve this, we use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"} which generates a transparent 2" cube at the origin and provides several useful constants and functions that have already been used in previous stage.
+To achieve this, we use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/df3afdbec8d1356c2af15e4b?renderMode=0&uiState=6637caa6ccbcaa36badca03a "Origin Cube Featurescript Document"){:target="_blank"} you used throughout 1C. This generates a transparent 2" cube at the origin and provides several useful constants and functions that have already been used in previous stage.
 
 The Origin Cube will become very useful later on for assembly mating but for now all you need to remember is that **the Origin Cube should be the first feature in all part studios**. You can read more about the Origin Cube on the [assembly best practices page](../../../best-practices/assembly-setup.md "Assembly Best Practices Page"){:target="_blank"}.
 

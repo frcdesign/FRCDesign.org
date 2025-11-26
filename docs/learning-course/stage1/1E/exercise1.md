@@ -14,49 +14,49 @@ In the reference design, the battery is placed horizontally on the bellypan. It 
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
+          <img src="../images/battery/batt-0.webp" style="width:100%">
           <figcaption>0. Finished battery holder w/ mounting holes, strap cutout in bellypan, and strap.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s1.webp" style="width:100%">
+          <img src="../images/battery/batt-1.webp" style="width:100%">
           <figcaption>1. Layout of battery and battery mount plate. To fit the battery with 1/16” radius fillets on the inner corners, the cutout should be around 6.705” x 7.225”.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s2.webp" style="width:100%">
+          <img src="../images/battery/batt-2.webp" style="width:100%">
           <figcaption>2. 1/8" thick aluminum is a good option for this plate. Also add a 3/8" diameter spacers to connect to the bellypan.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s3.webp" style="width:100%">
+          <img src="../images/battery/batt-3.webp" style="width:100%">
           <figcaption>3. Add the mounting holes and cut out for the battery strap on the bellypan. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s4.webp" style="width:100%">
+          <img src="../images/battery/batt-4.webp" style="width:100%">
           <figcaption>4. Optionally model the battery strap.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s5.webp" style="width:100%">
+          <img src="../images/battery/batt-5.webp" style="width:100%">
           <figcaption>5. Optionally pocket the battery holder. 0.2" wide ribs are recommended. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
-          <img src="/img/learning-course/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
+          <img src="../images/battery/batt-0.webp" style="width:100%">
           <figcaption>6. Insert the battery holder, spacers, and battery into the assembly. Don't forget to organize your feature tree, name your parts, assign part materials, and organize your assembly file tree.</figcaption>
       </figure>
   </div>

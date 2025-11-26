@@ -6,7 +6,7 @@ Rigidity is essential for every mechanism you design, and it is particularly cri
 
 ### Reference Design
 
-This shooter uses two 1/4" polycarbonate plates for the sides. The 1/4" thickness is chosen because polycarbonate is easy to machine, cost-effective, and rigid enough for shooters when properly supported. In the reference design, the plates are mounted to the bottom drive rails and reinforced with support beams. Standoffs, which also serve as a camera mount and ball guide, keep the plates spaced apart, ensuring the overall rigidity of the shooter.
+This shooter uses two 1/4" polycarbonate plates for the sides. The polycarbonate is chosen because it is lighter and easier to machine than aluminum, while the 1/4" thickness is rigid enough for shooters **when properly supported**. In the reference design, the plates are mounted to the bottom drive rails and reinforced with support beams. Standoffs, which also serve as a camera mount and ball guide, keep the plates spaced apart, ensuring the overall rigidity of the shooter.
 
 <figure>
     <img src="/img/learning-course/stage2-shooter/shooterfront.webp" width="60%">

@@ -19,31 +19,31 @@ Take a look below at some examples of different types of power transmissions fou
       <!-- Full-width images with number and caption text -->
       <div id="slide1" class="mySlides fade">
           <figure>
-              <img src="/img/learning-course/stage1b/examples/intakeRollers.webp" style="width:80%">
+              <img src="../images/examples/intake-rollers.webp" style="width:80%">
               <figcaption> Belt and gear power transmission to spin intake rollers. (Photo Credit: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
-              <img src="/img/learning-course/stage1b/examples/intakePivot.webp" style="width:80%">
+              <img src="../images/examples/intake-pivot.webp" style="width:80%">
               <figcaption> Gear and chain power transmission to pivot the intake. (Photo Credit: FRC 3647) </figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
-              <img src="/img/learning-course/stage1b/examples/shooter.webp" style="width:80%">
+              <img src="../images/examples/shooter.webp" style="width:80%">
               <figcaption> Belt and gear power transmission to spin shooter wheels. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
-              <img src="/img/learning-course/stage1b/examples/ampArm.webp" style="width:60%">
+              <img src="../images/examples/amp-arm.webp" style="width:60%">
               <figcaption> Gear and chain power transmission to rotate a small arm. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
       <div class="mySlides fade">
           <figure>
-              <img src="/img/learning-course/stage1b/examples/armGearbox.webp" style="width:75%">
+              <img src="../images/examples/arm-gearbox.webp" style="width:75%">
               <figcaption> Gear and chain power transmission to rotate a large arm. (Photo Credit: FRC 3647)</figcaption>
           </figure>
       </div>
