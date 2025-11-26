@@ -118,7 +118,7 @@ nav:
               - "Section 2: Plates":
                   - "Exercise 1: Plate Workflow": learning-course/stage1/1A/section2-exercise1.md
                   - "Exercise 2: Gusset": learning-course/stage1/1A/section2-exercise2.md
-                  - "Exercise 3: Superstructure Gussets": learning-course/stage1/1A/section2-exercise3.md
+                  - "Exercise 3: Superstructure Gussets & Plate": learning-course/stage1/1A/section2-exercise3.md
                   - "Exercise 4: Motor Mounting": learning-course/stage1/1A/section2-exercise4.md
               - "Section 3: Assemblies":
                   - "Exercise 1: Rivets": learning-course/stage1/1A/section3-exercise1.md
@@ -349,7 +349,7 @@ nav:
           - Turrets:
               - mechanism-examples/turret/index.md
 
-  - CAD Best Practices:
+  - Best Practices:
       - best-practices/index.md
       - Document Setup: best-practices/document-setup.md
       - Sub-Document Setup: best-practices/sub-document-setup.md
@@ -360,6 +360,12 @@ nav:
   - Other Resources:
       - resources/index.md
       - Glossary: resources/glossary.md
+      - CAD Resources:
+          - FRCDesignLib: resources/frcdesignlib.md
+          - KrayonCAD: resources/krayonCAD.md
+          - Featurescript List: resources/featurescripts.md
+          - Featurescript Help: resources/featurescript-help.md
+
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md
           - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
@@ -367,11 +373,7 @@ nav:
           - Week 3 | Ball Shooter: resources/design-challenges/week3.md
           - Week 4 | Intake: resources/design-challenges/week4.md
           - Week 5 | Tilt Shift: resources/design-challenges/week5.md
-      - CAD Resources:
-          - Featurescripts: resources/featurescripts.md
-          - Simplified Models: resources/simplified.md
-          - Configurables: resources/configurables.md
-          - KrayonCAD: resources/krayonCAD.md
+
   - Changelog:
       - Site Updates: resources/site-changelog.md
       - Reference Guide: resources/changelog.md
@@ -404,6 +406,7 @@ extra_css: [stylesheets/extra.css]
 
 watch:
   - includes
+  - layouts
 
 plugins:
   - glightbox:
@@ -418,7 +421,9 @@ plugins:
         - social:
             cards_layout_dir: layouts
             cards_layout: default_page
-            debug: false
+            debug: true
+            cards_layout_options:
+              background_image: layouts/transparentImage.png
         - git-revision-date-localized:
             enable_creation_date: true
         - minify:

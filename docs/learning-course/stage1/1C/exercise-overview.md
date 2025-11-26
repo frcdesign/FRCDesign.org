@@ -11,9 +11,9 @@
 
 <div class="grid cards" markdown>
 
-- <center markdown>![](../../../img/learning-course/stage1c/Exercise 1 Assembly.webp)</center>
+- <center markdown>![](../images/exercise1-assy.webp)</center>
 
-- <center markdown>![](../../../img/learning-course/stage1c/Exercise 3 Assembly.webp)</center>
+- <center markdown>![](../images/exercise3-assy.webp)</center>
 
 </div>
 <figure>
@@ -31,7 +31,7 @@ The primary goal of this stage is to get you enough practice with CAD and modeli
 Focus on refining your CAD techniques and following best practices such as fully constraining your sketches, learning and practicing keyboard shortcuts, modeling in a way that captures design intent, and naming your features and parts.
 
 !!! Tip "Customizing Keyboard Shortcuts"
-If the default for a keyboard shortcut doesn't work for you, you can rebind it by going to your account page, going to `Preferences`, and scrolling down to find the keyboard shortcuts.
+    If the default for a keyboard shortcut doesn't work for you, you can rebind it by going to your account page, going to `Preferences`, and scrolling down to find the keyboard shortcuts.
 
     For example: you can rebind the keyboard shortcut for renaming something (the default is `shift+n`) to something easier, like `shift+r`, to make your workflow faster.
 
