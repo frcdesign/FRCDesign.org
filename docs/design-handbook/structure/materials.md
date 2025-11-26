@@ -31,7 +31,7 @@ Aluminum sheets can come in many thicknesses. The following are common thickness
 
 ### Alloy
 
-Although many types of aluminum alloys exist, the most commonly used in FRC is **6061-T6** followed by **7075**. 6061 is best because of its ability to be both strong and easy to machine with. For most applications, it works well. However, in applications where more strength to handle higher loads is wanted, 7075 aluminum can be invaluable.
+Although many types of aluminum alloys exist, the most commonly used in FRC is **6061-T6** followed by **7075**. 6061 is best because of its ability to be both strong and easy to machine with. For most applications, it works well. However, in applications where more strength to handle higher loads is wanted, 7075 aluminum can be helpful. For more information on alloys aside from the two discussed, visit <a href="https://www.allmetalsfab.com/understanding-aluminum-alloys/"target="_blank">this website</a> to learn more.
 
 !!! Note
     7075 aluminum is used in many COTS items, notable solid hex shafts and gears. It is important to note the alloy on vendor websites if attemping to machine or modify COTS items. 
@@ -42,17 +42,26 @@ Billet parts are blocks of metal that are machined through milling to remove par
 
 <figure>
     <img src="/img/design-handbook/materials/coolbillet29102023.webp" style="width:50%">
-    <figcaption>Billet part used on the end of2910's 2023 telescoping tube. These parts can range wildly in complexity, and depends significantly on your team's capabilities.</figcaption>
+    <figcaption>Billet part used on the end of 2910's 2023 telescoping tube. These parts can range wildly in complexity, and depends significantly on your team's capabilities.</figcaption>
 </figure>
 
 ## Polycarbonate
 
-Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc. - it will almost never shatter, and looks great.
+Also known as Lexan, polycarbonate or "polycarb" is a very versatile and useful material used in applications where less strength is needed and where aluminum is overkill/not optimal. Polycarbonate plastic is used in high impact applications such as subsystems that are exposed beyond the robot frame perimeter. Typically 1/4" thickness is used. 1/8 or 1/16" polycarbonate can be used for dust covers, sponsor panels, etc. - it will almost never shatter, and looks great.
 
 <figure>
     <img src="/img/design-handbook/materials/" style="width:50%">
     <figcaption></figcaption>
 </figure>
+
+!!! Warning
+    Do not use locktite around polycarbonate! This can cause the plate to crack irreversibly. For bolts that are susceptible to vibrating out of plate, be sure to tighten them regularly and take care when assembling.
+
+### Sheet Thickness
+
+**1/32"-1/8":** Often used where strength is not important, such as in dust covers or sponsor plates. Can be great as a material for floors, for example the polycarbonate backing of shooters. 
+
+**1/4":** Great for applications where more strength is needed. For maximum strength, switching to aluminum instead may be better. 
 
 !!! Tip
     "Smoked" or "tinted" polycarbonate can provide a more aesthetic look than clear. While making smoked polycarbonate is difficult, making frosted is easy! 30 seconds of sanding with an orbital sander using 240 grit will give the material a nice, glassy finish.
@@ -63,18 +72,25 @@ Polycarbonate plastic is used in high impact applications such as subsystems tha
 
 ## Steel
 
-
+Steel is a useful alternative to aluminum when maximum strength is needed or for ballast. Some teams may opt to have a steel bellypan instead of aluminum, for example, in order to lower their center of gravity. It is also used in some COTS items like steel hex axles or bolts. Custom machined steel is rare in FRC because of how difficult it is to machine with (steel saws and sanders are needed to work with steel). In almost all cases, teams will have to reach out to an outside manufacturer in order to make it. 
 
 ## Self-Reinforced Polypropylene (SRPP)
+
+SRPP is an increasingly popular material in FRC for its weight savings and strength compared to polycarbonate. It is a less toxic compound used in plates, and it is composed of fibers woven into a "fabric" (similar to carbon fiber). It is both stiffer and significantly more impact resistant than polycarbonate. Plus, it also weighs much less, which can be hugely important for weight savings. It is a great material for mechanisms that are often outside of frame perimeter, like intakes; where polycarbonate might be used, SRPP can often be slotted in.
+
+The major drawback is its expense: it costs $250 a sheet compared to $80 for polycarbonate. In addition, machining it is slightly different than polycarbonate. Laser cutting is the preferred method for clean, precise cuts. However, it can also be routed with a CNC machine, though extra precaution should be taken. It is fine to cut sheets, i.e. with a table saw. More information on manufacturing can be found at a vendor's website, for example <a href="https://docs.revrobotics.com/ion-build/structure/maxcomposite"target="_blank">REV Robotics guide for SRPP</a>.
 
 <figure>
     <img src="/img/design-handbook/materials/srppexample.webp" style="width:50%">
     <figcaption>SRPP sheet. Credit: REV Robotics.</figcaption>
 </figure>
 
+!!! Tip
+    SRPP is resistant to many chemicals, including locktite! This means you can locktite bolts around SRPP, unlike polycarbonate, with no issues. 
+
 ## Carbon Fiber
 
-
+**Coming Soon**
 
 ## Wood
 
