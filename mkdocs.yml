@@ -366,6 +366,49 @@ nav:
           - Featurescript List: resources/featurescripts.md
           - Featurescript Help: resources/featurescript-help.md
 
+      - Game History:
+        - "Overview": resources/game-history/overview.md
+        #every section title before 2016 could be changed; their names aren't great
+        - "Foundational Era (1992-2002)":
+            - "Maize Craze (1992)": resources/game-history/1-foundational-era/1992-maize-craze.md
+            - "Rug Rage (1993)": resources/game-history/1-foundational-era/1993-rug-rage.md
+            - "Tower Power (1994)": resources/game-history/1-foundational-era/1994-tower-power.md
+            - "Ramp 'n Roll (1995)": resources/game-history/1-foundational-era/1995-ramp-n-roll.md
+            - "Hexagon Havoc (1996)": resources/game-history/1-foundational-era/1996-hexagon-havoc.md
+            - "Toroid Terror (1997)": resources/game-history/1-foundational-era/1997-toroid-terror.md
+            - "Double Trouble (1998)": resources/game-history/1-foundational-era/1998-double-trouble.md
+            - "Ladder Logic (1999)": resources/game-history/1-foundational-era/1999-ladder-logic.md
+            - "Co-Opertition FIRST (2000)": resources/game-history/1-foundational-era/2000-coopertition-first.md
+            - "Diabolical Dynamics (2001)": resources/game-history/1-foundational-era/2001-diabolical-dynamics.md
+            - "Zone Zeal (2002)": resources/game-history/1-foundational-era/2002-zone-zeal.md
+        - "Alliance Era (2003-2007)":
+            - "Stack Attack (2003)": resources/game-history/2-alliance-era/2003-stack-attack.md
+            - "FIRST Frenzy: Raising the Bar (2004)": resources/game-history/2-alliance-era/2004-first-frenzy.md
+            - "Triple Play (2005)": resources/game-history/2-alliance-era/2005-triple-play.md
+            - "Aim High (2006)": resources/game-history/2-alliance-era/2006-aim-high.md
+            - "Rack 'n Roll (2007)": resources/game-history/2-alliance-era/2007-rack-n-roll.md
+        - "Control Era (2008-2015)":
+            - "FIRST Overdrive (2008)": resources/game-history/3-control-era/2008-first-overdrive.md
+            - "Lunacy (2009)": resources/game-history/3-control-era/2009-lunacy.md
+            - "Breakaway (2010)": resources/game-history/3-control-era/2010-breakaway.md
+            - "Logo Motion (2011)": resources/game-history/3-control-era/2011-logo-motion.md
+            - "Rebound Rumble (2012)": resources/game-history/3-control-era/2012-rebound-rumble.md
+            - "Ultimate Ascent (2013)": resources/game-history/3-control-era/2013-ultimate-ascent.md
+            - "Aerial Assist (2014)": resources/game-history/3-control-era/2014-aerial-assist.md
+            - "Recycle Rush (2015)": resources/game-history/3-control-era/2015-recycle-rush.md
+        - "Disney Era (2016-2021)":
+            - "FIRST Stronghold (2016)": resources/game-history/4-disney-era/2016-stronghold.md
+            - "FIRST Steamworks (2017)": resources/game-history/4-disney-era/2017-steamworks.md
+            - "FIRST Power Up (2018)": resources/game-history/4-disney-era/2018-power-up.md
+            - "Destination: Deep Space (2019)": resources/game-history/4-disney-era/2019-deep-space.md
+            - "Infinite Recharge (2020/2021)": resources/game-history/4-disney-era/2020-infinite-recharge.md
+        - "Modern Era (2022-Present)":
+            - "Rapid React (2022)": resources/game-history/5-modern-era/2022-rapid-react.md
+            - "Charged Up (2023)": resources/game-history/5-modern-era/2023-charged-up.md
+            - "Crescendo (2024)": resources/game-history/5-modern-era/2024-crescendo.md
+            - "Reefscape (2025)": resources/game-history/5-modern-era/2025-reefscape.md
+
+
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md
           - Week 1 | Swerve Drivebase: resources/design-challenges/week1.md
