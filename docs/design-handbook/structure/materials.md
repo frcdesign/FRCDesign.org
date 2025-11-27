@@ -12,7 +12,7 @@ Aluminum is one of the most versatile materials in FRC. It is both durable and e
 This section focuses on aluminum plates and blocks, however they are used everywhere in COTS and stock items like shafts, extrusions, etc. The thickness of the metal and type (6061 vs 7075) are important considerations as they each have different use cases. 
 
 <figure>
-    <img src="/img/design-handbook/materials/examplegusset.webp" style="width:50%">
+    <img src="/design-handbook/structure/images/materials/examplegusset.webp" style="width:50%">
     <figcaption>Example of gusset made out of aluminum. Credit: CTRE.</figcaption>
   </figure>
 
@@ -34,14 +34,14 @@ Aluminum sheets can come in many thicknesses. The following are common thickness
 Although many types of aluminum alloys exist, the most commonly used in FRC is **6061-T6** followed by **7075**. 6061 is best because of its ability to be both strong and easy to machine with. For most applications, it works well. However, in applications where more strength to handle higher loads is wanted, 7075 aluminum can be helpful. For more information on alloys aside from the two discussed, visit <a href="https://www.allmetalsfab.com/understanding-aluminum-alloys/"target="_blank">this website</a> to learn more.
 
 !!! Note
-    7075 aluminum is used in many COTS items, notable solid hex shafts and gears. It is important to note the alloy on vendor websites if attemping to machine or modify COTS items. 
+    7075 aluminum is used in many COTS items, notably solid hex shafts and gears. It is important to note the alloy on vendor websites if attemping to machine or modify COTS items. 
 
 ### Billet
 
 Billet parts are blocks of metal that are machined through milling to remove part of it. They are usually made of 6061 aluminum. It is rare to see custom billet because of the difficulty in manufacturing for many teams, however they can be an important tool for many teams. Many COTS parts are made of billet material, such as tube plugs. 
 
 <figure>
-    <img src="/img/design-handbook/materials/coolbillet29102023.webp" style="width:50%">
+    <img src="/design-handbook/structure/images/materials/coolbillet29102023.webp" style="width:50%">
     <figcaption>Billet part used on the end of 2910's 2023 telescoping tube. These parts can range wildly in complexity, and depends significantly on your team's capabilities.</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Also known as Lexan, polycarbonate or "polycarb" is a very versatile and useful 
 </figure>
 
 !!! Warning
-    Do not use locktite around polycarbonate! This can cause the plate to crack irreversibly. For bolts that are susceptible to vibrating out of plate, be sure to tighten them regularly and take care when assembling.
+    Do not use loctite around polycarbonate! This can cause the plate to crack irreversibly. For bolts that are susceptible to vibrating out of plate, be sure to tighten them regularly and take care when assembling.
 
 ### Sheet Thickness
 
@@ -81,12 +81,12 @@ SRPP is an increasingly popular material in FRC for its weight savings and stren
 The major drawback is its expense: it costs $250 a sheet compared to $80 for polycarbonate. In addition, machining it is slightly different than polycarbonate. Laser cutting is the preferred method for clean, precise cuts. However, it can also be routed with a CNC machine, though extra precaution should be taken. It is fine to cut sheets, i.e. with a table saw. More information on manufacturing can be found at a vendor's website, for example <a href="https://docs.revrobotics.com/ion-build/structure/maxcomposite"target="_blank">REV Robotics guide for SRPP</a>.
 
 <figure>
-    <img src="/img/design-handbook/materials/srppexample.webp" style="width:50%">
+    <img src="/design-handbook/structure/images/materials/srppexample.webp" style="width:50%">
     <figcaption>SRPP sheet. Credit: REV Robotics.</figcaption>
 </figure>
 
 !!! Tip
-    SRPP is resistant to many chemicals, including locktite! This means you can locktite bolts around SRPP, unlike polycarbonate, with no issues. 
+    SRPP is resistant to many chemicals, including loctite! This means you can loctite bolts around SRPP, unlike polycarbonate, with no issues. 
 
 ## Carbon Fiber
 
@@ -94,6 +94,11 @@ The major drawback is its expense: it costs $250 a sheet compared to $80 for pol
 
 ## Wood
 
-Wood is a useful material for prototyping or testing ideas before creating it out of the intended (and more expensive) material. Due to its brittleness, it should almost never be on an FRC robot. It is easy to source, machine, and use, and can be an essential tool for prototyping whole mechanisms before they're put on the robot. 
+Wood is a useful material for prototyping or testing ideas before creating it out of the intended (and more expensive) material. Due to its brittleness, it should almost never be on an FRC robot. It is easy to source, machine, and use, and can be an essential tool for prototyping whole mechanisms before they're put on the robot.
+
+<figure>
+    <img src="/design-handbook/structure/images/materials/1540woodprototypes.webp" style="width:50%">
+    <figcaption>The usefulness of wood for prototyping, especially if you have a laser cutter. Can make many prototypes quickly. Credit: Team 1540.</figcaption>
+</figure>
 
 <br>
