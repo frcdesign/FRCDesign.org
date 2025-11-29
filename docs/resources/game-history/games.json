@@ -70,7 +70,7 @@
         {"type": "game piece", "name":"disc"}, 
         {"type": "game piece", "name":"large ball"}, 
         {"type": "endgame", "name":"climb"}, 
-        {"type": "field", "name":"full field"}
+        {"type": "field", "name":"half field"}
     ],
     "desc": "Two alliances compete to score cargo and hatch panels on their rocket and cargo ship. At the end of the match, robots can climb on their hab platform."
   },

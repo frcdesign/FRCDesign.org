@@ -35,12 +35,18 @@ description: An in-depth look at the history of FRC games.
 
   <!-- Game list -->
   <ul id="games-list"></ul>
+
+  <!-- Pages -->
+  <div id="pages"></div>
 </div>
 
 <script>
   function initGameWidget() {
     let games = [];
     let yearAscending = false;
+    let currentPage = 1;
+
+    const CARDS_PER_PAGE = 5;
 
     const searchInput = document.getElementById("search");
     const list = document.getElementById("games-list");
@@ -70,8 +76,8 @@ description: An in-depth look at the history of FRC games.
     const filtersContainer = document.getElementById("game-filters");
     filtersContainer.appendChild(typeButton);
     filtersContainer.appendChild(tagsButton);
-    
-    let showDescriptions = false;
+
+    let showDescriptions = descToggleCheckbox.checked;
 
     descToggleCheckbox.addEventListener('change', () => {
       showDescriptions = descToggleCheckbox.checked;
@@ -85,7 +91,28 @@ description: An in-depth look at the history of FRC games.
     resultsTitle.style.margin = "8px 0";
     resultsTitle.style.fontWeight = "bold";
     resultsTitle.style.fontSize = "16px";
-    document.getElementById("game-widget").insertBefore(resultsTitle, list);
+
+    const pages = document.getElementById("pages");
+    pages.style.display = "flex";
+    pages.style.justifyContent = "center";
+    pages.style.alignItems = "center";
+    pages.style.gap = "12px";
+    pages.style.margin = "20px 0";
+
+    const leftArrow = document.createElement("button");
+    leftArrow.textContent = "←";
+    leftArrow.className = "page-arrow";
+
+    const pageInfo = document.createElement("span");
+    pageInfo.id = "page-info";
+
+    const rightArrow = document.createElement("button");
+    rightArrow.textContent = "→";
+    rightArrow.className = "page-arrow";
+
+    pages.appendChild(leftArrow);
+    pages.appendChild(pageInfo);
+    pages.appendChild(rightArrow);
 
     let selectedTypes = new Set();
     let selectedTags = new Set();
@@ -105,11 +132,11 @@ description: An in-depth look at the history of FRC games.
         const matchesSearch =
           g.name.toLowerCase().includes(searchVal) ||
           g.type.join(" ").toLowerCase().includes(searchVal) ||
-          g.tags.join(" ").toLowerCase().includes(searchVal) ||
+          g.tags.map(t => t.name).join(" ").toLowerCase().includes(searchVal) ||
           String(g.year).includes(searchVal);
 
         const matchesType = [...selectedTypes].every(t => g.type.includes(t));
-        const matchesTags = [...selectedTags].every(tag => g.tags.includes(tag));
+        const matchesTags = [...selectedTags].every(tag => g.tags.some(t => t.name === tag));
 
         return matchesSearch && matchesType && matchesTags;
       });
@@ -118,67 +145,110 @@ description: An in-depth look at the history of FRC games.
 
       resultsTitle.textContent = `${filtered.length} result${filtered.length !== 1 ? "s" : ""} match your filters`;
 
+      const totalPages = Math.ceil(filtered.length / CARDS_PER_PAGE);
+      if (currentPage > totalPages) currentPage = totalPages || 1;
+
+      const start = (currentPage - 1) * CARDS_PER_PAGE;
+      const end = start + CARDS_PER_PAGE;
+      const visibleGames = filtered.slice(start, end);
+
+      pageInfo.textContent = `Showing ${Math.min(end, filtered.length)} of ${filtered.length}`;
+
+      leftArrow.disabled = currentPage === 1;
+      rightArrow.disabled = currentPage === totalPages;
+
       list.innerHTML = "";
-        filtered.forEach(g => {
-          const era = getEra(g.year);
-          const card = document.createElement("a");
-          card.href = `/resources/game-history/${era}/${g.slug}/`;
-          card.className = "game-card";
+      visibleGames.forEach(g => {
+        const era = getEra(g.year);
+        const card = document.createElement("a");
+        card.href = `/resources/game-history/${era}/${g.slug}/`;
+        card.className = "game-card";
 
-          // Left side (year)
-          const left = document.createElement("div");
-          left.className = "card-left";
-          left.textContent = g.year;
+        const left = document.createElement("div");
+        left.className = "card-left";
+        left.textContent = g.year;
 
-          // Right side (info)
-          const right = document.createElement("div");
-          right.className = "card-right";
+        const right = document.createElement("div");
+        right.className = "card-right";
 
-          const name = document.createElement("div");
-          name.className = "card-name";
-          name.textContent = g.name;
+        const name = document.createElement("div");
+        name.className = "card-name";
+        name.textContent = g.name;
 
-          const types = document.createElement("div");
-          types.className = "card-types";
-          types.textContent = `Type of game: ${g.type.join(", ")}`;
+        const types = document.createElement("div");
+        types.className = "card-types";
+        types.textContent = `Type of game: ${g.type.join(", ")}`;
 
-          const desc = document.createElement("div");
-          desc.className = "card-desc";
-          desc.textContent = g.desc;
-          desc.style.display = showDescriptions ? 'block' : 'none';
+        const desc = document.createElement("div");
+        desc.className = "card-desc";
+        desc.textContent = g.desc;
+        desc.style.display = showDescriptions ? 'block' : 'none';
 
-          right.appendChild(name);
-          right.appendChild(types);
-          right.appendChild(desc);
+        right.appendChild(name);
+        right.appendChild(types);
+        right.appendChild(desc);
 
-          card.appendChild(left);
-          card.appendChild(right);
-          list.appendChild(card);
-        });
+        card.appendChild(left);
+        card.appendChild(right);
+        list.appendChild(card);
+      });
     }
 
-    function populateFilterPopup(popup, optionsSet, selectedSet) {
+    function populateFilterPopup(popup, items, selectedSet, isTag = false) {
       popup.innerHTML = "";
-      Array.from(optionsSet).sort().forEach(opt => {
-        const label = document.createElement("label");
-        label.style.display = "flex";
-        label.style.alignItems = "center";
-        label.style.margin = "2px 0";
+      if (isTag) {
+        const categoryOrder = ["game piece", "endgame", "field"];
+        const grouped = {};
+        items.forEach(t => {
+          if (!grouped[t.type]) grouped[t.type] = [];
+          grouped[t.type].push(t.name);
+        });
 
-        const checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.value = opt;
-        checkbox.checked = selectedSet.has(opt);
-        checkbox.onchange = () => {
-          if (checkbox.checked) selectedSet.add(opt);
-          else selectedSet.delete(opt);
-          updateList();
-        };
+        categoryOrder.forEach(cat => {
+          if (!grouped[cat]) return;
+          grouped[cat].sort().forEach(name => {
+            const label = document.createElement("label");
+            label.style.display = "flex";
+            label.style.alignItems = "center";
+            label.style.margin = "2px 0";
 
-        label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(opt.charAt(0).toUpperCase() + opt.slice(1)));
-        popup.appendChild(label);
-      });
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.value = name;
+            checkbox.checked = selectedSet.has(name);
+            checkbox.onchange = () => {
+              if (checkbox.checked) selectedSet.add(name);
+              else selectedSet.delete(name);
+              updateList();
+            };
+
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(name.charAt(0).toUpperCase() + name.slice(1)));
+            popup.appendChild(label);
+          });
+        });
+      } else {
+        items.sort().forEach(name => {
+          const label = document.createElement("label");
+          label.style.display = "flex";
+          label.style.alignItems = "center";
+          label.style.margin = "2px 0";
+
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.value = name;
+          checkbox.checked = selectedSet.has(name);
+          checkbox.onchange = () => {
+            if (checkbox.checked) selectedSet.add(name);
+            else selectedSet.delete(name);
+            updateList();
+          };
+
+          label.appendChild(checkbox);
+          label.appendChild(document.createTextNode(name.charAt(0).toUpperCase() + name.slice(1)));
+          popup.appendChild(label);
+        });
+      }
     }
 
     function fetchAndInitFilters() {
@@ -188,15 +258,19 @@ description: An in-depth look at the history of FRC games.
           games = data;
 
           const typeSet = new Set();
-          const tagSet = new Set();
+          const tagsArray = [];
 
           games.forEach(g => {
             g.type.forEach(t => typeSet.add(t));
-            g.tags.forEach(tag => tagSet.add(tag));
+            g.tags.forEach(tag => tagsArray.push(tag));
           });
 
-          populateFilterPopup(typePopup, typeSet, selectedTypes);
-          populateFilterPopup(tagsPopup, tagSet, selectedTags);
+          const uniqueTags = Array.from(
+            new Map(tagsArray.map(tag => [`${tag.type}|${tag.name}`, tag])).values()
+          );
+
+          populateFilterPopup(typePopup, Array.from(typeSet), selectedTypes);
+          populateFilterPopup(tagsPopup, uniqueTags, selectedTags, true);
 
           sortArrow.style.transform = yearAscending ? "rotate(0deg)" : "rotate(180deg)";
           updateList();
@@ -219,8 +293,19 @@ description: An in-depth look at the history of FRC games.
       selectedTags.clear();
       yearAscending = false;
       sortArrow.style.transform = "rotate(180deg)";
-      populateFilterPopup(typePopup, new Set(games.flatMap(g => g.type)), selectedTypes);
-      populateFilterPopup(tagsPopup, new Set(games.flatMap(g => g.tags)), selectedTags);
+
+      const typeSet = new Set();
+      const tagsArray = [];
+      games.forEach(g => {
+        g.type.forEach(t => typeSet.add(t));
+        g.tags.forEach(tag => tagsArray.push(tag));
+      });
+      const uniqueTags = Array.from(
+        new Map(tagsArray.map(tag => [`${tag.type}|${tag.name}`, tag])).values()
+      );
+
+      populateFilterPopup(typePopup, Array.from(typeSet), selectedTypes);
+      populateFilterPopup(tagsPopup, uniqueTags, selectedTags, true);
       updateList();
     };
 
@@ -249,6 +334,18 @@ description: An in-depth look at the history of FRC games.
         document.querySelectorAll('.filter-popup').forEach(p => p.style.display = 'none');
       }
     });
+
+    leftArrow.onclick = () => {
+      if (currentPage > 1) {
+        currentPage--;
+        updateList();
+      }
+    };
+
+    rightArrow.onclick = () => {
+      currentPage++;
+      updateList();
+    };
   }
 
   if (document.readyState === "loading") {
@@ -407,6 +504,7 @@ description: An in-depth look at the history of FRC games.
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
+    max-height: 200px;
     gap: 6px;
   }
 
@@ -449,6 +547,26 @@ description: An in-depth look at the history of FRC games.
 
   #desc-toggle-label input[type="checkbox"] {
     accent-color: #4CAE4F; 
+  }
+
+  .page-arrow {
+    padding: 6px 10px;
+    background: none;
+    border: 3px solid #4CAE4F;
+    color: #4CAE4F;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+
+  .page-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .page-arrow:hover:not(:disabled) {
+    background: rgba(76,174,79,0.15);
   }
 
   /* Dark/light mode */
