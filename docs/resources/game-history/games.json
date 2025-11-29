@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "2025-reefscape",
+    "year": 2025,
+    "name": "Reefscape",
+    "type": ["Pick and Place"],
+    "tags": [
+        {"type": "game piece", "name":"large ball"}, 
+        {"type": "game piece", "name":"pipe"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"half field"}
+    ],
+    "desc": "Two alliances compete to score coral on the reef and algae in the net or processor. At the end of the match, robots can climb on a shallow or deep cage."
+  },
+  {
+    "slug": "2024-crescendo",
+    "year": 2024,
+    "name": "Crescendo",
+    "type": ["Shooter"],
+    "tags": [
+        {"type": "game piece", "name":"disc"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": ""
+  },
+  {
+    "slug": "2023-charged-up",
+    "year": 2023,
+    "name": "Charged Up",
+    "type": ["Pick and Place"],
+    "tags": [
+        {"type": "game piece", "name":"cone"}, 
+        {"type": "game piece", "name":"cube"}, 
+        {"type": "endgame", "name":"balance"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": ""
+  },
+  {
+    "slug": "2022-rapid-react",
+    "year": 2022,
+    "name": "Rapid React",
+    "type": ["Shooter"],
+    "tags": [
+        {"type": "game piece", "name":"large ball"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": ""
+  },
+  {
+    "slug": "2020-infinite-recharge",
+    "year": 2020,
+    "name": "Infinite Recharge",
+    "type": ["Shooter"],
+    "tags": [
+        {"type": "game piece", "name":"medium ball"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": ""
+  },
+  {
+    "slug": "2019-deep-space",
+    "year": 2019,
+    "name": "Destination: Deep Space",
+    "type": ["Pick and Place"],
+    "tags": [
+        {"type": "game piece", "name":"disc"}, 
+        {"type": "game piece", "name":"large ball"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"half field"}
+    ],
+    "desc": "Two alliances compete to score cargo and hatch panels on their rocket and cargo ship. At the end of the match, robots can climb on their hab platform."
+  },
+  {
+    "slug": "2018-power-up",
+    "year": 2018,
+    "name": "FIRST Power Up",
+    "type": ["Pick and Place"],
+    "tags": [
+        {"type": "game piece", "name":"cube"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": "Two alliances compete to score power cubes on their switch and scale, exchanging some for power-ups. At the end of the match, robots can climb on their rungs."
+  },
+  {
+    "slug": "2017-steamworks",
+    "year": 2017,
+    "name": "FIRST Steamworks",
+    "type": ["Pick and Place", "Shooter"],
+    "tags": [
+        {"type": "game piece", "name":"gear"}, 
+        {"type": "game piece", "name":"small ball"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": "Two alliances compete to score gears in their airship and fuel in their boiler. At the end of the match, robots can climb aboard their airship by rope."
+  },
+  {
+    "slug": "2016-stronghold",
+    "year": 2016,
+    "name": "FIRST Stronghold",
+    "type": ["Shooter"],
+    "tags": [
+        {"type": "game piece", "name":"medium ball"}, 
+        {"type": "endgame", "name":"climb"}, 
+        {"type": "field", "name":"full field"}
+    ],
+    "desc": "Two alliances compete to score boulders in their towers while destroying their opponents' defenses. At the end of the match, robots can scale their opponent's tower."
+  },
+  {
+    "slug": "2015-recycle-rush",
+    "year": 2015,
+    "name": "Recycle Rush",
+    "type": ["Stacking"],
+    "tags": [
+        {"type": "game piece", "name":"tote"}, 
+        {"type": "game piece", "name":"can"}, 
+        {"type": "game piece", "name":"pool noodle"}, 
+        {"type": "field", "name":"half field"}
+    ],
+    "desc": "Two alliances compete to stack totes and cans, while littering their opponents with pool noodles."
+  }
+]
