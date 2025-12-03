@@ -53,7 +53,7 @@ Box tubing is typically referred to by its size, eg: 2x1, 1x1, and 2x2 (Spoken a
 
 <figure>
   <img src="/img/learning-course/stage1a/toob.webp" style="width:100%">
-  <figcaption>Box tube cross sections (1x1 and 2x1)</figcaption>
+  <figcaption>Box tube cross sections (1x1, 2x1, 2x2)</figcaption>
 </figure>
 
 
