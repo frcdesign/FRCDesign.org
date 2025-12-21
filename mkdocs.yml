@@ -365,6 +365,7 @@ nav:
           - KrayonCAD: resources/krayonCAD.md
           - Featurescript List: resources/featurescripts.md
           - Featurescript Help: resources/featurescript-help.md
+          - Feature Studio Tutorial: resources/featurestudio.md
 
       - Design Challenges:
           - Overview: resources/design-challenges/overview.md

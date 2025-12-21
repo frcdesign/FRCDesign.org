@@ -17,4 +17,6 @@ A collection of resources to support your workflow in Onshape, relevant to FRC.
 
 [**Featurescript Help**](featurescript-help.md "Featurescript Help Page"): Some tutorials on how to add and update featurescripts.
 
+[**Using Feature Studio**](featurestudio.md "Feature Studio Tutorial Page"): The basics of Feature Studio
+
 <br>
