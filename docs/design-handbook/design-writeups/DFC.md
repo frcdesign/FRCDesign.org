@@ -145,7 +145,7 @@ In cases where mechanical hardstops are impossible to include, non-mechanical ha
 
 # Encoders for Rotational Position
 
-In many cases, relying on the relative encoder of a motor is not enough or impossible, such as when there is too much backlash or hardstops are not possible. **Absolute encoders**, which calculate the rotational position of the pivoting shaft itself, can be used in these cases. Even then, using an absolute encoder ensures precision in position and negates the need for zeroing. 
+Motors have a built in relative encoder which allows them to track their own position, and as a result the position of mechanisms like pivots or elevators. In many cases, relying on the relative encoder of a motor is not enough or impossible, such as when there is too much backlash or hardstops are not possible. **Absolute encoders**, which calculate the rotational position of the pivoting shaft itself, can be used in these cases. Even then, using an absolute encoder ensures precision in position and negates the need for zeroing. 
 
 Some absolute encoders, known as **Through-Bore Encoders**, are added directly onto a shaft to track it's position. However, this can only be used on *live axle* systems where the shaft spins to pivot a mechanism. Most absolute encoders are difficult to implement because they must track the position of the shaft, which is impossible on *dead axle* systems. However, there are several ways teams have found to design for encoders. 
 
