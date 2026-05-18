@@ -1,0 +1,135 @@
+---
+import heroBook from '../../assets/home/tilt-book-white.png';
+---
+
+<section class="not-found-page" aria-labelledby="not-found-title">
+  <div class="not-found-copy">
+    <p class="not-found-eyebrow">404</p>
+    <h1 id="not-found-title">This page is missing.</h1>
+    <p>
+      The link may be outdated, the page may have moved, or the part you were looking
+      for is still in development.
+    </p>
+    <div class="not-found-actions" aria-label="Helpful links">
+      <a href="/">Go home</a>
+      <a href="/learning-course/">Start learning</a>
+      <a href="/mechanism-examples/">Browse mechanisms</a>
+    </div>
+  </div>
+
+  <div class="not-found-visual" aria-hidden="true">
+    <img src={heroBook.src} alt="" loading="eager" decoding="async" />
+  </div>
+</section>
+
+<style>
+  .not-found-page {
+    --not-found-green: #2fbf5b;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.72fr);
+    gap: clamp(1.5rem, 5vw, 4rem);
+    align-items: center;
+    min-height: min(34rem, 72vh);
+    margin: 1.5rem auto 2rem;
+    padding: clamp(1.25rem, 4vw, 2rem);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 8px;
+    background: var(--sl-color-gray-7);
+  }
+
+  .not-found-copy {
+    display: grid;
+    gap: 0.9rem;
+    max-width: 42rem;
+  }
+
+  .not-found-eyebrow {
+    margin: 0;
+    color: var(--not-found-green);
+    font-size: var(--sl-text-sm);
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .not-found-copy h1 {
+    max-width: 16ch;
+    margin: 0;
+    color: var(--sl-color-white);
+    font-size: clamp(2.3rem, 5.1vw, 4.35rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.03;
+  }
+
+  .not-found-copy p:not(.not-found-eyebrow) {
+    max-width: 56ch;
+    margin: 0;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-lg);
+    line-height: 1.65;
+  }
+
+  .not-found-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+  }
+
+  .not-found-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.35rem;
+    padding: 0.35rem 0.85rem;
+    border: 1px solid var(--sl-color-gray-4);
+    border-radius: 6px;
+    color: var(--sl-color-white);
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .not-found-actions a:first-child {
+    border-color: var(--not-found-green);
+    color: var(--not-found-green);
+  }
+
+  .not-found-actions a:hover,
+  .not-found-actions a:focus-visible {
+    border-color: var(--not-found-green);
+    color: var(--not-found-green);
+    outline: none;
+  }
+
+  .not-found-visual {
+    display: grid;
+    place-items: center;
+    min-height: 18rem;
+  }
+
+  .not-found-visual img {
+    width: min(100%, 22rem);
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.16));
+  }
+
+  @media (max-width: 58rem) {
+    .not-found-page {
+      grid-template-columns: 1fr;
+    }
+
+    .not-found-copy h1 {
+      max-width: 15ch;
+    }
+
+    .not-found-visual {
+      min-height: 14rem;
+    }
+
+    .not-found-visual img {
+      width: min(72vw, 17rem);
+    }
+  }
+</style>

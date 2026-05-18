@@ -1,0 +1,85 @@
+---
+title: Fasteners
+description: A guide on fasteners and fastener standards common in FRC
+---
+
+A guide on fasteners and fastener standards common in FRC. They come in all sorts of shapes and sizes for various applications and use cases. At their core, they are used to attach two or more parts together to construct your robot.
+
+## Fasteners in CAD
+
+### Why Put Fasteners in CAD?
+
+Putting all of your fasteners in your CAD is very important for a few reasons. Hardware in CAD lets you check clearances between parts, build an accurate bill of materials so you know exactly what to order, and makes it easy for your team to assemble the robot.
+
+### Best Practices
+
+Before getting into the different types of fasteners, it is important to discuss CAD best practices. Putting your fasteners into the document in the wrong way can and will lag your document.
+
+**Standard Content:** Onshape has a feature called Standard Content that has a wide variety of fasteners ready to import and be used in your assemblies, this is especially useful if its a non-standard size not available in FRCDesignLib.
+
+**McMaster-Carr:** Sometimes Standard Content will not have the exact size or type of fastener you need. McMaster-Carr has every type of fastener you can think of, and every single one has a free CAD file to download.
+
+**Replicate Tool:** You only need to import each unique size of fastener once per assembly. After that, use the Replicate tool to copy that piece of hardware into every place you need it. This massively reduces load times and cleans up your assemblies significantly.
+
+## Bolts
+
+<ImageTable>
+| Type | Description | Image |
+|---|---|---|
+| **Socket Head Cap Screw (SHCS)** | Standard bolt; hard to strip due to the larger hex key used with it | <ContentFigure src="../img/fasteners/shcs.webp" alt="Socket Head Cap Screw" /> |
+| **Button Head Cap Screw (BHCS)** | Has a wider, lower-profile rounded head than a socket head bolt | <ContentFigure src="../img/fasteners/bhcs.webp" alt="Button Head Cap Screw" /> |
+| **Flathead/Countersunk Screw (FHCS)** | Sits flush with the material surface; requires countersinking the hole it goes into | <ContentFigure src="../img/fasteners/fhcs.webp" alt="Flathead Countersunk Screw" /> |
+| **Shoulder Bolt** | Has a smooth unthreaded portion meant to act as a small shaft for a bearing or bushing | <ContentFigure src="../img/fasteners/shoulder-bolt.webp" alt="Shoulder Bolt" /> |
+</ImageTable>
+
+## Nuts
+
+| Type | Description |
+|---|---|
+| **Nylock Nut** | Standard nut with a nylon insert that grips the threads to prevent loosening |
+| **Low Profile Nylock Nut** | Thinner than a standard nylock nut; used where space for a full-height nut is limited |
+| **Rivnut** | Installed with a special tool into a pre-drilled hole; acts like a rivet but provides threads for a bolt |
+| **Heat Set Insert** | Pressed into 3D printed parts with a soldering iron; provides a durable brass thread in plastic |
+| **Tee Nut** | Pressed into wood; primarily used when fastening bumper backing boards |
+| **Wing Nut** | Tightened by hand; useful for bumper mounting hardware that needs to be removed quickly between matches |
+| **PEM Nut** | Pressed into sheet metal too thin to tap; provides threads without requiring access to the back of the material |
+
+## Bolt Sizes
+
+### Imperial
+
+Modern FRC primarily uses two imperial bolt sizes: **#10-32** and **1/4-20**. FRC COTS components almost exclusively use #10-32 fasteners, and with a bit of effort you can design robots that use #10-32 for nearly everything.
+
+- **#10-32** is used for almost everything: retaining shafts, motor mounting, superstructure connections
+- **1/4-20** is used where more strength is needed than #10-32 can provide
+
+| Thread Size | Common Uses | SHCS Hex Key | BHCS Hex Key |
+|---|---|---|---|
+| #4-40 | RoboRIO mounting | 3/32" | 1/16" |
+| #6-32 | | 7/64" | 5/64" |
+| #8-32 | VersaPlanetary gearboxes | 9/64" | 3/32" |
+| #10-32 | MAX Planetary; NEO, Vortex, Falcon, Kraken motor mounting; swerve drive; tapped rounded hex | 5/32" | 1/8" |
+| 1/4-20 | High-strength structural connections; tapped churro | 3/16" | 5/32" |
+
+<Aside type="note">
+When designing around hardware, it is best to use the [hole tool](https://cad.onshape.com/help/Content/hole.htm) or memorize the standard clearance diameters: **#10-32 → 0.196"**, **1/4-20 → 0.257"**.
+</Aside>
+
+### Metric
+
+Metric fasteners appear on several COTS motor products. Most teams use imperial hardware for custom structure and metric only where the COTS component requires it.
+
+| Thread Size | Common Uses | SHCS Hex Key |
+|---|---|---|
+| M3 | NEO 550, Ultraplanetary gearboxes | M2.5 |
+| M4 | 775pro, BAG motors | M3 |
+| M5 | Snowblower motors | M4 |
+| M6 | PDP battery lug mount | M5 |
+
+## Bolt Retention
+
+Hardware can loosen over the course of a competition due to vibration and impacts. Two common solutions:
+
+**Nylock Nuts:** The nylon insert grips the threads and prevents loosening without tools. This is the preferred solution for most connections.
+
+**Loctite:** Thread-locking adhesive applied to the bolt threads before assembly. Use sparingly — Loctite makes disassembly significantly harder and should not be used on connections you may need to service during competition.

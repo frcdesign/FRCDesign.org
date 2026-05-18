@@ -1,3 +1,0 @@
-# Indexers
-
-**Coming Soon**

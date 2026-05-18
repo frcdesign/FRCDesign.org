@@ -1,1 +1,5 @@
-*.md linguist-detectable
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# SVG files should use LF line endings
+*.svg text eol=lf

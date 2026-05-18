@@ -1,0 +1,84 @@
+---
+/**
+ * ImageTable component - wraps a markdown table that has images in its last column.
+ * Handles horizontal scrolling on mobile and consistent image sizing.
+ *
+ * Usage in MDX:
+ * <ImageTable>
+ * | Type | Description | Image |
+ * |---|---|---|
+ * | **SHCS** | Standard bolt | <ContentFigure src="./img/shcs.webp" alt="SHCS" /> |
+ * </ImageTable>
+ *
+ * Props:
+ * - minWidth: minimum table width before horizontal scroll kicks in (default "560px")
+ * - imageMaxWidth: max width of images in the last column (default "7rem")
+ * - imageMaxHeight: max height of images in the last column (default "6rem")
+ * - imageMinHeight: min height of image cells, keeps rows uniform (default "4rem")
+ */
+
+interface Props {
+  minWidth?: string;
+  imageMaxWidth?: string;
+  imageMaxHeight?: string;
+  imageMinHeight?: string;
+}
+
+const {
+  minWidth = '560px',
+  imageMaxWidth = '7rem',
+  imageMaxHeight = '6rem',
+  imageMinHeight = '4rem',
+} = Astro.props;
+---
+
+<div
+  class="image-table-wrapper"
+  style={`--it-min-width:${minWidth};--it-img-max-w:${imageMaxWidth};--it-img-max-h:${imageMaxHeight};--it-img-min-h:${imageMinHeight};`}
+>
+  <slot />
+</div>
+
+<style is:global>
+  .image-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .image-table-wrapper table {
+    width: 100%;
+    min-width: var(--it-min-width);
+    margin: 0;
+  }
+
+  .image-table-wrapper th,
+  .image-table-wrapper td {
+    vertical-align: middle;
+    padding: 0.65rem 0.75rem;
+  }
+
+  .image-table-wrapper th:last-child,
+  .image-table-wrapper td:last-child {
+    text-align: center;
+  }
+
+  .image-table-wrapper td:last-child .content-figure {
+    max-width: var(--it-img-max-w) !important;
+    margin: 0 auto !important;
+    padding-top: 0;
+  }
+
+  .image-table-wrapper td:last-child .content-figure-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--it-img-min-h);
+  }
+
+  .image-table-wrapper td:last-child .figure-img {
+    width: auto !important;
+    height: auto !important;
+    max-width: var(--it-img-max-w);
+    max-height: var(--it-img-max-h);
+    object-fit: contain;
+  }
+</style>

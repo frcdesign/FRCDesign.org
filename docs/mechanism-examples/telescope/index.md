@@ -1,3 +1,0 @@
-# Telescope Extensions
-
-**Coming Soon**

@@ -1,0 +1,50 @@
+﻿---
+title: Resources
+description: Resources to help improve your knowledge of mechanisms, understand the site better, and assist your CAD workflow.
+template: splash
+next: false
+prev: false
+---
+
+import ContentCard from '@components/content/ContentCard.astro';
+import ContentCardGrid from '@components/content/ContentCardGrid.astro';
+import ContentTitleBar from '@components/content/ContentTitleBar.astro';
+
+<ContentTitleBar
+  label="Resources"
+  title="Enhance your design workflow."
+  description="Resources to help improve your knowledge of terms, support your CAD workflow, and challenge your design skills."
+/>
+
+<ContentCardGrid label="Resource links">
+  <ContentCard
+    href="/resources/glossary/"
+    eyebrow="Reference"
+    title="Glossary"
+    description="A compiled list of acronyms, abbreviations, and definitions to help explain the language used across the site and community."
+  />
+  <ContentCard
+    href="/resources/frcdesignlib/"
+    eyebrow="Parts library"
+    title="FRCDesignLib"
+    description="A shared Onshape library for FRC-relevant COTS components and supporting CAD resources."
+  />
+  <ContentCard
+    href="/resources/krayoncad/"
+    eyebrow="Architecture"
+    title="KrayonCAD"
+    description="A resource integrated with FRCDesignLib that lets teams quickly model out robot architectures."
+  />
+  <ContentCard
+    href="/resources/featurescripts/"
+    eyebrow="Custom Tools"
+    title="FeatureScripts"
+    description="A list of FRC-relevant FeatureScripts for common Onshape modeling workflows."
+  />
+  <ContentCard
+    href="/resources/design-challenges/"
+    eyebrow="Practice"
+    title="Design Challenges"
+    description="Practice scenarios for building design skill through focused robot architecture and mechanism prompts."
+  />
+</ContentCardGrid>

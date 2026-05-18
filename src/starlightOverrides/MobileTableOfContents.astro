@@ -1,0 +1,242 @@
+---
+import TableOfContentsList from './TableOfContentsList.astro';
+
+const { toc } = Astro.locals.starlightRoute;
+---
+
+{
+  toc && (
+    <mobile-starlight-toc data-min-h={toc.minHeadingLevel} data-max-h={toc.maxHeadingLevel}>
+      <nav aria-labelledby="starlight__on-this-page--mobile">
+        <details id="starlight__mobile-toc">
+          <summary id="starlight__on-this-page--mobile" class="sl-flex">
+            <span class="toggle sl-flex">
+              {Astro.locals.t('tableOfContents.onThisPage')}
+              <svg aria-hidden="true" class="caret" width="16" height="16" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"
+                />
+              </svg>
+            </span>
+            <span class="display-current" />
+          </summary>
+          <div class="dropdown">
+            <TableOfContentsList items={toc.items} isMobile />
+          </div>
+        </details>
+      </nav>
+    </mobile-starlight-toc>
+  )
+}
+
+<style>
+  @layer starlight.core {
+    nav {
+      position: fixed;
+      z-index: var(--sl-z-index-toc);
+      top: calc(var(--sl-nav-height) - 1px);
+      inset-inline: 0;
+      border-top: 1px solid var(--sl-color-gray-5);
+      background-color: var(--sl-color-bg-nav);
+    }
+    @media (min-width: 50rem) {
+      nav {
+        inset-inline-start: var(--sl-content-inline-start, 0);
+      }
+    }
+
+    summary {
+      gap: 0.5rem;
+      align-items: center;
+      height: var(--sl-mobile-toc-height);
+      border-bottom: 1px solid var(--sl-color-hairline-shade);
+      padding: 0.5rem 1rem;
+      font-size: var(--sl-text-xs);
+      outline-offset: var(--sl-outline-offset-inside);
+    }
+    summary::marker,
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .toggle {
+      flex-shrink: 0;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--sl-color-gray-5);
+      border-radius: 0.5rem;
+      padding-block: 0.5rem;
+      padding-inline-start: 0.75rem;
+      padding-inline-end: 0.5rem;
+      line-height: 1;
+      background-color: var(--sl-color-black);
+      user-select: none;
+      cursor: pointer;
+    }
+    details[open] .toggle {
+      color: var(--sl-color-white);
+      border-color: var(--sl-color-accent);
+    }
+    details .toggle:hover {
+      color: var(--sl-color-white);
+      border-color: var(--sl-color-gray-2);
+    }
+
+    :global([dir='rtl']) .caret {
+      transform: rotateZ(180deg);
+    }
+    details[open] .caret {
+      transform: rotateZ(90deg);
+    }
+
+    .display-current {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: var(--sl-color-white);
+    }
+
+    .dropdown {
+      --border-top: 1px;
+      margin-top: calc(-1 * var(--border-top));
+      border: var(--border-top) solid var(--sl-color-gray-6);
+      border-top-color: var(--sl-color-hairline-shade);
+      max-height: calc(85vh - var(--sl-nav-height) - var(--sl-mobile-toc-height));
+      overflow-y: auto;
+      background-color: var(--sl-color-black);
+      box-shadow: var(--sl-shadow-md);
+      overscroll-behavior: contain;
+    }
+  }
+</style>
+
+<script>
+  const PAGE_TITLE_ID = '_top';
+
+  class MobileStarlightTOC extends HTMLElement {
+    private _current = this.querySelector<HTMLAnchorElement>('a[aria-current="true"]');
+    private minH = parseInt(this.dataset.minH || '2', 10);
+    private maxH = parseInt(this.dataset.maxH || '3', 10);
+
+    protected set current(link: HTMLAnchorElement) {
+      if (link === this._current) return;
+      if (this._current) this._current.removeAttribute('aria-current');
+      link.setAttribute('aria-current', 'true');
+      this._current = link;
+
+      const display = this.querySelector('.display-current') as HTMLSpanElement;
+      if (display) display.textContent = link.textContent;
+    }
+
+    private onIdle = (cb: IdleRequestCallback) =>
+      (window.requestIdleCallback || ((cb) => setTimeout(cb, 1)))(cb);
+
+    constructor() {
+      super();
+      this.onIdle(() => this.init());
+
+      const details = this.querySelector('details');
+      if (!details) return;
+
+      const closeToC = () => {
+        details.open = false;
+      };
+
+      details.querySelectorAll('a').forEach((a) => {
+        a.addEventListener('click', closeToC);
+      });
+      window.addEventListener('click', (e) => {
+        if (!details.contains(e.target as Node)) closeToC();
+      });
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && details.open) {
+          const hasFocus = details.contains(document.activeElement);
+          closeToC();
+          if (hasFocus) {
+            const summary = details.querySelector('summary');
+            if (summary) summary.focus();
+          }
+        }
+      });
+    }
+
+    private init = (): void => {
+      const links = [...this.querySelectorAll('a')];
+
+      const isHeading = (el: Element): el is HTMLHeadingElement => {
+        if (el instanceof HTMLHeadingElement) {
+          if (el.id === PAGE_TITLE_ID) return true;
+          const level = el.tagName[1];
+          if (level) {
+            const int = parseInt(level, 10);
+            if (int >= this.minH && int <= this.maxH) return true;
+          }
+        }
+        return false;
+      };
+
+      const getElementHeading = (el: Element | null): HTMLHeadingElement | null => {
+        if (!el) return null;
+        const origin = el;
+        while (el) {
+          if (isHeading(el)) return el;
+          el = el.previousElementSibling;
+          while (el?.lastElementChild) {
+            el = el.lastElementChild;
+          }
+          const h = getElementHeading(el);
+          if (h) return h;
+        }
+        return getElementHeading(origin.parentElement);
+      };
+
+      const setCurrent: IntersectionObserverCallback = (entries) => {
+        for (const { isIntersecting, target } of entries) {
+          if (!isIntersecting) continue;
+          const heading = getElementHeading(target);
+          if (!heading) continue;
+          const link = links.find((link) => link.hash === '#' + encodeURIComponent(heading.id));
+          if (link) {
+            this.current = link;
+            break;
+          }
+        }
+      };
+
+      const toObserve = document.querySelectorAll('main [id], main [id] ~ *, main .content > *');
+
+      let observer: IntersectionObserver | undefined;
+      const observe = () => {
+        if (observer) return;
+        observer = new IntersectionObserver(setCurrent, { rootMargin: this.getRootMargin() });
+        toObserve.forEach((h) => observer!.observe(h));
+      };
+      observe();
+
+      let timeout: ReturnType<typeof setTimeout>;
+      window.addEventListener('resize', () => {
+        if (observer) {
+          observer.disconnect();
+          observer = undefined;
+        }
+        clearTimeout(timeout);
+        timeout = setTimeout(() => this.onIdle(observe), 200);
+      });
+    };
+
+    private getRootMargin(): `-${number}px 0% ${number}px` {
+      const navBarHeight = document.querySelector('header')?.getBoundingClientRect().height || 0;
+      const mobileTocHeight = this.querySelector('summary')?.getBoundingClientRect().height || 0;
+      const top = navBarHeight + mobileTocHeight + 32;
+      const bottom = top + 53;
+      const height = document.documentElement.clientHeight;
+      return `-${top}px 0% ${bottom - height}px`;
+    }
+  }
+
+  if (!customElements.get('mobile-starlight-toc')) {
+    customElements.define('mobile-starlight-toc', MobileStarlightTOC);
+  }
+</script>

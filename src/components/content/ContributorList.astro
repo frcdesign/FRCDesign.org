@@ -1,0 +1,33 @@
+---
+interface Props {
+  names: string[];
+}
+
+const { names } = Astro.props;
+---
+
+<ul class="contributor-pills">
+  {names.map((name) => <li>{name}</li>)}
+</ul>
+
+<style>
+  .contributor-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.75rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .contributor-pills li {
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 9999px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--sl-color-white);
+    margin: 0;
+  }
+</style>

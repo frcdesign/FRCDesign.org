@@ -1,0 +1,202 @@
+---
+import fabworksBlack from '../assets/footer/fabworks-black.svg';
+import fabworksWhite from '../assets/footer/fabworks-white.svg';
+import wcpLogo from '../assets/footer/wcp.svg';
+import Pagination from 'virtual:starlight/components/Pagination';
+---
+
+<footer class="site-footer">
+  <!-- Pagination Navigation -->
+  <div class="pagination-wrapper">
+    <Pagination {...Astro.props} />
+  </div>
+
+  <div class="site-footer-inner">
+    <!-- Sponsors -->
+    <div class="footer-sponsors">
+      <p class="footer-powered-label">FRCDesign.org is sponsored by</p>
+
+      <div class="footer-sponsor-row">
+        <!-- WCP logo / link -->
+        <a
+          href="https://wcproducts.com/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="West Coast Products"
+          class="footer-logo-link"
+        >
+          <img
+            src={wcpLogo.src}
+            alt="West Coast Products"
+            class="footer-logo footer-logo-wcp"
+            loading="lazy"
+          />
+        </a>
+
+        <span class="footer-sponsor-separator" aria-hidden="true"></span>
+
+        <!-- Fabworks logo / link -->
+        <a
+          href="https://go.fabworks.com/frcdesign"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Fabworks"
+          class="footer-logo-link"
+        >
+          <img
+            src={fabworksBlack.src}
+            alt="Fabworks"
+            class="footer-logo fabworks-logo fabworks-logo-light"
+            loading="lazy"
+          />
+          <img
+            src={fabworksWhite.src}
+            alt="Fabworks"
+            class="footer-logo fabworks-logo fabworks-logo-dark"
+            loading="lazy"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script is:inline>
+  (() => {
+    const sameSiteHosts = new Set([
+      window.location.hostname,
+      'frcdesign.org',
+      'www.frcdesign.org',
+    ]);
+
+    const updateExternalLinks = () => {
+      for (const link of document.querySelectorAll('a[href]')) {
+        const href = link.getAttribute('href');
+        if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) continue;
+
+        let url;
+        try {
+          url = new URL(href, window.location.href);
+        } catch {
+          continue;
+        }
+
+        if (url.protocol !== 'http:' && url.protocol !== 'https:') continue;
+        if (sameSiteHosts.has(url.hostname)) continue;
+
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        rel.add('noreferrer');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      }
+    };
+
+    updateExternalLinks();
+    document.addEventListener('astro:page-load', updateExternalLinks);
+  })();
+</script>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    padding: 0 0 2.5rem;
+    background: var(--sl-color-bg);
+  }
+
+  .pagination-wrapper {
+    max-width: var(--sl-content-width, 72rem);
+    margin: 0 auto 2rem;
+    padding: 0 2rem;
+  }
+
+  .pagination-wrapper :global(nav) {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-gray-6);
+  }
+
+  .site-footer-inner {
+    max-width: var(--sl-content-width, 72rem);
+    margin: 0 auto;
+    padding: 2rem 2rem 0;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-sm, 0.875rem);
+    border-top: 1px solid var(--sl-color-gray-6);
+  }
+
+  /* Sponsors section */
+
+  .footer-sponsors {
+    text-align: center;
+  }
+
+  .footer-powered-label {
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;      /* bumped up a bit */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--sl-color-gray-2);
+  }
+
+  .footer-sponsor-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .footer-logo {
+    height: 32px;
+    width: auto;
+    display: block;
+    filter: grayscale(0.15);
+  }
+
+  /* WCP 50% bigger */
+  .footer-logo-wcp {
+    height: 54px;
+  }
+
+  .footer-logo-link {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-sponsor-separator {
+    width: 1px;
+    height: 40px;
+    background: var(--sl-color-gray-7);
+    display: inline-block;
+  }
+
+  /* Light vs dark Fabworks logo */
+  .fabworks-logo-light {
+    display: inline-block;
+  }
+
+  .fabworks-logo-dark {
+    display: none;
+  }
+
+  :global(html[data-theme='dark']) .site-footer .fabworks-logo-light {
+    display: none;
+  }
+
+  :global(html[data-theme='dark']) .site-footer .fabworks-logo-dark {
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .site-footer-inner {
+      padding: 0 1.25rem;
+    }
+
+    .footer-sponsor-row {
+      gap: 1rem;
+    }
+
+    .footer-sponsor-separator {
+      height: 32px;
+    }
+  }
+</style>

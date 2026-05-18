@@ -1,0 +1,258 @@
+---
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from './SidebarSublist.astro';
+import { getSidebarForPath, type SidebarItem, type SidebarSection } from '../config/sidebarConfig';
+
+// Get the current URL pathname
+const pathname = Astro.url.pathname;
+
+// Get the sidebar configuration for the current path
+const sidebarSections = getSidebarForPath(pathname);
+
+// Convert our config format to Starlight's SidebarEntry format
+type SidebarLink = {
+  type: 'link';
+  label: string;
+  href: string;
+  isCurrent: boolean;
+  badge: undefined;
+  attrs: Record<string, string>;
+};
+
+type SidebarGroup = {
+  type: 'group';
+  label: string;
+  href?: string;
+  isCurrent?: boolean;
+  entries: (SidebarLink | SidebarGroup)[];
+  collapsed: boolean;
+  badge: undefined;
+};
+
+type SidebarEntry = SidebarLink | SidebarGroup;
+
+function convertItem(item: SidebarItem, currentPath: string, isTopLevel: boolean = false): SidebarEntry {
+  const normalizedCurrent = currentPath.endsWith('/') ? currentPath : currentPath + '/';
+
+  if (item.items && item.items.length > 0) {
+    const href = item.slug ? '/' + item.slug + '/' : undefined;
+    // It's a group - top level items should NOT be collapsed
+    return {
+      type: 'group',
+      label: item.label,
+      href,
+      isCurrent: href ? normalizedCurrent === href : false,
+      entries: item.items.map(subItem => convertItem(subItem, currentPath, false)),
+      collapsed: isTopLevel ? false : (item.collapsed ?? false),
+      badge: undefined,
+    };
+  } else if (item.slug) {
+    // It's a link
+    const href = '/' + item.slug + '/';
+    return {
+      type: 'link',
+      label: item.label,
+      href,
+      isCurrent: normalizedCurrent === href,
+      badge: undefined,
+      attrs: {},
+    };
+  }
+  // Fallback - shouldn't happen with valid config
+  return {
+    type: 'link',
+    label: item.label,
+    href: '#',
+    isCurrent: false,
+    badge: undefined,
+    attrs: {},
+  };
+}
+
+function convertSections(sections: SidebarSection[], currentPath: string): { label: string; entries: SidebarEntry[] }[] {
+  return sections.map(section => ({
+    label: section.label,
+    entries: section.items.map(item => convertItem(item, currentPath, true)),
+  }));
+}
+
+const sidebarData = convertSections(sidebarSections, pathname);
+---
+
+{sidebarData.length > 0 && (
+  <>
+    <div class="sidebar-content-wrapper">
+      {sidebarData.map((section, index) => (
+        <div class="sidebar-section">
+          {index === 0 ? (
+            <div class="sidebar-section-header">
+              <h2 class="sidebar-section-title">{section.label}</h2>
+              <button class="sidebar-collapse-toggle" aria-label="Toggle sidebar" data-sidebar-toggle>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          ) : (
+            <h2 class="sidebar-section-title">{section.label}</h2>
+          )}
+          <SidebarPersister>
+            <SidebarSublist sublist={section.entries} />
+          </SidebarPersister>
+        </div>
+      ))}
+    </div>
+
+    <div class="sidebar-collapsed-toggle-wrapper">
+      <button class="sidebar-collapse-toggle" aria-label="Toggle sidebar" data-sidebar-toggle-collapsed>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+  </>
+)}
+
+<div class="md:sl-hidden">
+  <MobileMenuFooter />
+</div>
+
+<script is:inline>
+  (() => {
+    const STORAGE_KEY = 'sidebar-collapsed';
+
+    // Apply collapsed state immediately to prevent flash
+    const applyCollapsedState = () => {
+      const isCollapsed = localStorage.getItem(STORAGE_KEY) === 'true';
+      if (isCollapsed) {
+        document.documentElement.classList.add('sidebar-collapsed');
+        const sidebar = document.querySelector('.sidebar-pane, #starlight__sidebar');
+        if (sidebar) sidebar.classList.add('collapsed');
+      }
+    };
+
+    // Run immediately
+    applyCollapsedState();
+
+    const initSidebarToggle = () => {
+      const toggleOpen = document.querySelector('[data-sidebar-toggle]');
+      const toggleClosed = document.querySelector('[data-sidebar-toggle-collapsed]');
+      const sidebar = document.querySelector('.sidebar-pane, #starlight__sidebar');
+
+      if (!sidebar) return;
+
+      // Re-apply state in case sidebar wasn't in DOM yet
+      applyCollapsedState();
+
+      const toggleSidebar = () => {
+        const collapsed = sidebar.classList.toggle('collapsed');
+        document.documentElement.classList.toggle('sidebar-collapsed', collapsed);
+        localStorage.setItem(STORAGE_KEY, collapsed.toString());
+      };
+
+      toggleOpen?.addEventListener('click', toggleSidebar);
+      toggleClosed?.addEventListener('click', toggleSidebar);
+    };
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      initSidebarToggle();
+    } else {
+      document.addEventListener('DOMContentLoaded', initSidebarToggle);
+    }
+    document.addEventListener('astro:page-load', initSidebarToggle);
+    document.addEventListener('astro:before-swap', applyCollapsedState);
+  })();
+</script>
+
+<style>
+  .sidebar-content-wrapper {
+    padding-top: 0.75rem;
+  }
+
+  .sidebar-section {
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--sl-color-gray-5);
+  }
+
+  .sidebar-section-header .sidebar-section-title {
+    margin: 0;
+  }
+
+  .sidebar-section-title {
+    color: var(--sl-color-text-accent);
+    font-size: var(--sl-text-lg);
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+
+  .sidebar-collapse-toggle {
+    position: absolute;
+    right: 0.25rem;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--sl-color-gray-2);
+    transition: all 0.2s ease;
+  }
+
+  .sidebar-collapse-toggle:hover {
+    background: var(--sl-color-gray-5);
+    border-color: var(--sl-color-gray-4);
+    color: var(--sl-color-text);
+  }
+
+  /* Collapsed state toggle wrapper - only visible when collapsed */
+  .sidebar-collapsed-toggle-wrapper {
+    display: none;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
+  .sidebar-collapsed-toggle-wrapper .sidebar-collapse-toggle {
+    position: static;
+  }
+
+  :global(.sidebar-pane.collapsed) .sidebar-content-wrapper,
+  :global(#starlight__sidebar.collapsed) .sidebar-content-wrapper {
+    display: none;
+  }
+
+  :global(.sidebar-pane.collapsed) .sidebar-collapsed-toggle-wrapper,
+  :global(#starlight__sidebar.collapsed) .sidebar-collapsed-toggle-wrapper {
+    display: flex;
+  }
+
+  :global(.sidebar-pane.collapsed),
+  :global(#starlight__sidebar.collapsed) {
+    width: 48px !important;
+    min-width: 48px !important;
+  }
+
+  /* Hide toggle on mobile */
+  @media (max-width: 1350px) {
+    .sidebar-collapse-toggle {
+      display: none;
+    }
+    .sidebar-collapsed-toggle-wrapper {
+      display: none !important;
+    }
+  }
+</style>

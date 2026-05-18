@@ -1,0 +1,1199 @@
+---
+/**
+ * Slides component - Slideshow with lightbox support
+ *
+ * MARKDOWN FORMAT (preferred):
+ * <Slides>
+ *   ![alt text](/path/to/image1.webp)
+ *   Caption for slide 1
+ *
+ *   ![](/path/to/image2.webp)
+ *   Caption for slide 2
+ *
+ *   ![](https://www.youtube.com/embed/VIDEO_ID)
+ *   Caption for YouTube video
+ * </Slides>
+ *
+ * WITH CUSTOM SCALE (0-1, default 0.8):
+ * <Slides scale={0.6}>
+ *   ![](/path/to/image.webp)
+ *   Caption
+ * </Slides>
+ *
+ * HTML FORMAT (also supported):
+ * <Slides>
+ *   <img src="/path/to/image1.webp" />
+ *   Caption for slide 1
+ * </Slides>
+ *
+ * LEGACY FORMAT (still supported):
+ * <Slides images={[
+ *   { src: "/path/to/image1.webp", alt: "Description" },
+ *   { src: "/path/to/image2.webp" },
+ * ]}>
+ *   Caption for slide 1
+ *
+ *   Caption for slide 2
+ * </Slides>
+ */
+import { Image } from 'astro:assets';
+
+// Import all images from both locations for optimization (exclude GIFs - they can exceed pixel limits)
+const contentImages = import.meta.glob<{ default: ImageMetadata }>('/src/content/docs/**/img/**/*.{webp,png,jpg,jpeg}', { eager: true });
+const assetImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/content/**/*.{webp,png,jpg,jpeg}', { eager: true });
+
+// Merge both image sources
+const allImages = { ...contentImages, ...assetImages };
+
+interface SlideImage {
+  src: string;
+  alt?: string;
+  caption?: string;
+}
+
+interface SlideAttributes {
+  width?: string;
+  border?: string;
+  align?: 'left' | 'center' | 'right';
+}
+
+interface Props {
+  images?: SlideImage[];
+  scale?: number;
+}
+
+// Parse hash attributes from URL (e.g., #w=80&border&align=left)
+function parseHashAttributes(url: string): { cleanUrl: string; attrs: SlideAttributes } {
+  const hashIndex = url.indexOf('#');
+  if (hashIndex === -1) {
+    return { cleanUrl: url, attrs: {} };
+  }
+
+  const cleanUrl = url.substring(0, hashIndex);
+  const hashStr = url.substring(hashIndex + 1);
+  const attrs: SlideAttributes = {};
+
+  const parts = hashStr.split('&');
+  for (const part of parts) {
+    if (part.includes('=')) {
+      const [key, ...valueParts] = part.split('=');
+      const value = valueParts.join('=').replace(/_/g, ' ');
+      if (key === 'w') {
+        attrs.width = `${value}%`;
+      } else if (key === 'align') {
+        attrs.align = value as 'left' | 'center' | 'right';
+      } else if (key === 'border') {
+        attrs.border = value;
+      }
+    } else if (part === 'border') {
+      attrs.border = '5px solid #ADADAD';
+    }
+  }
+
+  return { cleanUrl, attrs };
+}
+
+const { images: propImages, scale = 0.8 } = Astro.props;
+const rawContent = await Astro.slots.render('default') || '';
+
+// Clamp scale between 0.1 and 1
+const clampedScale = Math.max(0.1, Math.min(1, scale));
+const scalePercent = `${clampedScale * 100}%`;
+
+// Helper to get optimized image from path
+function getOptimizedImage(srcPath: string): ImageMetadata | null {
+  // Try relative path first (for ../img/... style paths)
+  const normalizedSrc = srcPath.replace(/^\.\.\//, '').replace(/^\.\//, '');
+  for (const [key, value] of Object.entries(allImages)) {
+    if (key.endsWith(normalizedSrc) || key.includes(normalizedSrc)) {
+      return value.default;
+    }
+  }
+
+  // Try absolute path style (for /folder/image.webp)
+  const assetPath = `/src/assets/content${srcPath}`;
+  const imageModule = allImages[assetPath];
+  return imageModule?.default || null;
+}
+
+// Parse content to extract images and captions
+interface ParsedSlide {
+  src: string;
+  alt: string;
+  caption: string;
+  attrs: SlideAttributes;
+}
+
+function parseSequentialContent(content: string): ParsedSlide[] {
+  const slides: ParsedSlide[] = [];
+
+  const imageTagRegex = /<(?:Image|img)\s+([^>]*?)(?:\/>|>(?:<\/(?:Image|img)>)?)/gi;
+  const parts = content.split(imageTagRegex);
+  const imageMatches = [...content.matchAll(imageTagRegex)];
+
+  if (imageMatches.length === 0) {
+    return [];
+  }
+
+  imageMatches.forEach((match, index) => {
+    const tagAttrs = match[1] || '';
+    const srcMatch = tagAttrs.match(/src=["']([^"']+)["']/);
+    const rawSrc = srcMatch ? srcMatch[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"') : '';
+    const altMatch = tagAttrs.match(/alt=["']([^"']*?)["']/);
+    const alt = altMatch ? altMatch[1] : '';
+
+    if (!rawSrc) return;
+
+    // Parse hash attributes from the URL (in case they're still there)
+    const { cleanUrl: src, attrs: hashAttrs } = parseHashAttributes(rawSrc);
+
+    // Also check for data-slide-* attributes (set by remark-image-attributes plugin)
+    const dataBorderMatch = tagAttrs.match(/data-slide-border=["']([^"']+)["']/);
+    const dataWidthMatch = tagAttrs.match(/data-slide-width=["']([^"']+)["']/);
+    const dataAlignMatch = tagAttrs.match(/data-slide-align=["']([^"']+)["']/);
+
+    // Merge attributes (data-* attributes take priority as they're set by the plugin)
+    const attrs: SlideAttributes = {
+      ...hashAttrs,
+      ...(dataBorderMatch && { border: dataBorderMatch[1] }),
+      ...(dataWidthMatch && { width: `${dataWidthMatch[1]}%` }),
+      ...(dataAlignMatch && { align: dataAlignMatch[1] as 'left' | 'center' | 'right' })
+    };
+
+    const captionIndex = (index * 2) + 2;
+    let caption = '';
+
+    if (parts[captionIndex]) {
+      caption = parts[captionIndex]
+        .replace(/^[\s\n]*(?:<p>)?/, '')
+        .replace(/(?:<\/p>)?[\s\n]*$/, '')
+        .replace(/<\/p>\s*<p>/g, '<br>')
+        .replace(/<br\s*\/?>[\s\n]*$/, '')
+        .trim();
+    }
+
+    slides.push({ src, alt, caption, attrs });
+  });
+
+  return slides;
+}
+
+function parseLegacyCaptions(content: string, imageCount: number): string[] {
+  let slotCaptions: string[] = [];
+
+  if (!content) return slotCaptions;
+
+  if (content.includes('<ol') && content.includes('<li>')) {
+    const liMatches = content.match(/<li[^>]*>([\s\S]*?)<\/li>/gi);
+    if (liMatches) {
+      slotCaptions = liMatches.map((li: string) =>
+        li
+          .replace(/<\/?li[^>]*>/gi, '')
+          .replace(/^[\s\n]*<p>/, '')
+          .replace(/<\/p>[\s\n]*$/, '')
+          .trim()
+      );
+    }
+  } else {
+    slotCaptions = content
+      .split(/<\/p>\s*<p>|<br\s*\/?>\s*<br\s*\/?>|\n\n+/)
+      .map((c: string) => c.replace(/<\/?p>/g, '').trim())
+      .filter((c: string) => c.length > 0);
+  }
+
+  return slotCaptions;
+}
+
+// Determine which format is being used
+let slides: ParsedSlide[] = [];
+
+const sequentialSlides = parseSequentialContent(rawContent);
+
+if (sequentialSlides.length > 0) {
+  slides = sequentialSlides;
+} else if (propImages && propImages.length > 0) {
+  const legacyCaptions = parseLegacyCaptions(rawContent, propImages.length);
+  slides = propImages.map((img, index) => {
+    const { cleanUrl: src, attrs } = parseHashAttributes(img.src);
+    return {
+      src,
+      alt: img.alt || '',
+      caption: img.caption || legacyCaptions[index] || '',
+      attrs
+    };
+  });
+}
+
+// Process image sources - convert YouTube URLs to embeds
+interface ProcessedSource {
+  url: string;
+  type: 'image' | 'video' | 'youtube';
+  optimizedImage?: ImageMetadata | null;
+}
+
+function processSource(src: string): ProcessedSource {
+  if (src.includes('youtube.com/watch')) {
+    const videoId = new URL(src).searchParams.get('v');
+    return {
+      url: `https://www.youtube.com/embed/${videoId}?rel=0&controls=1&showinfo=0&vq=hd1080`,
+      type: 'youtube'
+    };
+  }
+  if (src.includes('youtu.be/')) {
+    const videoId = src.split('youtu.be/')[1]?.split(/[?#]/)[0];
+    return {
+      url: `https://www.youtube.com/embed/${videoId}?rel=0&controls=1&showinfo=0&vq=hd1080`,
+      type: 'youtube'
+    };
+  }
+  if (src.includes('youtube.com/embed')) {
+    const hasParams = src.includes('?');
+    return {
+      url: hasParams ? src : `${src}?rel=0&controls=1&showinfo=0&vq=hd1080`,
+      type: 'youtube'
+    };
+  }
+  if (src.endsWith('.webm') || src.endsWith('.mp4')) {
+    return { url: src, type: 'video' };
+  }
+  const optimizedImage = getOptimizedImage(src);
+  return { url: src, type: 'image', optimizedImage };
+}
+
+const processedImages = slides.map((slide) => ({
+  ...processSource(slide.src),
+  alt: slide.alt,
+  caption: slide.caption,
+  attrs: slide.attrs
+}));
+
+// For client-side, we need image dimensions for scaling calculations
+const slidesDataForClient = processedImages.map(slide => ({
+  url: slide.optimizedImage ? slide.optimizedImage.src : slide.url,
+  type: slide.type,
+  alt: slide.alt,
+  caption: slide.caption,
+  width: slide.optimizedImage?.width || null,
+  height: slide.optimizedImage?.height || null,
+  attrs: slide.attrs
+}));
+const slidesData = JSON.stringify(slidesDataForClient);
+const slideId = `slides-${Math.random().toString(36).substr(2, 9)}`;
+---
+
+<div class="slides-component" data-slides={slidesData} data-slide-id={slideId} style={`--slides-scale: ${scalePercent};`}>
+  <div class="slides-main">
+    <div class="slides-container">
+      <div class="slides-wrapper">
+        {processedImages.map((slide, index) => (
+          <div class={`slide ${index === 0 ? 'active' : ''}`} data-index={index}>
+            <div class="slide-media loading">
+              <div class="slide-loader">
+                <div class="spinner"></div>
+              </div>
+              {slide.type === 'youtube' ? (
+                <div class="youtube-wrapper">
+                  <iframe src={slide.url} allowfullscreen loading="lazy"></iframe>
+                </div>
+              ) : slide.type === 'video' ? (
+                <video controls>
+                  <source src={slide.url} type={`video/${slide.url.split('.').pop()}`} />
+                </video>
+              ) : slide.optimizedImage ? (
+                <Image src={slide.optimizedImage} alt={slide.alt} loading="lazy" class="slide-img" />
+              ) : (
+                <img src={slide.url} alt={slide.alt} loading="lazy" class="slide-img" />
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <button class="slides-nav slides-prev" aria-label="Previous slide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <button class="slides-nav slides-next" aria-label="Next slide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+
+    <div class="slides-caption-container">
+      {processedImages.map((slide, index) => (
+        <p
+          class={`slides-caption ${index === 0 ? 'active' : ''}`}
+          data-caption-index={index}
+          set:html={slide.caption || '&nbsp;'}
+        ></p>
+      ))}
+    </div>
+
+    <div class="slides-dots">
+      {processedImages.map((_, index) => (
+        <button class={`dot ${index === 0 ? 'active' : ''}`} data-index={index} aria-label={`Go to slide ${index + 1}`}></button>
+      ))}
+    </div>
+  </div>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close lightbox">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-media-container">
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous slide">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="lightbox-media"></div>
+
+        <button class="lightbox-nav lightbox-next" aria-label="Next slide">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="lightbox-caption-container">
+        {processedImages.map((slide, index) => (
+          <p
+            class={`lightbox-caption ${index === 0 ? 'active' : ''}`}
+            data-lightbox-caption-index={index}
+            set:html={slide.caption || '&nbsp;'}
+          ></p>
+        ))}
+      </div>
+
+      <div class="lightbox-dots">
+        {processedImages.map((_, index) => (
+          <button class={`dot ${index === 0 ? 'active' : ''}`} data-index={index} aria-label={`Go to slide ${index + 1}`}></button>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .slides-component {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .slides-component * {
+    box-sizing: border-box;
+  }
+
+  .slides-main {
+    position: relative;
+  }
+
+  .slides-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slides-wrapper {
+    position: relative;
+    width: var(--slides-scale, 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slide,
+  .slide:first-child,
+  .slide:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .slide.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .slide-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide-loader {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--sl-color-gray-6);
+    border-radius: 0.25rem;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .slide-media:not(.loading) .slide-loader {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--sl-color-gray-4);
+    border-top-color: #43A047;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .slide-media.loading :global(img),
+  .slide-media.loading :global(video),
+  .slide-media.loading iframe {
+    opacity: 0;
+  }
+
+  .slide-media:not(.loading) :global(img),
+  .slide-media:not(.loading) :global(video),
+  .slide-media:not(.loading) iframe {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .slide-media :global(img),
+  .slide-media :global(.slide-img) {
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    border-radius: 0.25rem;
+    display: block;
+  }
+
+  .slide-media :global(video) {
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    border-radius: 0.25rem;
+    display: block;
+  }
+
+  .youtube-wrapper {
+    width: 100%;
+    max-height: none;
+    aspect-ratio: 16 / 9;
+  }
+
+  .youtube-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.25rem;
+  }
+
+  /* Navigation arrows - centered on the slides container edges */
+  .slides-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    z-index: 10;
+  }
+
+  .slides-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .slides-nav svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .slides-prev {
+    left: 0;
+  }
+
+  .slides-next {
+    right: 0;
+  }
+
+  /* Caption container uses CSS Grid stacking */
+  .slides-caption-container {
+    display: grid;
+    align-items: start;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    max-width: var(--slides-scale, 80%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slides-caption {
+    grid-area: 1 / 1;
+    font-family: 'Inter', system-ui, sans-serif;
+    text-align: center;
+    color: var(--sl-color-gray-2);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .slides-caption.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .slides-caption :global(*) {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Dots - below captions */
+  .slides-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0 0 0;
+    margin: 0;
+  }
+
+  .dot,
+  .dot:first-child,
+  .dot:first-of-type {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: var(--sl-color-gray-4);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+
+  .dot:hover {
+    background: var(--sl-color-gray-3);
+    transform: scale(1.15);
+  }
+
+  .dot.active {
+    background: #43A047;
+  }
+
+  /* Lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 99999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .lightbox.open {
+    display: flex;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 10001;
+    transition: transform 0.2s;
+  }
+
+  .lightbox-close:hover {
+    transform: scale(1.1);
+  }
+
+  .lightbox-close svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .lightbox-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 3rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .lightbox-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 90vw;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .lightbox-nav {
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    padding: 0.75rem;
+    transition: background-color 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+  }
+
+  .lightbox-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+  }
+
+  .lightbox-nav svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .lightbox-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: calc(90vw - 10rem);
+    max-height: 70vh;
+    position: relative;
+    min-width: 200px;
+    min-height: 150px;
+  }
+
+  .lightbox-media :global(img) {
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.25rem;
+    transition: opacity 0.2s ease;
+  }
+
+  .lightbox-media :global(video) {
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    border-radius: 0.25rem;
+    transition: opacity 0.2s ease;
+  }
+
+  .lightbox-media :global(iframe) {
+    transition: opacity 0.2s ease;
+  }
+
+  .lightbox-media :global(.youtube-wrapper) {
+    width: min(80vw, calc(70vh * 16 / 9));
+    aspect-ratio: 16 / 9;
+  }
+
+  .lightbox-media :global(.youtube-wrapper iframe) {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.25rem;
+  }
+
+  /* Lightbox caption container */
+  .lightbox-caption-container {
+    width: 100%;
+    max-width: min(800px, 90%);
+    display: grid;
+    align-items: start;
+    padding-top: 1rem;
+  }
+
+  .lightbox-caption {
+    grid-area: 1 / 1;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 0 1rem;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .lightbox-caption.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .lightbox-caption :global(*) {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Lightbox dots - below captions */
+  .lightbox-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0 0.5rem 0;
+    margin: 0;
+  }
+
+  .lightbox-dots .dot {
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .lightbox-dots .dot:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .lightbox-dots .dot.active {
+    background: #43A047;
+  }
+</style>
+
+<script>
+  function initSlides() {
+    document.querySelectorAll('.slides-component').forEach((component) => {
+      const slidesData = JSON.parse(component.getAttribute('data-slides') || '[]');
+      const slideId = component.getAttribute('data-slide-id');
+
+      // Skip if already initialized
+      if (component.hasAttribute('data-initialized')) return;
+      component.setAttribute('data-initialized', 'true');
+
+      const slidesWrapper = component.querySelector('.slides-wrapper') as HTMLElement;
+      const slidesContainer = component.querySelector('.slides-container') as HTMLElement;
+      const slides = component.querySelectorAll('.slide');
+      const dots = component.querySelectorAll('.slides-main .dot');
+      const captions = component.querySelectorAll('.slides-caption');
+      const prevBtn = component.querySelector('.slides-prev') as HTMLElement;
+      const nextBtn = component.querySelector('.slides-next') as HTMLElement;
+
+      const lightbox = component.querySelector('.lightbox') as HTMLElement;
+      const lightboxMedia = component.querySelector('.lightbox-media') as HTMLElement;
+      const lightboxCaptions = component.querySelectorAll('.lightbox-caption');
+      const lightboxDots = component.querySelectorAll('.lightbox-dots .dot');
+      const lightboxClose = component.querySelector('.lightbox-close');
+      const lightboxPrev = component.querySelector('.lightbox-prev');
+      const lightboxNext = component.querySelector('.lightbox-next');
+
+      if (!slides || slides.length === 0) return;
+
+      let currentIndex = 0;
+      let lightboxIndex = 0;
+      let imagesLoaded = 0;
+      const totalImages = slidesData.filter((s: any) => s.type === 'image').length;
+
+      // Track image dimensions for scaling
+      interface ImageDimensions {
+        width: number;
+        height: number;
+        aspectRatio: number;
+      }
+      const imageDimensions: (ImageDimensions | null)[] = [];
+
+      // Calculate and apply uniform scaling
+      function calculateScaling() {
+        if (imageDimensions.length === 0) return;
+
+        // Find the widest aspect ratio (will be scaled to 100% width of wrapper)
+        let widestAspectRatio = 0;
+        let referenceHeight = 0;
+
+        imageDimensions.forEach((dim, index) => {
+          if (dim && dim.aspectRatio > widestAspectRatio) {
+            widestAspectRatio = dim.aspectRatio;
+          }
+        });
+
+        // Also consider YouTube videos as 16:9
+        slidesData.forEach((slide: any, index: number) => {
+          if (slide.type === 'youtube') {
+            const youtubeAspectRatio = 16 / 9;
+            if (youtubeAspectRatio > widestAspectRatio) {
+              widestAspectRatio = youtubeAspectRatio;
+            }
+          }
+        });
+
+        // The widest image takes 100% width of wrapper (which is scale% of container).
+        // Tall or square-only slide decks use the same width-derived frame height so
+        // resizing the viewport height does not make the visible slide shrink.
+        const wrapperWidth = slidesWrapper.offsetWidth;
+        const naturalReferenceHeight = wrapperWidth / widestAspectRatio;
+        const maxColumnHeight = wrapperWidth * 0.56;
+        referenceHeight = Math.min(naturalReferenceHeight, maxColumnHeight);
+
+        // Set wrapper height
+        slidesWrapper.style.height = `${referenceHeight}px`;
+
+        // Scale each slide's content to match reference height
+        slides.forEach((slide, index) => {
+          const media = slide.querySelector('.slide-media') as HTMLElement;
+          const img = media?.querySelector('img') as HTMLImageElement;
+          const youtubeWrapper = media?.querySelector('.youtube-wrapper') as HTMLElement;
+          const video = media?.querySelector('video') as HTMLVideoElement;
+
+          if (img && imageDimensions[index]) {
+            // Scale image to reference height (border wrapper will add to total height)
+            const dim = imageDimensions[index]!;
+            const scaledWidth = referenceHeight * dim.aspectRatio;
+            img.style.height = `${referenceHeight}px`;
+            img.style.width = `${scaledWidth}px`;
+            img.style.maxHeight = 'none';
+            img.style.maxWidth = 'none';
+          } else if (youtubeWrapper) {
+            // YouTube: 16:9 at reference height
+            const scaledWidth = referenceHeight * (16 / 9);
+            youtubeWrapper.style.height = `${referenceHeight}px`;
+            youtubeWrapper.style.width = `${scaledWidth}px`;
+          } else if (video && imageDimensions[index]) {
+            // Scale video to reference height (border wrapper will add to total height)
+            const dim = imageDimensions[index]!;
+            const scaledWidth = referenceHeight * dim.aspectRatio;
+            video.style.height = `${referenceHeight}px`;
+            video.style.width = `${scaledWidth}px`;
+          }
+        });
+
+        // Position arrows outside the slides wrapper
+        const containerRect = slidesContainer.getBoundingClientRect();
+        const wrapperRect = slidesWrapper.getBoundingClientRect();
+        const leftOffset = wrapperRect.left - containerRect.left;
+        const rightOffset = containerRect.right - wrapperRect.right;
+        const arrowGap = 12; // gap between arrow and image edge
+
+        prevBtn.style.left = `${leftOffset - prevBtn.offsetWidth - arrowGap}px`;
+        nextBtn.style.right = `${rightOffset - nextBtn.offsetWidth - arrowGap}px`;
+      }
+
+      // Load and measure images
+      slides.forEach((slide, index) => {
+        const mediaContainer = slide.querySelector('.slide-media');
+        const img = mediaContainer?.querySelector('img') as HTMLImageElement;
+        const iframe = mediaContainer?.querySelector('iframe');
+        const video = mediaContainer?.querySelector('video') as HTMLVideoElement;
+
+        if (img) {
+          const measureImage = () => {
+            imageDimensions[index] = {
+              width: img.naturalWidth,
+              height: img.naturalHeight,
+              aspectRatio: img.naturalWidth / img.naturalHeight
+            };
+            mediaContainer?.classList.remove('loading');
+            imagesLoaded++;
+            calculateScaling();
+          };
+
+          if (img.complete && img.naturalWidth > 0) {
+            measureImage();
+          } else {
+            img.addEventListener('load', measureImage);
+          }
+        } else if (iframe) {
+          // YouTube - use 16:9 aspect ratio
+          imageDimensions[index] = {
+            width: 16,
+            height: 9,
+            aspectRatio: 16 / 9
+          };
+          iframe.addEventListener('load', () => {
+            mediaContainer?.classList.remove('loading');
+          });
+          imagesLoaded++;
+          calculateScaling();
+        } else if (video) {
+          const measureVideo = () => {
+            imageDimensions[index] = {
+              width: video.videoWidth,
+              height: video.videoHeight,
+              aspectRatio: video.videoWidth / video.videoHeight
+            };
+            mediaContainer?.classList.remove('loading');
+            imagesLoaded++;
+            calculateScaling();
+          };
+
+          if (video.readyState >= 1) {
+            measureVideo();
+          } else {
+            video.addEventListener('loadedmetadata', measureVideo);
+          }
+        } else {
+          imageDimensions[index] = null;
+        }
+      });
+
+      // If no images to load, calculate immediately
+      if (totalImages === 0) {
+        calculateScaling();
+      }
+
+      // Recalculate on resize
+      let resizeTimeout: number;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = window.setTimeout(calculateScaling, 100);
+      });
+
+      function goToSlide(index: number) {
+        slides.forEach((slide) => {
+          const video = slide.querySelector('video');
+          if (video) video.pause();
+        });
+
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+        });
+
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === index);
+        });
+
+        captions.forEach((caption, i) => {
+          caption.classList.toggle('active', i === index);
+        });
+
+        currentIndex = index;
+      }
+
+      function nextSlide() {
+        goToSlide((currentIndex + 1) % slides.length);
+      }
+
+      function prevSlide() {
+        goToSlide((currentIndex - 1 + slides.length) % slides.length);
+      }
+
+      function goToLightboxSlide(index: number) {
+        lightboxIndex = index;
+        renderLightboxSlide(index);
+      }
+
+      function nextLightboxSlide() {
+        goToLightboxSlide((lightboxIndex + 1) % slides.length);
+      }
+
+      function prevLightboxSlide() {
+        goToLightboxSlide((lightboxIndex - 1 + slides.length) % slides.length);
+      }
+
+      prevBtn?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        prevSlide();
+      });
+      nextBtn?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        nextSlide();
+      });
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => goToSlide(index));
+      });
+
+      slides.forEach((slide, index) => {
+        const media = slide.querySelector('.slide-media');
+        media?.addEventListener('click', () => {
+          openLightbox(index);
+        });
+      });
+
+      function renderLightboxSlide(index: number) {
+        const slide = slidesData[index];
+        if (!slide || !lightboxMedia) return;
+
+        const existingVideo = lightboxMedia.querySelector('video');
+        if (existingVideo) existingVideo.pause();
+
+        // Show loading spinner (inline styles since dynamically created)
+        lightboxMedia.innerHTML = `<div style="position:absolute;display:flex;justify-content:center;align-items:center;inset:0;"><div style="width:40px;height:40px;border:3px solid rgba(255,255,255,0.3);border-top-color:#43A047;border-radius:50%;animation:spin 0.8s linear infinite;"></div></div>`;
+
+        if (slide.type === 'youtube') {
+          const iframe = document.createElement('iframe');
+          iframe.src = slide.url;
+          iframe.allowFullscreen = true;
+          iframe.style.opacity = '0';
+          const wrapper = document.createElement('div');
+          wrapper.className = 'youtube-wrapper';
+          wrapper.appendChild(iframe);
+          lightboxMedia.appendChild(wrapper);
+          iframe.onload = () => {
+            iframe.style.opacity = '1';
+            const loader = lightboxMedia.querySelector('div[style*="position:absolute"]');
+            if (loader) loader.remove();
+          };
+        } else if (slide.type === 'video') {
+          const video = document.createElement('video');
+          video.controls = true;
+          video.innerHTML = `<source src="${slide.url}" type="video/${slide.url.split('.').pop()}">`;
+          video.style.opacity = '0';
+          lightboxMedia.appendChild(video);
+          video.onloadeddata = () => {
+            video.style.opacity = '1';
+            const loader = lightboxMedia.querySelector('div[style*="position:absolute"]');
+            if (loader) loader.remove();
+          };
+        } else {
+          const img = document.createElement('img');
+          img.src = slide.url;
+          img.alt = slide.alt || '';
+          img.style.opacity = '0';
+          lightboxMedia.appendChild(img);
+          img.onload = () => {
+            img.style.opacity = '1';
+            const loader = lightboxMedia.querySelector('div[style*="position:absolute"]');
+            if (loader) loader.remove();
+          };
+        }
+
+        lightboxCaptions.forEach((caption, i) => {
+          caption.classList.toggle('active', i === index);
+        });
+
+        lightboxDots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === index);
+        });
+      }
+
+      function openLightbox(index: number) {
+        lightboxIndex = index;
+        renderLightboxSlide(index);
+        document.body.appendChild(lightbox);
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        document.documentElement.classList.add('lightbox-open');
+      }
+
+      function closeLightbox() {
+        const video = lightboxMedia?.querySelector('video');
+        if (video) video.pause();
+
+        goToSlide(lightboxIndex);
+
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+        document.documentElement.classList.remove('lightbox-open');
+        component.appendChild(lightbox);
+      }
+
+      lightboxClose?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closeLightbox();
+      });
+      lightboxPrev?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        prevLightboxSlide();
+      });
+      lightboxNext?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        nextLightboxSlide();
+      });
+
+      lightboxDots.forEach((dot, index) => {
+        dot.addEventListener('click', (e) => {
+          e.stopPropagation();
+          goToLightboxSlide(index);
+        });
+      });
+
+      lightbox?.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      const lightboxContent = lightbox.querySelector('.lightbox-content');
+      lightboxContent?.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+        if (target.closest('button') || target.closest('img') || target.closest('iframe') ||
+            target.closest('.lightbox-caption') || target.closest('.lightbox-dots')) {
+          return;
+        }
+        closeLightbox();
+      });
+
+      const handleKeydown = (e: KeyboardEvent) => {
+        if (lightbox.classList.contains('open')) {
+          if (e.key === 'Escape') {
+            closeLightbox();
+          } else if (e.key === 'ArrowLeft') {
+            prevLightboxSlide();
+          } else if (e.key === 'ArrowRight') {
+            nextLightboxSlide();
+          }
+        }
+      };
+
+      document.addEventListener('keydown', handleKeydown);
+    });
+  }
+
+  initSlides();
+  document.addEventListener('astro:page-load', initSlides);
+</script>

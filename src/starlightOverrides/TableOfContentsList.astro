@@ -1,0 +1,50 @@
+---
+/**
+ * Recursive TOC list component
+ */
+interface TocItem {
+  slug: string;
+  text: string;
+  children: TocItem[];
+}
+
+interface Props {
+  items: TocItem[];
+  depth?: number;
+}
+
+const { items, depth = 0 } = Astro.props;
+---
+
+<ul style={`--depth: ${depth}`}>
+  {items.map((heading) => (
+    <li>
+      <a href={'#' + heading.slug}>
+        <span>{heading.text}</span>
+      </a>
+      {heading.children.length > 0 && (
+        <Astro.self items={heading.children} depth={depth + 1} />
+      )}
+    </li>
+  ))}
+</ul>
+
+<style>
+  @layer starlight.toc {
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+    a {
+      --pad-inline: 0.5rem;
+      display: block;
+      border-radius: 0.25rem;
+      padding-block: 0.25rem;
+      padding-inline: calc(1rem * var(--depth, 0) + var(--pad-inline)) var(--pad-inline);
+      line-height: 1.25;
+    }
+    a[aria-current='true'] {
+      color: var(--sl-color-text-accent);
+    }
+  }
+</style>

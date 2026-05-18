@@ -1,0 +1,35 @@
+﻿---
+title: Assembly
+description: Assembling the elevator
+---
+
+
+## Assembly
+
+Because this subsystem has multiple moving parts, just like the dead axle pivot and slapdown intake, separate rigid subassemblies should be created for each stage.
+
+### Base Stage Assembly
+
+Create an assembly for the static parts and follow the typical process for inserting them and creating a rigid body (origin cube, group, fasten to origin). Add the rest of the parts by duplicating existing parts, FRCDesignLib, and standard content, using replicate and patterns when you can.
+
+<ContentFigure src="../img/2d/frameSubassembly.webp" alt="Finished base stage assembly" />
+
+### First Stage Assembly
+
+Do the same thing for the first stage subassembly.
+
+<ContentFigure src="../img/2d/stage1Subassembly.webp" alt="Finished first stage assembly" />
+
+### Carriage Assembly
+
+And finally the carriage subassembly.
+
+<ContentFigure src="../img/2d/carriageSubassembly.webp" alt="Finished carriage assembly" />
+
+### Top Level Assembly
+
+Now create the top level assembly, insert the subassemblies (fasten the origin cube of the static assembly to the origin), and use the reference mates on the origin cubes from the separate subassemblies to create slider mates with limits to define the motion of the elevator.
+
+<ContentFigure src="../img/2d/elevatorTopLevel.webp" alt="Finished Top Level Elevator Assembly" />
+
+Because it's a cascade elevator, you can use the "Linear Relation" assembly tool between the two slider mates with a ratio of 1 to link the motion of the stages together in the same way it would be in real life.

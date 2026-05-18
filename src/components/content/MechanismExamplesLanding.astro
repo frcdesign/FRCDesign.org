@@ -1,0 +1,864 @@
+---
+import { Image } from 'astro:assets';
+import { renderGlossaryDescription } from '../../utils/renderGlossaryDescription';
+
+type MechanismImage = ImageMetadata & { route: string; label: string };
+
+const mechanismImageModules = import.meta.glob<{ default: ImageMetadata }>(
+  '../../content/docs/mechanism-examples/**/thumb/*.{png,jpg,jpeg,webp}',
+  { eager: true }
+);
+
+const normalizeRoute = (route: string) => route.endsWith('/') ? route : `${route}/`;
+
+const mechanismImages: MechanismImage[] = Object.entries(mechanismImageModules)
+  .map(([path, module]) => {
+    const route = normalizeRoute(
+      path
+        .replace('../../content/docs', '')
+        .replace(/\/thumb\/[^/]+$/, '/')
+    );
+    const fileName = path.split('/').pop() || 'mechanism image';
+    const label = fileName.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
+    return { ...module.default, route, label };
+  })
+  .sort((a, b) => a.route.localeCompare(b.route) || a.label.localeCompare(b.label));
+
+const imagesForRoute = (route: string) => {
+  const normalizedRoute = normalizeRoute(route);
+  return mechanismImages.filter((image) => image.route.startsWith(normalizedRoute));
+};
+
+const imagesForRoutes = (routes: string[]) => {
+  const routeSet = new Set<string>();
+  const images: MechanismImage[] = [];
+
+  for (const route of routes) {
+    for (const image of imagesForRoute(route)) {
+      if (!routeSet.has(image.src)) {
+        routeSet.add(image.src);
+        images.push(image);
+      }
+    }
+  }
+
+  return images;
+};
+
+const imageByLabel = (labelPart: string) =>
+  mechanismImages.find((image) => image.label.includes(labelPart)) || mechanismImages[0];
+
+const inDepthExamples = [
+  {
+    title: '6328 A-Frame Pivot',
+    href: '/mechanism-examples/pivots/6328_2023_pivot/',
+    image: imageByLabel('6328 2023 pivot'),
+    imageAlt: '6328 A-frame pivot CAD render',
+    category: 'Pivot',
+    description: 'A triple-pivoted A-frame arm with notes on torque analysis, custom gearbox packaging, dead-axle clamping, and serviceable joints.',
+  },
+  {
+    title: "1678's Rapid React Shooter",
+    href: '/mechanism-examples/shooter/1678_2022_shooter/',
+    image: imageByLabel('1678 2022 shooter'),
+    imageAlt: '1678 Rapid React shooter CAD render',
+    category: 'Shooter',
+    description: 'A hooded shooter breakdown covering backrollers, flywheel mass, hood actuation, spin control, and practical design tradeoffs.',
+  },
+  {
+    title: '2910 Dead Axle Pivot',
+    href: '/mechanism-examples/pivots/2910_2023_pivot/',
+    image: imageByLabel('2910 2023 pivot'),
+    imageAlt: '2910 dead axle pivot CAD render',
+    category: 'Pivot',
+    description: 'A custom dead-axle pivot with notes on chain tensioning, load paths, electronics packaging, and serviceable structure.',
+  },
+];
+
+const categories = [
+  {
+    title: 'Drivebases',
+    href: '/mechanism-examples/drivebase/swerve/',
+    imageAlt: 'Swerve drivebase CAD render',
+    description: 'Swerve drivebases, bellypans, electronics packaging, frame geometry, and module integration.',
+    links: [
+      { label: 'Swerve drivebases', href: '/mechanism-examples/drivebase/swerve/' },
+    ],
+  },
+  {
+    title: 'Intakes',
+    href: '/mechanism-examples/intake/slapdown/',
+    imageAlt: 'Pivoting intake CAD render',
+    description: 'Over-the-bumper intake layouts, pivoting intakes, linkage deployments, roller placement, and acquisition geometry.',
+    links: [
+      { label: 'Pivoting intakes', href: '/mechanism-examples/intake/slapdown/' },
+      { label: 'Linkage intakes', href: '/mechanism-examples/intake/linkage/' },
+    ],
+  },
+  {
+    title: 'Shooters',
+    href: '/mechanism-examples/shooter/',
+    imageAlt: 'Shooter CAD render',
+    description: 'Flywheels, hoods, backrollers, note and ball launchers, and examples from multiple FRC games.',
+    links: [
+      { label: 'Shooters', href: '/mechanism-examples/shooter/' },
+    ],
+  },
+  {
+    title: 'Elevators',
+    href: '/mechanism-examples/elevator/continuous/',
+    imageAlt: 'Continuous elevator CAD render',
+    description: 'Continuous and cascade elevator layouts, bearing blocks, rigging choices, carriages, and COTS elevator kits.',
+    links: [
+      { label: 'Continuous elevators', href: '/mechanism-examples/elevator/continuous/' },
+      { label: 'Cascade elevators', href: '/mechanism-examples/elevator/cascade/' },
+    ],
+  },
+  {
+    title: 'Pivots',
+    href: '/mechanism-examples/pivots/',
+    imageAlt: 'Dead axle pivot CAD render',
+    description: 'Dead-axle pivots, belt pivots, chain tensioning, arm structure, and packaging for rotating mechanisms.',
+    links: [
+      { label: 'Pivots', href: '/mechanism-examples/pivots/' },
+    ],
+  },
+].map((category) => {
+  const routes = category.links.map((link) => link.href);
+  const images = imagesForRoutes(routes);
+  return {
+    ...category,
+    image: images[0] || mechanismImages[0],
+    images,
+  };
+});
+---
+
+<h1 id="_top" class="mechanism-page-title-sr">Mechanism Examples</h1>
+
+<section class="mechanism-hero">
+  <div class="mechanism-hero-copy">
+    <p class="mechanism-eyebrow">Mechanism examples</p>
+    <blockquote>
+      <p>Steal from the best, invent the rest.</p>
+      <cite>-Mike Corsetto, Team 1678</cite>
+    </blockquote>
+    <p class="hero-copy">
+      Don't be afraid to take inspiration from robots that already solved hard design problems. This library collects in-depth writeups and CAD references so teams can study real mechanisms, compare approaches, and build better designs faster.
+    </p>
+  </div>
+  <div class="mechanism-hero-media" data-hero-rotator>
+    {mechanismImages.map((heroImage, index) => (
+      <Image
+        src={heroImage}
+        alt={`${heroImage.label} CAD render`}
+        loading={index === 0 ? 'eager' : 'lazy'}
+        class:list={['hero-rotator-image', { active: index === 0 }]}
+        data-route={heroImage.route}
+        data-no-lightbox
+      />
+    ))}
+  </div>
+</section>
+
+<section class="mechanism-contribution">
+  <div>
+    <p class="mechanism-eyebrow">Contribute</p>
+    <h2>Help make the library deeper.</h2>
+    <p>
+      This library gets better when teams share what worked. Add examples with images and CAD links, or help turn existing references into Behind the Design writeups with the reasoning, packaging choices, and tradeoffs that made the mechanism work.
+    </p>
+  </div>
+  <a href="/contribution/methods-of-contributing/">Contribute an example</a>
+</section>
+
+<section id="in-depth-examples" class="mechanism-section">
+  <div class="section-heading">
+    <p class="mechanism-eyebrow">Start here</p>
+    <h2>In-depth writeups</h2>
+    <p>These examples go beyond a CAD document and explain why the mechanism was designed the way it was.</p>
+  </div>
+
+  <div class="featured-grid">
+    {inDepthExamples.map((example) => (
+      <article class="featured-card">
+        <div class="featured-image">
+          <Image src={example.image} alt={example.imageAlt} loading="lazy" />
+        </div>
+        <div class="featured-body">
+          <p class="category-label">{example.category}</p>
+          <h3><a href={example.href} class="featured-card-link">{example.title}</a></h3>
+          <p set:html={renderGlossaryDescription(example.description)} />
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section id="browse-library" class="mechanism-section">
+  <div class="section-heading">
+    <p class="mechanism-eyebrow">Browse by mechanism</p>
+    <h2>Mechanism library</h2>
+    <p>Each section displays in-depth writeups first followed by CAD references when available.</p>
+  </div>
+
+  <div class="library-grid">
+    {categories.map((category) => (
+      <article class="library-card">
+        <div class="library-image">
+          <img
+            src={category.image.src}
+            alt={category.imageAlt}
+            loading="lazy"
+            data-category-image
+            data-default-src={category.image.src}
+            data-images={JSON.stringify(category.images.map((image) => image.src))}
+          />
+        </div>
+        <div class="library-body">
+          <h3>{category.title}</h3>
+          <p set:html={renderGlossaryDescription(category.description)} />
+          <div class="library-links">
+            {category.links.map((link) => (
+              <a
+                href={link.href}
+                data-category-trigger
+                data-images={JSON.stringify(imagesForRoute(link.href).map((image) => image.src))}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  :global(.content-panel:has(+ .content-panel .mechanism-hero)) {
+    display: none;
+  }
+
+  :global(.mechanism-generated-title-panel-hidden) {
+    display: none;
+  }
+
+  .mechanism-page-title-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .mechanism-hero {
+    --mechanism-green: #2fbf5b;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+    gap: clamp(1.25rem, 4vw, 3rem);
+    align-items: center;
+    max-width: 76rem;
+    margin: 1.5rem auto 2rem;
+    padding: clamp(1.25rem, 4vw, 2rem);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 8px;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--sl-color-gray-6) 68%, transparent), color-mix(in srgb, var(--sl-color-accent) 8%, transparent));
+  }
+
+  .mechanism-hero-copy {
+    display: grid;
+    align-content: center;
+    gap: 1.1rem;
+    max-width: 42rem;
+  }
+
+  .mechanism-eyebrow,
+  .category-label {
+    margin: 0;
+    color: var(--sl-color-accent-high);
+    font-size: var(--sl-text-sm);
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .category-label {
+    color: #2fbf5b;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    color: var(--sl-color-white);
+    line-height: 1.05;
+  }
+
+  .mechanism-hero blockquote {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  .mechanism-hero blockquote p {
+    max-width: 17ch;
+    color: var(--sl-color-white);
+    font-size: clamp(2.1rem, 4.3vw, 4.05rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 0.95;
+  }
+
+  .mechanism-hero cite {
+    display: block;
+    margin-top: 0.75rem;
+    color: var(--sl-color-gray-3);
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .mechanism-hero p {
+    max-width: 60ch;
+    margin: 0;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-lg);
+  }
+
+  .mechanism-hero .mechanism-eyebrow {
+    color: var(--mechanism-green);
+  }
+
+  .mechanism-hero .hero-copy {
+    max-width: 62ch;
+  }
+
+  .mechanism-hero-media {
+    position: relative;
+    overflow: visible;
+    background: transparent;
+    transition: transform 160ms ease;
+  }
+
+  .mechanism-hero-media:hover {
+    transform: translateY(-2px);
+  }
+
+  .mechanism-hero-media::before {
+    content: "";
+    display: block;
+    aspect-ratio: 4 / 3;
+  }
+
+  .mechanism-hero-media .hero-rotator-image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 600ms ease;
+  }
+
+  .mechanism-hero-media .hero-rotator-image.active {
+    opacity: 1;
+  }
+
+  .mechanism-contribution {
+    --contribution-green: #2fbf5b;
+    --contribution-green-soft: color-mix(in srgb, var(--contribution-green) 14%, var(--sl-color-black));
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+    max-width: 46rem;
+    margin: -0.5rem auto 2.5rem;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    border: 1px solid color-mix(in srgb, var(--contribution-green) 65%, var(--sl-color-gray-5));
+    border-radius: 8px;
+    background: var(--contribution-green-soft);
+    text-align: center;
+  }
+
+  .mechanism-contribution .mechanism-eyebrow,
+  .mechanism-contribution h2 {
+    color: var(--contribution-green);
+  }
+
+  .mechanism-contribution p {
+    max-width: 56ch;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-base);
+  }
+
+  .mechanism-contribution h2 {
+    margin: 0.25rem 0 0.45rem;
+    color: var(--sl-color-white);
+    font-size: clamp(1.35rem, 2vw, 1.85rem);
+    line-height: 1.05;
+  }
+
+  .mechanism-contribution a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: 2.35rem;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--contribution-green);
+    border-radius: 6px;
+    color: var(--contribution-green);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .mechanism-contribution a:hover {
+    color: var(--sl-color-white);
+    background: color-mix(in srgb, var(--contribution-green) 24%, transparent);
+  }
+
+  .mechanism-contribution a:focus-visible,
+  .library-links a:focus-visible,
+  .featured-card-link:focus-visible {
+    outline: 2px solid #2fbf5b;
+    outline-offset: 3px;
+  }
+
+  .library-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.35rem;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--sl-color-gray-4);
+    border-radius: 6px;
+    color: var(--sl-color-white);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .library-links a:hover {
+    border-color: #2fbf5b;
+    color: #2fbf5b;
+  }
+
+  .mechanism-section {
+    margin-block: 2.5rem;
+  }
+
+  .section-heading {
+    display: grid;
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-heading p {
+    max-width: 64ch;
+    margin: 0;
+    color: var(--sl-color-gray-3);
+  }
+
+  .section-heading .mechanism-eyebrow {
+    color: #2fbf5b;
+    line-height: 1.2;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .featured-card,
+  .library-card {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    margin: 0 !important;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 8px;
+    background: var(--sl-color-black);
+    transition: border-color 160ms ease, transform 160ms ease, background-color 160ms ease;
+  }
+
+  .featured-card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .featured-card-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+  .featured-card:hover,
+  .featured-card:focus-within {
+    border-color: #2fbf5b;
+    background: color-mix(in srgb, var(--sl-color-black) 92%, #2fbf5b);
+    transform: translateY(-2px);
+  }
+
+  .featured-card:focus-within {
+    outline: 2px solid #2fbf5b;
+    outline-offset: 3px;
+  }
+
+  .featured-image,
+  .library-image {
+    overflow: hidden;
+    height: clamp(11rem, 18vw, 15rem);
+    padding: clamp(0.75rem, 1.5vw, 1.1rem);
+    border-bottom: 1px solid var(--sl-color-gray-5);
+    background: var(--sl-color-gray-7);
+    box-sizing: border-box;
+  }
+
+  .featured-image {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .featured-image img,
+  .library-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: contain;
+    transition: opacity 160ms ease, transform 160ms ease;
+  }
+
+  .library-image img.is-swapping {
+    opacity: 0;
+  }
+
+  .featured-card:hover img {
+    transform: scale(1.02);
+  }
+
+  .featured-body,
+  .library-body {
+    display: grid;
+    gap: 0.6rem;
+    padding: 1rem;
+  }
+
+  .featured-body h3,
+  .featured-body h3 a,
+  .library-body h3,
+  .library-body h3 a {
+    margin: 0;
+    color: var(--sl-color-white);
+    text-decoration: none;
+  }
+
+  .featured-body p,
+  .library-body p {
+    margin: 0;
+    color: var(--sl-color-gray-3);
+    line-height: 1.5;
+  }
+
+  .featured-body .category-label {
+    color: #2fbf5b;
+    line-height: 1.2;
+  }
+
+  .library-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .library-card {
+    display: grid;
+    grid-template-columns: minmax(10rem, 0.8fr) minmax(0, 1.2fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    align-items: stretch;
+  }
+
+  .library-image {
+    position: relative;
+    padding: 0;
+    min-height: clamp(11rem, 16vw, 14rem);
+    border-right: 1px solid var(--sl-color-gray-5);
+    border-bottom: 0;
+    border-radius: 8px 0 0 8px;
+    box-sizing: border-box;
+  }
+
+  .library-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: clamp(0.75rem, 1.5vw, 1.1rem);
+    box-sizing: border-box;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .library-card .library-body {
+    align-self: stretch;
+  }
+
+  .library-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .library-links a {
+    min-height: 2rem;
+    padding-inline: 0.65rem;
+    font-size: var(--sl-text-sm);
+  }
+
+  @media (max-width: 58rem) {
+    .mechanism-hero,
+    .mechanism-contribution,
+    .library-card {
+      grid-template-columns: 1fr;
+    }
+
+    .mechanism-hero blockquote p {
+      max-width: 17ch;
+    }
+
+    .featured-grid,
+    .library-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .library-image {
+      height: clamp(11rem, 48vw, 16rem);
+      border-right: 0;
+      border-bottom: 1px solid var(--sl-color-gray-5);
+      border-radius: 8px 8px 0 0;
+    }
+  }
+
+  .featured-body :global(.glossary-term),
+  .library-body :global(.glossary-term) {
+    position: relative;
+    z-index: 2;
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--sl-color-gray-4);
+    text-underline-offset: 0.2em;
+  }
+
+  .featured-body :global(.glossary-term)::after,
+  .library-body :global(.glossary-term)::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    z-index: 20;
+    width: max-content;
+    max-width: 18rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    transform: translateX(-50%);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 6px;
+    background: var(--sl-color-gray-6);
+    color: var(--sl-color-gray-1);
+    font-size: var(--sl-text-sm);
+    line-height: 1.4;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  .featured-body :global(.glossary-term):hover::after,
+  .library-body :global(.glossary-term):hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+</style>
+
+<script>
+  let rotatorIntervalId: ReturnType<typeof setInterval> | undefined;
+
+  const initMechanismPage = () => {
+    // Only run on the mechanism examples landing page
+    if (!document.querySelector('[data-hero-rotator]')) return;
+
+    const mechanismHero = document.querySelector('.mechanism-hero');
+    const mechanismContentPanel = mechanismHero?.closest('.content-panel');
+    const generatedTitlePanel = mechanismContentPanel?.previousElementSibling;
+
+    if (generatedTitlePanel?.classList.contains('content-panel')) {
+      generatedTitlePanel.classList.add('mechanism-generated-title-panel-hidden');
+      generatedTitlePanel.querySelector('#_top')?.removeAttribute('id');
+    }
+
+    const getRandomItem = (items: string[]) => items[Math.floor(Math.random() * items.length)];
+    const normalizeImageUrl = (src: string) => {
+      try {
+        return new URL(src, window.location.href).href;
+      } catch {
+        return src;
+      }
+    };
+
+    const rotator = document.querySelector('[data-hero-rotator]');
+    const slides = Array.from(rotator?.querySelectorAll('.hero-rotator-image') ?? []) as HTMLImageElement[];
+    let activeIndex = 0;
+
+    if (slides.length > 1) {
+      activeIndex = Math.floor(Math.random() * slides.length);
+      slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === activeIndex);
+        if (index === activeIndex) slide.loading = 'eager';
+      });
+    }
+
+    clearInterval(rotatorIntervalId);
+    if (slides.length > 1) {
+      rotatorIntervalId = setInterval(() => {
+        slides[activeIndex]?.classList.remove('active');
+        let nextIndex = activeIndex;
+        while (nextIndex === activeIndex && slides.length > 1) {
+          nextIndex = Math.floor(Math.random() * slides.length);
+        }
+        activeIndex = nextIndex;
+        slides[activeIndex]?.classList.add('active');
+      }, 3500);
+    }
+
+    if (rotator && !(rotator as HTMLElement).dataset.clickAttached) {
+      (rotator as HTMLElement).dataset.clickAttached = 'true';
+      (rotator as HTMLElement).style.cursor = 'pointer';
+      rotator.addEventListener('click', () => {
+        const activeImg = slides[activeIndex];
+        if (!activeImg) return;
+        const route = activeImg.dataset.route;
+        if (route) window.location.href = route;
+      });
+    }
+
+    for (const card of document.querySelectorAll('.library-card')) {
+      if ((card as HTMLElement).dataset.hoverAttached) continue;
+      (card as HTMLElement).dataset.hoverAttached = 'true';
+      const image = card.querySelector('[data-category-image]');
+      if (!(image instanceof HTMLImageElement)) continue;
+
+      const defaultSrc = image.dataset.defaultSrc || image.currentSrc || image.src;
+      const cardImages = JSON.parse(image.dataset.images || '[]').filter(Boolean) as string[];
+      const preloadedImages = new Map<string, Promise<void>>();
+      const preloadElements = new Map<string, HTMLImageElement>();
+
+      const preloadImage = (src: string) => {
+        const normalizedSrc = normalizeImageUrl(src);
+        if (!src) return Promise.resolve();
+        if (preloadedImages.has(normalizedSrc)) return preloadedImages.get(normalizedSrc)!;
+
+        const preload = new Image();
+        preload.decoding = 'async';
+        preloadElements.set(normalizedSrc, preload);
+
+        const preloadPromise = new Promise<void>((resolve) => {
+          preload.onload = async () => {
+            try {
+              await preload.decode();
+            } catch {
+              // Some browsers reject decode() for already-complete images; the load
+              // event still means the file is available for the swap.
+            }
+            resolve();
+          };
+          preload.onerror = () => resolve();
+        });
+
+        preloadedImages.set(normalizedSrc, preloadPromise);
+        preload.src = src;
+        return preloadPromise;
+      };
+
+      preloadImage(defaultSrc);
+
+      const chooseHoverImage = (pool: string[]) => {
+        if (pool.length === 0) return '';
+
+        const normalizedDefaultSrc = normalizeImageUrl(defaultSrc);
+        const nonDefaultPool = pool.filter((src) => normalizeImageUrl(src) !== normalizedDefaultSrc);
+        return getRandomItem(nonDefaultPool.length > 0 ? nonDefaultPool : pool);
+      };
+
+      let swapToken = 0;
+
+      const setCardImage = async (nextSrc: string) => {
+        if (!nextSrc || normalizeImageUrl(image.currentSrc || image.src) === normalizeImageUrl(nextSrc)) return;
+        const currentToken = ++swapToken;
+
+        await preloadImage(nextSrc);
+        if (currentToken !== swapToken) return;
+
+        image.classList.add('is-swapping');
+
+        window.setTimeout(async () => {
+          if (currentToken !== swapToken) return;
+          image.src = nextSrc;
+          try {
+            await image.decode();
+          } catch {
+            // If decode fails, let the browser render the loaded fallback normally.
+          }
+          if (currentToken !== swapToken) return;
+          requestAnimationFrame(() => {
+            image.classList.remove('is-swapping');
+          });
+        }, 160);
+      };
+
+      for (const trigger of card.querySelectorAll('[data-category-trigger]')) {
+        const triggerElement = trigger as HTMLElement;
+        const triggerImages = JSON.parse(triggerElement.dataset.images || '[]').filter(Boolean) as string[];
+        const pool = triggerImages.length > 0 ? triggerImages : cardImages;
+        const hoverSrc = chooseHoverImage(pool);
+        triggerElement.dataset.hoverSrc = hoverSrc;
+        preloadImage(hoverSrc);
+
+        trigger.addEventListener('mouseenter', () => {
+          if (triggerElement.dataset.hoverSrc) setCardImage(triggerElement.dataset.hoverSrc);
+        });
+        trigger.addEventListener('focus', () => {
+          if (triggerElement.dataset.hoverSrc) setCardImage(triggerElement.dataset.hoverSrc);
+        });
+      }
+
+      card.addEventListener('mouseleave', () => {
+        setCardImage(defaultSrc);
+      });
+    }
+  };
+
+  // Call directly for the initial page load (astro:page-load may fire before this
+  // deferred module executes on first visit, so we can't rely on it alone)
+  initMechanismPage();
+
+  // Re-run after Astro view-transition navigations (dom is replaced, so element
+  // guards reset automatically and fresh handlers are attached)
+  document.addEventListener('astro:page-load', initMechanismPage);
+
+  // Cancel the rotator before the dom swap so the interval doesn't outlive the page
+  document.addEventListener('astro:before-swap', () => {
+    clearInterval(rotatorIntervalId);
+    rotatorIntervalId = undefined;
+  });
+</script>

@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ==========================================================================
+   Root Variables
+   ========================================================================== */
+
+:root {
+    /* Layout */
+    --sl-content-width: 85rem !important;
+    --sl-nav-height: 5.5rem !important;
+
+    /* Typography */
+    --sl-font: 'Inter', system-ui, sans-serif !important;
+    --sl-text-body: 0.875rem !important;
+    --sl-line-height: 1.7 !important;
+
+    /* Brand Colors */
+    --sl-color-text-accent: #43A047 !important;
+    --accent-color: #43A047;
+    --accent-color-hover: #2e7d32;
+}
+
+:root[data-theme="dark"] {
+    --sl-color-text: #ffffff !important;
+    --sl-color-white: #ffffff !important;
+}
+
+:root[data-theme="light"] {
+    --sl-color-text: #1a1a1a !important;
+    --sl-color-white: #1a1a1a !important;
+
+    /* Darker aside backgrounds for better visibility in light mode */
+    --sl-color-blue-low: rgba(56, 139, 253, 0.3) !important;
+    --sl-color-green-low: rgba(67, 160, 71, 0.25) !important;
+    --sl-color-orange-low: rgba(210, 153, 34, 0.2) !important;
+    --sl-color-red-low: rgba(248, 81, 73, 0.2) !important;
+    --sl-color-purple-low: rgba(163, 113, 247, 0.3) !important;
+}
+
+@media (max-width: 1350px) {
+    :root {
+        --sl-nav-height: 3.5rem !important;
+    }
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header {
+    padding-top: 0 !important;
+    border-bottom: none !important;
+}
+
+/* Override PageFrame header border */
+.page .header {
+    border-bottom: none !important;
+}
+
+/* ==========================================================================
+   Content Links
+   ========================================================================== */
+
+.sl-markdown-content a:not([class]) {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.sl-markdown-content a:not([class]):hover {
+    color: var(--accent-color-hover);
+}
+
+/* ==========================================================================
+   Mechanism Example Category Pages
+   ========================================================================== */
+
+.content-panel:has(+ .content-panel .sl-markdown-content .mechanism-card-grid) h1 {
+    max-width: 85rem;
+    margin-inline: auto;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--sl-color-gray-6);
+    font-size: clamp(2.25rem, 4vw, 3.75rem);
+    line-height: 1.05;
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) {
+    --mechanism-green: #2fbf5b;
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) > p:first-child {
+    max-width: 76ch;
+    margin-block: 0 2.75rem;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-lg);
+    line-height: 1.7;
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) .sl-heading-wrapper.level-h2 {
+    margin-block: 0 0.9rem;
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) .sl-heading-wrapper.level-h2:not(:first-of-type) {
+    margin-top: 2.75rem;
+    padding-top: 2.25rem;
+    border-top: 1px solid var(--sl-color-gray-6);
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) .sl-heading-wrapper.level-h2 h2 {
+    margin: 0;
+    font-size: clamp(1.65rem, 2.3vw, 2.25rem);
+    line-height: 1.1;
+}
+
+.sl-markdown-content:has(.mechanism-card-grid) .mechanism-card-grid + p {
+    max-width: 72ch;
+    margin-top: -0.75rem;
+    color: var(--sl-color-gray-3);
+}
+
+/* ==========================================================================
+   Images & Figures
+   ========================================================================== */
+
+.sl-markdown-content img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.sl-markdown-content pre {
+    text-align: left;
+}
+
+.sl-markdown-content figure {
+    margin: 1.5rem auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.sl-markdown-content figure img,
+.sl-markdown-content figure video {
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0.25rem;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.sl-markdown-content figure figcaption {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1.1rem;
+    color: var(--sl-color-gray-3);
+    margin-top: 0.75rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root[data-theme="light"] .sl-markdown-content figure figcaption {
+    color: var(--sl-color-gray-4);
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+img[src*="tilt-book-white"],
+img[src*="tilt-book-green"],
+.hero-image img,
+[class*="hero"] img,
+section[class*="hero"] img {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
+    transition: filter 0.3s ease;
+}
+
+:root[data-theme="dark"] img[src*="tilt-book-white"],
+:root[data-theme="dark"] .hero-image img {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.25)) drop-shadow(0 0 40px rgba(255, 255, 255, 0.1));
+}
+
+.hero-actions a,
+[class*="hero"] a[class*="button"],
+.hero a,
+section[class*="hero"] a {
+    background-color: var(--accent-color) !important;
+    color: #ffffff !important;
+    font-family: "Inter", var(--sl-font), system-ui, sans-serif !important;
+    font-weight: 700 !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-actions a:hover,
+[class*="hero"] a[class*="button"]:hover,
+.hero a:hover,
+section[class*="hero"] a:hover {
+    background-color: var(--accent-color-hover) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(67, 160, 71, 0.4);
+}
+
+.hero-actions a:active,
+[class*="hero"] a[class*="button"]:active,
+.hero a:active,
+section[class*="hero"] a:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(67, 160, 71, 0.3);
+}
+
+/* Arrow animation on hover */
+.hero-actions a svg,
+[class*="hero"] a[class*="button"] svg,
+section[class*="hero"] a svg {
+    transition: transform 0.3s ease !important;
+}
+
+.hero-actions a:hover svg,
+[class*="hero"] a[class*="button"]:hover svg,
+section[class*="hero"] a:hover svg {
+    transform: translateX(4px);
+}
+
+/* Hero image shadow/glow animation when hovering button */
+[class*="hero"]:has(a:hover) img {
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35)) !important;
+    transition: filter 0.3s ease !important;
+}
+
+:root[data-theme="dark"] [class*="hero"]:has(a:hover) img {
+    filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.3)) drop-shadow(0 0 50px rgba(255, 255, 255, 0.15)) !important;
+}
+
+/* ==========================================================================
+   Mobile Sidebar Toggle (Hide Starlight's default - we use unified menu)
+   ========================================================================== */
+
+@media (max-width: 1350px) {
+    /* Hide Starlight's default sidebar toggle - we merged it into header menu */
+    starlight-menu-button {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+/* Remove borders and shadows from sidebar elements */
+.sidebar,
+nav.sidebar,
+.sidebar-pane,
+#starlight__sidebar,
+.sl-flex.sidebar,
+[data-sl-sidebar],
+aside.sidebar {
+    border-top: none !important;
+    box-shadow: none !important;
+}
+
+/* Fix potential 1px gap at top of sidebar */
+.sidebar-pane,
+#starlight__sidebar {
+    outline: none !important;
+    margin-top: -1px !important;
+    padding-top: 1px !important;
+    /* Hide scrollbar but allow scrolling */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: transparent !important;
+}
+
+.sidebar-pane::-webkit-scrollbar,
+#starlight__sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-pane a[aria-current="page"],
+#starlight__sidebar a[aria-current="page"] {
+    background-color: var(--accent-color) !important;
+    color: #ffffff !important;
+}
+
+:root[data-theme="dark"] .sidebar-pane,
+:root[data-theme="dark"] #starlight__sidebar {
+    /* Gray-4 is lighter/brighter than the default, making it visible against dark backgrounds */
+    border-right: 1px solid var(--sl-color-gray-6) !important;
+}
+
+.sidebar-content,
+.sidebar-content-wrapper {
+    border-top: none !important;
+    margin-top: 0 !important;
+}
+
+/* Sidebar link styling */
+.sidebar ul ul .large {
+    font-weight: 400 !important;
+    font-size: var(--sl-text-sm) !important;
+    color: var(--sl-color-gray-2) !important;
+}
+
+.sidebar ul ul a {
+    font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   Right Sidebar / Table of Contents
+   ========================================================================== */
+
+/* Fix right sidebar positioning for custom header height
+   The header consists of: green top bar (~3.5rem) + navigation bar (~2rem) = ~5.5rem
+   Adding extra padding for visual breathing room */
+@media (min-width: 72rem) {
+    .right-sidebar,
+    .right-sidebar-container .right-sidebar,
+    aside.right-sidebar-container .right-sidebar {
+        /* Use nav height plus additional spacing */
+        padding-top: calc(var(--sl-nav-height) + 1rem) !important;
+    }
+}
+
+/* ==========================================================================
+   Glossary Terms
+   ========================================================================== */
+
+abbr.glossary-term {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--sl-color-gray-4);
+    text-underline-offset: 0.2em;
+    cursor: help;
+    position: relative;
+}
+
+abbr.glossary-term:hover {
+    text-decoration-color: var(--sl-color-gray-2);
+}
+
+abbr.glossary-term::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 0.75rem;
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.375rem;
+    color: var(--sl-color-gray-1);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    white-space: normal;
+    width: max-content;
+    max-width: 300px;
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0.5rem;
+}
+
+abbr.glossary-term:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+abbr.glossary-term::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--sl-color-gray-5);
+    margin-bottom: -0.25rem;
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+}
+
+abbr.glossary-term:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ==========================================================================
+   Lightbox (Global Image Viewer)
+   ========================================================================== */
+
+html.lightbox-open .header,
+html.lightbox-open .header-wrapper,
+html.lightbox-open header,
+html.lightbox-open nav.sidebar,
+html.lightbox-open .sidebar,
+html.lightbox-open [data-pagefind-ignore="all"] {
+    display: none !important;
+}
+
+.global-image-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+}
+
+.global-image-lightbox.open {
+    display: flex;
+}
+
+.global-lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 10001;
+    transition: transform 0.2s;
+}
+
+.global-lightbox-close:hover {
+    transform: scale(1.1);
+}
+
+.global-lightbox-close svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.global-lightbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 95vw;
+    max-height: 95vh;
+    padding: 1rem;
+}
+
+.global-lightbox-image {
+    max-width: 100%;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ==========================================================================
+   Embeds (Desmos, etc.)
+   ========================================================================== */
+
+.sl-markdown-content iframe[src*="desmos.com"] {
+    width: 100% !important;
+    max-width: 500px;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+}
+
+/* ==========================================================================
+   Homepage Cards
+   ========================================================================== */
+
+.sl-link-card {
+    --sl-color-bg-badge: transparent;
+    position: relative;
+    background: linear-gradient(135deg, var(--sl-color-gray-6) 0%, var(--sl-color-gray-5) 100%) !important;
+    border: 1px solid var(--sl-color-gray-5) !important;
+    border-radius: 12px !important;
+    padding: 1.5rem !important;
+    transition: all 0.3s ease !important;
+    overflow: hidden;
+}
+
+.sl-link-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #43a047 0%, #66bb6a 50%, #43a047 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sl-link-card:hover {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(67, 160, 71, 0.3);
+}
+
+.sl-link-card:hover::before {
+    opacity: 1;
+}
+
+/* Card title styling */
+.sl-link-card .sl-flex {
+    gap: 0.75rem !important;
+}
+
+.sl-link-card .card-title {
+    color: var(--sl-color-white) !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    transition: color 0.2s ease;
+}
+
+.sl-link-card:hover .card-title {
+    color: var(--accent-color) !important;
+}
+
+/* Card description */
+.sl-link-card .card-description {
+    color: var(--sl-color-gray-2) !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    margin-top: 0.5rem;
+}
+
+/* Arrow icon */
+.sl-link-card svg[aria-hidden="true"] {
+    color: var(--sl-color-gray-3);
+    transition: all 0.3s ease;
+}
+
+.sl-link-card:hover svg[aria-hidden="true"] {
+    color: var(--accent-color);
+    transform: translateX(4px);
+}
+
+/* Card grid spacing */
+.card-grid {
+    gap: 1.5rem !important;
+}
+
+/* Light mode adjustments */
+:root[data-theme="light"] .sl-link-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%) !important;
+    border-color: #e0e0e0 !important;
+}
+
+:root[data-theme="light"] .sl-link-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(67, 160, 71, 0.3);
+}
+
+:root[data-theme="light"] .sl-link-card .card-title {
+    color: #1a1a1a !important;
+}
+
+:root[data-theme="light"] .sl-link-card:hover .card-title {
+    color: var(--accent-color-hover) !important;
+}
+
+:root[data-theme="light"] .sl-link-card .card-description {
+    color: #555 !important;
+}
+
+/* Homepage card grid */
+.home-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .home-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================================================
+   Sidebar Collapse
+   ========================================================================== */
+
+/* When sidebar is collapsed, adjust the layout */
+.sidebar-pane.collapsed,
+#starlight__sidebar.collapsed {
+    width: 48px !important;
+    min-width: 48px !important;
+}
+
+/* Use class on html element for reliable targeting - prevents flash on navigation */
+html.sidebar-collapsed {
+    --sl-sidebar-width: 48px !important;
+}
+
+html.sidebar-collapsed .sidebar-pane,
+html.sidebar-collapsed #starlight__sidebar {
+    width: 48px !important;
+    min-width: 48px !important;
+}
+
+html.sidebar-collapsed .sidebar-content-wrapper {
+    display: none;
+}
+
+html.sidebar-collapsed .sidebar-collapsed-toggle-wrapper {
+    display: flex;
+}
+
+/* Right TOC panel uses --sl-sidebar-width for its content width; restore the
+   default so collapsing the left sidebar doesn't squish the TOC text. */
+html.sidebar-collapsed .right-sidebar-panel {
+    --sl-sidebar-width: 18.75rem !important;
+}
+
+/* ==========================================================================
+   Image Alignment and Figures
+   ========================================================================== */
+
+/* Centered (default) */
+.centered-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.centered-image img {
+    display: block;
+}
+
+.centered-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.centered-figure img {
+    display: block;
+}
+
+.centered-figure figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--sl-color-gray-3);
+}
+
+/* Left aligned */
+.left-image {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.left-image img {
+    display: block;
+}
+
+.left-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.left-figure img {
+    display: block;
+}
+
+.left-figure figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: left;
+    color: var(--sl-color-gray-3);
+}
+
+/* Right aligned */
+.right-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.right-image img {
+    display: block;
+}
+
+.right-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.right-figure img {
+    display: block;
+}
+
+.right-figure figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: right;
+    color: var(--sl-color-gray-3);
+}
+
+/* Centered content block (:::center directive) */
+.centered-content {
+    text-align: center;
+}
+
+/* ==========================================================================
+   Image Wrapper (remark-image-attributes plugin)
+   ========================================================================== */
+
+.img-wrapper {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.img-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-align-center {
+    justify-content: center;
+}
+
+.img-align-left {
+    justify-content: flex-start;
+}
+
+.img-align-right {
+    justify-content: flex-end;
+}
+
+/* ==========================================================================
+   Markdown Figure (:::figure directive)
+   ========================================================================== */
+
+.md-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto !important;
+    max-width: 100%;
+}
+
+.md-figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.md-figure-border img {
+    border: var(--figure-border, 5px solid #ADADAD);
+}
+
+.sl-markdown-content .md-figure .md-figcaption {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1.1rem;
+    color: var(--sl-color-gray-2);
+    line-height: 1.5;
+    margin-top: 0.75rem;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Standalone figcaption (not inside figure) */
+.sl-markdown-content > figcaption {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 1.1rem;
+    color: var(--sl-color-gray-2);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Image Loading Spinner
+   ========================================================================== */
+
+img[data-img-loading] {
+    color: transparent;
+    background-color: var(--sl-color-gray-6);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Ccircle cx='22' cy='22' r='18' fill='none' stroke='%2343A047' stroke-width='3' stroke-linecap='round' stroke-dasharray='85 28'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 22 22' to='360 22 22' dur='0.75s' repeatCount='indefinite'/%3E%3C%2Fcircle%3E%3C%2Fsvg%3E");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

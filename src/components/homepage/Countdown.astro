@@ -1,0 +1,172 @@
+---
+/**
+ * Countdown component - Displays a countdown timer to a target date
+ */
+interface Props {
+  targetDate: string; // ISO date string or parseable date
+  label?: string;
+}
+
+const { targetDate, label = "Countdown" } = Astro.props;
+---
+
+<div class="countdown-container" data-target={targetDate}>
+  {label && <div class="countdown-label">{label}</div>}
+  <div class="countdown-timer">
+    <div class="countdown-unit">
+      <span class="countdown-value" data-unit="days">--</span>
+      <span class="countdown-name">Days</span>
+    </div>
+    <div class="countdown-separator">:</div>
+    <div class="countdown-unit">
+      <span class="countdown-value" data-unit="hours">--</span>
+      <span class="countdown-name">Hours</span>
+    </div>
+    <div class="countdown-separator">:</div>
+    <div class="countdown-unit">
+      <span class="countdown-value" data-unit="minutes">--</span>
+      <span class="countdown-name">Min</span>
+    </div>
+    <div class="countdown-separator">:</div>
+    <div class="countdown-unit">
+      <span class="countdown-value" data-unit="seconds">--</span>
+      <span class="countdown-name">Sec</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, rgba(67, 160, 71, 0.1) 0%, rgba(67, 160, 71, 0.05) 100%);
+    border: 1px solid rgba(67, 160, 71, 0.3);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+  }
+
+  .countdown-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2fbf5b;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .countdown-timer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .countdown-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 4.5rem;
+    padding: 0.75rem 1rem;
+    background: rgba(67, 160, 71, 0.15);
+    border-radius: 0.5rem;
+  }
+
+  .countdown-value {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--sl-color-white);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .countdown-name {
+    font-size: 0.75rem;
+    color: var(--sl-color-gray-3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+  }
+
+  .countdown-separator {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2fbf5b;
+    margin: 0 0.25rem;
+  }
+
+  /* Light mode adjustments */
+  :global([data-theme='light']) .countdown-value {
+    color: var(--sl-color-gray-1);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .countdown-container {
+      padding: 1rem 1.25rem;
+    }
+
+    .countdown-unit {
+      min-width: 3.5rem;
+      padding: 0.5rem 0.75rem;
+    }
+
+    .countdown-value {
+      font-size: 1.5rem;
+    }
+
+    .countdown-separator {
+      font-size: 1.5rem;
+    }
+
+    .countdown-name {
+      font-size: 0.65rem;
+    }
+
+    .countdown-label {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<script>
+  function initCountdowns() {
+    document.querySelectorAll('.countdown-container').forEach((container) => {
+      const targetDateStr = container.getAttribute('data-target');
+      if (!targetDateStr) return;
+
+      const targetDate = new Date(targetDateStr).getTime();
+
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        if (distance < 0) {
+          // Countdown finished
+          container.querySelector('[data-unit="days"]')!.textContent = '0';
+          container.querySelector('[data-unit="hours"]')!.textContent = '0';
+          container.querySelector('[data-unit="minutes"]')!.textContent = '0';
+          container.querySelector('[data-unit="seconds"]')!.textContent = '0';
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        container.querySelector('[data-unit="days"]')!.textContent = String(days);
+        container.querySelector('[data-unit="hours"]')!.textContent = String(hours).padStart(2, '0');
+        container.querySelector('[data-unit="minutes"]')!.textContent = String(minutes).padStart(2, '0');
+        container.querySelector('[data-unit="seconds"]')!.textContent = String(seconds).padStart(2, '0');
+      }
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    });
+  }
+
+  initCountdowns();
+  document.addEventListener('astro:page-load', initCountdowns);
+</script>

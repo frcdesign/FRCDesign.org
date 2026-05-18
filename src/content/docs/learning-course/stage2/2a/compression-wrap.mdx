@@ -1,0 +1,45 @@
+---
+title: Compression & Wrap
+description: Understanding compression and wrap in shooters
+---
+
+import ContentRow from '@components/content/ContentRow.astro';
+import ContentRowCaption from '@components/content/ContentRowCaption.astro';
+
+## Compression & Wrap
+
+### Compression
+
+The purpose of compression is to efficiently transfer energy from the flywheel to the game piece. The softer the game piece, the more compression is needed for effective energy transfer. Insufficient compression causes slipping, resulting in poor energy transfer, while excessive compression increases power requirements and reduces efficiency. Prototyping is essential to find the right balance. For games with hard game pieces, like in 2017, compression can also be achieved using a foam backing.
+
+### Wrap
+
+Wrap refers to the duration the game piece stays in contact with the flywheel. A longer wrap time allows for more consistent energy transfer. For the underlying physics, see [Impulse](https://en.wikipedia.org/wiki/Impulse_(physics)).
+
+<Aside type="video" title="Not Enough Compression/Contact Time" collapse>
+  <ContentFigure src="5OoCSAgqm3s" width="40%">
+    This is what it may look like if you do not have enough compression. See how loud the shooter is compared to how far the shot actually goes. Warning: loud audio and swearing.
+  </ContentFigure>
+</Aside>
+
+<Aside type="video" title="Good Contact Time and Compression" collapse>
+  <ContentFigure src="9DEJG6eoeaQ" width="40%">
+    This is what it looks like if you have good contact time and compression with the exact same robot. Warning: loud audio.
+  </ContentFigure>
+</Aside>
+
+[Stealth wheels](https://www.andymark.com/products/stealth-wheels-options), solid roller wheels such as [WCP Solid Roller Wheels](https://wcproducts.com/products/solid-roller-wheels), and Colson wheels are chosen commonly because of their lack of compression and soft grippy silicone surface. These are all good options for shooter wheels to prototype in a build season.
+
+### Reference Design
+
+The example design uses 4 inch diameter roller wheels. The diameter allows for enough contact time while being small enough to reasonably package.
+
+### Feeder
+
+A wheel or set of belts is commonly used to feed game pieces into the flywheel. The design depends on the game and the specific feeding strategy. For instance, in the 2020 game, it is advantageous to power both sides of the feeder due to the sticky nature of the power cell. In the example, a single compliant wheel is employed to direct the game pieces into the shooter.
+
+<ContentRow>
+  <ContentFigure src="../img/2a/2910shooter.webp" alt="Team 2910 shooter feeding game pieces" width="50%" />
+  <ContentFigure src="../img/2a/1690shooter.webp" alt="Team 1690 shooter feeding game pieces" width="44%" />
+  <ContentRowCaption>Observe how the game pieces are fed into 2910's and 1690's robot.</ContentRowCaption>
+</ContentRow>

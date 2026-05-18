@@ -1,0 +1,150 @@
+---
+import ContentFigure from './ContentFigure.astro';
+
+interface Props {
+  title: string;
+  href: string;
+  image?: string;
+  imageAlt?: string;
+  imageSide?: 'left' | 'right';
+  underConstruction?: boolean;
+}
+
+const {
+  title,
+  href,
+  image,
+  imageAlt = title,
+  imageSide = 'right',
+  underConstruction = false,
+} = Astro.props;
+
+const hasImage = Boolean(image);
+---
+
+<section class:list={['course-section', hasImage && `image-${imageSide}`, !hasImage && 'no-image']}>
+  {hasImage && imageSide === 'left' && (
+    <div class="course-section-image">
+      <ContentFigure src={image!} alt={imageAlt} />
+    </div>
+  )}
+
+  <div class="course-section-content">
+    <h3 class="course-section-title">
+      <a href={href}>{title}</a>
+      {underConstruction && <span class="under-construction"> (Under Construction)</span>}
+    </h3>
+    <ul class="course-section-list">
+      <slot />
+    </ul>
+  </div>
+
+  {hasImage && imageSide === 'right' && (
+    <div class="course-section-image">
+      <ContentFigure src={image!} alt={imageAlt} />
+    </div>
+  )}
+</section>
+
+<style>
+  .course-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(10rem, 17.5rem);
+    gap: 2rem;
+    align-items: center;
+    margin: 1.5rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+
+  .course-section.image-left {
+    grid-template-columns: minmax(10rem, 17.5rem) minmax(0, 1fr);
+  }
+
+  .course-section.no-image {
+    display: block;
+  }
+
+  .course-section-content {
+    max-width: 34rem;
+  }
+
+  .course-section.image-left .course-section-content {
+    justify-self: end;
+    text-align: right;
+  }
+
+  .course-section.no-image .course-section-content {
+    max-width: 42rem;
+  }
+
+  .course-section-image {
+    width: min(100%, 17.5rem);
+  }
+
+  .course-section.image-right .course-section-image {
+    justify-self: end;
+  }
+
+  .course-section-title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: var(--accent-color, #43A047);
+  }
+
+  .course-section-title a {
+    color: var(--accent-color, #43A047);
+    text-decoration: none;
+  }
+
+  .course-section-title a:hover {
+    text-decoration: underline;
+  }
+
+  .under-construction {
+    color: var(--accent-color, #43A047);
+    font-weight: normal;
+  }
+
+  .course-section-list {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .course-section.image-left .course-section-list {
+    direction: rtl;
+    list-style-position: outside;
+    padding-right: 1.25rem;
+    padding-left: 0;
+  }
+
+  .course-section-list :global(li) {
+    margin-bottom: 0.25rem;
+  }
+
+  @media (max-width: 768px) {
+    .course-section,
+    .course-section.image-left {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .course-section.image-left .course-section-content {
+      justify-self: auto;
+      text-align: left;
+    }
+
+    .course-section.image-left .course-section-list {
+      direction: ltr;
+      padding-right: 0;
+      padding-left: 1.25rem;
+    }
+
+    .course-section-image,
+    .course-section.image-right .course-section-image {
+      justify-self: auto;
+      order: -1;
+      width: min(100%, 17.5rem);
+    }
+  }
+</style>

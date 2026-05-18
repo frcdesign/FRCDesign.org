@@ -1,0 +1,82 @@
+---
+/**
+ * ContentRow component - Lay multiple ContentFigures side by side
+ *
+ * Usage in MDX:
+ * <ContentRow>
+ *   <ContentFigure src="./img/a.webp" alt="A">Caption A</ContentFigure>
+ *   <ContentFigure src="./img/b.webp" alt="B">Caption B</ContentFigure>
+ * </ContentRow>
+ *
+ * <ContentRow mediaHeight="18rem">
+ *   <ContentFigure src="./img/a.webp" alt="A" />
+ *   <ContentFigure src="./img/b.webp" alt="B" />
+ *   <ContentRowCaption>Shared row caption with **markdown**.</ContentRowCaption>
+ * </ContentRow>
+ *
+ * Props:
+ * - gap: Space between figures (default "0.5rem")
+ * - mediaHeight: Shared height for figure media so captions line up (e.g., "18rem", "320px")
+ */
+
+interface Props {
+  gap?: string;
+  mediaHeight?: string;
+}
+
+const { gap = '0.5rem', mediaHeight } = Astro.props;
+
+const rowStyle = [
+  `gap: ${gap};`,
+  mediaHeight ? `--content-row-media-height: ${mediaHeight};` : '',
+].filter(Boolean).join(' ');
+
+---
+
+<figure class="content-row-figure">
+  <div class:list={['content-row', { 'normalize-media-height': Boolean(mediaHeight) }]} style={rowStyle}>
+    <slot />
+  </div>
+</figure>
+
+<style>
+  .content-row-figure {
+    margin: 0;
+  }
+
+  .content-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .content-row :global(.content-figure) {
+    flex: var(--content-figure-flex, 1 1 0);
+    width: var(--content-figure-width, auto);
+    min-width: 0;
+  }
+
+  .content-row.normalize-media-height :global(.content-figure-image),
+  .content-row.normalize-media-height :global(.content-figure-video) {
+    height: var(--content-row-media-height);
+  }
+
+  .content-row.normalize-media-height :global(.content-figure-image) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-row.normalize-media-height :global(.content-figure-image .figure-img) {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .content-row :global(.content-row-caption) {
+    flex: 0 0 100%;
+  }
+</style>

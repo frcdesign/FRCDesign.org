@@ -1,0 +1,128 @@
+﻿---
+title: Design for 3D Printing
+description: Techniques and examples of 3D printing for use in FRC
+---
+
+
+This guide serves to provide techniques and examples of 3D printing for use in FRC.
+
+## Introduction
+
+Designing parts for 3D printing means understanding how to optimize your part for the way 3D printers work. Having an understanding of these ideas will help you reduce wasted material, make stronger parts, and reduce printing time.
+
+<Aside type="note">
+If you're new to 3D printing check out the [Intro to 3D Printing](/design-handbook/structure/intro-to-3d-printing/) page.
+</Aside>
+
+## Versatility of 3D Printed Parts in FRC
+
+3D printed parts can be used all over an FRC robot. From pulleys and sensor mounts to brackets and structural parts, 3D printing can be a powerful solution for creating almost anything.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-604-robot.png" alt="604 Quixilver 2024" width="40%">604 Quixilver 2024 - Extensive use of 3D printed parts</ContentFigure>
+
+## When to Choose 3D Printing over Machining
+
+The first step to using 3D printing in FRC is understanding when is best to use it, in general it's best when:
+
+1. There is no COTS part available for your needs.
+2. You can print a functionally equivalent solution faster or for less money than CNC milling/other processes that are available to you.
+3. The geometry needed would be impossible to machine on equipment you have.
+4. You need to prototype or test concepts quickly, especially when tuning dimensions like camera angles, game piece compression etc.
+5. You don't need the part to be as strong as an equivalent metal part would be.
+
+## Part Types Covered in This Guide
+
+1. **Spacers**: Shaft spacers or offset block spacers to space out plates or parts.
+2. **Crush Blocks:** Prevent the force of tightening bolts from crushing tubes.
+3. **Power Transmission:** Print custom pulleys, gears, or sprockets.
+4. **Custom Brackets:** Create structural components or motor brackets.
+5. **Sensor Mounts:** Create mounts to attach sensors, cameras, or other components precisely to your robot chassis.
+6. **Enclosures for Electronics:** Design custom housings to protect sensitive electronics (e.g., Orange Pi, Arduino) from dust, debris, and impact.
+7. **Tools and Jigs:** Create custom tools, jigs, and fixtures to help with robot assembly, calibration, or maintenance.
+
+## Spacers
+
+One of the most straightforward use cases for 3D printing in FRC is to make custom spacers for hex shafts. Using FRCDesignLib you can quickly make different types of spacers and customize the length. These are very easy to print at very low cost. You may notice in the dialogue box an option for additional tolerance (Tolerance Adder). 3D printers generally can produce very precise parts, but factors like thermal expansion, filament inconsistencies, poor calibration, and other error sources can lead to part dimensions that are either larger or smaller than intended. To address this we can add tolerance (gap between two parts) so that parts will fit together well. You likely will need to find the best tolerance your specific printer can achieve, but a reasonable starting tolerance will typically be about 0.004"-0.020" (0.1mm-0.5mm) depending on the type of fit desired (interference, close, clearance).
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-spacer-example.png" alt="Configurable Spacer" width="40%">Configurable Spacer</ContentFigure>
+
+## Crush Blocks
+
+When adding bolts through box tubes, especially 1/16" tube, the force of the bolt can crush the tube. Crush blocks help to spread out the force from tightening the bolt and prevent the tube from crushing. FRCDesignLib has a configurable crush block part to quickly make crush blocks with settings for a variety of tube types and thicknesses.
+
+### Tricks for Printing Crush Blocks
+
+Due to the way 3D printers work through printing layer by layer, holes can end up becoming distorted when printed with their axis parallel to the build plate. This is because gravity will pull down on the hot filament as it's printed, creating a "squished" circle hole. One solution is printing with supports, but these supports can often be difficult to get out especially in longer holes. An easy solution to this problem is to use teardrop geometry to allow for printing without supports.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-crush-block.png" alt="Crush block with teardrop geometry" width="40%">Example crush block with teardrop geometry (100 degrees at top of circle)</ContentFigure>
+
+## Power Transmission
+
+### Pulleys
+
+Pulleys can be a great option for 3D printing. 3D printing allows you to make any number of teeth and customize how the pulley will mount to other geometry.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-custom-pulley.png" alt="Configurable HTD Pulley" width="40%">Configurable HTD Pulley</ContentFigure>
+
+### Tips for Printing Pulleys
+
+**Infill:** Power transmission parts may need to be printed with more walls and higher infill percentage (density of the inside of the part). Depending on the use case it might even be necessary to print at 100% infill. Using lower infill will decrease print time and decrease weight, but might increase risk of the part breaking.
+
+**Hex Shaft Inserts:** Compared to metal, plastic is relatively soft and can be worn down over time. High amounts of torque from a hex shaft (especially Thunderhex, which has rounded edges) can turn the hexagonal hole of a 3D printed pulley into a round hole, eventually eliminating power transmission between the shaft and pulley. One way to fix this is by using metal inserts that help to distribute the forces of the hex shaft into the printed part away from the hex bore.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-pulley-insert.png" alt="Thriftybot metal insert" width="40%">Thriftybot metal insert inside of a 3D printed pulley</ContentFigure>
+
+### Gears
+
+Gears can be 3D printed depending on their use case. In general applications with high torque requirements are not well suited for 3D printed gears. However things like claws or secondary mechanisms can benefit from the weight savings and flexibility of 3D printing.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-3005.png" alt="3005 Robochargers 2023 Claw" width="40%">3005 Robochargers 2023 - Claw with 3D printed structure and gears</ContentFigure>
+
+### Tips for Gears
+
+**Face Width:** Face width refers to how much surface area is in contact between two gears. Having a larger face width reduces the stress on the gear and makes it less likely to break.
+
+**Tooth Strength:** Using a lower diametral pitch (fewer teeth per pitch circle length) will make the teeth thicker, in turn making the gear stronger.
+
+<Aside type="caution">
+3D printed gears must be used with caution in high torque applications like motor pinions or drive gears, using 3D prints in these applications can lead to the gears becoming worn out quickly.
+</Aside>
+
+## Custom Brackets and Structure
+
+3D printing is an exceptionally good solution when oddly shaped geometry is required.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-5460-arm.png" alt="5460 Strike Zone 2023 Arm" width="40%">5460 Strike Zone 2023 - Extensive use of 3D printing for complex arm parts</ContentFigure>
+
+Caution needs to be exercised for most structural parts, however. Parts that are prone to shock loads will be at risk of breaking or shattering.
+
+### Tips for Custom Brackets
+
+When designing custom brackets, it's critical to think about how the part will be assembled on the robot. Making parts easily serviceable will make your robot more reliable during competition.
+
+**Part Orientation:** Part orientation on the build plate greatly affects strength, support needs, and print time. Prints are typically strongest in the x-y plane of the printer as in the z direction the layers can delaminate (pull apart).
+
+**Material Choice:** Material choice can lead to a massive difference in the performance and reliability of your part. For example, PETG offers significant improvement in impact strength and tensile strength over PLA. Polycarbonate has nearly **double** the tensile strength and bending strength of PLA (when properly annealed).
+
+## Sensor Mounts
+
+3D printing is a great solution for mounting sensors or cameras as these devices often need to be located very precisely at specific angles. 3D printing makes it very easy to iterate and optimize things like camera angles to see particular April Tags or game elements.
+
+<ContentFigure src="../img/design-for-3d-printing/3dp-camera-mount.png" alt="6328 Camera Mount" width="40%">6328 Mechanical Advantage 2024 Camera mount</ContentFigure>
+
+### Tips for Sensors and Strain Relief
+
+For sensor mounts that may get hit by game pieces or other robots, consider more durable materials, specifically materials that have high impact strength. TPU (Thermoplastic Polyurethane) is a rubber-like material that can be a great choice for very high impact resistance.
+
+## Final Notes
+
+**Holes and Tolerances:** Holes designed to exact CAD dimensions often print smaller due to material expansion/cooling. You can make test prints with varying hole tolerances to find optimal tolerances for your specific printer and material.
+
+**Optimize for Overhangs and Supports:** An overhang is anywhere on a part that isn't supported from below. Reducing overhangs will reduce filament wasted on support, improve the surface quality and accuracy of the part, and can reduce print time.
+
+**Fillets vs Chamfers:** Fillets are a great way to make your parts smooth. However, fillets on the part surface touching the print bed can lead to part warping. Replacing the fillet with a chamfer at an angle your printer can print without supports can fix this problem.
+
+## Additional Resources
+
+1. [604 Robotics Scrappy Not Crappy Presentation](https://resources.604robotics.com/presentations/2024-fmc-scrappy-not-crappy)
+2. [Design for 3D Printing Guide](https://blog.rahix.de/design-for-3d-printing/)

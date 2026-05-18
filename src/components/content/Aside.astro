@@ -1,0 +1,294 @@
+---
+/**
+ * Custom Aside component with styled header and optional collapse
+ *
+ * Usage:
+ * <Aside type="tip">Content here</Aside>
+ * <Aside type="note" title="Custom Title">Content here</Aside>
+ * <Aside type="caution" collapse>Collapsible content here</Aside>
+ */
+
+interface Props {
+  type?: 'note' | 'tip' | 'caution' | 'danger' | 'example' | 'video';
+  title?: string;
+  collapse?: boolean;
+  class?: string;
+}
+
+const { type = 'note', title, collapse = false, class: className } = Astro.props;
+
+const titles: Record<string, string> = {
+  note: 'Note',
+  tip: 'Tip',
+  caution: 'Warning',
+  danger: 'Danger',
+  example: 'Example',
+  video: 'Video',
+};
+
+const displayTitle = title || titles[type] || 'Note';
+
+const icons: Record<string, string> = {
+  note: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>`,
+  tip: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z"/></svg>`,
+  caution: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>`,
+  danger: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>`,
+  example: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.8 18.4L14 10.67V6.5l1.35-1.69c.26-.33.03-.81-.39-.81H9.04c-.42 0-.65.48-.39.81L10 6.5v4.17L4.2 18.4c-.49.66-.02 1.6.8 1.6h14c.82 0 1.29-.94.8-1.6z"/></svg>`,
+  video: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 576 512" fill="currentColor"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>`,
+};
+---
+
+{collapse ? (
+  <details class:list={['aside', `aside--${type}`, className]}>
+    <summary>
+      <span class="aside-icon" set:html={icons[type]} />
+      <span class="aside-title">{displayTitle}</span>
+      <svg class="aside-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </summary>
+    <div class="aside-content">
+      <slot />
+    </div>
+  </details>
+) : (
+  <div class:list={['aside', `aside--${type}`, className]}>
+    <div class="aside-header">
+      <span class="aside-icon" set:html={icons[type]} />
+      <span class="aside-title">{displayTitle}</span>
+    </div>
+    <div class="aside-content">
+      <slot />
+    </div>
+  </div>
+)}
+
+<style>
+  .aside {
+    margin: 1rem 0;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    border: none;
+    background: var(--aside-bg);
+  }
+
+  /* Type-specific colors */
+  .aside--tip {
+    --aside-bg: rgba(74, 222, 128, 0.12);
+    --aside-title-color: #4ade80;
+  }
+
+  .aside--note {
+    --aside-bg: rgba(45, 212, 191, 0.12);
+    --aside-title-color: #2dd4bf;
+  }
+
+  .aside--caution {
+    --aside-bg: rgba(251, 191, 36, 0.12);
+    --aside-title-color: #fbbf24;
+  }
+
+  .aside--danger {
+    --aside-bg: rgba(248, 113, 113, 0.12);
+    --aside-title-color: #f87171;
+  }
+
+  .aside--example {
+    --aside-bg: rgba(192, 132, 252, 0.12);
+    --aside-title-color: #c084fc;
+  }
+
+  .aside--video {
+    --aside-bg: rgba(32, 148, 243, 0.12);
+    --aside-title-color: rgb(32, 148, 243);
+  }
+
+  .aside-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .aside-icon {
+    display: flex;
+    align-items: center;
+    color: var(--aside-title-color);
+  }
+
+  .aside-title {
+    flex: 1;
+    color: var(--aside-title-color);
+  }
+
+  .aside-content {
+    margin-top: 0;
+    padding: 0 1rem 0.75rem 1rem;
+    color: var(--sl-color-gray-2);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .aside-content :global(p:first-child) {
+    margin-top: 0;
+  }
+
+  .aside-content :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* Collapsible styles */
+  details.aside {
+    cursor: default;
+    padding: 0;
+  }
+
+  details.aside > summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  details.aside > summary::-webkit-details-marker,
+  details.aside > summary::marker {
+    display: none !important;
+    content: none !important;
+    list-style: none !important;
+    font-size: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  details.aside > summary {
+    list-style-type: none !important;
+  }
+
+  details.aside > summary::before {
+    display: none !important;
+    content: none !important;
+  }
+
+  details.aside > summary:focus {
+    outline: none;
+  }
+
+  .aside-chevron {
+    transition: transform 0.2s ease;
+    color: var(--sl-color-gray-3);
+    margin-left: auto;
+  }
+
+  details.aside[open] .aside-chevron {
+    transform: rotate(90deg);
+  }
+
+  details.aside:not([open]) .aside-content {
+    display: none;
+  }
+
+  /* Light mode adjustments */
+  :global(html[data-theme="light"]) .aside--tip {
+    --aside-bg: rgba(74, 222, 128, 0.15);
+    --aside-title-color: #16a34a;
+  }
+
+  :global(html[data-theme="light"]) .aside--note {
+    --aside-bg: rgba(45, 212, 191, 0.15);
+    --aside-title-color: #0d9488;
+  }
+
+  :global(html[data-theme="light"]) .aside--caution {
+    --aside-bg: rgba(251, 191, 36, 0.15);
+    --aside-title-color: #d97706;
+  }
+
+  :global(html[data-theme="light"]) .aside--danger {
+    --aside-bg: rgba(248, 113, 113, 0.15);
+    --aside-title-color: #dc2626;
+  }
+
+  :global(html[data-theme="light"]) .aside--example {
+    --aside-bg: rgba(192, 132, 252, 0.15);
+    --aside-title-color: #9333ea;
+  }
+
+  :global(html[data-theme="light"]) .aside--video {
+    --aside-bg: rgb(32, 148, 243, 0.12);
+    --aside-title-color: rgb(32, 148, 243);
+  }
+
+  :global(html[data-theme="light"]) .aside-content {
+    color: #374151;
+  }
+
+  
+
+  :global(html[data-theme="light"]) .aside-content :global(p),
+  :global(html[data-theme="light"]) .aside-content :global(li),
+  :global(html[data-theme="light"]) .aside-content :global(figcaption) {
+    color: #374151;
+  }
+
+  /* Ensure all text content inside asides uses Inter font */
+  .aside-content,
+  .aside-content :global(*) {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Ensure images inside asides maintain aspect ratio */
+  .aside-content :global(img:not(.slide-img)) {
+    max-width: 100%;
+    height: auto !important;
+    width: auto !important;
+    object-fit: contain;
+  }
+
+  .aside-content :global(figure) {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .aside-content :global(figure img:not(.slide-img)) {
+    max-width: 100%;
+    height: auto !important;
+    width: auto !important;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Iframe styling inside asides (Desmos, etc.) - exclude YouTube */
+  .aside-content :global(iframe:not([src*="youtube"])) {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* YouTube videos inside asides - constrain size and center */
+  .aside-content :global(.youtube-container) {
+    margin: 0.75rem auto;
+    width: 75%;
+  }
+
+  .aside-content :global(.youtube-wrapper) {
+    max-width: 100%;
+  }
+
+  .aside-content :global(.youtube-wrapper iframe) {
+    max-width: none;
+    aspect-ratio: 16 / 9;
+  }
+</style>

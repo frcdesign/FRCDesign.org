@@ -1,0 +1,57 @@
+---
+title: Pivoting Intakes
+description: Examples of pivoting/slapdown intakes from FRC robots
+socialCard:
+  image: ./img/1778_2024_intake.webp
+---
+
+import MechanismCardGrid from '@components/content/MechanismCardGrid.astro';
+import intake1778 from './img/1778_2024_intake.webp';
+import intake3847 from './img/3847_2022_intake.webp';
+import intake1678 from './img/1678_2024_intake.webp';
+import intake2910 from './img/2910_2021_intake.webp';
+import intake6423 from './img/6423_2024_intake.webp';
+
+export const exampleCards = [
+  {
+    title: "1678's Crescendo Slapdown Intake",
+    href: 'https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/e/b53dde24ab8b46d679af9944',
+    image: intake1678,
+    imageAlt: '1678 Crescendo slapdown intake CAD render',
+    description: 'A motor powered slapdown intake with polycarbonate rollers for intaking notes.',
+  },
+  {
+    title: "1778's Crescendo Slapdown Intake",
+    href: 'https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046',
+    image: intake1778,
+    imageAlt: '1778 Crescendo slapdown intake CAD render',
+    description: 'A motor powered slapdown intake with a zombie axle pivot for intaking notes.',
+  },
+  {
+    title: "6423's Crescendo Flip Intake",
+    href: 'https://cad.onshape.com/documents/e466c9e10766af7b45952ce2/w/daa5adbb115d62e1a82bdad9/e/efc90f45c6b5a34bffb7429c',
+    image: intake6423,
+    imageAlt: '6423 Crescendo flip intake CAD render',
+    description: 'A motor powered pivoting intake that flips up for a handoff.',
+  },
+  {
+    title: "3847's Rapid React Springed Intake",
+    href: 'https://cad.onshape.com/documents/995ee9b75573cf463f84dbbc/w/80aecca8674f728b1e04236c/e/dac0a7693d84c119c3ce8bab',
+    image: intake3847,
+    imageAlt: '3847 Rapid React springed intake CAD render',
+    description: 'A spring powered pivoting intake that shares the pivot motor with the roller motor.',
+  },
+  {
+    title: "2910's IR @ Home Pneumatic Intake",
+    href: 'https://cad.onshape.com/documents/846bb71ec3cc43151f8349d2/w/60581f1c24a22ae6f4f58b28/e/337be596fdf4879ed76381ca',
+    image: intake2910,
+    imageAlt: '2910 Infinite Recharge at Home pneumatic intake CAD render',
+    description: 'A pneumatically actuated intake with vectoring wheels for centering Infinite Recharge balls.',
+  },
+];
+
+Pivoting, or "slapdown", intakes offer fast deployment and fine control of intake positioning.
+
+## CAD References
+
+<MechanismCardGrid cards={exampleCards} />

@@ -1,0 +1,345 @@
+﻿---
+title: List of Featurescripts
+description: A comprehensive list of FRC-relevant Featurescripts for Onshape to make designing for FRC much easier.
+---
+
+import { CardGrid } from '@astrojs/starlight/components';
+import CustomCard from '@components/homepage/CustomCard.astro';
+
+Onshape has its own scripting language to create custom features to automate aspects of design called [Featurescript](https://www.onshape.com/features/custom-features). There are a lot of featurescripts (what we call the custom features) that make designing for FRC much easier.
+
+<Aside type="tip">
+The title of each featurescript or group of featurescripts links to its respective document. Right click the title and click "copy link address" for installing it to your profile using the process described on [the featurescript help page](/resources/featurescript-help/).
+</Aside>
+
+## Recommended
+These featurescripts are must haves to enhance your Onshape workflow. Many of these are developed by members of the FRC community and well maintained.
+
+<CardGrid>
+<CustomCard title="Origin Cube Featurescript" subTitle="" href="https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/c66db2b954da7f29d438195a">
+<hr/>
+<ContentFigure src="./img/featurescripts/origin-cube.webp" alt="Origin Cube" width="80%" />
+
+- Used to create an origin reference for assembly mating
+- Optionally import design constants like bolt hole sizes, heat set insert hole sizes, etc
+- Optionally import functions for calculating gear OD, pulley/sprocket pitch & outer diameters, and calculate belt/chain c-c distances
+- See [Assembly Best Practices](/best-practices/assembly-setup/#the-origin-cube) for more information on usage
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=3m4QLn2aSXQ" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Belt & Chain Gen" subTitle="" href="https://cad.onshape.com/documents/53c0b14cad92676c14e04e97/w/1271c254ccb0a79563210195/e/7394c4a86d8d6c35c9a12041">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/belt-chain-gen.webp" alt="Belt & Chain Gen" width="80%" />
+
+- Used in conjunction with Origin Cube FRC Functions to create highly customizable belts and chains
+- Highly parametric - pulley/sprocket tooth count is automatically calculated from sketch pitch diameter.
+- Create multi pulley, double sided belt, and multi sprocket transmissions with options for both toothed and round idlers
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=n_kc2RV-qgI" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Robot Shaft" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/robot-shaft.webp" alt="Robot Shaft" width="80%" />
+
+- Generates a shaft, with options for hex, rounded hex (13.75mm OD), MAXSpline, etc.
+- Options for retention type on both ends
+- Can be generated in-place and with offsets
+
+</CustomCard>
+<CustomCard title="Robot Spacer" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/robot-spacer.webp" alt="Robot Spacer" width="80%" />
+
+- Generates a spacer, with options for round, 3/8" hex, 1/2" hex, MAXSpline, etc.
+- Can be generated in-place and with offsets
+
+</CustomCard>
+<CustomCard title="Extrude Individual" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/extrude-individual.webp" alt="Extrude Individual" width="80%" />
+
+- Can extrude multiple regions as different parts with one feature, even if regions are adjacent
+- Commonly used with tube converter to make punched aluminum tubes from a top view sketch
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=fetauwXgK3s" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Tube Converter" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/tube-converter.webp" alt="Tube Converter" width="80%" />
+
+- Converts extrusions into punched tube, with customization and presets for hole pattern, wall thickness, and profile.
+- Can be slow - try moving to the end of the part studio
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=DXHe4AOPSqM" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Part Lighten" subTitle="(2471 Featurescripts)" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/part-lighten.webp" alt="Part Lighten" width="80%" />
+
+- Better control over ribs, cut depth, fillets, etc.
+- Gives a nice estimate of how much weight is being saved
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=nA4YgMts6Vw" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="FilletXpert (Fillet All Edges)" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/fillet-all-edges.webp" alt="Fillet All Edges" width="80%" />
+
+- After selecting a face, it adds a fillet to the corners of that face (all edges normal to the selected face)
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=MBtSlzxsuqw" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Spur Gear" subTitle="" href="https://cad.onshape.com/documents/5742c8cde4b06c68b362d748/w/b493e0cb681bbf9497d9f4b3/e/01a666571e625f8b819fd75b">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/spur-gear.webp" alt="Spur Gear" width="80%" />
+
+- Generates a spur gear with with many different options
+- Can be useful for 3D-printed parts and custom sector gears
+
+</CustomCard>
+<CustomCard title="3D Printed Mass" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+<hr/>
+<ContentFigure src="./img/featurescripts/3D-printed.webp" alt="3D Printed Mass" width="80%" />
+
+- Modifies 3D-printed parts to have accurate mass with given material, infill, and wall thickness
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=hEfen1lNLiM" />
+</Aside>
+
+</CustomCard>
+</CardGrid>
+
+## Bundles
+The below links contain several featurescripts each that you can add all at once. The more useful featurescripts from each bundle are demonstrated further below.
+
+<CardGrid>
+<CustomCard title="Julia's Featurescripts" subTitle="" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320" />
+
+<CustomCard title="Alex's Featurescripts" subTitle="" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933" />
+
+<CustomCard title="Abhi's Features & Configs" subTitle="" href="https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/w/0366fc53bc15b9d91febc38f/e/d7f04278e0325b6d4426ca34" />
+
+<CustomCard title="2471 Featurescripts" subTitle="" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d" />
+
+<CustomCard title="TLamp's Featurescripts" subTitle="" href="https://cad.onshape.com/documents/f46510f08cc311a34733cac2/w/771fa732a483fdc5ac45bfd6/e/8e9fbf1ac2f0980e4bc34951" />
+
+<CustomCard title="CADSHARP's Featurescripts" subTitle="" href="https://www.cadsharp.com/featurescripts/" />
+
+</CardGrid>
+
+## Other
+Below is a list of other featurescripts that can be useful but are more niche.
+
+### Structure
+
+<CardGrid>
+<CustomCard title="Gusset Generator" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+- Generate a gusset from hole selections
+- **Warning**: Not a very parametric featurescript and causes lag, but can be useful in a pinch
+
+</CustomCard>
+<CustomCard title="Robot Bearing Hat" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+- Creates a custom bearing hat given a set of mounting locations and a bearing hole
+- Can create tapped holes
+
+</CustomCard>
+<CustomCard title="Spacer Generator" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+- Generates a spacer, with options for round, 3/8" hex, and 1/2" hex
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=Wnz442Dv-uw" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Electronics Mounting" subTitle="(Julia's Featurescripts)" href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/7f62400703032fab9a7a3320">
+
+- Generates hole patterns for different electronic components using center points and mate connectors on sketches
+
+</CustomCard>
+<CustomCard title="MechSketch" subTitle="(TLamp's Featurescripts)" href="https://cad.onshape.com/documents/f46510f08cc311a34733cac2/w/771fa732a483fdc5ac45bfd6">
+
+- Incredibly useful, generates sketch profiles for a variety of things
+- Profiles for COTS parts like Maxspline, TTB inserts, maxtube, motors, and the versa patern
+- Profiles and holes for all electronics
+- Profile generator for pulleys and a spur gears
+
+</CustomCard>
+<CustomCard title="Robot Spline Profile" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+- Creates an inside or outside profile/extrusion of MAXSpline or SplineXL
+- Has all the standard extrude parameters
+
+</CustomCard>
+</CardGrid>
+
+### Power Transmissions
+
+<CardGrid>
+<CustomCard title="Robot Pulley" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+- Creates a set of pulleys in the part studio given belt curves or mate connectors
+
+</CustomCard>
+<CustomCard title="Belt & Pulley Generation" subTitle="(2471 Featurescripts)" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d">
+
+- Configurable belt and pulley generation
+- Belt width, pulley tooth count, offset and fit adjustment, belt type, etc.
+- Options for bore and flanges for both pulleys
+
+</CustomCard>
+<CustomCard title="Timing Belt Pulley Generator" subTitle="" href="https://cad.onshape.com/documents/55ae3138e0cd7c325239208b/w/c97698491e3111712f79c19b/e/b08c0071a21e9ab74baaf916">
+
+- Generates GT2 pulleys
+
+</CustomCard>
+<CustomCard title="Sprocket" subTitle="(Abhi's Features & Configs)" href="https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/w/0366fc53bc15b9d91febc38f/e/d7f04278e0325b6d4426ca34">
+
+- Generate a sprocket for common types of chain
+
+</CustomCard>
+<CustomCard title="doesinlinechaintensionerfit" subTitle="" href="https://cad.onshape.com/documents/0a4b1991c2c84d83452b66db/w/16955b48319c55202a97d587/e/2c07d47526c2d94d25697091">
+
+- Calculates whether or not an inline chain tensioner will fit on a chain transmission
+- For when you are too lazy to do basic math
+
+</CustomCard>
+<CustomCard title="Thrifty Insert" subTitle="" href="https://cad.onshape.com/documents/c54b1ff25af8ec89778cac4f/w/ace59da8ae4ae6dd11eabd2a/e/c4fc9251685f8516e9022bc6">
+
+- Cuts a profile in a part at a given location and depth to fit a [thriftybot insert](https://www.thethriftybot.com/products/qty-5-aluminum-insert-for-3d-printed-parts) into, for 3D-printed parts to stop them from stripping while being driven on an axle.
+
+</CustomCard>
+<CustomCard title="Polybelt Generator" subTitle="(2471 Featurescripts)" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d">
+
+- Generates polycord and pulleys based off of selected points
+
+</CustomCard>
+</CardGrid>
+
+### Pocketing
+
+<CardGrid>
+<CustomCard title="Vent" subTitle="" href="https://cad.onshape.com/documents/702f94d6e4ffb0c64f611f87/w/f6ac7d31494b1215bb9c8a61/e/4bf4eb130870ebdf0008c5a4">
+
+- Used for pocketing and lightening plates
+- Uses sketch regions to determine pocket and rib placement
+
+<Aside type="video" title="Video Example" collapse>
+<ContentFigure src="https://www.youtube.com/watch?v=8d2p9likmfU" />
+</Aside>
+
+</CustomCard>
+<CustomCard title="Robot Grid" subTitle="(Alex's Featurescripts)" href="https://cad.onshape.com/documents/9cffa92db8b62219498f89af/w/06b332ccabc9d2e0aa0abf88/e/2e6e4b559832eeff8391e933">
+
+- Creates a grid of holes on a part (e.g. a bellypan)
+
+</CustomCard>
+<CustomCard title="CheeseIt!" subTitle="(TLamp's Featurescripts)" href="https://cad.onshape.com/documents/f46510f08cc311a34733cac2/w/771fa732a483fdc5ac45bfd6/e/8e9fbf1ac2f0980e4bc34951">
+
+- Advanced lightening pattern generation
+- Isogrid, hexagon, or circle pattern
+
+</CustomCard>
+<CustomCard title="PatchIt!" subTitle="(TLamp's Featurescripts)" href="https://cad.onshape.com/documents/f46510f08cc311a34733cac2/w/771fa732a483fdc5ac45bfd6/e/8e9fbf1ac2f0980e4bc34951">
+
+- Patches specified pockets in a part
+
+</CustomCard>
+</CardGrid>
+
+### Manufacturing
+
+<CardGrid>
+<CustomCard title="Auto Layout" subTitle="" href="https://cad.onshape.com/documents/576e01dbe4b0cc2e7f46a55d/w/b7cb6876d1121a6c249f59c7/e/887d6e2324589bfd2058c3e1">
+
+- Given some derived plates, either transformed from an in-context assembly (to maintain part count) or derived from a part studio, it will automatically lay them out into sheets of a given size, sorted by thickness. This is used to prepare a file to route or waterjet parts out of material with a machine.
+
+</CustomCard>
+<CustomCard title="Measure Cut List" subTitle="" href="https://cad.onshape.com/documents/395304920b30c3b382fd312d/w/86481637ad1e9da01b0e5d60/e/e19230df69a29e1fc2259b9d?renderMode=0&tangentEdgeStyle=2&uiState=6642611f3aed1a692ef01f41">
+
+- Creates a table of measurements
+- Great for creating cut lists for parts
+
+</CustomCard>
+<CustomCard title="Laser Joint" subTitle="" href="https://cad.onshape.com/documents/578830e4e4b0e65410f9c34e/w/d04a088a0a8ab8361a2aa65c/e/dfd5effddfd7f2ecce4b0246">
+
+- Highly configurable featurescript that generates tab joints between overlapping parts
+- Options to make it easier for cnc routers to cut parts
+- Can use for bumper wood corners
+
+</CustomCard>
+<CustomCard title="Dogbone and Corner Overcut" subTitle="" href="https://cad.onshape.com/documents/51695bc13e3d9fb286023c70/w/f1e387898ad3a323b9fd9a6b/e/3a9512753b299d5fefc39f46">
+
+- Features to make it easier for cnc routers to cut cavities in parts
+
+</CustomCard>
+</CardGrid>
+
+### Onshape Functionality Extensions
+
+<CardGrid>
+<CustomCard title="Advanced Variables" subTitle="(2471 Featurescripts)" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d">
+
+- Can create a compound variable with path length, angle between edges, distance between planes, angle between planes, distance between points, pulley center distance, and chain center distance
+- Very useful for complex belt and chain runs
+- Include measurements that Onshape can't normally do
+
+</CustomCard>
+<CustomCard title="Part Color" subTitle="" href="https://cad.onshape.com/documents/d997b0ffc30f659113b10c00/w/a6cc43fb8fa670b2b812e8ea/e/b6db0c9545b9a2df1d7ea546">
+
+- Give color to faces on a part retroactively
+- Can use a variety of different color inputs
+- Can be used for part color configurations
+
+</CustomCard>
+<CustomCard title="Set Materials" subTitle="(Abhi's Features & Configs)" href="https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/w/0366fc53bc15b9d91febc38f/e/d7f04278e0325b6d4426ca34">
+
+- Parametrically set materials and appearances of parts in batches
+
+</CustomCard>
+<CustomCard title="Set Properties" subTitle="(Abhi's Features & Configs)" href="https://cad.onshape.com/documents/96d32fd4fe5341563a402ecd/w/0366fc53bc15b9d91febc38f/e/d7f04278e0325b6d4426ca34">
+
+- Sets properties of parts in batches
+
+</CustomCard>
+<CustomCard title="2471's Part Numbering" subTitle="(2471 Featurescripts)" href="https://cad.onshape.com/documents/028ca8fb10baf53e1f6fce96/w/b1250a450d0ba88f0a8b1811/e/a8b9e45297aac9f5688c871d">
+
+- Numbers parts based off of a given standard
+
+</CustomCard>
+<CustomCard title="Abhi's Part Numbering" subTitle="" href="https://cad.onshape.com/documents/443e443bb2a37736743bf314/w/6539c7379d36307a6a2cc01d/e/ef4e1b0c40e1dbf2ee36d02e">
+
+- Used for quickly applying a system to number parts
+
+</CustomCard>
+</CardGrid>

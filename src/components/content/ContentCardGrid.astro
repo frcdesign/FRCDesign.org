@@ -1,0 +1,25 @@
+---
+interface Props {
+  label?: string;
+}
+
+const { label } = Astro.props;
+---
+
+<section class="content-card-grid" aria-label={label}>
+  <slot />
+</section>
+
+<style>
+  .content-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  @media (max-width: 42rem) {
+    .content-card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

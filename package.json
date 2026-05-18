@@ -1,0 +1,24 @@
+{
+  "name": "frcdesign",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "social-cards": "node scripts/social-cards.mjs",
+    "check:links:local": "node scripts/check-local-links.mjs",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^13.5.1",
+    "@astrojs/sitemap": "^3.7.2",
+    "@astrojs/starlight": "^0.39.2",
+    "astro": "^6.3.3",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.51.0"
+  }
+}

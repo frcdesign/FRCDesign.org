@@ -1,0 +1,181 @@
+---
+import SidebarRestorePoint from '@astrojs/starlight/components/SidebarRestorePoint.astro';
+
+type SidebarLink = {
+  type: 'link';
+  label: string;
+  href: string;
+  isCurrent: boolean;
+  badge: undefined;
+  attrs: Record<string, string>;
+};
+
+type SidebarGroup = {
+  type: 'group';
+  label: string;
+  href?: string;
+  isCurrent?: boolean;
+  entries: SidebarEntry[];
+  collapsed: boolean;
+  badge: undefined;
+};
+
+type SidebarEntry = SidebarLink | SidebarGroup;
+
+interface Props {
+  sublist: SidebarEntry[];
+  nested?: boolean;
+}
+
+const { sublist, nested } = Astro.props;
+
+function hasCurrentEntry(entries: SidebarEntry[]): boolean {
+  return entries.some((entry) => {
+    if (entry.type === 'link') return entry.isCurrent;
+    return entry.isCurrent || hasCurrentEntry(entry.entries);
+  });
+}
+---
+
+<ul class:list={{ 'top-level': !nested }}>
+  {
+    sublist.map((entry) => (
+      <li>
+        {entry.type === 'link' ? (
+          <a
+            href={entry.href}
+            aria-current={entry.isCurrent ? 'page' : undefined}
+            class:list={[{ large: !nested }, entry.attrs.class]}
+            {...entry.attrs}
+          >
+            <span>{entry.label}</span>
+          </a>
+        ) : (
+          <details open={hasCurrentEntry(entry.entries) || entry.isCurrent || !entry.collapsed}>
+            <summary>
+              {entry.href ? (
+                <a
+                  href={entry.href}
+                  aria-current={entry.isCurrent ? 'page' : undefined}
+                  class="group-label group-link"
+                  onclick="event.stopPropagation()"
+                >
+                  <span class="large">{entry.label}</span>
+                </a>
+              ) : (
+                <span class="group-label">
+                  <span class="large">{entry.label}</span>
+                </span>
+              )}
+              <svg aria-hidden="true" class="caret" width="20" height="20" viewBox="0 0 24 24">
+                <path fill="currentColor" d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z" />
+              </svg>
+            </summary>
+            <SidebarRestorePoint />
+            <Astro.self sublist={entry.entries} nested />
+          </details>
+        )}
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  @layer starlight.core {
+    ul {
+      --sl-sidebar-item-padding-inline: 0.5rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      overflow-wrap: anywhere;
+    }
+
+    ul ul li {
+      margin-inline-start: var(--sl-sidebar-item-padding-inline);
+      border-inline-start: 1px solid var(--sl-color-hairline-light);
+      padding-inline-start: var(--sl-sidebar-item-padding-inline);
+    }
+
+    .large {
+      font-size: var(--sl-text-lg);
+      font-weight: 600;
+      color: var(--sl-color-white);
+    }
+
+    .top-level > li + li {
+      margin-top: 0.75rem;
+    }
+
+    summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.2em var(--sl-sidebar-item-padding-inline);
+      line-height: 1.4;
+      cursor: pointer;
+      user-select: none;
+    }
+    summary::marker,
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .caret {
+      transition: transform 0.2s ease-in-out;
+      flex-shrink: 0;
+    }
+    :global([dir='rtl']) .caret {
+      transform: rotateZ(180deg);
+    }
+    [open] > summary .caret {
+      transform: rotateZ(90deg);
+    }
+
+    a {
+      display: block;
+      border-radius: 0.25rem;
+      text-decoration: none;
+      color: var(--sl-color-gray-2);
+      padding: 0.3em var(--sl-sidebar-item-padding-inline);
+      line-height: 1.4;
+    }
+
+    .group-link {
+      flex: 1 1 auto;
+      min-width: 0;
+      margin: -0.3em 0;
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--sl-color-white);
+    }
+
+    [aria-current='page'],
+    [aria-current='page']:hover,
+    [aria-current='page']:focus {
+      font-weight: 600;
+      color: var(--sl-color-text-invert);
+      background-color: var(--sl-color-text-accent);
+    }
+
+    a > *:not(:last-child),
+    .group-label > *:not(:last-child) {
+      margin-inline-end: 0.25em;
+    }
+
+    @media (min-width: 50rem) {
+      .top-level > li + li {
+        margin-top: 0.5rem;
+      }
+      .large {
+        font-size: var(--sl-text-base);
+      }
+      a {
+        font-size: var(--sl-text-sm);
+      }
+    }
+  }
+</style>

@@ -1,0 +1,363 @@
+---
+/**
+ * ContentFigure component - Image, GIF/video, or YouTube video with optional caption, border, and width control
+ *
+ * Usage in MDX:
+ *
+ * Images (with glob import - recommended for unique filenames):
+ * export const images = import.meta.glob('./img/*.webp', { eager: true, import: 'default' });
+ * <ContentFigure src={images['./img/image.webp']} alt="Description" />
+ *
+ * Images (string path - uses loose matching):
+ * <ContentFigure src="./img/image.webp" alt="Description" />
+ *
+ * With options:
+ * <ContentFigure src={images['./img/image.webp']} alt="Description" width="60%" border>
+ *   Caption with *italic* and [links](url)
+ * </ContentFigure>
+ *
+ * <ContentFigure src={images['./img/image.webp']} alt="Description" border="2px dashed red">
+ *   Custom border style
+ * </ContentFigure>
+ *
+ * <ContentFigure src={images['./img/image.webp']} alt="Description" align="left" width="50%">
+ *   Left-aligned image
+ * </ContentFigure>
+ *
+ * GIF / animated video:
+ * <ContentFigure src="/path/to/animation.webm" gif>
+ *   Caption here
+ * </ContentFigure>
+ *
+ * <ContentFigure src="/path/to/animation.webp" gif width="60%" />
+ *
+ * YouTube videos (full URL or bare video ID):
+ * <ContentFigure src="https://www.youtube.com/watch?v=VIDEO_ID">
+ *   Video caption here
+ * </ContentFigure>
+ *
+ * <ContentFigure src="VIDEO_ID" width="80%">
+ *   Caption with **markdown** support
+ * </ContentFigure>
+ *
+ * Props:
+ * - src: ImageMetadata (from glob import), image path string, YouTube URL, YouTube video ID, or animated media path
+ * - alt: Alt text for accessibility (images only)
+ * - width: Width of the figure (e.g., "60%", "400px") - defaults to 70%
+ * - border: Add a border (boolean for default style, or string for custom CSS border)
+ * - align: Alignment of the figure ("left", "center", "right") - defaults to "center"
+ * - captionPosition: Caption placement ("center", "left", "right") - defaults to "center"
+ * - gif: Treat src as animated media (renders as autoplay looping video or img, no optimization)
+ */
+import { Image } from 'astro:assets';
+
+// Import all images from both locations for optimization (exclude GIFs)
+const contentImages = import.meta.glob<{ default: ImageMetadata }>('/src/content/docs/**/img/**/*.{webp,png,jpg,jpeg}', { eager: true });
+const assetImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/content/**/*.{webp,png,jpg,jpeg}', { eager: true });
+
+// Merge both image sources
+const allImages = { ...contentImages, ...assetImages };
+
+interface Props {
+  src: string | ImageMetadata;
+  alt?: string;
+  width?: string;
+  border?: boolean | string;
+  align?: 'left' | 'center' | 'right';
+  captionPosition?: 'center' | 'left' | 'right';
+  class?: string;
+  gif?: boolean;
+  inline?: boolean;
+}
+
+const { src, alt = '', width = '80%', border = false, align = 'center', captionPosition = 'center', class: className, gif = false, inline = false } = Astro.props;
+const hasExplicitWidth = Astro.props.width !== undefined;
+const hasSideCaption = captionPosition === 'left' || captionPosition === 'right';
+
+// Check if src is already an ImageMetadata object (from glob import)
+const isImageMetadata = typeof src === 'object' && src !== null && 'src' in src;
+
+// Determine border style
+const hasBorder = Boolean(border);
+const borderStyle = typeof border === 'string' ? border : '5px solid var(--sl-color-gray-5)';
+
+// Determine margin based on alignment (no vertical margin)
+const marginLeft = align === 'right' ? 'auto' : '0';
+const marginRight = align === 'left' ? 'auto' : '0';
+const marginStyle = align === 'center' ? '0 auto' : `0 ${marginRight} 0 ${marginLeft}`;
+
+// YouTube video ID is always exactly 11 chars of [a-zA-Z0-9_-]
+function isYouTubeVideoId(source: string): boolean {
+  return /^[a-zA-Z0-9_-]{11}$/.test(source);
+}
+
+// Check if src is a YouTube URL or bare video ID (only for string sources)
+function isYouTubeSource(source: string | ImageMetadata): boolean {
+  if (typeof source !== 'string') return false;
+  return source.includes('youtube.com') || source.includes('youtu.be') || isYouTubeVideoId(source);
+}
+
+// Extract video ID from YouTube URL or return bare ID as-is
+function extractVideoId(videoUrl: string): string {
+  // Bare video ID
+  if (isYouTubeVideoId(videoUrl)) return videoUrl;
+  // YouTube watch URL
+  if (videoUrl.includes('youtube.com/watch')) {
+    const urlObj = new URL(videoUrl);
+    return urlObj.searchParams.get('v') || '';
+  }
+  // YouTube short URL
+  if (videoUrl.includes('youtu.be/')) {
+    return videoUrl.split('youtu.be/')[1]?.split(/[?#]/)[0] || '';
+  }
+  // YouTube embed URL
+  if (videoUrl.includes('youtube.com/embed/')) {
+    return videoUrl.split('youtube.com/embed/')[1]?.split(/[?#]/)[0] || '';
+  }
+  return videoUrl;
+}
+
+// Helper to get optimized image from path
+function getOptimizedImage(srcPath: string): ImageMetadata | null {
+  // Try relative path first (for ../img/... style paths)
+  for (const [key, value] of Object.entries(allImages)) {
+    if (key.endsWith(srcPath.replace(/^\.\.\//, '').replace(/^\.\//, ''))) {
+      return value.default;
+    }
+    // Also try matching just the filename and relative structure
+    const normalizedSrc = srcPath.replace(/^\.\.\//, '').replace(/^\.\//, '');
+    if (key.includes(normalizedSrc)) {
+      return value.default;
+    }
+  }
+
+  // Try absolute path style (for /folder/image.webp)
+  const assetPath = `/src/assets/content${srcPath}`;
+  const imageModule = allImages[assetPath];
+  if (imageModule?.default) {
+    return imageModule.default;
+  }
+
+  return null;
+}
+
+// gif=true: animated media (webm/mp4 → <video>, others → <img>)
+const isGif = gif;
+const isGifVideo = isGif && typeof src === 'string' && (src.endsWith('.webm') || src.endsWith('.mp4'));
+const gifImageSource = isGif && !isGifVideo
+  ? (isImageMetadata
+      ? (src as ImageMetadata).src
+      : typeof src === 'string'
+        ? getOptimizedImage(src)?.src || src
+        : '')
+  : '';
+const gifVideoSource = isGifVideo && typeof src === 'string' ? src : '';
+
+const isYouTube = !isGif && isYouTubeSource(src);
+const videoId = isYouTube && typeof src === 'string' ? extractVideoId(src) : '';
+const embedUrl = isYouTube ? `https://www.youtube.com/embed/${videoId}?rel=0&controls=1&showinfo=0&vq=hd1080` : '';
+
+// Determine the image source - either already ImageMetadata, or resolve from string path
+let optimizedImage: ImageMetadata | null = null;
+if (!isYouTube && !isGif) {
+  if (isImageMetadata) {
+    // Already an ImageMetadata object from glob import
+    optimizedImage = src as ImageMetadata;
+  } else if (typeof src === 'string') {
+    // Try to resolve string path
+    optimizedImage = getOptimizedImage(src);
+  }
+}
+
+const hasCaption = Astro.slots.has('default');
+const figureStyle = [
+  hasExplicitWidth ? `--content-figure-flex: 0 1 ${width};` : '',
+  hasExplicitWidth ? `--content-figure-width: ${width};` : '',
+  hasSideCaption ? `--content-figure-media-width: ${width};` : '',
+  `--content-figure-max-width: ${width};`,
+  `max-width: ${width};`,
+  `margin: ${marginStyle};`,
+].filter(Boolean).join(' ');
+---
+
+{inline ? (
+  optimizedImage ? (
+    <Image src={optimizedImage} alt={alt} style="display: inline; vertical-align: middle;" />
+  ) : (
+    <img src={typeof src === 'string' ? src : ''} alt={alt} style="display: inline; vertical-align: middle;" loading="lazy" />
+  )
+) : (
+<figure class:list={['content-figure', `caption-${captionPosition}`, { 'has-caption': hasCaption, 'has-side-caption': hasSideCaption && hasCaption }, className]} style={figureStyle}>
+  <div class="content-figure-inner">
+    {hasSideCaption && hasCaption && captionPosition === 'left' && (
+      <figcaption class="content-figure-caption">
+        <slot />
+      </figcaption>
+    )}
+
+    <div class="content-figure-media">
+      {isGif ? (
+        <div class:list={['content-figure-image']} style={hasBorder ? `border: ${borderStyle};` : undefined}>
+          {isGifVideo ? (
+            <video
+              autoplay
+              loop
+              muted
+              playsinline
+              class="figure-img"
+              aria-label={alt}
+            >
+              <source src={gifVideoSource} type={typeof src === 'string' && src.endsWith('.mp4') ? 'video/mp4' : 'video/webm'} />
+            </video>
+          ) : (
+            <img
+              src={gifImageSource}
+              alt={alt}
+              class="figure-img"
+              loading="lazy"
+            />
+          )}
+        </div>
+      ) : isYouTube ? (
+        <div class:list={['content-figure-video']} style={hasBorder ? `border: ${borderStyle};` : undefined}>
+          <iframe
+            src={embedUrl}
+            title="YouTube video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      ) : (
+        <div class:list={['content-figure-image']} style={hasBorder ? `border: ${borderStyle};` : undefined}>
+          {optimizedImage ? (
+            <Image
+              src={optimizedImage}
+              alt={alt}
+              class="figure-img"
+            />
+          ) : (
+            <img
+              src={typeof src === 'string' ? src : ''}
+              alt={alt}
+              class="figure-img"
+              loading="lazy"
+            />
+          )}
+        </div>
+      )}
+    </div>
+
+    {hasCaption && (!hasSideCaption || captionPosition === 'right') && (
+      <figcaption class="content-figure-caption">
+        <slot />
+      </figcaption>
+    )}
+  </div>
+</figure>
+)}
+
+<style>
+  .content-figure {
+    display: block;
+    padding-top: 1rem;
+  }
+
+  .content-figure-inner {
+    display: block;
+  }
+
+  .content-figure-media {
+    width: 100%;
+  }
+
+  .content-figure:not(.has-caption) .content-figure-media {
+    padding-bottom: 1.5rem;
+  }
+
+  .content-figure.has-side-caption {
+    max-width: min(100%, 62rem) !important;
+  }
+
+  .content-figure.has-side-caption .content-figure-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(8rem, var(--content-figure-media-width, 70%));
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .content-figure.has-side-caption.caption-right .content-figure-inner {
+    grid-template-columns: minmax(8rem, var(--content-figure-media-width, 70%)) minmax(0, 1fr);
+  }
+
+  /* Image styles */
+  .content-figure-image {
+    display: block;
+    line-height: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .content-figure-image .figure-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+
+  /* Video styles */
+  .content-figure-video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: var(--sl-color-gray-6);
+  }
+
+  .content-figure-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Caption styles - matches Slides component */
+  .content-figure-caption {
+    font-family: 'Inter', system-ui, sans-serif;
+    text-align: center;
+    color: var(--sl-color-gray-2);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  .content-figure.has-side-caption .content-figure-caption {
+    text-align: left;
+    padding: 0;
+  }
+
+  .content-figure-caption :global(*) {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  @media (max-width: 48rem) {
+    .content-figure:not(.has-side-caption) {
+      max-width: min(100%, max(var(--content-figure-max-width, 70%), 90%)) !important;
+    }
+
+    .content-figure.has-side-caption .content-figure-inner,
+    .content-figure.has-side-caption.caption-right .content-figure-inner {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .content-figure.has-side-caption .content-figure-caption {
+      padding: 0.5rem 1rem 0;
+    }
+  }
+</style>

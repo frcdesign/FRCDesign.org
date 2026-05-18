@@ -1,0 +1,44 @@
+---
+title: Cascade Elevators
+description: Examples of cascade elevators from FRC robots
+socialCard:
+  image: ./img/3_stage_elevator.webp
+  layout: mechanism-tall
+---
+
+import MechanismCardGrid from '@components/content/MechanismCardGrid.astro';
+import wcpGreyt from './img/wcp_greyt_elevator.webp';
+import twoStage from './img/2_stage_elevator.webp';
+import threeStage from './img/3_stage_elevator.webp';
+
+export const exampleCards = [
+  {
+    title: "WCP's GreyT Cascade Elevator",
+    href: 'https://cad.onshape.com/documents/8872bfbba0c46faf9dfb646e/w/7365e9b3733e64b8564b5292/e/65a6708bdaa866fed5c5704f',
+    image: wcpGreyt,
+    imageAlt: "WCP's GreyT cascade elevator CAD render",
+    description: 'A chain and cable driven COTS cascade elevator kit from WCP.',
+  },
+  {
+    title: '2-Stage Cascade Elevator*',
+    href: 'https://cad.onshape.com/documents/9d90cf1c3e2d2b3c2f3996a3/w/06553b0689c28e57c04b06b7/e/b42b6baee43b15995577002e',
+    image: twoStage,
+    imageAlt: 'Two-stage cascade elevator CAD render',
+    description: 'A chain and cable driven cascade elevator with a plate carriage and COTS rigging components.',
+  },
+  {
+    title: '3-Stage Cascade Elevator*',
+    href: 'https://cad.onshape.com/documents/b21eea4e68dca3055c81016f/w/28943b84028061b6bfc5cc51/e/87fb54e646175dee9e71b213',
+    image: threeStage,
+    imageAlt: 'Three-stage cascade elevator CAD render',
+    description: 'A three-stage cascade elevator with a plate carriage and heavy use of COTS components.',
+  },
+];
+
+Cascade elevator stages are characterized by their linked stages. Each stage is driven by the previous stage, ie: a *cascading* motion.
+
+## CAD References
+
+<MechanismCardGrid cards={exampleCards} />
+
+\* Designs marked with an asterisk have not been built or tested in real life. They will be phased out as new mechanism examples are added.

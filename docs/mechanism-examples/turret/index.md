@@ -1,3 +1,0 @@
-# Turrets
-
-**Coming Soon**

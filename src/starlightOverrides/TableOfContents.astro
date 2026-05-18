@@ -1,0 +1,161 @@
+---
+/**
+ * Custom TableOfContents component that conditionally renders based on directory config
+ *
+ * This overrides Starlight's default TableOfContents to allow per-directory TOC settings.
+ * Configure which directories have TOC enabled in src/config/tocConfig.ts
+ */
+import { getTocConfigForPath } from '../config/tocConfig';
+import TableOfContentsList from './TableOfContentsList.astro';
+
+// Get the current TOC data from Starlight's locals
+const { toc: tocData } = Astro.locals.starlightRoute;
+const { tableOfContents: frontmatterToc } = Astro.locals.starlightRoute.entry.data;
+const t = Astro.locals.t;
+
+// Get the current page path
+const pathname = Astro.url.pathname;
+
+// Check if TOC should be enabled for this path via directory config
+const tocConfig = getTocConfigForPath(pathname);
+
+// Determine if TOC should be shown
+let showToc = false;
+let items: any[] = [];
+let minHeadingLevel = 2;
+let maxHeadingLevel = 3;
+
+if (tocData) {
+  // Starlight provided TOC data (headings)
+  items = tocData.items || [];
+  minHeadingLevel = tocData.minHeadingLevel || 2;
+  maxHeadingLevel = tocData.maxHeadingLevel || 3;
+}
+
+// Override with directory config levels if specified
+if (tocConfig && typeof tocConfig === 'object') {
+  if (tocConfig.minHeadingLevel) minHeadingLevel = tocConfig.minHeadingLevel;
+  if (tocConfig.maxHeadingLevel) maxHeadingLevel = tocConfig.maxHeadingLevel;
+}
+
+// Show TOC if we have items AND:
+// 1. Frontmatter explicitly enables it (tableOfContents: true), OR
+// 2. Directory config enables it (tocConfig is truthy)
+// Frontmatter can also explicitly disable with tableOfContents: false
+const frontmatterEnabled = frontmatterToc === true || (typeof frontmatterToc === 'object' && frontmatterToc !== null);
+const frontmatterDisabled = frontmatterToc === false;
+const directoryEnabled = tocConfig !== false;
+
+showToc = items.length > 0 && !frontmatterDisabled && (frontmatterEnabled || directoryEnabled);
+---
+
+{showToc && (
+  <starlight-toc data-min-h={minHeadingLevel} data-max-h={maxHeadingLevel}>
+    <nav aria-labelledby="starlight__on-this-page">
+      <h2 id="starlight__on-this-page">{t('tableOfContents.onThisPage')}</h2>
+      <TableOfContentsList items={items} />
+    </nav>
+  </starlight-toc>
+)}
+
+<script>
+  const PAGE_TITLE_ID = '_top';
+
+  class StarlightTOC extends HTMLElement {
+    private _current = this.querySelector<HTMLAnchorElement>('a[aria-current="true"]');
+    private minH = parseInt(this.dataset.minH || '2', 10);
+    private maxH = parseInt(this.dataset.maxH || '3', 10);
+
+    protected set current(link: HTMLAnchorElement) {
+      if (link === this._current) return;
+      if (this._current) this._current.removeAttribute('aria-current');
+      link.setAttribute('aria-current', 'true');
+      this._current = link;
+    }
+
+    private onIdle = (cb: IdleRequestCallback) =>
+      (window.requestIdleCallback || ((cb) => setTimeout(cb, 1)))(cb);
+
+    constructor() {
+      super();
+      this.onIdle(() => this.init());
+    }
+
+    private init = (): void => {
+      const links = [...this.querySelectorAll('a')];
+
+      const isHeading = (el: Element): el is HTMLHeadingElement => {
+        if (el instanceof HTMLHeadingElement) {
+          if (el.id === PAGE_TITLE_ID) return true;
+          const level = el.tagName[1];
+          if (level) {
+            const int = parseInt(level, 10);
+            if (int >= this.minH && int <= this.maxH) return true;
+          }
+        }
+        return false;
+      };
+
+      const getElementHeading = (el: Element | null): HTMLHeadingElement | null => {
+        if (!el) return null;
+        const origin = el;
+        while (el) {
+          if (isHeading(el)) return el;
+          el = el.previousElementSibling;
+          while (el?.lastElementChild) {
+            el = el.lastElementChild;
+          }
+          const h = getElementHeading(el);
+          if (h) return h;
+        }
+        return getElementHeading(origin.parentElement);
+      };
+
+      const setCurrent: IntersectionObserverCallback = (entries) => {
+        for (const { isIntersecting, target } of entries) {
+          if (!isIntersecting) continue;
+          const heading = getElementHeading(target);
+          if (!heading) continue;
+          const link = links.find((link) => link.hash === '#' + encodeURIComponent(heading.id));
+          if (link) {
+            this.current = link;
+            break;
+          }
+        }
+      };
+
+      const toObserve = document.querySelectorAll('main [id], main [id] ~ *, main .content > *');
+
+      let observer: IntersectionObserver | undefined;
+      const observe = () => {
+        if (observer) return;
+        observer = new IntersectionObserver(setCurrent, { rootMargin: this.getRootMargin() });
+        toObserve.forEach((h) => observer!.observe(h));
+      };
+      observe();
+
+      let timeout: ReturnType<typeof setTimeout>;
+      window.addEventListener('resize', () => {
+        if (observer) {
+          observer.disconnect();
+          observer = undefined;
+        }
+        clearTimeout(timeout);
+        timeout = setTimeout(() => this.onIdle(observe), 200);
+      });
+    };
+
+    private getRootMargin(): `-${number}px 0% ${number}px` {
+      const navBarHeight = document.querySelector('header')?.getBoundingClientRect().height || 0;
+      const mobileTocHeight = this.querySelector('summary')?.getBoundingClientRect().height || 0;
+      const top = navBarHeight + mobileTocHeight + 32;
+      const bottom = top + 53;
+      const height = document.documentElement.clientHeight;
+      return `-${top}px 0% ${bottom - height}px`;
+    }
+  }
+
+  if (!customElements.get('starlight-toc')) {
+    customElements.define('starlight-toc', StarlightTOC);
+  }
+</script>

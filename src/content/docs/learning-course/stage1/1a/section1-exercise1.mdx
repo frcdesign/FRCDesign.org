@@ -1,0 +1,67 @@
+﻿---
+title: "1A: Onshape Fundamentals - Section 1"
+description: Learn to create box tubes in Onshape
+---
+
+import ContentRow from '@components/content/ContentRow.astro';
+
+## Exercise 1: Making Your First Tube
+
+In this exercise you'll be:
+
+1. Following along with the video to learn how we can make box tubes in Onshape
+2. Playing with the tools you learned to explore how the concepts work
+3. Understanding how these parts interact in 3D Space
+
+### Video Tutorial
+
+Inside of the document you copied and navigated through previously, follow along with this video to create your box tubes and finish the exercise. The `extrude` tool will be introduced through this.
+
+<ContentFigure src="FdD1BTQndEo">Making your first tube in Onshape</ContentFigure>
+
+<Aside type="note" title="As you work through the exercise, notice how:">
+
+- Changing the extruded length affects the box tube.
+- The dimensions of the sketch translate directly into the dimensions of the tube.
+
+</Aside>
+
+---
+
+### Reference Images
+
+<ContentRow>
+  <ContentFigure src="../img/1a/extrude-setup.webp" alt="Extrude your rectangles to create box tubes.">Extrude your rectangles to create box tubes.</ContentFigure>
+  <ContentFigure src="../img/1a/tube-result.webp" alt="Completed box tube geometry.">Completed box tube geometry.</ContentFigure>
+</ContentRow>
+
+### Extrude Tool Info
+
+<Aside type="note" title="Boolean Options">
+Every extrude has options for `new`, `add`, `remove`, and `intersect` that define how your extrude interacts with other parts in the part studio. **If you extrude a tube next to another tube**, you might notice that **they merge together**. Make sure to select the `new` option in your extrude menu, as **sometimes Onshape will default to `add`**.
+</Aside>
+
+<Aside type="note" title="Endpoint Options">
+You can define the end of the extrude depending on an arbitrary length or by using other parts as reference. `Up to face` is pretty commonly used alongside `Blind`.
+</Aside>
+
+### Tube Converter Settings
+
+When using the Tube Converter (as shown in the video), make sure your settings match:
+
+<ContentFigure src="../img/1a/tube-converter-settings.webp" alt="Tube Converter settings example">Tube Converter settings example</ContentFigure>
+
+If the Tube Converter isn't behaving as expected:
+
+- Only select the rectangles that are not touching, as shown in the video.
+- You can remove a selection by clicking the `x` next to the part in the Tube Converter menu.
+
+If you forget the name of a tool, you can press `Alt+C` to search for it.
+
+---
+
+## Done following along?
+
+Mess around with the tubes a bit more, try extruding different lengths, using different extrude offsets and settings, and play to see how they relate to your final box tube.
+
+After 5 minutes or so, move on to the next exercise.

@@ -1,0 +1,48 @@
+---
+interface Props {
+  label?: string;
+  title: string;
+  description?: string;
+}
+
+const { label, title, description } = Astro.props;
+---
+
+<section class="content-titlebar">
+  {label && <p class="content-titlebar-label">{label}</p>}
+  <h2>{title}</h2>
+  {description && <p class="content-titlebar-description">{description}</p>}
+</section>
+
+<style>
+  .content-titlebar {
+    padding: 1.25rem 0 1.75rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--sl-color-gray-5);
+  }
+
+  .content-titlebar-label {
+    margin: 0 0 0.35rem;
+    color: #2fbf5b;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .content-titlebar h2 {
+    max-width: 15ch;
+    margin: 0;
+    color: var(--sl-color-white);
+    font-size: clamp(2.2rem, 4.8vw, 3.6rem);
+    line-height: 1;
+  }
+
+  .content-titlebar-description {
+    max-width: 46rem;
+    margin: 1rem 0 0;
+    color: var(--sl-color-gray-2);
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+</style>

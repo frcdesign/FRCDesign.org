@@ -1,0 +1,299 @@
+---
+title: Adding a Page
+description: Everything you need to know to create and publish a new page on FRCDesign.org.
+---
+
+This page covers the full technical process of adding a new page. File structure, frontmatter, images, components, and making the page appear in the sidebar.
+
+## File Structure
+
+All content lives inside `src/content/docs/`. Each section of the site maps to a subfolder:
+
+```
+src/content/docs/
+  learning-course/
+  design-handbook/
+  mechanism-examples/
+  best-practices/
+  resources/
+  contribution/
+```
+
+Name files with lowercase letters and hyphens: `my-new-page.mdx`. Use `index.mdx` for section landing pages.
+
+Images for a page go in an `img/` folder next to the `.mdx` file:
+
+```
+src/content/docs/best-practices/
+  assembly-setup.mdx
+  img/
+    assembly.webp
+    originCubeFeature.webp
+```
+
+## Frontmatter
+
+Every page starts with a frontmatter block. `title` and `description` are required:
+
+```yaml
+---
+title: Page Title
+description: One or two sentence summary for search engines and meta tags.
+---
+```
+
+Optional fields:
+
+- **`tableOfContents: false`**: hide the table of contents (useful for overview/index pages)
+- **`prev: false`** / **`next: false`**: remove the previous/next navigation buttons
+- **`template: splash`**: full-width layout with no sidebar (used for mechanism example pages)
+
+## Updating the Sidebar
+
+Creating the file is not enough, you must also register the page in `src/config/sidebarConfig.ts` or it won't appear in navigation.
+
+Find the section that matches your page's location and add an entry:
+
+```ts
+{ label: 'Your Page Title', slug: 'section/your-filename' }
+```
+
+For example, adding a page at `src/content/docs/best-practices/wiring.mdx`:
+
+```ts
+// In the '/best-practices' section:
+{ label: 'Wiring Best Practices', slug: 'best-practices/wiring' }
+```
+
+To add a collapsible group of pages, use the `collapsed` property:
+
+```ts
+{
+  label: 'Group Name',
+  collapsed: true,
+  items: [
+    { label: 'First Page', slug: 'section/first-page' },
+    { label: 'Second Page', slug: 'section/second-page' },
+  ],
+},
+```
+
+Run `npm run dev` and confirm the page appears in the sidebar before submitting.
+
+### Renaming or Moving a Page
+
+1. Rename or move the file
+2. Update the slug in `src/config/sidebarConfig.ts`
+3. Search for internal links pointing to the old path and update them
+
+Avoid renaming pages without good reason! It breaks external links, bookmarks, and search engine results.
+
+## Images
+
+Compress all images to `.webp` format using [squoosh](https://squoosh.app/) before adding them.
+
+Place images in an `img/` folder next to your `.mdx` file and reference them with a relative path:
+
+```mdx
+<ContentFigure src="./img/my-image.webp" alt="Description of the image" />
+```
+
+Add a caption by putting text between the tags:
+
+```mdx
+<ContentFigure src="./img/my-image.webp" alt="Description" width="80%">
+  Caption text here. Supports **markdown** and [links](url).
+</ContentFigure>
+```
+
+## Videos
+
+Upload all videos to YouTube and embed them using the video ID or full URL:
+
+```mdx
+<ContentFigure src="VIDEO_ID" />
+
+<ContentFigure src="https://youtu.be/VIDEO_ID">
+  Optional caption
+</ContentFigure>
+```
+
+## Components
+
+`ContentFigure`, `Aside`, `Slides`, `LinkButton`, and `ImageTable` are available in all `.mdx` files without importing. All other components require an explicit import at the top of the file:
+
+```mdx
+import ContributorList from '@components/content/ContributorList.astro';
+```
+
+### ContentFigure
+
+Displays images, YouTube videos, and animated WebP files.
+
+```mdx
+<ContentFigure src="./img/example.webp" alt="Alt text" />
+<ContentFigure src="./img/example.webp" alt="Alt text" width="60%" border />
+<ContentFigure src="VIDEO_ID" width="80%">Caption</ContentFigure>
+<ContentFigure src="./img/animation.webp" gif />
+```
+
+Use `align` to change horizontal positioning (default is `center`):
+
+```mdx
+<ContentFigure src="./img/example.webp" alt="Alt text" align="left" width="50%" />
+```
+
+Use `captionPosition` to place the caption beside the image instead of below it:
+
+```mdx
+<ContentFigure src="./img/example.webp" alt="Alt text" width="60%" captionPosition="right">
+  Caption appears to the right of the image.
+</ContentFigure>
+```
+
+### Aside
+
+Callout boxes for tips, notes, warnings, and examples.
+
+```mdx
+<Aside type="tip">A helpful tip.</Aside>
+<Aside type="note">Extra context.</Aside>
+<Aside type="caution">Pay attention to this.</Aside>
+<Aside type="danger">Important warning.</Aside>
+<Aside type="example">An example.</Aside>
+```
+
+Add a custom title with the `title` prop. Add `collapse` to make it collapsible:
+
+```mdx
+<Aside type="note" title="Custom Title" collapse>
+  Hidden by default.
+</Aside>
+```
+
+### Slides
+
+Step-by-step slideshow with a lightbox. Each item is a slide; the line after it is the caption. Slides supports images, YouTube videos, and local video files.
+
+```mdx
+<Slides>
+  ![Alt text](./img/step1.webp)
+  Caption for step 1.
+
+  ![Alt text](./img/step2.webp)
+  Caption for step 2.
+
+  ![](https://www.youtube.com/watch?v=VIDEO_ID)
+  Caption for the video slide.
+</Slides>
+```
+
+YouTube URLs, `youtu.be/` short links, and bare video IDs (11 characters) all work. Local `.webm` and `.mp4` files are also supported.
+
+Use the `scale` prop (0–1, default `0.8`) to control how much of the column width the slideshow occupies:
+
+```mdx
+<Slides scale={0.6}>
+  ![Alt text](./img/step1.webp)
+  Caption for step 1.
+</Slides>
+```
+
+### ContentRow
+
+Places multiple `ContentFigure` elements side by side in a row.
+
+```mdx
+<ContentRow>
+  <ContentFigure src="./img/a.webp" alt="A">Caption A</ContentFigure>
+  <ContentFigure src="./img/b.webp" alt="B">Caption B</ContentFigure>
+</ContentRow>
+```
+
+Use `mediaHeight` to normalize all images in the row to the same height so their captions line up, and `gap` to control spacing between them:
+
+```mdx
+<ContentRow mediaHeight="18rem" gap="1rem">
+  <ContentFigure src="./img/a.webp" alt="A" />
+  <ContentFigure src="./img/b.webp" alt="B" />
+  <ContentRowCaption>Shared caption for both images. Supports **markdown**.</ContentRowCaption>
+</ContentRow>
+```
+
+`ContentRow` requires a manual import:
+
+```mdx
+import ContentRow from '@components/content/ContentRow.astro';
+import ContentRowCaption from '@components/content/ContentRowCaption.astro';
+```
+
+### LinkButton
+
+Prominent link, typically used for CAD documents.
+
+```mdx
+<LinkButton href="https://cad.onshape.com/...">CAD Document</LinkButton>
+<LinkButton href="https://cad.onshape.com/..." center>Centered Button</LinkButton>
+```
+
+### ImageTable
+
+Wraps a markdown table that has images in its last column. Handles horizontal scrolling on narrow screens and consistent image sizing.
+
+```mdx
+<ImageTable>
+| Type | Description | Image |
+|---|---|---|
+| **SHCS** | Standard bolt | <ContentFigure src="./img/shcs.webp" alt="SHCS" /> |
+| **BHCS** | Low-profile rounded head | <ContentFigure src="./img/bhcs.webp" alt="BHCS" /> |
+</ImageTable>
+```
+
+Use the optional props to adjust sizing for tables with larger or smaller images:
+
+```mdx
+<ImageTable minWidth="760px" imageMaxWidth="8rem" imageMaxHeight="6.5rem" imageMinHeight="5rem">
+```
+
+Props:
+- `minWidth`: minimum table width before horizontal scroll activates, default `560px`
+- `imageMaxWidth`: max width of images in the last column, default `7rem`
+- `imageMaxHeight`: max height of images in the last column, default `6rem`
+- `imageMinHeight`: minimum cell height in the image column to keep rows uniform, default `4rem`
+
+## Centered Content
+
+Use the `:::center` directive to center text or other inline content:
+
+```md
+:::center
+**Centered text or formula**
+:::
+```
+
+## Links
+
+- **Internal links**: use root-relative paths: `[Link Text](/section/page/)`
+- **External links**: open in a new tab by default when using `LinkButton`; for markdown links, they open in the same tab unless you add the target manually: `[Link Text](https://example.com){target="_blank" rel="noopener"}`
+- **CAD documents**: always use `LinkButton` so they stand out
+
+## Table of Contents
+
+TOC is off by default, it usually doesnt need re-enabling. It can be enabled at three levels, applied in this priority order:
+
+1. **Per-page frontmatter** (highest priority):
+   ```yaml
+   tableOfContents: false  # force hide
+   tableOfContents: true   # force show
+   ```
+
+2. **Per-directory config** (`src/config/tocConfig.ts`): enables TOC for all pages under a path. Currently enabled for `/design-handbook`. To enable for another section, add an entry:
+   ```ts
+   '/your-section': true,
+   // or with custom heading levels:
+   '/your-section': { minHeadingLevel: 2, maxHeadingLevel: 4 },
+   ```
+
+3. **Global default** (lowest priority): TOC is disabled site-wide.
+
+TOC shows `##` (h2) and `###` (h3) headings by default.

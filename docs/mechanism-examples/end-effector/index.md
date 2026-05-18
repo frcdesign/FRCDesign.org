@@ -1,3 +1,0 @@
-# End Effectors
-
-**Coming Soon**

@@ -1,0 +1,114 @@
+﻿---
+title: "1A: Onshape Fundamentals - Section 1"
+description: Learn sketching fundamentals in Onshape
+---
+
+
+## Exercise 3: More Extrudes
+
+In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.
+Use just one extrude feature. What happens?
+
+<ContentFigure src="../img/1a/exercise3-rectangles.webp" alt="Starting setup with four rectangles." width="70%">Starting setup with four rectangles.</ContentFigure>
+
+Don't forget: use the Tube Converter after extruding.
+
+---
+
+### Looks a bit weird?
+
+If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.
+In real life, you don't want parts fused together like this unless you meant to.
+
+> Can you figure out how to extrude them **individually** to keep them separate?
+
+If you need to restart, here's a quick video showing how to delete your bad tubes:
+
+<ContentFigure src="2Jzb1Xr6NBE">How to delete extrudes</ContentFigure>
+
+---
+
+### Fixed your extrude?
+
+Manually doing four extrudes is tedious. There's a better way!
+
+- Delete your old extrudes.
+- Use the `Extrude Individual` Featurescript you added in [required course tools](/learning-course/course-setup/required-course-tools/featurescripts).
+- (Hit `Alt+C` and search "extrude individual" if needed.)
+
+This tool lets you extrude multiple sketch regions separately, all in one step.
+
+Also, if you click the "Symmetric" option inside Extrude Individual, you can force symmetry.
+
+<ContentFigure src="../img/1a/extrude-individual.webp" alt="Using Symmetric inside Extrude Individual.">Using "Symmetric" inside Extrude Individual.</ContentFigure>
+
+---
+
+## Exercise 3.1: Sketching Basics
+
+In the last exercise, you extruded an existing sketch. Now it's your turn to **create the sketch yourself**.
+
+When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
+
+Follow along with the video below to practice sketching fundamentals in Onshape.
+
+<ContentFigure src="ftbpbvuZklc">Sketching fundamentals in Onshape</ContentFigure>
+
+<Aside type="tip" title="Key Sketching Points">
+
+- **Dimensions** control distances (like making a rectangle exactly 5 inches wide).
+- **Constraints** define relationships (like locking a rectangle edge to another).
+- **Yellow dotted lines** show automatic constraints — use them!
+- **The Origin** is your anchor. Attach sketches to the origin whenever possible.
+- **Blue is bad** — a blue sketch means it's not fully defined yet. Everything should turn black.
+- **Less is better** — use the fewest dimensions necessary to fully lock down your design.
+
+</Aside>
+
+---
+
+### What You Learned
+
+- How to extrude multiple tubes separately
+- How to create and constrain a sketch
+- How to make rectangles properly
+- How to use basic dimensions and relationships
+- How to mirror using construction lines
+
+---
+
+## Exercise 3.2: Adding Rails
+
+<ContentFigure src="../img/1a/3-2-sketch.webp" alt="Edit this sketch">Edit this sketch</ContentFigure>
+
+Now let's apply this to the robot.
+
+Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **8 inches apart**.
+
+<Aside type="tip">
+Double-click the sketch in the feature tree to edit it.
+</Aside>
+
+Draw the new rails yourself. Only use **one new dimension** total.
+
+The only numbers you should see:
+
+- 4.25" (gap between modules)
+- 1" (tube width)
+- 8" (distance between cross rails)
+
+<ContentFigure src="../img/1a/drivetrain-crossrail-sketch2.webp" alt="Final cross rail sketch setup." width="60%">Final cross rail sketch setup.</ContentFigure>
+
+---
+
+### Check Your Work
+
+Here's an optimized way to sketch it:
+
+<ContentFigure src="ktKuSFVV10U">Optimized cross rail sketch</ContentFigure>
+
+Compare your approach to the video.
+> What did you do differently?
+> How would you avoid mistakes like that next time?
+
+After you're done checking your work and reviewing your approach, move on to the next exercise.

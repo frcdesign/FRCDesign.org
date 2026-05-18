@@ -1,0 +1,34 @@
+---
+title: Continuous Elevators
+description: Examples of continuous elevators from FRC robots
+socialCard:
+  image: ./img/1678_2023_elevator.webp
+  layout: mechanism-tall
+---
+
+import MechanismCardGrid from '@components/content/MechanismCardGrid.astro';
+import elevator1678 from './img/1678_2023_elevator.webp';
+import elevator3847 from './img/3847_2023_elevator.webp';
+
+export const exampleCards = [
+  {
+    title: "1678's Charged Up Elevator",
+    href: 'https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/e/5ad5e173df9a364f40c65ca7',
+    image: elevator1678,
+    imageAlt: '1678 Charged Up elevator CAD render',
+    description: 'An external cable driven two-stage continuous elevator with COTS bearing blocks and an open-top carriage.',
+  },
+  {
+    title: "3847's Charged Up Elevator",
+    href: 'https://cad.onshape.com/documents/de43bfb90686cd44b0870071/w/9d183c2710bcbdcce0b821b4/e/52ffe457d07a49279860d194',
+    image: elevator3847,
+    imageAlt: '3847 Charged Up elevator CAD render',
+    description: 'An external timing-belt driven two-stage continuous elevator with constant force springs and COTS bearing blocks.',
+  },
+];
+
+Elevators with continuous rigging.
+
+## CAD References
+
+<MechanismCardGrid cards={exampleCards} />

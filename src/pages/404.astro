@@ -1,0 +1,29 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import NotFoundPage from '@components/content/NotFoundPage.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Page Not Found',
+    template: 'splash',
+    hero: {},
+    head: [{ tag: 'meta', attrs: { name: 'robots', content: 'noindex' } }],
+  }}
+>
+  <div class="not-found-outer">
+    <NotFoundPage />
+  </div>
+</StarlightPage>
+
+<style>
+  .not-found-outer {
+    min-height: calc(100vh - 10rem);
+    display: grid;
+    align-items: center;
+    width: min(100%, 76rem);
+    margin: 0 auto;
+    padding: clamp(1rem, 3vw, 2rem);
+    box-sizing: border-box;
+  }
+</style>

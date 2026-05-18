@@ -1,0 +1,56 @@
+---
+title: Pivots
+description: Examples of pivots from FRC robots
+socialCard:
+  image: ./img/2910/2910_2023_pivot.webp
+---
+
+import MechanismCardGrid from '@components/content/MechanismCardGrid.astro';
+import pivot2910 from './img/2910/2910_2023_pivot.webp';
+import pivot6328 from './img/6328/6328_2023_pivot.webp';
+import pivot1690 from './img/1690_2024_pivot.webp';
+import pivot5460 from './img/5460_2023_pivot.webp';
+
+export const writeupCards = [
+  {
+    title: '6328 A-Frame Pivot',
+    href: './6328_2023_pivot/',
+    image: pivot6328,
+    imageAlt: '6328 A-frame pivot CAD render',
+    description: 'A double-jointed A-frame pivot writeup covering force analysis, a custom MAXSpline gearbox, and mitee-bite dead-axle clamping.',
+  },
+  {
+    title: '2910 Dead Axle Pivot',
+    href: './2910_2023_pivot/',
+    image: pivot2910,
+    imageAlt: '2910 dead axle pivot CAD render',
+    description: 'A custom dead-axle pivot writeup covering chain tensioning, packaging, structure, and serviceability.',
+  },
+];
+
+export const exampleCards = [
+  {
+    title: '1690 Lantern Gear Pivot',
+    href: 'https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/e/e16d7c04df2851292695e2e5',
+    image: pivot1690,
+    imageAlt: '1690 lantern gear pivot CAD render',
+    description: 'A unique sector lantern gear driven pivot for low backlash.',
+  },
+  {
+    title: '5460 Charged Up Belt Pivot',
+    href: 'https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/e/9ff2797a21aae7b8fea3933c',
+    image: pivot5460,
+    imageAlt: '5460 Charged Up belt pivot CAD render',
+    description: 'A high torque belt driven pivot for a double jointed arm.',
+  },
+];
+
+Pivots come in all sorts of shapes and sizes, and their designs are highly dependent on mechanism requirements. These examples provide some insight into different solutions for the many challenges of designing pivots.
+
+## In-depth Writeups
+
+<MechanismCardGrid cards={writeupCards} />
+
+## CAD References
+
+<MechanismCardGrid cards={exampleCards} />

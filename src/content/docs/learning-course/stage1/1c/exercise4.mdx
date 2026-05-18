@@ -1,0 +1,139 @@
+﻿---
+title: "Exercise 4: Telescoping Hook"
+description: Model a telescoping hook
+---
+
+import ContentRow from '@components/content/ContentRow.astro';
+
+In this exercise, you will be modeling a telescoping climber. This mechanism features [WCP GreyT telescoping bearing blocks](https://wcproducts.com/products/greyt-telescope) and [REV MAXPlanetary](https://www.revrobotics.com/frc/maxplanetary-system/) mounting gearbox plates. Be sure to pay close attention to hook and gearbox sketches when modeling.
+
+<Aside type="caution">
+From this point on the specific lengths of shafts and offsets of belts may not be provided, you should consider what components are going on the shafts when setting distances. It is always ok to go back and change these lengths later if needed. When you get to making your own mechanisms there wont be a step by step guide for it! These exercises try and gradually pull back the guard rails as your progress to get you ready for build season. If you get stuck feel free to refer to the [solution doc](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/8843ec3a6b3828f461343955), or ask a mentor for help!
+</Aside>
+
+## Leveraging COTS Components
+Using COTS components is crucial in a time-constrained build season.
+Even if you have the capability to fabricate every part, relying on COTS parts allows you to spend your time on more important tasks - like refining designs or testing.
+This helps ensure your time is spent where it makes the most impact, rather than on re-inventing parts that are already readily available.
+
+<Aside type="example" title="Exercise 4 COTS Components">
+<ContentRow>
+  <ContentFigure src="../img/1c/telescope/greyt.webp" alt="GreyT Telescope" />
+  <ContentFigure src="../img/1c/telescope/maxplanetary.webp" alt="MAXPlanetary" />
+</ContentRow>
+
+The telescoping bearing blocks have complex geometry that would be difficult and time consuming to manufacture for most teams. The REV MAXPlanetary is an easy way to get a large gearbox reduction without the need for a custom gearbox. (Photo Credits: WCP, REV)
+</Aside>
+
+## Crush Blocks
+
+3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate.
+Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force.
+Crush blocks distribute the load, allowing for full clamping force while maintaining the tube's structural integrity.
+
+Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
+
+<ContentFigure src="../img/1c/telescope/crush-block-plate.webp" alt="Crush block and crush plate" width="30%">Example of a crush block (left) and crush plate (right)</ContentFigure>
+
+## Part Studio Instructions
+
+**Navigate to the "Exercise #4 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+
+<Slides>
+  ![](../img/1c/telescope/parts-0.webp)
+  Final Part Studio.
+
+  ![](../img/1c/telescope/parts-1.webp)
+  Begin by creating a side profile sketch of the telescope tubes on the right plane.
+
+  ![](../img/1c/telescope/parts-2.webp)
+  Use two extrudes to create the solid bodies for the tubes. Then, use the Tube Converter Featurescript (or shell feature) to convert the solid bodies into two thin-wall tubes with no hole pattern.
+
+  ![](../img/1c/telescope/parts-3.webp)
+  Add the holes for the WCP bearing blocks to the inner and outer tubes. The dimensions are from [WCP's documentation](https://docs.wcproducts.com/greyt-telescope/overview-and-features/tubing-hole-pattern).
+
+  ![](../img/1c/telescope/parts-4.webp)
+  Model the crush block at the top of the inner tube. Make sure to account for 3D-printing tolerances by giving a little bit of clearance for the crush block inside of the tube. You will add the holes that go through the crush block after you model the hook.
+
+  ![](../img/1c/telescope/parts-5.webp)
+  Sketch the hook. Pay attention to the sketch relations in the solution document.
+
+  ![](../img/1c/telescope/parts-6.webp)
+  Extrude the hook, then extrude the mounting holes to cut through the tube and the crush block. Also add the hook spacer.
+
+  ![](https://www.youtube.com/embed/Kt2l8vujAUE)
+  Model the hook 3d printed spacer. With sketch imprinting enabled, we only need to draw the line for where the 3d printed block starts. There is no need to use the `Use` feature to copy the hook profile into the sketch.
+
+  ![](../img/1c/telescope/parts-8.webp)
+  Sketch the gearbox mounting plate on the outside of the tube. There should be a small 0.01" gap between the 3/8" clamping spacers and the tube to make sure that the gearbox can be assembled properly. The 13.75 mm construction circle represents the rounded hex spool. A hole will be placed on the point on the left side of the plate.
+
+  ![](../img/1c/telescope/parts-9.webp)
+  Sketch the pull down string by creating a line tangent to the rounded hex spool. Note that we will use this line to create a sweep of the rope, therefore this line cannot be construction geometry.
+
+  ![](../img/1c/telescope/parts-10.webp)
+  Extrude the plate. This plate will not be pocketed so that the surface clamped to the tube is spreads out the force. Optionally, you could partially pocket it and leave 1/16" of material on the side of the plate clamped against the tube.
+
+  ![](../img/1c/telescope/parts-11.webp)
+  Add a 10-32 hole for the bolt that is threaded into the gearbox plate, then mirror the plate to the other side.
+
+  ![](../img/1c/telescope/parts-12.webp)
+  Model the gearbox spacer and the shaft.
+
+  ![](../img/1c/telescope/parts-13.webp)
+  Use the mate connector at the end of the sketched rope line to create a sketch of a 3mm circle lined up with the center of the shaft.
+
+  ![](../img/1c/telescope/parts-14.webp)
+  Sweep the circle along the vertical line from the gearbox to create a model of the rope.
+
+  ![](../img/1c/telescope/parts-0.webp)
+  Finish the part studio by naming your features and putting them into folders. Also assign materials according to the reference design.
+</Slides>
+
+## Assembly Instructions
+
+**Next, navigate to the "Exercise #4 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise.
+
+<Slides>
+  ![](../img/1c/telescope/assy-0.webp)
+  Final assembly.
+
+  ![](https://www.youtube.com/embed/ch1kZ_IOCjs)
+  Insert the climber components and group only the base stage components together to the Origin Cube. This is because the inner stage moves relative to the base stage, so we cannot group them together.
+
+  ![](../img/1c/telescope/assy-2.webp)
+  Fasten the inner stage components together.
+
+  ![](https://www.youtube.com/embed/Vt1ld7z8ovI)
+  Insert and fasten the WCP GreyT telescope bearing blocks from the [WCP GreyT telescope document](https://cad.onshape.com/documents/3f21b4b70302525a1e1f2c29/w/8a0cc0fbacf79d2c4a8d3c83/e/4646e6fc60ff8c4fe2a9d4dd), or from FRCDesignLib.
+
+  ![](https://www.youtube.com/embed/i4Kcsdnsk8A)
+  Use two `Slider` mates to constrain the inner stage. By using two slider mates, one for the bottom and one for the top, the inner stage motion constraint is parametric to length changes in the base stage. We do not need to explicitly specify a travel length.
+
+  ![](../img/1c/telescope/assy-5.webp)
+  Fasten the spacer and replicate it. Insert and fasten the shaft bearing to the plate and shaft. Note that we only require one bearing on the plate since the MAXPlanetary gearbox has another bearing at its output as we do not want to overconstrain the shaft.
+
+  ![](../img/1c/telescope/assy-6.webp)
+  Insert and fasten the MAXPlanetary gearbox and NEO Vortex from FRCDesignLib. We will use the 90 degree output with a 25:1 gear ratio.
+
+  ![](../img/1c/telescope/assy-7.webp)
+  Insert, fasten, and replicate all of the required fasteners.
+
+  ![](../img/1c/telescope/assy-8.webp)
+  Close up of the bolt used to pin the gearbox in place. This bolt keeps the gearbox from sliding up and down.
+
+  ![](../img/1c/telescope/assy-0.webp)
+  Finish your assembly by organizing the parts into folders and naming your replicates.
+</Slides>
+
+<Aside type="tip" title="Verification">
+Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](/learning-course/stage1/1a/focusing-on-improvement) Your assembly should have 27 instances.
+</Aside>
+
+## Section Views
+
+Section views are a helpful tool that allow you to reveal the internal features of a part or assembly by slicing through it along a specified plane. You can select a plane, planar face, cylinder, cone, or mate connector to use as the sectioning plane. You can also choose to include or exclude specific parts from the section view.
+
+<Aside type="tip" title="Creating a Section View">
+<ContentFigure src="6oiVBMGkCOs">Creating a section view to get a better view of the pinning bolt.</ContentFigure>
+</Aside>
+

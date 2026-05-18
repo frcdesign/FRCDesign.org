@@ -1,14 +1,16 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "frcdesign-mkdocs",
-  "compatibility_date": "2026-05-14",
-  "observability": {
-    "enabled": true
-  },
-  "assets": {
-    "directory": "site"
-  },
+	"main": "@astrojs/cloudflare/entrypoints/server",
+	"name": "frcdesign",
+  "compatibility_date": "2025-11-30",
   "compatibility_flags": [
-    "nodejs_compat"
-  ]
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./dist"
+	},
+	"observability": {
+    "enabled": true
+  }
 }

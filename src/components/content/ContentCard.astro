@@ -1,0 +1,77 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends Omit<HTMLAttributes<'a'>, 'title'> {
+  title: string;
+  description?: string;
+  eyebrow?: string;
+  href: string;
+}
+
+const { title, description, eyebrow, href, ...attributes } = Astro.props;
+---
+
+<a class="content-card" href={href} {...attributes}>
+  {eyebrow && <p class="content-card-eyebrow">{eyebrow}</p>}
+  <h3>{title}</h3>
+  {description && <p class="content-card-description">{description}</p>}
+  <slot />
+  <span class="content-card-arrow" aria-hidden="true">→</span>
+</a>
+
+<style>
+  .content-card {
+    position: relative;
+    display: flex;
+    min-height: 11.5rem;
+    flex-direction: column;
+    padding: 1.2rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+    background: var(--sl-color-black);
+    transition: border-color 160ms ease, background-color 160ms ease;
+  }
+
+  .content-card:hover {
+    border-color: #2fbf5b;
+    background: color-mix(in srgb, var(--sl-color-black) 92%, #2fbf5b);
+  }
+
+  .content-card-eyebrow {
+    margin: 0 2.25rem 0.7rem 0;
+    color: #2fbf5b;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .content-card h3 {
+    margin: 0 2.25rem 0.55rem 0;
+    color: var(--sl-color-white);
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
+
+  .content-card-description {
+    margin: 0;
+    color: var(--sl-color-gray-2);
+    line-height: 1.55;
+  }
+
+  .content-card-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1.15rem;
+    color: var(--sl-color-gray-3);
+    font-size: 1.35rem;
+    line-height: 1;
+    transition: color 160ms ease;
+  }
+
+  .content-card:hover .content-card-arrow {
+    color: #2fbf5b;
+  }
+</style>

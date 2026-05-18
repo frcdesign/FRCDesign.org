@@ -1,0 +1,64 @@
+---
+title: Shooters
+description: Examples of shooters from FRC robots
+socialCard:
+  image: ./img/1678/1678_2022_shooter.webp
+---
+
+import MechanismCardGrid from '@components/content/MechanismCardGrid.astro';
+import shooter1678 from './img/1678/1678_2022_shooter.webp';
+import shooter6328 from './img/6328_2024_shooter.webp';
+import shooter2910_2022 from './img/2910_2022_shooter.webp';
+import shooter6800 from './img/6800_2022_shooter.webp';
+import shooter2910_2021 from './img/2910_2021_shooter.webp';
+
+export const writeupCards = [
+  {
+    title: "1678's Rapid React Shooter",
+    href: './1678_2022_shooter/',
+    image: shooter1678,
+    imageAlt: '1678 Rapid React shooter CAD render',
+    description: 'A ball shooter featuring a rack gear actuated hood, backrollers, flywheel mass notes, and hood rollers.',
+  },
+];
+
+export const exampleCards = [
+  {
+    title: "6328's Crescendo Shooter",
+    href: 'https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/e/f183765154c242ac19e7644d',
+    image: shooter6328,
+    imageAlt: '6328 Crescendo shooter CAD render',
+    description: 'A ring shooter with independently driven halves to increase spin.',
+  },
+  {
+    title: "2910's Rapid React Shooter",
+    href: 'https://cad.onshape.com/documents/688a490dcb5a1fe1ee9d29b7/w/8c825c0c0ba4e183e6f824fa/e/cb595133c87d2eee9f83ca38',
+    image: shooter2910_2022,
+    imageAlt: '2910 Rapid React shooter CAD render',
+    description: 'A ball shooter with a multipurpose hood for aiming and climbing.',
+  },
+  {
+    title: "6800's Rapid React Shooter",
+    href: 'https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c',
+    image: shooter6800,
+    imageAlt: '6800 Rapid React shooter CAD render',
+    description: 'A ball shooter with an adjustable hood and turret.',
+  },
+  {
+    title: "2910's IR @ Home Shooter",
+    href: 'https://cad.onshape.com/documents/846bb71ec3cc43151f8349d2/w/60581f1c24a22ae6f4f58b28/e/337be596fdf4879ed76381ca',
+    image: shooter2910_2021,
+    imageAlt: '2910 Infinite Recharge at Home shooter CAD render',
+    description: 'A compact ball shooter with back rollers and a heavy flywheel.',
+  },
+];
+
+For all your piece launching needs. Shooter designs vary slightly with different size and shaped pieces, but the general concepts of what makes a "good" shooter tend to stay the same.
+
+## In-depth Writeups
+
+<MechanismCardGrid cards={writeupCards} />
+
+## CAD References
+
+<MechanismCardGrid cards={exampleCards} />

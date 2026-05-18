@@ -1,0 +1,27 @@
+﻿---
+title: Assembly
+description: Assembling the intake
+---
+
+
+## Assembly
+
+Just like the dead axle pivot, this subsystem contains a static part and a moving part. Again, we want to separate them into rigid (no movement) assemblies, then combine them at the top level.
+
+### Base Assembly
+
+Create an assembly for the static parts, insert the parts and origin cube from the part studio with the green checkmark, and group them together. Fasten the origin cube to the origin. Add the rest of the parts from the part studio, FRCDesignLib, and standard content, using replicate and patterns when you can.
+
+<ContentFigure src="../img/2c/staticAssembly.webp" alt="Finished Static Assembly" width="60%"/>
+
+### Arm Assembly
+
+Create an assembly for the intake arms and do the same thing as above to complete the assembly and make it rigid. For the rollers, insert them from FRCDesignLib (Latheless Roller).
+
+<ContentFigure src="../img/2c/intakeArms.webp" alt="Finished Intake Arms Assembly" width="60%"/>
+
+### Top Level Assembly
+
+Now create a top level assembly and insert the static assembly (fasten to the origin) and intake arm assembly. Create a revolute mate between the mate connectors from the origin cubes in both assemblies and add a limit to it. This completes the slapdown intake assembly.
+
+<ContentFigure src="../img/2c/intakeTopLevel.webp" alt="Finished Top Level Intake Assembly" width="60%"/>

@@ -1,0 +1,221 @@
+---
+title: ContentFigure Test Page
+description: Comprehensive test page for every ContentFigure feature
+---
+
+
+export const images = import.meta.glob('./img/**/*.webp', { eager: true, import: 'default' });
+
+## ContentFigure Component - Feature Coverage
+
+---
+
+## 1. Source Types
+
+### 1a. Glob Import (ImageMetadata)
+
+<ContentFigure src={images['./img/img1/image.webp']} alt="Glob import example" />
+
+---
+
+### 1b. String Path (Loose Matching)
+
+<ContentFigure src="./img/img2/image.webp" alt="String path example" />
+
+---
+
+### 1c. YouTube - Watch URL (`youtube.com/watch?v=`)
+
+<ContentFigure src="https://www.youtube.com/watch?v=sgEnAByelWs" width="80%">
+  YouTube watch URL format
+</ContentFigure>
+
+---
+
+### 1d. YouTube - Short URL (`youtu.be/`)
+
+<ContentFigure src="https://youtu.be/sgEnAByelWs" width="80%">
+  YouTube short URL format
+</ContentFigure>
+
+---
+
+### 1e. YouTube - Embed URL (`youtube.com/embed/`)
+
+<ContentFigure src="https://www.youtube.com/embed/sgEnAByelWs" width="80%">
+  YouTube embed URL format
+</ContentFigure>
+
+---
+
+## 2. Width
+
+### 2a. Default Width (100%)
+
+<ContentFigure src={images['./img/img3/image.webp']} alt="Default 100% width" />
+
+---
+
+### 2b. Percentage Width (60%)
+
+<ContentFigure src={images['./img/img4/image.webp']} alt="60% width" width="60%">
+  Width set to 60%
+</ContentFigure>
+
+---
+
+### 2c. Pixel Width (400px)
+
+<ContentFigure src={images['./img/img5/image.webp']} alt="400px width" width="400px">
+  Width set to 400px
+</ContentFigure>
+
+---
+
+## 3. Border
+
+### 3a. No Border (Default)
+
+<ContentFigure src={images['./img/img1/image.webp']} alt="No border" width="60%">
+  No border (default)
+</ContentFigure>
+
+---
+
+### 3b. Boolean Border (Default Style - 5px solid)
+
+<ContentFigure src={images['./img/img2/image.webp']} alt="Default border" width="60%" border>
+  Boolean `border` prop - 5px solid gray
+</ContentFigure>
+
+---
+
+### 3c. Custom Border String (Dashed Accent)
+
+<ContentFigure src={images['./img/img3/image.webp']} alt="Dashed border" width="60%" border="3px dashed var(--sl-color-accent)">
+  Custom border: `3px dashed var(--sl-color-accent)`
+</ContentFigure>
+
+---
+
+### 3d. Custom Border String (Solid Red)
+
+<ContentFigure src={images['./img/img4/image.webp']} alt="Red border" width="50%" border="4px solid red">
+  Custom border: `4px solid red`
+</ContentFigure>
+
+---
+
+### 3e. YouTube Video with Border
+
+<ContentFigure src="https://www.youtube.com/watch?v=sgEnAByelWs" width="80%" border>
+  YouTube video with default border
+</ContentFigure>
+
+---
+
+## 4. Alignment
+
+### 4a. Center (Default)
+
+<ContentFigure src={images['./img/img5/image.webp']} alt="Center aligned" width="50%" align="center">
+  Centered (default)
+</ContentFigure>
+
+---
+
+### 4b. Left Aligned
+
+<ContentFigure src={images['./img/img6/image.webp']} alt="Left aligned" width="50%" align="left">
+  Left aligned
+</ContentFigure>
+
+---
+
+### 4c. Right Aligned
+
+<ContentFigure src={images['./img/img7/image.webp']} alt="Right aligned" width="50%" align="right">
+  Right aligned
+</ContentFigure>
+
+---
+
+### 4d. YouTube - Left Aligned
+
+<ContentFigure src="https://www.youtube.com/watch?v=sgEnAByelWs" width="60%" align="left">
+  YouTube video, left aligned
+</ContentFigure>
+
+---
+
+### 4e. YouTube - Right Aligned
+
+<ContentFigure src="https://www.youtube.com/watch?v=sgEnAByelWs" width="60%" align="right">
+  YouTube video, right aligned
+</ContentFigure>
+
+---
+
+## 5. Caption
+
+### 5a. No Caption
+
+<ContentFigure src={images['./img/img8/image.webp']} alt="No caption" width="40%" />
+
+---
+
+### 5b. Plain Text Caption
+
+<ContentFigure src={images['./img/img9/image.webp']} alt="Plain caption" width="60%">
+  Plain text caption
+</ContentFigure>
+
+---
+
+### 5c. Caption with Markdown (Bold, Italic)
+
+<ContentFigure src={images['./img/img10/image.webp']} alt="Markdown caption" width="60%">
+  Caption with **bold text** and *italic text*
+</ContentFigure>
+
+---
+
+### 5d. Caption with a Link
+
+<ContentFigure src={images['./img/img1/image.webp']} alt="Link caption" width="60%">
+  Caption linking to the [best practices](/best-practices/) section
+</ContentFigure>
+
+---
+
+## 6. Custom Class (`class` Prop)
+
+<ContentFigure src={images['./img/img2/image.webp']} alt="Custom class" width="60%" class="my-custom-figure">
+  Figure with `class="my-custom-figure"` applied to the `<figure>` element
+</ContentFigure>
+
+---
+
+## 7. Combined Options
+
+### 7a. Width + Border + Left Alignment + Caption
+
+<ContentFigure src={images['./img/img3/image.webp']} alt="Combined options" width="55%" border align="left">
+  All options combined: 55% width, default border, left aligned
+</ContentFigure>
+
+---
+
+### 7b. Width + Custom Border + Right Alignment + Markdown Caption
+
+<ContentFigure src={images['./img/img4/image.webp']} alt="All options" width="55%" border="2px dashed var(--sl-color-accent)" align="right">
+  All options combined: 55% width, dashed border, right aligned, with **markdown** in caption
+</ContentFigure>
+
+---
+
+### 7c. YouTube - Width + Border + Caption
+
+<ContentFigure src="https://youtu.be/sgEnAByelWs" width="70%" border="3px solid var(--sl-color-accent)" align="center">
+  YouTube with custom border, 70% width, centered, with caption
+</ContentFigure>

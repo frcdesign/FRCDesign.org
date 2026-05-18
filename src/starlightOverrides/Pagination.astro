@@ -1,0 +1,138 @@
+---
+import { getPrevNextLinks } from '../config/sidebarConfig';
+
+const pathname = Astro.url.pathname;
+const { prev, next } = getPrevNextLinks(pathname);
+const frontmatter = Astro.locals.starlightRoute.entry.data;
+const showPrev = frontmatter.prev !== false;
+const showNext = frontmatter.next !== false;
+const prevLink = showPrev ? prev : null;
+const nextLink = showNext ? next : null;
+---
+
+{(prevLink || nextLink) && (
+  <div class="pagination-links" dir="ltr">
+    {prevLink && (
+      <a href={prevLink.href} rel="prev" class="pagination-link prev-link">
+        <svg aria-hidden="true" class="pagination-arrow" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+        </svg>
+        <span>
+          <span class="pagination-label">Previous</span>
+          <span class="pagination-title">{prevLink.label}</span>
+        </span>
+      </a>
+    )}
+    {nextLink && (
+      <a href={nextLink.href} rel="next" class="pagination-link next-link">
+        <span>
+          <span class="pagination-label">Next</span>
+          <span class="pagination-title">{nextLink.label}</span>
+        </span>
+        <svg aria-hidden="true" class="pagination-arrow" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+        </svg>
+      </a>
+    )}
+  </div>
+)}
+
+<style>
+  .pagination-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-hairline-shade);
+  }
+
+  .pagination-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--sl-color-gray-2);
+    transition: all 0.2s ease;
+  }
+
+  .pagination-link:hover {
+    border-color: var(--sl-color-text-accent);
+    background: var(--sl-color-gray-7, rgba(67, 160, 71, 0.05));
+  }
+
+  .prev-link {
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-column: 1;
+  }
+
+  .next-link {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    grid-column: 2;
+  }
+
+  /* When only one link exists, make it span appropriately */
+  .pagination-link:only-child.prev-link {
+    grid-column: 1;
+  }
+
+  .pagination-link:only-child.next-link {
+    grid-column: 2;
+  }
+
+  .pagination-arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    color: var(--sl-color-gray-3);
+    transition: color 0.2s ease;
+  }
+
+  .pagination-link:hover .pagination-arrow {
+    color: var(--sl-color-text-accent);
+  }
+
+  .pagination-link span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .pagination-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--sl-color-gray-3);
+  }
+
+  .pagination-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--sl-color-white);
+    transition: color 0.2s ease;
+  }
+
+  .pagination-link:hover .pagination-title {
+    color: var(--sl-color-text-accent);
+  }
+
+  @media (max-width: 600px) {
+    .pagination-links {
+      grid-template-columns: 1fr;
+    }
+
+    .prev-link,
+    .next-link,
+    .pagination-link:only-child.prev-link,
+    .pagination-link:only-child.next-link {
+      grid-column: 1;
+    }
+  }
+</style>

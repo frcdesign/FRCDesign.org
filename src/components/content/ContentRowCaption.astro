@@ -1,0 +1,32 @@
+---
+/**
+ * ContentRowCaption component - Markdown-capable caption for a ContentRow.
+ *
+ * Usage in MDX:
+ * <ContentRow>
+ *   <ContentFigure src="./img/a.webp" alt="A" />
+ *   <ContentFigure src="./img/b.webp" alt="B" />
+ *   <ContentRowCaption>Shared caption with **markdown**.</ContentRowCaption>
+ * </ContentRow>
+ */
+---
+
+<div class="content-row-caption">
+  <slot />
+</div>
+
+<style>
+  .content-row-caption {
+    font-family: 'Inter', system-ui, sans-serif;
+    text-align: center;
+    color: var(--sl-color-gray-2);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  .content-row-caption :global(*) {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+</style>

@@ -1,0 +1,921 @@
+---
+import SiteTitle from "@astrojs/starlight/components/SiteTitle.astro";
+import Search from "@astrojs/starlight/components/Search.astro";
+
+import ThemeLightIcon from "../assets/header/theme-light.svg";
+import ThemeLightFilledIcon from "../assets/header/theme-light-filled.svg";
+import GitIcon from "../assets/header/git-white.svg";
+
+import { getSidebarForPath, type SidebarItem, type SidebarSection } from "../config/sidebarConfig";
+
+const props = Astro.props;
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/feature-guide/", label: "Website Feature Guide" },
+  { href: "/learning-course/", label: "Learning Course" },
+  { href: "/educators-guide/introduction/", label: "Educator's Guide" },
+  { href: "/design-handbook/", label: "Design Handbook" },
+  { href: "/mechanism-examples/", label: "Mechanism Examples" },
+  { href: "/best-practices/", label: "Best Practices" },
+  { href: "/resources/", label: "Other Resources" },
+  { href: "/contribution/methods-of-contributing/", label: "Contribution" },
+];
+
+const currentPath = Astro.url.pathname;
+
+function isActive(href: string): boolean {
+  if (href === "/") {
+    return currentPath === "/" || currentPath === "";
+  }
+
+  // Special case: Changelog is a specific page under /resources/
+  // Only mark it active if we're exactly on the changelog page
+  if (href === "/resources/site-changelog/") {
+    return currentPath === "/resources/site-changelog/" || currentPath === "/resources/site-changelog";
+  }
+
+  // Special case: "Other Resources" should NOT be active when on Changelog
+  if (href === "/resources/") {
+    return currentPath.startsWith("/resources/") &&
+           !currentPath.startsWith("/resources/site-changelog");
+  }
+
+  // For nested paths like /educators-guide/introduction/, check the base section
+  const baseSection = "/" + href.split("/")[1] + "/";
+  return currentPath.startsWith(baseSection);
+}
+
+// Get sidebar items for current page
+const sidebarSections = getSidebarForPath(currentPath);
+
+// Build nested structure for mobile menu
+type MobileNavItem = {
+  label: string;
+  href?: string;
+  items?: MobileNavItem[];
+  depth: number;
+};
+
+function buildMobileNavItems(items: SidebarItem[], depth: number = 0): MobileNavItem[] {
+  const result: MobileNavItem[] = [];
+
+  for (const item of items) {
+    if (item.items && item.items.length > 0) {
+      result.push({
+        label: item.label,
+        href: item.slug ? '/' + item.slug + '/' : undefined,
+        items: buildMobileNavItems(item.items, depth + 1),
+        depth
+      });
+    } else if (item.slug) {
+      result.push({ label: item.label, href: '/' + item.slug + '/', depth });
+    }
+  }
+
+  return result;
+}
+
+// Get all items from all sections
+const mobileSidebarItems: MobileNavItem[] = [];
+for (const section of sidebarSections) {
+  mobileSidebarItems.push(...buildMobileNavItems(section.items, 0));
+}
+---
+
+<div class="header-wrapper">
+  <div class="site-header">
+    <div class="site-header-inner">
+      <div class="header-top-row">
+        <div class="header-logo-section">
+          <SiteTitle {...props} />
+        </div>
+
+        <button
+          type="button"
+          class="mobile-menu-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          data-mobile-menu-toggle
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <div class="header-actions-section">
+          <div class="theme-toggle-wrapper">
+            <button
+              type="button"
+              class="theme-toggle-button"
+              data-theme-toggle
+              aria-label="Toggle dark / light theme"
+            >
+              <ThemeLightIcon class="theme-icon theme-icon-outline" />
+              <ThemeLightFilledIcon class="theme-icon theme-icon-filled" />
+            </button>
+          </div>
+
+          <div class="search-wrapper">
+            <Search {...props} />
+          </div>
+
+          <a
+            href="https://github.com/frcdesign/FRCDesign.org"
+            class="github-link-header"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open FRCDesign.org on GitHub"
+          >
+            <GitIcon class="github-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navigation-bar" aria-label="Primary">
+    <div class="navigation-bar-inner">
+      <div class="primary-navigation">
+        {navLinks.map((item) => (
+          <a href={item.href} class:list={[{ active: isActive(item.href) }]}>{item.label}</a>
+        ))}
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobile-navigation" aria-label="Primary" data-mobile-menu>
+    <div class="mobile-navigation-inner">
+      <div class="mobile-nav-section">
+        <span class="mobile-nav-section-title">Navigation</span>
+        {navLinks.map((item) => (
+          <a href={item.href} class="mobile-nav-link">{item.label}</a>
+        ))}
+      </div>
+
+      {mobileSidebarItems.length > 0 && (
+        <div class="mobile-nav-section mobile-sidebar-section">
+          <span class="mobile-nav-section-title">Page Navigation</span>
+          <div class="mobile-sidebar-tree" id="mobile-sidebar-tree" data-items={JSON.stringify(mobileSidebarItems)} data-current-path={currentPath}></div>
+        </div>
+      )}
+    </div>
+  </nav>
+</div>
+
+<script is:inline>
+  (() => {
+    // Mobile sidebar tree renderer
+    const initMobileSidebarTree = () => {
+      const container = document.getElementById('mobile-sidebar-tree');
+      if (!container) return;
+
+      const items = JSON.parse(container.dataset.items || '[]');
+      const currentPath = container.dataset.currentPath || '';
+
+      function renderItems(items, depth = 0) {
+        let html = '';
+        for (const item of items) {
+          const indent = depth * 12;
+          const isCurrentPage = item.href && (currentPath === item.href || currentPath === item.href.slice(0, -1));
+
+          if (item.href) {
+            // Link item
+            html += `<a href="${item.href}" class="mobile-sidebar-link ${isCurrentPage ? 'current' : ''}" style="padding-left: ${indent + 8}px;">${item.label}</a>`;
+          } else if (item.items) {
+            // Group with children
+            const label = item.href
+              ? `<a href="${item.href}" class="mobile-sidebar-group-link" onclick="event.stopPropagation()">${item.label}</a>`
+              : item.label;
+            html += `<details class="mobile-sidebar-group" ${depth === 0 ? 'open' : ''}>
+              <summary class="mobile-sidebar-group-title" style="padding-left: ${indent}px;">
+                <svg class="mobile-sidebar-chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                ${label}
+              </summary>
+              <div class="mobile-sidebar-group-content">
+                ${renderItems(item.items, depth + 1)}
+              </div>
+            </details>`;
+          }
+        }
+        return html;
+      }
+
+      container.innerHTML = renderItems(items);
+    };
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      initMobileSidebarTree();
+    } else {
+      document.addEventListener('DOMContentLoaded', initMobileSidebarTree);
+    }
+    document.addEventListener('astro:page-load', initMobileSidebarTree);
+  })();
+</script>
+
+<script is:inline>
+  (() => {
+    // Global image lightbox functionality
+    const initImageLightbox = () => {
+      // Create lightbox element if it doesn't exist
+      let lightbox = document.getElementById('global-image-lightbox');
+      if (!lightbox) {
+        lightbox = document.createElement('div');
+        lightbox.id = 'global-image-lightbox';
+        lightbox.className = 'global-image-lightbox';
+        lightbox.innerHTML = `
+          <button class="global-lightbox-close" aria-label="Close lightbox">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <div class="global-lightbox-content">
+            <img class="global-lightbox-image" src="" alt="">
+          </div>
+        `;
+        document.body.appendChild(lightbox);
+
+        // Close on backdrop click
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox || e.target.classList.contains('global-lightbox-content')) {
+            closeLightbox();
+          }
+        });
+
+        // Close button
+        lightbox.querySelector('.global-lightbox-close').addEventListener('click', closeLightbox);
+      }
+
+      function openLightbox(imgSrc, imgAlt) {
+        const lightboxImg = lightbox.querySelector('.global-lightbox-image');
+        lightboxImg.src = imgSrc;
+        lightboxImg.alt = imgAlt || '';
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        document.documentElement.classList.add('lightbox-open');
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+        document.documentElement.classList.remove('lightbox-open');
+      }
+
+      // Attach click handlers to all images in markdown content
+      // Exclude images that are already in a Slides component or have data-no-lightbox
+      const contentImages = document.querySelectorAll('.sl-markdown-content img:not(.slides-component img):not([data-no-lightbox])');
+      contentImages.forEach((img) => {
+        // Skip if already has lightbox handler
+        if (img.dataset.lightboxAttached) return;
+        img.dataset.lightboxAttached = 'true';
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openLightbox(img.src, img.alt);
+        });
+      });
+
+      // Escape key. Guard with a flag on <html> so this is only registered once
+      // across view transitions (body is replaced each navigation but <html> persists)
+      if (!document.documentElement.dataset.lightboxEscapeAdded) {
+        document.documentElement.dataset.lightboxEscapeAdded = 'true';
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            const lb = document.getElementById('global-image-lightbox');
+            if (lb?.classList.contains('open')) {
+              lb.classList.remove('open');
+              document.body.style.overflow = '';
+              document.documentElement.classList.remove('lightbox-open');
+            }
+          }
+        });
+      }
+    };
+
+    // Run on page load and Astro navigation
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      initImageLightbox();
+    } else {
+      document.addEventListener('DOMContentLoaded', initImageLightbox);
+    }
+    document.addEventListener('astro:page-load', initImageLightbox);
+  })();
+</script>
+
+<script is:inline>
+  (() => {
+    const initImageSpinners = () => {
+      for (const img of document.querySelectorAll('img:not(.global-lightbox-image):not([data-img-spinner-init])')) {
+        img.dataset.imgSpinnerInit = 'true';
+        if (img.complete && img.naturalWidth > 0) continue;
+        img.dataset.imgLoading = 'true';
+        const onDone = () => { delete img.dataset.imgLoading; };
+        img.addEventListener('load', onDone, { once: true });
+        img.addEventListener('error', onDone, { once: true });
+      }
+    };
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      initImageSpinners();
+    } else {
+      document.addEventListener('DOMContentLoaded', initImageSpinners);
+    }
+    document.addEventListener('astro:page-load', initImageSpinners);
+  })();
+</script>
+
+<script is:inline>
+  (() => {
+    const storageKey = "starlight-theme";
+
+    const getStoredTheme = () => {
+      try {
+        return localStorage.getItem(storageKey);
+      } catch {
+        return null;
+      }
+    };
+
+    const setStoredTheme = (value) => {
+      try {
+        localStorage.setItem(storageKey, value);
+      } catch {
+      }
+    };
+
+    const applyTheme = (theme) => {
+      const html = document.documentElement;
+      const normalized = theme === "light" ? "light" : "dark";
+
+      html.dataset.theme = normalized;
+      setStoredTheme(normalized);
+
+      if (window.StarlightThemeProvider?.updatePickers) {
+        window.StarlightThemeProvider.updatePickers(normalized);
+      }
+    };
+
+    const initMobileMenu = () => {
+      const toggle = document.querySelector("[data-mobile-menu-toggle]");
+      const menu = document.querySelector("[data-mobile-menu]");
+
+      if (!toggle || !menu) return;
+
+      toggle.addEventListener("click", () => {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+        const newState = !isOpen;
+
+        toggle.setAttribute("aria-expanded", newState.toString());
+
+        if (newState) {
+          menu.setAttribute("data-mobile-menu-open", "true");
+        } else {
+          menu.removeAttribute("data-mobile-menu-open");
+        }
+      });
+
+      const mobileLinks = menu.querySelectorAll(".mobile-nav-link");
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          menu.removeAttribute("data-mobile-menu-open");
+        });
+      });
+    };
+
+    // Outside-click handler for the mobile menu. Guard with a flag on <html> so it
+    // is only registered once across view transitions (body replaced, <html> persists)
+    if (!document.documentElement.dataset.menuOutsideClickAdded) {
+      document.documentElement.dataset.menuOutsideClickAdded = 'true';
+      document.addEventListener("click", (e) => {
+        const toggle = document.querySelector("[data-mobile-menu-toggle]");
+        const menu = document.querySelector("[data-mobile-menu]");
+        if (!toggle || !menu) return;
+        if (
+          !toggle.contains(e.target) &&
+          !menu.contains(e.target) &&
+          toggle.getAttribute("aria-expanded") === "true"
+        ) {
+          toggle.setAttribute("aria-expanded", "false");
+          menu.removeAttribute("data-mobile-menu-open");
+        }
+      });
+    }
+
+    const init = () => {
+      let theme = getStoredTheme();
+
+      if (!theme) {
+        theme = "dark";
+      }
+      applyTheme(theme);
+
+      document.querySelectorAll("[data-theme-toggle]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const current = getStoredTheme() || "dark";
+          const next = current === "dark" ? "light" : "dark";
+          applyTheme(next);
+        });
+      });
+
+      initMobileMenu();
+    };
+
+    if (
+      document.readyState === "complete" ||
+      document.readyState === "interactive"
+    ) {
+      init();
+    } else {
+      document.addEventListener("DOMContentLoaded", init);
+    }
+  })();
+</script>
+
+<style>
+  /* Override the parent .header styles from Starlight */
+  :global(.header) {
+    background: transparent !important;
+    border-bottom: none !important;
+    padding: 0 !important;
+    height: auto !important;
+  }
+
+  .header-wrapper {
+    width: 100%;
+  }
+
+  .site-header {
+    background: #43a047;
+    color: #ffffff;
+  }
+
+  .site-header-inner {
+    max-width: var(--sl-content-width, 1200px);
+    margin: 0 auto;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .header-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    height: 2.5rem;
+  }
+
+  .header-logo-section {
+    flex: 0 0 auto;
+  }
+
+  .header-logo-section :global(img) {
+    transform: scale(0.65);
+    transform-origin: left center;
+  }
+
+  .header-logo-section :global(a.site-title) {
+    display: flex;
+    align-items: center;
+    gap: 0 !important;
+  }
+
+  .header-logo-section :global(.site-title span) {
+    font-family: "Inter", system-ui, sans-serif !important;
+    font-weight: 600 !important;
+    margin-left: -0.6rem;
+    color: #ffffff !important;
+  }
+
+  /* Hide logo text on mobile */
+  @media (max-width: 1350px) {
+    .header-logo-section :global(.site-title span) {
+      display: none !important;
+    }
+
+    .header-logo-section :global(img) {
+      transform: scale(0.55);
+    }
+  }
+
+  .header-actions-section {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    min-width: 0;
+  }
+
+  .theme-toggle-wrapper {
+    flex: 0 0 auto;
+  }
+
+  .theme-toggle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .theme-toggle-button:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.9);
+    outline-offset: 2px;
+  }
+
+  .theme-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .theme-icon-filled {
+    display: none;
+  }
+
+  :global(html[data-theme="light"]) .theme-icon-outline {
+    display: none;
+  }
+  :global(html[data-theme="light"]) .theme-icon-filled {
+    display: block;
+  }
+
+  .search-wrapper {
+    flex: 0 0 14rem;
+    max-width: 100%;
+  }
+
+  .search-wrapper :global(button[data-open-modal]) {
+    width: 100%;
+    background-color: #2f6b36 !important;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    padding-inline: 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .search-wrapper :global(button[data-open-modal] *) {
+    color: inherit;
+  }
+
+  .search-wrapper :global(button[data-open-modal]:hover),
+  .search-wrapper :global(button[data-open-modal]:focus-visible) {
+    background-color: #285b2f !important;
+  }
+
+  .search-wrapper :global(button[data-open-modal] kbd),
+  .search-wrapper :global(button[data-open-modal] .sl-flex) {
+    display: none !important;
+  }
+
+  .github-link-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.18);
+    text-decoration: none;
+  }
+
+  .github-link-header:hover,
+  .github-link-header:focus-visible {
+    background: rgba(255, 255, 255, 0.28);
+    outline: none;
+  }
+
+  .github-link-header .github-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  /* --- NAVIGATION BAR --- */
+  .navigation-bar {
+    background: var(--sl-color-bg-nav, #1a1a1a);
+    height: 2.8rem; 
+  }
+
+  .navigation-bar-inner {
+    max-width: var(--sl-content-width, 1200px);
+    margin: auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%; 
+  }
+
+  .primary-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Use space-between to distribute items evenly within margins */
+    justify-content: space-between;
+    height: 100%;
+    
+    /* Horizontal Scroll Handling */
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    width: 100%; 
+  }
+  
+  .primary-navigation::-webkit-scrollbar {
+    display: none;
+  }
+
+  .primary-navigation a {
+    color: var(--sl-color-gray-3, #aaa);
+    text-decoration: none;
+    
+    /* Center Text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    font-size: 0.9rem; 
+    font-weight: 400;
+    
+    /* Minimal horizontal padding to let justify-content handle spacing */
+    padding: 0 0.25rem;
+    
+    border: 2px solid transparent; 
+    transition: color 0.15s ease, border-color 0.15s ease;
+    box-sizing: border-box;
+
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .primary-navigation a:hover,
+  .primary-navigation a:focus-visible {
+    color: var(--sl-color-white, #fff);
+  }
+
+  .primary-navigation a.active {
+    color: var(--sl-color-white, #fff);
+    border-bottom: 2px solid var(--sl-color-white, #fff);
+    padding-bottom: 0;
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+  }
+
+  .mobile-navigation {
+    display: none;
+  }
+
+  @media (max-width: 1350px) {
+    .site-header-inner {
+      padding: 0.5rem 1rem;
+    }
+
+    .navigation-bar-inner {
+      padding: 0.5rem 1rem;
+    }
+
+    .header-top-row {
+      gap: 0.75rem;
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      gap: 6px;
+      z-index: 1001;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      overflow: visible;
+      position: relative;
+    }
+
+    .mobile-menu-toggle:focus-visible {
+      outline: 2px solid rgba(255, 255, 255, 0.9);
+      outline-offset: 2px;
+    }
+
+    .hamburger-line {
+      width: 22px;
+      height: 3px;
+      background-color: #ffffff;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      transform-origin: center;
+      position: absolute;
+      left: 50%;
+      margin-left: -11px;
+    }
+
+    .hamburger-line:nth-child(1) {
+      top: 11px;
+    }
+
+    .hamburger-line:nth-child(2) {
+      top: 50%;
+      margin-top: -1.5px;
+    }
+
+    .hamburger-line:nth-child(3) {
+      bottom: 11px;
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(1) {
+      top: 50%;
+      margin-top: -1.5px;
+      transform: rotate(45deg);
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(2) {
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    .mobile-menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(3) {
+      bottom: auto;
+      top: 50%;
+      margin-top: -1.5px;
+      transform: rotate(-45deg);
+    }
+
+    .header-actions-section {
+      gap: 0.5rem;
+    }
+
+    .search-wrapper {
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 200px;
+    }
+
+    .github-link-header {
+      display: none;
+    }
+
+    .navigation-bar {
+      display: none;
+    }
+
+    .mobile-navigation {
+      display: block;
+      position: fixed;
+      top: var(--sl-nav-height);
+      left: 0;
+      bottom: 0;
+      width: max-content;
+      min-width: 16rem;
+      max-width: min(28rem, calc(100vw - 2rem));
+      background: var(--sl-color-bg-nav, #1a1a1a);
+      border-top: 1px solid var(--sl-color-hairline-shade, #333);
+      border-right: 1px solid var(--sl-color-hairline-shade, #333);
+      box-shadow: 18px 0 32px rgba(0, 0, 0, 0.35);
+      overflow-y: auto;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+      z-index: 1000;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+
+    .mobile-navigation[data-mobile-menu-open] {
+      transform: translateX(0);
+    }
+
+    .mobile-navigation-inner {
+      padding: 1rem 0 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .mobile-nav-section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .mobile-nav-section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #43a047;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.75rem 0 0.5rem;
+      border-bottom: 1px solid var(--sl-color-hairline-shade, #333);
+      margin-bottom: 0.5rem;
+    }
+
+    .mobile-sidebar-section {
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--sl-color-hairline-shade, #333);
+    }
+
+    .mobile-nav-link {
+      font-size: 0.9rem;
+      color: var(--sl-color-gray-2, #aaa);
+      text-decoration: none;
+      padding: 0.4rem 0;
+      transition: color 0.15s ease;
+    }
+
+    .mobile-nav-link:hover,
+    .mobile-nav-link:focus-visible {
+      color: var(--sl-color-white, #fff);
+    }
+
+    /* Mobile sidebar tree styles */
+    .mobile-sidebar-tree {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-link) {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--sl-color-gray-2, #aaa);
+      text-decoration: none;
+      padding: 0.4rem 0;
+      transition: color 0.15s ease, background-color 0.15s ease;
+      border-radius: 4px;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-link:hover),
+    .mobile-sidebar-tree :global(.mobile-sidebar-link:focus-visible) {
+      color: var(--sl-color-white, #fff);
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-link.current) {
+      color: #ffffff;
+      background-color: #43a047;
+      padding-right: 8px;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group) {
+      border: none;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-title) {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--sl-color-gray-2, #aaa);
+      padding: 0.4rem 0;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-title::-webkit-details-marker) {
+      display: none;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-title:hover) {
+      color: var(--sl-color-white, #fff);
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-link) {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-link:hover),
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-link:focus-visible) {
+      color: var(--sl-color-white, #fff);
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-chevron) {
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
+      color: var(--sl-color-gray-4, #666);
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group[open] > .mobile-sidebar-group-title .mobile-sidebar-chevron) {
+      transform: rotate(90deg);
+    }
+
+    .mobile-sidebar-tree :global(.mobile-sidebar-group-content) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>
