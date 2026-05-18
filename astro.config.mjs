@@ -28,6 +28,25 @@ export default defineConfig({
       customCss: [
         './src/styles/global.css',
       ],
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-55WPRQP5GR',
+          },
+        },
+        {
+          tag: 'script',
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-55WPRQP5GR');
+          `,
+        },
+      ],
       components: {
         Header: './src/starlightOverrides/Header.astro',
         Footer: './src/starlightOverrides/Footer.astro',
