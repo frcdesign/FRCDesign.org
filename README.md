@@ -58,6 +58,12 @@ Use `public/` only when the browser needs to request an exact static URL, such a
 
 Documentation for Markdown/MDX page components is maintained on the site itself in the [Adding a Page guide](https://frcdesign.org/contribution/adding-a-page/).
 
+## Glossary Terms
+
+Glossary tooltip terms are defined in `src/data/glossary.ts`. Add new terms to the `glossaryTerms` array, keep definitions short enough for hover tooltips, and update `src/content/docs/resources/glossary.mdx` when the term should also appear on the public glossary page.
+
+More detailed contributor guidance is maintained in the [Contribution Style Guide](https://frcdesign.org/contribution/styleguide/#glossary-terms).
+
 ## Local Development
 
 ### Prerequisites

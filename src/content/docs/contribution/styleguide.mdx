@@ -88,6 +88,31 @@ socialCard: false
 
 Run `npm run social-cards` if you want to regenerate the preview images locally. The normal site build also regenerates them automatically.
 
+### Glossary Terms
+
+Glossary terms live in `src/data/glossary.ts`. Add new entries there when a word, acronym, vendor abbreviation, or FRC design phrase needs a short definition across the site.
+
+Each entry uses this format:
+
+```ts
+{
+  term: "COTS",
+  definition: "Commercial Off the Shelf - Parts you can buy from a vendor"
+}
+```
+
+When you add a term:
+
+1. Put it in the most relevant section of the `glossaryTerms` array, such as vendors, intake styles, parts, electronics, or design concepts.
+2. Keep `term` to the exact spelling readers are likely to see in content. Matching is case-insensitive, so `COTS` will also match `cots`.
+3. Keep `definition` short enough to work as a hover tooltip. One sentence is usually best.
+4. Add alternate spellings as separate entries only when contributors actually use both forms, such as `Poly` and `PC`.
+5. Run `npm run build` before opening a pull request to make sure the glossary data still compiles.
+
+Glossary terms are automatically underlined in page text and show their definition on hover. They are matched as whole terms, so avoid adding very common short words that would create distracting highlights across unrelated pages.
+
+The public glossary page at `/resources/glossary/` is written separately in `src/content/docs/resources/glossary.mdx`. If a new term should appear in the visible glossary list, update that page too.
+
 ### Brand Standards
 
 Adhere to brand standards when possible.
