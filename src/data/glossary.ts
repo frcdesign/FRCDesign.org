@@ -170,6 +170,10 @@ export const glossaryTerms: GlossaryTerm[] = [
     term: "Billet",
     definition: "Component machined down from a solid block of material"
   },
+  {
+  term: "TPI",
+  definition: "Threads per inch is the number of thread peaks in one inch of a fastener, used to describe imperial thread pitch (e.g. #10-32 has 32 TPI)"
+  },
 
   // Robot structure
   {
