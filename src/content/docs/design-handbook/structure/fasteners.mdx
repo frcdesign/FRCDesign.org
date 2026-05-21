@@ -15,6 +15,8 @@ Putting all of your fasteners in your CAD is very important for a few reasons. H
 
 Before getting into the different types of fasteners, it is important to discuss CAD best practices. Putting your fasteners into the document in the wrong way can and will lag your document.
 
+**FRCDesignLib:** FRCDesignLib is a public library of FRC-relevant CAD parts, including fasteners. It is a great resource for getting started with hardware in CAD, and it has most of the common sizes of bolts and nuts you will need for your robot. It is also well organized and easy to navigate.
+
 **Standard Content:** Onshape has a feature called Standard Content that has a wide variety of fasteners ready to import and be used in your assemblies, this is especially useful if its a non-standard size not available in FRCDesignLib.
 
 **McMaster-Carr:** Sometimes Standard Content will not have the exact size or type of fastener you need. McMaster-Carr has every type of fastener you can think of, and every single one has a free CAD file to download.
@@ -32,49 +34,41 @@ Before getting into the different types of fasteners, it is important to discuss
 | **Shoulder Bolt** | Has a smooth unthreaded portion meant to act as a small shaft for a bearing or bushing | <ContentFigure src="../img/fasteners/shoulder-bolt.webp" alt="Shoulder Bolt" /> |
 </ImageTable>
 
-## Nuts
-
-| Type | Description |
-|---|---|
-| **Nylock Nut** | Standard nut with a nylon insert that grips the threads to prevent loosening |
-| **Low Profile Nylock Nut** | Thinner than a standard nylock nut; used where space for a full-height nut is limited |
-| **Rivnut** | Installed with a special tool into a pre-drilled hole; acts like a rivet but provides threads for a bolt |
-| **Heat Set Insert** | Pressed into 3D printed parts with a soldering iron; provides a durable brass thread in plastic |
-| **Tee Nut** | Pressed into wood; primarily used when fastening bumper backing boards |
-| **Wing Nut** | Tightened by hand; useful for bumper mounting hardware that needs to be removed quickly between matches |
-| **PEM Nut** | Pressed into sheet metal too thin to tap; provides threads without requiring access to the back of the material |
-
 ## Bolt Sizes
 
 ### Imperial
 
-Modern FRC primarily uses two imperial bolt sizes: **#10-32** and **1/4-20**. FRC COTS components almost exclusively use #10-32 fasteners, and with a bit of effort you can design robots that use #10-32 for nearly everything.
+Modern FRC primarily uses two imperial bolt sizes: **#10-32** and **1/4"-20**. FRC COTS components almost exclusively use #10-32 fasteners, and with a bit of effort you can design robots that use #10-32 for nearly everything.
 
 - **#10-32** is used for almost everything: retaining shafts, motor mounting, superstructure connections
-- **1/4-20** is used where more strength is needed than #10-32 can provide
+- **1/4"-20** is used where more strength is needed than #10-32 can provide
 
-| Thread Size | Common Uses | SHCS Hex Key | BHCS Hex Key |
-|---|---|---|---|
-| #4-40 | RoboRIO mounting | 3/32" | 1/16" |
-| #6-32 | | 7/64" | 5/64" |
-| #8-32 | VersaPlanetary gearboxes | 9/64" | 3/32" |
-| #10-32 | MAX Planetary; NEO, Vortex, Falcon, Kraken motor mounting; swerve drive; tapped rounded hex | 5/32" | 1/8" |
-| 1/4-20 | High-strength structural connections; tapped churro | 3/16" | 5/32" |
+The number after the dash in an imperial fastener designation is the **TPI** (threads per inch). A **#10-32** bolt has a #10 diameter shank with 32 threads in every inch of length, and a **1/4"-20** bolt has a 1/4" diameter shank with 20 threads per inch. Higher TPI means finer threads, which hold better in thin material and resist loosening from vibration. Lower TPI means coarser threads, which install faster and tolerate damage better but strip more easily in thin material. FRC uses fine-pitch threads almost exclusively (#10-32, 1/4"-20).
+
+| Thread Size | Common Uses | Tap Drill Size | Close Fit Drill Size | SHCS Hex Key | BHCS Hex Key |
+|---|---|---|---|---|---|
+| #4-40 | RoboRIO mounting | #43 (0.089") | #32 (0.116") | 3/32" | 1/16" |
+| #6-32 | SB50 clearance fit | #36 (0.1065") | #27 (0.144") | 7/64" | 5/64" |
+| #8-32 | VersaPlanetary gearboxes | #29 (0.136") | #18 (0.1695") | 9/64" | 3/32" |
+| #10-32 | MAX Planetary; NEO, Vortex, Falcon, Kraken motor mounting; swerve drive; tapped rounded hex | #21 (0.159") | #9 (0.196") | 5/32" | 1/8" |
+| 1/4"-20 | High-strength structural connections; tapped churro shaft | #7 (0.201") | F (0.257") | 3/16" | 5/32" |
+| 5/16"-18 | Extra high-strength connections; tapped shoulder bolts | F (0.257") | P (0.323") | 1/4" | 3/16" |
+| 3/8"-16 | Tapped hollow hex shaft | 5/16" (0.3125") | W (0.386") | 5/16" | 7/32" |
 
 <Aside type="note">
-When designing around hardware, it is best to use the [hole tool](https://cad.onshape.com/help/Content/hole.htm) or memorize the standard clearance diameters: **#10-32 → 0.196"**, **1/4-20 → 0.257"**.
+When designing around hardware, it is best to use the [hole tool](https://cad.onshape.com/help/Content/hole.htm) or memorize the standard close fit clearance diameters: **#10-32 → 0.196"**, **1/4"-20 → 0.257"**.
 </Aside>
 
 ### Metric
 
-Metric fasteners appear on several COTS motor products. Most teams use imperial hardware for custom structure and metric only where the COTS component requires it.
+Metric fasteners appear on several older COTS motor products. Most teams use imperial hardware for custom structure and metric only where the COTS component requires it.
 
-| Thread Size | Common Uses | SHCS Hex Key |
-|---|---|---|
-| M3 | NEO 550, Ultraplanetary gearboxes | M2.5 |
-| M4 | 775pro, BAG motors | M3 |
-| M5 | Snowblower motors | M4 |
-| M6 | PDP battery lug mount | M5 |
+| Thread Size | Common Uses | Tap Drill Size | Close Fit Drill Size | SHCS Hex Key | BHCS Hex Key |
+|---|---|---|---|---|---|
+| M3 | NEO 550, Ultraplanetary gearboxes | 2.5 mm | 3.15 mm | M2.5 | M2 |
+| M4 | 775pro, BAG motors | 3.3 mm | 4.2 mm | M3 | M2.5 |
+| M5 | Snowblower motors | 4.2 mm | 5.25 mm | M4 | M3 |
+| M6 | PDP battery lug mount | 5 mm | 6.3 mm | M5 | M4 |
 
 ## Bolt Retention
 
@@ -82,4 +76,87 @@ Hardware can loosen over the course of a competition due to vibration and impact
 
 **Nylock Nuts:** The nylon insert grips the threads and prevents loosening without tools. This is the preferred solution for most connections.
 
-**Loctite:** Thread-locking adhesive applied to the bolt threads before assembly. Use sparingly — Loctite makes disassembly significantly harder and should not be used on connections you may need to service during competition.
+**Loctite:** Thread-locking adhesive applied to the bolt threads before assembly. Loctite comes in several strengths, identified by color and product number:
+- Loctite 222 (Purple): Low strength, intended for small fasteners that may need frequent adjustment.
+- Loctite 243 (Blue): Medium strength, the standard general purpose threadlocker for most FRC applications. Removable with hand tools.
+- Loctite 263 (Red): High strength, semi-permanent. Removal typically requires heat. Rarely needed in FRC.
+- Loctite 680 (Green): Retaining compound, designed to bond cylindrical parts like shafts and bearings. Used for securing magnets into swerve module encoder shafts and occasionally for locking gears onto shafts to take up backlash. Less commonly used in FRC.
+
+<Aside type="caution">
+**Most Loctites are not polycarbonate safe.** Contact with Loctite causes polycarbonate to craze and crack, even when the adhesive has not cured. Keep Loctite away from any polycarbonate parts. For connections near polycarbonate, use Loctite 425, a polycarb-safe formula designed for use on and around plastic fasteners and plates or alternative bolt retention methods.
+</Aside>
+
+**Vibra-Tite VC-3:** A threadlocker alternative that is safe to use around polycarbonate. Vibra-Tite is applied to the fastener and left to dry before installation, so it cannot be used for assembly on the spot the way Loctite can. The tradeoff is that pre-treated fasteners can be prepared in advance, stored, and installed normally when needed. It holds with less strength than blue Loctite, which makes it well suited for frequently serviced connections but less useful for joints that need to stay tight under heavy load.
+
+## Nuts
+
+<ImageTable>
+| Type | Description | Image |
+|---|---|---|
+| **Nylock Nut** | Standard nut with a nylon insert that grips the threads to prevent loosening | <ContentFigure src="../img/fasteners/nylock-nut.webp" alt="Nylock Nut" /> |
+| **Low Profile Nylock Nut** | Thinner than a standard nylock nut; used where space for a full-height nut is limited | <ContentFigure src="../img/fasteners/low-profile-nylock-nut.webp" alt="Low Profile Nylock Nut" /> |
+| **Rivnut** | Installed with a special tool into a pre-drilled hole; acts like a rivet but provides threads for a bolt | <ContentFigure src="../img/fasteners/rivnut.webp" alt="Rivnut" /> |
+| **Heat Set Insert** | Pressed into 3D printed parts with a soldering iron; provides a durable brass thread in plastic | <ContentFigure src="../img/fasteners/heat-set-insert.webp" alt="Heat Set Insert" /> |
+| **Tee Nut** | Pressed into wood; primarily used when fastening bumper backing boards | <ContentFigure src="../img/fasteners/tee-nut.webp" alt="Tee Nut" /> |
+| **Wing Nut** | Tightened by hand; useful for bumper mounting hardware that needs to be removed quickly between matches | <ContentFigure src="../img/fasteners/wing-nut.webp" alt="Wing Nut" /> |
+| **PEM Nut** | Pressed into sheet metal too thin to tap; provides threads without requiring access to the back of the material; See [Fabworks's guide](https://www.fabworks.com/resources/guidelines/hardware) for more information | <ContentFigure src="../img/fasteners/pem-nut.webp" alt="PEM Nut" /> |
+</ImageTable>
+
+## Tapping
+
+Tapping is the process of cutting threads directly into a part so a bolt can thread into the material itself, with no nut required on the back side. A tapped hole turns the part into its own nut.
+Tapping is a great way to save weight and reduce part count by eliminating the need for a nut on the back side of a connection. It is commonly used for attaching COTS components that have tapped holes, such as gearboxes and motor mounting plates.
+
+Use tapping when:
+- You cannot reach the back side of the part with a wrench, like the inside of a closed box tube
+- The connection will be serviced often and you want one-handed installation
+- You want to reduce part count and assembly time on a connection with many bolts
+- The fastener sits in a tight space where a nut will not fit
+
+Use a nut when:
+- The material is too thin to hold threads (see below)
+- You want the option to swap fastener sizes later without retapping
+- The part is made of a soft material, where threads will strip
+
+A tapped hole needs enough material around it to hold full threads under load. A solid tapped hole needs about 5 threads of engagement, calculated as material thickness × TPI.  The first and last threads in a tapped hole are usually partial or damaged, which leaves 3 clean threads in the middle. Those 3 good threads carry roughly 90% of the bolt's rated load.
+
+You can get away with less in lower-load applications or stronger materials. 1/8" wall (0.125") tapped for #10-32 holds up fine for applications such as bearing retention, even though it falls just below the 5-thread guideline. The 5-thread guideline is a target, not a hard minimum.
+
+<Aside type="note">
+For thin material that needs full-strength threads, use a **PEM nut** or **rivnut** instead of tapping. Both provide solid threads in material too thin to tap reliably.
+</Aside>
+
+## Rivets
+
+Rivets are a permanent fastener installed by deforming a piece of soft metal to clamp two parts together. Blind rivets (also called pop rivets) are the standard in FRC because they install from one side of the material, which makes them practical for tube and sheet metal assemblies where you cannot reach the back side. A rivet gun pulls the mandrel through the rivet body, expanding the back end and snapping the mandrel off flush with the head.
+
+The most common rivet size in FRC is 3/16", used for general structural work, gussets, and plate-to-tube connections. A 3/16" rivet also fits cleanly through a #10-32 bolt close fit hole (0.196"), which means rivets and bolts can share the same hole pattern on patterned box tubing and standard plates.
+
+### Rivets vs. Bolts
+
+Rivets and bolts each have their place on a robot, and most teams use a mix of both.
+
+Use rivets when:
+- Attaching gussets or plates to box tubing where you cannot reach the back side
+- You want a lightweight, low-profile connection
+- The joint is permanent and will not need to be disassembled for service
+- You need to attach a lot of hardware quickly, since riveting is significantly faster than bolting
+
+Use bolts when:
+- The connection will see high shear or tensile loads
+- You need to disassemble the joint for service, debugging, or rebuilds between events
+- You are mounting a COTS component that expects threaded hardware
+
+<Aside type="caution">
+Rivets weaken over a season of vibration and impact, and they perform poorly in shear loading. Any riveted structural connection should include **at least one bolt** alongside the rivets. The bolt carries shear load and holds the joint together if the rivets begin to fail.
+</Aside>
+
+### Grip Length
+
+Grip length is the total thickness of material the rivet is clamping. Every rivet has a listed grip range, and the combined thickness of your parts has to fall inside that range. A rivet with too short a grip range will not reach through the material and will fail to set. A rivet with too long a grip range will leave the back end loose against the material, which produces a weak joint that wobbles and pulls apart under load.
+
+Measure your stackup before ordering. A 1/16" wall tube riveted to a 3/32" gusset is a 0.15625" grip, and the rivet you choose needs a grip range that covers that thickness.
+
+<Aside type="note">
+Multi-grip rivets cover a wide range of material thicknesses in a single part number, which simplifies inventory and forgives small stackup variations. A single multi-grip 3/16" rivet [such as this one](https://www.blindrivetsupply.com/Marson-Klik-Fast-AB63-67MGV-Multi-Grip-Blind-Rivet-316-Inch-0187-Inch-0187--0437-Inch-Grip-Button-Head-AluminumSteel-Plain_p_1335.html) can handle grips anywhere from roughly 0.187" to 0.437". They cost slightly more per rivet but reduce the number of sizes a team has to stock.
+</Aside>
