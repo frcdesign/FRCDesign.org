@@ -1,6 +1,7 @@
 {
 	"main": "@astrojs/cloudflare/entrypoints/server",
 	"name": "frcdesign",
+  "preview_urls": true,
   "compatibility_date": "2025-11-30",
   "compatibility_flags": [
     "nodejs_compat",
