@@ -462,6 +462,7 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
       items: [
         { label: 'Overview', slug: 'resources' },
         { label: 'Glossary', slug: 'resources/glossary' },
+        
         {
           label: 'CAD Resources',
           collapsed: true,
@@ -470,6 +471,7 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
             { label: 'KrayonCAD', slug: 'resources/krayoncad' },
             { label: 'Featurescript List', slug: 'resources/featurescripts' },
             { label: 'Featurescript Help', slug: 'resources/featurescript-help' },
+            { label: 'Community-Made Parts', slug: 'resources/community-parts' },
           ],
         },
         {
