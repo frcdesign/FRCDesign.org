@@ -1,0 +1,38 @@
+---
+title: "2A: Intake Design"
+description: Intake design fundamentals and block CAD
+---
+
+## Goals and Outline (For development usage)
+
+- Introduce **block cad** through an exercise
+- Don't dump information!
+- Teach how to change **surface speed** - going to be practiced again in 2B Shooter Design
+- Reference stage 1B mechanical advantage and gear ratio exercises
+
+1. Introduction page / Intake Design Fundamentals: A single page introducing what intakes typically do, show some examples, go over some of the golden rules of intake design (don't condense into a list, try to disperse them throughout 2A, like the surface speed one should be in exercise 1), then state the different concepts needed to start designing an intake - **managing surface speed and compression with layout sketches**. Don't have it be too wordy! Use a lot of pictures and diagrams.
+
+2. Exercise 1: Introduce the surface speed vs. torque calculation - and general rules for coming up with a good starting surface speed and torque -with a brief explanation and a diagram/example or two. Give student a block cad intake part studio with the plate and a layout sketch, have them add into the sketch and to the block model a belt ratio that achieves the intended surface speed. VERY briefly introduce that it's a simplified block model used to plan and make design decisions quickly.
+    
+    a. Practice the belt workflow learned previously while applying surface speed calculation: Do calculations, edit the layout sketch to add the pulleys (for the ratio), create a belt with the featurescript, then go back into the layout sketch to add the correct center-to-center distance for the belt created.
+    b. Get experience working inside of a block CAD part studio: Add the belt to the composite part after creating it.
+    c. Check work with a dropdown; did they get it correct? If not, they can get practice going back and editing things. Also have them change the surface speed a couple times to give them more practice.
+
+3. Exercise 2: Briefly introduce the concept of compression in intake design and why achieving a balance is important (too much compression reduces efficiency and means you need more torque to pass the gamepiece through, sacrificing surface speed through your ratio). Provide example layout sketches. Give student practice placing rollers for an over-the-bumper intake to achieve a good compression for different sizes of gamepieces and two different types of wheels (hard rubber rollers and larger compliant wheels).
+
+    a. Practice working within constraints - give student a part studio with drivetrain and bumper and extension limit layout sketches. 
+    b. Have them create a intake roller layout sketch for a 9.5 inch ball, a crescendo note, and finally a grabber for a charged up cone. 
+    c. Belts have to connect each roller reasonably - include pulley pitch circles and belt path sketches using the center to center distance, minimizing belt types (to minimize part count and make spare stocking easier). This is because in real life the distance between the rollers is constrained by the belts.
+    c. Have them make decisions based on the constraints of the gamepiece and available components. They can choose from 2 types of wheels: a 3" compliant wheel and a 1.25" hard roller with rubber on it.
+
+4. Exercise 3: Pick one of the intake layouts from exercise 2 and create a basic block cad model of it without a pivot?
+
+    a. Add a motor and belt ratio into the layout sketch for a desired surface speed 
+    b. Extrude the rollers or wheels
+    c. Create a plate sketch and extrude and mirror it for the rollers
+    d. Create the belts using the featurescript
+    e. Composite part it all together
+
+Concerns:
+- Is Exercise 2 too much at once? They already learned belt workflow in stage 1 so this should just be practice. Something to test.
+- Exercise 3 is basically just block cad, which is important to teach early in stage 2 so we can integrate it as a tool for making design decisions, just worried we aren't really teaching much design principles in exercise 3. I wonder if Exercises 2 and 3 can be combined/rearranged in some way.
