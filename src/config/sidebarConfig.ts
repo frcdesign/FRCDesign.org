@@ -56,14 +56,15 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
                 { label: 'Custom Features', slug: 'learning-course/course-setup/required-course-tools/featurescripts' },
               ],
             },
+            { label: 'Course Introduction', slug: 'learning-course/course-setup/introduction' },
           ],
         },
         {
           label: 'Stage 1',
           collapsed: true,
           items: [
-            { label: 'Course Introduction', slug: 'learning-course/stage1/introduction' },
             { label: 'Focusing on Improvement', slug: 'learning-course/stage1/1a/focusing-on-improvement' },
+            { label: 'Stage 1 Goals', slug: 'learning-course/stage1/goals' },
             {
               label: 'A: Onshape Fundamentals',
               collapsed: true,
@@ -103,6 +104,7 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
                     { label: 'Exercise 5: Finishing the Frame', slug: 'learning-course/stage1/1a/section3-exercise5' },
                   ],
                 },
+                { label: 'Summary', slug: 'learning-course/stage1/1a/summary' },
               ],
             },
             {
@@ -176,6 +178,7 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
           label: 'Stage 2',
           collapsed: true,
           items: [
+            { label: 'Stage 2 Goals', slug: 'learning-course/stage2/goals' },
             {
               label: 'A: Intake Design',
               collapsed: true,
