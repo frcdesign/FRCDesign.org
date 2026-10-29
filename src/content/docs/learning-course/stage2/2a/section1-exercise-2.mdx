@@ -1,0 +1,150 @@
+---
+title: "Exercise 2: Intake Layouts"
+description: Sketch intake layouts and practice choosing wheel sizes, compression, and belt lengths
+---
+
+import ContentRow from '@components/content/ContentRow.astro';
+
+## Exercise 2: Intake Layouts
+
+In this exercise, you will create layouts for a 9.5" ball intake, a CRESCENDO note intake, and a CHARGED UP cone grabber. The primary learning goal for this exercise is to learn about everything that goes into an intake layout sketch.
+
+### Compression
+
+**Compression** is how much the gamepiece and wheels deform as the gamepiece passes through the intake. A 9.5" ball passing through an 8.5" gap has 1" of compression, shared between the ball and wheels.
+
+Having too little compression can let the wheels slip/lose contact. Too much compression makes the piece harder/impossible to pull into the robot.
+
+<ContentRow>
+  <ContentFigure src="../img/2a/exercise2/compression-no-contact.webp" alt="A 2 inch roller separated from a 9.5 inch ball by a 0.25 inch gap">
+    **No contact:** A 0.25" gap prevents grip.
+  </ContentFigure>
+  <ContentFigure src="../img/2a/exercise2/compression-1-inch.webp" alt="A 2 inch roller overlapping the undeformed profile of a 9.5 inch ball by 1 inch">
+    **1" compression:** The ball, roller, or both must deform.
+  </ContentFigure>
+  <ContentFigure src="../img/2a/exercise2/compression-1-5-inch.webp" alt="A 2 inch roller overlapping the undeformed profile of a 9.5 inch ball by 1.5 inches">
+    **1.5" compression:** More overlap requires more deformation.
+  </ContentFigure>
+</ContentRow>
+
+Compression examples with a 2" roller and 9.5" ball.
+
+<Aside type="note" title="Compression Example">
+These dimensions are just example values. How much compression you need depends on the wheels, the gamepiece, and what supports it. Use the sketch to get a sane starting point and then test a prototype to see how well it works.
+</Aside>
+
+### Getting Started
+
+**Navigate to the 9.5" ball intake layout part studio** in your copy of the Stage 2A starter document. If you haven't made a copy yet, use the button below.
+
+<LinkButton href="https://cad.onshape.com/documents/66852923f0b06de8788f7a56/w/732b6220dd66e1301d25fd4d/e/f1be23d60250dd62e807820d" external center>2A Starter Document (COPY THIS)</LinkButton>
+
+<ContentFigure src="../img/2a/exercise2/ball-intake-starter.webp" alt="Stage 2A starter document showing the Drivebase and Limits sketches before adding a ball path" width="100%">
+Starting part studio with the `Drivebase` and `Limits` reference sketches.
+</ContentFigure>
+
+Choose your own wheel sizes and positions. **Compliant wheels** deform around the ball, while **hard rollers** make the ball do most of the deforming.
+
+<Aside type="tip" title="Working Within Constraints">
+Keep the reference sketches unchanged. The limits provided are examples for exercise purposes, make sure to read the game manual for the year's piece you are desiging for when competing inseason.
+</Aside>
+
+### Modeling the Ball Path
+
+**Create a `Ball Path` sketch before placing the wheels.** Use the same plane as the reference sketches and include these three parts:
+
+1. **Travel centerline and slot:** Draw the path of the ball's center from its position on the floor, over the bumper, and past the last intake wheel. The starting point should be 4.75" above the floor. Use the `Slot` tool with a 9.5" width to show the space occupied by the ball along this path.
+2. **Starting ball:** Draw a complete 9.5" circle at the start of the path, tangent to the floor. Use it to check contact with the first wheel when the ball rests against the bumper. A gap here creates a **deadzone**, where the ball can sit without being collected.
+3. **Approach tangent:** Draw a horizontal line from the extension boundary, tangent to the top of the starting ball. This represents the top of the approaching ball. Use the first wheel's overlap with this line to dimension **ground compression**.
+
+<ContentFigure src="../img/2a/exercise2/ball-path-annotated-flat.webp" alt="Ball path sketch with the full travel centerline in blue, slot boundary in teal, starting ball in purple, and approach tangent in orange. Original lines and the 9.5 inch dimension are preserved." width="100%">
+Ball path: travel centerline (blue), slot boundary (teal), starting ball (purple), and approach tangent (orange).
+</ContentFigure>
+
+<Aside type="note" title="An Ideal Path">
+The slot shows where you want the ball to travel. You still need to check individual ball positions to make sure a wheel can keep driving it along the path.
+</Aside>
+
+### Ball Intake Layout
+
+**Create an `Intake Layout` sketch** on the same plane as `Ball Path`. Use the path to place your wheels and rollers.
+
+1. Reference the ball path, drivetrain, bumper, and extension boundary with construction geometry.
+2. Draw a circle for the first wheel's outside diameter. Dimension its overlap with the approach tangent, then check that it also overlaps the starting ball.
+3. Add the remaining wheels or rollers. Check the ball between each pair of wheels/rollers to make sure it stays in contact with the bumper as it moves from one contact point to the next.
+4. Dimension the wheel positions and compression. Where extra overlap is needed to avoid a deadzone, consider using compliant wheels.
+5. Keep the wheels inside the extension boundary and clear of the drivetrain and bumper. Add arrows to show wheel rotation and ball travel. Fully **define** your sketches and **rename** your features.
+
+### Checking Pickup at the Bumper
+
+**Check both the approach tangent and starting ball.** Ground compression alone does not prevent a deadzone at the bumper.
+
+<ContentRow>
+  <ContentFigure src="../img/2a/exercise2/ball-first-contact.webp" alt="First intake wheel overlapping the starting ball at the bumper">
+    **Contact:** The wheel overlaps the starting ball, so it can keep driving the ball when it reaches the bumper.
+  </ContentFigure>
+  <ContentFigure src="../img/2a/exercise2/ball-pickup-deadzone.webp" alt="First intake wheel separated from the starting ball by a gap, creating a pickup deadzone at the bumper">
+    **Deadzone:** The wheel extends below the approach tangent but doesn't reach the ball at the bumper. Change its position or diameter to close the gap.
+  </ContentFigure>
+</ContentRow>
+
+### Checking for Deadzones Between Contacts
+
+**Draw a 9.5" construction circle tangent to each neighboring pair of wheels or rollers**, on the ball side of the intake. With three rollers, you will need two circles.
+
+These circles show where the ball has the least compression from the wheels. Each circle touches both wheels without overlapping either one.
+
+**Check that both circles still overlap the bumper.** The ball must then compress to fit between the bumper and wheels, even at these loose spots. If it fits without compression, it may sit there instead of being collected.
+
+If a circle clears the bumper, adjust the wheel positions or diameters and check again.
+
+<ContentFigure src="../img/2a/exercise2/ball-minimum-compression-no-dimensions.webp" alt="Two highlighted 9.5 inch ball circles, each tangent to an adjacent pair of intake wheels or rollers, overlapping the bumper at the minimum-compression positions" width="100%">
+Both circles overlap the bumper, so the ball still needs to compress between the rollers.
+</ContentFigure>
+
+### Wheel Sizes and Selection
+
+Compliant wheels commonly come in **2", 3", and 4" diameters**. Smaller wheels fit into tighter spaces; larger wheels reach farther into the ball path, which can help close a deadzone. [REV's compliant wheels](https://www.revrobotics.com/ION-Compliant-Wheels/) are one example of these sizes.
+
+Wheel size doesn't tell you how much force it takes to compress the wheel. For example, [Thrifty Bot's 4" Squish Wheels](https://www.thethriftybot.com/products/qty-4-4-inch-thrifty-squish-wheels) and [AndyMark's compliant wheels](https://andymark.com/products/compliant-wheels) use different wheel designs and hardness options. Swapping to a different wheel of the same diameter keeps the same sketch overlap, but can change how hard the intake squeezes the ball. This is why you need to prototype with the wheels you intend to use.
+
+**Rollers aren't limited to standard wheel diameters.** You can use any suitable outside diameter (OD) tube you can find and cut it to the length you need. [WCP's polycarbonate round tubing](https://wcproducts.com/products/polycarb-round-tubing) shows some available sizes.
+
+Remember to include the rubber sleeve in your sketch. For this exercise, use **1/16" thick rubber**, which adds **1/8" to the tube's diameter**. A 1.875" OD tube would therefore make a 2" OD roller. [Silicone tubing](https://wcproducts.com/products/silicone-tubing) is one option; check its thickness after installation when detailing the roller.
+
+
+#### Example Wheel Selection
+
+The example starts with **2" compliant wheels**, followed by a **2" roller** and **3" compliant wheels**. You can choose any realistic arrangement.
+
+The first wheels need relatively high compression to reach the ball at the bumper, which is why compliant wheels were chosen. In this case the compression is workable, but in some cases you may need to deploy an addition surface be it a roller or a static floor to take up the deadzone and avoid excess compression.
+
+The middle roller carries the ball toward the larger final wheels. The 3" wheels reach farther into the path to avoid a deadzone, but also create a spot with more compression. Using compliant wheels here makes it easier for the ball to pass through.
+
+<ContentFigure src="../img/2a/exercise2/ball-intake-example-no-dimensions.webp" alt="Example ball intake layout with a 2 inch first contact, a 2 inch middle roller, and a 3 inch final contact positioned around the ball path" width="100%">
+Example layout, with pickup on the right. Choose your dimensions using the compression and deadzone checks.
+</ContentFigure>
+
+### Connecting the Rollers
+
+<Aside type="note" title="WIP">
+Choose belt lengths and pulley ratios to set roller surface speeds while maintaining the compression in your layout.
+</Aside>
+
+### Note Intake Layout
+
+<Aside type="note" title="WIP">
+Sketch a note intake and check contact around the center opening and over the bumper.
+</Aside>
+
+### Cone Grabber Layout
+
+<Aside type="note" title="WIP">
+Sketch a cone grabber and choose wheel positions that account for the cone's changing width.
+</Aside>
+
+### Checking Your Work
+
+<Aside type="note" title="WIP">
+Review the layouts and explain your wheel choices, compression, and belt lengths.
+</Aside>
