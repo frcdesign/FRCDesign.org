@@ -183,7 +183,9 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
               label: 'A: Intake Design',
               collapsed: true,
               items: [
-                { label: 'Outline', slug: 'learning-course/stage2/2a/outline' },
+                { label: 'Temp Outline', slug: 'learning-course/stage2/2a/outline' },
+                { label: 'Introduction', slug: 'learning-course/stage2/2a/introduction' },
+                { label: 'Exercise 1', slug: 'learning-course/stage2/2a/exercise1' },
                 
               ],
             },
