@@ -184,7 +184,8 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
               collapsed: true,
               items: [
                 { label: 'Outline', slug: 'learning-course/stage2/2a/outline' },
-                
+                { label: 'Exercise 2: Intake Layouts', slug: 'learning-course/stage2/2a/section1-exercise-2' },
+                { label: 'Exercise 3: Block CAD Intake', slug: 'learning-course/stage2/2a/section1-exercise-3' },
               ],
             },
           ],

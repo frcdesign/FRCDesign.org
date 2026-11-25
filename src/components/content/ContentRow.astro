@@ -1,6 +1,6 @@
 ---
 /**
- * ContentRow component - Lay multiple ContentFigures side by side
+ * ContentRow component - Lay multiple ContentFigures side by side, stacking on mobile
  *
  * Usage in MDX:
  * <ContentRow>
@@ -78,5 +78,23 @@ const rowStyle = [
 
   .content-row :global(.content-row-caption) {
     flex: 0 0 100%;
+  }
+
+  @media (max-width: 48rem) {
+    .content-row :global(.content-figure) {
+      flex: 0 0 100%;
+      width: 100%;
+      max-width: 100% !important;
+    }
+
+    .content-row.normalize-media-height :global(.content-figure-image),
+    .content-row.normalize-media-height :global(.content-figure-video) {
+      height: auto;
+    }
+
+    .content-row.normalize-media-height :global(.content-figure-image .figure-img) {
+      width: 100%;
+      max-height: none;
+    }
   }
 </style>
