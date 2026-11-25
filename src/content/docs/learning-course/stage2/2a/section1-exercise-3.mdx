@@ -1,0 +1,93 @@
+---
+title: "Exercise 3: Block CAD Intake"
+description: Turn an intake layout into a simple block model
+---
+
+import ContentRow from '@components/content/ContentRow.astro';
+import ContentRowCaption from '@components/content/ContentRowCaption.astro';
+
+Take an intake layout from [Exercise 2](/learning-course/stage2/2a/section1-exercise-2/) and build a simple 3D version. Use it to check how the intake fits around the robot and how its parts sit together. Save the detailed shapes for later.
+
+## What Is Block CAD?
+
+Block CAD represents a mechanism with simple shapes. The goal is to check fit, movement, and clearance before spending time on details like bolt holes or finished plate outlines.
+
+<ContentRowCaption>
+  Detailed robot CAD beside a simplified block model (source: [4414 Tech Binder](https://2026.team4414.com/))
+</ContentRowCaption>
+<ContentRow>
+  <ContentFigure src="../img/2a/exercise3/detailed-robot-cad.webp" alt="Detailed CAD assembly of a 4414 robot with its intake at the front">
+    Detailed assembly
+  </ContentFigure>
+  <ContentFigure src="../img/2a/exercise3/block-cad-robot.webp" alt="Block CAD model of the same robot, using simple shapes to represent the major mechanisms">
+    Block CAD model
+  </ContentFigure>
+</ContentRow>
+
+In the block version, the intake at the front is only rollers, rough plates, and a few surrounding shapes. That view is enough to check space and motion before adding the small details.
+
+## Getting Started
+
+Start a new Part Studio and derive the layout sketch into it. Keep the drivetrain, bumper, and limits visible as you work; they show how the intake fits on the robot and whether it stays within the allowed space.
+
+<ContentFigure src="../img/2a/exercise3/derived-layout-sketch.webp" alt="Ball intake layout sketch derived into a new Part Studio, with the reference geometry visible" width="100%">
+  Derive the layout sketch into the new Part Studio and use it as your reference while modeling.
+</ContentFigure>
+
+Model the shapes that affect fit and spacing, and keep roller locations and diameters linked to the layout sketch.
+
+<Aside type="tip" title="Keep the parts separate">
+Use `New` for each extrusion. If you add a roller to an existing part, it will not be available as its own component when you make the Composite Part.
+</Aside>
+
+## Build the Intake
+
+<ContentFigure src="../img/2a/exercise3/ball-intake-block-model.webp" alt="Block CAD model of a 9.5 inch ball intake with rollers, side plates, motor, and layout sketches visible" width="100%">
+  Example block model of the 9.5-inch ball intake, with the layout sketch still visible for comparison.
+</ContentFigure>
+
+### Rollers and Shafts
+
+Draw a circle at each roller center using the layout diameter, then extrude it across the intake width. If the design has a row of individual wheels, use one cylinder for the row and leave the individual wheels for detailed CAD. A full-width roller can collect pieces across more of the robot, if it fits the layout.
+
+### Side Plates
+
+Sketch a simple plate around the roller shafts and extrude it to an approximate thickness. Mirror it across the intake center plane for the other side. At this stage, the plates only need to show where the rollers are supported.
+
+<ContentFigure src="../img/2a/exercise3/side-plate-support.webp" alt="Close-up of a block CAD intake showing simple side plates supporting the rollers" width="100%">
+  The plates support the rollers; their finished outlines and details can wait.
+</ContentFigure>
+
+### Motor and Belts
+
+Add the motor and pulley circles to the layout sketch using the ratio and surface speed from Exercise 1. Insert a block motor from FRCDesignLib, then use Transform to place it. Make the belts with the `Belt & Chain Gen` Featurescript so they update with the sketch.
+
+<Aside type="note" title="Belt spacing">
+Dont make a new center constraint dimension when making the belts, just use the existing master sketch definitions to base the block cad belts off of. This makes sure the belts properly update when the master sketch changes.
+</Aside>
+
+If two powered rollers need to spin in opposite directions, plan a direction swap or give them separate motors. If the layout sketch does not include the needed direction swap go back and update it before modeling the transmission in block cad. See [Stage 1C, Exercise 6: Direction Swap](/learning-course/stage1/1c/exercise6/) for an example.
+
+### Combine the Model
+
+Once the parts are in place, use a `Composite Part` to group them as one intake. They do not need to touch, and they remain separate parts inside the group. Name the feature clearly and keep it near the end of the Part Studio tree.
+
+<ContentFigure src="../img/2a/exercise3/composite-part-intake.webp" alt="Block CAD intake assembled from separate rollers, side plates, motor, and belts, with its Part Studio tree visible" width="100%">
+  The parts stay separate in the Part Studio and are grouped together as one intake.
+</ContentFigure>
+
+In the Composite Part dialog, select the intake components and click the check mark.
+
+<ContentFigure src="../img/2a/exercise3/composite-part-selection.webp" alt="Composite Part feature dialog with the intake components selected and ready to confirm" width="100%">
+  The selected components are outlined while the Composite Part feature is active.
+</ContentFigure>
+
+<Aside type="tip" title="Editing the model later">
+To edit the parts after grouping them, move the rollback bar above the Composite Part feature.
+</Aside>
+
+## Check Your Model
+
+Compare the model with the layout sketch. Check the roller sizes and positions, make sure each belt connects the intended shafts, and confirm the plates support the rollers without crossing the gamepiece path. Check the intake against the starting and extension limits, too.
+
+Ask a teammate or mentor to [review your CAD](/learning-course/stage1/1a/focusing-on-improvement/). Show them one fit or clearance issue that was easier to catch in 3D than in the layout sketch.
